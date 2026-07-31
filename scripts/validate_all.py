@@ -82,6 +82,7 @@ def validate() -> tuple[list[str], list[str]]:
     primitives = load_json(ANALYSIS / "throughlines" / "primitives.json")
     archive_videos = load_json(ANALYSIS / "archive" / "video-atlas.json")
     archive_evidence = load_json(ANALYSIS / "archive" / "evidence-ledger.json")
+    integration = load_json(ANALYSIS / "integration" / "concept-archive-integration.json")
 
     require(len(transcript_index) == 28, "transcript index must contain 28 records", errors)
     full_archive_videos = full_archive_manifest.get("videos", [])
@@ -153,6 +154,7 @@ def validate() -> tuple[list[str], list[str]]:
     require(len(primitives) >= 4, "throughline primitives should contain at least 4 entries", errors)
     require(len(archive_videos) == 13, "archive video atlas must contain 13 tutorial/evening records", errors)
     require(len(archive_evidence) == 13, "archive evidence ledger must contain 13 records", errors)
+    require(len(integration) >= 20, "concept/archive integration should contain tutorial pressure-test links", errors)
     require(sum(item["type"] == "tutorial" for item in archive_videos) == 11, "archive video atlas must contain 11 tutorials", errors)
     require(sum(item["type"] == "evening-lecture" for item in archive_videos) == 2, "archive video atlas must contain 2 evening lectures", errors)
     for item in archive_videos:
@@ -173,6 +175,19 @@ def validate() -> tuple[list[str], list[str]]:
             require(item.get("manual_note_path"), f"archive manual evidence {item['id']} lacks manual note path", errors)
         if item["confidence"] == "missing-transcript":
             require(item["source_type"] == "unsupported-placeholder", f"archive missing evidence {item['id']} has wrong source type", errors)
+
+    archive_slugs = {item["slug"] for item in archive_videos}
+    archive_evidence_ids = {item["id"] for item in archive_evidence}
+    integrated_concepts = {item["concept_id"] for item in integration}
+    archive_concept_ids = {concept_id for item in archive_videos for concept_id in item["concept_ids"]}
+    require(archive_concept_ids <= integrated_concepts, "every archive-supported concept must have an integration pressure test", errors)
+    for item in integration:
+        require(item["concept_id"] in concept_ids, f"integration points to missing concept {item.get('concept_id')}", errors)
+        require(item["archive_slug"] in archive_slugs, f"integration points to missing archive page {item.get('archive_slug')}", errors)
+        require(item["evidence_id"] in archive_evidence_ids, f"integration points to missing archive evidence {item.get('evidence_id')}", errors)
+        for field in ("pressure_test", "why_it_changes_concept", "source_span_read"):
+            require(words(item[field]) >= 35, f"integration {item['concept_id']} via {item['archive_slug']} field {field} is too thin", errors)
+            check_banned_phrases(f"integration {item['concept_id']} via {item['archive_slug']} field {field}", item[field], errors)
 
     required_concept_fields = (
         "ordinary_problem",
@@ -273,6 +288,12 @@ def validate_site(concepts: list[dict[str, Any]], errors: list[str]) -> None:
                 continue
             target = (html_path.parent / href).resolve()
             require(target.exists(), f"broken local link from {html_path.relative_to(ROOT)} to {href}", errors)
+
+    integration = load_json(ANALYSIS / "integration" / "concept-archive-integration.json")
+    for concept_id in {item["concept_id"] for item in integration}:
+        concept_page = SITE / "concepts" / f"{concept_id}.html"
+        if concept_page.exists():
+            require("Tutorial Pressure Tests" in concept_page.read_text(encoding="utf-8"), f"concept page lacks tutorial pressure tests: {concept_id}", errors)
 
 
 def main() -> int:

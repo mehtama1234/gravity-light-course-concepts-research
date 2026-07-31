@@ -244,7 +244,7 @@ def render_concepts(concepts: list[dict[str, Any]]) -> None:
     write(SITE / "concepts.html", page("Concepts", "<h1>Concepts</h1><div class=\"concept-grid\">" + "\n".join(cards) + "</div>"))
 
 
-def render_concept_pages(concepts: list[dict[str, Any]], evidence_by_id: dict[str, dict[str, Any]]) -> None:
+def render_concept_pages(concepts: list[dict[str, Any]], evidence_by_id: dict[str, dict[str, Any]], integration_by_concept: dict[str, list[dict[str, Any]]]) -> None:
     concepts_by_id = {concept["id"]: concept for concept in concepts}
     for concept in concepts:
         ev_items = []
@@ -262,6 +262,29 @@ def render_concept_pages(concepts: list[dict[str, Any]], evidence_by_id: dict[st
                 </article>
                 """
             )
+        integration_items = []
+        for item in integration_by_concept.get(concept["id"], []):
+            integration_items.append(
+                f"""
+                <article class="evidence-item">
+                  <h3><a href="../{esc(item['archive_url'])}">{esc(item['video_title'])}</a></h3>
+                  <p><strong>Pressure test:</strong> {esc(item['pressure_test'])}</p>
+                  <p><strong>Why it changes this concept:</strong> {esc(item['why_it_changes_concept'])}</p>
+                  <p class="quiet">{esc(item['source_span_read'])}</p>
+                  <p><a href="../archive-evidence.html">Archive evidence</a> · {esc(item['evidence_status'])}</p>
+                </article>
+                """
+            )
+        integration_block = (
+            f"""
+            <section>
+              <h2>Tutorial Pressure Tests</h2>
+              {''.join(integration_items)}
+            </section>
+            """
+            if integration_items
+            else ""
+        )
         body = f"""
         <p><a href="../concepts.html">Back to concepts</a></p>
         <h1>{esc(concept['name'])}</h1>
@@ -300,6 +323,7 @@ def render_concept_pages(concepts: list[dict[str, Any]], evidence_by_id: dict[st
             {render_related('Used Later By', concept['later_use_ids'], concepts_by_id)}
           </div>
         </section>
+        {integration_block}
         <section>
           <h2>Evidence</h2>
           {''.join(ev_items)}
@@ -505,13 +529,17 @@ def main() -> int:
     lectures = load_json(ANALYSIS / "lectures" / "lecture-atlas.json")
     themes = load_json(ANALYSIS / "themes" / "theme-map.json")
     families = load_json(ANALYSIS / "families" / "family-map.json")
+    integration = load_json(ANALYSIS / "integration" / "concept-archive-integration.json")
     concepts_by_id = {concept["id"]: concept for concept in concepts}
     evidence_by_id = {item["id"]: item for item in evidence}
+    integration_by_concept: dict[str, list[dict[str, Any]]] = {}
+    for item in integration:
+        integration_by_concept.setdefault(item["concept_id"], []).append(item)
     render_home(concepts, lectures, themes, evidence, families)
     render_lectures(lectures, concepts_by_id)
     render_lecture_pages(lectures, concepts_by_id, families)
     render_concepts(concepts)
-    render_concept_pages(concepts, evidence_by_id)
+    render_concept_pages(concepts, evidence_by_id, integration_by_concept)
     render_families(families, concepts_by_id)
     render_themes(themes, concepts_by_id)
     render_evidence(evidence)
