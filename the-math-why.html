@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Mathematical Why</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+    <nav class="topbar">
+      <a href="index.html">Overview</a>
+      <a href="lectures.html">Lectures</a>
+      <a href="tutorials.html">Tutorials</a>
+      <a href="evening-lectures.html">Evening Lectures</a>
+      <a href="concepts.html">Concepts</a>
+      <a href="families.html">Families</a>
+      <a href="themes.html">Themes</a>
+      <a href="learning-path.html">Learning Path</a>
+      <a href="what-breaks.html">What Breaks</a>
+      <a href="the-math-why.html">Math Why</a>
+      <a href="evidence.html">Evidence</a>
+      <a href="archive-evidence.html">Archive Evidence</a>
+    </nav>
+    
+<main>
+
+    <section class="intro">
+      <p class="eyebrow">Gravity and Light mathematical companion</p>
+      <h1>The Mathematical Why</h1>
+      <p class="lede">The course has one repeated demand: turn a physical question into an object and an operation that survive a change of description. This page takes that demand slowly, with plain worked examples before the formal names.</p>
+    </section>
+    <section class="deep-read">
+      <h2>The One Move</h2>
+      <p>Gravity and light look hard because the thing being studied is also the thing used to measure. The course therefore keeps making the same move: name the object, name the operation allowed on it, then ask what would break if that operation depended on a coordinate choice, a drawing, or an outside ruler.</p>
+    </section>
+    
+            <article class="family-block" id="open-sets">
+              <p class="eyebrow">Move 01</p>
+              <h2>Open Sets: Nearness Before Distance</h2>
+              <p><strong>What is hard:</strong> You want to say that a path, field, or measurement changes without a jump, but you are not yet allowed to assume a ruler. General relativity cannot start with fixed distances because distance will later be decided by the metric field itself.</p>
+              <p><strong>The mathematical move:</strong> The course replaces distance with a weaker object: a chosen list of open sets. An open set is a room test. If a point is inside, there is enough local room around it to wiggle without immediately leaving. A continuous map is then one that sends every open-set test backward to another open-set test.</p>
+              <div class="worked">
+                <div class="wl">Worked example</div>
+                <p>Imagine a hallway map before anyone has measured lengths. You can still mark which doorways lead into the same open room and which walls block passage. A route is continuous if small moves in the hallway do not suddenly place you in an unrelated room. No meter stick was needed; only the room test was used.</p>
+              </div>
+              <p><strong>Why it works:</strong> The open-set test works because it keeps exactly the information needed for limits and continuity while throwing away measurement. Later smoothness, tangent vectors, fields, and light cones all need the promise that nearby inputs do not jump to unrelated outputs.</p>
+              <p><strong>Where it pays off:</strong> This is why topology is not decorative background. It is the first safeguard against using smooth formulas on a space whose basic nearness has not been checked. Every later chart, field, and light path relies on this quieter promise.</p>
+              <p><a class="chip" href="concepts/topology-continuity.html">Topology and Continuity</a> <a class="chip" href="concepts/open-sets-neighborhood-tests.html">Open Sets As Neighborhood Tests</a> <a class="chip" href="concepts/continuous-maps-preserve-nearness.html">Continuous Maps Preserve Nearness</a></p>
+              <p><a class="chip" href="archive/tutorial-01.html">Tutorial 1: Topology</a></p>
+            </article>
+            
+            <article class="family-block" id="charts">
+              <p class="eyebrow">Move 02</p>
+              <h2>Charts: Local Names Are Not The Space</h2>
+              <p><strong>What is hard:</strong> A curved space may not have one clean global naming system. You still need to calculate, so you use local coordinate charts, but a coordinate name can fail even when the space itself has no physical problem.</p>
+              <p><strong>The mathematical move:</strong> The mathematical object is an atlas: many local charts plus overlap rules. The operation is to translate from one chart to another on the region where both charts describe the same points. A statement earns geometric status only if it survives that translation.</p>
+              <div class="worked">
+                <div class="wl">Worked example</div>
+                <p>Think of two street maps of the same neighborhood, one rotated and one using different block labels. A shop is not created or destroyed when you switch maps. If a route exists on one map, the overlap rule should let you find the same route on the other map.</p>
+              </div>
+              <p><strong>Why it works:</strong> Charts work because they let calculus happen locally while the overlap maps police the boundary between local descriptions. Smooth transition maps are the rule that stops a derivative from measuring the chosen map instead of the underlying manifold.</p>
+              <p><strong>Where it pays off:</strong> This is the habit needed near horizons, poles, and singular-looking coordinates. First ask whether the chart failed; only then ask whether spacetime failed. The same habit keeps black-hole and cosmology calculations from confusing bad labels with physical trouble.</p>
+              <p><a class="chip" href="concepts/manifolds-local-flatness.html">Manifolds and Local Flatness</a> <a class="chip" href="concepts/charts-atlases-coordinate-overlap.html">Charts, Atlases, and Overlap Rules</a> <a class="chip" href="concepts/smoothness-change-rates.html">Smoothness As Allowed Change</a></p>
+              <p><a class="chip" href="archive/tutorial-02.html">Tutorial 2: Topological Manifolds</a> <a class="chip" href="archive/tutorial-04.html">Tutorial 4: Differentiable Manifolds</a></p>
+            </article>
+            
+            <article class="family-block" id="tensors">
+              <p class="eyebrow">Move 03</p>
+              <h2>Tensors: The Rule Comes Before The Numbers</h2>
+              <p><strong>What is hard:</strong> Physics needs quantities that mean the same thing to observers using different coordinates. A table of numbers is not enough, because the table changes when the basis changes.</p>
+              <p><strong>The mathematical move:</strong> The mathematical object is a slot rule. A vector can be inserted into one kind of slot, a covector measures a vector, and a tensor has several such slots. Components are the numbers produced after choosing a basis and feeding basis vectors into those slots.</p>
+              <div class="worked">
+                <div class="wl">Worked example</div>
+                <p>A recipe is not the same as one grocery receipt. The receipt changes if the store sells in grams instead of ounces, but the recipe&#x27;s instruction is the same. Tensor components are like the receipt; the tensor is the rule that says what gets combined with what.</p>
+              </div>
+              <p><strong>Why it works:</strong> The slot rule works because it tells exactly how the numbers must change when the basis changes. That keeps the underlying object stable while allowing many coordinate displays.</p>
+              <p><strong>Where it pays off:</strong> Einstein&#x27;s equation is not two arrays being matched. It is a statement that two tensor objects of the same type balance each other. That distinction is what lets the equation mean the same thing after a change of coordinates.</p>
+              <p><a class="chip" href="concepts/multilinear-objects.html">Multilinear Algebra</a> <a class="chip" href="concepts/dual-vectors-measure-directions.html">Dual Vectors Measure Directions</a> <a class="chip" href="concepts/tensor-components-versus-object.html">Tensor Components Versus The Object</a></p>
+              <p><a class="chip" href="archive/tutorial-03.html">Tutorial 3: Multilinear Algebra</a></p>
+            </article>
+            
+            <article class="family-block" id="tangent-fields">
+              <p class="eyebrow">Move 04</p>
+              <h2>Tangent Vectors And Fields: Direction Without An Outside Room</h2>
+              <p><strong>What is hard:</strong> A direction at a point is usually drawn as an arrow sticking out of a surface. That picture quietly uses an outside flat space, but spacetime in the course must be understood from the inside.</p>
+              <p><strong>The mathematical move:</strong> The course defines a tangent vector by what it does: it takes a function and returns the directional rate of change at a point. A field then becomes a smooth point-by-point choice of one allowed object over each base point, described cleanly by bundle and section language.</p>
+              <div class="worked">
+                <div class="wl">Worked example</div>
+                <p>If you stand in fog, you may not see a whole road, but you can test a direction by asking how fast temperature rises if you step that way. A tangent vector is that local testing action. A vector field assigns one such instruction at every point.</p>
+              </div>
+              <p><strong>Why it works:</strong> This works because functions live on the manifold, so differentiating them does not require an outside arrow. Bundles then keep each point&#x27;s allowed directions separate while still letting a field choose one direction per point.</p>
+              <p><strong>Where it pays off:</strong> Observers, velocities, light rays, matter fields, and gravitational variables all need this internal pointwise language before the metric can classify directions as time-like, space-like, or null.</p>
+              <p><a class="chip" href="concepts/tangent-spaces-fields.html">Tangent Spaces and Fields</a> <a class="chip" href="concepts/tangent-vectors-as-derivatives.html">Tangent Vectors As Derivatives</a> <a class="chip" href="concepts/vector-fields-as-local-instructions.html">Vector Fields As Local Instructions</a></p>
+              <p><a class="chip" href="archive/tutorial-05.html">Tutorial 5: Tangent Spaces</a> <a class="chip" href="archive/tutorial-06.html">Tutorial 6: Fields</a></p>
+            </article>
+            
+            <article class="family-block" id="connection">
+              <p class="eyebrow">Move 05</p>
+              <h2>Connections: Comparing Nearby Directions</h2>
+              <p><strong>What is hard:</strong> To say a direction changed from one point to the next, you first need a rule for comparing directions that live in different tangent spaces. Without that rule, change can be confused with coordinate drift.</p>
+              <p><strong>The mathematical move:</strong> The mathematical object is a connection. Its operation is to say how to carry a direction nearby and how to correct an ordinary derivative so it becomes a covariant derivative, meaning a derivative that respects the manifold&#x27;s comparison rule.</p>
+              <div class="worked">
+                <div class="wl">Worked example</div>
+                <p>Suppose two hikers compare compass arrows while walking over a hill. If one keeps the arrow as steady as possible along the path, the final disagreement says something about the terrain and the route, not just about a bad drawing of the hill.</p>
+              </div>
+              <p><strong>Why it works:</strong> A connection works because it adds the missing comparison instruction. It separates real change in a vector field from the fake change caused by using a curving coordinate grid.</p>
+              <p><strong>Where it pays off:</strong> Free-fall motion, geodesics, curvature, and observer fields all depend on this comparison rule. It is where local direction becomes geometry rather than picture-making. Without it, the course could name changing fields but could not say which change is real.</p>
+              <p><a class="chip" href="concepts/connections-parallel-transport.html">Connections and Parallel Transport</a> <a class="chip" href="concepts/covariant-derivative-corrects-comparison.html">Covariant Derivative Corrects Comparison</a> <a class="chip" href="concepts/geodesics-free-motion.html">Geodesics As Free Motion</a></p>
+              <p><a class="chip" href="archive/tutorial-05.html">Tutorial 5: Tangent Spaces</a></p>
+            </article>
+            
+            <article class="family-block" id="curvature">
+              <p class="eyebrow">Move 06</p>
+              <h2>Curvature: Failed Return As A Measurement</h2>
+              <p><strong>What is hard:</strong> Curvature is hard to see locally because a small enough patch can look flat. The course needs a test that detects curvature without relying on an outside view of a bent surface.</p>
+              <p><strong>The mathematical move:</strong> The operation is to compare the result of moving around a tiny loop or changing directions in two different orders. If the transported vector or derivative result fails to return the same way, curvature has been measured internally.</p>
+              <div class="worked">
+                <div class="wl">Worked example</div>
+                <p>Carry an arrow around a triangular walking route on Earth while keeping it as steady as possible. When you return, the arrow may point a different way. You did not need to view Earth from space; the failed return was the test.</p>
+              </div>
+              <p><strong>Why it works:</strong> The loop test works because flat spaces let nearby comparisons fit together consistently. Curved spaces do not. Riemann curvature records the mismatch; Ricci curvature compresses part of that mismatch into volume-change information.</p>
+              <p><strong>Where it pays off:</strong> This is how the course turns gravity from a force picture into tidal geometry: nearby free-falling paths separate or squeeze because the comparison rules fail to fit globally.</p>
+              <p><a class="chip" href="concepts/curvature-geodesic-deviation.html">Curvature</a> <a class="chip" href="concepts/parallel-transport-loop-test.html">Parallel Transport Loop Test</a> <a class="chip" href="concepts/riemann-curvature-commutator.html">Riemann Curvature As Noncommuting Change</a> <a class="chip" href="concepts/ricci-curvature-volume-change.html">Ricci Curvature As Volume Change</a></p>
+              <p><a class="chip" href="archive/tutorial-13.html">Tutorial 13: Schwarzschild Spacetime</a></p>
+            </article>
+            
+            <article class="family-block" id="metric">
+              <p class="eyebrow">Move 07</p>
+              <h2>Metric: Measurement Becomes A Field</h2>
+              <p><strong>What is hard:</strong> Physics needs lengths, times, and light cones, but general relativity cannot treat rulers and clocks as fixed background equipment. Measurement itself must be part of the geometry, because gravity changes what clocks read and which paths light can take.</p>
+              <p><strong>The mathematical move:</strong> The mathematical object is the metric: a rule at each point that takes directions and returns measured intervals. Its signature separates time-like, space-like, and null directions, and proper time is what a clock reads along a time-like path.</p>
+              <div class="worked">
+                <div class="wl">Worked example</div>
+                <p>A city map with a changing scale bar is different from a normal map. One block may count differently in different neighborhoods. The metric is that local scale and sign rule for spacetime directions.</p>
+              </div>
+              <p><strong>Why it works:</strong> The metric works because it turns tangent directions into measured intervals locally. Once that local measuring rule varies from point to point, gravity can change what clocks read and which directions light can follow.</p>
+              <p><strong>Where it pays off:</strong> Black holes, cosmological expansion, lensing, and gravitational waves are all later readings of this one idea: the measuring rule is physical. Once the metric is a field, observation becomes a way of reading geometry rather than looking through a fixed stage.</p>
+              <p><a class="chip" href="concepts/metric-measurement.html">Metric Manifolds</a> <a class="chip" href="concepts/metric-signature-light-cones.html">Metric Signature And Light Cones</a> <a class="chip" href="concepts/proper-time-clock-reading.html">Proper Time As Clock Reading</a></p>
+              <p><a class="chip" href="archive/tutorial-13.html">Tutorial 13: Schwarzschild Spacetime</a></p>
+            </article>
+            
+            <article class="family-block" id="integration">
+              <p class="eyebrow">Move 08</p>
+              <h2>Integration: Adding Local Facts Without Chart Dependence</h2>
+              <p><strong>What is hard:</strong> The course needs to add local quantities over curved regions: action terms, fluxes, source totals, and boundary contributions. The total should not change just because the region was named with different coordinates.</p>
+              <p><strong>The mathematical move:</strong> The object is a form on an oriented region. The operation is to add it in charts while making the volume-form transformation cancel the determinant factor created by a chart change. Stokes&#x27; theorem then relates boundary accounting to bulk accounting.</p>
+              <div class="worked">
+                <div class="wl">Worked example</div>
+                <p>If two people use different grid paper to estimate paint needed for the same wall, the answer should agree after correcting for cell size. The determinant is the cell-size correction; the form carries the correction so the total is about the wall, not the grid.</p>
+              </div>
+              <p><strong>Why it works:</strong> The cancellation works because coordinate changes stretch coordinate volume in a predictable way. Forms transform oppositely, so the product being added represents the same geometric quantity. The total is therefore attached to the region and the form, not to the grid used during the calculation.</p>
+              <p><strong>Where it pays off:</strong> This is why actions and conservation laws are not chart recipes. They are adding rules that survive the change of description. The same idea explains why boundary terms matter: they are part of the accounting, not algebra left over after the real work.</p>
+              <p><a class="chip" href="concepts/integration-on-manifolds.html">Integration on Manifolds</a> <a class="chip" href="concepts/stokes-boundary-bulk-accounting.html">Stokes&#x27; Theorem As Boundary-Bulk Accounting</a></p>
+              <p><a class="chip" href="archive/tutorial-12.html">Tutorial 12: Integration</a></p>
+            </article>
+            
+            <article class="family-block" id="einstein-equation">
+              <p class="eyebrow">Move 09</p>
+              <h2>Einstein Equation: Geometry And Matter Must Balance</h2>
+              <p><strong>What is hard:</strong> The course needs one law connecting the geometry side and the matter side. A slogan about matter curving spacetime is not enough, because the two sides must be objects of the same kind and must obey the same conservation bookkeeping.</p>
+              <p><strong>The mathematical move:</strong> The Einstein tensor is built from curvature and the metric so its covariant divergence vanishes. The stress-energy tensor records local matter, energy, momentum, pressure, and stress. The operation is to equate them with constants that fix units and observed strength.</p>
+              <div class="worked">
+                <div class="wl">Worked example</div>
+                <p>A budget cannot balance if one side lists dollars and the other lists hours. Einstein&#x27;s equation works only after geometry and matter have been written as compatible local accounting objects.</p>
+              </div>
+              <p><strong>Why it works:</strong> The equation works as a law because the geometry side has built-in conservation behavior matching the matter side. It is not a curve-anything-anyhow rule; it is a constrained balance between two tensor objects.</p>
+              <p><strong>Where it pays off:</strong> Cosmology, black holes, light bending, and waves are not separate miracles. They are different ways of solving or approximating this balance rule. The course becomes one chain because the same equation ties measurement, curvature, and matter bookkeeping together.</p>
+              <p><a class="chip" href="concepts/einstein-equation.html">Einstein Equation</a> <a class="chip" href="concepts/einstein-tensor-conserved-geometry.html">Einstein Tensor As Conserved Geometry</a> <a class="chip" href="concepts/stress-energy-matter.html">Matter and Stress-Energy</a></p>
+              <p><a class="chip" href="archive/evening-02.html">Evening Lecture B: Quantum versus Gravity</a></p>
+            </article>
+            
+            <article class="family-block" id="horizons">
+              <p class="eyebrow">Move 10</p>
+              <h2>Horizons And Penrose Diagrams: Who Can Signal To Whom</h2>
+              <p><strong>What is hard:</strong> A black hole is often pictured as a surface in space, but the course needs a sharper idea: a boundary in what future-directed signals can reach. Ordinary diagrams are too large to show infinity and horizons clearly.</p>
+              <p><strong>The mathematical move:</strong> The object is causal structure: the order of possible light signals. A Penrose diagram rescales the metric to fit infinity on the page while preserving null directions and causal order, not ordinary lengths.</p>
+              <div class="worked">
+                <div class="wl">Worked example</div>
+                <p>A subway map does not preserve street distances, but it preserves which stops connect to which. A Penrose diagram is similar: it sacrifices measured distances so the signal connections remain readable.</p>
+              </div>
+              <p><strong>Why it works:</strong> Light directions define causal reach. If a diagram preserves those directions, it can answer global questions about escape, trapping, infinity, and singularity reach without pretending to preserve clock times or lengths.</p>
+              <p><strong>Where it pays off:</strong> This is the clean way to understand horizons: not as material walls, but as causal boundaries. It also explains why Penrose diagrams are useful only when read correctly: they preserve signaling order, not ordinary distance or visual shape.</p>
+              <p><a class="chip" href="concepts/black-holes-horizons.html">Black Holes and Horizons</a> <a class="chip" href="concepts/event-horizon-causal-boundary.html">Event Horizon As Causal Boundary</a> <a class="chip" href="concepts/penrose-diagrams-compress-infinity.html">Penrose Diagrams Compress Infinity</a></p>
+              <p><a class="chip" href="archive/tutorial-13.html">Tutorial 13: Schwarzschild Spacetime</a> <a class="chip" href="archive/tutorial-16.html">Tutorial 16: Diagrams</a></p>
+            </article>
+            
+            <article class="family-block" id="cosmology">
+              <p class="eyebrow">Move 11</p>
+              <h2>Cosmology: Expansion As A Changing Measuring Rule</h2>
+              <p><strong>What is hard:</strong> Cosmic expansion is easy to misunderstand as galaxies flying through a fixed outside space. The course instead models large-scale sameness and asks how the metric&#x27;s distance rule changes over time.</p>
+              <p><strong>The mathematical move:</strong> The central object is the scale factor. The operation is to reduce Einstein&#x27;s equation using homogeneity and isotropy, then read expansion from the scale factor and its rate of change. Light redshift records that changing scale along its travel.</p>
+              <div class="worked">
+                <div class="wl">Worked example</div>
+                <p>Dots drawn on an inflating balloon move farther apart even if none of the dots crawls across the rubber. The useful lesson is not the balloon surface itself; it is that distances between marked points can change because the measuring rule changes.</p>
+              </div>
+              <p><strong>Why it works:</strong> Symmetry works here by throwing away details the model declares irrelevant at large scale. That leaves a few time-dependent quantities, so geometry, matter content, redshift, and Hubble rate can be tied together.</p>
+              <p><strong>Where it pays off:</strong> The expansion history becomes a geometric object that observations can test, instead of a story about motion through empty background space. Redshift and Hubble rate then become readings of the model&#x27;s changing scale, not just catalog facts about distant galaxies.</p>
+              <p><a class="chip" href="concepts/cosmology-scale-factor.html">Cosmology and Expansion</a> <a class="chip" href="concepts/scale-factor-expansion-history.html">Scale Factor As Expansion History</a> <a class="chip" href="concepts/hubble-rate-as-change-of-scale.html">Hubble Rate As Change Of Scale</a> <a class="chip" href="concepts/redshift-as-stretched-light.html">Redshift As Stretched Light</a></p>
+              <p><a class="chip" href="archive/tutorial-15.html">Tutorial 15: Cosmology</a></p>
+            </article>
+            
+            <article class="family-block" id="waves">
+              <p class="eyebrow">Move 12</p>
+              <h2>Gravitational Waves: Tiny Metric Change As A Measured Length Change</h2>
+              <p><strong>What is hard:</strong> A gravitational wave should not be explained as sound in a medium or as a force pushing detector parts around. The course needs to connect a small change in spacetime geometry to the thing a detector actually measures.</p>
+              <p><strong>The mathematical move:</strong> The mathematical move is to write the metric as a background part plus a small disturbance, keep the leading terms, and track how that disturbance changes relative separation. Strain is the measured fractional change in length.</p>
+              <div class="worked">
+                <div class="wl">Worked example</div>
+                <p>If two marks on a stretchy ruler move from 100 units apart to 100.001 units apart, the important number is the fractional change, not an absolute shove. An interferometer uses light to compare such tiny relative changes along its arms.</p>
+              </div>
+              <p><strong>Why it works:</strong> The approximation works because weak waves are small enough that the field equations can be linearized. The detector reading works because light compares path lengths, so a metric disturbance becomes a phase difference.</p>
+              <p><strong>Where it pays off:</strong> This is where the course closes the loop from abstract metric geometry to observation: the same measuring rule that defines light cones can tremble, travel, and be detected.</p>
+              <p><a class="chip" href="concepts/perturbations-waves.html">Perturbation Theory and Gravitational Waves</a> <a class="chip" href="concepts/linearized-equations-small-disturbances.html">Linearized Equations For Small Disturbances</a> <a class="chip" href="concepts/quadrupole-source-changing-shape.html">Quadrupole Sources Need Changing Shape</a> <a class="chip" href="concepts/strain-relative-length-change.html">Strain As Relative Length Change</a> <a class="chip" href="concepts/interferometer-light-as-ruler.html">Interferometer Light As A Ruler</a></p>
+              <p><a class="chip" href="archive/evening-01.html">Evening Lecture A: Gravitational Waves: Music on the Spheres</a></p>
+            </article>
+            
+    
+</main>
+</body>
+</html>
