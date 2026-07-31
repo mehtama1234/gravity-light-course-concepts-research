@@ -160,7 +160,7 @@ def validate() -> tuple[list[str], list[str]]:
         for step_index, step in enumerate(lecture.get("lecture_worked_path", []), start=1):
             require(words(step) >= 10, f"lecture {lecture['index']:02d} worked path step {step_index} is too thin", errors)
             check_banned_phrases(f"lecture {lecture['index']:02d} worked path step {step_index}", step, errors)
-        if lecture["index"] <= 8:
+        if lecture["index"] <= 16:
             lecture_text = " ".join(
                 [
                     lecture["first_principles_role"],

@@ -1138,6 +1138,86 @@ LECTURE_TEACHING_OVERRIDES = {
             "Read the failure to agree as curvature and later as tidal behavior.",
         ],
     },
+    9: {
+        "lecture_starting_problem": "This lecture presses on a surprising claim: even Newtonian gravity can be read as curvature when it is written with the right spacetime bookkeeping. The point is not to pretend Newton's theory is already general relativity. The point is to show that gravity is not captured by the force felt by one body alone. The more stable fact is how neighboring freely falling paths accelerate relative to each other. That relative motion is the bridge from an old gravity picture to the geometric one.",
+        "lecture_mathematical_turn": "The mathematical turn is to read gravitational content through deviation of nearby free paths and through the curvature terms that control that deviation. A single falling observer can remove much of the local pull by choosing a falling frame. A family of nearby observers cannot remove the way their separations change. Ricci-type information then records part of that focusing or spreading. This prepares the reader to see Einstein gravity as a law about tidal geometry rather than a replacement word for force.",
+        "lecture_worked_path": [
+            "Start with a small cloud of nearby freely falling test bodies.",
+            "Ignore the motion of one body by itself and compare separations inside the cloud.",
+            "Read relative acceleration as the gravitational fact that survives a falling frame.",
+            "Connect that relative acceleration to curvature, especially the Ricci information used later.",
+        ],
+    },
+    10: {
+        "lecture_starting_problem": "The course has built topology, charts, tangent spaces, and comparison rules, but none of that yet says what a clock reads or which directions light can take. This lecture introduces measurement as part of the geometry. The metric is not a background ruler placed on spacetime from outside. It is the local rule that turns tangent directions into intervals, separates time-like from space-like from light-like, and lets proper time become a path-dependent clock reading.",
+        "lecture_mathematical_turn": "The mathematical turn is to make measurement a field. At each point, the metric takes tangent directions as inputs and returns interval information. Because the metric has Lorentzian signature in spacetime, it does more than measure length: it sorts directions into causal types. A zero interval direction is not a zero direction; it is a light direction. A time-like path can be integrated to get proper time. This turns abstract tangent geometry into physical readings.",
+        "lecture_worked_path": [
+            "Begin with tangent directions that have not yet been measured.",
+            "Apply the metric to a direction and itself to get its interval type.",
+            "Use the sign and zero cases to draw the local light cone.",
+            "Add metric clock readings along a time-like path to get proper time.",
+        ],
+    },
+    11: {
+        "lecture_starting_problem": "Symmetry matters only when it preserves the structure the theory actually cares about. A picture may look balanced, but that does not guarantee a conserved quantity or a useful simplification. This lecture asks how to test sameness in spacetime. The relevant question is whether a flow or transformation changes the metric and other geometric data. If the structure is truly preserved, the geometry has a direction of sameness that later can support conserved quantities.",
+        "lecture_mathematical_turn": "The mathematical turn is to replace visual symmetry with an invariance test. Move points along a candidate flow and compare the geometric data before and after that move. If the metric stays unchanged, the flow is a Killing symmetry. This is why conservation is not assumed globally in every spacetime. Energy-like or angular-momentum-like quantities need the geometry to provide the right kind of preserved direction first.",
+        "lecture_worked_path": [
+            "Start with a proposed motion through the spacetime, such as time shift or rotation.",
+            "Move the metric along that flow and compare it with the original metric.",
+            "Call the flow a symmetry only when the metric is unchanged.",
+            "Use that preserved structure to justify the conserved quantity associated with the motion.",
+        ],
+    },
+    12: {
+        "lecture_starting_problem": "The course needs to add local facts over curved regions without letting the answer depend on the chart used for the addition. Ordinary integration can hide its dependence on x-axes and coordinate cells. On a manifold, a region may need many charts, and a chart change can stretch or flip the coordinate grid. This lecture makes integration into a coordinate-independence problem: the thing being integrated must carry the correction needed for all charts to agree.",
+        "lecture_mathematical_turn": "The mathematical turn is to use forms and orientation-aware volume elements. When coordinates change, the size of a coordinate cell changes by a determinant factor. The form transforms with the compensating factor, so the final total belongs to the region and the form, not to the grid. Stokes' theorem then gives the same accounting in another direction: what happens across the boundary is tied to what happens in the bulk.",
+        "lecture_worked_path": [
+            "Start with a local quantity that must be added over a curved region.",
+            "Change charts and track how the coordinate cell size changes.",
+            "Use a form whose transformation cancels that chart-change factor.",
+            "Relate boundary accounting to bulk accounting through Stokes' theorem for the same region.",
+        ],
+    },
+    13: {
+        "lecture_starting_problem": "Spacetime is where the metric idea becomes physical rather than just geometric. The lecture has to join local measurement, causal order, and observer clocks in one structure. A spacetime metric does not merely assign distances. It decides which directions are possible for light, which paths can be followed by massive observers, and how much time a clock records along a worldline. That makes spacetime a causal measuring system, not a stage with physics placed on top.",
+        "lecture_mathematical_turn": "The mathematical turn is to read the metric as the object that organizes causal life. Evaluate it on tangent directions to sort them into time-like, space-like, and null. The null directions form the local light cone. Time-like curves can carry clocks and accumulate proper time. Because the metric varies across spacetime, these local cones and clock readings become the raw material for gravitational effects, horizons, and observations.",
+        "lecture_worked_path": [
+            "Begin with an event and the tangent directions through it.",
+            "Use the spacetime metric to separate time-like, space-like, and null directions.",
+            "Treat the null directions as the local paths available to light.",
+            "Measure observer time by adding proper time along a time-like worldline.",
+        ],
+    },
+    14: {
+        "lecture_starting_problem": "Matter cannot enter Einstein gravity as a vague pile of stuff. Relativity needs to know energy density, momentum flow, pressure, and stress, because all of those contribute to the gravitational source. A simple mass-only picture is too thin. This lecture teaches matter as local accounting: what an observer measures, what crosses a surface, and how that bookkeeping changes from point to point. Only after that can matter sit on the right side of the field equation.",
+        "lecture_mathematical_turn": "The mathematical turn is to use the stress-energy tensor as the matter bookkeeping object. Its slots let observers and surface directions ask precise questions about energy and momentum. Local conservation is stated using covariant divergence, because the accounting must respect curved spacetime comparison. This is the source-side preparation for Einstein's equation: matter must be written as a tensor object with conservation behavior that can match the geometry side.",
+        "lecture_worked_path": [
+            "Start by asking what an observer at an event can measure about matter.",
+            "Use stress-energy slots to read energy density, momentum flow, pressure, or stress.",
+            "Require the matter accounting to obey local covariant conservation in curved spacetime.",
+            "Prepare that tensor object to balance the geometry side of Einstein's equation.",
+        ],
+    },
+    15: {
+        "lecture_starting_problem": "Einstein gravity is the course's central balance, and it has to be sharper than the slogan that matter curves spacetime. The geometry side must be a tensor built from curvature and the metric. The matter side must be a tensor that records local energy and momentum accounting. The two sides must also match in conservation behavior. This lecture is where the earlier machinery is forced to fit: curvature, metric measurement, stress-energy, and covariant bookkeeping become one law.",
+        "lecture_mathematical_turn": "The mathematical turn is to build the Einstein tensor from Ricci curvature, scalar curvature, and the metric so that its covariant divergence vanishes. That built-in conservation property is why it can be equated to stress-energy. The equation is difficult because the metric being solved for is also used to build the curvature on the left side. The cosmological constant then appears as an allowed uniform term in the same balance, not as an unrelated add-on.",
+        "lecture_worked_path": [
+            "Start with stress-energy as the local matter accounting object.",
+            "Compress curvature into the Einstein tensor on the geometry side.",
+            "Use the shared covariant conservation behavior to justify the balance.",
+            "Recognize that solving the equation means solving for the metric that also builds the left side.",
+        ],
+    },
+    16: {
+        "lecture_starting_problem": "Optical geometry begins from the fact that most evidence about gravity reaches us as light. The lecture has to stop the reader from imagining light as a small ball being pushed sideways by a force. In relativity, light follows the causal structure supplied by the metric. A light path is a null geodesic: its tangent has zero interval and transports itself along the path. This makes observation a geometric question about allowed signal paths.",
+        "lecture_mathematical_turn": "The mathematical turn is to combine the null condition with the geodesic condition. The metric first identifies which directions are light-like. The connection then supplies the straightest-path rule. Solving both together gives null geodesics. Neighboring null geodesics can focus, shear, delay, or bend, which is why lensing and redshift are not separate observational tricks. They are ways the metric writes itself into the light that arrives.",
+        "lecture_worked_path": [
+            "Start with the metric's light cone at an event where a signal could pass.",
+            "Choose directions whose interval is zero, so they are candidates for light.",
+            "Impose the geodesic rule so the tangent carries itself along the path.",
+            "Compare neighboring light paths to read bending, focusing, delay, or redshift.",
+        ],
+    },
 }
 
 LECTURE_ROLE_OVERRIDES = {
@@ -1149,6 +1229,14 @@ LECTURE_ROLE_OVERRIDES = {
     6: "This lecture makes fields into disciplined pointwise assignments. It prepares the reader to treat matter, observers, vector fields, tensor fields, and eventually the metric as objects chosen over spacetime rather than vague substances.",
     7: "This lecture supplies the missing comparison rule between nearby tangent spaces. It is the step that makes covariant change, geodesic motion, and later curvature possible without pretending the manifold has a hidden flat background.",
     8: "This lecture shows how curvature is measured from inside the manifold. Parallel transport around loops and noncommuting corrected derivatives reveal when local comparison rules fail to fit together, which becomes the course's tidal picture of gravity.",
+    9: "This lecture shows that the geometric reading of gravity is not just a later Einsteinian invention. By focusing on relative acceleration and curvature-like bookkeeping, it makes tidal behavior the durable fact behind older force language.",
+    10: "This lecture gives the course its measuring field. The metric turns tangent directions into intervals, light cones, and proper time, so geometry becomes something clocks, rulers, and light signals can read.",
+    11: "This lecture makes symmetry operational. It teaches that conserved quantities come from preserved geometric structure, not from a visual impression that a diagram looks unchanged.",
+    12: "This lecture turns integration into chart-independent accounting. It explains how local quantities can be added over curved regions and how boundary terms are tied to bulk behavior.",
+    13: "This lecture makes spacetime a causal measuring structure. The metric separates possible signal directions from impossible ones and turns observer histories into proper-time readings.",
+    14: "This lecture prepares the matter side of gravity. Stress-energy records energy, momentum flow, pressure, and stress in a form that can be locally conserved and later balanced with geometry.",
+    15: "This lecture joins the course's two main accounts: curvature-based geometry and stress-energy matter. The Einstein equation appears as a constrained tensor balance, not a slogan.",
+    16: "This lecture turns observation into geometry. Light follows null geodesics set by the metric, so lensing, redshift, and signal paths become readings of spacetime structure.",
 }
 
 
