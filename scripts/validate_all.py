@@ -73,6 +73,7 @@ def validate() -> tuple[list[str], list[str]]:
     archive_evidence_page = SITE / "archive-evidence.html"
     learning_path_page = SITE / "learning-path.html"
     dependency_map_page = SITE / "what-breaks.html"
+    math_why_page = SITE / "the-math-why.html"
     manual_note_templates = [
         ROOT / "raw-material" / "manual-notes" / "lecture-18-canonical-formulation-gr-i.md",
         ROOT / "raw-material" / "manual-notes" / "lecture-19-canonical-formulation-gr-ii.md",
@@ -88,6 +89,7 @@ def validate() -> tuple[list[str], list[str]]:
     integration = load_json(ANALYSIS / "integration" / "concept-archive-integration.json")
     learning_path = load_json(ANALYSIS / "integration" / "learning-path.json")
     dependency_map = load_json(ANALYSIS / "integration" / "dependency-map.json")
+    math_why = load_json(ANALYSIS / "integration" / "math-why.json")
 
     require(len(transcript_index) == 28, "transcript index must contain 28 records", errors)
     full_archive_videos = full_archive_manifest.get("videos", [])
@@ -117,6 +119,7 @@ def validate() -> tuple[list[str], list[str]]:
     require(archive_evidence_page.exists(), "archive evidence page must exist", errors)
     require(learning_path_page.exists(), "learning path page must exist", errors)
     require(dependency_map_page.exists(), "what-breaks dependency page must exist", errors)
+    require(math_why_page.exists(), "mathematical why page must exist", errors)
     require("Overall status: complete" in full_archive_readiness_report.read_text(encoding="utf-8"), "full archive readiness audit must say complete", errors)
     require("Overall status: complete" in integrated_companion_readiness_report.read_text(encoding="utf-8"), "integrated companion readiness audit must say complete", errors)
     for template in manual_note_templates:
@@ -166,6 +169,7 @@ def validate() -> tuple[list[str], list[str]]:
     require(len(integration) >= 20, "concept/archive integration should contain tutorial pressure-test links", errors)
     require(len(learning_path) >= 7, "learning path should contain the main course route", errors)
     require(len(dependency_map) >= 10, "dependency map should contain major failure modes", errors)
+    require(len(math_why) >= 12, "mathematical why companion should contain major course moves", errors)
     require(sum(item["type"] == "tutorial" for item in archive_videos) == 11, "archive video atlas must contain 11 tutorials", errors)
     require(sum(item["type"] == "evening-lecture" for item in archive_videos) == 2, "archive video atlas must contain 2 evening lectures", errors)
     for item in archive_videos:
@@ -216,6 +220,16 @@ def validate() -> tuple[list[str], list[str]]:
         for field in ("breaks", "repair"):
             require(words(item[field]) >= 16, f"dependency map {item.get('id')} field {field} is too thin", errors)
             check_banned_phrases(f"dependency map {item.get('id')} field {field}", item[field], errors)
+    for item in math_why:
+        require(item["concept_ids"], f"math why {item.get('id')} lacks concepts", errors)
+        require(item["archive_slugs"], f"math why {item.get('id')} lacks archive links", errors)
+        for concept_id in item["concept_ids"]:
+            require(concept_id in concept_ids, f"math why {item.get('id')} points to missing concept {concept_id}", errors)
+        for slug in item["archive_slugs"]:
+            require(slug in archive_slugs, f"math why {item.get('id')} points to missing archive page {slug}", errors)
+        for field in ("ordinary_problem", "mathematical_move", "worked_example", "why_it_works", "payoff"):
+            require(words(item[field]) >= 28, f"math why {item.get('id')} field {field} is too thin", errors)
+            check_banned_phrases(f"math why {item.get('id')} field {field}", item[field], errors)
 
     required_concept_fields = (
         "ordinary_problem",
@@ -301,6 +315,7 @@ def validate_site(concepts: list[dict[str, Any]], errors: list[str]) -> None:
         SITE / "themes.html",
         SITE / "learning-path.html",
         SITE / "what-breaks.html",
+        SITE / "the-math-why.html",
         SITE / "evidence.html",
         SITE / "assets" / "styles.css",
     ]
@@ -328,6 +343,7 @@ def validate_site(concepts: list[dict[str, Any]], errors: list[str]) -> None:
     themes_page = SITE / "themes.html"
     learning_path_page = SITE / "learning-path.html"
     dependency_map_page = SITE / "what-breaks.html"
+    math_why_page = SITE / "the-math-why.html"
     if families_page.exists():
         require("Tutorial pressure carried by this family" in families_page.read_text(encoding="utf-8"), "families page lacks tutorial pressure section", errors)
     if themes_page.exists():
@@ -338,6 +354,9 @@ def validate_site(concepts: list[dict[str, Any]], errors: list[str]) -> None:
     if dependency_map_page.exists():
         text = dependency_map_page.read_text(encoding="utf-8")
         require("What Breaks If You Skip This" in text and "Repair" in text, "dependency map page lacks failure-and-repair language", errors)
+    if math_why_page.exists():
+        text = math_why_page.read_text(encoding="utf-8")
+        require("The Mathematical Why" in text and "Worked example" in text and "The One Move" in text, "math why page lacks required companion language", errors)
 
 
 def main() -> int:
