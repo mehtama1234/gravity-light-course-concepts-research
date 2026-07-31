@@ -4,8 +4,8 @@
 
 - YouTube transcript-backed lectures: 21/28
 - External-notes-backed missing-caption lectures: 10, 20, 23, 24, 25
-- External notes exist but do not currently support assigned concepts: 18
-- Still unresolved: 19
+- Manual-notes-backed missing-caption lectures: 18, 19
+- Still unsupported concept evidence: none
 
 ## YouTube Caption Check
 
@@ -28,11 +28,16 @@ All three routes returned HTTP 429 for the caption payload. No partial VTT was l
 
 The atlas uses these sources only as `notes-backed` evidence. It does not count them as transcript-backed evidence.
 
-## Remaining Gap
+## Canonical Lecture Recovery
 
-Lecture 19, "Canonical Formulation of GR II", remains unresolved. The Richie Dadhley notes contain a lecture-19 heading, but the extracted section has no substantive notes. The current atlas keeps lecture-19 canonical evidence as unsupported instead of filling it from generic canonical-GR material.
+Lectures 18 and 19 still have no official YouTube captions. Their canonical-formulation records are now supported by local audio transcription clips that were converted into filled manual timestamp notes:
 
-Lecture 18 remains unresolved at the assigned-concept level. The supplemental notes index includes a lecture-18 section, but the extracted text is mostly symmetry/tutorial material and does not contain enough canonical-formulation support for the assigned concepts. It is therefore marked as a source gap, not promoted to notes-backed evidence.
+- `raw-material/manual-notes/lecture-18-canonical-formulation-gr-i.md`
+- `raw-material/manual-notes/lecture-19-canonical-formulation-gr-ii.md`
+
+Lecture 18 supports the constrained-Hamiltonian framing around 00:03:17-00:04:19 and the four-constraints/six-evolution-equations split around 00:25:42-00:27:58. Lecture 19 supports the 3+1 metric split around 00:00:20-00:01:54 and the lapse/shift non-dynamical role around 00:26:04-00:26:46.
+
+The supplemental external notes remain insufficient for these assigned canonical concepts. The atlas therefore uses the filled manual timestamp notes as `manual-notes-backed` evidence, not as `external-notes` evidence and not as official caption evidence.
 
 ## Archive Tutorial Check
 
@@ -45,7 +50,7 @@ Manual templates now exist at:
 - `raw-material/manual-notes/lecture-18-canonical-formulation-gr-i.md`
 - `raw-material/manual-notes/lecture-19-canonical-formulation-gr-ii.md`
 
-These templates are not evidence yet. They become evidence only after direct video viewing fills timestamp spans, observations, concept ids, object, operation, why it matters, and caveats.
+These files now contain filled timestamp spans and concept ids for lectures 18 and 19. The builder reads only filled table rows as `manual-notes-backed` evidence.
 
 ## Local Speech-To-Text Attempt
 
@@ -55,16 +60,18 @@ What was tried:
 
 - Installed `faster-whisper` in `.venv-transcribe/`.
 - Downloaded lecture 18 low-bitrate audio format 139 to `.cache/audio/018-sOiifkFYck4.m4a`.
+- Downloaded lecture 19 low-bitrate audio format 139 to `.cache/audio/019-GSxuLzmHyyU.m4a`.
 - Tested full-lecture transcription with `tiny.en`; it stalled in VAD before useful output.
 - Patched the script to decode only requested time windows with PyAV.
-- Tested 90-second and 30-second clips with VAD disabled; both reached Whisper generation but were too slow for interactive completion on the current CPU.
+- Tested 90-second and 30-second clips with VAD disabled.
+- Completed 10-minute windows for lectures 18 and 19 with `tiny.en`, then promoted only selected timestamped observations to the manual-note files.
 
-Conclusion: the transcription route is viable as tooling, but not practical on this machine/session without faster hardware, a smaller/faster runtime, or a hosted speech-to-text service. No machine transcript was promoted to evidence.
+Conclusion: the transcription route is viable for targeted evidence windows on this machine. It is still not being treated as an official transcript source; promoted evidence is classified separately as `manual-notes-backed`.
 
 ## Next Recovery Attempts
 
 1. Retry lecture 10 YouTube captions later or through a different network/IP.
 2. Check archived `gravity-and-light.org` snapshots for any lecture-specific pages not exposed by the Heroku tutorial index.
 3. Check mirrors such as Bilibili only for source availability, not as evidence unless captions or notes can be extracted and cited.
-4. Run `scripts/transcribe_audio_clip.py` on a faster machine/GPU, then fill the manual-notes templates from timestamped transcript spans.
-5. Fill the manual-notes templates by direct video viewing before changing unsupported evidence to notes-backed.
+4. Optionally run full lecture 18/19 transcription on a faster machine/GPU if an official-quality local transcript is needed.
+5. Review the filled manual-note rows against direct video playback before treating them as polished lecture notes outside this atlas.

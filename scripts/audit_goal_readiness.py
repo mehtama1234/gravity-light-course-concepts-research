@@ -24,13 +24,14 @@ def main() -> int:
     evidence_counts = Counter(item["confidence"] for item in evidence)
     missing = [item for item in evidence if item["confidence"] == "missing-transcript"]
     missing_lectures = [lecture for lecture in lectures if lecture["transcript_status"] != "available"]
-    unresolved = [
-        item
-        for item in missing
-        if item["lecture_index"] in {18, 19}
-    ]
+    unresolved = missing
 
     complete = not unresolved
+    completion_note = (
+        "The unsupported evidence list is empty. Remaining missing YouTube captions are covered by external notes or filled manual timestamp notes, with source tiers kept separate."
+        if complete
+        else "Do not mark the project complete until the unsupported evidence list is empty or each remaining item is explicitly waived by a source audit."
+    )
     lines = [
         "# Goal Readiness Audit",
         "",
@@ -43,6 +44,7 @@ def main() -> int:
         f"- Evidence records: {len(evidence)}",
         f"- Transcript-backed evidence: {evidence_counts['strong'] + evidence_counts['moderate']}",
         f"- External-notes-backed evidence: {evidence_counts['notes-backed']}",
+        f"- Manual-notes-backed evidence: {evidence_counts['manual-notes-backed']}",
         f"- Unsupported evidence placeholders: {evidence_counts['missing-transcript']}",
         "",
         "## Requirements Checked",
@@ -50,9 +52,9 @@ def main() -> int:
         "- Plain first-principles concept treatment: present in concept atlas and enforced by validation.",
         "- Themes and lecture families: present and rendered.",
         "- Per-lecture pages: present for all 28 lectures.",
-        "- Evidence tiers: transcript-backed, notes-backed, and unsupported placeholders are separated.",
+        "- Evidence tiers: transcript-backed, external-notes-backed, manual-notes-backed, and unsupported placeholders are separated.",
         "- Cliche/filler guard: enforced by validation over generated analysis fields.",
-        "- Missing-source honesty: unresolved evidence remains unsupported instead of being filled from generic knowledge.",
+        "- Missing-source honesty: weak records are either supported by a named source tier or remain unsupported instead of being filled from generic knowledge.",
         "",
         "## Remaining To Finish",
         "",
@@ -69,7 +71,7 @@ def main() -> int:
         "",
         "## Completion Rule",
         "",
-        "Do not mark the project complete until the unsupported evidence list is empty or each remaining item is explicitly waived by a source audit. The current state is a strong atlas, but not a fully source-complete end-to-end deliverable.",
+        completion_note,
         "",
     ]
     OUT.write_text("\n".join(lines), encoding="utf-8")

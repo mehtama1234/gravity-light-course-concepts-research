@@ -106,6 +106,12 @@ def validate() -> tuple[list[str], list[str]]:
             errors,
         )
         require("notes_supported_concept_ids" in lecture, f"lecture {lecture['index']:02d} missing notes-supported concept ids", errors)
+        require(
+            lecture.get("manual_notes_support_status") in {"missing", "supports-assigned-concepts"},
+            f"lecture {lecture['index']:02d} has invalid manual notes support status",
+            errors,
+        )
+        require("manual_notes_supported_concept_ids" in lecture, f"lecture {lecture['index']:02d} missing manual-notes-supported concept ids", errors)
 
     concept_ids = {c["id"] for c in concepts}
     evidence_ids = {e["id"] for e in evidence}
@@ -151,7 +157,7 @@ def validate() -> tuple[list[str], list[str]]:
     for item in evidence:
         require(item["concept_id"] in concept_ids, f"evidence {item['id']} points to missing concept", errors)
         require(item["lecture_index"] in lecture_indexes, f"evidence {item['id']} points to missing lecture", errors)
-        require(item["confidence"] in {"strong", "moderate", "notes-backed", "missing-transcript"}, f"evidence {item['id']} has invalid confidence", errors)
+        require(item["confidence"] in {"strong", "moderate", "notes-backed", "manual-notes-backed", "missing-transcript"}, f"evidence {item['id']} has invalid confidence", errors)
         if item["confidence"] in {"strong", "moderate"}:
             require(item["snippet"], f"transcript-backed evidence {item['id']} lacks snippet", errors)
             require(item["transcript_status"] == "available", f"evidence {item['id']} claims support without transcript", errors)
@@ -161,6 +167,11 @@ def validate() -> tuple[list[str], list[str]]:
             require(item["transcript_status"] == "missing", f"notes-backed evidence {item['id']} should not claim transcript availability", errors)
             require(item.get("source_type") == "external-notes", f"notes-backed evidence {item['id']} lacks external note source type", errors)
             require(item.get("note_source_id"), f"notes-backed evidence {item['id']} lacks note source id", errors)
+        if item["confidence"] == "manual-notes-backed":
+            require(item["snippet"], f"manual-notes-backed evidence {item['id']} lacks snippet", errors)
+            require(item["transcript_status"] == "manual-notes", f"manual-notes-backed evidence {item['id']} should use manual-notes transcript status", errors)
+            require(item.get("source_type") == "manual-notes", f"manual-notes-backed evidence {item['id']} lacks manual note source type", errors)
+            require(item.get("manual_note_path"), f"manual-notes-backed evidence {item['id']} lacks manual note path", errors)
         if item["confidence"] == "missing-transcript":
             require(not item["snippet"], f"missing-transcript evidence {item['id']} must not include snippet", errors)
             require(item.get("source_type") == "playlist-title", f"missing evidence {item['id']} must be playlist-title only", errors)

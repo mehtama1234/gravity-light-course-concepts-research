@@ -8,6 +8,8 @@
     "external_notes_status": "available",
     "external_notes_support_status": "not-needed-transcript-backed",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -46,6 +48,8 @@
     "external_notes_status": "available",
     "external_notes_support_status": "not-needed-transcript-backed",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -82,6 +86,8 @@
     "external_notes_status": "available",
     "external_notes_support_status": "not-needed-transcript-backed",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -115,6 +121,8 @@
     "external_notes_status": "available",
     "external_notes_support_status": "not-needed-transcript-backed",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -153,6 +161,8 @@
     "external_notes_status": "available",
     "external_notes_support_status": "not-needed-transcript-backed",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -191,6 +201,8 @@
     "external_notes_status": "available",
     "external_notes_support_status": "not-needed-transcript-backed",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -227,6 +239,8 @@
     "external_notes_status": "available",
     "external_notes_support_status": "not-needed-transcript-backed",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -265,6 +279,8 @@
     "external_notes_status": "available",
     "external_notes_support_status": "not-needed-transcript-backed",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -307,6 +323,8 @@
     "external_notes_status": "available",
     "external_notes_support_status": "not-needed-transcript-backed",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -349,6 +367,8 @@
       "metric-signature-light-cones",
       "proper-time-clock-reading"
     ],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -387,6 +407,8 @@
     "external_notes_status": "available",
     "external_notes_support_status": "not-needed-transcript-backed",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -418,6 +440,8 @@
     "external_notes_status": "available",
     "external_notes_support_status": "not-needed-transcript-backed",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -454,6 +478,8 @@
     "external_notes_status": "available",
     "external_notes_support_status": "not-needed-transcript-backed",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -492,6 +518,8 @@
     "external_notes_status": "available",
     "external_notes_support_status": "not-needed-transcript-backed",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -526,6 +554,8 @@
     "external_notes_status": "available",
     "external_notes_support_status": "not-needed-transcript-backed",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -568,6 +598,8 @@
     "external_notes_status": "available",
     "external_notes_support_status": "not-needed-transcript-backed",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -610,6 +642,8 @@
     "external_notes_status": "missing",
     "external_notes_support_status": "not-needed-transcript-backed",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [],
     "manual_note_template": null,
     "word_count": 12915,
@@ -635,6 +669,11 @@
     "external_notes_status": "available",
     "external_notes_support_status": "source-present-no-assigned-support",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "supports-assigned-concepts",
+    "manual_notes_supported_concept_ids": [
+      "canonical-formulation",
+      "initial-data-constraints"
+    ],
     "external_note_sources": [
       {
         "id": "ernestyalumni-gravity-notes-grande",
@@ -648,14 +687,14 @@
       "canonical-formulation",
       "initial-data-constraints"
     ],
-    "audit_note": "Local transcript missing, and external notes exist from Notes on General Relativity and Gravity, but they do not support the assigned concepts yet.",
+    "audit_note": "Local transcript missing, but filled manual timestamp notes support assigned concepts (canonical-formulation, initial-data-constraints).",
     "central_question": "How does this lecture use Canonical Formulation and Constraints, Initial Data Must Satisfy Constraints to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
     "first_principles_role": "Lecture 18 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to describe spacetime evolution from data on a space-like slice while respecting coordinate freedom. The course needs to explain why not every imagined snapshot of space can be the start of a valid spacetime. The mathematical work to watch is: The operation is decomposing spacetime into space plus time, identifying constraints, and checking how allowed data evolves. The operation is checking the constraint equations before using the data as a lawful starting point. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
       "The canonical formulation rewrites spacetime geometry as slice geometry plus momentum-like data, constrained by the same physics in a different language.",
       "Initial data consists of spatial geometry plus momentum-like change data that obeys Hamiltonian and momentum constraints."
     ],
-    "reader_warning": "This lecture has external notes on file, but none currently support the assigned concepts. It still needs direct viewing notes or a better source for those claims."
+    "reader_warning": "This lecture lacks local YouTube captions, but filled manual timestamp notes now support assigned concepts. Treat them as direct local evidence while remembering they are not official captions."
   },
   {
     "index": 19,
@@ -666,6 +705,11 @@
     "external_notes_status": "missing",
     "external_notes_support_status": "missing",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "supports-assigned-concepts",
+    "manual_notes_supported_concept_ids": [
+      "canonical-formulation",
+      "initial-data-constraints"
+    ],
     "external_note_sources": [],
     "manual_note_template": "raw-material/manual-notes/lecture-19-canonical-formulation-gr-ii.md",
     "word_count": 0,
@@ -673,14 +717,14 @@
       "canonical-formulation",
       "initial-data-constraints"
     ],
-    "audit_note": "Needs manual lecture notes or another transcript source before detailed claims should be treated as supported.",
+    "audit_note": "Local transcript missing, but filled manual timestamp notes support assigned concepts (canonical-formulation, initial-data-constraints).",
     "central_question": "How does this lecture use Canonical Formulation and Constraints, Initial Data Must Satisfy Constraints to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
     "first_principles_role": "Lecture 19 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to describe spacetime evolution from data on a space-like slice while respecting coordinate freedom. The course needs to explain why not every imagined snapshot of space can be the start of a valid spacetime. The mathematical work to watch is: The operation is decomposing spacetime into space plus time, identifying constraints, and checking how allowed data evolves. The operation is checking the constraint equations before using the data as a lawful starting point. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
       "The canonical formulation rewrites spacetime geometry as slice geometry plus momentum-like data, constrained by the same physics in a different language.",
       "Initial data consists of spatial geometry plus momentum-like change data that obeys Hamiltonian and momentum constraints."
     ],
-    "reader_warning": "This lecture is not locally transcript-backed. Treat its page as a roadmap for future notes, not as a finished explanation of the lecture."
+    "reader_warning": "This lecture lacks local YouTube captions, but filled manual timestamp notes now support assigned concepts. Treat them as direct local evidence while remembering they are not official captions."
   },
   {
     "index": 20,
@@ -694,6 +738,8 @@
       "cosmology-scale-factor",
       "scale-factor-expansion-history"
     ],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -730,6 +776,8 @@
     "external_notes_status": "available",
     "external_notes_support_status": "not-needed-transcript-backed",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -767,6 +815,8 @@
     "external_notes_status": "available",
     "external_notes_support_status": "not-needed-transcript-backed",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -807,6 +857,8 @@
       "event-horizon-causal-boundary",
       "penrose-diagrams-compress-infinity"
     ],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -844,6 +896,8 @@
       "linearized-equations-small-disturbances",
       "perturbations-waves"
     ],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -886,6 +940,8 @@
       "linearized-equations-small-disturbances",
       "perturbations-waves"
     ],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -919,6 +975,8 @@
     "external_notes_status": "available",
     "external_notes_support_status": "not-needed-transcript-backed",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -953,6 +1011,8 @@
     "external_notes_status": "missing",
     "external_notes_support_status": "not-needed-transcript-backed",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [],
     "manual_note_template": null,
     "word_count": 17546,
@@ -982,6 +1042,8 @@
     "external_notes_status": "available",
     "external_notes_support_status": "not-needed-transcript-backed",
     "notes_supported_concept_ids": [],
+    "manual_notes_support_status": "missing",
+    "manual_notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "ernestyalumni-gravity-notes-grande",

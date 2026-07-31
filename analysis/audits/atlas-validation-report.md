@@ -8,14 +8,15 @@
 - Strong transcript matches: 186
 - Moderate transcript-backed records: 0
 - External-notes-backed records: 14
-- Missing-transcript placeholders: 4
+- Manual-notes-backed records: 4
+- Missing-transcript placeholders: 0
 - Lectures with transcripts: 21/28
 
 ## Missing Transcript Coverage
 
 - Lecture 10: Lecture 10: Metric Manifolds - Local transcript missing, but external notes support assigned concepts (metric-measurement, metric-signature-light-cones, proper-time-clock-reading) from: The WE-Heraeus International Winter School on Gravity and Light notes, Notes on General Relativity and Gravity.
-- Lecture 18: Lecture 18: Canonical Formulation of GR I - Local transcript missing, and external notes exist from Notes on General Relativity and Gravity, but they do not support the assigned concepts yet.
-- Lecture 19: Lecture 19: Canonical Formulation of GR II - Needs manual lecture notes or another transcript source before detailed claims should be treated as supported.
+- Lecture 18: Lecture 18: Canonical Formulation of GR I - Local transcript missing, but filled manual timestamp notes support assigned concepts (canonical-formulation, initial-data-constraints).
+- Lecture 19: Lecture 19: Canonical Formulation of GR II - Local transcript missing, but filled manual timestamp notes support assigned concepts (canonical-formulation, initial-data-constraints).
 - Lecture 20: Lecture 20: Cosmology - The early epoch - Local transcript missing, but external notes support assigned concepts (cosmology-scale-factor, scale-factor-expansion-history) from: The WE-Heraeus International Winter School on Gravity and Light notes, Notes on General Relativity and Gravity.
 - Lecture 23: Lecture 23: Penrose Diagrams - Local transcript missing, but external notes support assigned concepts (black-holes-horizons, event-horizon-causal-boundary, penrose-diagrams-compress-infinity) from: The WE-Heraeus International Winter School on Gravity and Light notes.
 - Lecture 24: Lecture 24: Perturbation Theory I - Local transcript missing, but external notes support assigned concepts (gauge-versus-physical-change, linearized-equations-small-disturbances, perturbations-waves) from: The WE-Heraeus International Winter School on Gravity and Light notes, Notes on General Relativity and Gravity.
@@ -38,12 +39,16 @@
 - Lecture 25: linearized-equations-small-disturbances - notes-backed by The WE-Heraeus International Winter School on Gravity and Light notes
 - Lecture 25: perturbations-waves - notes-backed by The WE-Heraeus International Winter School on Gravity and Light notes
 
+## Manual Notes Coverage
+
+- Lecture 18: canonical-formulation - manual-notes-backed by raw-material/manual-notes/lecture-18-canonical-formulation-gr-i.md at 00:03:17 - 00:04:19
+- Lecture 18: initial-data-constraints - manual-notes-backed by raw-material/manual-notes/lecture-18-canonical-formulation-gr-i.md at 00:25:42 - 00:27:58
+- Lecture 19: canonical-formulation - manual-notes-backed by raw-material/manual-notes/lecture-19-canonical-formulation-gr-ii.md at 00:00:20 - 00:01:54
+- Lecture 19: initial-data-constraints - manual-notes-backed by raw-material/manual-notes/lecture-19-canonical-formulation-gr-ii.md at 00:03:25 - 00:08:33
+
 ## Still Unsupported Concept Evidence
 
-- Lecture 18: canonical-formulation - no local transcript or notes-backed source yet.
-- Lecture 18: initial-data-constraints - no local transcript or notes-backed source yet.
-- Lecture 19: canonical-formulation - no local transcript or notes-backed source yet.
-- Lecture 19: initial-data-constraints - no local transcript or notes-backed source yet.
+- None.
 
 ## Depth Standard
 
@@ -51,4 +56,4 @@ Every concept page is required to explain the ordinary problem, the tempting but
 
 ## Current Limitation
 
-This is a transcript-grounded and notes-augmented atlas, not a finished lecture-note replacement. Missing subtitle lectures are separated into notes-backed records and still-unsupported placeholders.
+This is a transcript-grounded atlas with external-note and manual-note recovery for missing-caption lectures. It is not an official lecture transcript replacement; each evidence record keeps its source tier visible.

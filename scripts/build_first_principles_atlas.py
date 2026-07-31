@@ -972,6 +972,53 @@ def load_notes_sections() -> dict[int, list[dict[str, str]]]:
     return sections
 
 
+def parse_seconds(value: str) -> int:
+    parts = [int(part) for part in value.strip().split(":") if part.strip()]
+    seconds = 0
+    for part in parts:
+        seconds = seconds * 60 + part
+    return seconds
+
+
+def load_manual_note_sections() -> dict[int, list[dict[str, Any]]]:
+    sections: dict[int, list[dict[str, Any]]] = {}
+    for lecture_index, rel_path in MANUAL_NOTES.items():
+        path = ROOT / rel_path
+        if not path.exists():
+            continue
+        text = path.read_text(encoding="utf-8")
+        video_match = re.search(r"^- Video:\s*(\S+)", text, re.MULTILINE)
+        title_match = re.search(r"^- Title:\s*(.+)", text, re.MULTILINE)
+        video_url = video_match.group(1) if video_match else ""
+        title = title_match.group(1).strip() if title_match else f"Lecture {lecture_index:02d} manual notes"
+        rows: list[dict[str, Any]] = []
+        for line in text.splitlines():
+            if not line.startswith("|"):
+                continue
+            cells = [cell.strip() for cell in line.strip().strip("|").split("|")]
+            if len(cells) != 4 or cells[0].lower() in {"start", "---"} or not cells[0] or not cells[2]:
+                continue
+            concept_ids = re.findall(r"`([^`]+)`", cells[3])
+            if not concept_ids:
+                concept_ids = [part.strip() for part in cells[3].split(",") if part.strip()]
+            rows.append(
+                {
+                    "source_id": f"manual-notes-lecture-{lecture_index:02d}",
+                    "source_title": f"Manual timestamp notes for {title}",
+                    "source_url": video_url,
+                    "source_path": rel_path,
+                    "start": cells[0],
+                    "end": cells[1],
+                    "start_seconds": parse_seconds(cells[0]),
+                    "end_seconds": parse_seconds(cells[1]),
+                    "observation": cells[2],
+                    "concept_ids": concept_ids,
+                }
+            )
+        sections[lecture_index] = rows
+    return sections
+
+
 def compact_snippet(text: str, max_words: int = 46) -> str:
     words = text.split()
     if len(words) <= max_words:
@@ -1022,6 +1069,34 @@ def find_note_evidence(seed: ConceptSeed, lecture_index: int, notes_sections: di
     return None
 
 
+def find_manual_note_evidence(seed: ConceptSeed, lecture_index: int, manual_sections: dict[int, list[dict[str, Any]]]) -> dict[str, Any] | None:
+    for row in manual_sections.get(lecture_index, []):
+        if seed.id not in row["concept_ids"]:
+            continue
+        timestamp = f"{row['start']} - {row['end']}"
+        return {
+            "id": f"ev-{seed.id}-l{lecture_index:02d}-manual",
+            "concept_id": seed.id,
+            "lecture_index": lecture_index,
+            "lecture_title": f"Lecture {lecture_index:02d}",
+            "url": f"{row['source_url']}&t={row['start_seconds']}s" if row["source_url"] else None,
+            "timestamp": timestamp,
+            "snippet": compact_snippet(row["observation"], max_words=58),
+            "transcript_status": "manual-notes",
+            "source_type": "manual-notes",
+            "note_source_id": row["source_id"],
+            "note_source_title": row["source_title"],
+            "manual_note_path": row["source_path"],
+            "confidence": "manual-notes-backed",
+            "lecture_argument": f"Manual timestamp notes for this lecture support the course placement of {seed.name.lower()}: {seed.ordinary_problem}",
+            "mathematical_object": seed.mathematical_object,
+            "operation": seed.operation,
+            "why_span_matters": seed.why_for_gravity_light,
+            "caveat_or_warning": "This is backed by local timestamp notes transcribed from lecture audio because YouTube captions are unavailable; use it as direct lecture evidence, not as an official caption file.",
+        }
+    return None
+
+
 def concept_deep_layers(seed: ConceptSeed) -> dict[str, str]:
     first_principles = (
         f"Start with the ordinary problem: {seed.ordinary_problem} "
@@ -1052,7 +1127,12 @@ def concept_deep_layers(seed: ConceptSeed) -> dict[str, str]:
     }
 
 
-def find_evidence(seed: ConceptSeed, records_by_index: dict[int, dict[str, Any]], notes_sections: dict[int, list[dict[str, str]]]) -> list[dict[str, Any]]:
+def find_evidence(
+    seed: ConceptSeed,
+    records_by_index: dict[int, dict[str, Any]],
+    notes_sections: dict[int, list[dict[str, str]]],
+    manual_sections: dict[int, list[dict[str, Any]]],
+) -> list[dict[str, Any]]:
     evidence = []
     for lecture_index in seed.lecture_indexes:
         record = records_by_index[lecture_index]
@@ -1061,6 +1141,11 @@ def find_evidence(seed: ConceptSeed, records_by_index: dict[int, dict[str, Any]]
             if note_evidence is not None:
                 note_evidence["lecture_title"] = record["expected_title"]
                 evidence.append(note_evidence)
+                continue
+            manual_evidence = find_manual_note_evidence(seed, lecture_index, manual_sections)
+            if manual_evidence is not None:
+                manual_evidence["lecture_title"] = record["expected_title"]
+                evidence.append(manual_evidence)
                 continue
             evidence_id = f"ev-{seed.id}-l{lecture_index:02d}"
             evidence.append(
@@ -1143,11 +1228,12 @@ def build() -> None:
     records = load_records()
     records_by_index = {r["index"]: r for r in records}
     notes_sections = load_notes_sections()
+    manual_sections = load_manual_note_sections()
     evidence_records: list[dict[str, Any]] = []
     concepts: list[dict[str, Any]] = []
 
     for seed in CONCEPTS:
-        ev = find_evidence(seed, records_by_index, notes_sections)
+        ev = find_evidence(seed, records_by_index, notes_sections, manual_sections)
         evidence_records.extend(ev)
         concepts.append(
             {
@@ -1178,13 +1264,17 @@ def build() -> None:
         for index in concept["lecture_indexes"]:
             concept_by_lecture.setdefault(index, []).append(concept["id"])
     notes_supported_by_lecture: dict[int, list[str]] = {}
+    manual_supported_by_lecture: dict[int, list[str]] = {}
     for item in evidence_records:
         if item["confidence"] == "notes-backed":
             notes_supported_by_lecture.setdefault(item["lecture_index"], []).append(item["concept_id"])
+        if item["confidence"] == "manual-notes-backed":
+            manual_supported_by_lecture.setdefault(item["lecture_index"], []).append(item["concept_id"])
     for record in records:
         lecture_concept_ids = concept_by_lecture.get(record["index"], [])
         lecture_notes = notes_sections.get(record["index"], [])
         notes_supported_concepts = sorted(set(notes_supported_by_lecture.get(record["index"], [])))
+        manual_supported_concepts = sorted(set(manual_supported_by_lecture.get(record["index"], [])))
         if record["transcript_status"] == "available":
             external_support_status = "not-needed-transcript-backed"
         elif not lecture_notes:
@@ -1203,6 +1293,8 @@ def build() -> None:
                 "external_notes_status": "available" if lecture_notes else "missing",
                 "external_notes_support_status": external_support_status,
                 "notes_supported_concept_ids": notes_supported_concepts,
+                "manual_notes_support_status": "supports-assigned-concepts" if manual_supported_concepts else "missing",
+                "manual_notes_supported_concept_ids": manual_supported_concepts,
                 "external_note_sources": [
                     {
                         "id": item["source_id"],
@@ -1214,11 +1306,11 @@ def build() -> None:
                 "manual_note_template": MANUAL_NOTES.get(record["index"]),
                 "word_count": record.get("word_count", 0),
                 "concept_ids": lecture_concept_ids,
-                "audit_note": lecture_audit_note(record, lecture_notes, notes_supported_concepts),
+                "audit_note": lecture_audit_note(record, lecture_notes, notes_supported_concepts, manual_supported_concepts),
                 "central_question": lecture_central_question(record, lecture_concept_ids, concepts),
                 "first_principles_role": lecture_first_principles_role(record, lecture_concept_ids, concepts),
                 "mathematical_objects_to_track": lecture_objects_to_track(lecture_concept_ids, concepts),
-                "reader_warning": lecture_reader_warning(record, lecture_notes, notes_supported_concepts),
+                "reader_warning": lecture_reader_warning(record, lecture_notes, notes_supported_concepts, manual_supported_concepts),
             }
         )
 
@@ -1305,13 +1397,21 @@ def sequence_role(indexes: tuple[int, ...]) -> str:
     return "Moves from exact structures to small measurable departures, physical source models, and detector response."
 
 
-def lecture_audit_note(record: dict[str, Any], lecture_notes: list[dict[str, str]], notes_supported_concepts: list[str]) -> str:
+def lecture_audit_note(
+    record: dict[str, Any],
+    lecture_notes: list[dict[str, str]],
+    notes_supported_concepts: list[str],
+    manual_supported_concepts: list[str],
+) -> str:
     if record["transcript_status"] == "available":
         return f"Transcript-backed with {record.get('word_count', 0)} words available for snippet-level evidence."
     if notes_supported_concepts:
         titles = ", ".join(item["source_title"] for item in lecture_notes)
         concepts = ", ".join(notes_supported_concepts)
         return f"Local transcript missing, but external notes support assigned concepts ({concepts}) from: {titles}."
+    if manual_supported_concepts:
+        concepts = ", ".join(manual_supported_concepts)
+        return f"Local transcript missing, but filled manual timestamp notes support assigned concepts ({concepts})."
     if lecture_notes:
         titles = ", ".join(item["source_title"] for item in lecture_notes)
         return f"Local transcript missing, and external notes exist from {titles}, but they do not support the assigned concepts yet."
@@ -1343,11 +1443,18 @@ def lecture_objects_to_track(concept_ids: list[str], concepts: list[dict[str, An
     return [concept["mathematical_object"] for concept in concepts if concept["id"] in concept_ids]
 
 
-def lecture_reader_warning(record: dict[str, Any], lecture_notes: list[dict[str, str]], notes_supported_concepts: list[str]) -> str:
+def lecture_reader_warning(
+    record: dict[str, Any],
+    lecture_notes: list[dict[str, str]],
+    notes_supported_concepts: list[str],
+    manual_supported_concepts: list[str],
+) -> str:
     if record["transcript_status"] == "available":
         return "This lecture has local transcript evidence. Claims should cite snippets or timestamps when they interpret the lecture's argument."
     if notes_supported_concepts:
         return "This lecture lacks local YouTube captions, but external notes are available. Treat notes-backed claims as useful but not identical to transcript evidence."
+    if manual_supported_concepts:
+        return "This lecture lacks local YouTube captions, but filled manual timestamp notes now support assigned concepts. Treat them as direct local evidence while remembering they are not official captions."
     if lecture_notes:
         return "This lecture has external notes on file, but none currently support the assigned concepts. It still needs direct viewing notes or a better source for those claims."
     return "This lecture is not locally transcript-backed. Treat its page as a roadmap for future notes, not as a finished explanation of the lecture."
@@ -1373,6 +1480,7 @@ def write_audit(concepts: list[dict[str, Any]], evidence: list[dict[str, Any]], 
     strong = [e for e in evidence if e["confidence"] == "strong"]
     moderate = [e for e in evidence if e["confidence"] == "moderate"]
     notes_backed = [e for e in evidence if e["confidence"] == "notes-backed"]
+    manual_backed = [e for e in evidence if e["confidence"] == "manual-notes-backed"]
     missing_ev = [e for e in evidence if e["confidence"] == "missing-transcript"]
     lines = [
         "# Atlas Audit",
@@ -1385,6 +1493,7 @@ def write_audit(concepts: list[dict[str, Any]], evidence: list[dict[str, Any]], 
         f"- Strong transcript matches: {len(strong)}",
         f"- Moderate transcript-backed records: {len(moderate)}",
         f"- External-notes-backed records: {len(notes_backed)}",
+        f"- Manual-notes-backed records: {len(manual_backed)}",
         f"- Missing-transcript placeholders: {len(missing_ev)}",
         f"- Lectures with transcripts: {len(lectures) - len(missing)}/{len(lectures)}",
         "",
@@ -1410,6 +1519,18 @@ def write_audit(concepts: list[dict[str, Any]], evidence: list[dict[str, Any]], 
         lines.append("- None.")
     lines += [
         "",
+        "## Manual Notes Coverage",
+        "",
+    ]
+    if manual_backed:
+        for item in sorted(manual_backed, key=lambda ev: (ev["lecture_index"], ev["concept_id"])):
+            lines.append(
+                f"- Lecture {item['lecture_index']:02d}: {item['concept_id']} - manual-notes-backed by {item.get('manual_note_path', 'manual notes')} at {item.get('timestamp', 'timestamped span')}"
+            )
+    else:
+        lines.append("- None.")
+    lines += [
+        "",
         "## Still Unsupported Concept Evidence",
         "",
     ]
@@ -1426,7 +1547,7 @@ def write_audit(concepts: list[dict[str, Any]], evidence: list[dict[str, Any]], 
         "",
         "## Current Limitation",
         "",
-        "This is a transcript-grounded and notes-augmented atlas, not a finished lecture-note replacement. Missing subtitle lectures are separated into notes-backed records and still-unsupported placeholders.",
+        "This is a transcript-grounded atlas with external-note and manual-note recovery for missing-caption lectures. It is not an official lecture transcript replacement; each evidence record keeps its source tier visible.",
         "",
     ]
     (ANALYSIS / "audits").mkdir(parents=True, exist_ok=True)
