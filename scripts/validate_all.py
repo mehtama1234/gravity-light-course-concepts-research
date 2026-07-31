@@ -68,6 +68,7 @@ def validate() -> tuple[list[str], list[str]]:
     notes_index_path = ROOT / "raw-material" / "external-notes" / "notes-index.json"
     recovery_report = ANALYSIS / "audits" / "source-recovery-report.md"
     readiness_report = ANALYSIS / "audits" / "goal-readiness-audit.md"
+    full_archive_readiness_report = ANALYSIS / "audits" / "full-archive-readiness-audit.md"
     manual_note_templates = [
         ROOT / "raw-material" / "manual-notes" / "lecture-18-canonical-formulation-gr-i.md",
         ROOT / "raw-material" / "manual-notes" / "lecture-19-canonical-formulation-gr-ii.md",
@@ -78,6 +79,8 @@ def validate() -> tuple[list[str], list[str]]:
     themes = load_json(ANALYSIS / "themes" / "theme-map.json")
     families = load_json(ANALYSIS / "families" / "family-map.json")
     primitives = load_json(ANALYSIS / "throughlines" / "primitives.json")
+    archive_videos = load_json(ANALYSIS / "archive" / "video-atlas.json")
+    archive_evidence = load_json(ANALYSIS / "archive" / "evidence-ledger.json")
 
     require(len(transcript_index) == 28, "transcript index must contain 28 records", errors)
     full_archive_videos = full_archive_manifest.get("videos", [])
@@ -102,6 +105,7 @@ def validate() -> tuple[list[str], list[str]]:
     require(notes_index_path.exists(), "external notes index must exist", errors)
     require(recovery_report.exists(), "source recovery report must exist", errors)
     require(readiness_report.exists(), "goal readiness audit must exist", errors)
+    require(full_archive_readiness_report.exists(), "full archive readiness audit must exist", errors)
     for template in manual_note_templates:
         require(template.exists(), f"manual note template missing: {template.relative_to(ROOT)}", errors)
     available = [r for r in transcript_index if r["transcript_status"] == "available"]
@@ -144,6 +148,21 @@ def validate() -> tuple[list[str], list[str]]:
     require(len(themes) >= 5, "theme map should contain at least 5 themes", errors)
     require(len(families) >= 6, "family map should contain at least 6 lecture families", errors)
     require(len(primitives) >= 4, "throughline primitives should contain at least 4 entries", errors)
+    require(len(archive_videos) == 13, "archive video atlas must contain 13 tutorial/evening records", errors)
+    require(len(archive_evidence) == 13, "archive evidence ledger must contain 13 records", errors)
+    require(sum(item["type"] == "tutorial" for item in archive_videos) == 11, "archive video atlas must contain 11 tutorials", errors)
+    require(sum(item["type"] == "evening-lecture" for item in archive_videos) == 2, "archive video atlas must contain 2 evening lectures", errors)
+    for item in archive_videos:
+        for field in ("ordinary_problem", "mathematical_object", "operation", "why_it_matters", "what_breaks", "reader_warning"):
+            require(words(item[field]) >= 8, f"archive video {item['slug']} field {field} is too thin", errors)
+            check_banned_phrases(f"archive video {item['slug']} field {field}", item[field], errors)
+    for item in archive_evidence:
+        require(item["confidence"] in {"strong", "missing-transcript"}, f"archive evidence {item['id']} has invalid confidence", errors)
+        if item["confidence"] == "strong":
+            require(item["snippet"], f"archive evidence {item['id']} lacks snippet", errors)
+            require(item["source_type"] == "youtube-transcript", f"archive evidence {item['id']} has wrong source type", errors)
+        if item["confidence"] == "missing-transcript":
+            require(item["source_type"] == "unsupported-placeholder", f"archive missing evidence {item['id']} has wrong source type", errors)
 
     required_concept_fields = (
         "ordinary_problem",
@@ -222,6 +241,8 @@ def validate_site(concepts: list[dict[str, Any]], errors: list[str]) -> None:
     expected = [
         SITE / "index.html",
         SITE / "lectures.html",
+        SITE / "tutorials.html",
+        SITE / "evening-lectures.html",
         SITE / "concepts.html",
         SITE / "families.html",
         SITE / "themes.html",
@@ -230,6 +251,7 @@ def validate_site(concepts: list[dict[str, Any]], errors: list[str]) -> None:
     ]
     expected += [SITE / "concepts" / f"{concept['id']}.html" for concept in concepts]
     expected += [SITE / "lectures" / f"{index:02d}.html" for index in range(1, 29)]
+    expected += [SITE / "archive" / f"{item['slug']}.html" for item in load_json(ANALYSIS / "archive" / "video-atlas.json")]
     for path in expected:
         require(path.exists(), f"site file missing: {path.relative_to(ROOT)}", errors)
 
