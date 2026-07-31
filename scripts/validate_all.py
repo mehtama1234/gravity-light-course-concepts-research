@@ -223,6 +223,7 @@ def validate() -> tuple[list[str], list[str]]:
     for item in math_why:
         require(item["concept_ids"], f"math why {item.get('id')} lacks concepts", errors)
         require(item["archive_slugs"], f"math why {item.get('id')} lacks archive links", errors)
+        require(len(item.get("calculation", [])) >= 4, f"math why {item.get('id')} lacks step-by-step calculation", errors)
         for concept_id in item["concept_ids"]:
             require(concept_id in concept_ids, f"math why {item.get('id')} points to missing concept {concept_id}", errors)
         for slug in item["archive_slugs"]:
@@ -230,6 +231,9 @@ def validate() -> tuple[list[str], list[str]]:
         for field in ("ordinary_problem", "mathematical_move", "worked_example", "why_it_works", "payoff"):
             require(words(item[field]) >= 28, f"math why {item.get('id')} field {field} is too thin", errors)
             check_banned_phrases(f"math why {item.get('id')} field {field}", item[field], errors)
+        for step_index, step in enumerate(item.get("calculation", []), start=1):
+            require(words(step) >= 10, f"math why {item.get('id')} calculation step {step_index} is too thin", errors)
+            check_banned_phrases(f"math why {item.get('id')} calculation step {step_index}", step, errors)
 
     required_concept_fields = (
         "ordinary_problem",
@@ -356,7 +360,7 @@ def validate_site(concepts: list[dict[str, Any]], errors: list[str]) -> None:
         require("What Breaks If You Skip This" in text and "Repair" in text, "dependency map page lacks failure-and-repair language", errors)
     if math_why_page.exists():
         text = math_why_page.read_text(encoding="utf-8")
-        require("The Mathematical Why" in text and "Worked example" in text and "The One Move" in text, "math why page lacks required companion language", errors)
+        require("The Mathematical Why" in text and "Worked example" in text and "Step-by-step calculation" in text and "The One Move" in text, "math why page lacks required companion language", errors)
 
 
 def main() -> int:

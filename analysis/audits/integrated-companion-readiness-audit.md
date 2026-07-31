@@ -9,6 +9,7 @@
 - Cross-video learning path stages: 7
 - Dependency failure/repair records: 12
 - Mathematical-why companion sections: 12
+- Mathematical-why calculation steps: 48
 - Site HTML pages: 100
 - Unsupported archive evidence placeholders: 0
 
@@ -18,11 +19,11 @@
 - Concept pages surface tutorial pressure tests where archive support exists. Validation checks that every archive-supported concept page renders the `Tutorial Pressure Tests` section.
 - The course has a non-linear learning route: `analysis/integration/learning-path.json` and `site/learning-path.html` organize the material by what the reader must be able to do, not only by upload order.
 - The course has a failure map: `analysis/integration/dependency-map.json` and `site/what-breaks.html` state what breaks when important mathematical ideas are skipped and how to repair the gap.
-- The course has a mathematical-why companion: `analysis/integration/math-why.json` and `site/the-math-why.html` explain the main course moves with ordinary problems, mathematical operations, worked examples, why-the-move works, and later payoff.
+- The course has a mathematical-why companion: `analysis/integration/math-why.json` and `site/the-math-why.html` explain the main course moves with ordinary problems, mathematical operations, worked examples, step-by-step calculations, why-the-move works, and later payoff.
 - Families and themes surface tutorial pressure instead of treating tutorials as archive extras. Validation checks that `site/families.html` and `site/themes.html` render these sections.
 - Navigation links the companion pages across the generated site, including archive pages.
 - Source tiers remain explicit: tutorial/evening evidence is either `youtube-transcript` or `manual-notes`; no unsupported archive placeholders remain.
-- Writing constraints remain enforced by validation: banned phrases are checked, and pressure-test, learning-path, dependency-map, and source-span fields have minimum depth gates.
+- Writing constraints remain enforced by validation: banned phrases are checked, and pressure-test, learning-path, dependency-map, mathematical-why calculation, and source-span fields have minimum depth gates.
 
 ## Source Caveat
 
@@ -31,4 +32,4 @@
 
 ## Completion Judgment
 
-The integrated companion deliverable is complete: the site now works as one connected course map rather than 28 lecture pages plus an archive add-on. Each supported concept can point to tutorial/evening pressure, the course has a cross-video route, the dependency failures are explicit, the mathematical-why page gives worked first-principles explanations, validation covers the new artifacts, and the generated site has no missing local links.
+The integrated companion deliverable is complete: the site now works as one connected course map rather than 28 lecture pages plus an archive add-on. Each supported concept can point to tutorial/evening pressure, the course has a cross-video route, the dependency failures are explicit, the mathematical-why page gives worked first-principles explanations with step-by-step calculations, validation covers the new artifacts, and the generated site has no missing local links.

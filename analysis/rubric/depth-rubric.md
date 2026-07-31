@@ -42,6 +42,6 @@ The companion layer must include:
 - tutorial or evening pressure tests on every concept supported by archive videos;
 - a cross-video learning path based on what the reader must be able to do;
 - a dependency map that states what breaks if a mathematical idea is skipped;
-- a mathematical-why companion that explains the shared mathematical moves with worked examples;
+- a mathematical-why companion that explains the shared mathematical moves with worked examples and step-by-step calculations;
 - family and theme pages that surface tutorial pressure, not just lecture groups;
 - validation that checks these artifacts render and remain linked.
