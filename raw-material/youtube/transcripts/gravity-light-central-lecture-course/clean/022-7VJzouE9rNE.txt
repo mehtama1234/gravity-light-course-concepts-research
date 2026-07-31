@@ -1,0 +1,1883 @@
+this program is being presented to you
+by the heras international winter school
+on gravity and
+light so good morning welcome to lecture
+number 22 of the international winter
+school um today we'll turn to a
+discussion of black holes and in
+particular the Schwarz Shield black hole
+now um if you uh couldn't be here for
+the last six lectures uh that's not a
+problem because what we do today only
+depends on lectures 1 to 15 um
+so uh there's a fresh start if you wish
+and uh the same will be true on
+Wednesday when there will be again a
+fresh start so uh now the topics stop
+being being dependent totally on
+everything that happened before uh so
+maybe that gives you some comfort in
+studying this now what we wish to do
+here in this lecture is uh to study the
+Schwarz Shield
+solution and you saw the Schwarz Shield
+solution and in fact you verified that
+the Schwarz Shield solution is a vacuum
+solution um of einin
+equations you saw this in tutorials
+right and what you checked there is that
+you if you plug in the following metric
+G being a 02 tensor can be written as 1
+minus 2 m over R where this little m is
+short for capital g capital M where this
+is called the mass of the Schwarz Shield
+SpaceTime and G is Newton's
+gravitational
+constant you can write it like this DT
+tensor DT or in other words in
+coordinates where T is one coordinate
+it's the first entry of the Matrix for
+the T in those coordinates um minus 1
+over 1 - 2 m / R Dr R tensor d r minus r
+2 D Theta tensor D theta plus sin s
+Theta D 10
+D or again as I said in other words it's
+a diagonal metric in coordinates t r
+Theta F where the diagonal entries are
+this Factor this one minus r 2 and minus
+r 2 sin 2 Theta you check that this is a
+vacuum solution uh in a chart in the
+so-called Schwartz
+Shield
+coordinates so the metric is called the
+Schwarz Shield metric and that refers to
+the G but the coordinates in which this
+is formulated are maybe unfortunately
+also called Schwarz Shield coordinates
+of course you could express the Schwarz
+Shield metric in non Schwarz Shield
+coordinates but here the Schwarz Shield
+metric is expressed in Schwarz Shield
+coordinates and those are coordinates t
+r Theta and F and the T can take values
+from minus infin inity to Infinity R can
+take values from 0 to Infinity Theta
+from 0 to Pi and five from 0 to 2 pi now
+we will be careful to keep track of the
+ranges of variables here because you
+remember that in the beginning we
+studied quite a lot manifolds and charts
+and chart Transitions and we emphasized
+very much that one chart may not be
+enough to cover the whole
+manifold and we also discussed that if
+you know something in a
+chart outside this chart domain there
+may lie still parts of the real world
+you haven't
+seen now here with the Schwarz metric
+and schwar shield coordinates you can
+draw pictures of that and we'll do that
+and you can live happily under the
+illusion that this is covers the entire
+world and you say yeah maybe here there
+there their lines taken out because of
+the breakdown of these polar coordinates
+so to speak but other than that this
+certainly covers the whole world well
+today we'll find out that this is far
+from the truth and we'll find out that
+understanding this metric is only
+possible really if we find other charts
+that extend this chart quite a bit so
+what seems to be a complete World in
+fact is not so um the remark I wish to
+make is uh the following
+um when staring at this line element or
+when staring at this metric for a
+while well that's an important
+theoretical technique to stare when
+staring at this
+metric for a
+while two
+questions naturally pose
+themselves
+the first question
+is what happens what
+exactly
+happens at r equal 2
+m and so if I ask this you say why am I
+interested in Ral 2 m well at R = 2 m 1
+- 1 is zero and worse 1 / by 0 is
+infinity aha Why didn't you complain
+when I said R runs from zero to Infinity
+it doesn't it doesn't in these
+coordinates R may run from 0 to 2 m
+exclusively and then this may then run
+again from 2 m to plus infinity it's
+this Union this disjoint Union and the 2
+m r equal 2 m cannot be assumed for this
+metric because even if you ignore this
+the metric becomes degenerate here so
+one component is zero the other one is
+infinity what a mess okay so first
+inside this R which we might have
+thought as a cozy radial parameter
+cannot take this value
+yes pardon
+me yes but the point is that that is now
+well we'll see if if so the point is
+we'll start here and we'll see whether
+this is all you have so if you suspect
+that there might be something beyond the
+zero to zero or minus infinity we'll
+Discover
+it why does nobody ask whether there's
+something Beyond minus infinity and
+something beyond Infinity
+here that's the second question
+second um is there
+anything in the real
+world
+Beyond T minus infinity and t plus
+infinity and that may sound like a very
+silly question but in fact it isn't
+because say well what what could be
+beyond Infinity don't be ridiculous
+remember this is just a chart so um the
+idea is the following it's just a
+question right we we'll see the idea is
+the following if I have a map of
+lens and it covers the entire area of
+lens let's assume lens is
+rectangular lens but then if you go
+beyond that you come to the next town
+okay why wouldn't I take this chart if
+this is already a chart and I would blow
+it up to a chart that's infinitely large
+that's the whole plane I can do that
+right I can take this interval from 0 to
+one say or minus one to one and I can
+blow it up in a one: one continuous
+manner to the whole real
+line then lens would be you would come
+to the boundary of lens if you go to
+Infinity on the chart or to minus
+infinity does that imply that beyond
+that Infinity in that chart there is
+nothing more to the real world than
+lints of course
+not this could be the case here
+so it's not a silly question so that's
+the point you work with charts and you
+need to understand what a chart means so
+if you understand what a chart means and
+we do understand that then you come up
+with all kinds of questions uh and all
+kinds of problems you didn't have before
+and that's called
+progress so the point is how do we get
+insight into these questions because
+obviously if we look at it from this
+point of view we won't because these
+coordinates themselves then are the
+problem how do I transcend the
+coordinates by using them so insight
+into these
+issues into these two and of course the
+same could be the same point could be
+made for R greater than infinity or
+something like this right so inside into
+these two
+issues is
+afforded by
+stopping to
+stare right that's also a technique so
+you stare and then you stop to stare
+because what is the inside the inside is
+if we want to learn something about the
+real world we should look at objective
+objects not at chart dependent objects
+but at objective
+objects what is objective if you have a
+metric well what is objective is for
+instance what are the geodesics of the
+metric they might then be EXP pressed in
+those coordinates but as objects as such
+they describe something in the real
+world okay um look
+at
+geodesics of G
+instead because that's something in the
+real world that's how we transcend uh
+the coordinates although we still work
+in the coordinates we we look at an
+object that's not coordinate dependent
+okay so what we do first section is we
+look at radially radial null
+geodesics now this is uh just
+terminology a null geodesic is a
+geodesic whose tangent Vector at every
+point is zero that's a n j it's the U
+the um world line of a massless particle
+so let's consider these in Schwarz
+Shield
+consider null
+geodesic
+in s CHD that's the short form for
+Schwarz okay let's consider n geodesic
+there so what do you need to do well you
+need to to look at a uh at an action
+for uh this massless particle and how do
+you get this well you have this now you
+have the g v gamma V gamma of Lambda uh
+and in Schwarz Shield this becomes 1 - 2
+m/ r
+T do^ 2
+minus 1 - 2 m / R inverse R do 2- R 2
+Theta dot 2 + sin 2 Theta 5 dot
+squ that is the action for a massless
+geodesic if
+you provide the information that it's a
+n geodesic with the expression in
+Brackets being zero that's the
+additional condition now you say oh if I
+plug this in it's zero well you mustn't
+plug it in at this point at this point
+you first need to vary and then you plug
+in um and one
+has in
+particular the r equation of motion you
+know you have an action you vary you can
+vary with respect to various variables
+and uh the one we are interested in is
+the um no actually we interested in the
+T equation of motion why did I always
+write
+R yes we're interested in the T equation
+of motion in principle we're interested
+in all but we'll see the T1 suffices
+what's the T equation of motion well
+it's the lran by T dot that gives you a
+two *
+this then the result derived minus the L
+divided by T derived with respect to T
+but there's no T in here so the T
+equation of motion is actually 1 - 2 m /
+r a factor of two I don't need T dot the
+whole thing dotted equals zero right
+that's the T equation of motion that
+follows from there I would be crazy if I
+evaluated this dot on here and on here
+because I know the result is zero so can
+I can eliminate the dot and immediately
+have one integral of motion I know this
+is some constant
+K okay so it's my T equation of motion
+and I have this null condition and with
+these two alone so I can get extra
+equations of motion from here but um I
+will not need them because what I will
+look at is only
+consider
+radial null
+geodesics which means in addition to
+these two conditions I already provide
+that Theta ought to be constant and F
+ought to be
+constant which defines radial I'm
+talking about a particle that falls in
+radially without any Theta or F
+component um changing so these are the
+radial al6 and that uh is then the
+integration of the other two which I
+here do by assumption because I look at
+a particular case now if I have this
+null condition which means that the
+square bracket is zero and I use the
+equation of motion here I can do the
+following I can um obtain
+from the first box and the second box it
+actually follows that r dot is plus or
+minus K how do you see this well you
+solve this one for T dot that's K
+divided by the round bracket you plug it
+in that gives you a k squar divided by
+the round bracket squared so it gives
+you a k squared I'm sorry so this is yes
+so let's first do this is a k squ
+divided by the round bracket minus you
+have r dot squ divided by the round
+bracket you multiply by the round
+bracket you get this one and this is of
+course the case if and only if r dot is
+plus minus K okay this is just
+insertion you you say interesting but
+what do I learn from this well you learn
+a great deal the dot here is this
+parameter Lambda and we had an fine
+parameterization therefore you can solve
+this you can solve this you have two
+Poss Solutions you learn that R of
+Lambda is either plus or minus K *
+Lambda right what does that mean it
+means that if you just see K * Lambda
+and Lambda is an fine parameter that
+parameterizes your world line you see oh
+constant times that is still an fine
+parameter so you learn that the radial
+coordinate can serve as a different
+parameterization for your world line
+without changing that it's Fally rzed
+aha
+hence we may
+consider instead of solving for T of
+Lambda we could solve for some T twiddle
+of R which is the T of plus or minus K
+Lambda if I write plus minus we have to
+make a case
+distinction okay so normally I would
+solve these equations of motion for T of
+Lambda R of Lambda Theta of Lambda F of
+Lambda and then I have a
+parameterization of the curve in the
+space time
+right but now because of the special
+situation I see instead of
+parameterizing by a parameter which I
+could choose arbitrarily I choose the r
+i can choose the r as an fine
+reparameterization and I can express
+directly the T in terms of R okay so I
+get rid of the parameterization that's
+kind of useful as we will see in a
+second second so how does that work so
+let's do case
+a case a is of this plus minus I choose
+the plus and then next second we choose
+the minus so if I look at this case I
+can calculate what's DT uh twiddle by
+Dr so in physics it's often customed to
+just write instead of T of Lambda one
+writes T of R but of course the T
+twiddle depends on r differently than
+the t depends on the Lambda so it's
+better to write it like this DT twiddle
+by D what is this well you can think of
+the chain rule um you can say you first
+derive this uh T
+twiddle with respect to Dot and then you
+derive the r with respect to dot okay if
+you do that uh then of course you get uh
+a chain rule you get a uh in this case
+plus K divided by now you um look at the
+r uh sorry so the T ttle dot is this one
+times the
+t hold on a second times the
+T it's the T dot times the K but the T
+dot we had is
+K divided
+by this guy okay I'm sorry is so okay so
+this is K K ided by this guy is 1 - 2 m
+/ R and then from the r dot you get the
+K so what you get here in total if you
+expand by R is um R by Rus 2 m is that
+right yes that's right okay so uh anyway
+we know how this one uh increases there
+and this can be
+integrated so you know the derivative of
+t t so you learn that t twiddle of R
+equals r + 2 m Ln R minus 2 m that's the
+integral as you very quickly see by
+deriving this with with respect to R you
+get 1 + 2 m / r - 2 m if you bring this
+to the same denominator you get back to
+this
+guy okay so this is quickly uh solved
+and that's it we found
+the N desic well that's case a uh let's
+quickly look at case b case b is if we
+choose the minus sign here and we follow
+a similar root and we get to T twiddle
+of R so maybe we call this t plus and
+this T minus t tdle of R is then minus r
+minus 2 m Ln r - 2 m and um I calculate
+yes so we have the derivative here so
+these guys here you can check by looking
+at the at the sign of this these guys up
+there are the
+outgoing null
+geodesic see in a second why we call
+them outgoing and these are the ingoing
+or infalling ingoing null
+geodesics well let's draw this
+picture so so we
+start with the TR Shield coordinates
+T and A SCH Shield
+coordinate
+R there's the special point to M and I
+just have some have some line here to
+know where 2 m is but this is just in my
+I'm
+sorry so this is just in my mind this 2
+m and now I start drawing these null
+geodesics now let's look first at
+the at the ingoing or the outgoing ones
+so the T that's this this T here of
+course the the other T is just with a
+different parameter this T here is this
+function of r so what happens if I come
+from the right and I approach 2 m if I
+approach 2 m the Ln goes to minus
+infinity right goes to minus infinity so
+then to minus infinity I add R I'm not
+very impressed but the point is these um
+outgoing
+NCS uh they are like this so I should
+use different
+colors okay so the outgoing nescs let's
+start with
+them I start doing them in region in
+this region here they like
+this they all come they all go ASM
+totically to
+here and they go somehow like
+this okay that's what they do they go on
+like this that is for R greater than 2 m
+for R equals Zer I must not even look at
+it because I equal 0 is not part of the
+chart now there is a second region where
+can look at these guys at the outgoing
+ones and it's the same story it's just
+that the r is smaller so there they run
+like
+this it's always drawing this funny Ln
+function there
+okay so okay so these are the outgoing
+ones the green Green in this outer
+region and the blue ones in this inner
+region that's just the geodesics in
+Schwarz Shield coordinates so that's the
+map of Lin in Lin there are light rays
+running okay I mean you know Lin Is Not
+A Spacetime piece but a space piece but
+something like this so this is an
+objective picture in those coordinates
+but these guys mean something this is
+what light does expressed in these
+coordinates so now we need to look at
+the ingoing Nal geod six and how do they
+look like so there is this minus there
+so um this is actually minus this up
+here so I can everywhere take the
+outgoing ones as they're called and I
+flip them and I get the ingoing ones so
+let's do it for this one here first um
+so I need to what do I have down here I
+need to reproduce here something like
+this is too too steep here sh and then I
+go here like
+this so here ASM totically and then I go
+away here the same thing I reproduce
+this go ASM totically away not ASM
+totically I go away and
+here I approach ASM totically this here
+and then finally this
+one and I ASM
+totically go here oh yeah that's a it
+look doesn't look very good but it's
+true
+um I mean you know it's it's it's it's
+an art to draw but that those are these
+and then we have in the inner region we
+have a similar
+situation like this is this one this one
+goes
+like that ASM totically here and finally
+uh which one don't I have I don't have I
+don't have this one so this one goes
+like like
+so uh
+so okay so maybe that's a little
+confusing so let's be careful so the
+outgoing ones so these guys would kind
+of run in this
+direction and
+um so here the ingoing ones
+are
+yellow and
+red okay so the yellow ones are ingoing
+ones so they run in this
+Direction and before I go to the inner
+region let's observe that these are null
+geodesics so at every point that
+tangent to the cone which means that if
+I well I draw the cone like this because
+I suppress the other directions in the
+diagram anyway that there must be a
+light cone there like this there the
+light cone must look I mean a light cone
+at this point you know it lives in the
+tangent space so I can only draw it
+locally so uh roughly speaking in the
+tangent space at this point I have this
+light cone there I have this one they
+have this one you can construct from
+this you can see in the Schwarz Shield
+coordinates what the cones look like
+okay so in the schield coordinates cones
+out here rather look like this okay but
+the further you go in the more they're
+squeezed but you observe although
+they're squeezed they refuse to tilt or
+something they they they always stand
+upright like this okay H okay so let's
+look at the um the geodesics uh uh
+inside so the infalling ones uh these
+guys actually run in this
+direction and uh the blue ones they uh
+the outgoing ones in this inside
+Direction uh they run like uh hang on a
+second
+they the ingoing ones it's it's right I
+think this one runs
+like hang on a second they run up here
+down here they they
+write hang
+on are they upside
+down
+okay not entirely sure that's
+true yes that's right you you have to to
+orient but nevertheless here
+I thought they stand like this I'm now a
+little bit puzzled here let let me think
+for one second please so don't go out in
+out in I also think it should be like
+this now
+okay okay but that doesn't hurt us okay
+however they stand okay um so we have a
+situation like this and um yeah that's
+it those are the geodesics of Schwartz
+child and now you look at this and you
+say
+hm haven't I read in the popular
+literature SCH is a black hole that at
+2m there is an event horizon where light
+can only go in and massive matter but it
+can't come out well it doesn't look it
+can go in right because any null
+geodesic approaches this 2m approaches
+it approaches it approaches it and
+however far you go you will not cross
+it so light does not fall
+in maybe we overlooked something now
+think again of the question about
+Lind so assume Lin is A Spacetime region
+rather than just a space region as long
+as I'm in this chart which extends to T
+to Infinity I do not
+cross well but maybe this chart only
+covers everything up to the boundary of
+lens then the chart is at
+Infinity but the it doesn't mean that
+Beyond Lind there's no more to the real
+world so may it's true I mean what we
+calculate of course is true within the
+Schwarz Shield
+chart an out an outer infalling nesic
+rad infalling nesic will not cross the
+Horizon
+yes
+yes yeah yeah yeah I think this one must
+be oriented like this they must like be
+like that
+right they are like this okay let's um
+yes yes now I know why I'm okay let's
+um let's not spoil the moment it's not
+the crucial point right now okay um it's
+it's right I also think that they they
+are like this okay but um let's look at
+this what happens here um so the yellow
+and the red ones are the infalling ones
+right that we got from the infalling
+solution from ingoing solution Now isn't
+it already a little bit
+suspicious that the the infalling ones
+they run up to Infinity here in this
+chart say to the to the city boundary of
+Lind and then assume you had a a map of
+lens and you see that there is somebody
+who lives here and he commutes to work
+every day up to
+Infinity right because I stretched this
+to infinity and then in the evening he
+goes and visits his his parents right so
+so the point is there people I mean I
+shouldn't say it's the same one but
+people are kind of walk running here
+every day uh and you has have also
+people running here well you might
+suspect that there's something Beyond
+Lind and that Beyond lens they actually
+return you see what I mean even if your
+chart doesn't show that
+right that's in fact the case here but
+we need to find out whether it's really
+the case you run here with the yellow
+ones and you come in with these ones the
+point is beyond the chart uh really the
+particles cross the Horizon now how do
+we see this is just a a suspicion from
+our thinking about charts that that
+could be the case the question is is it
+the
+case question no okay so
+um so the question oh and I should have
+of course when before I wrote the
+integral is this and that I should have
+written plus constant because that makes
+the different ones right when I
+integrate plus constants okay sorry okay
+um so uh the idea to follow this idea is
+to introduce the Edington
+finklestein
+coordinates
+question you keep knocking without
+asking okay
+good Edington finlin is a new chart and
+uh in order to figure out what's really
+going on uh there is a brilliantly
+simple
+idea
+brilliantly
+simple
+idea
+change on the
+domain of the Schwarz Shield
+coordinates no where else how would
+you change on the domain of the scheld
+coordinates to different
+coordinates
+such that in those new
+coordinates
+ingoing null geodesics only the ingoing
+ones ingoing null geodesics because
+we're interested in their
+fate
+appear as straight
+lines of of
+slope minus
+one aha can this be done well of course
+it can be
+done this is
+achieved by the new coordinate T
+bar which of course can be expressed as
+a function of the old
+coordinates and if you wish this is the
+chart transition
+map it's given as T the old t plus 2 m
+Ln Rus 2 m so remember before the null
+geodesic had uh so
+recall that uh the
+ingoing
+null
+geodesic
+was given by T twidle of R that's now
+just the function uh equals that
+describes the null geodesic equals r no
+minus
+r plus 2 m Ln R minus 2 m so here we had
+an R but here we now have an T but the
+point is we want that this here in the
+new T Bar coordinates in fact is a
+straight line well this is easily this
+is easily seen because uh this this was
+the T from there before so you have a t
+plus 2 m
+Ln um no wrong you have to solve for
+this T and plug it here so you have T
+Bar minus 2 m Ln R minus 2
+m equal so this is the n geodesic in
+schw child
+coordinates and now now we reformulate
+this same equation in the other
+coordinates by replacing the T by this
+minus this one equals - r - 2 m Ln r - 2
+m and here I forgot plus constant I have
+it here plus constant and you see this
+one goes against this one that means in
+the new
+coordinates the equation is given by
+minus r plus constant which is precisely
+what we wanted we wanted a new T
+coordinate such that the null geodesic
+appears under this slope so let's draw a
+picture
+yes let's draw a
+picture so this is now the new T Bar
+coordinate we have the r we have the 2 m
+2 m but now you need to tell me the
+infalling outer ones had what
+color the infalling outer ones had the
+color or you use probably different
+colors par me nobody
+remembers no I think it was either blue
+or
+green the the out here incoming yellow
+these were yellow okay good so these are
+now slope
+one slope one here there's nothing
+because I didn't have that but in both
+regions the transformation yields this
+for an infalling N
+geodesic plus constant it's the next
+infalling null geodesic the old lines as
+you can see um and yet another one in
+Falling n they're all parallel lines of
+slope minus one okay that's what they
+are aha what is it with the outgoing
+null
+geodesics okay what is it with the
+outgoing null
+G6 I got them like like this but with a
+plus sign here but if I do this I still
+replace the left hand side by this take
+it to the other side but now there was
+already a plus here and there so the
+outgoing ones have T Bar equals uh minus
+uh no not minus R equals plus r because
+there's an overall plus here plus r and
+then plus 4 M Ln r - 2 m Plus Conant
+ahuh so the two changes to a four but it
+doesn't look nicer so it is not the case
+that by this transformation we also got
+the outgoing ones in a nice nice fashion
+by the way um so I I should have
+probably drawn these inner ones here by
+by the Orange Line because I had
+different colors I had different colors
+before for the ones inside and outside
+right remember so it's like this and
+these ones here whatever color they had
+blue or green was blue
+outside anyway they're still like this
+but they become the The Singularity here
+becomes multiplied by two okay so
+qualitatively it still
+looks like
+this okay these are still the outgoing
+ones here and inside it still looks like
+um it still looks
+like
+this stuff like that
+okay now let's draw in this chart the
+cones again well the cones for the
+outgoing ones somehow like this
+and uh the ones in here in green and
+blue so these guys go like
+this and these here go like
+that and so the
+cones
+um are like
+so okay and let's draw the cones out
+here have a cone here again I mean I add
+this little circle that doesn't really
+belong to the two-dimensional picture
+but then you have a right the right idea
+where the little cones it but now you
+see something is no it's all always is
+fine because you can now draw the one
+that runs here really close close close
+close close close close close close and
+only up here goes away okay and here you
+have this
+cone and there you have this
+cone okay and uh and here this is an
+interesting
+point you have this cone and you see the
+closer now you go to the Horizon if the
+Horizon was there but it isn't right
+it's not a part of our original SCH
+Shield coord if the Horizon was there
+they would all conspire to stand there
+like this the cones do you see
+that aha okay so that's the case now the
+question is what has happened
+well what happened is we made an
+innocent coordinate transformation
+inspired by the idea that I want to see
+how somebody comes to this in the
+previous picture uh the ingoing nescs
+also approach The Horizon but I now
+choose coordinates such that approach
+The Horizon in a straight line which is
+just a coordinate thing but
+then the one so in the previous chart
+they went up here and these came from
+down here and what I do by this
+coordinate transformation I go to a T
+and then the closer I go to the Horizon
+the more I pull a point from plus
+infinity down because if I'm on the
+horizon a point that was previous TR R
+is now the point t plus this
+R and this for R to 2 m becomes minus
+infinity so the point is I took the
+previous diagram and go to the Horizon
+and at the Horizon I pull down and I
+pull points down from
+Infinity this point here was previously
+at Infinity this point that doesn't
+exist here was previously Infinity this
+one was also at Infinity this one was
+also at Infinity all this little
+necklace of points that are here I
+pulled them down from
+Infinity by this coordinate
+transformation
+and hence what previously looked
+like up to
+Infinity at this R equals 2
+m and
+then back from
+Infinity I pulled that
+down in such a way and not only here I
+also pull it down here and here and here
+but the further I go to the right the
+less I pull I pull the most namely from
+up Infinity down to finite value here at
+the point R equals 2 m a little bit
+right of that I only pull a finite
+distance okay it's only here that I pull
+infinitely much a little bit here I put
+a finite here even less finite and so on
+such that this line becomes straight and
+I pulled up this point at Infinity here
+I pull it to here and then this
+guy looks like this
+that's funny right but uh that's exactly
+it I went beyond the confines of the
+chart of Lind which was a chart that was
+blown up to Infinity although it only
+covered in quotation marks the finite
+area in the real world okay so that's
+this diagram and now of course you say
+what is the problem with this 2 m bit
+there is none so I include these single
+points which were not part of the
+Schwarz chart so what I do is I say I
+now have a new chart so
+consider the new
+chart V comma
+y while
+ux was the Schwarz Shield coordinate
+chart okay so the previous one we call
+ux and now we have a new one UV and you
+know that the
+intersection no that V if you take out U
+that all that maybe better to write U
+Union just now the domain Union with the
+Horizon here so these points here this
+line This dash line I call the
+Horizon for reasons where it's going to
+discuss in a second and now this Horizon
+well at least in the real world it's the
+Horizon so it's the chart image of the
+Horizon so U together with the
+Horizon that's V so Schwarz Shield only
+covers
+this and now we made the chart bigger
+but in such a way that on the overlap
+which is just U on the overlap uh it
+coincides that's how we constructed it
+yes restrict our
+only because I mean
+no the point is you need you need both
+geodesics in order to spend a coordinate
+system how can
+I well they're outgoing nescs but
+they're not future
+pointing so you can't you don't have
+particles run along them so that's the
+the old idea um if you're at a point and
+the g defines the double
+cone and uh a curve a vector standing
+inside here is as much time like or say
+null uh this Vector
+here is as much null as this Vector is
+they're both
+null and
+hence uh
+this is a n geodesic and the
+same this is a n
+geodesic I didn't say I want to look at
+ingoing Future
+pointing outgoing part Future pointings
+Okay okay so so the distinction only
+comes when you have the time orientation
+okay so okay good okay so but indeed um
+there is in fact a coordinate chart
+that's that not called Edington finlin
+but kusal they're also the outgoing ones
+run at the same time at
+45° I I'll comment on that but uh let's
+first continue here what we want to do
+so now we change to new coordinates the
+picture looks nice and convinces us okay
+there's something going on we now see
+really these guys do cross this Horizon
+uh without any problem it was just an
+artifact of the previous chart which
+pretended to be a very big chart but it
+was just unduly blown up so really
+beyond Infinity there was much to be
+pulled down okay so that's this but this
+is just the picture the picture is very
+useful we constructed the picture from
+formula but what we should really do we
+should calculate the metric in the new
+coordinates so now
+calculate the Schwarz Shield metric G
+you see the metric remains means the
+metric you that's an AB object in the
+real world now calculate the Schwarz
+Shield metric G with respect to Edington
+finl Stein
+coordinates
+Edington finle
+Stein
+coordinates how does one do that I mean
+you know it in theory but let's do this
+once in practice so you have a new
+coordinate T Bar that depends on the old
+coordinates like t + 2 m Ln r- 2
+m uh that's it and you have a new R
+which depends on the old
+coordinates like the old R you have a
+new Theta that depends on the old
+coordinates like the old Theta and you
+have a new fi that depends on the old
+coordinates like the old fi
+informally speaking we only changed the
+T Bar coordinate but not informally
+speaking uh you have a new R coordinate
+it just happens to be the old one okay
+so you change set of coordinates from
+unbar coordinates to barred coordinates
+so of course in the terminology from
+before I have uh
+y0 to
+Y3 are the B
+coordinates
+right I just use this nomenclature
+because it's a little bit easier to
+remember and the old uh the old x
+coordinates
+are called like this okay so this is
+just different names but I try to make
+connection to the general formalism okay
+so what do you need to do if you want to
+know the new components if you want to
+know the new
+components um g in the Y system that's
+the new system and you want to know the
+ab component well you better take
+the component MN in the X system and you
+do
+DXM by DX uh DXM by d y a dxn by dyb is
+that the right way
+around yes it
+is okay so this is the coordinate
+transformation uh the comp the com the
+transformation of components of a metric
+from the X system the old one into the
+new system Schwartz Shield coordinates
+adding finlin coordinates which we like
+better okay so what do we need to do
+well we need to calculate X by y x by y
+are the old ones expressed derived with
+respect to the new ones oh dear then we
+have to invert this
+guy yeah we can do this everything can
+be done but um let me show you a trick
+that always works you always choose the
+direction that suits you better in this
+case I don't want to calculate X by y I
+calculated y by calculate y by
+X and you learned and you checked in the
+tutorials that if you know this Matrix
+row column that this is the inverse
+Matrix you remember so we can calculate
+this one and then we invert The Matrix
+let's do this once because this some I
+mean here you may be able to invert and
+it's very quick but let's do this once
+as a
+as a check so how does this go well you
+need to say what you mean this is the
+row index and this is the column index
+so for one one or for 0 0 you derive the
+zero with respect to zero this one with
+respect to T that's a clear one
+right then you uh continue in this row
+so you stay with the zero you derive
+this with respect to the r what do you
+get you get 2 m / r r - 2 m is that
+right that's right um you derive the
+same one with respect to the Theta is
+zero and with respect to the f is zero
+you derive this one with respect to T no
+t in it with respect to R yes with
+respect to Theta with respect to five
+derve this one with respect to T to R to
+Theta gives a one to f z this one with
+respect to t z r0 Theta 0
+51 that's the
+Matrix okay comes in useful to practice
+this for exams and stuff so um you get
+this thing now what's the inverse of
+that Matrix uh
+dxb by or DX a by
+dyb this should be the
+inverse well let's guess 1 - 2 m by r -
+2 m
+one
+zero one one and the remaining ones all
+zero
+okay let's check where this is the
+inverse so we come with this Matrix from
+the left to this one this time this
+gives a one row * column gives a one
+okay that's the one
+we want to get the identity so we take
+this row times this column this is um 1
+*
+this minus 1 * the same is
+zero 0 0 and so on you can check this is
+the
+inverse
+okay aha so now we have this inverse all
+that we need to do now is we need to
+evaluate component by component what the
+new components
+are I think I'll do this in the
+middle so I can still peek at the other
+Blackboard so we're simply finding the
+compon components of the metric in the
+Edington finstein coordinates according
+to the general rules we worked
+out thank you so we start with g y uh
+the z0 component which you could also
+call the T Bar T Bar component it
+doesn't matter you know we use this uh
+rather flexible notation equals well in
+order to get the Zer Z what you need is
+you need the y z down
+here now here you you have in the X
+system the MN you have a
+DXM
+dxn now remember that this is the metric
+in Schwarz Shield coordinates the
+components of the metric in the Schwarz
+Shield coordinates you remember that was
+diagonal so we only need to check for m
+equals n 0 0 1 1 22 3 3 and we always
+have to write this here so let's do this
+so we start for g0 0 here to g0000 0 is
+um 1 - 2 m/ R in Schwarz Shield
+coordinates you agree that's g0 0 in the
+schield coordinates and we multiply by
+x0 by y0 x0 by y0 so the thing squared
+x0 by y0 is a one a one squared is a
+one one times now
+comes plus why plus well it's a
+summation convention there must be a
+plus now comes the one one component of
+Schwarz child but the one one component
+of Schwarz is
+minus um 1 over 1us 2 m / R remember
+that's the signature that comes in here
+so uh we could use this minus to make
+this to a minus and then we multiply by
+X1 by y0 X1 by y0 X1 by y0 is minus this
+guy sorry is this guy squared so it's uh
+- 2
+m by 1 - 2 m / R is that right no by r -
+2 m by r - 2 m all
+squared plus summation convention comes
+the
+G
+33 time X3 y0 X3
+y0 is zero the same for X4 y0 X4 y 0
+also zero so there's nothing more plus 0
++ 0 is the full summation convention
+yields 1 - 2 m / r - 4 m^ 2 / r - 2 m
+squared times and I expand this one by r
+r r 1 minus 2 m
+no uh I
+right an R up here which is one/ R down
+there R minus 2 m right yes I divide by
+R and I get this up there uh so
+huh I'm
+confused pardon
+me
+confused
+is this right what's written here okay
+it's right what's written here so I just
+need to take this to the Sim so but a
+third power
+here I'm
+confused I take it all out of
+what so tell me what you write and we
+check whether it's true you tell me okay
+so
+Square what do you
+write okay so
+um
+yes pardon
+me you need to speak louder I don't hear
+ah yes yes yes yes so the second one is
+wrong the first one was right was the 0
+by0 and next one is one by zero but one
+you see uh it's important that you
+remember this is the row I need to go
+here so actually look at this one right
+thank you thank
+you okay
+so the SEC so the first one was right
+the 0 0 one anybody gets that right but
+the second one already failed you go
+through this is plus 0+ 0+ 0 and in fact
+the result is indeed 1 - 2 m / R which
+means the z0 component in the Edington
+Stein coordinates is the same a
+component is the same as
+before
+okay so now we calculate the one one is
+is there still a
+question now we calculate the one one
+component according to the same scheme
+but now we go with respect to D1 D1 DXM
+dxn GX MN and now of course we need to
+look at all the ones in this column and
+multiply them each time squared y squar
+well because that's the same and this is
+uh diagonal so only those appear so we
+get a - 2
+m by r - 2
+m uh and we get that
+twice and we multiply with the 0 0
+component which is 1 - 2 m /
+R plus we get the next one which is a
+one and get another
+one and we multiply with the one one
+component which is minus one
+over uh um 1 minus 2 m/ R is that right
+I think that's
+right so let's try to to get this
+straight so what is this this is 4 m^ 2
+/ r - 2 m in bracket
+squared and here you have r - 2 m / R
+it's the same
+thing plus no minus one
+over r - 2 m and we put an R here again
+that's right no and then this Square
+here goes against this Factor up
+here and then you get 4 m
+2 by r - 2
+m this over r
+here
+minus r - 2
+m
+r equals r- 2
+m and uh
+uhuh is this right 4 m^ 2 by R let me
+see what this is right
+minus
+r can this be brought to any meaningful
+form so I do what I divide by
+R so I I I expand or I cancel what do I
+Do by
+what by times
+R aha okay so so this is 4 m^ 2 - R 2 by
+r^ 2 - 2 m r and
+now ah okay now I start understanding R
+minus 2 m r and now you want the third
+binomial or
+something something like that
+right who's
+laughing so this is minus if I cancel
+this against this I get a minus 2 m + r
+by R uh and that is okay that's what it
+is
+right because 2 m minus r / r - 2
+m i I think that's that's approximately
+right uh so this is min - 1 + 2 m /
+R okay that's it and um okay as you can
+see I have serious difficulty performing
+these
+calculations as I
+say very strong yes okay so um uh uh
+there's yet nevertheless one we need to
+calculate that's the 01 one but I won't
+bore you with that it works according to
+the same line along the same lines only
+that now you have the the these others
+la la la I won't embarrass myself even
+more so so so the result if you do this
+properly is minus 2 m by R so that means
+we produced an off diagonal element and
+of course this one is the
+same as the
+gy 1 Z because it's symmetric they're
+both this here and all the others are
+unchanged all others remain
+unchanged so they're the same in the X
+in the Y system so what we get
+result we get Schwarz child in Addington
+fle
+coordinates how does it look like it's G
+is the abstract tensor that has nothing
+to do with the coordinate system I take
+the 0 0 component 1 - 2 m / R DT bar
+tensor DT bar because with respect to
+the DT bar now I
+get minus and that's the thing I get
+this mixed element this is min - 2 m
+over R and this is true for the DT bar
+tensor Dr but also for the Dr tensor DT
+bar right I mean this is this element on
+the right upper right and lower left
+then comes the minus actually they're
+all pluses but because there the minus
+in here this minus 1 + 2 n m / R Dr bar
+tensor Dr bar it continues but what
+continuous is the old stuff minus r SAR
+of the Theta bar well strictly speaking
+I have to call the r the r bar right so
+D Theta bar Tor D Theta bar uh plus sin
+s Theta bar d f bar tensor D5 bar but
+it's good custom to drop the bars on the
+RS because really the r was not
+changed okay and the bars on the feters
+although very strictly speaking they
+belong there but they are still the old
+coordinates like in Schwarz shild
+okay okay so this is the uh Schwartz
+Shield metric and Addington finstein
+coordinates uh and
+that's a result that's useful yes is it
+just for reasons that you start with the
+and it from there or
+direct well it would be bad pedagogical
+reasons because the schwartzel chart is
+not a very good chart but the point is
+we start with the idea well we have a
+spherically symmetric solution let's
+start with the polar coordinates that
+come to mind if you want to describe a
+spherically symmetric Solutions in the
+time Direction well let's say that goes
+from minus infinity to plus infinity we
+allow everything we think then we plug
+this into Ein sense equation we get the
+solution in schield coordinates now this
+teaches us a lesson it teaches us the
+lesson that whatever chart you come up
+with which you think might be a good
+chart to cover virtually everything the
+Einstein equations May report back to
+you look at the solution look at what
+the geodesics are doing and if you have
+geodesics running to somewhere and they
+do this in finite parameter time in
+finite fine parameter time especially
+also the Tim likee ones and they don't
+seem to hit any boundary but they stop
+because the chart ends right there are
+chances that your chart is chosen too
+small although formally it's blown up to
+the whole
+plane but that may be just an artifact
+so in fact the coordinates we thought
+are good coordinates by intuition by
+making an anzat blah blah blah blah it
+turns out that's just a small part of
+what the I equations report back to you
+do you now see how important it is that
+we get this idea right what's the real
+world and what's the chart because
+otherwise you say if if you only think
+in charts this would be the most
+mysterious procedure to change to
+another chart and to to insert points I
+mean it is a magical procedure to go
+beyond Infinity but if you think of
+charts some very normal thing are
+Apparently one shows a very funny chart
+so yes also how people discover yes yes
+yes so so in the beginning they took the
+other coordinates and then one tried to
+understand what this R equals 2 m means
+and Einstein first didn't understand
+because he he thought the manifold ends
+there he thought you only have this
+outer solution and the other one is
+another solution of another
+SpaceTime right because he was still
+thinking in charts a lot and and and so
+with time people realized we have to um
+uh we have to study this at the level of
+differential geometry and so there are
+many indicators why I mean I gave you an
+intuitive indicator they run out and
+they come in and okay so the technical
+thing you do is you ask is the space
+time maximally extended now what is that
+you look at
+geodesics and you see whether geodesics
+continue for infinite
+parameter it's a complete geodesic we
+had this notion of completeness or
+whether the geodesic stops because it
+hits a
+singularity but the geodes bics of
+Schwarz child that went out the chart up
+there in the Schwarz coordinates they
+didn't hit any Singularity and if you
+followed the fine parameter which we
+didn't do you would have seen it's not
+fine parameter Infinity you can also do
+this for for for time like geodesics
+where then have the natural parameter
+the length the time uh the the proper
+time by which you um can um parameterize
+them and you see they run there in
+finite time it's like you you have this
+map of
+lens
+and you see that your father in the
+morning is driving away like
+this and after half an hour he has
+reached this
+point and then 10 hours
+later he comes back so the suspicion is
+that he did something here
+okay whereas if the chart was a
+different
+one and you would drive in in proper
+time parameters
+ation and you never arrive up there
+right you never so you can maybe you
+come closer and closer and closer but no
+matter how much you extend your proper
+time for a time like judic you never
+arrive at this boundary well then
+there's no problem then you have no
+suspicion that there's something beyond
+the boundary so this is an informal
+discussion of the notion of maximal
+extension
+yes no as I said I made this fine
+distinction an fine parameterization
+which includes the proper time but also
+for n geodesics you can have an aine
+parameterization which is actually
+always the case if your uh
+geodesics uh satisfy equal zero rather
+than uh Shai times V gamma you remember
+the distinction between Auto parallels
+and uh so parallel and auto um parallel
+and parallel transport and so on so this
+is um Pinocchio with the nose always
+being zero or something something okay
+no Pinocchio not lying the non- Ling
+Pinocchio okay so also for nescs that
+makes sense okay and what comes out is
+the fine
+parameterization and that you can can
+use yes is
+there by well the cor gave us gave us
+this yes are well in enal you you have
+if you go to Crazy coordinates like
+those
+ones then the whole Matrix is full of
+terms okay and if you have these cross
+terms um it doesn't look static anymore
+it may still be stationary because none
+of the components depends on the new
+time so d by DT bar is still a killing
+Vector field a time like killing Vector
+field you might have the suspicion it's
+not stationary anymore because for
+stationarity there is a coordinate
+system where this goes away but you know
+that's only fake because in another
+system in the schwat coordinate it goes
+away okay so the the um the first
+approximation to to your answer to your
+question is no there's no deeper meaning
+it's just different coordinate
+nevertheless cross terms one usually
+discusses
+yeah further question no okay fine so we
+have the um uh this in the new in the
+new coordinate
+um okay so
+uh we have the final uh bit that's cral
+coordinates and I won't do this in
+detail because you can read it up there
+are many good books that do that uh but
+the idea
+is um do
+further coordinate
+transformations
+changes such
+as to
+also have the
+outgoing null
+geodesics
+appear as
+straight
+lines now of slope + one in the
+chart and I will just draw you the
+resulting uh picture of Schwarz shield
+in cuscal coordinates look up how
+they're defined very roughly speaking
+for the Edington finlin coordinates at
+the Horizon we pulled down from Infinity
+we pulled down the points you
+remember now here you also pull some up
+from from Below L very roughly speaking
+and you don't only do this at the
+Horizon but the Horizon you do this
+infinitely and something like like this
+right you you do it like this and um
+very roughly speaking and the
+resulting
+picture of schwar
+child in those cral
+coordinates
+is and there's a surprise and I try not
+to spoil it so in the cuscal coordinates
+the Schwarz sheld space
+time looks like this it's the
+interior this is the outer region so
+this this inside is the black hole well
+before I should have already drawn how
+it where the black hole is in the
+Edington fle stance of course to the
+left from your point of view of the
+Horizon right and then of course you
+think of this rotated and you have one
+more Dimension and of course this two
+Dimensions suppressed now this here is
+the outer
+region and this is the black hole region
+and this is the
+singularity and here now really all
+light rays run all infalling
+ones go like
+this chop and they hit the
+singularity chop they hit the
+singularity but also the outgoing ones
+they go like
+this this one evades the singularity
+this one evades the singularity this one
+is already inside the black hole
+everything that's inside the black hole
+invariably Falls in into
+there
+okay but there's a
+surprise so this is we say okay this is
+other coordinates so what before was
+there it's now here like there and okay
+this The Singularity is space likee
+because it was before you see before the
+singularity was but then the cone stood
+like there so the singularity was space
+likee you see what I mean so that that's
+that's fine that looks
+good the Edington finl Stein that we had
+before which corresponds to this in
+cuscal coordinates is still not the
+maximal
+extension it turns
+out
+it turns out there is a second outer
+region we didn't see before it's the
+outer region two whereas this was the
+outer region one was which was the only
+one that was visible in Schwarz child
+and the only one visible in Edington
+finlin but all of a sudden that was not
+the maximal extension there is another
+outer
+region and there is and
+now you will rightfully be
+shocked you see that these guys they
+actually came from here and these guys
+they actually came from
+here oh that's a terrible
+situation because this is a singularity
+all hell breaks loose at the
+singularity and from there stuff comes
+and moves here that means an
+observer going about his business here
+right so something an observer going
+about his business right here will
+receive information from The
+Singularity we should be able to see
+singularities if this really is physical
+but as a solution of Einstein's equation
+it's the maximal one and uh so this is
+called a white hole it's the black hole
+things can only fall in but never come
+out because of the time orientation from
+the white hole stuff can only come out
+and not fall in you see this here
+because uh light always runs at this
+here and uh if the other light then runs
+here like
+that then you see that massive stuff
+could also at most run out
+you
+see aha so there's this whole second
+part to this and now you can start
+asking questions like what on Earth
+happens
+here and you can study so in this
+Edington finstein coordinat so this is a
+new coordinate t double bar that goes in
+this direction you can ask what actually
+happens I draw the diagram new
+because otherwise it's too too much in
+one
+diagram what happens so CH chck chck
+chck chck chck one two cheuck check
+cheuck cheuck
+cheuck ha so again this is Schwarz child
+maximally extended but that's the end of
+the game okay um now you can ask what
+happens if I look at spatial
+sections that evolve like this
+there this
+one this one and this one so um if we
+look at this one
+here this is part of the outer region
+which we believe to understand right and
+so on now look at this one this is this
+outer region which we believe to
+understand the point is what happens so
+these are like two universes which have
+no causal contact to each other because
+no body in here can signal anything to
+someone here can you see that because
+light always runs like this you would
+have to Signal faster than the speed of
+light in order to send a signal from in
+here to here
+agree that means nobody here can signal
+anything to anybody here and nobody here
+can signal anything to anybody here if
+you look at this level but remember that
+we suppressed two Dimensions so at every
+Point here there is still a two sphere
+attached
+of various size it depends you need to
+look at the line element to study that
+and it turns out that as T progresses
+and you look at these green guys here
+can you see the green on green or yeah
+um there is a topology change of the
+spatial
+sections topology
+change of the
+spatial sections in
+green
+okay and so at if we look at um at this
+one here at T equals z you can read this
+yes I think I feel uncomfortable I use
+another color so um let's look at this
+one here this whole one at T equals z
+that actually looks as follows the
+spatial bit
+right
+it looks like a
+throat uh I suppressed one dimens so
+this is a
+two-dimensional spatial so I suppressed
+one one spatial
+Dimension
+suppressed and it's supposed what in
+this picture is just this
+here okay so this one
+here corresponds to this upper
+half and this one here corresponds to
+the lower
+half but if you're here
+before things happen so let me draw dra
+this here at this time it looks like
+like this I do it now even one dimension
+more reduced but this is the throat okay
+now if you uh move in time down here all
+of a sudden this will be
+disconnected it will look like this so
+this
+part is this guy and that
+part is that
+guy so there two separate outer regions
+right but here they come closer and
+closer together hang on a second that's
+a so now here they're the F the farthest
+apart they're the farthest apart so from
+here from here they now
+join looks like this then they move
+apart then they join
+again and then they do that again and
+that is what uh so that's the Evolution
+here if you Pro proceed in this T Bar
+Bar okay crazy stuff is happening there
+uh well this requires careful analysis
+of the full line element of cuscal which
+I didn't write down I only wrote down
+the diagram that suppresses this okay so
+then you can start speculating so this
+is called an Einstein Rosen
+bridge and you can start speculating
+whether you may provide
+additional Global conditions for how
+this goes and then you have here the
+throat and if so had the throat before
+now it connected here like this you
+could provide this by hand something
+like this you would then call a
+wormhole that would mean you start for
+Schwartz shield with a different
+topology from the start and stuff like
+that so you can imagine crazy stuff that
+solves the Einstein equations and these
+are all uh possible solutions if you
+make the right Provisions okay
+anyway this is the maximally extended SW
+child if you say let's go in all that
+directions now uh that looks rather
+crazy because this white ho thing is
+totally nuts and in fact one uh is uh
+one has the idea to say that should be
+physically excluded because the theory
+becomes highly nonpredictive because
+everything would come from a singularity
+but at the singularity the theory breaks
+down whatever originates here you don't
+know how to write down initial
+conditions whatever you think that
+quantum theory takes over you would have
+a fully non-predictive Theory theory if
+this was really realized like that so
+what uh one really believes is that for
+instance if you have so this is should
+interpret it as a vacuum solution so
+there's no mattera producing the Schwarz
+child it's just a vacuum solution as
+niik jini explained that makes perfect
+sense we have this mass m in there but
+that's the ADM mass of the SpaceTime and
+so on okay you can consider it a pure
+vacuum solution however if you don't
+consider it a pure vacuum solution then
+you might think that you have some
+matter so I think again in the original
+schwarzfeld coordinates you have some
+matter uh falling in lots of matter and
+on under their own gravitation they fall
+together until they're
+inside all the matter is in so this is a
+time a picture in Schwartz child time T
+until at some point a horizon
+forms because so much matter is in here
+and it's so so dense that it's inside
+its own Schwarz child uh Horizon and
+then you have a singularity here in the
+original Schwarz child coordinates well
+that's already the picture where you
+rotated where you have this uh could
+think of half the picture or something
+like this this would be um more like a
+realistic picture and then you don't
+have this white hole bit okay um however
+what do I really mean by this and is
+there an even better way uh to
+understand oh I'm sorry I'm sorry I I
+drew the wrong
+picture so so this I am sorry I already
+Drew okay I already Drew Drew it's not
+true okay it's not true that this is the
+picture in chrisal coordinates I'm sorry
+this is already the so-called
+Penrose diagram of the same and the
+Penrose diagram we'll do in the next
+lecture I am sorry I'm sorry but the
+point is why I drew this is because the
+um the actual Cru scal I'm sorry that's
+that's very silly was very silly of me
+so um it's all true I said but I drew
+the wrong picture so the crusar picture
+looks like this there are the
+singularity so there is here a
+hyperbola hyperbola and the singularity
+lies
+here and so that's that's really the
+cuscal coordinates and the singularity
+lies
+here and this extends
+everywhere right so this ex extends in
+all directions to
+Infinity not the part that I shade here
+the part I shade is not part of the
+picture so this extends to Infinity in
+all directions the part I'm shading
+here does not belong to the picture but
+everything that's not shaded is
+crusar and indeed geodesics null
+geodesics you see why I confused this
+um and the null geodesics here they all
+run like
+this they hit
+here they hit here you call this the
+black hole you call this the white hole
+right um uh you have other other null
+geodesics running like here they come
+from infinity and they run like
+there stuff like this this is the
+Horizon of the black hole seen from here
+this is the Horizon of the black hole
+see from here the only difference is
+that this really extends to
+everywhere and extends here to
+everywhere and the only difference to
+the Penrose diagram is that here one did
+an additional trick one took the null
+directions and one compact
+them in this way in order to bring the
+whole space time so only what is inside
+here is a picture of the space time okay
+in order to not have the problem to say
+well what really happens here at
+Infinity because it's so difficult to
+think about it you compactify along the
+null coordinates and that will be the
+topic of the next lecture in order to
+compactify this picture to this and then
+you have a pen Rose diagram and this
+penous diagram but you see it's it's
+virtually the same apart from this being
+compactified so I I please apologize
+that I drew this and I said it's in a
+crisal coordinates again this is not in
+cuscal coordinates this is in
+conformally rescaled coordinates whereas
+this is the picture in the cuscal
+coordinates that's very similar and um
+we'll discuss the construction of such
+pendos diagrams where you can really fit
+an entire SpaceTime on a small sheet of
+paper well if you suppress two
+coordinates and and stuff like this okay
+and here because the cones always
+everywhere stand up like this you can
+very easily see which regions are
+connected causally connected to which
+regions and which are not where from
+where to where you can send
+signals okay so that was it about uh the
+black holes uh the Schwartz Shield black
+hole there is a charged black hole
+that's called Ry nstr solution it's a
+bit more complicated there is a rot
+ating and charged black hole that's
+called the care solution so rotating
+black hole is no longer spherically
+symmetric in space but in space only
+cylindrically symmetric of course it
+rotates there's a distinguished by
+Direction in space and so on and so
+there are many different black holes uh
+however there's much to be said about
+black holes for instance black holes
+don't have hair so if they form uh and
+one believes that the curve black hole
+is the most general form it can rotate a
+black hole that only has mass one Mass
+one charge and one angular momentum you
+can say but shouldn't there be black
+holes that have a little bump here and a
+little bump there so black holes that
+are not like spherical or cylindrical if
+they're rotating um well the answer is
+no right so there there's a very it's
+very general because um with time all
+the asymmetries would be radiated Away
+by gravitational
+radiation okay so black holes are really
+um a very special class of course you
+can um the abstract definitions for
+Horizons and the different types of
+Horizons and so on so all of that if you
+want to learn that you go to literature
+and read a book on black holes but these
+are the basic ideas that we dis um
+displayed here and from there you need
+to take it yourself thank you very
+much yes may I ask a question yes so I
+have feeling that if one reaches now
+this horizont between out reg and the
+black hole some strongly nonlinear
+behavior in time is going on we did some
+rescaling some coordinate
+Transformations yes can now interpret
+this if an observer yeah goes into the
+black hole and how his clock arising
+this Horizon does the clock going faster
+is my impr from whose point of
+view in my lifetime would I reach the
+horiz is my my recognition slowed down
+or is it does it go faster so this is I
+do not even know the non linearity now
+in which in which direction the scaling
+the nonlinearity is going yes yes so so
+the point is somebody falling into the
+black hole for somebody out here it
+appears that that person will approach
+more and more and more and more The
+Horizon but you can discuss from this
+picture that if somebody can we have
+some um so you can imagine from this
+picture somebody falls into this black
+hole as a massive Observer and there's a
+massive Observer say out here looking
+Observer is always massive um then you
+will receive information by this guy
+sending I'm still alive I'm still alive
+I'm still alive and so on well the point
+is actually the massive one in this uh
+Penrose diagram we'll see this later
+will always arrive here as a geodesic so
+this guy will receive information from
+this guy till the end of his own
+lifetime uh which may be Infinity which
+here is infinity you will live
+infinitely long here as an observer this
+guy's clock here goes like 1 Hour 2
+hours 3 hours boop I'm in the black hole
+four hours 5 hours and so on but the guy
+out here will wait for millions of years
+and he will only see that the guy comes
+closer and closer and closer in his time
+you wait a million years and the other
+guy hasn't fallen in although on his own
+clock he fell in after an
+hour sounds very strange but that's his
+clock and that's his clock okay so let's
+reconvene at quarter
+past

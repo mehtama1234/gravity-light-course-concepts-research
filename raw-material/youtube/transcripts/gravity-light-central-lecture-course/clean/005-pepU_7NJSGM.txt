@@ -1,0 +1,1938 @@
+this program is being presented to you
+by the Heras International Winter School
+on Gravity and
+[Music]
+Light good morning welcome to the fifth
+lecture of the introduction to general
+relativity today we talk about tangent
+spaces now under this rather unassuming
+name uh goes really a lot of the basic
+concept uh mathematically uh that
+underly general relativity so this is a
+really important lecture and there is a
+lead question the lead question is the
+following on a manifold if you consider
+a
+curve what is the velocity of that curve
+at the point P now this is velocity and
+not speed uh and later on we will meet
+speed but speed cannot be defined before
+a so-called metric is defined on a
+manifold that will come later will start
+with velocity and it is tradition to
+call the velocity a vector and in fact
+it will be a vector in our formalism but
+I ask you at first to completely erase
+anything you ever learned about
+velocities we're trying to rediscover it
+so what is the velocity of a curve gamma
+at a point P and rather than making many
+motivating introductory remarks that are
+going to confuse you further uh we
+immediately start uh with the definition
+and then we discuss the definition so
+first is
+velocities the definition is as follows
+we consider a smooth
+manifold
+MOA that's a topological manifold with a
+smooth atlas and we consider a curve on
+that manifold a curve gamma from R into
+the manifold that is at least
+C1 so it can be once continuously
+differentiated with respect to the
+charts of this smooth
+atlas and um we
+suppose that the curve gamma at some
+parameter value lambda 0 hits this point
+P because otherwise it's meaningless to
+ask what the velocity of the curve at
+the point P is now there's the following
+definition the
+velocity the velocity of gamma at P is
+and now it comes the linear map so this
+is something you need to get used to
+that velocities in vectors in general
+but we start with velocities are linear
+maps is the linear map that we call
+curly V like velocity of the curve gamma
+in the point P the velocity of the curve
+gamma in the point P what mathematical
+object is it it's a linear map a linear
+map needs to go from one vector space to
+another vector space the vector space we
+start from and which I will explain in a
+second is the vector space C infinity M
+or inspiring name very simple object
+linear mapped into the real
+numbers which are an R vector space if
+you equip them with their own addition
+and
+multiplication now this guy what is it
+this is the guy very simply of all
+smooth functions on the manifold so if f
+is a smooth
+function then c infinity m as a set is
+the collection of these smooth functions
+equipped with we need addition and s
+multiplication and that is just
+pointwise so two of those are added
+point so I declare the addition to be a
+smooth map again defined at a point P of
+the manifold as f of p plus g of p where
+this plus is now the plus in the real
+numbers where these functions take their
+values and similarly lambda g of p
+defined as lambda times in the real
+numbers g of p and the set with these
+two operations is a vector space it's
+the vector space of smooth functions so
+it makes sense to talk about a linear
+map from here to here and the velocity
+is a linear map that eats arbitrary
+function any function and spits out a
+real number according to the following
+rule it takes this function and it maps
+it to v gamma p of f now I need to tell
+you how this is defined this is f after
+gamma you take the derivative of that
+and you evaluate at the parameter value
+lambda
+0 that's it that is the velocity of
+gamma at a point p
+now an intuition for this is very
+helpful and in fact if you find this uh
+surprising as a definition for velocity
+this is exactly what children
+uncorrupted by high school
+physics capture as the concept of
+velocity because it's the following you
+run around through the world as a child
+and you observe the world around you so
+say that in the world around you there
+is some temperature function f but you
+must be able to do it for any f right
+but if you see some temperature function
+whose level lines I drew here you run
+through the world and you see as you run
+around as a child you look at the
+temperature wherever you are so you have
+the situation that you run
+around which is this and there is a
+temperature around and you feel the
+temperature wherever you are so the temp
+this is just a function from R to R time
+time temperature okay and you observe
+how the temperature changes the rate of
+change of temperature as you run along
+okay so what this is this gives you the
+directional derivative of F as you run
+along the curve gamma if you're at the
+point P you feel how that changes so the
+velocity of a curve at the point P is
+the directional derivative and in the
+past so this is really just in order to
+make contact in the past you might have
+talked uh about the velocity and now I'm
+talking in charts i'm going to make this
+precise i I I should only write this
+like this you might have thought about
+the directional derivative more like
+this you take the gradient of f you dot
+it into
+the what you would say yes that's a
+vector right you would have dotted it
+into there and that's the directional
+derivative now of course you can
+consider this but this is only really
+very roughly you could of course say no
+vi del i is the differential operator
+that acts on f and the only shift in
+philosophy is that rather than saying
+the this is the vector or the components
+of the vector in differential geometry
+you say this is the vector it's a linear
+map that takes an f and maps it to a
+number because you evaluate at a point
+so you rather pull this derivative to
+there right so um one could say in
+programmatic gravity we want to
+understand vectors or vectors in
+differential geometry survive as the
+directional derivatives they induce but
+if you know how this acts on any
+function you can make it act on the
+coordinate functions and then you get
+deltas and then you can recover all the
+components so really if you know the
+directional derivative how it acts on
+just any function you can fully recover
+the components okay this very sim is a
+very simple shift of of now you can say
+this is the basis for for these
+components okay so now delete everything
+I said because everything I said will
+now be made precise where exactly it
+takes place okay but so there is nothing
+fantastic happening it's just a very
+slight shift of perspective which is
+extremely powerful uh and leads to the
+whole idea of tangent spaces in
+differential geometry okay so this is
+actually a very intuitive concept we're
+coming back to
+that now immediately we come to tangent
+spaces or the tangent vector
+space because that is what's going what
+is it go what it's going to be uh the
+definition is as follow
+definition for each
+point P of the
+manifold we define the
+set so first of all a set t
+subpm called the tangent
+space 2
+m at the point
+p tpm and this is simply the collection
+of all
+possible tangent vectors to all possible
+smooth curves through the point
+okay so
+um the picture for this
+set is you have a point and you look at
+all the curves through that point and
+that curve will have a tangent vector
+here you could say a directional
+derivative associated with it uh and
+this curve has one and that curve has
+one well there will be a curve exactly
+like the other one going through the
+same point but at double parameter speed
+that will give you a different
+directional derivative because it scales
+we'll see all this uh there could be
+through a point one curve that's
+different from another one but
+nevertheless they give the same tangent
+vector and so on it's very intuitive so
+um this is almost the picture you just
+have to think at the uh tangent vectors
+or the velocities at this point as being
+associated to this curve now do you see
+we defined the tangent space as these
+velocities as these maps none of this
+constructions made any um reference to
+an ambient space around it so although
+for intuitive purposes you might think
+of the TPM in a fashion I uh alluded to
+last time a little like this this would
+make reference to an ambient space but
+this is actually the cleverer notion now
+in the beginning of differential
+geometry there was a debate for many
+years is it better to define objects
+intrinsically only lying within the
+manifold or is it better to take the
+manifold embedded in a bigger space and
+then take this exttrinsic point of view
+and does it lead to the same results and
+famous embedding theorems at all
+structural levels say it doesn't matter
+you always find a big enough ambient
+space to embed it into understand it in
+this way okay so this debate is settled
+now the question is why do we take this
+perspective rather than this one well if
+this is finally going to be the universe
+all of the universe spacetime it would
+be a little bit uneconomical to refer to
+something around the universe right so
+it's better to talk from within the
+universe to define all the concepts
+that's somehow a clever choice so we
+prefer this and also technically it
+points to the right ideas okay so um
+rather this than
+this rather this than this as a picture
+although really everybody thinks of it
+like this as well okay but technically
+you must not so that's the definition of
+the tangent space and um well that is
+just a set now the question is do the
+velocities at a
+point form a vector space uh well that
+is true they do so observation and it's
+a key observation
+um
+TPM can be
+made into a vector space and because
+this is so important and this is a
+technical key point that you're going to
+use all the time I'll show this in
+detail and already in this calculation
+you learn all the techniques that you
+need in the future for your own
+calculations so it's not just a proof
+that you then never look at again it's
+an important construction so what do we
+need to do we define an addition and an
+S
+multiplication and that's very
+easy because the elements of here are
+linear maps with values in R well so you
+can immediately add them so you can
+immediately take an element of TPM and
+an element of the same TPM so you cannot
+take a vector here and a vector here and
+add them that's not possible but you can
+two ve take two vectors at the same
+point and you can immediately add them
+so you get um v um gamma p plus v
+um delta p it's the vector because all
+the elements are velocities to some
+curve two different elements will be
+defined with respect to different
+underlying curves
+right you can immediately define this um
+because you know this is such a linear
+map you can apply it to an arbitrary
+smooth function and you define the sum
+as gamma p acting on f plus gamma v
+delta p acting on the same f and this is
+just the addition in the real numbers
+whereas this defines the addition in tpm
+okay you can immediately add because of
+the structure of these objects and then
+you have an S multiplication R cross TP
+uh and that works like lambda S
+multiplication V of some gamma P defined
+by action on F exactly the same with the
+real numbers V gamma P acting on F
+now I can add them all right but there's
+one problem if I add two maps what I get
+out is a map map of that type and a map
+of that type is a map from C infinity M
+to R a real map so it's a map from C
+infinity M to R i could have also
+written C infinity M star and here the
+same home a map from C infinite temp R
+because well that's just what you get if
+you add two such maps however in order
+for these to be a vector space addition
+and s multiplic multiplication it is
+necessary that they the these two
+operations close within TPM so that you
+don't just get a map of this type but
+you get a map of this type that lies in
+C infinity M R that lies in this
+specific subset it needs to be a map
+that can be generated of this type that
+can be generated from a
+curve that is not clear you can add and
+you have a map but is it generated from
+this curve so it remains to be shown so
+we're always almost there it remains to
+be
+shown that
+um first there exists a curve
+sigma sigma curve such that the sum
+uh of the velocity of gamma at p plus
+the velocity of delta at p that there
+exists a curve sigma such that the sum
+is not only a map of the type but is
+actually the velocity ity of a third
+curve at the point arises in the way in
+which the elements of this space must
+arise
+okay it's important and similarly uh uh
+it must be shown that there exists a
+curve I don't know how to call it like a
+sigma towel curve such that lambda * v
+gamma p is v to comma p okay so this we
+need to do so the remaining
+proof focuses or can focus on this let's
+start with this first case right we have
+this V gamma P and we do the S
+multiplication we defined right here
+okay i need to find a curve towel such
+that the result is the velocity of this
+curve toao okay um I construct this
+curve you can say how do you construct
+this well by looking at it it's easiest
+to just construct
+this so um we define the curve
+toao as a curve r to
+m
+by ascending
+lambda to tow of lambda but tow of
+lambda iso ah lambda is a is a bad
+choice because I chose lambda here i
+need to choose a different parameter
+um well because I'm so used to to we are
+also used to using lambda as the
+parameter let's take here an alpha as
+the multiplication right so alpha is the
+real number by which I
+multiply okay so um I set this to sigma
+and I run through the old curve at alpha
+times the parameter speed if you wish
+okay I just do this and It's clever to
+write this as sigma after mu down alpha
+of lambda where the mu down alpha is a
+very simple thing it takes a real number
+to a real number r to alpha times this
+number well this is of course what's
+written here you take the mu of lambda
+this is alpha* lambda that's this we
+write it like this because we need to do
+the chain rule in a second okay so I
+just claim this curve does the
+trick this curve is the one that
+reproduces alpha times this well let's
+calculate
+um
+since we look at what's the tangent
+vector to the new curve towel in the
+point P ah and um we also if we first
+check that t at the same parameter value
+lambda 0 is sigma of
+alpha lambda
+0 ah I should have aha it needs to go
+through the same
+point well it will for some lambda zero
+it will hit the point but I need to
+um hang on a second i need
+to take So the curve sigma not sigma I'm
+sorry the curve gamma went through the
+point P oh now you deleted it okay uh
+through the point P at parameter value
+lambda 0 so I take lambda minus lambda 0
+at this point why not and then t of 0
+will be gamma
+of gamma of lambda 0 now we got it it do
+I do it like this then the t of 0 will
+be gamma of lambda 0 and then I can
+calculate the velocity to toao at the
+point p as now by definition it's f
+after
+toao I take this like this and I take
+the derivative at the point where we run
+through p but this is here the parameter
+value zero okay this is one way to do it
+equals and now I need to take this
+derivative and for that it's clever to
+write down what I wrote down here this
+this um so I take this mu alpha I have
+here plus lambda 0 for simplicity is
+gamma after mu alpha of
+lambda okay uh this is an r this is an r
+that's fine so I now have this uh chain
+rule is f after gamma after mu
+alpha derivative at the point zero and
+now of course you know how to do this
+this is f after
+gamma derivative at the point mu alpha
+of 0 but mu alpha of 0 is just lambda
+0 times the inner derivative is the
+derivative of this guy with respect to r
+so this is just an alpha time alpha oh
+that's excellent because this is alpha
+times the velocity to gamma in the point
+p because gamma of lambda 0 is the point
+p
+okay so sorry for the intermediate
+confusion but here so there exists a
+curve indeed this curve towa reproduces
+this here okay so that was the easy part
+uh now comes the almost as easy part um
+so that's
+number please leave this for a second
+for one second please okay
+um so now for the sum
+H it works as follows well we'll leave
+it for for a moment it works as follows
+so we want to look at the velocity to
+gamma at a point P plus the velocity to
+delta at a point P and we need to
+construct we need to find a curve
+sigma that at the point P has the
+velocity that corresponds to what I
+defined here so construct in order to
+construct this curve we need to do
+something extremely ugly we make a
+choice of
+chart make a
+choice of chart
+ux that contains the point in question
+we're looking at now the moment I say
+make a choice of chart immediately your
+illdefinition alarm
+bells need to
+ring say okay I bear with you but please
+if in the end anything depends on this
+chart I'm not going to buy it okay it's
+very important so again I'm not against
+choosing charts I'm just against
+choosing charts and not knowing what a
+great uh assumption ass you're making
+here okay but it turns out it's no
+assumption at all make a choice of chart
+and
+define we define the curve sigma in the
+real world R to M as
+follows sigma of
+lambda
+is I define now a curve in the chart and
+once I have it I take it back into the
+real world by X to the minus one okay
+and in the chart I take the chart
+representative of the curve
+gamma and I take it at the point lambda
+0 plus lambda lambda 0 is the point
+where gamma hits p plus I take the chart
+representative of the curve delta at the
+point lambda 1 plus lambda lambda 1 is
+the point where delta hits p and I
+subtract a constant r d element namely x
+after gamma at the point lambda zero
+that doesn't depend on lambda at all
+nevertheless I need it and this is in
+the chart and of course in the chart
+this is an element for specific lambda
+this is an element in RD and uh with the
+lambda free it's a map from here to here
+I can add this in RD I can add this in
+RD in the
+chart terribly illdefined from a general
+point of view if you didn't have a chart
+wouldn't make any sense but you do this
+in the chart and you go back from the
+chart to the real world which doesn't
+make it better because you need the x
+and the x inverse right nevertheless
+bear with me I claim this sum this sigma
+does the
+trick this sigma in the real world
+satisfies this up here now this we need
+to
+calculate since so the first thing we
+need to do we need to see whether sigma
+at all hits this point P and at what
+parameter value um we need to look at
+sigma of
+zero and maybe in order to uh remind
+ourselves of the terrible sin we
+committed we indicate the sigma subx so
+we have a constant reminder this
+construction depends on the chart map X
+okay so what is sigma X of 0 equals X
+after gamma of lambda 0 plus I write it
+down is X after gamma of lambda 0 X
+inverse plus X after delta of lambda 1
+minus X after gamma of lambda 0 i need
+this one to kill this one and then I
+have just X inverse X delta this is
+delta of lambda 1 is the point p okay so
+the parameter z value is zero it runs
+through p otherwise this makes no sense
+in the first place and now the actual
+calculation is as follows v of this
+curve sigma x that I claim to do the
+trick sigma x in the point p equals well
+let's use the definition acting on a
+function i need to have it act on a
+function to calculate is f after this
+sigma
+x prime at the parameter value where it
+hits p that's zero at zero that's this
+thing we need to calculate and we need
+to end up here if we did we found if we
+do we found the
+curve equals now um
+aha um I plug it in or I choose another
+intermediate chart I use an intermediate
+chart So f after x inverse after x after
+sigma
+x I I'm allowed to do this right I
+insert the identity that's the standard
+trick derivative at zero and then I use
+the associativity of the composition to
+rebracket like this now this is the
+derivative and now let's see what kind
+of objects we have this is a function
+from rd to r right maybe it helps to uh
+to write down What happens here the
+curve gam sigma lands here the arbitrary
+function f is defined there we have a
+chart here we have f after x inverse and
+here we have x after sigma so we know
+that f after x inverse goes from a part
+of rd to r and x after sigma x so guys
+sigma x sigma x after sigma x is this
+one goes from R to
+RD to RD and between them there's a
+composition there's a derivative
+fantastic is undergraduate analysis
+right so we do the multi-dimensional
+chain rule of undergraduate analysis and
+that works as follows we take the inner
+derivative first well doesn't don't you
+don't need to take it first but we need
+to take it so you take the derivative at
+the point zero but because here this is
+multialued you take the i component of
+it or you can also put the i component
+here and take it here it's the Same
+thing and here you take the partial
+derivative in the i direction okay of
+the i entry here this is this f after x
+inverse and after you did the derivation
+you evaluate at the point x after sigma
+x of 0 x of sigma x of zero sigma x of
+zero is p so that's at the point x of p
+okay so now we're left with the task of
+calculating this beast where sigma x is
+given like this let's do this first
+that's not so difficult because x or
+maybe I put the i here it's really the
+same thing because that's the final
+function that a map that acts it's the
+no I put it here it's x after sigma x
+that means that kills this bit
+and so we have here a function from R to
+RD and its E component oh we know how to
+derive this we derive this and this and
+this what's the result the derivative of
+the first one with respect to lambda is
+X after
+gamma prime evaluated at aha at zero is
+evaluated at lambda 0
+okay um plus then this part because the
+x inverse has been killed right uh that
+freezes here this is x after delta prime
+at lambda 0 evaluated is at lambda 1 and
+this is constant this doesn't contain
+lambda at all so there is nothing else
+to it so this part here is this and now
+you see the magic although we had this
+terrible construction where we go down
+to the chart add there terribly
+illdefined illdefined it's well defined
+here but it's illdefined under a change
+of chart the derivative here at the end
+of the day leads you a product a sum
+rule okay and so what you get here you
+now see it it's this factor here in
+front is this guy and that's of course
+distributive over this number which is
+in R this multiplication which is in R
+but what Is this well I write it down
+it's um x after gamma prime at lambda 0
+time del i f after x
+inverse at p at x of p plus the same
+expression with x after delta prime at
+lambda 1 time del i f after x inverse at
+x of p but now we do this backwards with
+the chain rule multi-dimension i'm sorry
+I took the i here so I should should
+have had an i here and here so I have an
+i here and an i here which is contracted
+like this and now I do the
+multi-dimensional undergraduate chain
+rule backwards and what I get is
+um uh is uh f after
+um
+gamma hang on a second um f
+after I get f aha so I get first this
+thing here and then I can remove the
+others this is f after gamma prime at
+zero plus f after delta prime at zero no
+at lambda 0 and at lambda 1 right these
+are the evaluation points here and
+that's of course nothing but the
+velocity to gamma at p plus the
+velocity after I acted on f plus the
+velocity of delta at p after acting on f
+aha so we compared the left hand side
+with the right hand side we didn't make
+any assumption on f other than that it
+comes from this set that is we have
+exactly v gamma p with this addition
+which is defined like this delta p is v
+sigma
+p and although we intermediately chose
+this chart neither the left hand side
+nor the right hand side depends on that
+so in fact uh this is the curve that
+does the trick yes i don't see where so
+I didn't really get the exact point we
+have to do the proof that there exists a
+curve C such that the result we already
+defined is a well
+defined C infinity such that the result
+arises as the tangent to a curve yes
+and then you made use in your so I can
+prove the existence by just constructing
+one yes and there you pointed out uh
+that it might not might not
+exist such a chart no no no no i I No no
+i constructed a candidate for a curve
+that does the trick by using a chart by
+using a chart
+somewhere at this point that my
+colleague pointed out there might not
+even
+no no the chart if if I I choose some
+chart the point is no no I don't need to
+assume the existence of a special chart
+make a choice of any chart that covers
+the point and that that is possible is
+the definition of a topological manifold
+it must be chart independent it must
+only be chart independent so if I had
+chosen another chart would the result
+change the quick answer is no because
+you would have a y everywhere but the
+result would work out the same precisely
+we couldn't because I couldn't I didn't
+make any further assumptions on the
+chart thank you for the question yes yes
+you told us that it is better to think
+in this completely intrinsic picture yes
+but here we see
+without seeing that we have a
+manifold which can be which can be
+mapped to the real space we cannot
+perform this nevertheless it is
+necessary that locally we can describe
+whatever is by a linear ukidic
+okay I wouldn't agree with the ukidian
+but the idea is right the only thing I
+meant is in with the picture with the
+tangent space so it's the idea of a
+topological manifold that locally its
+point can be mapped in a continuous way
+one to one uh uh to some RD but what I
+meant by this embedding picture is that
+you choose an R to the
+1,000 to look at a fivedimensional
+manifold well you don't need to go that
+high but say in order to look at an a
+three-dimension manifold you might have
+to go to R seven to embed it such that
+what you get by the intrinsic
+construction which only works with R3s
+that you get it as the tangent spaces as
+you would define them if you were in an
+R seven so so that even that's even
+worse that really goes to an ambient
+space that lies around it whereas the
+manifold definition just requires that
+pieces of the manifold can go to an R to
+the dimension of the manifold okay so so
+that that that's the difference but it's
+exactly the point of not looking at an
+arbitrary topological space then for an
+arbitrary topological space you don't
+have charts in the first place so we
+make a huge assumption we make we say
+the whole universe or whatever you look
+at the whole manifold locally it looks
+like RD that's a massive assumption uh
+and that's the assumption that spacetime
+or space is a topological manifold yes
+on the first line there the x
+disappeared and I must admit that I I do
+not see uh if we did the chain chain
+rule
+forward then x would Okay so you want me
+to in insert one more line uh the chain
+rule of just this bit backwards the
+other bit works the same the chain of
+just this bit backwards is f after x
+inverse after x after gamma derivative
+at um the point uh lambda
+zero plus and then the same thing over
+here and here okay it vanishes again and
+then you get this and the same here it
+does vanish it goes away very
+importantly yes i was confused by the
+proof of the first yes can you explain
+in words why we didn't use over there
+oh because Yeah okay so so so okay
+picture picture for the proofs okay so
+the first one went like this you have
+the real world m and you have a curve in
+there and um I indicate equal intervals
+of the parameter until I arrive at this
+point by well by equal by by by by these
+lengths so every time this curve is
+interrupted the parameter has increased
+by
+one now
+um very
+intuitively intuitively really
+intuitively you may think of the
+velocity as this little arrow in fact it
+turns out in the real world you must not
+think of an arrow but in the chart you
+can nevertheless I now do this because
+but I want you to think of this arrow as
+the directional derivative in the
+direction of this arrow okay because we
+know that is what a vector is so this is
+a bad bad picture but it's not so bad to
+understanding the proof so this is what
+we would draw normally now the idea was
+if you want to draw
+double if you want to produce double
+this velocity you run just run through
+the curve at double parameter velocity
+like this and this is what the map
+mu2 did well it was a mu alpha but what
+the map mu2 did and the statement was
+that the tangent to this first curve is
+two times the tangent to the second
+curve if I compose the first curve gamma
+if I compose it after mu2 before it eats
+the parameter it's doubled and then you
+get a curve and for that you don't need
+a chart to define it i could have pushed
+it down in a chart too but that wouldn't
+be economical because here so the the
+multiples you get by just running
+through the same curve faster but the
+sum is a real beast because the sum up
+here so you have two curves right in the
+real world you first need to go down to
+a chart so where the two curves look
+like this and now you use the chart to
+define the sum of the curves which might
+look like this that's our sigma but the
+bad thing is if I pull the sigma back
+this is what we did well this is the
+sigma down this is x of sigma x after
+sigma right if you pull the curve sigma
+up you might get say this in the real
+world the problem is if you had taken
+the same two initial curves gamma and
+delta and you had pushed them into
+another chart there they may have looked
+like this you would have gotten the
+sigma with respect to the other chart
+the sigma y you would pull this sigma y
+back to the real world and you would get
+a curve through the same point or right
+and would be a curve that looks maybe
+like this it turns out that the tangent
+is independent of the choice of chart at
+this point but the curves are different
+so the curve the sum of curves defined
+via a chart is chart dependent but it's
+chart dependent in just such a way that
+the tangents at the point with this
+subtracted in this way and blah blah
+blah so that everything fits oh that
+reproduces the same tangent vector so
+it's independent of the choice of chart
+the sum of curves is bad but its
+derivative at the point of intersection
+is good but in fact we only use it at
+this point yes exactly and therefore
+it's fine that's that's the idea but it
+shouldn't mean that you can add these
+curves because otherwise you could add
+the trajectories of particles
+represented in a chart and that would
+amount to adding position vectors which
+don't exist so this is yet another point
+where if you think of position vectors
+and then pointing at paths and so on you
+could add them the addition is
+meaningless yet another proof that
+position where is the problem in
+thinking of the sun in the same way as
+we did here
+you can't because um here you can
+provide this by scaling the parameter
+but the curves gamma and delta they land
+here and if you want to define an uh a
+hypothetical uh
+addition you can't simply add the maps
+because on the target you you couldn't
+say you do this at lambda by taking
+gamma at lambda and delta at
+lambda because you would have to somehow
+have an operation here that you want to
+put but for instance a plus doesn't
+exist because you don't have that
+so at least in this way you can't do it
+the point is you can't do it in any way
+okay
+so um so that's why you can't add them
+again positions do not constitute a
+vector space it's always the same thing
+um this is yet another another example
+of that all right good are there
+questions so far
+yes one more question about the first
+sigma x you chose here yes so the smart
+move is to choose it in a way that we
+have different arguments lambda zero and
+lambda and lambda one and so on that at
+the end of the day we have again our two
+derivatives with the two different
+arguments which are not dependent on
+lambda yes to say okay yes but since we
+have x inverse applied to the whole
+thing on the right hand side aren't we
+charting dependent from the start no
+because in this for in this definition
+you can't take out the x you can take
+out the x here x inverse after x is the
+identity but x if the definition only
+went up to this point of course you
+could write gamma of lambda 0 plus
+lambda but then you add in the chart and
+this is not a linear map right and so
+you cannot pull it
+apart you can't okay that's the point
+context sensitive plus that's the point
+right a context yeah well it's it's a
+plus on this RD I know you would have
+just cut it oh yeah that then then it
+would go out in the beginning in in but
+then you wouldn't have p uh constructed
+a sum
+yet right that's right okay
+good perfect excellent in
+time okay please the blackboard yes
+view yes repeat the question to repeat
+the question yes thank you thank you so
+here the question was um whether the x
+doesn't go out already in the definition
+the answer is no because the x inverse
+is not a linear map thank you all
+Yes you need to check all the other all
+the actions for the vector space uh yes
+in principle you do but it's always the
+same construction of course you do and
+you can do yourself but it's always the
+same construction because we added maps
+that whose target is R we inherit the
+addition from R over there and almost
+everything immediately comes from the
+axums of the field R
+um so that's K plus K times for R
+without zero and the distributive law
+and with them you inherit all the vector
+space aums in a few steps so it's it's a
+standard standard con construction but
+you're right I have to to show that in
+principle okay but so anything I do not
+show you have my uh quality guarantee
+it's
+true okay so we have a notion of
+velocities we have maybe this intuition
+oh they survive as directional
+derivatives and because I know how they
+act on anything they could act on the
+coordinate functions that would give
+deltas and I could extract the
+components again so so maybe you're
+happy with this um but the point is it's
+very useful to now go to a chart to take
+the abstract notion of velocity which
+will later on in physics correspond to
+the velocity of a particle in the real
+world so that's the physical the im our
+picture mathematical object representing
+the physical velocity of a thing fully
+independent of any coordinate choice
+okay fully independent of coordinate
+choice and fully independent of a choice
+of length so in order to con to to to
+provoke uh contradiction but I I won't
+defend it at the moment i will defend it
+later the physical dimension of speed is
+meters/s say okay we all agree and
+that's right what is the physical
+dimension of the components of a
+velocity vector say well it's also
+meters per second it isn't it's hertz
+it's one over
+second okay so this is just to provoke
+you um you will learn and you'll in the
+end say "Oh dear it's really true." But
+that we'll only do after the lecture
+next Wednesday and then you'll realize
+where the missing meter is coming from
+okay but it's an important point it's
+important point and it also stalled
+Einstein for many years not having
+understood this first
+okay so now let's do what you're all
+longing for you want to reconcile this
+abstract notion of velocity in the real
+world with components so
+components of a
+vector with respect to a
+chart and we learn much more than about
+the components because if you have
+components of a vector you need to know
+about the basis so what is the basis of
+the tangent spaces or of a tangent space
+because in this lecture we pick a point
+P and we'll stay
+solidly within one tangent space and
+only the lecture after this one will
+then look at all the tangent spaces
+together and consider vector fields and
+so on so anyway components of a vector
+with respect to a chart
+definition let
+ux be a chart in the smooth manifold of
+the smooth underlying manifold we have
+here and let gamma be a curve from r
+well from r into u into m but it should
+hit
+uh if this is the u uh the curve should
+hit the point p and it better lie in the
+chart we're looking at okay let be gamma
+thus be the portion of a curve that lies
+in U and then we can and let's also
+assume gamma of zero for simplicity hits
+the point P can all assume all of that
+now we
+calculate we calculate we start with
+just the
+vector tangent to the velocity of the
+curve gamma in the point P we just start
+with that what is that well in order to
+really understand it we need to let it
+act on an arbitrary
+function it is f after gamma derivative
+at the point zero that's what it is
+directional derivative now we insert our
+chart just for fun in order to get it
+into the game we have this at zero we
+rebracket like this you see it's always
+the same calculation that's why one can
+do them and here you have from RD to R a
+map and here you have a map from R to RD
+or always portions of RD now we do the
+chain rule as before but now let's look
+at another aspect i take X after gamma
+the I component then I take the
+derivative at position zero that's the
+inner derivative now I take the outer
+derivative that's the derivative with
+respect to the i direction there's the
+summation of f after x inverse and
+that's evaluated at x of gamma of zero
+that's evaluated at x of
+p now this expression and this
+expression will appear again and again
+and again and remember this is a
+function here is a function from RD to R
+and in the tutorials learned that the
+partial derivative we will not write d
+by dx or something like this because all
+you need to know to take the partial
+derivative is you need to know with
+respect to which entry do you derive it
+has nothing to do with how you will
+after you derived name the
+entries it's enough it's it's the um
+equivalent of in
+uh analysis you have a function from R
+to R so this is analysis undergraded
+analysis the derivative of F is denoted
+FP prime and it's again a function and
+you may evaluate frime of X or you may
+evaluate frime of Y that doesn't make a
+difference the derivative is called FP
+prime it would be very silly to say oh
+only because I give a certain
+prescription like this therefore I
+should write the derivative as df by dx
+because the abstract notion of
+derivative has nothing to do whether I
+defined this by x or defined this by
+alpha right so this bad notation we're
+not going to use we say with respect to
+the
+derivative now however here in this
+expression and now you okay I need many
+colors now in this expression uh let's
+first take the expression over here so
+after the multiplication sign this
+expression here has many elements in it
+and it's very cumbersome to
+write and we write it
+differently we write it dell because
+there's a dell in
+it we write by dell well there's still a
+dell in it this x here now you need to
+be very observant there's an X here and
+there's an X here and in order to
+remember that it's an X and not a Y we
+put a X
+here now there is an I down
+here this I has nothing to do with the X
+nothing nevertheless we put it up here x
+I okay this is just notation that's the
+point and there is an F here that's the
+blue F great it's the blue F we put the
+blue F here we still haven't taken care
+of the P well we put brackets around it
+and we put the little P running out of
+colors uh we're putting the little P
+down
+here that's our notation for this and
+you say "Oh partial
+derivative." No no because of course
+it's designed to make you look to look
+like this because later on you can prove
+that this object satisfies all the rules
+you would like this guy to have if you
+don't know anything about the background
+right so this makes the R accessible to
+the masses uh but but
+the but but the point is it's very
+important to to realize this point the
+function
+f here is a function from m to the real
+numbers or rather from u to the real
+numbers because we're depending on this
+chart um so whenever you see this symbol
+don't be deceived by its simplicity you
+immediately need to translate it into
+this no alternative to that okay now
+here we do something similar uh but this
+is just for fun to make it look even
+more normal um this is the chart
+representative of the curve gamma with
+respect to x and the i component of it
+which after I took the i component I
+derive and I evaluate at the point zero
+and because we already used here some
+funny notation I take the freedom to put
+it here as a dot with respect to the
+parameter it's just for fun uh so I can
+define this here as well okay so what do
+We have we have that the velocity to a
+curve gamma in the point P as it acts on
+F equals the chart representative of the
+curve with respect to the chart X that I
+chose the I component of it so this is
+what the undergraduate idea of a
+position of a curve is and you take the
+derivative at the point you're
+interested in a parameter value zero
+because you're interested in the point P
+times the well you may be tempted to say
+this is the directional derivative
+operator and you let the whole thing act
+on the f and that's what I wrote down
+very much in the beginning you have a
+notion of components of vector you dot
+them into partial derivatives and that
+acts on the function only that the
+function we are dealing with is not a
+function on the chart the function here
+is a smooth function
+on the
+manifold okay so however we have this uh
+we and it's tradition to delete these
+brackets to say a vector acts on
+whatever is behind it it's tradition uh
+because then it's even simpler to look
+at just this bit of the equation and
+this
+bit because this is true for all f in C
+infinity m so as
+maps as a map which is which this object
+is it's equal to if you use a chart
+under use of chart you can understand
+the vector as what you would normally
+say are its components and how you
+calculate this you derive the components
+but because it's a vector it doesn't
+only have components it also has a
+basis and obviously Quite obviously if
+these are called the components of the
+vector which we will say these are the
+components of the
+velocity V gamma P then this guy here
+these must be the basis
+elements basis elements of well of the
+space in which this guy lives where does
+it live it live in the tang lives in the
+tangent space these must be the basis
+elements of the
+TPM with respect to
+which the
+components need to be
+understood right if I talk about
+components of a vector I need a basis
+for the vector now here what we have is
+the so-called chart
+induced
+basis
+of
+TPM choice of a chart
+X gives you a choice of bases in the
+tangent space but of course it's fully
+irrelevant what chart you choose you
+could have chosen a different chart
+would give you a different basis in the
+tangent space okay so um now for
+pictures in the real
+world which might just look like this
+you may have a vector here that looks
+like this you may in another tangent
+space have a vector like this another
+like this and another like this and so
+on okay a feel like that
+um it's good I didn't do it rotating to
+the right maybe uh well so the point is
+you can map this down to a chart well
+first of all what you map to the chart
+to the
+R2 is the points you know you have a a U
+here and each point goes to a point here
+via a chart map X
+right but now imagine that the way I do
+this is that if I pull this coordinate
+net backwards by X
+inverse I would get
+this okay this is now going bad okay I
+need to first draw the the net and
+then I could have chosen polar
+coordinates which means this net is
+mapped to this apart from some slits and
+so on and uh you have your your vectors
+here attached like
+this now what you can do you can of
+course the circle up here the points
+These points here are of course simply
+this in a polar coordinate system right
+if you think of this x2 as the phi and
+of this x1 as the r it's the generalized
+coordinates of classical mechanics it
+looks like this so what do you guess are
+the components of these vectors at the
+various points well there will be
+something like
+this drawn into if you now take the idea
+okay you have these components one uh uh
+0 1 0 1 0 1 all the time and then you
+draw them at the respective base point
+this one here and this one here and so
+on and then you see yes your vectors are
+associated with components but in the
+chart it can look dramatically different
+from the world if you wish and depends
+on the chart clearly if you now make a
+so-called cartisian coordinate system of
+the same situation in the real world so
+this is a bird flying in a circle that's
+an objective reality but in a polar
+coordinate chart it runs like this would
+you say it runs along a straight line in
+reality no it doesn't right but in this
+chart it looks like that so you see the
+components of vectors heavily depend on
+the chart and in principle drawing them
+up here is a bad idea you should only
+always draw them down
+here okay but nevertheless there is a
+velocity that the bird has here and
+there's a velocity but in this chart it
+looks like this okay so uh that is this
+um number
+four is uh the chart induced
+basis and I already mentioned it so you
+have the
+definition if
+ux is a chart in the smooth atlas
+uh
+then d by
+dx1 at the point p dot dot dot dot d to
+dxd at the point p these are all
+elements of tpm because they're the
+corresponding maps right and they
+constitute a
+basis of
+TPM okay so we already saw they generate
+TPM because I can represent every vector
+in that basis uh it remains to show
+proof so it's not a definition it's a
+theorem well of the easy type uh prove
+it remains to be shown that they're
+linearly
+independent how do we do this well we
+need to take the
+vectors and I may call them vectors
+because they lie in the tangent vector
+space we take these guys and we multiply
+them with lambdas and take the sum and
+require this be zero and we need to be
+able to show that therefore all the
+lambdas are zero that's linear
+independence but that's simple because I
+simply apply the whole
+thing to the J coordinate
+function and in the tutorials you
+learned that the J coordinate function
+okay I'm sorry I said constitutes a
+basis of TPM it only constitutes a basis
+of the TPS that attached to the chart
+domain right only in this area
+um and uh we learned in the tutorials
+that the chart maps that go from the
+coordinate maps that go from U to R that
+they're differentiable with respect to
+the maps in this atlas to the charts in
+this atlas right so we are allowed to
+apply it here because it's a function
+from U to R and now comes we would say
+oh dxj by dxi that must be a delta j
+well I told you whenever you see the
+symbol you need to reconstruct what it
+really means so let's do that so let's
+do it up here it's better can see this
+better so this means Yep i did not get
+why TPM and TPU are different
+tpu is just an area so you have the uh
+the whole world you have the domain U in
+the domain u
+uh your chart is
+valid and um all we use the chart map
+and so you can only uh intuitively
+speaking this is the basis you have in
+the real world but I shouldn't draw it
+as arrows but this only works in the
+domain u and generally we'll come to
+that you can next lecture you cannot ex
+you cannot generally for any manifold
+you cannot for every manifold
+find a global chart in the first place
+but even if you can cover it by global
+charts you might not be able to find a
+global coordinate induced um uh a basis
+of the basis field
+you're doing you're varying the P within
+the No no no no i I said so the
+statement is for any point in P okay for
+any point in U
+right so so this is always the
+assumption that the chart contains the
+point P i I should always emphasize this
+so the point P must always lie in the
+chart or rather the chart must be a
+neighborhood for the point okay so I
+apply this here so what is the
+definition of this symbol it means take
+the dell i compare i think it's still
+down there take the the i and put it
+down in the dell then take the function
+you're acting on that's XJ do it after X
+inverse after X inverse and evaluate at
+X of the point P that's down here i just
+did this blindly this is just
+this by
+definition
+okay right but now you see ah that's
+very simple this is XJ after X inverse
+what does that do that goes from RD to R
+and takes the
+pupil alpha 1 to alpha D which is an
+element of R it takes it to the alpha J
+to the J
+component right but doing that and
+deriving it with respect to the I
+component gives a one if I equals
+J and so there's the sum here and this
+is the delta symbol I introduced and
+this is lambda J ah
+um but we start with the assumption that
+this object is already zero so applying
+this to this yields you that all the
+j are zero that means these guys are
+really linearly independent
+so indeed uh this constitutes a
+basis and the corollary of
+that is that the dimension of
+TPM is of course D because you have D
+basis
+vectors but D ultimately came from the
+fact that you have D coordinate maps so
+the dimension the vector space dimension
+is d and the manifold dimension which is
+a very different concept is also d so
+the vector the tangent space at each
+point has the dimension of the manifold
+well that's quite intuitive but one is a
+vector space dimension and the other one
+is a topological manifold dimension
+yes but shouldn't it be TPU all over the
+place in the right box uh well
+uh this is right but it remains right if
+I do this okay but you're right
+constitute a basis of um of TPU is
+certainly right tpm would be wrong
+because not for every point p and m okay
+um that's it yeah
+um yes but here you I would argue I did
+this now for one point but there I have
+a neighborhood I can do it for another
+point because it covers I know
+everywhere thank you that completes the
+proof
+yes
+okay so um time is almost up five more
+minutes i ask to bear with me for maybe
+15 minutes and then I don't need to rush
+through it is that all right and then
+maybe we we shift again because then we
+get this important topic covered yes
+okay
+so next topic is change of vector
+components under a change of chart
+now in the older literature on
+differential geometry statements of the
+following type are to be found tensors
+transform under a change of coordinate
+systems as follows a vector transforms
+as follows well most precisely it must
+say vector components transform as
+follows because the vector is an
+abstract object it's the velocity of the
+bird at that point of time no change in
+your thinking about the coordinate
+system will change the velocity the
+velocity is the velocity in the real
+world but if you think of the components
+of the velocity in a particular chart
+and you change to another chart for the
+same velocity of course the components
+will change there's something different
+so therefore it is to be said change of
+vector
+components under a change of chart not
+change of vector so I
+emphasize
+vector or tangent vector does not change
+under change of
+chart simply because it's defined
+independently of chart how would it
+change under a change of chart so uh
+let's see how that works
+let aha um I should have maybe added uh
+some terminology here i'm sorry
+terminology if X is an element of
+TPM then you know two things the first
+thing you know is that there always
+exists a curve gamma such that so gamma
+curve such that X is the velocity of
+some curve to that point through that
+point P if X lies in TPM so I pick an
+arbitrary element of X from TPM and I
+will in the future not always make
+explicit the curve it comes from in fact
+it doesn't come from the curve
+because these two curves give the same
+vector right um so therefore we'll talk
+about this abstractly and um that's the
+first thing we sometimes need and it
+always arises like that by definition of
+TPM and the second thing you know is
+because it's a vector space you can
+always find so they
+exist x1 to x d which are all numbers in
+the real real numbers such that x can be
+written as a linear combination x
+I D by D X I P if you have a chart but
+you can also quite independently of
+chart induced coordinates you could
+choose because it's a vector space just
+any basis in it wouldn't then come from
+a chart but it would nevertheless be a
+basis and you expand in components and
+the X I are called the components of
+this with respect to the chosen basis
+and the basis may come or you may induce
+it from a chart or use it at a point you
+define just like this because you say I
+like these three vectors to be the basis
+you can do this okay you don't need to
+come from a chart but if you have chosen
+a chart
+anyway why not because you already
+committed the sin right so then you
+better enjoy
+it
+good so change of vector components so
+now in order to consider the change of
+chart let's do this following let
+um um u
+x and y v y be charts but let them be
+overlapping
+charts and take a point p from their
+intersection okay
+now um
+let x be an element in the tangent space
+of this if this
+intersection then we know that we can
+write with respect to the chart
+ux using that we can write this as x i
+components d by
+dxi p because that's the basis is and in
+order to indicate that these are the
+components with respect to the basis
+from this chart we mark the components
+by a little x down here but now of
+course fully independently you can
+choose the chart VY because the point P
+is in both is in the overlap region and
+you can choose different or you must
+generically use
+different
+components with respect to the different
+bases all right and the question is how
+are these components related to those
+components and you know there is a
+relation because the abstract object in
+the middle is invariant under this um
+and and now we we look how this goes um
+well let's simply start with this object
+so in order to study
+uh change of
+components change of components formula
+or to derive it um consider the
+following we take d by
+dxi at the point p and we try to
+reformulate it as this
+guy we know it's a map so we best
+understand it if we apply it to what it
+acts on namely a function and what now
+well you see this symbol you know it
+looks very deceptively simple but you
+have to translate it you let the i jump
+here you take the f here you take after
+the x that's here as the full map
+inverse and you evaluate at the point x
+of p you need to be able to do this back
+and forth in your
+sleep that's what the wicket is good for
+so you you have this and now of course
+we want to consider a change of chart so
+if you want to relate this x to this y
+we better have it somewhere so we insert
+it as an identity at this
+point right nothing happened right we
+just inserted the identity we use the
+associativity of the composition and we
+rebracket now things are simpler again
+because this is from RD to R some
+portion of RD to R and this is from RD
+to RD and by the way it's an old
+acquaintance is a chart transition map
+however it comes here
+derived so we execute the
+multi-dimensional chain rule the inner
+derivative is del i acting on y after x
+inverse but this lands in RD so it has a
+j component and it's evaluated at x of p
+times now comes the outer derivative
+it's this guy which is derived according
+to the multi-dimensional chain rule like
+this and summed over these results of f
+after y inverse and after you calculate
+this you evaluate at this at y after x
+inverse of x of p is y of p you evaluate
+at y of p okay and now you stare at this
+for a little moment and you say "Oh
+that's nice because
+um the i derivative of the j component
+of this this j comes because the y lands
+in RD so you could have also taken the
+coordinate function instead of the full
+coordinate the full chart map and then
+the J component is of course the J comp
+coordinate function so but this is a
+coordinate function so you have del I of
+a function after X inverse X of P oh we
+know this guy this is del Y is it a J
+it's a J component with respect to the
+DXI down P for this object we can also
+use our
+symbol and now you look at this you say
+"Oh F after Y inverse J D." Ah this is
+also our symbol this is DF but now with
+a Y instead of an
+X J so this is a J and this is an I at
+the point P because that's what the
+symbol is ah and where is this guy here
+well that's a real number
+and so you have here a
+sum that goes like this over that and
+um so here you had this symbol here you
+have the f you can consider the hole as
+an operator that acts on this okay and
+so what did we find we found that this
+guy
+here because this is true for all f
+didn't make any assumptions on the f is
+the
+same as this
+guy
+here
+okay so uh let's insert this into
+here therefore insertion into that
+yields you
+um how do we do that
+okay uh x x x i component and for future
+use let's make this a j component from
+the beginning i just renamed the summing
+index x i with respect to x of the d by
+dxi but the d by dxi I reformulated like
+this dy J by
+DXI at the point P times D by
+DY J at the point P equals and then I
+just copy the left hand side is
+XJ with respect to the Y system D by D
+YJ at the point P aha but because these
+are a basis I can be diff um take this
+to the other side i factor out the basis
+i have numbers times the basis is zero i
+know the numbers are zero or
+uh written like this is the J component
+in the Y system is
+the constructed from the I component in
+the X system by multiplying with YJ by
+DXi at the point P and the construct
+contractions over this and this is
+called this is the formula you find in
+books
+it says if the x i are the components of
+the vector in the x indices in the basis
+with respect to the x chart then the
+very same vector the same abstract
+object the same physical vector if you
+wish as
+physicists has in the y chart components
+that you get by calculating these
+numbers at the point
+P now your change of coordinates can be
+wildly nonlinear on your manifold wildly
+nonlinear but now you go to one point
+and you look at the components of a
+vector with respect to the original
+chart and because you evaluate this
+widely nonlinear dependence of y and x
+and stuff like this uh you evaluate this
+at this one point you just get a scheme
+of numbers one might say a matrix which
+you one might say matrix multiply into
+this column vector right but we don't
+want to use the terminology you you cons
+you construct the sum this is at a point
+for a given change of chart from one
+chart to the other chart at that point
+it uses a constant matrix which is the
+matrix that takes the components of the
+vector in one system to the components
+of them in another system so we have a
+vector space and it's acted on at each
+point by linear by a linear map by a
+constant linear map which only acts
+depends on the change of of uh of chart
+although the global chart transformation
+is wildly
+nonlinear now what you do in special
+relativity let me tell you you talk
+about Minkovski vector space so doesn't
+that fly in the face of everything I
+said because Minkovski vector space as
+the points in spacetime is a vector
+space right the x mus and stuff like
+this yes it flies in the face of
+everything and you shouldn't say that
+minkovski space the position the
+space-time points in special relativity
+everything is flat is not a vector space
+either now you say well but the formulas
+work yes they work because you
+artificially restrict self to changing
+from one coordinate system to another
+one by linear transformations which you
+further restrict to be Laurens
+transformations and this sounds like a
+good idea well it's a good idea for the
+individual velocity vectors velocities
+transform under Laurens transformations
+in each point of the flat tangent space
+by a linear
+map now but that doesn't mean that I mix
+the points on the space only by linear
+maps I want to be able to do special
+relativity in polar coordinates if I
+wish so you can still do it you can
+change from cartisian coordinates to
+polar coordinates and in the velocity
+tangent spaces it will induce indeed
+linear maps and if you say observer
+velocities should stay observer
+velocities you can think about what you
+have to
+require but not in position space it's
+an over
+structuralization to equip the position
+space of special relativity with a
+vector space structure because you then
+transform also position vectors with
+Lawrence transformations which is why do
+you restrict yourself like this in the
+tangent spaces it makes a lot of sense
+okay so that's the that's the statement
+here okay so um we have this so there is
+one more thing I would like to mention
+and that's um co-angent
+spaces and now it pays off what we did
+yesterday so at a point you have a
+tangent space TPM but this tangent space
+is just a vector space with the
+operations we defined so of course it's
+quite trivial to consider the tangent
+space which is a vector space and to
+consider its dual so you consider all
+the linear maps from TPM into the real
+numbers so we're still at this point but
+now we look at the dual space so very
+simple and straightforward construction
+now the point is simple and
+straightforward but are there any
+objects we're interested in that lie in
+it yes there are imagine you have on
+your manifold a smooth function say a
+temperature
+distribution then you can define the
+following object D
+um DF at a point P so we take a point P
+uh and you define this uh as the map
+that takes a tangent vector at P and
+maps it linearly to the real numbers by
+virtue of sending the vector to DF at
+the point P of the vector and this is
+defined as simply the action of the
+tangent vector at that point to the
+function
+so you say okay this we knew how to
+write down before this this directional
+derivative why on earth do you want to
+introduce this complicated notation well
+we wrote this action x on f this way as
+a map from the x space the space where
+the x's are linear map to r that means
+that this df at p is an element of the
+co-angent space
+and what is this well this is the
+gradient of f so df subp is called the
+gradient of f at the point p and you do
+not need any charts to define the
+gradient
+now we can calculate the components of
+the
+gradient and you remember how you get
+the components of a tensor it's a it's a
+01 tensor right it's a 01 tensor over
+TPM right in our terminology from last
+time 01 tensor over the underlying
+vector space which happens to be TPM in
+this
+construction so the gradient is a 01
+tensor or a co- vector and calculate the
+components how do you get the components
+of a 01 tensor well you write down the
+tensor
+abstractly and if it's a 01 tensor it
+has one index down
+how are the components defined well you
+take the abstract tensor and you plug in
+the
+basis with respect to which you wish to
+get the components well a 01 tensor eats
+one copy of the vector space an element
+of a copy of the vector space and say we
+want to do this components of the
+gradient with respect to the chart
+induced
+basis for the chart ux why not so we
+plug this in so what is this this is the
+J basis vector and that was this
+object let's calculate this well this
+applied to this vector is actually the
+vector applied to the f d by d
+xj of the fp ah there we got it now it
+looks deceptively like what you would do
+you say you take the partial derivative
+in the j direction you know that you
+need to translate the symbol into del J
+f after x inverse and evaluate at the
+point x of p and this you can calculate
+by undergraduate analysis and because
+you evaluate at the point you get a
+number for each j these are the
+components of the gradient and the
+gradient components are co-
+vectors the gradient of a field of a
+function is not a vector the gradient of
+a function is a co- vector there's
+nothing to be done about it it's a co-
+vector it for instance under a change of
+chart these components transform
+differently than the components that
+have an index up so the final thing I
+write down is
+the change of components i won't prove
+it because you believe it works exactly
+like for the vectors change of
+components of a co-
+vector under a change of
+chart and again the same applies it's a
+change of components the co- vector
+remains the co- vector maybe I emphasize
+this so if this is an element of TP M
+star
+um And you see the star is here and it's
+tradition to write it there so don't be
+confused it means nothing different so
+if this omega is in TPM star it can be
+written ah I forgot something important
+i'm sorry i'm
+sorry uh let me put this here
+um
+theorem theorem I want to give you a
+coordinate a chart induced basis for the
+cotangent space theorem
+uh
+consider a chart
+ux that means you have chart maps x i
+from the chart domain to the real
+numbers right you have these ch
+coordinate maps the claim
+is well first of All they're all smooth
+functions with respect to the chart
+that's under the atas that's underlying
+the claim is that if you take the first
+such function you of course
+can calculate the d of the function so
+you take the function and then you apply
+the d and you evaluate at p according to
+this
+definition and then you take the next
+coordinate function this is the function
+then you apply the D you evaluate at the
+point P and so on up to the D coordinate
+function we evaluate at the point P and
+the claim is this is a basis of TP star
+M and in fact it's the dual basis
+in
+fact this is the dual basis
+uh of the dual space what do we mean by
+the dual base in the dual space in the
+dual space we could choose a to a basis
+that's totally independent of uh this
+basis we chose in the tangent space but
+it turns out if we construct it as the
+gradients of the coordinate
+maps you can calculate you take the
+gradient of the A coordinate map at the
+point P and you apply it to the
+B basis element of the tangent space and
+you calc one second and you calculate
+this you get dxa by
+DXB P and by writing it in undergraduate
+analysis notions you get indeed delta AB
+so in fact this is not just a basis of
+the dual space it's the dual basis of
+the dual
+space if in the original space you chose
+the chart
+induced basis somebody had a
+question okay sorry I wanted to say this
+first so we have a chart in use spaces
+there too and it's given as the gradient
+of the coordinate
+maps now how do the components of a co-
+vector which is an abstract object with
+physical reality we would say as a
+physicist you can expand in terms of the
+dxis at a point p if this is an element
+in the cotangent space and we label the
+components like this of course it's a
+co- vector and with respect to the x
+chart and here with respect to the y
+chart or y chart uh we may label them
+like this and expand in the y dual basis
+now you go through the same motions as
+we did before for the vector you express
+this in terms of the other you use again
+the multi-dimensional chain rule and
+what you arrive at is the fact that in
+the y system the i component is given as
+the i component in the x system
+d and now we need to see where the y and
+the x is and the rule to remember is
+this index is down but I need an x and a
+y they have both an index up so this
+index down comes from an index up if the
+object is under the line so the i must
+come from here no yes the i must come
+from here and this j must relate to this
+one because up down right um and then
+the j is an xj has an x with a j with
+respect to an x i mean this is a
+pneummonic rule right uh and here you
+have a y so you need to find some way to
+remember where which object goes and if
+you compare this to the transformation
+of vector components you will see this
+is the matrix with x up and y down
+whereas the vector components go with y
+up and x down
+okay if the result is the y result and
+then you can show and that will be on
+the problem sheet today that these two
+matrices are inverses of each other so
+really the components of a co- vector
+under a change of chart are transformed
+the other way linearly than the
+components of a vector under the same
+change of chart and now imagine what
+happens if you call the gradient the
+gradient vector and you believe your
+terminology you're in direct
+contradiction to the chain rule right
+you don't need to know anything about
+differential geometry you write down the
+gradient like this you define the comp
+components like this you do the chain
+rule which is undergrad analysis and you
+will find the wrong transformation
+behavior or at least wrong compared to
+the assumption that it transforms like a
+vector right it's not deep it's not a
+special new mathematics that makes the
+gradient a co- vector it's the chain
+rule of standard analysis that makes the
+gradient a co- vector and not a vector
+it's a very important point to keep in
+mind in the tutorials in the first half
+of tutorials this afternoon this has
+been uh further investigated
+questions okay then uh we reconvene I
+suggest at 10 past thank you

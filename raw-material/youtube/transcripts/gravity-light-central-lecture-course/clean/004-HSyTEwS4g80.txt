@@ -1,0 +1,1234 @@
+This program is being presented to you
+by the Heras International Winter School
+on Gravity and Light.
+Welcome to the fourth lecture of the
+winter school. We're now considering
+differentiable manifolds. And uh so far
+we looked at topological manifolds
+and a topological manifold roughly
+speaking allowed due to the topology on
+it. Anyway the definition of continuity
+of a curve and if you think of space and
+you think of this curve as the
+trajectory of a particle uh in classical
+physics you certainly want to talk about
+continuity and you want to require that
+this curve doesn't make jumps. uh we
+already achieved that. Now roughly
+speaking you want more you want also to
+associate to this curve at every point a
+velocity.
+That's the basic idea. Now it's pretty
+clear that if the curve looks somewhat
+like this then you have difficulty
+associating a velocity here because
+there's no unique tangent vector very
+roughly speaking. Okay. The question is
+can what's the difference between this
+curve and this one? Well, roughly
+speaking, intuitively you say this one
+is a differentiable curve and this is
+not differentiable.
+But now we need to make this precise and
+the question is is the structure of a
+topological manifold MO. So we already
+assume it's a special topological space
+namely a topological manifold of
+dimension D. The question is is the
+structure M O enough enough to talk
+about differentiability of curves and
+the answer will be a resounding no it's
+not enough can you construct from it a
+notion of differentiability no of course
+not that's what I mean it's not not it's
+not good enough not enough information
+you need to make more choices before you
+can actually talk about
+differentiability of a curve and in this
+lecture will figure out what the amount
+of this choice is and how much choice
+you really have. I tell you already now
+in dimension one two and three you have
+choice but they're all equivalent. So
+you have only one choice in one two
+three it's pretty clear I mean one to
+threedimensional topological manifolds
+you have essentially one choice how to
+talk about differentiability of curves
+on them 1 2 3 dimension five 6 7 8 9 10
+and so on so not four five six but five
+6 7 you have in each dimension a finite
+amount of choice okay so you say well
+you have 48 choices Well, write it down,
+do physics with it, make experiments and
+you will find out which of the one it
+is. Unfortunately, there's a theorem
+which I will quote in the end that in
+four dimensions, the dimension of
+spacetime, you have an uncountable
+number of possible choices.
+Do you still think it's obvious which
+one to choose? It is not. It's important
+to figure out what is going on. Okay, so
+this lecture is about figuring out what
+structure we need to add on a
+topological manifold in order to start
+talking about differentiability of
+curves on a manifold, about
+differentiability of functions on a
+manifold, even about differentiability
+of maps from one manifold to another
+manifold. We will need all this. Okay.
+So we wish to
+define
+a notion
+of differentiable
+objects, more concretely curves.
+What was a curve? Well, on a manifold, a
+curve is a map from R to M uh of
+differentiable
+functions. uh that's just the
+terminology for a map from the manifold
+into the real number say a temperature
+distribution on the manifold and most
+generally maps
+um from one manifold
+to another. So I will now not always
+specify that there is a topology on here
+because I say it's a topological
+manifold you know that is in the
+background has been chosen. We want to
+define such a notion. Now first what is
+our strategy for that
+and in the
+third no in the second lecture I already
+indicated what the strategy would be. I
+spell it out once more. The strategy is
+if this didn't happen if we didn't look
+at a curve in the manifold. Let's start
+with curves. So if we didn't look at
+this guy in the manifold, but we rather
+looked at a curve from R to RD, we would
+know what we mean by differentiability,
+right? And we could use the
+undergraduate definition
+and talk about that. Now the point here
+is the strategy is um choose
+a chart
+UX. Well, a chart will not cover the
+entire manifold, but let's start in a
+chart and consider the portion of the
+curve that lies in the chart domain.
+You can say, well, that's not what we
+want. We don't want the portions that
+lie in a chart domain. We want the full
+curve. But let's do it in charts. And
+because charts domains cover everything,
+we then can then compose the global
+notion from the local notion. That's the
+strategy. We try this and we'll see how
+it works. Okay, but now how can we do
+this? Well, if we have a chart, we also
+have a chart map. We land in X of U in
+RD. And here of course we got already
+last time the object X after gamma which
+is now a curve from R into RD.
+But as a curve from R to RD, we know
+whether it's differentiable or not. you
+take the derivative with respect to the
+curve parameter component-wise or
+something like this. Okay, your favorite
+your favorite definition here. And the
+strategy or the idea is
+try I think the chalk is wet here. try
+to lift
+the undergraduate notion
+of differentiability
+of a curve
+on RD
+to a notion
+of differentiability
+of a curve
+on the manifold. Right? We already had
+the question last time. Well, here you
+call it differentiability and then you
+used to call this also differentiable
+but this should be called undergraded
+differentiability and this is called the
+manifold differentiability. Okay. But
+you try to define this by coming from
+here. Now of course already the problem
+uh or the question we encountered last
+time is um can this be well defined?
+Can this be well defined? Because after
+all the curve doesn't know anything
+about me looking at a particular chart.
+It would be a very bad idea to assign
+the curve a property that depends on my
+taste.
+So well defined is this well be defined
+under change
+of chart.
+So in order to judge that we again draw
+this picture um gamma the portion of the
+curve that lies in U you use one chart
+you go to x of you in
+in RD but now another chart could have
+another chart domain and it could have
+another chart map both at the same time.
+Now if the other chart domain is V and
+the intersection between the two is
+empty then one chart here one chart
+there they can't be incompatible because
+this portion of the curve has nothing to
+do with that portion of the curve. But
+if this is non-MP
+then in the overlap region there is a
+real problem because one chart map might
+tell you yes it is differentiable the
+down there the of the same curve of the
+same object in the real world the other
+chart map might tell you no it isn't.
+Well if that happens that's catastrophe
+because then our definition is no good.
+So that means we look only at the
+non-mpt overlap region. But then because
+this is part U is part of the overlap,
+you can of course still use the X to map
+here. This will still lie in RD. And on
+this part you have X after gamma. Now
+another chart on this entire overlap
+region using Y gives you Y of U
+intersected V in RD. And you have
+another chart map y after gamma.
+And now the question is if I use here if
+I say this is undergraduate
+differentiable
+and of course that's just my term for as
+a map from R to RD. This is what I mean
+by undergraduate differentiable. If this
+is undergraded differentiable
+question, will this representative of
+the same curve in the real world be
+undergraded differentiable in the other
+chart? Well, uh we know we have a chart
+transition function here y after x
+inverse from here to there. That was
+exactly the chart transition function.
+And um let's write it down. So that's
+this guy. Y after gamma is of course Y
+after
+um what do we do? Y after X inverse
+after X after gamma. You can read it
+this way. This is this one after this
+one. Um but of course the composition is
+associative. So you could write y after
+x inverse after x after gamma. You can
+think of it this way. Uh then you see oh
+it's really this guy here by inserting
+the identity. Whatever way you think
+about it this is all true. But the point
+here is this guy here you know is
+undergraduate differentiable
+undergrad
+diff.
+And in fact it's really a map from R to
+RD.
+This guy is a map from RD to RD. right
+from some portion of RD to some portion
+of RD
+and you know however because it's a
+chart in a topological manifold two
+charts in a topological manifold what
+you know with certainty is that it's
+continuous
+well you could also call it
+undergraduate continuous because it's
+continuous with respect to the standard
+topology in RD
+but now you see the problem the
+composition of a differentiable map and
+continuous map may be differentiable
+but it may not be. All you can conclude
+is that the composition here
+uh is sometimes maybe
+only continuous
+not undergrad
+differentiable.
+roughly speaking because a continuous
+sharp transition map can um uh make make
+an edge like this right and it destroys
+the differentiability.
+So the answer is it doesn't work. It's
+simply this does not work.
+Now what is the remedy of the whole
+thing? By the way, if you now want to
+study this, the diagram looks very
+similar and a similar problem occurs. If
+you wanted to define the function on a
+certain domain, you try to study how it
+looks in as a chart represent chart
+representative of the function and so
+on. And here for these maps, the diagram
+uh looks on both sides. You have to
+choose charts here and there and the
+diagram becomes bigger. But it's always
+the same problem. If you change chart
+and you only know that the chart
+transition map is continuous as is
+guaranteed by the topological manifold
+definition, then you're in trouble. Your
+strategy does not work out.
+So at first sight,
+strategy
+does not work out.
+But of course there is a remedy for the
+whole thing and that's section two
+compatible
+charts.
+So let's um make a bit more explicit
+what we said before.
+Um,
+in section one
+we only we used
+any imaginable
+charts
+on the topological manifold.
+M O
+and um in order to emphasize I mean of
+course a chart is a chart. In order to
+emphasize that we took any charts
+possible
+we say the following to emphasize
+this.
+We may say
+we may say that we took
+U and V these arbitrary charts
+from
+the maximal
+atlas
+A
+of M Oh,
+again an atlas was just a collection of
+all charts.
+No, sorry. An atlas was a collection of
+enough charts such that the chart
+regions
+overlap the entire manifold. That's an
+atlas. The maximal atlas is an atlas
+that has many more redundant pages.
+Namely, any page you could put in is in
+there. So the maximum atlas is a
+theoretical object. I would never if I
+want to give you an atlas I would always
+write down a minimal or almost minimal
+atlas at least a small atlas as small as
+possible somehow because it saves work.
+But then I can imagine you can ask does
+an an additional chart lie in the
+maximal atlas okay and the answer is if
+it's a chart it lies in a maximal atlas.
+Okay. So this is the and so we we say we
+took U and V from the maximal atlas.
+But some of these guys we might be lucky
+maybe this maximal atlas can be reduced
+such that I throw out all those charts
+which have between them a transition
+map. a chart transition map that is only
+continuous but not differentiable
+because the chart transition map is also
+from RD to RD. We can use our
+undergraduate understanding of the
+differentiability and require that we
+only keep a subset of charts
+that we originally had in a maxon atlas
+and we pick in a clever way such a
+subset that it's still an atlas it still
+covers but that all transition functions
+are differentiable.
+If we manage to do that, we make this
+work by additionally requiring that in
+the future you cannot just choose any
+charts in order to define this in order
+to define the um the differentiability
+of this curve. You may only define the
+differentiability of the curve from the
+chosen charts from a restricted atlas.
+But if you do this everything is fine.
+Okay. So definition let's make this
+formal this idea definition
+two charts
+ux
+and vy
+of a topological manifold. So first of
+all of course it's any charts are called
+flower compatible
+If if
+either
+two possibilities if either their chart
+domains do not overlap at all
+somebody you don't meet you can't have
+you can't be incompatible with right you
+never got into trouble with you're
+compatible with everyone you didn't meet
+chart parts who have no common part of
+their domains, they are compatible. But
+now what if
+there is overlap? So either or if
+there's overlap, they're called
+compatible if
+either uh the chart transition map
+between them. Now chart transition maps,
+we got to be very careful. that two if
+you have two charts you can do y after x
+inverse was the one we wrote there y
+after x inverse now what's its domain
+its domain is the image of the
+intersection and its target is the image
+of the intersection under the other
+chart map
+that maps over there if the transition
+maps this one and its inverse that's
+this one x after x in y inverse
+the The domain is y of u intersected v
+goes to x u intersected v. Of course,
+one is the inverse of the other. One
+could maybe not write this and say,
+well, you could rename u and v and x and
+y and then it's contained. But it's
+clear like this. If in both directions
+these maps, these chart transition maps
+are and now comes the point
+because they're both maps from RD to RD,
+right? Both maps from RD to RD.
+I can use any notion of undergraduate
+flower
+property
+in order to define flower compatibility
+on the manifold. For instance, if I have
+a notion of undergraduate on RD
+differentiability,
+I call two charts differentially
+compatible.
+If the chart transition maps are
+undergraduate
+differentiably compatible, if they're
+differentiable,
+if they have the differentiability
+property. Okay. So, um why do I use the
+ridiculous flower? Um the point is this
+is the philosophy
+that you can have different types of
+manifolds and different types of
+compatibilities.
+Um
+you define
+uh an atlas
+a
+flower
+is a flower compatible atlas.
+If
+um any
+two charts in a flower
+are flower
+compatible
+and then you say a flower manifold
+is a triple
+M O A flower
+and of course the A flower must always
+be a subset of the maximal atlas
+because it's an atlas.
+Okay, it still covers and that's a
+flower manifold is a triple where of
+course these two entries make a
+topological manifold
+but you have to choose a selection of
+charts that are mutually flower
+compatible whatever flower is for
+instance differentiability
+okay and that's a choice
+and it's not clear for a given topology
+ological manifold say the sphere
+and I have the maximal topological atlas
+can't I take out
+charts in one way or can't I keep one
+set of charts or another set of charts
+that both satisfy the flower
+compatibility
+but the choices are not the same if that
+happens and I wish to make a model of
+space time
+I should know which choice I make
+because one is not the same as the
+other. Under one choice, some curves
+will be differentiable for instance and
+other curves won't.
+So I need to know and the question of
+how many choices I can make is very
+important in order to know whether I
+introduce arbitrary assumptions here or
+whether this is the only way I can do at
+this level. Right? So this is for
+physics. This is important. And this is
+not mathematical sophistication for its
+own sake. This is a really downto-earth
+question for physics. Am I doing am I
+choosing the right structure here? Now I
+said it's the philosophy. Um let make
+let me make a table
+of what flower can be.
+Yes.
+May I ask a question for that? Why do we
+require that the overlap between you and
+we can also include the the zero overlap
+in the definition of compatibility?
+No, it's it's um you mean this one here?
+Well, the zero overlap means it has no
+overlap. Um so it would be the real
+world. Um and there's one chart domain U
+here and one chart domain V here. They
+map this part of the world and this part
+of the world. They can never cause an
+incompatibility
+in the definition
+because there is no portion of a curve.
+Say there's a curve in the world which
+maybe even hits both domains. But then
+one can only judge the differentiability
+here. The other one can only judge the
+differentiability here. But they can
+never be in conflict. Hence if maps if
+charts have nonover overlapping domain
+if the intersection is empty
+we don't have to worry they are
+compatible but if they intersect then
+you can judge the same piece of the
+curve in one chart or the other and then
+you may have a problem and there is
+where the condition needs to be imposed
+that's it okay so what can flower be
+this is flower and this is undergraduate
+flour
+And of course this is silly but um
+so um one thing we like to write
+sometimes is C 0 are these C 0
+compatible atlases what it means are
+they are the transition maps are the
+transition maps C 0 as maps from RD to
+RD. C 0 means is the set of all
+continuous maps
+continuous maps with respect to the
+standard topology on RD and you say
+every atlas is a C0 atlas on a
+topological manifold because the
+transition functions transition maps are
+of course continuous.
+So is every atlas is a C 0 atlas. Now
+you can ask is the atlas C1. What is C1?
+C1 would be this. What is undergraded
+C1? Well, it would be that the
+transition maps as maps from here to
+here. I mean strictly speaking from
+where they are defined to where they're
+defined. Right? Roughly speaking, um
+sorry, with respect to O standard, um
+this is these are the maps from R to D
+to RD that are differentiable,
+namely ones, and the result
+is continuous.
+You could have a function that's
+differentiable, but the result is not
+continuous. Okay, that's this. Of
+course, you can generalize this to CK is
+the function K times
+continuously
+differentiable.
+Now you ask why do we insist on the
+result being continuous? Well, you don't
+have to. You could ask is it K times
+differentiable?
+But the nice thing about functions that
+are not only k times differentiable but
+the result is continuous is that you can
+judge its k* continuous
+differentiability
+from the repeated continuous
+differentiability in the in various
+directions. So from the existence of the
+partial derivatives and their
+continuity, you can already conclude the
+entire map has this property because
+they're nice examples that maps are
+differentiable k times uh
+sorry there are examples for maps that
+are not k times differentiable
+as maps from RD to RD but all partial
+derivatives are
+right they're examples like this but
+because it's nicer to not have to worry
+about these cases you require the
+function itself to be continuously
+differentiable. Hence, this is a more
+favored class of manifolds than those.
+They're easier to work with. Okay. But
+anyway, so you have this then there is a
+class it's called C infinity. C infinity
+compatibility means you can uh it's
+continuously differentiable arbitrarily
+many times. Okay, that's C infinity.
+Then there is a case that's called C
+omega. Omega stands for analytic real
+analytic in this case. That means this
+transition map can be tailor expanded
+right uh a multi-dimensional tailor
+expansion. So there exists a
+multi-dimensional
+tailor
+expansion. Right? So in physics
+sometimes people say well everything can
+be tailor expanded. No, no, it's simply
+not true, right? It's much stronger than
+this one, right? This is so this is a
+much smaller class
+than this one. Okay.
+And finally, uh maybe I I don't know how
+how to call this um uh complex
+differentiable or something like this.
+Yeah. Um this you can do only for even
+dimensional manifolds and you can
+require that your chart map which is
+from R2D to R2D
+that they uh pair-wise satisfy the Koshi
+Reman equations.
+If you do that on top then you get
+something called a complex manifold
+which has much more structure than a
+real manifold because you additionally
+have the equation but you always ask
+this of the transition functions. So by
+imposing more and more conditions on the
+transition functions you and why would
+you do that? Well because you might want
+to define a tailor expandable curve
+but then you need an analytic manifold
+in order to not destroy the tailor
+expandability in one chart once you
+transit to another one. So the more
+fancy stuff you want of your objects on
+the manifold, the more restrictive you
+have to be in your choice of atlas. And
+the question is yes,
+the C omega whether I have just a
+two-dimensional expansion or an
+hundredth dimensional that doesn't
+matter it's all C omega.
+Uh no it would dep it would depend on
+the dimension. So the question was
+whether a um
+whether it matters whether you have a uh
+analytic function in one dimension or in
+two dimensions. Well, they're totally
+different functions. Okay. And in so you
+can't even compare. You can't even
+compare. But uh it's certainly not if
+it's smooth this is called smooth.
+Um smooth there are smooth functions
+that are not analytic in any dimension.
+Right? Okay. So this is the general
+philosophy. So in the future if you hear
+of a complex manifold you say ha it's
+just here the koshi reman equations
+apply to the transition maps you know
+what a complex manifold is okay so so
+this is the the general um overview here
+um so that's what we what we want and I
+think it's clear now from what I said in
+the beginning I don't need to say it
+again now our definition of
+differentiability of a curve say our
+curve can be called k times the curve on
+the manifold can be called K times
+continuously differentiable on a
+manifold where I manage to find an atlas
+that is a CK atlas because that will
+preserve this property in one chart for
+another chart. Okay. Now the question of
+course is okay to what degree do
+derivatives appear in physics? Okay, is
+C2 enough? Maybe C3 to be safe or whatn
+not. Um there is actually a nice theorem
+by Whitney that says we don't need to
+worry about this
+theorem
+without proof
+any
+CK manifold.
+So remember that's a manifold that's a
+topological manifold on which there
+exists an atlas that is CK but K needs
+to be bigger or equal greater or equal
+than one so it's not for a C 0 manifold
+of course right any CK so if it's if you
+have a manifold for which there exists
+an atlas where you can reduce the atlas
+such that
+all the charts that remain and still
+constitute an atlas are at least once
+continuous ly differentiable the
+transition maps any such manifold um
+uh sorry I should I'm sorry I should
+formulate in terms of atlases and then
+it's shorter and clearer
+any ck
+greater than equal one atlas
+a ck greater equal one is his name of a
+topological manifold
+contains
+as a subatlas which is still an atlas
+contains
+uh a C infinity atlas.
+Meaning if you have a topological
+manifold,
+there are some topological manifolds
+where you simply cannot remove a chart
+or charts in such a way that all that
+remains is still an atlas and has
+continuously differentiable transition
+functions.
+So some topological manifolds cannot be
+given such a structure.
+But those who can where I can achieve
+that the transition functions are at
+least once continuously differentiable
+and I have an atlas in that atlas you
+can remove more and more and more and
+more charts this theorem says until you
+have even a C infinity atlas. So the
+difficult step is from a C0 atlas to C1.
+That step is really substantial.
+Right? This might or might not work to
+choose such an atlas for a given
+topological manifold. But once you
+arrived here,
+you trickle down right up to here.
+Meaning in the future I will do hell and
+specify which ck I will always use
+smooth manifolds.
+Thus
+we may without loss of generality OBDR
+we may without loss of generality always
+consider
+C infinity manifolds
+and they have a name they're called
+smooth manifolds
+because that's nicer that's smoother
+than saying C infinity manifold smooth
+manifolds
+Um, unless
+we wish to define
+tailor expandability,
+um, complex,
+differentiability
+and so on because it doesn't trickle
+down to here. Okay, but we don't need
+this. Although as physicists sometimes
+we would might may want to like this but
+but then you really have to make sure
+that your manifold your top underlying
+topological manifold still allows you to
+further reduce the atlas. So you see as
+a physicist you cannot say a come on
+let's tail expand a little right
+just a little right
+okay good good
+so well it's already said but maybe once
+a smooth manifold
+is a triple M O A where this is a C
+infinity atlas and this is a topological
+manifold
+and you see the only thing that
+distinguishes a a smooth manifold from a
+topological manifold is the provision of
+extra structure but in this case it's
+not extra because I put it on top right
+but because I reduced it from a given
+atlas but ripping out pages page 7 page
+28 page 510 also contains information
+because I could have ripped out the
+pages. I could have ripped out other
+pages and I send a message I love you or
+I don't quite love you. Right? Um so
+this is information choosing this atlas
+because for me for is something like
+physics this was this was always from RP
+to R. This means this is one this is a
+chart transition map.
+It's a chart transition map.
+Where does then the gamma has to come
+from the experiment if gamma is really
+infinite. Sorry. Gamma. What? What's
+gamma? The the curve.
+The curve.
+No, the the curve. So again, the um So
+the question Yeah. Okay. So the curve
+the setup is the following. Um
+so I throw this piece of chalk. Sorry.
+Okay. Now it made a trajectory. Okay.
+And I like as a physicist I think of the
+trajectory that this piece of chalk made
+in the real world. And I might with
+sufficient idealization say if this is
+the real world then what the chalk did
+and I may think of this as time which
+later on we won't but roughly speaking
+this is the curve that the real object
+in the real world made. And then of
+course in order to communicate to you
+because you just didn't look there but
+looked out of the window. What did the
+piece of chalk do? I set up a chart. I
+put up little uh flags everywhere and so
+on. And uh you will say it passed my
+nose right here and you say it passed my
+nose at that that time and so on. So I
+set up a chart and you and then I give
+you this here. I can write it down on
+paper maybe even as a nice function. I
+tell you this and of course once I set
+up a chart this way I can write it down
+this way. But as a physicist what the
+chalk the trajectory of the chalk is not
+this. The trajectory of the chalk is
+that. Now of course if we write down
+physics on paper I mean concrete curves
+uh we'll always talk or almost always
+talk
+about this guy and you may change chart
+and then you talk about this guy and so
+on. But what we really think about and
+the things really want should attach
+um uh properties to or require
+properties of in our model of the world
+is this guy. what the the real path of
+the real chalk and all this reminds you
+is you may have a fantasy of saying well
+but it was differentiable the curve I
+wrote down to you uh well only because
+we made very special provisions of not
+choosing charts here that don't allow to
+speak of that
+yes let's assume I have a M and I lock
+on to a b okay
+this is a delta f is the third or four
+the fifth derivative disc is continuous.
+Okay.
+How does this I I don't see how this
+works.
+Okay.
+Yes. Yes. Yes. Uh well well the point
+would be if I say I have you have a
+smooth curve. So the question was I'm
+sorry. So the question was what if you
+have a pulse with a hammer you you
+hammer on something and the fifth
+derivative is discontinuous. So the head
+of the nail makes it discontinuous. Um
+well it makes
+certain measurements.
+Yeah. Yeah. Yeah. Yeah. Well the point
+is if you say world lines or
+trajectories are smooth you would not uh
+allow that. Now you can say I have a
+smooth manifold but on a smooth manifold
+I can define a C2 curve right. So if I
+say I want this to be C2 so that if you
+derive once more three times as you
+required it's discontinuous that means
+you don't require the curve is C
+infinity you only require it C2
+nevertheless you can still do this on a
+smooth manifold with these transition
+functions because C infinity after C2
+will generically only be C2
+right so it doesn't harm that you choose
+a C infinity manifold if you still want
+to consider for whatever reason curves
+that are only C2 but not C3
+and all the Whitney theorem says it
+doesn't say the objects you look at must
+then be C infinity it says it doesn't
+harm the C2 objects if you choose the
+manifold C infinity and you always can
+okay
+so therefore it's a good good question
+because I maybe overstated before. I
+said we can always choose our objects to
+be smooth. We can still insist on them
+not being smooth, but for the char
+transition maps, I still require
+smoothness and everything will be well
+defined. Okay.
+Okay.
+Um
+where are we? Ahomorphisms
+and the theorem I mentioned in the
+beginning.
+So um last section diffomorphisms.
+So I already mentioned that whenever you
+have maps
+from one set to another set and it's
+just some map let's call it capital phi.
+Um if you have no further structure to
+the set you can say what you can study
+the sets by studying maps between them
+and um that's just maps they have no
+further structure and what you usually
+require is that the map is invertible.
+So if you're on a on a naked set, so if
+m n are naked sets, meaning you have no
+further structure in mind, um the
+structure preserving maps.
+So not only respecting but preserving
+maps are the bjections
+and that those are of course the
+invertible maps
+for which there exists an inverse
+because at a set theoretical level a set
+roughly speaking consists of these
+elements and if each element here you
+can map to one here everything is hit
+and none is hit twice you can pair girls
+with boys and you know you you compare
+this up and so two sets
+may be such that they do have that they
+exists such a structure preserving map
+or not. So example
+between the set one two three and the
+set A
+there exists no structure preserving map
+at the pure set level because I can map
+the one to the A and the two to the B.
+But what do I do with the three? I would
+have to map it to A or B again. But then
+it wouldn't be by objective because no
+inverse exists. And in fact you compare
+the size of sets informally speaking by
+talking about there exists a bjection
+then you call the sets to be of the same
+size. Well for finite sets that's maybe
+a little bit overdone as a definition
+but for infinite sets it works. So for
+instance you can okay
+um so that's an example where it doesn't
+work. There exists no structure
+preserving map. Now definition
+a set M and a set N are called to be um
+isomorphic
+and I say set theoretically.
+So I emphasize only if you look at the
+set aspects they're set theoretically
+isomorphic
+morph is form and iso is the same. They
+have the same form set theoretically
+speaking only looking at their set
+theoretic aspects. Therefore studying
+them by maps by pure maps. Um they're
+set theoretically isomorphic by
+definition if there exists uh a bjection
+fi between them. Well if there exists
+one there exists usually many different
+ones. The question is, is there at least
+one one to one map?
+If that is the case, then the one one
+map is called an isomorphism, but the
+sets are then called isomorphic. In
+order to emphasize that this takes
+nothing into account but the set
+theoretic structure, we say they're set
+theoretically isomorphic. And um
+examples
+are for instance the integers are set
+theoretically isomorphic
+to um the integers to the natural
+numbers. They're as many integers as the
+natural numbers. You say but they're
+double as many roughly speaking apart
+from the zero. No but you can make
+pairs. Okay. uh bit more surprising is
+that the fractions are as many as n and
+there's this diagonal counting scheme
+and so on. Maybe you saw this before. Uh
+so they're set theoretically isomorphic
+but n is not set theoretically
+isomorphic for instance to the reals.
+Okay, that's this example. Now that was
+on the set theoretic level. Now and that
+will always stay like this. Now we can
+add structure to a set.
+Um and we did this. If we add structure
+to the set, we now consider still uh a
+set but equipped with a topology. For
+instance, we did this in the
+first lecture.
+And the question is can we define a
+meaningful notion of topological
+isomorphism
+that will still because there are still
+sets in there a topological two sets
+will be topologically isomorphic. So
+topologically
+isomorphic
+but there is a household name for that
+and that's called their home
+morphic and that's just traditional
+language. It means they are at the set
+level isomorphic.
+But additionally
+there exists
+not only a bjection phi from m to n
+but a bjection such that phi and its
+inverse are continuous.
+Why? Well, because continuity is the
+structure respecting
+property of these curves. So you add the
+condition not only do I want these two
+there to be a bjection, I want there to
+be a bjection which in both directions
+is continuous. If that exists, there may
+be several those I call the two spaces
+topologically equivalent.
+And it's clear if two spaces are
+topologically
+isomorphic, sorry, topologically
+isomeorphic or homeomorphic as one says,
+then of course they're also set
+theoretically isomorphic. This is a
+stronger notion. I look at the sets more
+closely.
+Okay, so this is uh here
+if you have a vector space you can do
+similar stuff. You can call one vector
+space vector space isomorphic to another
+one.
+If again you require the exists a
+bjection fi between one and the other.
+If it's a bjection
+it means it's invertible and in both
+direction it's linear because linear
+linearity is the structure preserving
+map here. And finally I want to show you
+this is always the same principle. And
+finally
+what I actually want to do in this
+section is I want to call talk about
+difforphic maps. the definition
+um two
+um
+um two C infinity manifolds
+M O M A M
+and N O N A N
+are said to be
+difforphic.
+If there exists a bjection that's a
+purely set theoretic thing byjection phi
+from m to n
+but because there's a bjection the fi
+inverse exists such that the map phi
+and the map fi inverse
+are both
+C infinity maps
+and I haven't defined C infinity map yet
+but it's clear how that goes. If you
+have an M and an N
+smooth manifold,
+you may choose here an open set U and in
+the target you may choose an open set V
+and you look only at these portions of
+this map. But here you can choose a
+chart X and here you can choose a chart
+Y and that goes to some RD. But this
+here goes to some RE because if this is
+a D-dimensional manifold where you start
+and this is a E dimensional manifold
+where you land the charge will have this
+property and we like we would like to
+call this portion of the map that lands
+in that portion of that space. We like
+to call it C infinity.
+If the map y after phi after x inverse
+which now uses a combination of two
+charts here and there for its
+definition. If this is undergraduate
+if this is undergraduate c infinity from
+rd to re of course you know the drill.
+You need to check whether with
+alternative charts X twiddle and Y
+twiddle into RD and RE. You need to
+check whether the other representation
+uh Y twiddle after phi after um X
+twiddle inverse whether this is also
+undergraduate differentiable. But we
+already know because we have a chart
+transition map here and a chart
+transition map here which because we
+started with C infinity manifolds you
+know the chart transition maps are
+undergraduate C infinity and this
+undergrad C infinity will be preserved
+if I lift it up to here the diagram gets
+bigger and the principle is always the
+same.
+Okay.
+So why do I bother about diffomorphisms?
+Well, if you look at a manifold and you
+look so closely that you doesn't escape
+you that it's a C infinity manifold. I
+mean certainly it's still a topological
+manifold but it's a C infinity manifold.
+The question is can you distinguish two
+C um C infinity manifolds using only
+that structure. For instance, if I take
+a ball,
+I embed it and nicely and I pull back
+the topology from R3. Right? So I take X
+squ + Y M^² + N² + P ^ 2 in R3. I uh
+induce the topology from R R3 the
+standard topology. I get a topological
+manifold. We already know right talked
+about this. Um and then can I reduce
+there the maximal atlas such that I get
+a C infinity manifold? Yes, I um I I
+promise you you can. Okay, so you have a
+C in C infinity manifold. Now question,
+you do the same but with 5 * M 2 + 7 * N
+2 + uh 18 * P ^ 2 = 1 and then you get
+an ellipsoid.
+You do the same thing. You pull back
+your topology. You reduce the atlas and
+so on. Question, is there a
+diffomorphism between this guy and that
+guy? Yes, there is. Is there a
+diffomorphism between the sphere and the
+sphere where I make a little edge in it?
+Right. I I fold it a little. Uh, no.
+There is no diffomorphism between the
+two. There is still a homeorphism
+between the two. As topological
+manifolds, they're the same, but as
+smooth manifolds, they're already not
+the same anymore. Okay? So, it always
+depends at the level you look at it. But
+still the surface of a potato that
+doesn't have any folds, right? The
+surface of a potato is difforphic to the
+surface of the earth. Right? At this
+level, unless you make a little edge
+into it, at the smooth manifold level,
+things don't have a shape yet. Apart
+from not having little folds, folding
+edges, but a shape they don't have yet.
+That comes only later. Okay. So now uh
+comes this uh uh theorem
+that's the last thing theorem
+is on the number
+of
+manifolds
+of C infinity manifolds.
+um one can make
+out of a given C0 manifold
+in brackets if any. So for some that
+might not work but say you have one for
+which it works
+uh up to diffism.
+So I can equip
+a topological manifold with two
+different uh um okay fine fine I first
+state up to diffis. So if two manifolds
+only differ by difforphism I count them
+as one because through the differential
+manifold perspective viewed they are the
+same. Okay, up to the femorphism is the
+following uh dimension of the underlying
+topological manifold
+1 2 3 and the number of different
+manifolds I can make of that is one one
+one
+no ambiguity four I leave open I said in
+the beginning five six seven here five
+finitely many six finitely many seven
+finitely
+So this uh is the Moyes Radon
+theorems.
+So the point is this is not easy to
+prove. Okay. And five six seven that
+there are only finitely many. Uh this
+has been shown by a field of topology
+that's called surgery theory where you
+have to learn how to glue together many
+folds and stuff like this. Surgery
+theory result. Okay. So extra techniques
+had to be invented in topology in order
+to prove this meaning don't worry if you
+don't feel it. Okay. Uh it's it's a deep
+result. And uh now four dimensions which
+is of course as space-time physicists
+we're particularly interested in.
+There's some partial results that some
+compact manifolds compact is a
+topological notion. Okay. um the surface
+of a sphere is compact but R2 as a
+manifold is not compact as a topological
+manifold right um anyway for compact
+manifolds there are some where if the
+Betty number is 18 it's also top
+topological notion then there only
+finitely many choices or something like
+this some very very special exceptions
+but generically generically and
+particularly for non-compact manifolds
+right which uh
+is a real option for for spacetime.
+There exist uncountably many
+uncountably
+infinitely many.
+So not only infinitely many 1 2 3 4 5
+but so many like the real numbers that
+you can't even count them anymore.
+Okay. And that's uh just an existence
+proof. exist uncountably infinitely many
+different
+C infinity manifolds you can make out of
+a given topological manifold.
+So that's a real problem because which
+one do you choose for physics?
+Okay.
+Number is it the same number for all?
+No, no, no, no, no. It isn't.
+And how finite? Two, three or 10?
+Well, that doesn't matter.
+Um, I don't know. I don't know whether
+the the proofs actually only say I only
+know the statement that there are
+finitely many. I don't know whether
+there's any definite number. Um probably
+not because um these could look very
+funny, right? And um some
+five-dimensional ones might have 20 and
+other fivedimensional months might have
+28 different structures, right? So um
+you can't really say what the finite
+number is. Okay. I think I think I would
+be very surprised if in dimension 28 the
+number was 58 for all 20. It could be. I
+don't know. I don't know. Um, but finite
+still sounds fine. Okay, for a physicist
+you could say let experiment decide,
+right? Let's be real physicists. Let
+experiment decide. But if you here want
+to be a real physicist, you're also a
+very busy experimental physicist, right?
+So, so you see theory does something
+here for you. You cannot always say let
+experiment decide, right?
+Okay. Thank you very much. See you
+tomorrow. And in the tutorials, please.

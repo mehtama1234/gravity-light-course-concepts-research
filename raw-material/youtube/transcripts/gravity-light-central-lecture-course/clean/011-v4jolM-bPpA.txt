@@ -1,0 +1,2108 @@
+This program is being presented to you
+by the Heras International Winter School
+on Gravity and Light.
+[Music]
+So, good morning and welcome to the 11th
+lecture. Today's topic is symmetry, but
+in fact, we'll pick up a number of
+elementary techniques in differential
+geometry that we will need urgently in
+Einstein's theory. But I will motivate
+these techniques uh by appealing to your
+feeling to your intuition.
+Namely the feeling uh that the so-called
+round sphere
+and you remember
+that
+the round sphere was first of all a
+smooth manifold
+which at that stage cannot be said to
+have shape but as the at the moment we
+provide a specific metric and I gave a
+metric last time uh which we call the
+round metric G round
+uh that that is an object that um has
+properties that follow our intuition of
+shape. Uh we have the feeling that the
+round sphere as defined last time uh has
+rotational symmetry.
+So if I provide you with an example of
+such a round sphere and then you can
+turn it around as you wish and it looked
+the same in any after any transformation
+of turning it around has rotational
+symmetry while and that's an a crucial
+point uh while the potato
+uh which is also S2A
+as a smooth manifold old but has been
+equipped with a different metric and it
+depends on where you buy your potatoes.
+Uh but there may be different potatoes.
+Uh but let's call that the potato
+metric. Uh while the potato does not
+feature that symmetry.
+Now this all seems simple enough but in
+fact it's quite different from the ideas
+of symmetry especially rotational
+symmetry but also other symmetries we're
+going to talk about
+different from how you thought of them
+so far because so far you probably
+thought of rotational symmetries as some
+SO3 group in whatever at whatever level
+of sophistication
+where you demand and we uh tell our
+students that you need an inner product
+first and then with respect to that
+inner product you can classify linear
+maps A such that A acting on a vector X
+and A acting on a vector Y taking the
+inner product reproduces XY. So these
+are um linear transformations in a
+vector space that respect an inner
+product. Now here we're talking about
+something different altogether.
+Nevertheless, it's the same idea.
+up to this up to here there is no metric
+there is no inner product and first of
+all second once you have a metric we
+talk about the symmetry of the metric
+itself because the only thing that
+distinguishes these two objects is the
+metric so the symmetry is a property of
+the metric and not given a metric you
+have additional transformations that
+respect something that's the first
+difference is um well a metric provides
+you with an inner product in each
+tangent space, but that's certainly not
+going to be the the inner product
+because there are many inner products
+and many different tangent spaces that
+can be used to redefine SO3 with respect
+to some of the tangent spaces. But this
+is talking about the distribution of
+these inner products over the sphere in
+this case, right? And that the
+distribution is in some sense rotational
+invariant or not. So we really have to
+think about this in a slightly different
+way and we need a number of techniques
+uh to do that and that will be of
+crucial importance. So um the question
+is uh uh how to describe symmetries
+how to describe symmetries
+of a metric
+and this is not an academic question.
+It's a question of the utmost importance
+when finding or trying to find solutions
+to Einstein's equations because nobody
+can solve Einstein's equations without
+additional assumptions on for instance
+the symmetry of the solution but in many
+physical situations you know about such
+symmetries or you postulate them and
+then you make progress. So this is
+technically very important in order to
+speak of these symmetries. Um there are
+a number of technical concepts we need
+that are also very useful in other
+places. Amongst them are some points I
+left out in the course so far. So
+several loose ends will be collected
+this morning. So the first thing we want
+to look at uh are is the push forward
+map.
+Now what is this? Um let's take two
+smooth manifolds. So there's no metric
+yet. So this is a smooth manifold. This
+is a smooth manifold. And let's consider
+between the two smooth manifolds a
+smooth map fi.
+Then we define the following map that's
+induced by this map fi. So we send
+points to points in a manifold. Uh then
+the push forward
+map the push forward has a name. It's
+named like this map from which it's
+derived but uh it has a little star
+downstairs. The push forward fi star is
+the map. What map is it? It's a map that
+takes an element
+of the tangent bundle of M. What does
+that mean? Well, some vector to M at
+some point. That's an element of the
+tension bundle and takes it to an
+element of the tangent bundle of this
+manifold.
+So if this is underlying on the base
+manifold, this guy is up there. So if
+you wish you can complete this picture
+like this that uh you know that you have
+the bundle maps here uh this one and
+here you have the other projection the
+tension bundle here to the base space
+and the map fi by which we started the
+game is down here and this one acts up
+here and from this one we induce this
+one how
+defined by
+well I take an element of the tangent
+bundle as promised and I send it to si
+star of x which is supposed to be an
+element here but I now need to tell you
+how where well if phi star of x is an
+element in here right you agree it can
+act on a function f that's defined down
+here because then an element in here is
+a vector on this manifold. A vector on
+this manifold can act on a function on
+that manifold. Right?
+So we can let it act on any function f
+where any f a smooth function on the
+target manifold. We have that five star
+x acts on f as the x which is a vector
+here on this manifold right how the x
+acts on f after phi. So nothing really
+happened. I I take a vector here on a
+vector to this tangent space. I send to
+a tangent space here. I send it to a
+vector to a tension space there such
+that this acts on that like this vector
+would have acted on the composition of
+these two. It's a very natural it's a
+very natural construction.
+This is the push forward of the map fi.
+And um note from this construction uh of
+this f after fi you can see that if you
+apply the push forward
+to a fiber here you can take an entire
+fiber here. So here you have your base
+manifold M there you have the tension
+bundle say like this and at the point P
+you have the TPM. You remember now if
+you take here an entire fiber over a
+point P
+then the result you send every point of
+that the result is the fiber or at least
+lies in the fiber be careful lies in the
+fiber PH of P
+over N because the base point of this
+vector is mapped to the base point five
+of P and lies in the fiber
+over there. That's the push forward of a
+map. And there is a
+uh little minnemonic
+in order to remember what the push
+forward is because you will also define
+the pull back in a second. And the push
+forward you remember by vectors are
+pushed forward.
+vectors are pushed forward. Okay. So
+this is just a map that has been defined
+and um maybe uh it's less mystic if we
+consider it in a chart
+um the components
+of phi star in and now I said in a chart
+well that's not quite convincing because
+the whole business happens on two
+different between two different
+manifolds. So components of five star
+with respect to two charts,
+namely one chart ux uh of in the atlas
+of M and one chart VY in the atlas of N.
+And these might be totally different
+manifolds, different dimension and so
+on. But nevertheless uh this fi
+star can act on an element of the
+tangent bundle here. So it certainly can
+act on d by
+dx i.
+Okay, because that's an element of the
+tangent bundle. If you want you can let
+it act on one at a particular point.
+This is clearly an element of the
+tangent bundle. Okay. And uh then you
+get an element here. But this you
+extract the i the j component or let me
+call this the eth component. You extract
+by applying the dual base here. And uh
+so these guys you will call
+as always
+star up a down i. But be careful uh this
+I here now runs from one to dim M and
+this A here runs from
+one to dim N.
+So these are not tensor components
+because these refer to different tension
+spaces not even at different points that
+as well but even in different manifolds.
+Okay. So these are components of this uh
+of the induced linear map in these
+between these tangent spaces. Um uh but
+anyway uh we it's useful to to write
+them down. So let's apply the
+definition. So what is the push forward
+of this? Well we need a function there
+but we have the dy in front. So first of
+all this is a vector. So it can act dya
+acts on a vector like the vector acts on
+the function. So this is d by dxi
+at a point p
+vector acting on the y a that's the
+definition of the d
+definition of the d. Now once you have
+that you use the definition from over
+there. This is this acts like this
+vector I'm mapping at the point p acts
+on y a after the underlying ph. That's
+the definition
+of five star as we just made it. Okay.
+And if you now look at this little
+diagram here, um ah we haven't got a
+diagram yet. Uh so I have the M. I have
+a chart U of M.
+Uh I have a chart V of N. The U went
+with an X map. The V with a Y map. I
+have X of U. And I have Y of U. This may
+be an RD and this may be an RC. Okay.
+And from here to here we have the
+restriction of the F map here. And um so
+what I have here down here that's the
+charge representation of the FH map. Y
+after five after X inverse but what I
+have here
+this guy here Y After
+Fi I can pull the A out. That's of
+course the same thing. This y after phi,
+this is this diagonal map. And let's
+call this phi hat. So I could write this
+here as d fi hat a component by d x i at
+position p.
+So the components
+of this push forward are simply
+calculated like this with the use of our
+symbol. is a very simple thing to
+implement in practice by this
+calculation having chosen charts. The
+important thing here is the construction
+and what it yields us. Now let me give
+you a picture for what the push forward
+does.
+It's really a very natural thing
+picture. So imagine we have a manifold
+M. That's the one we start from here.
+and a manifold n and between them you
+have a map that takes points here to
+points there and the map is called phi.
+So this is the point ph of p. So you see
+we go back to the beginning in the
+formalism we have a map taking points to
+points from one manifold to another. Now
+in order to understand the push forward
+map better it's a clever idea to look at
+a certain curve
+here look at the curve gamma h so uh
+gamma is just some curve
+in the manifold m smooth smooth
+so aha so if you have a curve and the
+curve runs through a point what can you
+write down well of course you can write
+down the tangent vector to this curve
+curve in this point. You know, I
+shouldn't draw it like an arrow, but I
+do draw it as an arrow. But just in
+order to say we're talking about the
+tangent vector, but you know that the
+tangent vector
+to the curve is not an arrow. You know
+the tangent vector to the curve is a map
+which at this point which is defined at
+this point. I remind you it's a map from
+here to there and it's a linear map.
+It's the directional derivative. Okay.
+So you have that if you have a curve.
+Now what does the push forward do? It's
+very simple. The push forward can map
+the entire curve. So the claim is that
+if this is the
+if you map every point of the curve then
+you get the curve phi
+after gamma.
+Right? Fi after gamma is the image of
+this curve under the map fi here.
+Okay. And now the very simple and very
+clear statement is this is what happens
+to the points is described by the map
+fi. What happens to the blue tangent
+vector is described by
+the push forward the push forward of
+this curve of this tangent vector is
+this vector here. So um claim
+right claim
+the push forward of the tangent vector
+to the original curve in the point p
+is the tangent vector to the curve phi
+after gamma to the pushed forward curve
+by the map phi in the point ph of p. So
+the push forward pushes tangent vectors
+of curves to tangent vectors of the
+pushed forward curves. Yes, I can can
+imagine this if m and n have the same
+dimension. Yes, they have different
+dimensions. So then the the map can be
+active or bactive. So so the dimension
+of the resulting curve may be even
+different. Yes. No. Um the the point is
+particularly interesting is
+the following if the n has a smaller
+dimension than the m. So we do it like
+this and um and this is an injective map
+because if this is an injective map that
+means you can think now I draw a big
+space three-dimensional it's not the
+space I mean the interior of this is
+just to get an idea and I could take a
+two uh dimensional thing like R2
+and I take so this is N and this is M
+but I need to prescribe to you how I put
+this one into here and I may by choice
+of this fi choose to put it in like
+this.
+Okay, so it's in there like that. It is
+R2 as a manifold as a smooth manifold
+and I put it in here. Now the point is
+if you know in here you have a tangent
+vector to a curve in this smooth
+manifold. This is a two-dimensional
+object because it's in a two-dimensional
+and so on and so on. But once you
+embedded it, you may ask okay the object
+that was tangent here. Let me draw
+another embedding in order to make a
+better picture. But you see the idea. So
+uh say
+it's a little bit embedded like
+like this. So it goes on like this. say
+I embedded such that you get a little uh
+uh hemisphere here. Um
+now the point is if this point here is
+say being mapped to this point here and
+the curve now runs through here uh this
+tangent vector will be mapped to a
+tangent vector that's now a tangent
+vector of here but it's actually the
+same tangent vector. So you you can
+consider a tangent vector to to
+something like this. You can consider it
+an intrinsic tangent vector to this guy.
+That's a two-dimensional vector in
+quotation marks. Or you can consider it
+a tangent vector to this thing in the
+bigger space which is then a
+three-dimensional vector. You see my
+point? And this push forward effects
+exactly that. So a push forward converts
+intrinsic tangent vectors to exttrinsic
+tangent vectors. If this is an embedding
+map, which it is if it's smooth and
+injective,
+it's a different perspective on twice
+the same object. Right? So this is the
+velocity the ant would talk about who
+doesn't know anything about the third
+dimension. This is the velocity you
+would talk about seeing an ant running
+along in three space. Okay. Um that is
+what the ant can do. That's what you can
+do. And and the push forward pushes this
+to there. That's one application for
+this special case. Another application
+will be it's the same manifold. We'll
+come to that. So it has many
+applications.
+Okay.
+So uh that's what it does. Um now the um
+we should prove that this is true. Um
+this is not too difficult to prove that
+this is true.
+So how does that work? So we calculate
+phi star of v gamma p. This is a vector
+tangent to this. I need to let it act on
+a function where fun f is a function on
+the target here.
+What is this? Well, how is it is how is
+it defined? It's defined as the action
+of the vector. So it's the definition of
+phi star action of the vector on uh f
+after phi.
+Correct? That's what we uh wrote down
+there. Um but now what's the definition
+of the tangent vector? You see it's
+always the same stuff. Definition of the
+tangent vector is it's the um derivative
+of the function here f after phi after
+the curve. we're talking about in the
+point at which we go through the curve.
+So let's say this be lambda 0. So let's
+say that gamma at lambda 0 traverses p.
+Okay, that's the point p we're talking
+about. But now I clearly have
+associivity
+of the composition. So I can write it
+like this. And this is clearly the
+velocity of this curve at the point phi
+of gamma not zero lambda 0
+but that's five of p acting on the
+function f and this is true for any such
+function f. Hence you know that this guy
+is this guy.
+End of proof. very simple and very
+powerful because you have a very clear
+geometric picture of what that actually
+means.
+Okay,
+this guy the push forward has a sibling.
+The sibling of the push forward is
+called the pull back.
+What is the pull back definition?
+We again have a map fi that smoothly
+goes from one manifold
+smooth manifold in another smooth
+manifold.
+And now we go the opposite way. We
+induce another map which is called five
+upstar
+but its domain is now the co-angent
+bundle but not of the space of the
+domain of phi
+not of the domain of phi but of the
+target of phi. So this is an m and this
+is an n. And now this really goes from
+the co-angent bundle of the target into
+the tangent co-angent bundle of the
+domain. Hence it's called pull back
+because you go the opposite direction if
+you act on elements of the cotangent
+bundle. So if you act on forms. So how
+is this supposed to act? Well, omega a
+form uh sorry a co- vector is sent to
+phi upstar
+omega and the result is supposed to lie
+in here. Well, how can I then specify
+this result where phi star of omega
+lying in here must be able to take a
+vector
+from here. So I should maybe color code
+this as well.
+can take you take a form from here from
+here. Hang on. Now I'm confused. You
+take exactly the wrong way around.
+Sorry. Um you take a form here
+and you take a vector
+here. So that's it. Yes. Yes. So you
+take a form here, take a vector here.
+And how do you define this? Well, you
+define this by using the push forward.
+So, you define the pull back, but you
+use the push forward. So, careful. Uh,
+index up.
+And here we have index down.
+Up is the pull back. Down is the push
+forward. You need to be careful here.
+You push forward the vector. What else?
+Because vectors are pushed forward. uh
+and then you have a vector in tangent to
+this a co- vector here.
+So then you apply that co- vector and
+that defines your result.
+Now
+components of the pullback
+with respect to charts plural
+and you already know why because we're
+dealing with two manifolds. We're
+dealing with several charts and there's
+a little surprise surprise.
+So we do the push the pull back sorry of
+the pullback. Yeah, you do the pull back
+of now we chose charts before. I think
+we chose ux in the atlas of m and vy in
+the atlas of n. Is that right? I think
+we did this way. And so now you can pull
+back a co- vector on here. So you need
+can pull back the basis of the chart
+induced co- vectors here
+at some point five of p. You take this
+and you pull it back and then you get a
+vector to to x. But if it's a vector
+to x, hang on a second. You then get a
+form. You get a form on the manifold.
+But a form can then act on a vector
+that's d by dx
+i. And I think here we chose components
+a. Is that right? So let's keep the same
+convention and we take this at the point
+P because you pull back the form to the
+point P if the form here was at five of
+P. Well, let's evaluate this. So this is
+what you would call in linear algebra
+the components, namely the AI component
+of the pullback. Now the stars up before
+the star was down. Well, we plug this
+all in. But this is by definition. Look
+at here. You need to take the form
+that's this one dya and you apply it to
+the push forward that's now the phi down
+of the d by dxi at the point p. But if
+you inspect this carefully this is
+exactly what of course defines the
+component
+ai of the push forward index down
+not index star down
+star up. So what do you see? The
+components of the pullback are exactly
+the same as the components of the push
+forward.
+That's good. So if you have to calculate
+push forwards and pull backs in in
+charts, you choose them. You calculate
+these components once and it just
+depends on how you use them. Whether you
+later on contract with this index or
+whether you contract with that index
+means you do a push forward or a pull
+back. Okay. So um you can write down the
+push forward of a vector and you will
+have its eighth comp its eighth
+component.
+You will have it by looking at the push
+forward a iix x i. But you can do the
+pullback of a form and you have its i
+component because it lands in the other
+space. This is phi
+a i and the omega has an index a down
+here. So you see but these two guys
+numerically they're the same. So you
+calculate them once and depending on
+what index you contract with you get one
+or the other map in charts. Okay.
+Right.
+And I remind you this was just a
+reminder this was if you take this map
+that takes you from here to there and
+you take this diagonal representation
+it's this guy.
+Okay. So push forward and pull back. And
+you have an equally
+uh appealing picture for the pullback
+picture. What does it do? Well, you
+already guessed it. Now you're not
+talking about curves. Now you're talking
+about having a function here and these
+are the level lines of a function f
+right like temperature the isootherms
+right and you have a map that takes you
+from here to here and say the map is
+such that
+it would take this here to that here. It
+would spread them apart. Then you could
+definitely talk about the gradient of f
+over there.
+But that's a cove vector field or a
+cove. Yeah. Co- vector field. a core
+vector uh you can take it and you can
+pull it back. Okay. Uh and it should be
+what? It should be the gradient of the
+function uh f after phi.
+Yes. And then this these here are the
+level lines for f after five. Okay. And
+you show this in the tutorials.
+Yes.
+Does it make it sense to ask whether the
+push forward and the pull back are
+somehow inverse to each other?
+No, you can see it on the interesting
+question but you see it on their uh uh
+on their on their domains. So the push
+forward takes you from tm to tn and um
+so that's this direction.
+Now the pullback takes you from t star n
+back to t star m. Uh but none of these
+four spaces are the same. So how would
+well somehow some an inverse is you go
+the opposite way.
+I mean
+you mean if you uh if you make a link
+here
+inverse joint and and how is it defined?
+Why why is it adjint?
+Yes.
+Well, yes. That is um so you you're
+talking about if you have V to W fi uh
+then you can do the dual map or whatever
+you call it. You mean this? Yes, it's
+the adjoin map but the point is that's
+exactly the difference between the two.
+Um but it's not like one is the inverse
+of the other. Yeah, that's right. That's
+right. So this is the Okay, forget this.
+But this is the linear algebra uh analog
+analog. Okay.
+Um right. So we have the the pullback of
+forms. So what you should remember is so
+the minimmonic phrase
+before we had vectors are pushed forward
+and now we have co- vectors
+co- vectors are pulled back.
+So again you have a manifold and another
+manifold and you have a map that takes
+points to points. You can take a vector
+here and using this these data you can
+bring it here by the push forward and
+you can use a co- vector on here and
+using this data in this direction you
+can take it here by the pull back. But
+if you have a vector here generically
+you will not be able to pull it back.
+And if you have a co- vector on here,
+generically you will not be able to push
+it forward using these data. Of course,
+if phi is invertible,
+meaning there is a phi inverse, of
+course, I can now take a co- vector here
+and bring it here because I just pull
+the omega form back to here along the
+inverse. Okay, so
+these rules are only applicable or only
+are so tight if this fi is not
+necessarily invertible. That was the
+question that g asked. What if this is
+smaller than this? Then it can't be
+invertible. Right? Okay. So this is the
+push forward and the pull back of vector
+fields and forms respectively. And now
+we have an important application.
+Did it deserve its own section number?
+No, it didn't.
+Well, you know that the vectors and the
+co- vectors are our building blocks and
+once we understand them, we understand a
+lot. So, let's say we have here that's
+the situation I alluded to before. we
+have an injective map fi for instance
+the dimension of m is lesser than the
+than the dimension of n and then this
+corresponds to embedding one manifold
+into the other. Okay. So for instance,
+yeah well um so now once we have that
+now imagine you have on this bigger
+manifold on the space around the
+embedded one uh you have a metric
+say on this space lives a metric G
+question if you know the metric in the
+space around can you induce a metric on
+here or um assume I'm in R3 so example I
+do an example alongside let's say n
+equals u r3 and we equip it with the
+standard topology and the smooth atlas
+and whatn not okay so let's say this
+space is that and let's assume m is s2 o
+a then we can certainly find many maps
+phi that take our m or s2 into r3
+right and it depends on fi how it lies
+in there. So for instance it could lie
+in there like this but it could also lie
+in there
+like the potato does right still there
+is no shape this is just how this one
+lies in here but still you don't know
+what shape is but if on R3 you use a
+metric for instance the ukidian metric
+that we all know that in a special in
+the identity chart is 111 with
+components The question is can I take
+the ukidian metric out here and can I
+inherit it to this surface or if I embed
+it otherwise. So this is with one file
+map this is with another file map. If I
+embed it otherwise I will probably get a
+different metric if I pull back. The
+question is which one would I like to
+take? It's very simple
+here. I take a string and I stretch it.
+So it's it's maximal elongation and this
+has a length. I have a length measure
+for curves, not for vectors but for
+curves in in here. And then if I want to
+measure the sphere, I take this string
+and I put it on the sphere. And of
+course it will span over part of the
+sphere like this. And I will say I want
+a metric such that if I finally
+calculate the length of this curve, it
+should be the length I would take of the
+string in R3. That's how we induce a
+metric. And um the induced metric
+then the induced
+metric G sigma that's then the metric
+that lives in here
+uh G sigma GM
+GM that's the metric that's induced from
+this metric using the embedding
+this will eat vectors X and Y where well
+in here so this will each vectors in
+each tangent space of M. Okay.
+And this is defined as the metric over
+here. Excellent. I have it. But I need
+to somehow translate the vectors I
+attach to here to vectors over there in
+order to feed them into this metric. How
+would you do that?
+By using the push. The push forward of
+course. And that depends on the
+embedding map how that looks like. So
+the embedding will matter for the
+result.
+That's it. That's it. That's the induced
+metric. Now of course you can write it
+down in components and then you use
+twice the push forward map components
+from over here. So in components right
+you can write G. Now the chart over
+there I think was with AB indices right
+instead of J indices. And then you have
+phi hat I defined a by dx i at the point
+p. This is taken at the point p times d
+fi hat b dxj at the point p. And those
+are then the components of g m i j.
+Well, that's not quite right. This is at
+the point five of p. I'm sorry. That's
+at the point five of p.
+because here we're at the point P.
+And this formula you probably used
+before. This is how if you have an
+embedding map, you take the
+differentials and blah blah blah blah
+and you get the metric on the smaller
+space. And in the tutorials you will
+learn and you will do this in practice
+uh that if you take this embedding
+rather than this one and you calculate
+this guy that this is the round metric.
+So if fi is this embedding that takes
+the sphere into r3 like this then the
+metric you inherit is the round metric
+that I always just wrote down and I
+didn't say where it comes from. But
+again, if you have the uklidometric out
+here and you have, you know, the
+embedding function for instance, that's
+also being done in the tutorials. You
+embed it like this. That's also the S2,
+but we would call it the ellipsoid, but
+we can't call the ellipsoid yet before
+we didn't induce a metric. Okay, but
+it's embedded like this. If you pull
+that back, you get a different metric.
+But these are all metrics on S2 S2A.
+Okay, so the shape lies in the metric.
+And that is how you can get new metrics
+on so-called embedded submanifolds. If
+you have a metric outside, the basic
+technique is to push forward of the
+tension vector fields. It's all very
+simple.
+[Music]
+Yes, that's right. That's possible.
+Well, try to define it. The inverse
+metric over here
+eats co- vectors. You can define the
+metric here by providing co- vectors
+here. The inverse metric here by
+defining co- vectors which you pull back
+from the co- vectors over there.
+Pardon me.
+TPN.
+Well, yes. This is point by point. So
+this is on the to whole uh as I said
+these these um push forward and pull
+back are on the whole tangent bundle at
+any point you can take any vector and
+send it back and forth.
+No no no no that's something different
+that's if you want to map fields to
+fields so that a section remains a
+section.
+Okay.
+Right. So we learn something really
+interesting because it gives some
+substance to some arbitrary seemingly
+arbitrary examples I wrote down before
+still has nothing to do with symmetry
+because this is just stuff we also need
+for symmetry but it would be a shame to
+pass by without mentioning it.
+Yes,
+the analogy that I take the string and I
+pull it and maximum elongation I put it
+on something and about this maximum
+elongation how do you know around which
+path you have this maximum elongation
+there was the quick picture not so quick
+picture is I measure curves in the
+ambient space
+by measuring their tangent vectors
+now I take a curve
+I embed it and the curve has an image.
+That's what we did before. And the
+tangents to the curves are pushed over
+here. So I take a curve in the sphere
+and then I take this and that's
+abstract. I then embed the sphere and
+the curve was formally on the sphere
+becomes now a curve in R3 by pushing the
+curve forward. Now in R3 it lies like
+this. Say and now I measure it with the
+metric in R3 because its tangent vectors
+now stand here. I measure this and
+because we know that the tangents to
+curves go to tangents to curves this
+works. This this shows by our way of
+thinking about the length of curves that
+this is exactly what I described before.
+So it's no mystery that this reproduces
+the metric as we know it.
+I'm sorry I need to use this this thing
+because of my throat. Sorry. Okay.
+Now we come closer to the symmetry stuff
+with lots of more important and
+interesting things. Flow of a vector
+field.
+Well, flow of a complete vector field.
+So we take now throughout a manifold MOA
+that's smooth
+and we take um X to be a vector field.
+vector field on the smooth manifold.
+And the first notion we need is that of
+an integral curve. Very simple notion.
+Definition. A curve
+gamma.
+Well, from some interval that lies in
+the real numbers of course into the
+manifold, a curve is called an integral
+curve.
+an integral curve of x of this vector
+field x if and that's a condition as it
+couldn't be simpler. If the tangent
+vector to the curve at each point of the
+curve
+reproduces the already given vector
+at the point where you are. It's a very
+simple concept. So you have a smooth
+picture.
+You have a smooth vector field.
+Okay, you have a smooth vector field.
+And now an integral curve. The question
+is, is this
+an integral curve? This curve gamma. The
+answer is no. Because its tangent
+vectors, again I shouldn't draw the
+vectors, but you know what I mean. The
+tangent vectors do not coincide. Is the
+um violet curve a an integral curve?
+Yes, it is because its tangent vector
+well almost tangent vector everywhere
+agrees with the vector field. Very
+simple notion.
+Okay, that's an integral curve. And of
+course uh you may think of this
+you can think of the vector field as the
+velocity
+of water molecules in a river.
+And then the gamma is of course the
+trajectory of a ship,
+maybe a paper ship that you throw in
+that has no propulsion and that just
+flows with it. Okay, so that's an
+integral curve of a smooth vector field.
+Um
+yes.
+Now um
+definition
+a vector field X
+is set to be complete.
+If integral curves, if all integral
+curves,
+obviously there are several integral
+curves.
+If all integral curves
+have as their domain I the entire real
+line of real numbers.
+Example,
+consider a smooth vector field.
+So it goes like this
+and so on. Now let's look at some
+integral curves. So any curve goes
+through through a point. So let's take
+this one. Uh this will be an integral
+curve. You agree? This is an integral
+curve.
+To what
+domain can I extend the interval of its
+parameter?
+Well, arbitrary. It can go around and
+around and around and it can come from
+minus infinity.
+Now, what about this point here
+where the vector field vanishes?
+Well, that's the constant function that
+for any parameter value yields zero.
+Also has I equals R. So this is a
+complete vector field up to the point
+when I viciously viciously
+remove this point from the space.
+Remove this point
+from the space.
+Why wouldn't I do that? I just take this
+one out the manifold. Then this vector
+doesn't exist. Of course, right next to
+it, the next vector again exists. But I
+take this one out viciously
+and all of a sudden
+this integral curve
+comes to a certain stop because it comes
+arbitrarily close to this point but it
+won't just reach it because it's not
+there.
+So the vector field on this space the
+same vector field without this point is
+incomplete. So it's not the vector field
+that misses a vector because then it
+wouldn't be a vector field. Have to
+remove the point from the space.
+In spac-time physics,
+we have many points so-called
+singularities
+which do not belong to the space-time
+manifold. For instance, because the
+curvature blows up, the curve the point
+cannot be there. But that's not the only
+points that cannot be there. And
+actually the Hawking Penrose singularity
+theorems were proven for singularities
+that were defined in this or similar
+manner depending on what you want to do
+with geodessics and not
+singularities are points where curves
+stop
+at finite parameter value and that is
+the technical
+door to singularity theorems. Okay. I
+mean very roughly I'm talking here of
+the zeroth order contribution to the
+definition but that's that's the basic
+idea. So the completeness of vector
+fields is a very important point. Yes.
+Yeah.
+I can just if I have a doain I can
+restrict it. Yeah. But then it doesn't
+have the domain anymore. Yeah. But then
+it doesn't have the domain anymore. The
+question is is this domain all of R? The
+point is you cannot reparameterize
+because you see because the given vector
+field X forces you to have a certain
+parameterization to produce exactly that
+velocity not double as long or not half
+as long
+that was your question right so you you
+couldn't say well let's go there very
+slowly slowly slowly in parameter okay
+clear yes if we have compact manifold
+yes the vector vector field will be
+complete that's There's a theorem
+theorem a compactly supported vector
+field
+smooth
+vector field
+is complete.
+Yes, this is not compact if you take
+this point out. Okay. And compact is a
+topological notion.
+Any open cover has a finite subcover.
+whatever that means. Anyway, so that's
+the definition is a topological notion.
+It refers to the topology. Okay, good.
+So I introduced this first of all
+because of this little illusion to
+singularity theorems. Uh but most
+importantly in order to define the
+following to define the key notion of
+flow of a vector field. Definition.
+The flow
+of a vector field
+X
+is a one parameter family.
+Is a one parameter family.
+Um and the one parameter family has the
+name H upx.
+H like flow. I don't know. So anyway, H
+is the traditional letter here. The flow
+of the vector field X. The one parameter
+family is you give a real parameter R.
+Ah, the flow of a complete vector field.
+There we go.
+The flow of a complete vector field. And
+now you see I need this in a second. And
+it takes
+a lambda, a number and a point in a
+manifold m and sends that point in the
+manifold m with the help of this number
+to another point in the same manifold
+because we have a vector field x on one
+manifold. There's only one manifold in
+the game right now. How does it do that?
+Well, it takes a point and it gives you
+a little lambda and sends it to the
+point gamma subpa.
+What is that?
+where
+gamma subp
+defined on all r to m
+is not it's not an integral curve. It's
+the integral curve
+of the vector flit x with
+gamma of 0 equals p.
+I can always do that. So I have a vector
+field,
+a smooth vector field.
+Okay. And what does the this map do?
+This map takes an arbitrary point. Let's
+say this one. And of course at every
+point there's a vector and it now
+constructs an integral curve
+that has at that starts at this point.
+If the parameter lambda is zero and
+takes you so that's the integral curve
+and after a certain parameter value
+lambda has passed you have gone from p
+to gamma p of lambda agree
+and this can now be written hx of lambda
+comma p.
+You think this is a little advanced if
+you can rewrite it. But of course the
+idea is you can now look at any point
+here and this hx just requires
+specification of this lambda and it's
+tradition to denote the lambda down.
+Well it it eats two things but the first
+entry is denoted here and the second
+entry will be denoted here. That's
+tradition. So you can now look at h
+lambda x of p.
+Thus we have a map for fixed lambda. So
+if you choose one lambda,
+you can look at hx lambda. That's then
+only a map from m to m and it will be a
+smooth map.
+And what is this?
+It takes every point of the manifold and
+pushes it further for a parameter
+distance lambda according to the
+integral curves of the field. So um
+picture
+this guy tells you um
+well what is this who is that with
+nobody you never enter the same river
+twice. Who said that?
+Tell me
+heracit. Heraclit. Heraclit.
+Did you say that? I Yes. Yes. So, okay.
+Uh you never uh uh jump in the same
+river twice. Uh the idea is you you take
+the points, you take some set, okay, and
+you push it forward. Well, now yeah, you
+push the points forward along the smooth
+map. You don't push forward vectors in
+this case. you push forward points which
+just means this can be taken as a
+particular instance of our map f before
+because the map from a manifold into
+itself is a special case from before
+right and in general this will not be
+that set right so you take have the
+river and you take a set and then you
+wait for a parameter distance or
+parameter time whatever lambda and then
+that set has evolved into this that
+for instance if the river flows apart
+okay and so this is Heraclitz theorem if
+you wish okay
+well if the river is flowing if the
+vector field is not zero
+okay
+now this is a very important
+concept because it takes us closer to
+understanding what happens on the
+sphere. How have we used metrics so far
+in this flow business? Not at all. We
+have a smooth manifold. We have ve a
+vector field given. Okay. Somehow
+somebody gave us a vector field and we
+can flow along the vector field. Okay.
+Now take the sphere I gave you. Think of
+it not as the sphere with a metric. But
+just think of it as the potato. I give
+you could give you a vector field on the
+potato like this. I could give you one
+like this and one like that. Yeah.
+Around all in intuitively around all
+possible axes, but there are no axes.
+Could give you many many many different
+vector fields right on the sphere or on
+the potato. also on the smooth manifold
+and I could ask if I push the points
+forward like this if I let the points
+flow I can look at the induced push
+forward of vectors
+or the pull back of co- vectors or the
+induced metric that I have then I let it
+flow and then I look what the resulting
+induced metric is if it hasn't changed
+the metric was symmetric
+if you do something and doesn't change
+it's symmetric I write this down
+precisely okay but these flows are the
+key to understanding what happens if you
+move on things but of course how would I
+then talk about spherical symmetry
+rather than cylindrical symmetry rather
+than translational symmetry how do I
+distinguish the symmetries
+um well that's very simple
+section four
+le subal algebbras
+of the algebra of the Lee algebra of
+vector fields
+of the Lee algebra gamma tma
+bracket of vector fields.
+This will make contact with a lot of
+stuff you know.
+So the first thing we look at we look at
+the set of all vector fields. I just
+remind you that was the set of all
+vector fields.
+And we saw that I can multi I can add
+vector fields and I can multiply them by
+a C infinity function. So we said this
+guy was a C infinity M module.
+However,
+okay, full stop. That's this. Now, you
+can also of course restrict yourself
+to consider it an R vector space,
+but then of course you no longer have a
+finite basis for it, if you have a basis
+at all, but you need many many vector
+fields to produce all the other vector
+fields. But that's not the point here.
+The point is that if you have two vector
+fields X and Y, you can calculate the
+commutator. The commutator will again be
+in this space.
+What is this commutator? Well, it was
+defined as XY if it's supposed to be a
+vector field, it must be able to act on
+a function and it acts like this.
+You remember that's a vector field
+again. Now it's an anti-ymmetric bracket
+right? So you have uh x comma y is y
+comma x uh it's r linear. So if you take
+lambda x + z comma y is lambda but only
+for real numbers x comma y + z comma y
+and third
+it satisfies the so-called
+um Jacobe identity. So you can take x
+comma y comma z. So you fill the second
+slot again with the result of a bracket
+and then you can do this three times
+and cyclically rotate what's inside the
+brackets.
+So it's xyz, it's x y z, it's x y z and
+the result will be zero. You can check
+this
+any vector space, well actually also any
+module over a commutative ring, but any
+vector space with such a map that takes
+two of these guys to another of these
+guys that is anti-ymmetric
+are linear in each of the slots and
+satisfies this rule. Any such structure
+is called
+a le algebra.
+called a lee algebra and obviously all
+the vector fields on a manifold
+constitute a huge a massively huge lee
+algebra namely if I consider this as an
+R vector space it's an infinite
+dimensional le algebra all the possible
+vector spaces uh vector fields
+but in a step b we now consider the
+following
+Let
+x1 to xs
+be s vector fields as many. So funny
+English as many. So the number of vector
+fields is s S vector fields
+on m
+but not just any but such that
+if you take the commutator of one
+with another so i and j run from one to
+s
+then you do not get a vector field that
+cannot be written as a linear
+combination of those but assume and that
+is the such that that the result can
+again be written as a linear combination
+with real numbers of these vector fields
+and so you need expansion coefficient CK
+but it will depend on the I and the J.
+So it has three indices
+where these guys are real numbers so not
+functions but real numbers and these
+guys are called the structure constants
+of what? Well, the definition is that
+the span, so if you generate by factors
+that are
+um real numbers, if you generate linear
+combinations of these guys, you
+obviously get a sub vector space of
+gamma tm
+and the bracket that you inherit. So
+they take the same bracket but this
+bracket will not lead you outside this
+space but will keep you inside this
+space. Okay. So this span you can then
+call for instance L and depends on this
+choice. Okay. And these are the
+structure constants of this guy. And
+this is then a le subalgebra.
+Would be more logical to call it a subly
+algebra, but language demands a le subal
+algebra.
+So this is an infinite dimensional le
+algebra of all the vector fields. And
+now we pick a few that close. And there
+are many such choices many many many
+choices of subal algebbras. The
+interesting thing is example
+you know special cases for instance
+assume so these are vector fields on say
+s2
+assume you take vector fields three
+vector fields x1 x2 x3 that satisfy the
+following relations
+What would you say if you came in and
+you didn't know what kind of lecture
+this is? What's the lecture course? It's
+quantum mechanics, right? Well, the
+little eyes is missing because were the
+real numbers. You can insert them, you
+get minuses and so on. But this is of
+course the angular momentum algebra or
+the rotation algebra. Anyway, this
+algebra,
+this L that you get as the span of these
+three, I didn't tell you concretely how
+they look like, but say you have such
+the span of these three
+together with the commutator from there.
+So assume I can give you three such this
+guy is usually called SO3.
+There is no metric to be seen anywhere.
+smooth manifold and by some in some way
+I give you three vector fields that have
+these commutation relations and now I
+give them to you indeed
+you can have x1 equals minus cossine
+theta I have to quickly look minus sin 5
+dy d theta
+minus cos
+theta cos 5 d by dy I think that's right
+yes quotent sorry
+uh x2 is cosi
+d by d theta minus quotangent theta sin
+fi d by d and the third one x3 is d by d
+uh where I now say this is at the point
+p I give you the thing at the point p
+this is five of P. This is PH of P. This
+is theta of P. Theta of P.
+Phi of P.
+Okay? Because I need numbers there. But
+this is just d by d theta. This is this.
+And um instead of writing a chart, the
+coordinate maps x1 and x2, I write them
+more intuitively as maps theta and phi.
+But so if you're at a point, phi of p is
+the the value of phi and so on. I give
+you these three vector fields. This has
+nothing to do with metrics. Has nothing
+to do with inner product. These are
+three vector fields given in a
+particular chart on the S2. You can
+verify you plug this in and they satisfy
+these commutation relations. So the
+remarkable thing is that
+on the I write merely smooth by merely I
+mean there is no additional structure on
+the merely smooth manifold S2O standard
+with a smooth atlas
+this is defined so we have something we
+would immediately call an SO3 and that's
+what you do and actually the combination
+of these linear combinations on the
+right hand side are of
+these guys here for very special
+structure coefficients you recognize in
+certain bases and so on you recognize
+what algebra you have. So we have a way
+to talk about rotation generators namely
+these vector fields and the flows of
+course take you like this or take you
+like that
+as a threedimensional rotation algebra.
+So now we have this no metric there yet.
+Fifth symmetry.
+Now we're going to use this in order to
+define the symmetry of a metric.
+definition
+an S dimensional
+le subal algebra
+L
+like this
+um describes
+or is said
+to describe
+let's say to be a symmetry
+to be a symmetry
+of a metric tensor field.
+So a metric G and to be very precise a
+metric tensor field
+G. That's what we're after, right? We
+want to classify the round metric on the
+sphere as SO3 symmetric but the potato
+metric we don't want to classify such
+does s dimensional le subal algebra is
+set to be a symmetry of a metric tensor
+field G
+if well if what well what do we have if
+for every vector x no vector field x h
+vector field
+if for every vector field that lies in
+the subal algebra. So not only x1, x2,
+x3, but anything in the span of the
+three, but in the real span, not in the
+C infinity span, in the real span. If
+for every vector field in the real span
+here in this L,
+what is true? Well, you have a vector
+field
+X. Now if it is complete and the um
+dirty truth not the dirty truth is the
+beautiful truth but I'm not telling you
+in detail this is only the lee algebra
+to a lee group. A lee group itself is a
+manifold with a group structure. The lee
+algebra is the set of left invariant
+vector fields on there which can be
+pulled back to the unit to the tangent
+at the identity element of that group
+blah blah blah blah blah. The point is
+you can show that every left invariant
+vector field on a le group is complete
+but then you act with this on a manifold
+and you get the vector field like this
+on the manifold where you see the
+algebra mirrored that's the mirrored
+algebra on the manifold. So this
+background information and you can show
+that these are always complete. So I
+haven't shown to you and you cannot
+comprehend with the material we did but
+the guarantee is these vector fields are
+complete. Okay. Now you take any vector
+field from here they're complete because
+they're complete you can look at the
+flow
+right and but now you want to look at
+the metric
+after you flew along
+that means you have to push forward
+the arguments of the metric
+and if You compare this
+to not having pushed it forward. You ask
+the question if I push forward. Sorry.
+So this is the hx
+hx
+lambda and after I did that I have a map
+from m to m. So it's hx
+lambda and then I use the push forward
+and I require
+that if I push this forward and this
+left hand side could also be written as
+the pull back of the metric
+okay because it's on the same manifold
+these can be the same vectors and this
+is new this is the real requirement
+right I mean maybe I shouldn't write
+this to not confuse you the real
+requirement is that this equal sign
+hold. So you go forward and you look
+elsewhere and if the result doesn't
+differ from before how it looked before.
+If you flew against a vector field from
+this subal algebra
+then apparently something has not
+changed. Well the metric hasn't changed.
+If this is satisfied this is a
+condition. If this is satisfied then we
+say this sub algebra describes the
+symmetry of the metric.
+Yes.
+For all lambda. Yes, please. That's um
+of course if for all lambda in the real
+numbers and because it's completed
+exist. Thank you very much. Yes. If for
+no matter how far I push it, this is
+true. And um yes dimensional. What does
+the number mean here? I love
+it has it's a finite dimensional.
+You're right. The the s itself didn't
+enter this definition but um I take a
+finite dimensionally sub algebra.
+Okay. So obviously having chosen this on
+the sphere and covering most of the
+sphere I mean this is only on this theta
+5 chart you know and there's a set of
+measure zero take well measure I
+shouldn't say that there's a set taken
+out but almost the entire sphere is
+covered by this of course if you want to
+do this very properly you have to choose
+a second chart provide the same vector
+fields in the other chart only in the in
+the overlap region there must be
+compatibility and so on on the S2 with
+this set or an extension of the set of
+vector fields you can check for
+rotational symmetry or not of any given
+metric. Now I could ask you other
+questions. Well, what about not
+rotational symmetry, but what about you
+have an ellypoid metric, but the
+ellipsoid if you look from one of the is
+elongated like this, but if you look
+from above, it looks like a circle.
+That's special because two of the axes
+of the ellipsoid are then the same. A
+equals b, but the c- axis is longer.
+Okay? Then you will only have symmetry
+around one
+in one direction intuitively, right?
+cylindrical symmetry or something like
+this. Well, that would reduce this
+algebra to just the last field for
+instance if you choose it cleverly.
+Okay. And that would then be a
+cylindrical symmetry. There would be a
+one-dimensional
+um le subal algebra. So then the
+ellipsoid with a equals b axis and c-
+axis different would then be only under
+this one dimensional which is then very
+trivial because the structure
+coefficients all vanish and so on only
+under this one dimensional uh uh uh
+subal algebra will be uh uh a symmetry
+right
+and so the ellipsoid is not an SO3 but
+it's just an well whatever this is SO1
+or whatn not it's just a symmetry like
+this yes
+Yes.
+It is.
+Ah, no. I made it. Okay. I I am sorry.
+I'm sorry. The the X is right because
+it's the X from the algebra. I'm very
+sorry. This is was a very silly mistake.
+And this is any vector field A. any
+vector or any vector B and this is AB.
+So the X is the one from the algebra and
+here you act on vector fields. I I'm
+sorry that was very silly. So um maybe
+in the in another formulation that
+doesn't use these guys is better is if I
+take for any lambda the pullback of this
+defined on the metric which is
+essentially this induced metric I said
+before right you see that this is the
+definition for um that this equals the
+metric
+okay
+and then you have to be careful at what
+point no I think this is right like this
+yes can
+Yes.
+Um, you may mean something like
+like this.
+No, the left side I I I would like to
+understand as defined by this. So I
+could say you have a map from five.
+Okay, let let's figure it out. Maybe
+you're right. Okay, so you have a map
+five from M to M and um you would like
+to you know the pull back of a co-
+vector. Now I define the pullback of a
+metric of a 02 tensor. I define it by
+acting
+on vectors A and B.
+Okay. And I say this is supposed to be G
+of the push forward of the A and the
+push forward of the B.
+That's what I do. So that means this
+left hand side is this
+and this is evaluated on two vectors and
+this is without evaluating. Maybe it's a
+clearer statement
+because up here is of course true for
+any AB.
+Well, you better choose them from the
+same point. From the same point and so
+on. Okay.
+Yes. That's also an isometry. No. Yes.
+That's that's what's called an isometry.
+Yes. is set to be.
+Yes, this this this this particular map
+hx lambda is called an isometry here and
+here we have a one parameter family of
+isometries
+generated from each vector field in this
+L. Okay. Yes. So what you're basically
+doing here is you're extending each X
+lambda to 10. Yes. Yes. That's right.
+That's right. Yeah. Yeah. That's right.
+That's right. So this is a definition
+here. this left this is definition. Yes.
+Okay. So um uh so we have that and um
+yeah so the example is as I said
+if you take the S2 you can take it like
+this or you can think of it like
+like this. Uh but this is just in both
+cases as a smooth manifold. It's the s2
+right and on the s2 I have vector fields
+for instance uh this d by d51
+which might look like this. The others
+look similar but around intuitively
+speaking other axes of the ambient space
+but we're not talking about an ambient
+space. Here you also have this vector
+field right it's just longer like this
+and so on. But now if you put the metric
+on it. So if you put here uh the metric
+round and here you put the metric G
+ellipsoid
+right then you will realize so this is
+just one of the vector fields from from
+from in there um you will in this
+particular case uh if from looking from
+above it doesn't look like a sphere but
+it has a not b c for its axis in this
+embedding
+um then this one will be s3 symmetric in
+the sense we
+we described in this rule not be SO3
+symmetric.
+Okay, that's it.
+So I mean this seems a lot of work for
+some very small statements but the key
+point is this is of direct application
+to space-time physics because later on
+in spacetime we'll have a metric of
+Lorenzian spacetime okay and there will
+be the question what is a spherically
+symmetric situation and then you will
+use exactly those guys and you will
+apply them to the four-dimensional
+metric and you will um be able to judge
+that.
+So please one these two floor please.
+So one last uh short section is uh six
+lee derivatives.
+So we agree that this may be true and
+may be geometrically intuitive but it's
+a mess to check something like this
+because you have to check for all lambda
+and for all vector fields and so on.
+This is not easily checked. This is very
+intuitively defined but not easily
+checked. Now the le derivative makes
+checking for symmetries
+child's play. That's the uh the
+important thing about the lead
+derivatives.
+So um it's obvious
+it's obvious that if you take X from
+this symmetry algebra from this L from
+it le sub algebra
+and you look at
+exactly what I wrote down here you look
+at the pull back of the metric under
+this
+flow field
+the pull pull back the metric. Okay? And
+you subtract from it the metric.
+We know that this is zero, right? If
+this is a symmetry, we know it's zero.
+But before I do this, I can divide by
+lambda. Why wouldn't I? It would still
+remain zero.
+And I could take the limit lambda goes
+to zero. It will still say stay zero.
+It's obvious that if
+this is zero then L is a symmetry
+of the metric as we just defined it.
+Right? I just rewrote this and divided
+by lambda and took a limit.
+Now this left hand side
+has a short name L subx on G.
+And one says it's the le derivative
+of a metric with respect to a vector
+field. Namely, a vector field I had to
+choose from this L. Well,
+you should say if for all such L this is
+true, then L is a symmetry. Now it's
+statement is correct.
+Now this doesn't help you much because
+you say okay you added insult to injury
+uh this was already difficult to
+calculate now you want us to take the uh
+uh diff differential quotient here but
+the point is it can be shown that this
+is just a special it wouldn't deserve
+the symbol if there was more behind it.
+It can be shown
+that this is precisely
+the so-called
+le derivative
+of the metric with respect to the vector
+or now it comes vector field
+and it's important that it says vector
+field and this le derivative
+is a structure that's worth exploring in
+its own right and we do it by a very
+quick definition
+and the rest you know how to do because
+you have experience with the coariant
+derivative. It works totally differently
+but the proofs are very similar
+definition
+a le derivative
+and I already said a but that's
+absolutely wrong. It's the lead
+derivative because there's only one such
+the lead derivative curly L
+on a smooth manifold
+M O A and you ask do we need extra
+structure like for the coariant
+derivative? No. No. If you have a smooth
+manifold the le derivative is already
+defined in terms of the smooth
+structure. It's fantastic object. Okay.
+And we rely we need to rely on it being
+defined already on a smooth manifold
+from our philosophy. The lead derivative
+L on a smooth manifold
+um sends
+a pair
+namely of a vector field that's very
+important of a vector field X and a PQ
+tensor field
+T
+2 A the result is again a PQ tensor
+field. So it's sounds exactly like for
+the coariant derivative such that now I
+require such that first the le
+derivative acting on a function acts
+like the uh vector field on the function
+say oh it looks exactly like for the
+coariant derivative now I make a second
+demand which I don't write down yet a
+third demand is that the lead derivative
+acting on the sum of two vectors is the
+lead derivative derivative of the first
+vector plus the derivative of the second
+vector a tensor excuse me tensor sum of
+two tensors and of course they must be
+of the same balance otherwise this
+doesn't make sense
+we have fourth that the derivative
+acting on a tensor that has already been
+applied to something so I write it down
+for a one one tensor for example like I
+did for the le derivative and you can
+extend to any This is the le derivative
+of the tensor itself evaluated at omega
+y plus the le derivative uh plus the
+tensor of the le derivative of omega
+comma y plus the tensor of omega the
+derivative of y. So this is again the
+lightnits rule and similarly
+similarly for
+any
+other valance
+of t. Now this was the example for t
+equals a 1 one tensor.
+Now
+fifth I mean this is all like the
+coariant derivative. If you say this is
+going wrong because we know for the
+coariant derivative we urgently need
+extra structure to have it right there's
+some remaining freedom. So it looks like
+how is this going to be better? Well
+here we make a weaker even requirement
+which means it's even worse. We're even
+less restricted. The weaker requirement
+is that in the lower slot
+the thing is additive.
+But do you remember that for the coarent
+derivative required that if I multiply
+by a smooth function that the smooth
+function jumps out. I'm not even
+requiring this. So, so far I'm weaker
+than the coarian derivative which means
+I have potentially more freedom still
+than for the coarian derivative and for
+the coariant derivative I had to put
+extra structure to fix the freedom.
+So it must really be number two here
+that lets us do the whole thing
+without adding additional structure. Is
+that clear?
+Number two says the le derivative of a
+vector field y in the direction of a
+vector field x is the commutator of x
+and y.
+That fixes all.
+That fixes all. And please note this
+last one and this one I have here an x.
+The x is in here. And maybe you remember
+we once had opportunity when we showed
+the C infinity linearity of the torsion
+to have an F in here and you saw we can
+pull it out but at the cost of an extra
+term. We couldn't require this and C
+infinity linearity.
+That is why we didn't require C infinity
+linearity which makes it a weaker
+system. But this is very strong and this
+fixes it all and you need no additional
+structure. You say why didn't you define
+this thing before the coariant
+derivative? We need this additional
+structure. You have a derivative and
+it's a directional derivative of tensor
+fields that doesn't need additional
+structure. Why? Well, it's kind of
+cheating because it pulls it sucks in
+the information of how the vector field
+x behaves away from the point where you
+do the derivative.
+Yeah, you want to calculate the
+derivative at a point,
+but it doesn't suffice to prescribe the
+value of the vector field X at that
+point to calculate this guy. You need
+the whole information about how the
+vector field behaves in the neighborhood
+in order to make the flow. The flow
+pushes you forward and so on in order to
+calculate this. And this is reflected in
+this not being C infinity linear. If it
+was C infinity linear here that you
+could at a point you could change by a
+scalar by a number because a function at
+a point is a number but you could in the
+neighborhood you could change in many
+different ways but the result will feel
+it other than the number at the point it
+will feel it by the extra term. Okay. So
+this is not as good as a derivative as
+the coariant derivative.
+Well it doesn't no not as good
+derivative is a nonsense statement. The
+point is um this guy is C infinity M
+linear in the lower slot
+and this guy is not.
+That's the difference. And we needed for
+what we wanted to do. We want a C
+infinity linear object here. And this
+one came up by our considerations of
+symmetry and things don't change along
+flows and so on. So there are vector
+fields provided
+and there was a question. Yes, there we
+do not require X to be a complete vector
+field. No, it just needs to be a vector
+field in a neighborhood of the point
+where you evaluate. So if you write it
+like this, it needs to be no no complete
+um because there there
+that's true. But um uh if you have a
+vector field you can actually make it
+complete in a compact neighborhood. So
+if you have a compact neighborhood. Yes.
+Okay. Okay. So we um
+observe or we have the
+observe
+and this observation is really just a
+five minute calculation along the lines.
+It may be a very good exercise because
+some examiner might get the idea to set
+this as an examination task. Okay.
+Show that if you act on a vector field
+with the le derivative, the result will
+be a vector field and it will have an i
+component in a chart. So consider a
+chart ux and then the examiner might
+expect you writing down that the xm in
+this chart by dxm may act on the i
+component of y expanded in the same
+chart um minus very important now comes
+a minus here
+minus uh
+x and now we act with d by dx
+on x and we have a y in the game. Now
+the x carries the i. This acts on there.
+There's an s here and there is an s
+there. And there you see again what I
+mean in the covariant derivative
+compare. In the coariant derivative
+we had xm d by dxm
+yi. Oh. Because up to this point the
+coariant derivative doesn't differ.
+But then the coariant derivative
+required a plus here. This one requires
+a minus. And the coariant derivative
+also had the x there and had the y
+there.
+But in a slightly different manner
+because there was extra structure. The i
+came from there, the m here and the s
+there. And you see because we had the
+extra structure we could I mean this is
+now a posteriori
+talk right? I interpret it like this
+because we have the extra structure. We
+do not need the derivative of the vector
+field X that's down here. Therefore,
+this whole thing is C infinity linear in
+X. Whereas here, we don't have extra
+structure. We do it all by ourselves.
+But then we need to look at the
+derivative of the components. But the
+derivative always looks a little bit
+left and right how the field looks like.
+Right? So you see this is my statement
+that we pay for we pay a price for not
+imposing extra structure. The price is
+we need to prescribe a vector field X
+not only a vector at a point. Okay
+anyway that's this and um in general
+it looks like this. to say the le
+derivative lx of a 1 one tensor has iig
+j is of course xm d by dxm acting on tig
+j as functions. Okay, now it comes for
+any index up what was the rule for the
+coariant derivative? It was a plus. For
+any index up, it was a plus. Well, for
+the lead derivative, it's the opposite.
+It's a minus. It's a minus. Um, and then
+you do exactly what is done there as D
+by D X um
+X uh what do I get? I uh X S Y
+S
+Right? And then for any sorry not ys
+nonsense it's a t and I replace the i
+index. So there's an s here and a j
+there. And then comes a plus.
+Then comes a plus for an index down. So
+it's exactly the opposite to the
+coariant derivative. This is dxi by d.
+No, it's not dxi. Ha. Here you go. Now
+it's the s up. It's the dxj down. It's
+the ti up and the s down. here you
+should study this. So anyway that's the
+result. Uh and it may be a good idea to
+invest the five minutes to derive this
+result.
+But now you see you can certainly do it.
+Our application is the following.
+I didn't prove to you
+that if G is a 02 tensor that this
+definition reproduces this but one can I
+spare you that you need to go to
+specially adapted charts and argue and D
+I spare you that you just trust me you
+need to trust me anyway so please trust
+me here application is that lxg
+can be very easily calculated it looks
+exactly like is only that the indices on
+the G are always down and so there are
+two minuses I know so there are two
+pluses instead of a minus and a plus
+okay this is particularly simple to
+calculate in a chart right it's very
+simple to calculate so it's very easy to
+calculate this
+well here this is the formula from the
+below formula
+similar
+to the one
+above.
+Well, it's on the blackboard below, but
+in the logic above. Okay. And so it
+follows it's very easy to check
+whether
+a metric
+features a symmetry.
+And conversely, you can say I take the
+most general metric, I impose the
+symmetry and I learn how it restricts my
+the components of my metric in that
+coordinate system and then you can use
+this as an unzots in the Einstein
+equations with many components already
+zero.
+Textbooks often in general relativity
+say let's make the following unzat for a
+spherically symmetric metric then
+follows a lot of handwaving.
+No handwaving on earth can replace this.
+Okay.
+So you need to say what your symmetry
+algebra is that you want to have
+implemented.
+So this concludes uh this part and then
+uh we reconvene at after questions we
+reconvene at the quarter past and we
+discuss the final completion of our
+analysis lift from charts to manifolds.
+We discuss how to do integration on
+manifolds and that will also be urgently
+needed in order not to have the troubles
+that Einstein had in setting up his
+field equations but to do it the Hilbert
+way. Uh that will follow then next
+Monday. But first we take questions.
+with the derivative you say it's obvious
+one direction obvious
+okay so you say if it's a symmetry is
+that well if I define a symmetry as this
+is the case if and only if well that
+that definition of symmetry was an if
+and only if because it's a definition
+and well the statement was before I made
+the statement this thing is zero now you
+think this could change.
+You think the change could not be there?
+You just integrate. Yeah. Yeah.
+Another question. Does subtraction and
+division it happens within real numbers?
+No. Here.
+No. This is okay. So this minus is the
+plus on the space of 02 tensors.
+Okay. And that division is the s
+multiplication
+on the space of 02 tensors.
+I mean it's just in each case the the uh
+the additive and the multiplicative
+inverse
+right
+could you explain again
+explain it oh I didn't derive it I no
+sorry I didn't I said observe it takes
+five minutes to observe
+yeah no I I wrote this from from memory
+so this should give you an indication
+that you need to know it by memory.
+Okay. Pardon me. Wouldn't that be the
+commutator?
+The com that is the commutator, right?
+So this is the commutator. Yes. Yes.
+Well, if you want to calculate this from
+here, that's the commutator. It becomes
+more interesting if you start applying
+it to co- vector fields and you need to
+use the lap rule one or you need to
+apply it to here then you need to use
+the lap rule twice. Okay? And then then
+you get this. I didn't show this. This
+was the idea. uh start with the axioms
+and of course starting from here and
+here that's what you already know
+explicitly and the rest is application
+of the rules. Yes. Does this also mean
+that given a set of
+symmetry?
+Yes, you can give other symmetries.
+Yes, you can imagine any uh it's not
+always easy to read off or to identify
+the symmetry by the structure constants.
+For instance, the translation group has
+all vanishing structure constants. It's
+no longer a semi-simple algebra. I said
+group algebra. It's no longer
+semi-imple. Um but the basic idea is if
+physically you have an idea what you
+mean by your vector fields whether
+they're commutated as zero or not you
+just implement them and you say I
+require invariance under this for
+example in cosmology later on we'll have
+a fourdimensional spacetime and I will
+require that there be a vector field
+like this and like this and in the third
+direction and then there's fourth
+directions also there and that under
+these three that these three bases of
+this L and further this one this one and
+that on and if they're all together
+required to be there that will give you
+a a space-time metric that's spatially
+whatever that means there's no metric
+yet so we don't have spatial that's all
+works out um but we have intuitively
+three-dimensional homogenity and it
+isotropy and that's the cosmological
+symmetries so you make a
+sixthdimensional
+uh symmetry algebra you you require in
+order to do uh cosmology ology. If you
+say at large scales you want to have
+this kind of uh idealized situation in
+all directions it looks the same and at
+every point of the universe none is
+preferred and then you go with this into
+the Einstein. So you can make big
+symmetry algebra smaller symmetry
+algebbras and so on. Yes. And and you
+you can use your intuition of what you
+mean by the but the algebra is more
+fundamental than maybe the group it came
+from and how you defined the group for
+this application.
+Okay.
+It will hopefully become even clearer in
+the tutorials this afternoon.
+There no further questions. Let's
+reconvene at the quarter pass, please.

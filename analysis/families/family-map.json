@@ -1,0 +1,205 @@
+[
+  {
+    "id": "build-space-before-measuring",
+    "name": "Build space before measuring it",
+    "lecture_indexes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "plain_problem": "A theory of gravity cannot begin by assuming a fixed grid, fixed rulers, or a surrounding room. These lectures build the minimum language needed to speak about places, change, and physical quantities before distance has been granted.",
+    "mathematical_spine": "Topology supplies nearness. Manifolds supply local coordinate patches. Multilinear algebra supplies slot-aware quantities. Tangent spaces and fields supply local directions and point-by-point variation.",
+    "why_it_matters": "If this family is shallow, the rest of the course becomes a pile of formulas. If it is understood, later objects such as the metric, curvature, and stress-energy tensor have clear jobs instead of mysterious names.",
+    "what_to_watch_for": "The central discipline is not to confuse a coordinate display with the object being displayed. Numbers on a chart are allowed, but the claim must survive changing the chart.",
+    "concept_ids": [
+      "topology-continuity",
+      "manifolds-local-flatness",
+      "multilinear-objects",
+      "tangent-spaces-fields"
+    ],
+    "subthemes": [
+      "Local change",
+      "Local descriptions",
+      "Nearness before measurement",
+      "Slot structure"
+    ],
+    "transcript_backed_lectures": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "missing_transcript_lectures": [],
+    "audit_note": "Transcript-backed for every lecture in this family."
+  },
+  {
+    "id": "turn-falling-into-geometry",
+    "name": "Turn falling into geometry",
+    "lecture_indexes": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "plain_problem": "The course must explain free motion without saying that every path is judged against an invisible flat background. It needs its own rule for straightness and its own test for real gravitational curvature.",
+    "mathematical_spine": "Connections define how directions are compared along paths. Parallel transport applies that comparison. Curvature measures the failure of those comparisons to fit around loops. The metric later says what clocks, rulers, and light cones measure.",
+    "why_it_matters": "This is where gravity stops being a force pasted onto space and becomes a statement about what local inertial motion and neighboring paths do.",
+    "what_to_watch_for": "One observer's felt acceleration is not the same thing as curvature. Curvature is detected by comparison: nearby free paths drift relative to one another in a way no coordinate trick removes.",
+    "concept_ids": [
+      "connections-parallel-transport",
+      "curvature-geodesic-deviation",
+      "metric-measurement"
+    ],
+    "subthemes": [
+      "Comparing nearby directions",
+      "Measurement becomes a field",
+      "Tidal facts"
+    ],
+    "transcript_backed_lectures": [
+      7,
+      8,
+      9
+    ],
+    "missing_transcript_lectures": [
+      10
+    ],
+    "audit_note": "Transcript-backed except listed gaps."
+  },
+  {
+    "id": "make-laws-coordinate-free",
+    "name": "Make laws coordinate-free",
+    "lecture_indexes": [
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "plain_problem": "Once geometry exists, the course needs laws that can be stated without picking a favorite observer or map. It also needs a precise object for what matter contributes to gravity.",
+    "mathematical_spine": "Symmetry identifies transformations that preserve structure. Integration adds local geometric quantities over regions. Spacetime supplies the Lorentzian stage. Stress-energy states what matter carries. Einstein's equation couples the geometry side to the matter side.",
+    "why_it_matters": "The field equation is not a slogan. It is a compatibility statement: the geometry object and the matter object have matching conservation behavior, so the left and right sides can be equated without breaking local energy-momentum accounting.",
+    "what_to_watch_for": "Mass alone is not the source in relativity. Energy, momentum, pressure, and stress all enter because the source must match the spacetime geometry being solved for.",
+    "concept_ids": [
+      "metric-measurement",
+      "symmetry-conservation",
+      "integration-on-manifolds",
+      "stress-energy-matter",
+      "einstein-equation"
+    ],
+    "subthemes": [
+      "Adding local facts",
+      "Geometry coupled to matter",
+      "Measurement becomes a field",
+      "Sameness as a calculation",
+      "What gravitates"
+    ],
+    "transcript_backed_lectures": [
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "missing_transcript_lectures": [],
+    "audit_note": "Transcript-backed for every lecture in this family."
+  },
+  {
+    "id": "read-spacetime-with-light",
+    "name": "Read spacetime with light",
+    "lecture_indexes": [
+      16,
+      17
+    ],
+    "plain_problem": "The course needs a bridge from equations to observation. Light is the bridge because it follows the causal structure set by the metric and carries information to detectors.",
+    "mathematical_spine": "Null directions are tangent directions whose spacetime interval is zero. Null geodesics are light paths. Families of such paths focus, shear, delay, or bend according to the geometry.",
+    "why_it_matters": "Most astronomical evidence about gravity arrives through light. If null geometry is weakly understood, lensing, horizons, redshift, and signal travel times become disconnected facts.",
+    "what_to_watch_for": "A null path is not a path with no motion. It is a path with zero spacetime interval, which is exactly what makes it a light path.",
+    "concept_ids": [
+      "optical-geometry"
+    ],
+    "subthemes": [
+      "Causal paths"
+    ],
+    "transcript_backed_lectures": [
+      16,
+      17
+    ],
+    "missing_transcript_lectures": [],
+    "audit_note": "Transcript-backed for every lecture in this family."
+  },
+  {
+    "id": "solve-evolution-and-global-shape",
+    "name": "Solve evolution and global shape",
+    "lecture_indexes": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "plain_problem": "The course then asks how whole spacetimes behave: how valid initial data evolves, how the universe expands, and how causal boundaries such as horizons are understood.",
+    "mathematical_spine": "Canonical GR rewrites spacetime as slice data plus constraints. Cosmology uses symmetry to reduce the field equation. Black holes and Penrose diagrams track causal reach rather than visual shape.",
+    "why_it_matters": "These lectures test whether the earlier machinery can handle time evolution, large-scale structure, and regions where coordinates can mislead badly. They are where local definitions must survive contact with whole-spacetime questions.",
+    "what_to_watch_for": "Several lectures in this family lack local transcripts, so the current atlas marks them as scaffolds that need manual notes before being treated as detailed evidence.",
+    "concept_ids": [
+      "canonical-formulation",
+      "cosmology-scale-factor",
+      "black-holes-horizons"
+    ],
+    "subthemes": [
+      "Allowed initial data",
+      "Causal boundaries",
+      "Large-scale geometry"
+    ],
+    "transcript_backed_lectures": [
+      21,
+      22
+    ],
+    "missing_transcript_lectures": [
+      18,
+      19,
+      20,
+      23
+    ],
+    "audit_note": "Transcript-backed except listed gaps."
+  },
+  {
+    "id": "extract-small-signals",
+    "name": "Extract small signals",
+    "lecture_indexes": [
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "plain_problem": "Exact solutions are rare, but real detectors measure small changes in realistic systems. The course needs controlled approximations that separate physical effects from coordinate changes and connect source motion to measurable detector strain.",
+    "mathematical_spine": "Perturbation theory studies small metric changes around a known background. Quantizable matter raises how matter fields source gravity. Wave-source and detector lectures connect those changes to strain in interferometers.",
+    "why_it_matters": "This is where the abstract course pays off experimentally: the same metric idea that defined light cones also predicts tiny changing distances measured by gravitational-wave detectors.",
+    "what_to_watch_for": "Not every changing metric component is a physical wave. The course must separate real measured strain from a changed description, then explain how source dynamics, propagation, and interferometer readout refer to the same disturbance.",
+    "concept_ids": [
+      "stress-energy-matter",
+      "perturbations-waves"
+    ],
+    "subthemes": [
+      "Small signals",
+      "What gravitates"
+    ],
+    "transcript_backed_lectures": [
+      26,
+      27,
+      28
+    ],
+    "missing_transcript_lectures": [
+      24,
+      25
+    ],
+    "audit_note": "Transcript-backed except listed gaps."
+  }
+]

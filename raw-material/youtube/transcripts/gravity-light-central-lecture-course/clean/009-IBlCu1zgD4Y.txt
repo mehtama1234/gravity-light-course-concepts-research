@@ -1,0 +1,2212 @@
+this program is being presented to you
+by the heras international winter school
+on gravity and
+light good morning and welcome to the
+ninth lecture of the winter School uh
+today's lecture number nine is titled
+Newtonian SpaceTime is
+curved this may come as a
+shock uh because you thought probably it
+is isn't curved and indeed in the
+standard formulation it is not the
+question is whether this standard
+formulation holds up of course it does
+in a way but if we inspect the axioms
+properly I would like to make the point
+that Newtonian space time must be
+considered curved and in fact that this
+curvature absorbs the effect of a
+gravitational force so that no longer
+gravity can be considered a force let me
+make my point let's in the
+beginning oh as you see today is a
+physics
+lecture um so however we'll of course
+use much of what we have learned
+especially the autop parallel equation
+and we start here by Newton's two laws
+which I wrote down more or less like
+Newton did um Newton didn't use formula
+he made little drawings and he used
+words but it's actually very carefully
+worded so the first axim is a body on
+which no Force acts moves uniformly
+along a straight line and usually there
+is the addition in an inertial
+system and Newton 2 also has the
+addition in an inertial system I did not
+put that there because an inertial
+system has something to do with choosing
+coordinates but this statement is an
+absolute statement a body on which no
+Force acts moves uniformly along a
+straight line we know what a straight
+line is independent of our reference
+system right or we can at least
+formulate this today second deviation of
+a body's motion from such uniform
+straight motion so deviation today we
+call this
+acceleration is affected by a force so
+this identifies there is a force present
+but the force doesn't act just like this
+it's reduced by a factor of the body's
+reciprocal mass the inertial mass Mass
+the bigger the body's inertial Mass the
+less the same force will accelerate the
+body right so this looks nice and um the
+question is what do these axioms say we
+can read both axium statements about
+what a particle does under various
+circumstances if no Force acts then the
+axium tells us the particle moves
+uniformly along a straight
+line however if you read read the first
+axim like a postulate of what a particle
+does it is merely a special case of the
+second axium because if in the second
+axum I say the force is zero the force
+vanishes then deviation of a body is
+affected by a Vanishing Force reduced oh
+so there is no deviation from the
+straight uniform motion so if you read
+the first axim like an axim that says
+what the particle does it becomes the
+special case Newton wasn't that naive he
+didn't need to emphasize the special
+case in an extra axium and the first
+Axiom needs to be read therefore a
+different way in order to have an
+important role the role is the following
+you assume that for some reason we'll
+come to that you know that no Force
+acts and then for such you use such
+particles to experimentally
+check what a straight line
+is okay so imagine you're in outer space
+there's absolutely no Force at all you
+throw a stone and it does something and
+your the first axim instructs you to say
+Ah that's a straight line you're testing
+the
+geometry of
+space that's the idea it's a measurement
+prescription for
+geometry so that's this
+and then the second axum tells you if
+that if then you have other particles on
+which a force acts for instance because
+they have charges and they react to some
+Fields that's a modern Faraday point of
+view then the second axium kicks
+in so um let me remark first
+remark first
+axium in order to be
+relevant
+must be
+read as a
+measurement
+prescription for the
+geometry of space
+and actually we'll add something behind
+space later that's the first remark and
+that makes a lot of sense because if in
+science you talk about an
+entity like geometry straight line then
+you better Define what it is now you
+might say that's obvious well it's
+obvious on paper in mathematics what the
+straight line is but is it obvious what
+in nature a straight line is well Newton
+recognizes this and um makes of it a
+measurement prescription for straight
+lines
+however there is a second important fact
+that one
+observes in nature and that is that
+gravity affects all
+masses all massive
+particles so if I have a massive
+particle and there is nothing else in
+the universe
+well maybe if I consider that the self
+interaction of the particle with itself
+gravitationally doesn't matter maybe the
+first axium can be realized but as soon
+as I have a second particle in the
+universe and I think of gravity as a
+force which is the standard view then I
+can no longer use this
+particle in order to measure this the
+geometry of
+space why well there is another particle
+somewhere another mass and in Newtonian
+Theory all particles have mass and all
+masses gravitate at arbitrary large
+distance so if we have a universe with
+already two
+particles the first axium can no longer
+be applied because it's assumption that
+no Force acts can no longer be applied
+we say ah come on we nevertheless we
+never use use this anyway we mostly work
+with this and it works fine the axum is
+there it's very important to say what
+straight line is if you don't know what
+a straight line is you don't know what
+the deviation from a straight line
+is of course because we're already
+educated we know ah straight line that's
+a covariant derivative here or rather
+the gamma symbols are being determined
+by
+this deviation oh that must be the
+covariant derivative of a curve
+maybe the coant derivative of the
+tangent Vector to the curve in the
+direction of the tangent Vector to the
+curve you remember a straight line was
+nabla v v down V on V equals zero well
+acceleration deviation from that is is
+nabl down v v is not equal to zero
+that's a vector again because V was in
+the coent derivative makes of this a v
+okay so you see if you don't know what
+the straight line is you don't know the
+gamma symbols you can't calculate the
+acceleration you need to know the
+straight lines first because before you
+can even start talking about this we'll
+do this more precisely okay but that's
+an important Insight but the point is if
+gravity is also modeled as a force and
+it acts on every
+Mass you have a
+problem so um since
+gravity un
+ially
+acts on
+every
+particle um in a
+universe and of course when Newton says
+body we think particle in a universe
+with at
+least two
+particles gravity
+must
+not be considered a
+force if the first axum if Newton
+1 is
+supposed to
+remain applicable
+so we got a serious problem because we
+don't know how to encode gravity other
+than as a
+force the first one to think about this
+was
+llas and it's the laas you
+know laas is question
+and laas was uh what was it
+1749 to
+1827 laas asked the following
+question can gravity be encoded
+question can gravity
+be
+encoded in a
+curvature of
+space
+such that its
+effect this such that its
+effects
+um
+show if particles
+under the
+influence of no
+other
+Force so we are still in this situation
+where we think gravity is a force but we
+want to get rid of it uh if particles
+under the influence of no other
+Force are required are
+postulated to move
+along straight
+lines straight
+lines in
+this
+curved
+space that's the
+question and in some museums in some
+science museums you see this there is
+some throat like this and you put a coin
+here and then you flip the coin then the
+coin coin runs in here like this have
+you seen that right so bowl shaped like
+this now of course it spirals in because
+of friction if we imer so this is a
+curved two-dimensional surface if we
+imagine we had no friction you have the
+idea it goes around like this and if you
+give it less energy it goes on such an
+orbit and so on and there is and
+intuition could this be the motion of
+the planets around the Sun one dimension
+higher that that's the rough idea and
+um well the answer to La's question and
+llas spent quite some while thinking
+about this but we don't think about it
+we use mathematics and it's a TW liner
+uh laas the answer to La's question is a
+resounding no no you cannot it's
+absolutely impossible to come up with a
+curved space such that this
+works why do we do it then well because
+it's instructive to see what doesn't
+work because we can repair
+it
+proof so what is the standard view so
+the the gravity is a force view gravity
+is a force point of view
+and I mean after all gravity is a force
+point of view works pretty
+well it just has this slight conceptual
+difficulty which is tremendous if you
+think about it so let's start with this
+um that means you have mass times what
+you call
+acceleration this is not the
+acceleration but let's not talk about it
+right now that comes later mass time
+acceleration equals the gravitational
+force field and the gravitational force
+field so this is at a point so it's the
+eeve
+formulation you have this and the gravit
+if it's the gravitational force field
+you know that it satisfies pance
+equation pance equation is 4 Pi Newton
+Conant G * row and this is the mass
+density
+of
+matter in the
+universe now you solve this equation
+usually write the f as the minus the
+gradient of the gravitational potential
+then you have pance equation and pance
+equation is the gravitational field
+equation in Newtonian gravity because
+depending on the masses around it
+determines the gravitational force law
+you need to solve this once you have it
+you can plug it in here to study how a
+particle under the
+on which this Force acts it acts on all
+the particles reacts
+okay now the thing
+is um well actually if I write it like
+this I need to have a little F here and
+there's a little F here and an M here
+because the gravitational force is this
+F the gravitational force is
+proportional to the mass of the body on
+which it acts that's very special
+it's also proportional of the mass of
+the body that produces it uh more
+generally written here but it's also
+proportional to the mass of the body on
+which it acts which results in which
+fact which results in the fact that you
+can cancel out this mass of the body on
+which it acts all together and there is
+no more mention of the mass of the body
+on which it
+acts is this
+true well Theory doesn't tell us let's
+go to experiment yes this is called in
+theory the weak
+equivalence
+principle but we can give it names all
+day
+long experiment
+decides so we have here two things we
+have a little feather and we have a
+little bead
+both are red okay now uh they're just
+for fun they're in this tube um let me
+start maybe
+here
+okay now you know what happens um I now
+erect the tube in into the vertical
+position and every day day experience
+tells you uh the little bead will go
+down like CH because it has a much
+bigger mass than the feather we would
+say the people on the street would say
+you're probably already more educated in
+physics and the feather will just fall
+more slowly will be less accelerated
+maybe because you think it has less Mass
+well that's
+a okay once
+again so I mean the bead you don't see
+you only hear when it arrives down here
+and then you look at the
+feather huh the bead Falls much faster
+because they both started from zero
+speed up here it must have been
+accelerated more
+strongly that's what you think but of
+course this is can all be attributed to
+the air resistance within the tube and
+we'll demonstrate this now so uh
+removing the air resistance by
+evacuating the
+tube for
+so the tube has now been thank you the
+tube has now been
+evacuated
+okay now we do the same experiment again
+air resistance has been switched
+off it's it's not true that the bead is
+more strongly accelerated than the
+feather they're both accelerated the
+same okay within the error of
+measurement here thank you very much ah
+okay well next proof so we didn't just
+exchange the tubes and and the bead and
+so on it's the same
+okay
+right Tada okay
+proce yes I have two questions yes one
+is a concept conceptional one you
+convinced me that we have a problem uh
+there are two ways out of the problem
+one is we want to keep up Newton's a
+Newton's first AEL but the other one is
+we could just dispose of it yes so why
+do we
+choose you could dispose of it and then
+my next question would be what do you
+mean by deviation from a straight line
+and then you could refer to the straight
+lines of ukian geometry then I asked you
+why is the world why does the world
+feature physical space feature a ukian
+geometry and I think at that point you
+say okay let's reinstate it and let's
+see whether we can save it that
+way it's a fully conservative approach
+nothing I say goes against anything
+that's written in Newton's principia it
+goes a little bit about what people made
+out of it afterwards by using
+vectors yes second question so this uh
+is the US so this is the example we
+usually bring when we talk about uh
+conser conservation of angular momentum
+so this here okay so angular
+momentum from thean point of view is
+just a
+momentum and in that sense say there is
+if there is no force acting then I don't
+have
+but what I don't see is if I sit on the
+particle why could I not say so
+this why can't I say that okay um if if
+you go around in a curved space like
+this nobody said that if you attach an
+additional frame and you return that the
+frame still points in the same
+direction so this is just the the um
+this is the the the the Free Falling
+motion here but you're probably thinking
+like you can feel that you go around
+here and you're like the centrifugal
+force or something like this we'll come
+to
+this okay so anyway we experimentally
+verify it and then we give it the grand
+name weak equivalence principle which
+then is great for philosophers without
+experiments um you cancel this guy and
+then you can make an approach towards an
+answer to La's question you say ah aha
+laas wants to interpret this which we
+interpret as acceleration and force he
+says well the equation is correct
+because I mean this is numerically
+checked to very great Precision if you
+neglect relativistic effect so let's
+assume the world the real world is
+Newtonian that's the name of the game at
+this level um and laas doesn't say
+change the equation put an extra term
+laas says let's interpret this equation
+as an autop parallel
+equation because that is the equation
+for a straight line so take the F to the
+other side and LA's question now takes
+the form
+laas
+asks is
+this
+of is this of the
+form xou do a alpha of T So Alpha runs
+from 1 to three right three dimensional
+return space is this of the form xou
+Alpha plus gamma Alpha Beta
+gamma uh at the points where you pass X
+beta dot X gamma dot of T of T equals
+Zer that's his question is Newton's
+equation if there's the gravitational
+force can this be
+interpreted as an autop parallel
+equation no it can't why because thisy
+gamma can only depend on the X where you
+are but what about these two velocity
+factors here this could only be
+interpreted as this for well not for
+zero velocity well actually not really
+for any velocity because if you have any
+velocity you can have double the
+velocity that's possible and you would
+whatever choice you make for the gamas
+in terms of the fs you can't make this
+match because you can't get rid of the
+effect of the X dots in this gamma
+because the gamma only depends on X well
+even if it depended on x dot it would be
+very difficult to get rid of these
+vectors here so the point is this simply
+doesn't have the form of the autop
+parallel equation that means one cannot
+choose so
+conclusion one
+cannot
+find
+gamas
+gamas such that
+Newton's
+equation for this case of the
+gravitational force uh takes the
+form of an autop
+parallel but being able to find such
+gamas would mean being able to find a
+notion of straight
+line that could absorb the effect we
+usually attribute to a
+force okay it's done laas also found
+this not using the auto parallel
+equation because he didn't have it he
+spent several days thinking and he
+realized there are other inconsistencies
+which at the end of the day are this one
+it is not
+possible this standard example from
+science museums is entirely wrong
+entirely wrong you cannot curve space
+that
+way
+now what can we do so we already learned
+something from our knowledge of the auto
+parallel equation from our understanding
+that it describes straight
+lines that gamma can be made in any
+point but only this point equal to
+zero
+yes that's another
+problem yeah but I would say then can do
+it at least in this point well look if I
+let this
+fall and then say here it has a certain
+acceleration I can make the acceleration
+vanish there by going to the coordinate
+system that falls with
+it that's that and now you say I can
+fall with it all the time can't I make
+this all along the curve zero so well I
+have to walk uh climb up here and then
+jump down and let let myself fall let
+this fall and then I will fall together
+with with the chalk
+okay the problem is the Earth is round
+and if
+somebody at the North Pole makes this
+experiment and thinks of a coordinate
+system that's falling with him he will
+be able to transform a the gravitational
+force apparently there where he is but
+in this falling coordinate system what
+if at the same time somebody makes the
+same experiment down here in the system
+of the falling guy up here this one will
+not be transformed away this effect so a
+homogeneous gravitational field like we
+like it in standard examples can be
+transformed away entirely come back to
+that later but an inhomogeneous one
+can't so but that has to do with your
+question here how this can be
+transformed away okay so this uh is
+rather sobering but um in fact as so
+often
+laas didn't look carefully so the full
+wisdom of Newton
+1 takes us all the way to implement ll's
+idea in a way that works and what laas
+asked can we find a curvature of space
+such that particles move along straight
+lines he didn't read Newton 1 properly
+Newton 1 talks about a straight line but
+it talks about uniform motion along a
+straight line not just motion along a
+straight line
+okay so the full wisdom of Newton 1 is
+use
+also the
+information from Newton's first law
+that
+particles under the influence of No
+Force move
+uniformly so if I draw this uh in a
+two-dimensional flat space say this is
+uniform motion uh these are
+equal amounts of time one would say
+that's a straight line straight uniform
+line this is also a straight line but uh
+the motion described by this is not
+uniform because it gets slower and
+slower laas in his idea only implemented
+this only
+tried to
+implement this and as it's often said in
+research proposals it's a beginning
+okay but if you but if you don't take
+things really seriously you see starting
+somehow if we can't make this work we
+won't make anything work no uh you have
+to take everything into account and then
+we start talking um the question is
+rather than drawing these pictures and
+something that's very difficult to
+explain to students at first is that a
+curve is more than the set of it its
+points a curve is the set of its points
+and its parametri ation which makes
+exactly the difference right well let's
+make it easier for students uh let's
+introduce the appropriate data structure
+to capture this introduce the
+appropriate
+setting to
+talk about the difference between these
+two
+difference um
+easily and that is something you also
+know from school you draw a space time
+diagram uh if you have a harmonic
+oscillator you did
+this how does the position depend on
+time uh well let's do this for a
+one-dimensional world um say this is the
+one-dimensional world here and now I
+have a
+straight uniform motion that looks in a
+one dimension world like this agree and
+I have a straight non-uniform motion
+well you can in a onedimensional world
+the motion is always straight but the
+point is here the difference between
+straight and
+uniform now in rather than showing this
+and remembering the
+parameterization we attach a Time
+axis and we do not introduce new data
+but we just represent the data in
+different fashion if these were
+equal intervals of time then it's clear
+how to translate these pictures uh this
+one looks
+like
+so
+so so and so on uh because every time I
+arrived at this
+interval it's like this agree that's
+uniform straight Motion in one Dimension
+well this is also straight motion one
+dimension you but you could easy imagine
+an extra Dimension it still runs along
+the xaxis would be straight motion um
+but again equal time intervals um would
+lead you
+to
+have hang on a second equal time
+intervals now we need
+to uh hang on I'm
+confused H equal I no this is less time
+that's the point this is less time
+I'm confused no it's the same time for
+Less distance ah it looks like this
+exactly it goes up I'm sorry this is not
+getting slower I said here it's getting
+slower it's getting faster of course no
+it isn't I'm I'm
+confused are you also confused
+noeler is exchange ah of course of
+course of course so yeah yeah yeah so
+this is really so this is getting slower
+and this is also getting slower because
+in equal times it makes less
+now so as a relativist this is a rather
+embarrassing moment okay so we're trying
+to cut it off the video okay because I
+don't even have the excuse that in
+relativity you you order the axes
+differently well I have an excuse
+because there are no axes but but that's
+okay anyway so so you see the point the
+the the inside is the
+inside is um in space
+time in space time if you attach time to
+space and consider it an
+entity this guy here is simply you can
+ignore the parameterization because
+nobody cares whether you now
+parameterize this curve in space time in
+the most crazy
+manner because for every point where you
+are you just look at this axis and you
+know what time it is you no longer rely
+on the parameter that par parameterizes
+the SpaceTime curve because you stored
+the information in the extra coordinate
+you freed yourself from uh
+parameterizing the curve in a certain
+way because you stored the information
+but even better in space time
+uniform and
+straight
+motion where the uniform and straight
+must be set because we always think
+about time but in space time you don't
+need to say uniform and straight Motion
+in
+space in space time this uniform and
+straight Motion in space is
+simply straight
+motion no further questions asked so
+this gives us a hint LA's idea might
+work if you only look at straight lines
+if you only want to implement straight
+lines but it will work in space time in
+Newtonian space time this has nothing to
+do with
+relativity it's just drawing what you
+already Drew in school for the harmonic
+oscillator it's not relativity it's just
+representing the data you have in a
+different fashion this goes one to one
+okay but then we can use our ideas about
+straight motion otherwise we would have
+to invent new differential geometry that
+implements straight in uniform motion it
+can be done too but not in that way okay
+so let's try
+this so let's
+try in space
+time well uh the first thing we need we
+need to convert the data into the right
+form so um let X from R to R3
+be a
+particle
+trajectory in
+space so this is the usual picture and
+now I claim you can convert this back
+and forth into a world line that's just
+a name a world line you could also call
+the world line the history of the
+particle because obviously
+if you um if you look at the world line
+of some particle you know its entire
+story so you can
+uh you can tell jokes in SpaceTime which
+today are somewhat outdated for instance
+uh in Newtonian SpaceTime this is the
+joke Pope
+Pope what is the
+joke two popes meet okay so this is
+nowadays possible but this is a joke in
+space this a story you're telling a
+story in space time okay so the the
+world line somehow this joke never works
+I don't know why anyway so you convert
+from
+this you convert this information into
+that information very easily you assign
+to each T now a quadruple of real
+numbers a for truple where you just
+reproduce what you already put in not a
+problem and then you use the trajectory
+you had before which of course
+decomposes in three real functions that
+is the world line of a particle uh and
+that is of course the picture I drew
+over there if you want a more elaborate
+picture uh you can uh put here the Sun
+at least a very massive body uh and you
+may put here a very small body I don't
+know me
+and we know it does something like this
+if it's ener is not too big otherwise it
+will fly away in parabolic or hyperbolic
+motion as a bound orbit that's what we
+observe something like this in neonian
+gravity it would be like that and so
+this is the curve X but you know there
+is kepas uh uh law of equal areas in
+equal times and blah blah blah blah so
+the parameterization here plays a role
+but now you
+may represent this in space time X1 X2
+space time time and what is circular
+motion elliptical motion down here in
+space
+time Becomes Of course
+something I don't know whether the
+picture is so good but it becomes a
+spiral right it's a spiral and you can
+look at every point where you are
+okay but obviously if you're here you
+can go back because you just project you
+just forget the first component and you
+get this curve back
+there's nothing happening no new physics
+no nothing is just a different way to
+represent the uh history of a
+particle that's
+it that's all it
+takes to make LA's idea work but in
+space time why well first there is a
+trivial implication from our
+uh so the point is let's assume that on
+this side let's
+assume that X the little X we start on
+the left hand side satisfies again uh
+Newton's law uh concerning the
+gravitational force such that I could
+already um cancel the M let's assume
+this so now we have a number of trivial
+really trivial rewr
+writings the first one has nothing to do
+with this the first one is that I take
+the zeroth component and this is just a
+manner of numbering the components here
+that I say this is the zeroth component
+of this uh coordinate map and you see we
+here all in charts I have only talked
+about charts um and then you have and
+this is not a Vector but this is uh this
+capital x is just a world line
+coordinates I just label them like this
+and it's very clear that if
+you take the time
+derivative of the
+x0 it's one because it's simply x0 of T
+is T you take the derivative It's one oh
+that's very simple and and then from
+this it follows
+immediately that if you take the second
+time derivative
+it is
+zero of course the derivative of one is
+zero so we keep this in mind and uh now
+we write down a number of equations the
+first one is this one this is simply
+true right this is simply true now I
+write down what is the time
+derivative of the alpha components Alpha
+runs from 1 to 3 what's the time
+derivative of of the alpha components
+all depends on T well uh you need to
+look ah there it says because the x
+capital the X Alphas are the small X
+Alphas you can use this and if you use
+this we can of course take it to the
+other side
+agree minus F Alpha of well this only
+depends on the small X's but you can
+also write in there the capital x is
+strictly speaking it's a different
+function because the function that
+ignores its first entry well that's not
+very deep let's name it like this equals
+zero that's it that solves the
+problem you say hang on how on Earth is
+this going to solve the problem because
+as far as one can see you still have the
+same problem here and you just added an
+equation how can that help well that
+equation doesn't help it just doesn't
+cause trouble we'll see in a second but
+there is something that helps may this X
+do0 is 1 so I can easily multiply here
+with x do0 uh x0 do x0 dot right * 1 * 1
+I did not change a
+thing how is that supposed to help well
+these two here these two equations are
+perfectly equivalent to the following
+set of equations X up a where a now runs
+from 0 1 to 2 3 and here the alpha runs
+only 1 2
+3 x a double dot plus gamma AB b c
+x.b x do c equal Z what is this this is
+an autop parallel equation in space time
+right it's an
+auto
+parallel equation in
+Newtonian space time
+and now you compare the two and you say
+oh
+yes
+choosing in this chart I mean we're
+always in a chart with coordinates so we
+can choose gamas choosing gamma we read
+it off what are the gamma zero if a is
+zero what are all the gamas that have a
+zero
+up well they must all be zero because I
+have plus Z here so gamma zero up
+whatever is down at any point in this
+space must be zero I read this off now
+let's look at this one what do the gam
+what do I have to how do I have to set
+the gamas that have an alpha up well the
+gamas that have an alpha
+up if they have anything down that's
+different from zero Alpha up say um one
+one then it would produce a term X1 dot
+X1 Dot and that's not good all of those
+Alpha
+up and beta gamma down or it even
+suffices is zero but it even suffices if
+one of the two down is zero but that
+could also be the other
+one they all must be
+zero why because otherwise if we choose
+them different different from zero terms
+come up in this on this side that do not
+have this
+form so all the gamas are zero
+only gamma up Alpha down Z down Zer that
+must be chosen
+as minus F
+Alpha at each point oh nice alpha alpha
+these indices are set now it makes sense
+with the
+indices so the claim is in the chart we
+started with which is the start the
+chart which in standard neutronium
+mechanics is called the obvious chart or
+the cartisian chart or whatever it
+doesn't matter uh we play the game for a
+time being until we made our point and
+then we'll make it more clear in that
+chart you have can choose gamas to be
+given by minus the gravitation Force
+divided by the mass it acts on so the
+this little F and the others you choose
+all
+zero now you say hang on and that's the
+question could asked could I transform
+this away because this is just in one
+chart right I could use the gamma
+transformation law and we know even
+though the gamma can be non zero in some
+charts there may be a chart where it's
+zero or there may not be it depends on
+whether the curvature vanishes or not
+you
+remember the question is is this a
+coordinate
+artifact
+question is this
+a
+coordinate
+Choice
+artifact the answer is
+no since
+we can calculate the reman
+curvature and the reman curvature of
+this of the connection defined this way
+we can calculate it in that chart R
+Alpha and the only non Vanishing
+components only non Vanishing components
+you can calculate the others and they
+will all vanish the all only
+nonvanishing
+components are those minus Del beta F
+Alpha in this chart and uh
+probably we would rather write it like
+this these are the only nonvanishing
+components this is actually known as the
+tidal Force tensor if you study how
+tidal forces act you look you look at
+this guy it's the title Force
+tensor it's the hessan of the
+gravitational it's minus the hessan of
+the gravitational potential it doesn't
+matter that's the guy uh and you can
+calculate the z0 component of the REI
+tensor you remember the rich
+tensor Rich tensor uh
+um is the contraction so that's the
+components that I left is the
+contraction here you go you contract the
+first and the third index was on the
+last tutorial sheet anyway it's a it's
+sub information it's traced information
+in here and the rid tensor is minus
+Del well d by DX so here it doesn't
+matter to write it so precisely because
+uh we're he in these coordinates is
+this but now you say oh my God we know
+something about this guy because we
+remember that we had Pon law
+right P told us that minus Del Alpha f
+Alpha is 4 Pi * Newton constant times
+the mass density of the masses that
+generate the gravitational force so this
+is equal to 4 Pi Newton constant row
+ah
+interesting well interesting if you know
+general
+relativity because you could call this
+the zer0 component of an energy momentum
+tensor and then you got something like
+r0 equals t0 0 okay uh so writing and
+that is now really in a sense cheating
+uh an energy momentum tensor uh writing
+it like
+um2 row or something like
+this uh you get
+r00
+equals
+16 Pi no 8 Pi G
+t0 and these are is the F this is the
+first of 10 gravitational equations that
+Einstein postulated in
+1912 Einstein in 1912 said in
+relativistic physics where a few more
+ideas come in but in relativistic
+physics he said you have R A equals 8 Pi
+g t
+AB the point is this isn't entirely
+correct but it's almost
+correct SpaceTime Rich curvature he said
+in 1912 is the energy momentum of matter
+we'll come to this the point is this is
+not far from what Pon law says Pon law
+says that for the curvature of space
+time in Newton
+gravity
+r0 is 8 Pi gt0 0 well that's cheating
+because I set it to row but in
+relativity if you have dust that's lots
+of particles that don't interact and
+only have mass it looks exactly like
+this so Pon equation which you all know
+makes you understand the basic idea of
+Einstein's equations at least the old
+form the not correct form there's an
+extra term missing here that makes it
+correct but that's another issue and
+that has to do with relativity and
+SpaceTime physics in relativistic
+SpaceTime physics but Pon law the field
+equation for gravity is right here and
+because it's non zero in the absence of
+masses in the absence in in the presence
+of masses the curvature is not zero if
+the curvature is not zero remember the
+theorem there is no coordinate system
+where the gamas all vanish
+you have the Earth you make a
+non-homogeneous gravitational field and
+there is no system where you make for
+every particle that you can think of
+make the gamas vanish so it's not a
+coordinate artifact it's not like oh
+choose better coordinates and the effect
+is there no it's not a coordinate and
+wouldn't it be funny if it was a
+coordinate artifact because coordinates
+are in our mind but you feel whether you
+accelerate or not okay so all fits
+together okay so we have
+this um and so the conclusion is uh
+lass's
+idea
+conclusion LA's
+idea
+works on space time neonian space time
+oh by the way you see the gamas that
+were nonzero so yet another remark
+the gamas that were nonzero were
+gamas that had time indices well here we
+think of them as time indices has to do
+something with this extra direction
+right this shows it's not a curvature of
+space for instance the reman tensor in
+components Alpha Beta Gamma Delta
+they're all zero where Alpha Beta Gamma
+Delta run from 1 to three it's not a
+curvature of space
+the space time is not curved in the
+space directions roughly speaking in
+this neonian space time it's curved in
+the extra Direction together with the
+space you understand what I mean okay so
+here you see it's really space time
+curvature not space curvature but space
+time curvature that works the only
+one that's not
+Vanishing is this one but that means not
+all components of the reman tens are
+vanish
+yes right side is this certainly
+transforms as a t on the left there's
+point and
+gamma gamma does not transform as a
+tensor but the X double dot neither
+thank you for the question so very good
+question neither the velocity
+theeler the velocity does the
+acceleration doesn't well let me write
+it down okay so question
+what about the transformation
+Behavior travle
+behavior of left hand
+side of X double dot Alpha no
+a plus gamma AB c x.b x do c equal Z
+well this guy here you may remember is
+this
+guy we calculated this so if you take
+the derivative of the Velocity in the
+direction of the velocity of a
+curve the eighth component is this here
+this is the eighth
+component and this is again a vector
+field along the curve and this guy is a
+vector field which we call the
+acceleration
+a uh well a yes yeah it is a let me make
+a fancier a because I also have an index
+a this is the
+acceleration
+acceleration vector I told you the
+acceleration is a vector the
+acceleration is a vector but the second
+derivative of the components of a curve
+are
+not the components of that acceleration
+this belongs to a to and only the sum of
+the two transform right and you know
+these transform as vectors because the
+velocity components we checked that
+these do not and in the same way no in
+the opposite way in which the gamas Do
+Not transform as tensors as a one two
+tensor in the opposite way this doesn't
+transform as a vector as Vector
+components and but the sum of the two
+cancels the Troublesome terms and only
+the combination deserves to be called
+the
+acceleration you can't say that's the
+acceleration and that's an extra an
+extra acceleration no this together is
+the acceleration and of course it's
+chart independent if you sit on a
+rocket you feel whether you accelerated
+or
+not how crazy would it be if somebody
+thinks another coordinate system and you
+feel something
+different it won't happen okay this
+together is the
+acceleration
+okay
+now we have thus
+reformulated Newtonian Theory such that
+gravity is a curvature of Newtonian
+space time and the first axium now takes
+the form particles under the influence
+of No Force but gravity no longer counts
+among them under no other the of no
+other Force moves along has a world
+line that is straight but a world line
+is in space time end of message this is
+Newton's first axium you don't say
+uniformly straight in space you say
+straight in space time the world line
+grav and if you now have gravity and you
+throw to Pi say that's the Earth right
+small Earth if these two particles you
+drop them and they will start doing this
+right they will be convergence of these
+lines that's another way you can
+identify curvature that you that
+geodesics that are originally
+parallel start converging think of the
+surface of a sphere you you go from the
+equator up parallel now equator you go
+up parallel but finally they meet okay
+that's another effect that you have when
+there's Cur it's called geodesic
+deviation so we solved our problem we
+just have to accept that space time is
+curved but your space is still nice and
+flat but space time is curved and the
+first axim can be put into
+practice Case Closed um up to the point
+that of course we have a terrible
+coordinate dependent formulation here
+all was with components what is the real
+structure behind that um so that's
+section
+three adequate a sketch or the
+foundations because I I have no time to
+do this all uh the
+foundations of the geometric
+formulation of Newton's axioms and again
+this is not new
+physics this is just what Newton wrote
+down in
+words implemented properly with the
+mathematics that makes it work rather
+than that the mathematics that seem
+seems to make it work okay so uh the key
+definition I just catch it and I tell
+you where it goes but maybe you're able
+to fill in uh the uh the following steps
+yourself definition a Newtonian
+SpaceTime so this is now we we we have a
+new start okay so this is just in our
+mind this change our philosophy a little
+and now we start talking seriously okay
+so a Newtonian
+SpaceTime is a quintuple of
+structures and about every single
+structure here Newton talks okay uh it's
+a set with a topology continuous curves
+and so on it's smooth we can take talk
+about derivatives we have a coent
+derivative of course we do because
+Newton talks about straight lines uh
+uniform straight lines we translate this
+into straight lines in space time um and
+Newton also
+talks insistently on something called
+absolute time we have an absolute time
+T
+where M
+OA is a four
+dimensional smooth
+manifold a four dimension smooth that
+has no that has no direction this is
+space and this is time there's a danger
+in the word SpaceTime the danger in the
+word SpaceTime is is that you misspell
+it uh you could misspell it like this
+space plus time this is not space time
+space time is one thing in which at
+first you cannot distinguish between
+space in time it's just four di like the
+sphere the sphere is two dimensional but
+you wouldn't say uh where's One
+Direction over the other well
+okay space time and only you start with
+this and then you make have a derived
+notion under certain circumstances what
+is space and what is time okay so space
+time is a four-dimensional manifold
+don't think you already know what it is
+delete all your memory so four
+dimensional space time with a coant
+derivative and and this this is this and
+T this is clear what this is a coant
+derivative and T is a smooth function on
+the manifold so absolute time is a
+smooth function T from M to R is a
+smooth function
+and Newton says
+things he says two things which we
+convert into aums into requirements I
+should say
+satisfying which we convert into axioms
+for these two
+structures one thing Newton says is that
+um there is
+absolute
+space that's what Newton says there is
+an absolute
+space um this will take the following
+form you say oh we didn't provide for
+absolute space we only provideed for an
+absolute time whatever it
+is but it can be derived there is
+absolute
+space is this
+it's the requirement that the gradient
+of the absolute time function doesn't
+vanish anywhere it's
+nonzero all on the manifold so if you
+take it at a point
+P at every point of the manifold you
+require that this absolute time function
+has non Vanishing
+gradient what does it have to do with
+this absolute
+space so this is no longer part of the
+axium but that's something that follows
+from it you define absolute
+space s to it's absolute space at time
+to Absolute space at time to is the set
+of all the points of the man of the four
+dimensional
+manifold that satisfy the condition that
+t of the point well if T is a smooth
+function function on the manifold then
+every Point can be assigned at T of P
+every point of the manifold every event
+in space time is given a
+time a universal clock time okay um and
+the space the absolute space to at time
+TOA is the collection of all the points
+that have the time label to as uh this
+says and then it follows by this DT non
+zero it follows that the entire manifold
+is a disjoint Union and the
+disjoint comes from this is a disjoint
+Union of all these
+spaces or in other words if you like
+pictures if I do a three if I do a
+three-dimensional space Tye because I
+can't draw a four-dimensional
+one SpaceTime foliates
+foliates in all of these uh
+S1
+s32 s pi and so on right it foliates in
+all these spaces and the universal clock
+gives the same time for all these points
+here as long as this is a smooth
+function and the gradient vanishes if
+the gradient would vanish you would have
+um so you look at it from the side
+so this would be S1 and this would be uh
+s a little later if it would vanish for
+quite a while S2 uh they would intersect
+here right that would be a point where
+uh if these are Level lines of the uh
+Global time function of the absolute
+time functions at this point p uh there
+would be a problem therefore we exclude
+that okay so aha so this requ innocent
+requirement on the absolute time yields
+you a notion of absolute space and of
+course that's how we think of space time
+there are spaces stacked together to
+give space time he said but they're
+stacked together in a in a strange way I
+mean why why are they like wobbly well
+what do you mean by wobbly have we
+talked about shape yet no we haven't
+okay good then Newton goes on and he
+says things like
+time flows uniformly
+so absolute time he
+says
+absolute time flows uniformly Newton
+says what does that mean with 1 second
+per
+second right I mean what is that
+supposed to mean where if you want to be
+clear about it you say that the coant
+derivative of the
+gradient vanishes everywhere so if you
+put here an X for any X this is again
+the zero Co Vector field you say this is
+zero at all points of the
+manifold so
+everywhere it's already written as a
+field
+equation this means absolute time flows
+uniformly how do we understand that this
+means absolute time flows uniformly
+let's see in a second okay question
+yes yes that's um if there's if this is
+open here so um you could put uh d by
+dxa here in any coordinate system on the
+manifold uh and then you take the be
+component and then because this is C
+Infinity linear and certainly C Infinity
+linear if I put something here this
+would be a02 tensor
+field so if I leave this slot
+unfilled then this is a
+02 tensor
+field and I can require that to be the
+zero tensor field of that type if you
+don't like it in this form we'll do it
+in coordinate form a little later but I
+maintain that this equation is good and
+this is an equal sign on the space of 0
+to tensor
+Fields anyway so let's do this in
+coordinates in a second yes got
+problematic point would it correspond to
+saying that time stop
+yes time time would here time would
+would stop for a while right because um
+yeah that's what the gradient is no if
+if you draw the level surfaces if the
+gradient gets
+uh yeah you know if this goes together
+yeah that's right time time would stop
+here that's
+correct and and that's of course
+meaningless that that's it's not what we
+want in physics but it could be if we
+just say it's a smooth function so we
+have these two AXS you see this is a
+compatibility Axiom because it relates
+these two things Newton talks about so
+eloquently but um that's sometimes uh a
+matter of a heated debate what exactly
+this means well this is well a proposal
+this is a clear formulation of what it
+means and this you can make work okay so
+um well if you bear with me for 10 more
+minutes I can sketch a little bit how it
+goes from here on but I won't do the
+full thing um because actually my main
+point for the purpose of these lectures
+was made before that you can view
+gravity as a curvature of space time
+already in Newtonian mechanics okay uh
+and that this viewing gravity as a
+curvature of space time even within
+neonian mechanics is not just an
+alternative formulation which of course
+is the more uh uh agreable view point of
+view to take but really if you look at
+the first a you say what other choice do
+I have okay anyway that will be exactly
+the philosophical point of view the
+approach in general relativity later and
+I wanted to show to you that already in
+Newtonian gravity that gravity effects
+or can be understood as a curvature of
+space time has all to do with
+gravity and very little or rather
+nothing to do with relativity it's not
+relativity that forces us to space time
+as far as gravity concerned it's gravity
+itself and the understanding of the
+relation between geometry and gravity
+and all of that okay so I think that's
+the most important lesson in there for a
+theory Builder um but anyway so now we
+have this uh nice
+definition and
+um well now we can make a
+definitions
+definition a
+vector X in some TPM in
+SpaceTime is called
+called uh a future
+directed if the application of the
+absolute time function to it yields a
+number greater than
+zero the vector is called spatial it's a
+spatial Vector in the sense of absolute
+space if the application of the gradient
+of the absolute time function is zero
+and it's called past
+directed if you guess it DT of X is less
+than zero what does that mean
+picture you have the level surfaces of
+your absolute time function which are
+called the absolute space at the various
+times and you now take a point in one
+such absolute space which however is
+also a point in space time and you have
+a SpaceTime Vector say this one well now
+it depends on whether this is S2 and
+this is S1 because then time increased
+from here to here and then this
+one applied the gradient of the absolute
+time function which is a co- Vector
+applied Co Vector field applied to this
+Vector at this point yields a positive
+number so this guy is future
+directed um whereas uh a vector that
+points what we intuitively would call
+Tang to the
+surface this guy this is
+spatial well of course it's a tangent
+Vector to the level surface of this of
+course the gradient on the tangent
+Vector of a level surface vanishes this
+this old theorem and if you had a vector
+pointing here this would be a past
+pointing or a past
+directed Vector right okay so uh the
+impact of this is um definition
+or rather
+postulate or rather Newton's first
+law Newton
+1 it's still Newton one it says nothing
+different it says um the world
+line World line of a
+particle under the
+influence of No
+Force and I mind you again gravity isn't
+one
+anyway in this view isn't one
+anyway
+is a future
+directed a future
+directed autop
+parallel with respect to the nabler we
+have on space time and a future directed
+curve is a curve that
+has as its tangent vectors at every
+point a future directed velocity okay so
+a future directed Auto parallel means
+that's an auto parallel so you have
+nabla V World line X on world line X
+zero that's Auto parallel no Force
+acceleration is zero and you have that
+DT of the velocity is greater than zero
+everywhere of course the particle runs
+into the future and not into the
+past in SpaceTime you need to make the
+distinction between future and past
+right
+you okay that is this that's F Newton's
+first law no more funny
+talk now there is an interesting
+question about what this formulation can
+give you other than a nice formulation
+of Newton 2 which I also write down in
+short
+form Newton
+2 is simply the
+acceleration of a world line which is of
+course this guy if it was Zero it's
+unaccelerated uh is a gravitational
+force H sorry is a force not a
+gravitation not gravitational is a force
+so
+where f
+is a
+spatial Vector
+field because a force is only supposed
+to accelerate you in the spatial
+directions okay so you have you can
+prescribe a vector field it's only a
+force if it's a spatial Vector field
+then you have this that's Newton's
+Second Law and if you like if you like
+it's m * the acceleration is the force
+nobody said that's wrong I only said the
+acceleration is not X double
+dot
+okay so that's uh Newton Second
+Law now
+um let me introduce one more piece of uh
+one more idea but that's more or less
+just a
+convention and then we have
+another I believe good
+Insight
+convention we have this absolute time
+function right it's given to us as part
+of the structure of the
+manifold the convention would be
+restrict attention but that's really a
+convention you don't need to do this is
+just incredibly practical restrict
+attention
+to
+atlases a
+stratified we call them a stratified
+Atlas to adlas a
+stratified um whose chart whose charts
+ux have the
+property and now of course if you're a
+geometer and you say oh you know what
+you can require on your charts whatever
+you like as long as they still cover the
+manifold I don't care about your charts
+because your charts are in your head so
+this is not a real really a convention
+let's only think of those charts because
+okay uh that have the property that the
+zero you know that this chart map comes
+in a on a four-dimensional manifold in
+terms of three coordinate functions
+right and so on uh that have the
+property that the zero coord coate
+function coincides with the absolute
+time function why can you do this well
+the absolute time function is defined on
+all of M so you can always take the
+Restriction to a chart domain U because
+the other coordinates might not be
+defined all on all of them but so the x0
+which is defined on U is just the
+absolute time FR that exists everywhere
+globally by axium by Newton's talk um
+let's do that it's just clever because
+otherwise you have an atlas you can
+choose an atlas that disobeys this
+structure and all the formula are right
+it's just the formula becomes simpler if
+you make this choice and because you
+have the data why not use it okay to
+make life simple but it's really make to
+make life simple nothing depends on it
+okay very important a stratified Atlas
+um and in the stratified Atlas we can
+now
+evaluate this guy with some inside uh
+you know what this is this guy we set is
+zero uh that is the time flows uniformly
+torque absolute time flows uniformly
+nice what does it mean in a stratified
+Atlas well uh it means this guy here is
+of course then just the dx0 you
+agree uh in any direction so for any d
+by DX a a running from 1
+from 0 to three right is zero but this
+guy is because there's the DX it's the
+minus gamma symbol you remember from
+yesterday this is minus the Gamma or day
+before yesterday this is minus the gamma
+symbol and it has the index a down here
+this zero comes to lie here and there is
+another B here because the whole thing
+is a one form field so there's the other
+B okay so you see that all the gamas
+whatever is down from 0 to three all the
+gamas with an index zero
+up vanish that is what this thing says
+in a stratified Atlas in a
+non-stratified
+atlas you get extra terms but they're
+all coordinate artifacts because you
+could go to a stratified Atlas okay you
+can always do that because that is
+always a global function and then these
+guys vanish now let's use this and let's
+evaluate what Newton 2 says so let's
+evaluate in a
+chart
+ux of a
+stratified
+Atlas a
+strat so actually everything is said
+there is nothing more to be said what
+I'm going to do now reconnects you with
+chart physics which we're used to and
+we'll recognize terms we always
+interpret it in a I would say rather
+peculiar
+manner Newton's second
+axium uh Newton
+2 what is Newton 2 Newton 2 says nabla
+velocity of the world line velocity of
+the world line is f by m right that's
+what Newton 2 says now let's write this
+in
+coordinates um in the
+chart this takes the following form
+X I do the zero component separately
+because then I can discuss it better x0
+now did I say anything about how the
+world lines are to be parameterized no
+said a world line is a future directed
+curve right um that satisfies this also
+here Newton 2 says a x is a future
+directed
+curve like in the first axum right and
+then this is true um I didn't say
+anything about the parameterization you
+so you could have chosen any let's call
+it Lambda and then the autop parallel
+equation says take the x0 component
+deriv it twice with respect to Lambda
+then comes gamma 0 a x a prime XB Prime
+equal Z with respect to whatever
+parameter you chose do you lose
+information about time no you go to the
+point you evaluate the point with the
+absolute time function you have the time
+whatever your parameter chosen now I
+write the other three all at once with
+Alpha so Alpha is from 1 to three so
+Greek indices always run from one to
+three and Latin indices from zero to
+three x Alpha double Prime plus and now
+I split up what happens here so I have
+the alpha now like here the alpha now I
+have ab x a prime XB Prime but I like to
+resolve this Einstein summation
+convention somewhat I could have that
+these two guys are just okay now I call
+them Alpha Beta is not clever let's call
+them um
+CD CD okay so I now for the Alpha Gamma
+Alpha I have they could be both indices
+1 2 3 okay then I have here by extension
+of the summation
+convention this but then I forgot terms
+okay I forgot the terms where I have
+both of them zero I have x0 prime x0
+prime okay but I still forgot terms I
+forgot the terms where I have a beta
+gamma down one is
+uh 1 2 3 and one is zero so I have X
+gamma prime x0 prime and I forgot yet
+another ah I should have said something
+I'm sorry I forgot something in the
+axioms for Newtonian space please uh add
+to the axium I'm
+sorry add two
+axium of
+Newtonian space
+time now I made a postulate on the T me
+DT not equals Zer I made a postulate on
+the compatibility of gamma and T NAA and
+T me NAA DT is always zero and the third
+one I forgot is a postate on the naer
+alone nabler is torsion
+free I'm sorry I forgot that naer is
+torsion free one condition on the
+absolute time one condition on uh the
+coent derivative and one compatibility
+condition between the two I'm sorry so
+you have this but if it's torsion three
+we still miss a term namely where the
+first one is zero and the second one is
+gamma but that is the same term if it's
+symmetric down here so I get a factor of
+two and I bet you all spend a lot of
+time in your lectures on classical
+mechanics deriving this
+too ah and the right hand side is of
+course not right here we have F Alpha
+divided by m and there it's Z because
+that's the F0 in a stratified Atlas F0
+is of course zero because
+DTF is
+zero so this is Newton's second law
+written out what on Earth do we learn
+from that this isn't even time this is
+an arbitrary
+parameter well in a stratified Atlas
+this guy goes
+out so in a certified Atlas we can
+immediately
+conclude x0 dou Prime of the parameter
+Lambda is zero meaning x0 of Lambda
+equals a Lambda plus b for constants
+AB
+agree what is x0 x0 is T is X little x0
+Z after the world line curve X
+right of Lambda but that is T after X of
+Lambda in a stratified
+Atlas meaning the time of a point along
+a curve runs proportionally to this
+parameter Lambda the other way around
+the time is given the time function and
+the zeroth component which you say well
+that I'm really not interested it in
+that's just garbage and you remember
+before we had this as the zeroth
+equation uh we inherited this and it was
+triv true and so on so you see in a
+stratified Atlas what we did before in
+the first part where we had a zero here
+that's only true in a stratified Atlas
+the point is the SpaceTime diagrams I
+drew in the first part of this lecture I
+already assumed I I cheated because I
+said that's space and that's time let's
+do this well I assumed that space
+repeats itself like this
+right in a stratified Atlas if this was
+a chart picture it wouldn't but in a
+stratified picture it also looks in a
+chart Atlas like this so what I did was
+right but now I understand why because I
+already used the global time function in
+order to define the
+spatials uh the spaces yes confused we
+started out with constructing our form
+list in a way where we those Capital
+gamma Z CD to zero because we started
+with demanding that
+you is valid that was the first part of
+the lecture right yes the only
+difference was that there were dots
+instead of the primes so we said okay
+let's demand that GMA has this property
+of having mostly zeros now we say okay
+let's formulate this in a manner yes
+which has the mathematic that's right
+and now we are happy to recover that the
+gamas are zero no no no no no no no no
+it's right so the the first half of the
+talk until I started this section was
+starting with what we always write down
+and somehow working your way to an
+understanding that you say somehow this
+looks better but now we were always
+caught in a sense of preconceptions of
+superstition or of preconceptions about
+charts and what it means means to have a
+Newtonian space time this was rather
+formulated in a vague manner in a
+non-geometric manner always in charts
+and we went up once we were there we had
+some insight we say we need a proper
+geometric formulation then I made a cut
+forget everything from before I start
+now with this abstract definition I
+reformulated both of Newton's laws in
+the new language but now I need to start
+from the I can no longer use what I had
+before from Newton's laws in charts I
+need from these from this reformulation
+I had in this section I need to derive
+what I had that's right and there is no
+assumption on nabla being flat it's not
+a flat connection I didn't require this
+anywhere okay I only required this posit
+so it's right we're coming the other way
+down and you can now not look at this
+derivation with these prejudices you
+can't Crosslink them that's dangerous
+right so okay so um so so the definite
+statements are these that's my point
+okay so that's the certified Atlas but
+now look at this guy down here what on
+Earth is this well once I saw this I can
+see I could get the
+idea no I could for convenience so it's
+a
+convention I could uh
+parameterize just convention
+parameterize the world
+line by absolute time
+so by the number by this number here and
+then you find that what before was D by
+D Lambda now is a * d by DT but for a
+constant a so you can convert these
+primes into dots if the dot is the
+derivative with a down here let's do
+this we do this twice so instead of
+double Prime we get double dot with a
+factor a
+squared a prime and yet another Prime
+both become dots with a factor a squared
+a prime and another Prime both become
+dots with a factor a squared a prime and
+another Prime both become dots with a
+factor a
+squar and over
+here you don't have an A squ but you can
+now divide on both sides by this factor
+a squ which is just the units unit
+measure of time you use right
+so the whole left hand side becomes free
+of it and only on the right hand side if
+you write down your Force law you need
+to decide for instance a Newton's
+constant on what units of time you have
+seconds or or years or whatever uh so
+there it survives somehow it's a choice
+that is usually absorbed into
+here okay fine so we have this equation
+so we have that now here you have what
+you would usually call the acceleration
+but which isn't the acceleration because
+what is the
+acceleration all of
+this all of this is the one and only
+acceleration Alpha
+component no summon in there alone or
+any combination of summons that isn't
+all the
+summons is acceleration because none of
+these terms by itself or if any of these
+terms is
+missing this no longer transforms as a
+vector okay but acceleration is a vector
+because if acceleration as a vector it's
+a tensor if a tensor has Vanishing
+components in one chart it has Vanishing
+components in any chart but chart is now
+a chart on space time for instance you
+have a chart like this now imagine you
+twist the chart like this in space time
+what do you get you get a rotating
+coordinate system but in space time it's
+one chart one chart that's constructed
+like this is a rotating coordinate
+system in space it's one fixed chart in
+space time isn't that clever or now you
+can do this wiggle yeah and that's it's
+that chart but it's one fixed chart in
+space time describes the view of a
+dancer right if you want the coordinate
+system of a dancer who carries the
+coordinate system with him or something
+like this okay anyway not a single one
+of these is an acceleration by all by
+itself now what if we have the presence
+of
+gravity yes question I see uh when you
+introduce this a factor I see on the
+left side how a squ emerges but I don't
+see on the right side it doesn't and I
+divide it through yeah but then one a
+emerged there I don't see
+how there's an a squ ah okay now
+it's okay so I forgot the square
+yes symb for
+acceleration this is an a it's a small a
+I just use this Crypt a because I had an
+index a over
+there okay it's the a for acceleration
+okay now let's discuss this very quickly
+in the presence of
+gravity these two guys we would set to
+the gravitational force little F Alpha
+right so that would contribute a term to
+the acceleration due to gravity and a
+term that cannot be transformed
+away additionally there could be a there
+could be also sitting in this guy in the
+gamma Alpha zero so let's say there is
+no gravity let's let's get rid of
+gravity if there's gravity there's a
+contribution here let's assume there is
+no
+gravity and let's indeed assume if
+there's no gravity you know in Gravity
+the only
+that is non zero if you use the right
+chart is this one you can make all the
+others zero if there's no gravity you
+could formulate this as Newtonian space
+time is flat in the absence of gravity
+Newtonian space time is flat right and
+if there's gravity in a certain system
+is this gamma you can reformulate this
+also fully geometrically I spare you
+this the point is in the absence of
+gravity you have a coordinate system
+where all the gamas vanish and you say
+oh that's what we always said EX double
+dot equals F Alpha by m in a system
+without gravity and in a very special
+coordinate system now let's assume this
+case you go to this very special
+coordinate system and you don't have
+gravity this looks all normal but now
+you get the idea let's view the same
+physics in a chart that's Twisted in
+this direction which is one chart in
+space time and which we would call
+intuitively a rotating chart right but
+it could also stretch could do all crazy
+stuff then of course in that chart even
+though in the previous chart all the
+gamas were zero all kinds of gamas pop
+up and assume we use a stratified Atlas
+this is not
+affected now what do these terms mean
+well this term is only spatial only
+spatial indices it means you chose a
+chart for instance a polar coordinate
+chart so without using a twisted chart
+you have this cartisian chart as you
+would call it now you choose polar
+coordinates in space but you leave time
+untouched you did this a thousand times
+in classical mechanics these guys appear
+these guys appear they're the correction
+terms in polar coordinates this doesn't
+appear and this doesn't appear either
+now you go to a rotating chart and in
+order to really say what rotation is
+rather than rotation dilation you
+already need to establish a metric on
+each spatial section we haven't done
+that yet for a good reason because the
+idea that each Spa absolute that
+absolute space carries a metric is an
+inertial system fiction in a non-
+inertial system the geometry of spaces
+is more complicated than a
+three-dimensional metric geometry I'll
+comment on that maybe in a second again
+so anyway assume we can talk about a
+rotating system finish in a
+second this term here x do0 in a
+stratified chart there will be no more X
+dots and this one will go
+to this one here will be a term that's
+independent of velocity but will depend
+on what we usually call the rotation the
+angular frequency of the rotation of the
+chart this will be the centrifugal what
+is usually called the centrifugal pseudo
+acceleration this here has a two here
+it's proportional to the velocity to the
+spatial velocity of the particle it will
+have the Omega in it too I mean you can
+do much more complicated stuff than
+rotating the Omega in it too this is
+with an Omega and with an with an x dot
+and the Omega may come in various ways
+this is the CIS pseudo acceleration look
+at Wikipedia how you get the
+two okay uh I don't understand that
+argument but the point is the two is
+because the G the space time has no
+curve has no torsion it's because of
+these two terms appearing twice okay
+that's the true of the Coralis Force
+which really is hard to explain usually
+you have to have to do some hand waving
+the centrifugal pseudo acceleration and
+the centrifugal and the coralist pseudo
+acceleration why do you call them pseudo
+accelerations well because you feel
+something isn't quite right about them
+as an acceleration of course there isn't
+because neither this is an acceleration
+nor that is an acceleration not that
+what you're absolutely certain of is an
+acceleration but only this one plus this
+one plus this one is an acceleration now
+in a rotating system this will no longer
+be zero if before you had a uniformly
+free moving
+particle this will not be zero anymore
+and this will not be zero anymore but
+the sum of these will remain to be zero
+because it's the acceleration of the
+particle who doesn't care whether you're
+thinking about a rotating coordinate
+system or not
+right the acceleration is totally
+unimpressed
+by your fantasy about what coordinate
+system in
+SpaceTime you
+have that's all thank you very
+much if there are no questions uh we
+reconvene at a quarter
+past there is a question
+okay uh you were assuming that the
+tortion is zero as one of the additional
+yes I mean I understand that this makes
+this nicer
+here but we didn't get that out of the
+first half of the lecture of
+the there we didn't need it because we
+assume first all the gamas are zero and
+then we were forced to see some are
+not the the first was coming from
+prejudices to a certain level of
+understanding and then saying in order
+to get rid of all the the dead bodies we
+left on the side of the road I didn't
+talk about uh pedagogic omission of
+truth I then formulated the next section
+where I come top down and everything I
+said before I said to give you an idea
+how you get there and what is said in
+this last section is the definite
+formulation you should give Newton's
+words so I I initially thought about
+starting the lecture with the last
+section but that is somewhat abstract if
+you haven't understood the idea before
+why you would even be prompted to go
+there and you would get the idea well if
+I do everything in a special chart then
+everything was fine anyway this is all
+unnecessary sophistication for S
+sophistication sake the first part was
+to say let's start with what we always
+think is the right way to present it and
+let's see where the problems
+lie but then we need to have a fresh
+start this is the Fresh Start I don't
+think we need because we talking only
+the which are not impressed by anyway
+they
+are the auto parallels are impressed by
+torsion there it's dangerous if you have
+a metric compatible connection which
+comes in the next lecture and uh you add
+torsion or not the autop parallels are
+impressed okay um you say they're not
+impressed because you have a symmetric
+contribution from both there that's
+right it depends on where you start and
+what exactly you require in which order
+uh this is a notoriously confusing
+statement that torsion does it or does
+it not affect Auto parallel the auto
+parallel equation the answer is it
+depends on how you define uh the
+connection starting from given
+structures in one way it depends in the
+other one it doesn't depend although by
+just staring at the equation you say the
+antisymmetric part falls out but the
+question is does already the symmetric
+part have a torsion squared in it by
+some construction
+mechanism we just postulate it then
+everything works out like like we like
+it and the same is true in in Newtonian
+in in Einstein gravity you require that
+the connection you use is torsion free
+and you have a um compatibility
+condition not to the time function but
+to the lorenzian metric of SpaceTime
+which philosophically replaces the time
+function is just that the uh the
+sections it makes are no longer like
+this but they're like the cone and
+everything here is time like and
+everything here is space like right uh
+and here this was space like and this
+was Tim like and everything this was and
+so on okay but the lorenzian metric is
+not the generalization of the spacal
+metric you can think of it that way but
+it's particularly non- insightful to do
+it's the generalization of the absolute
+time
+function thank you very
+much okay right suppose I'm in a rocket
+and I turn on the engine turn off the
+engine then Force depends on time so how
+should I use the Newton Second low in
+this case then I cannot or what happen
+well I said it's a spatial Vector field
+that means that DTF is
+zero but I said f is a vector field on
+space time so I don't see why it
+wouldn't change if you proceed in space
+time it's just it doesn't have a
+component pointing there so say if I
+draw a little picture say these are the
+equal time surfaces um then I say the
+force points like this it doesn't point
+out but of course at another point it
+could be different so you're just
+switching off the rocket and now you're
+switching it on again agree so that is
+captured of
+course any more
+questions yes it's I have an idea this
+formation you can very EAS
+equations how you get in this the Gran
+equations yes you can't before you do
+not understand how to um establish a
+metric on the spatial sections because
+in the O lran equations they invariably
+take the form like this some books say
+in most systems they take this form no
+in all systems uh the point is the G the
+T here uh
+is the velocity to the spatial Cur curve
+okay uh 12 M um and you need a metric on
+space to do this okay and when the book
+thinks it doesn't have the form of the
+standard T well it's just a
+transformation of the components of this
+G in other charts like polar coordinates
+so neon mechanics always the lrin has
+this form and this T has this form
+without the square root because on Space
+Newtonian uh LR formalism works over the
+spatial section only um because uh if
+you put the square root you have
+reparameterization in variance you get
+straight curves but not straight uniform
+curves if you take this away you fix the
+parameter automatically you get straight
+uniform curves that's the reason for the
+kinetic energy being like this without
+the square root to get straight uniform
+curves rather than straight curves but
+this is a solid spatial picture this
+doesn't work in the space time and it
+cannot work in the space time as I said
+because only in inertial systems which
+by the way are uh defined as uh
+coordinate frames XA d by
+dxb uh by coordinates that satisfy this
+these are inertial frames uh non
+accelerated non- rotating is this um
+because only in such frames where you
+then have the uh equal time functions
+can you establish a spatial metric
+everywhere if you go to a rotating
+system well phys in physicist intuition
+tells you if you go to a rotating system
+what do you need to know you need to
+know the Omega Vector the frequency
+right well it's actually Omega Co Vector
+because it has to do with rotation in
+Planes but apart from the G which is a
+two tenser in space you need a one form
+to know what's going on so in fact the
+geometry is given by a metric and this
+this Omega and stuff like this so really
+having a metric of space is an inertial
+system fiction and in an inertial system
+uh you can make this working and running
+and then you can by calculational truth
+but zero structural Insight you can
+change coordinates to depend also on the
+time t Okay the formula of lran
+mechanics stay true but it's somewhat
+out of the initial formulation of LR
+mechanics to go to rotating frames and
+then you pick up all these terms and so
+on but you don't really understand
+them
+okay so there their lectures in German
+on the web on my classical mechanics
+lectures that's a second year
+undergraduate lecture um where I follow
+this approach to introduce classical
+mechanics and I finally come to lrin
+mechanics uh that's in German is on the
+web so if you want more on this this is
+kind of some I don't know 40 hours
+lectures
+okay I I I'd say we we stop here and we
+reconvene at a quarter past

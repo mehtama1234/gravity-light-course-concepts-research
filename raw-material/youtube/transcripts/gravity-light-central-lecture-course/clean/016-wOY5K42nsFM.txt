@@ -1,0 +1,1127 @@
+this program is being presented to you
+by the Harris international winter
+school on gravity and lights okay so
+good morning everyone it's Ash Wednesday
+today and as you can see it's rather
+bleak
+so let's saw what light right so
+yesterday you've you've seen that he's
+starting to talk about lensing in
+particular and today I want to discuss
+the theory behind lensing so the first
+lecture I'm going to talk about lensing
+from the point of view of general
+relativity and of course we've been
+discussing the deflection of light and
+of course when I talk about deflection
+of light I really mean deflection in
+space right so we have to find a way of
+going from the spacetime four dimensions
+down to some three dimensional action
+space in which we can talk about the
+deflection and that's the subject of
+optical geometry okay
+so what I'm going to do today in the
+first lecture is to discuss Fermat's
+principle of course what form it takes
+in general relativity and then we move
+on to optical geometry but in order to
+actually use some real calculations of
+course we have to specialize the
+space-time from which we start and that
+would just be the optical geometry
+corresponding to static space times and
+these optical geometries are actually
+Romanian
+and then within this framework of
+Romanian optical geometries I can
+actually discuss lensing and we'll see
+that lensing is a global effect so you
+will see how to apology of what the
+particular surface that we look at
+actually determines where we whether we
+can have multiple images and what the
+deflection angle is and so on and the
+technique to use to discuss global
+properties there is the Gauss Binet
+theorem so that's the final topic of
+that first lecture now I think it's
+probably useful to remind ourselves of
+Fermat's principle in classical optics
+so what if sue Ellen's principle say
+well actually there's an earlier form
+which goes back to antiquity by heron
+which is that light always takes the
+shortest path so the shortest path in
+space well that's only true if you have
+a homogeneous optically medium but more
+generally Fermat observed that light
+always takes the shortest path in time
+right so the state of the statement is
+if you integrate along possible paths
+and of course the time it takes to to
+traverse a length of path which would be
+the speed times DL right in the speed is
+given by actually 1 over speed it's the
+speed of light divided by the refractive
+index n this will be 1 in vacuum or will
+be a number greater than 1 and that can
+depend on space so now if we look at the
+variation of this and look for
+stationery curse and these will
+correspond to actual light rate now of
+course this formulation of firmus
+principle does not work in general
+relativity because the length the the
+full length in space time for
+non-genetic is 0 of course so as to find
+a way of rewriting this in general
+activity
+okay now in order to do this let's just
+look at stationary spacetimes I'm not
+sure if your conversation is basing from
+the lectures in detail
+so I'll set up so we look at space-time
+that's a four dimensional differentiable
+manifold about with Morenci metric and
+the signature I'm going to use will be
+minus plus plus plus like this right and
+I want you to work in local charts of
+course I'm using Greek indices to denote
+coordinates in the space time and Latin
+indices like this to note spatial
+coordinates like this right and meu then
+runs from zero up to three okay so sort
+of basic set up now what's the
+stationary space-time so definition so
+it's called stationary space-time if it
+has a time like killing vector field
+let's call this T and so I think I've
+come you've come across the the notion
+of killing vector fields in the lecture
+so certainly in the tutorials so what
+this means of course is that first of
+all T is time like so though signature
+we want this to be the case and for the
+electric field to be killing means that
+it's it corresponds to a symmetry of the
+metric so the leader rivet if of the
+metric in the direction of T is equal to
+zero so you've seen leader reviews
+before of course so let's work out what
+this condition means
+all right so what are the components
+well first of all we're going to turn
+like this then because if you look at
+the relative of T's supposed to get two
+terms like that now let's suppose for
+our killing vector field we choose
+coordinates in such a way so you use
+this notation for the basis that's
+coordinate induced I guess you've seen
+that before right so it's just a vector
+field that has components one zero zero
+zero so as you can see then these terms
+would go and from this which is left
+with the derivative of the metric
+components with respect to time now all
+of that of course is supposed to be 0
+for T to be killing so you don't really
+have to use Skilling's equation in this
+particular case of course you can also
+do that but we see now that the metric
+components do not depend on time ok I
+should rather say we can find a
+coordinate system in which the metric
+components do not depend on time as the
+stationary vector field so we can now
+write down the most general stationary
+space-time
+so let me write it as a line element
+nice what will it look like
+well the points we will have mixed terms
+in space and time right at the time of
+course and then a Romanian metric in
+space and write it like this all right
+so you can see all the possible metric
+coefficients are covered with this is
+Romanian this is a metric in
+three-dimensional space it's just a
+signature plus plus plus of course and
+this is the mixing term mixing time and
+space
+now the point is of course that these
+functions V the Omega s and also the H a
+B do not depend on t symmetric if you
+write it in component form with -3
+squared you get the minus V squared
+Omega s here
+all right across the symmetry and then
+the H ap okay so we need stationary
+space times we also need the notion of
+static space terms and also you've seen
+this before so
+so now we have our time like killing
+vector field and the space-time will be
+static if this time like killing vector
+field is hypersurface orthogonal as its
+called
+now to define this I'd write down the
+condition you need for Venus's theorem
+it's a little bit fiddly I don't
+actually need this for what we're going
+to do later but for our purposes that
+really means that in a particular
+coordinate system there's no mixing
+terms alright so this really means just
+for us that the components Jean or a
+zero that's why e this these components
+Omega also vanish these are Omega is
+actually have a nice symmetrical
+interpretation so they're the spatial
+part of what's called a twisting vector
+for the space-time okay so this is a
+stationary space-time in a static
+space-time and now of course we want to
+talk about light so let me first of all
+remind you about no curves
+all right what a lot of curves in gamma
+so principle of course they're the maps
+from some interval of the real line
+let's say into your manifold and then of
+course we want to use some parameter
+ization so we go back down to our 4 and
+let's call the parameter L for length if
+you like
+so we assigned to air xB of L right and
+then another condition it's just to say
+that the tangent vector of the null
+curve has length 0 in our space-time
+metric and of course as you know we can
+write this as DX mu by the L D mu and
+for short I might sometimes just write X
+mu dot like this that's the tangent
+vector to our curve and now condition
+now out of all the possible no curves
+that we have certain curves might be
+dude Essex now of course you've seen the
+condition for geodesics for non Jude
+Essex will be no the curves which in
+addition satisfies obviously the Judaic
+equation so we might write this as the
+covariant derivative of the tangent
+vector with respect to themselves so
+auto parallels is equal to zero that's
+our condition for magnitude Essex so now
+I would like to move on to firmest
+principle and general activity we've got
+all the basic set up along
+so let's consider another curve again
+right with another condition and suppose
+we integrate it along the null curve
+well because that's still going to be
+zero right and I would also like to fix
+the interval so real interval let's
+let's go I'll probably let's just say
+our parameter L only goes from 1 up to L
+every from 0 up to 1 I mean all right
+this so this will always be true from
+other curves and let's see what happens
+when we take the variation of this
+equation well if you take the variation
+you've probably seen this you can call
+this n we get the functional derivative
+right so we get the integral of the
+Euler Lagrange equations
+times of variation
+plus well of course then there's the
+variation at the start point and end
+point of our curve so this will be the N
+by d-x of mu delta x miu and then
+evaluate it from 0 to 1 is equal to 0
+you've probably seen this in the context
+of the of deriving the geodesic equation
+now actually writing this down is
+slightly tedious are not going to do it
+here on the blackboard explicitly if you
+have problems doing this we can do it
+later if you want but what you will get
+is the following so let's look at this
+term first L of course is given by G mu
+nu DX mu by DL DX nu by DL I so this is
+a notation G mu nu X of MU X love new
+now the very v with respect to X dot
+mule gives you two terms because of the
+symmetry so this term then we'll just
+give us two times
+well G nu X dot mule we can write this
+then as G of
+well I can write it like this
+much like this okay isn't it
+that's nice right like this and then the
+left-hand side
+you recover the geodesic equation so we
+actually also get a factor of two
+overall which you have to take out and
+there will be a minus sign and we get G
+Delta x times to do this equation right
+so this is two vectors
+those are contracted by G in this way
+that's the result it's not let's make
+some observations let's suppose so
+here's our our curve and we look at
+variations right along the curve and
+there will be variations at zero and
+variations at at one the endpoint of our
+interval let's suppose all curves start
+with no variation at the beginning of
+our interval okay
+and then observe the following let's
+suppose all curves also have no
+variation at the endpoints really keep
+the curves fixed at the parameter value
+L equal to 0 and L equal to 1 and if
+this is true for all possible variations
+Delta X of L you see from this equation
+that this implies right this term
+vanishes and we just get the statement
+that the integral from 0 to 1 of G Delta
+x times the geodesic equation and to
+Insadong L is equal to 0 so if this is
+true for all variations this really
+means then that nabla gamma komarov's
+equal to 0 so we recover the GS equation
+right I mean this is of course something
+you know if you fix the variation of the
+staffroom at the end point for all
+possible variations then this of course
+means that we're looking at a geodesic
+but let's suppose we do not do this
+let's suppose we're in a static
+space-time
+so then we can find a coordinate system
+where time and space splits right we're
+still assuming that the variation at the
+start point is equal to zero
+let's suppose the variation at the end
+point is just in the time direction all
+right so let's say Delta X is 1 we'll
+just be some delta T times T mu let's
+look at this equation again start right
+from the second term yes so the integral
+just here I don't know but it's fold
+it's all for what possible variations
+yeah non-degenerate yes that's the point
+right
+so in this just the the Judaic that you
+get from keeping the endpoints the
+endpoint in the stop point fixed for all
+the possible variations but now I want
+to look at a slightly different case I
+want to look at the case that first of
+all the metric is static and the
+variation at the endpoint is just in the
+time direction Delta x1 is delta T D mu
+as it right sorry I mean so the picture
+is really just we have our curve all the
+variations start at the same point but
+at the parameter value one the variation
+is just in the time direction
+alpha K vector yes
+divisions exactly so let's look at
+starting what does star imply so let me
+write it down so I cancel I cancel the
+tools because doesn't matter on the side
+you take like this okay
+so writing with some components gives
+you a G mu nu then X mu gamma dot mule
+evaluates it for 0 and 1 alright so this
+will be G mu nu del X mu at 1 times the
+tangent vector to the to the null
+perfect one - well the same evaluated
+our starting point that's zero right our
+assumption the variation at the starting
+point is zero now at 1 the variation we
+say is only in the direction of the time
+so this one will be zero mu delta T demo
+dot new at 1 right but remember our
+space time now is supposed to be static
+and in particular coordinate system that
+we have there are no mix terms right by
+statistic
+right the the 0h homes yes yeah thanks
+alright so my statisti denote a is equal
+to zero so all of this sum only one term
+actually survives and that's the G
+naught naught term so G naught Lord
+delta T gamma dot zero at one but now
+where the static space time we can
+certainly assume that the G naught
+naught term is nonzero we can certainly
+assume that the time component of the
+tangent vector is non zero right
+so we're not allowed to rearrange this
+equation here right we allowed now to
+divide by those two terms that's the
+crucial observation it will be true in
+static space terms not necessarily in
+other space we can now write DT is equal
+to 1 over G naught naught gamma dot Lord
+at 1 x where x does interval over here
+right so this will we've derived from
+star that's the outcome of our variation
+but let's think about what this actually
+means so if we have an arbitrary mother
+curve we start with no variation at the
+start point we get this equation for the
+variation in the time direction the
+killing direction at the endpoint for
+static space-time now let's suppose our
+variation was not actually about any
+arbitrary node curve but actually you
+know geodesic well of course we've seen
+from a or I mean as you know anyway that
+this equation is true so now for B so
+suppose the variation was about an
+external node you'd ESSEC then of course
+from star we see that the right hand
+side just vanishes right
+so this is the geodesic equation we see
+that delta T and remember this was at
+the endpoint is equal to zero so and
+then innocuous result but that's
+actually Fermat's principle for static
+space-time right so it was rather looks
+like firmus principle that we've seen
+before I've also written down variation
+of T which was zero essentially earlier
+but now it's different so what exactly
+is different does anyone want to comment
+so Horace is really differ from firmus
+principle in ordinary objects all right
+that's true of course so remember what I
+said earlier in ordinary optics what is
+stationary is the total travel time the
+total travel time of the library and of
+course the for length of a Nalgene s60
+it's not the total travel time the
+station in gr it's actually the arrival
+time that's - tree that's a local
+property so you can see you can see that
+it makes sense in general activity we're
+not looking at the whole of the null
+curve we're just looking at the arrival
+time that's station ok so let me make
+the statement over there
+there's a theorem
+so it's essentially firma now of course
+Fermat has not used that language but
+that's what is what it boils down to in
+India and it's actually true for
+stationary space-time as well so for
+stationary space-time knowledge in Essex
+satisfy satisfy that the variation of
+the arrival time is equal to zero so the
+stationary arrival time and the proof of
+this well I mean for stationary
+space-time that's actually quite
+complicated but for static space times
+you've basically seen it we've gone over
+the argument right so sweet on this okay
+so this is firmus principle
+not necessarily so depends on whether
+they were emitted at the same time right
+I think I can show you an example later
+so now let's look at what this means for
+our problem of defining spatial light
+race in generality all right so let's go
+to the problem of optical geometry so my
+Fermat's principle
+we know that light rays correspond to
+curves which satisfy this condition I
+mean in the way that I've explained it
+now what is actually this T for
+stationary spacetimes so earlier in the
+lecture you've seen the most general
+form for station space-time let's just
+solve for DT and well I mean that was
+robbed off though due to my huge
+handwriting I'm sorry anyway so the term
+would have been will have been plus or
+minus
+it would be something like this right
+yes that's the variation that's it sorry
+it's the same as fear right but as we've
+seen variation of the arrival time but
+now of course in order to compute this
+we would look at the you know the the
+the time interval of our line element so
+for station space and this would be the
+time interval of the line element to in
+order to determine the light race then
+we will integrate this and I would keep
+the emission time fixed and then very
+right
+so actually light rays are of course
+just the generic procedure light rays
+are Jude Essex of of this line element
+all right now this looks rather
+unfamiliar we have a Romanian here
+right but here we have something else
+it's a one form really isn't it so DT is
+not really given by a Romanian line
+element for station space times in
+general there's an additional bit so you
+can see now that the geometry of spatial
+light rays for stationary space times is
+actually rather interesting it's not
+Romanian geometry at all it's something
+more general and actually this is a line
+element for something called fin solid
+geometry which you may have heard before
+but I'm not going to go into details of
+this so if you later in the course maybe
+do rotating black holes you know cur
+blur cause this is what describes the
+light rays in curve but now in order to
+you know do calculations here for this
+lecture we just go back to static space
+terms for the first times that we have
+proof flow is principal so again we take
+Omega H be equal to zero and then of
+course the metric you can see becomes
+very easy the optical metric is just a
+Riemannian metric right Romania metric
+of um space yes oh I'm just solving for
+logistics of the line element we had
+before remember we're stationary
+spacetime D s squared is equal to minus
+three squared and some table as I've
+written down earlier sorry it's been
+wrapped off of course we're just looking
+for at large in Essex ods zero right now
+condition and then rearrange solve for
+DT right so the spatial light rays are
+actually genetics of this optic you
+metric let me just summarize with 90
+desks in space-time all right so let's
+suppose we have a static space-time this
+is where Omega is equal to zero or can
+have a stationary space-time this is
+where Omega a is nonzero I'd say this
+corresponds to an optical geometry so
+the geometry of the spatial light rays
+my farmers principle and then for static
+space-time as you can see this is
+romanian optical geometry and for
+stationary space-time it's more
+complicated I'm not going to go into the
+details of this of course this is a
+fenceless metric of particular type
+called Randers so randa's fins la fin
+surrenders we've actually introduced
+early on back in the 1940s Randers used
+a line element like this to describe
+space-time so he wants to introduce a
+preferred direction of time in while in
+in a spacetime
+context of course that's not you know
+Lorentz symmetry of course but anyway
+here certainly arises in the context of
+optics but from now on of course we will
+just look at static space times in order
+to actually do calculations so the
+static space times we can see from what
+I've written down over here the line
+element will be DT squared is H a B over
+V squared DX a DX B right now we have a
+line element in three dimensional
+Romanian space where this is called the
+optical metric let's call it energy
+twiddle ad DX a DX P
+it's optical metric so it's a Romanian
+metric just with a signature plus plus
+plus it's in this particular case is
+really a property of the space-time and
+so the space-time as a whole is a static
+spacer there's also the notion of a
+let's say a stationary observer so you
+can if you look at the at the motion to
+say in the space of a black hole you can
+define up service that are fixed with
+respect to the to the coordinates rather
+freely falling there are various ways of
+defining statics station observers but
+that's the property of the entire
+space-time it's a special space-time
+only only certain so it's only true for
+certain space times which are static or
+stationary so I will now move on to the
+two Schwarzschild space-time that you've
+met before
+that's a particular example of a static
+space time and there was a stationary
+space times for example if you have a
+rotating black hole occur because that
+would be a station space-time it's a
+property of the entire space right so
+now to actually do calculations let's
+let's look at water
+and that's basically because in in the
+safe specimen preferred direction
+because of the rotation let's say of the
+black hole there's particular directions
+are actually mesons from the knowledge
+in essex where they go one way or the
+other way so you get two different
+directions and that's encoded by this
+Omega a in the case of a stationary
+space-time like cur this then would
+actually depend on you know the angular
+momentum of a black hole but anyway
+there's all far too complicated let's
+just keep it simple and look at the
+Romanian obstacles origin of Schwarz
+right right so for small side let me
+write down the line element which you've
+seen before of course
+Isis Warchild in all its glory the line
+element in space-time now what's the
+corresponding optical metric optical
+geometry
+what are you the same thing as before
+we're looking for knowledge geodesics in
+space-time the s square is equal to zero
+right we rearranged for T if you like so
+excuse me you can immediately see DT
+squared sorry is it what is the R
+squared over one minus two M over R
+squared plus R squared divided by one
+minus two M over R into what around
+metric on s to write into water are
+coordinates and well as you know by
+symmetry every plane through through the
+centre of a coordinate system is a
+totally genetic SAP manifold so the
+light rays will actually stay in a plane
+in a plane through the origin so without
+loss of generality we can we can exploit
+the symmetry we can set theta to be
+equal to PI by two in other words where
+you know on the on the equatorial plane
+if you like but really any plane through
+the origin will do and then the problem
+becomes even simpler right we're just
+left with DT squared is equal to the R
+squared over 1 minus 2 m over are all
+squared plus asked when T Phi squared
+divided by 1 minus 2 M of R and again
+from what we've seen before by Fermat's
+principle we know that special light
+rays will be geodesics of this optical
+metric G twiddle a B
+written in a simple diagram form so
+that's good done right it's really just
+this diagonal metric so it's the metric
+of a surface right very simple problem
+but how can we understand Jude Essex of
+the surface so of course one way of
+thinking about the surface when you're
+given a line inment is to try and embed
+it isometrically in high dimensional
+space right that's the surface
+two-dimensional let's try and see what
+it looks like by embedding it
+isometrically in r3 or III right so in
+three dimensional Euclidean space what
+does that mean well probably know this
+anyway so here's again our line element
+so what we want this to be is it's an
+isometric debating we want this to be
+the Euclidean metric in three
+dimensional space let's say I mean by by
+exploiting this symmetry that we have
+that same we look at cylindrical
+coordinates all right so we want
+something like DZ squared plus the R
+squared plus R square T Phi squared
+and well it's probably make sense to
+identify the polar coordinates we use
+the same polar coordinates in the
+optical metric as well as in our
+embedding geometry so we identify the
+Phi's so that of course tells us that
+the function big R which will be a
+function of our little earth will be
+given by when I say R over square root
+of 1 minus 2 M over R right and of
+course what we like to determine is a
+function of Z as I said as a function of
+big R right then we have a cylindrical
+polar equation III and then we see what
+the surface actually looks like so now
+by by rearranging then you see that we
+have to determine 1 over 1 minus 2 M
+over R or squared is equal to those
+terms go we divide is equal to DZ r by
+dr squared plus the R big R of little R
+by the little are all squared okay so in
+press we can see how to do this we have
+big R of little R we can work this out
+so we can determine D Z by D little R I
+mean it's just algebra you can rearrange
+it I'm looking too good no but of course
+what we like to do is we like to express
+this as DZ by D big R and what you will
+find is the following it's for M R
+little R minus 9 mm squared divided by
+little R minus 3 M will squared right
+and all of this this is in terms of
+little R you should actually also
+express in terms of big R but you can
+see this that's not easy at all right
+you really have to integrate invert and
+so on but we don't actually need to do
+this we can we can look at this
+expression and find out about of this
+embedded surface actually looks like
+so let's note few things well first of
+all this embedding will only work if the
+numerator is is non-negative rights of
+the embedding words if little are you
+know original optical coordinates is
+greater than nine closest of em and as
+you will observe of course this is
+actually bigger than 2m 2 and a quarter
+right so even though the optical
+geometry is defined all the way to the
+horizon to the event horizon the
+embedding at least in these coordinates
+only works up to two and a quarter of M
+so it's absolutely before the horizon
+but I mean physically that is not
+actually important what else can we see
+what about the asymptotics so let's
+suppose we go to great distance a long
+way away from for a black hole you see
+from this equation immediately that big
+R is essentially little are they
+approach each other and and then we also
+see that is it by the little R will go
+to where go to what will go through 4 m
+/ R so then in the limit we can also
+write it as 4 m / big R that's of course
+square right so you can you can see what
+said of R will look like in the limit we
+take the square root so this looks like
+for spirit of M oh that's right no no
+yeah okay yeah it comes in so anyway
+last distance you see the surface will
+actually look like well you like the
+square root of far yes what about
+this point we see desert by the our
+diverges at little R is equal to 3m now
+actually this is not a problem if you
+write in terms of big R you just have to
+believe me you can do it if you change
+the coordinates what this means however
+is that there's a photon orbit you might
+have seen this in your in your tutorials
+in Schwarzschild so it's the radius of
+of a circular photo an orbit in in
+smartphone so we've now got enough
+information to sort of draw it at large
+distance it looks like you know like a
+like a square root function so this is
+no Z right as a function it's in the
+plane of big R and Phi then there's this
+throat alright this is at little R equal
+to 3 M and the embedding breaks down a
+little bit further in let's say here
+this is little R equal to nine quarters
+of M and that's what it looks like
+okay so this interesting shape with a
+throw to waste here now the statement
+again from firmus principle is that
+spatial light rays will correspond to
+Jude Essex of the surface all right so
+it's really what it says let's suppose
+we have a light source which will be
+sitting somewhere here we have an
+observer sitting somewhere else we work
+out the geodesic on the surface where
+that's going to be a light ray okay so
+we wants to once you see what this looks
+like get some intuition it's an
+isometric embedding all right so
+therefore we can talk about your desks
+of this particular embedded surface okay
+yeah it's quite optical distance and of
+course a large distance it really just
+becomes spatial distance because
+obviously in Schwarzschild as you move
+far away you're basically in flat space
+right so really the optical it is any
+vacuum the optical distance is really
+just the Euclidean distance in this
+picture but as you move closer to the
+horizon this is what it looks like and
+what once you determine yes well no so
+the the space-time as so the space where
+is static we're all sort of theorizing
+right this is what you mean - listen
+there's a limit of statistic but all
+what we do is certainly outside of 2m
+and the state especially was perfectly
+static in this much higher case it will
+be stationary in the case of Kerr right
+also I think what other region okay yes
+well it's a bit tedious I'm not going to
+go over it but in principle you can see
+I'll do it how far we have read off from
+this identification or as you can
+differentiate you get one complicated
+expression terms of little R then you
+can solve for DZ by D or in terms of
+liquor right there's something can write
+down but then you can use the chain rule
+by shaking right down over here at this
+right and we can just write down DZ by
+the bigger in terms of DZ by D little R
+with this factor but of course we can
+simply get it from here right third
+problem the problem is actually to write
+this expression on the right hand side
+in terms of big R that's even more
+tedious but there's no problem in
+getting getting to this okay so now we
+want to discuss you know lensing in some
+sense the reflection of light rays now
+in order to to do this we have to
+understand how the curvature of this
+surface impinges on the propagation of
+light rays right so let's think about
+that
+covington like this and um the quantity
+that is actually interesting for us is
+the Gaussian curvature of the surface so
+you may or may not have seen the concept
+of Gaussian curvature before
+geometrically it's the product of the
+two principal curvatures now if you look
+at the surface and you know the
+background it's immediately obvious that
+the Gaussian curvature of the surface is
+everywhere does any one spot it thank
+you
+so we have two principal curvatures
+wherever if you like we have a curvature
+in in there goes the curvature in this
+direction so curving in and we have a
+curvature in that direction going out
+that tells you the two principal
+curvatures have opposite sign the
+Gaussian curvature is the product so the
+Gaussian curvature is actually negative
+everywhere and this is very surprising
+if you think about this well I'll come
+back to this later anyway let's look at
+what Gaussian curvature actually is and
+why it's negative on the surface
+everywhere
+so you've seen curvature of course in
+terms of the Riemann tensor the notation
+might be slightly different I'm used to
+that but you'll see that everybody does
+it differently in books so you just have
+to get used to it that's what are you
+and this is for vector fields that
+commute and writing it in terms of
+recorded in do spaces this is how I read
+off the components so it's a b c d
+there's a face right forward
+and now what Scouts in curvature now
+because this is a property of a surface
+of a two dimensional manifold right now
+in terms of a surface now you're
+familiar with the symmetries of the
+Riemann tensor how many independent
+components is the Riemann tensor have in
+two dimensions one right so if you write
+on our ABCD you know you have anti
+symmetry in the past and symmetry off
+the pairs of course if you only have two
+coordinates there's this one one
+combination that's going to be non
+vanishing right and this number we call
+the Gaussian curvature it was you two
+defined up to a sign so I defined like
+this it's K Gaussian curvature K into
+now we have to respect the symmetries of
+course that's G a I think is 80 gb c - g
+AC g BD like this that's the gaussian
+curvature so let's suppose to be a bit
+more general let's suppose our surface
+is traumatized by u and v coordinates U
+and V and we have a line element on the
+surface that's given by G u squared plus
+f of U squared D V squared right so it's
+a symmetric surface so it's used for
+formula that you can use in more general
+context of course we want to apply to
+that particular optical problem but
+let's say we have a surface given by
+this line element
+I'm just looking at commuting vector
+fields so I think you use all these
+factories from so you know if you have a
+coordinate induced vector field of
+course that manages so then if you like
+it's a lemma so the Gaussian curvature
+of the surface has a very simple form
+it's simply given by - the second
+derivative of F divided by F so it's
+nice little formula so let's try and
+prove this in general
+okay proof so we have to work out this
+Riemann curvature tensor for this very
+simple metrics like an exercise right
+well first of all what are the
+non-vanishing connection components the
+lady treats our connection components
+for this metric
+what's the metric so this is G twiddle
+well it's simply one F squared of U 0 0
+nice a diagonal metric very simple and
+you can convince yourselves that there's
+only two non-vanishing connection
+components it's V u U and V u v and
+everything else zero so what are they
+well this will be 1/2 g v wants the
+diagonal metrics so we only left with G
+V V upstairs and then you know G V u
+comma u two of them minus G u u comma V
+1 of course they're no off diagonal
+terms that goes so we're left with 1/2
+times 1 right what's the inverse metric
+it's just the the in the inverse of a
+diagonal metric is just the metric of
+the diagonal components all over the
+diagonal components so it's 1/2 times 1
+times minus the derivative of this with
+respect to other celery round actually
+that's right
+sorry yeah so it's u VV
+that makes more sense
+levy car you ah right so 1/2 times
+Guu that's one right times minus g VV /
+differentiate respect to you so this is
+minus 2 FF primed so this is yes at once
+- F F Prime this is right everybody
+agrees sorry why because it's it's an
+often it's an off time the term medina
+metric and the other non vanishing
+connection component is actually this so
+it's 1/2 g VV upstairs now into what g v
+u comma V + G V V comma u - g u v comma
+v these are the angle terms they're 0
+now we're left with 1/2 times where g VV
+upstairs is 1 over f squared and this is
+g VV comma u so this is now again FF
+primed so now we get plus F prime over F
+ok yes right no no yeah yeah that's just
+notational I mean I guess you've seen
+you know rotations like this in terms of
+the coordinates we here we just have two
+coordinates for the surface yes of
+course there's no information like I
+said these are the truth the only two
+non vanishing connection ones so now we
+can work out the Riemann tensor well
+what about our UV UV well this will be K
+into g UV
+g b u- g uu g VV right what is that well
+that's actually K times minus the
+determinant of the metric G twiddle so
+we see now that the Gaussian curvature K
+is actually minus the component R UV UV
+/ that's G what I'm afraid we have to
+work it out what is that
+G it's just F squared right so it's
+month it's minus 1 over F squared into
+by this component of 3 month n so now we
+have to write it out now again that
+depends on the conventions you choose
+I've chosen this convention if you do
+this you get gamma okay actually I have
+given you this component I have to pull
+down one of the indices easily done it's
+a diagonal metric guu is 1 anyway right
+so this is U V u comma V minus gamma u V
+V comma u plus gamma gamma u v u a Z
+minus gamma gamma V V you a you write in
+all its glory there are no connection
+components that have you upstairs and
+you downstairs we think we know
+immediately this is 0 this will be 0 2
+so we're left with minus 1 over F
+squared into well gamma u UV is F prime
+over F so that's minus F prime over F
+primed plus
+okay what about this we have a you
+upstairs we downstairs the only
+connection component that survives will
+be the V V component right so out of
+this is no electrical some right over a
+but the only component that survives
+from the summation will be that and this
+is equal to well minus FF primed into F
+prime over F so let's see what is this
+strange uvv oh yeah sorry this is
+actually this was minus FF primed yes
+that makes more sense so we get from
+this we get a plus F F double prime plus
+F prime squared minus F prime square
+there cancer all right and we just get
+plus F F double Prime so indeed we do
+get minus F double prime divided by F
+that's required all right so that's the
+proof
+nice little em'ly yes see let's see that
+it actually makes sense so example let's
+look at the atmosphere the round sphere
+well spheres are always wrong right I
+mean the sphere with the round metric so
+let's say our surface it's just given by
+that all right you know this what's the
+Gaussian curvature of the sphere well
+actually you can think of the Gaussian
+curvature as 1 over the radius of
+curvature squared of a sphere that's
+oscillating your surface of oscillating
+sphere and of course if you have a
+sphere in the first place the osculating
+is for instance fear itself if it's unit
+sphere like s2 of course the radius of
+coating would be 1 right so we expect K
+to be equal to 1 and one of these is so
+yes but if you know Latin of course
+osteo means the kiss right actually
+buckram was and so it's the kissing
+circle because it touches the surface
+not just in the first derivative but
+actually in the second derivative as
+well which is all-important as you know
+do these things okay sorry
+so U is theta V is Phi F of you are
+function f is just sine sine theta right
+so the Gaussian curvature
+according to lemma is minus f double
+prime divided by F so it's minus sine
+cos cos t minus sine right
+so it's minus sine theta divided by sine
+theta so indeed it is plus 1 as expected
+okay so it makes sense right so now this
+is the Gaussian curvature and I mean I
+come to lensing after the after the
+break let's just before the break
+applies to to the optical geometry of
+Schwarzschild and see what we get all
+right so now apply the for child to the
+Schwarzschild optical geometry well
+again DT squared was what was it was d R
+squared over 1 minus 2 M over R squared
+plus R squared D Phi squared over 1
+minus 2 M over R right so now to apply
+this we make another identification we
+say okay let well I certainly let V be
+equal to Phi and we identify the the
+polar coordinate again excuse me what
+about you well we can certainly say that
+GU right by comparing the first
+respective first terms D you will be er
+divided by 1 minus 2 M over R so we
+really have to express licky you in
+terms of little R in order to to work
+out the Gaussian curvature and you can
+see that that's rather tedious you have
+to integrate up change coordinates
+differentiate and so on let's try and be
+a bit more clever than this so we know
+that K is minus 1 over f d squared f of
+u by u square right
+now of course this is that's the same as
+1 over F into D by D you actually it's
+right in terms of of our so I want to
+write as d by dr dr by d you into the R
+by D you the F of R by D are mass of
+changing coordinates we can do it in the
+differentiation also and you can see
+there's actually helpful because if you
+work this out what is it it's 1 over f
+into dr by d you d by dr of PR by d you
+d f of r phi dr right plus the other
+term which will be this derivative
+acting on that so it will be dr by d u
+squared times d squared f of r by dr
+squared and of course f of r we can
+actually read off from the line element
+right the way this I named it was set up
+this fourth factor here is f squared of
+our right where F of R is really is
+really what is R divided by square root
+of 1 minus 2 M over R and everything is
+given now you can just plug it in right
+differentiate it's always easier than
+integrating we can certainly work on the
+second derivative of this dr by d you
+will also know from our identification
+what what we mean by u dr by do is what
+is just 1 minus 2 M over R and this
+again you can differentiate respect to R
+no problem there right differentially
+inspector you would be more difficult
+anyway you can plug this in immediately
+just work it out
+and get the answer and the answer is
+after some work K is equal to minus two
+M over R cubed into 1 minus 3 M over 2 R
+and that's it so the term script curl
+collect nicely and remember we're in the
+static part of the space-time of course
+are I mean I also have the horizon
+anyway we were outside of 2 m this is
+three-halves m so you see the bracket is
+actually always positive right so we see
+the Gaussian curvature of the
+Schwarzschild optical geometry is indeed
+negative everywhere so like I said
+before if you know about principal
+curvatures the surfaces
+it would have been immediately obvious
+anyway from from the picture that I that
+I drew earlier but now going through all
+these shenanigans we can also see
+analytically that the Gaussian curvature
+is always negative
+so before we stop for the break let me
+just make one observation
+so we know that the Gaussian curvature
+is negative what does that tell us for
+the Jude Essex so if you have a surface
+with a negative Gaussian curvature
+remember the geodesics on the surface
+are our light rays right so if the
+gaussian curvature is negative this
+actually means that the geodesics have
+to diverge and they diverge everywhere
+so how is it possible for the light rays
+to reconvert somewhere else that you
+have multiple images as you see in
+pictures yesterday and the answer is
+that's a global effect so we have now
+got to connect the local properties of
+the surface the curvature to the global
+property of the surface the topology and
+we do this by Gauss Bernay so I think
+I'll use after the break

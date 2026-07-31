@@ -1,0 +1,1897 @@
+this program is being presented to you
+by the hereas international winter
+school on gravity
+and light
+so we'll have a short lecture
+investigating cosmology at
+later times we studied cosmology at
+earlier times at least we made an
+observation we studied cosmology in
+general
+and we looked at a consequence at early
+times and now we look at later times
+and we will now consider
+various types of meta at the same time
+now consider various meta types
+simultaneously
+because as already some of some of you
+asked
+um what happens if you have several meta
+types present at the same time that's a
+realistic situation
+you cannot say oh let's assume the
+universe is made of photons well it
+isn't
+there's lots of stuff in the universe
+and you have to consider that
+but um
+um so let's recall
+however uh what we learned we learned
+that if we have equations of state
+that are linear and i will not go away
+from that because we're writing down
+simple models of course if you're a
+cosmologist
+you may have many many reasons to
+generalize what we're doing here
+and the purpose of these introductory
+lectures is to give you a taste and the
+basic ideas
+and of course with whatever assumption
+you're not happy
+you go and generalize it and of course
+people did that so for instance i was
+asked in the break
+what happens if you drop some of the
+killing symmetries
+well then you get non-isotropic
+universes for instance
+and then you get other models so for
+instance they're the bianchi models of
+the universe
+we looked at the so-called friedman
+robertson walker model it's the
+homogeneous and isotropic
+cosmology so many such generalizations
+of course are being looked at because
+cosmologists
+try to understand the data nevertheless
+some amount of modeling is always
+involved because you need to make an
+abstraction from the local structure
+which is extremely rich
+and for them you cannot if including
+every detail you simply cannot solve the
+einstein equations
+so some amount of modeling is always
+required but of course you can be very
+clever
+and say i do not make a model by just
+writing down
+something i make a model by really
+trying to derive this from fundamental
+principles and so on
+of course the better a cosmologist you
+will be anyway so the purpose of these
+lectures is to give you the basic ideas
+and the basic ideas
+if we make our assumptions explicit
+there is nothing dishonorable about
+making
+such assumptions it is an assumption
+nevertheless
+you know the game so our equations of
+state
+i will always assume that this is
+this one for omega equals constant and
+from that we will now not deviate
+so for each meta type and then for each
+meta type you may have a different
+omega i i equals one to
+number of meta types that you
+do have okay fine so obviously then you
+have different pressures and different
+densities for precisely those meta types
+okay these different equations of state
+now however what we have learned we
+learned
+that independent
+of the meta type
+it's true that h squared
+scales like the density scales like
+a to the minus n of omega
+and what was the omega let's make again
+our little table
+and maybe this time i would ask the
+blackboard
+erasers to maybe not delete this table
+for
+a while
+okay so you see the erasing procedure is
+not homogeneous it needs to be right up
+there
+okay good so this is the omega
+and obviously we had
+obviously we had radiation
+so let me write here what the meta type
+was
+the type was radiation
+then we had omega zero that we called
+dust
+that was pressureless fluid we had
+a minus one was a cosmological constant
+well let's leave it there okay we do
+radiation dust and cosmological constant
+and or maybe i want later on the omega
+copper two
+yeah and we have the um the spatial
+curvature
+but let's not consider spatial curvature
+as meta because we're going to rewrite
+the friedman equation
+uh you know especially the acceleration
+equation in a way
+that will uh use the spatial curvature
+separately okay so let's take these
+three types you add your favorite other
+type
+if it makes any sense um but there are
+these numbers n
+appearing n of omega and n of omega was
+three times
+n of omega was three times one plus
+omega
+so instead of remembering the omega
+we could remember the n n equals
+omega equals zero n equals three
+omega equals minus one n equals zero
+omega equals a third that's three third
+plus one third is four
+thirds over three is four
+okay so let's have uh these guys here
+um i don't know what i wanted to put in
+the in the other
+column it doesn't matter it's a nice
+empty column right okay
+so please do not erase
+um ah well one could put in the uh
+the time evolution but um yeah why not
+okay so let's say what what's the a
+of t how does the a evolve and uh we
+found that for the cosmological constant
+it was special
+it evolved exponentially like this for a
+constant age
+and for the others it was this power law
+a of t
+was t to the 2 by n
+t to the 2 by n
+is here
+yeah it's square one half aha yeah of
+course
+n is for one half um t to the two by n
+is two thirds exactly so those were the
+this is the
+scale factor how it evolves for
+radiation how it evolves for dust
+how it evolves for a cosmological
+constant that is something we found out
+um we further found out
+that for all matter types
+not equal to cosmological constant so
+that's an exception
+the row invariably went like
+t to the minus 2. that's stuff we
+observed right
+that's just from this homogeneous and
+isotropic
+universe okay
+now let's make a definition
+i already wrote it down it's the hubble
+function
+so so this is all you need to know okay
+and all that now comes is terminology
+but it's terminology that's heavily used
+and it makes the equation simpler so why
+not use it
+the hubble function is simply the
+function h of
+t that is a dot by a
+that's the hubble function okay
+and the hubble function has to do with
+the age of the universe
+why well if the rope goes like the t
+to the minus two from this we learn and
+that we will show in the tutorials right
+um you will you can show that h
+goes like t inverse
+and you know that at t
+equals zero boom
+big bang aha
+so and this guy can be measured because
+it has to do with the expansion of the
+universe the hubble
+function which in this case is a hubble
+constant if you have only a cosmological
+constant otherwise the function
+and so it's related
+roughly speaking
+h inverse is the age
+of the universe
+and it's a rather remarkable number
+that you can measure the age of the
+universe first of all it has an age
+because it has a birthday
+right the big bang is the birthday of
+the universe
+let's hope we don't celebrate it ever um
+so okay it's it's quite remarkable that
+you can calculate this from this theory
+who would have thought that
+einstein didn't set out to calculate the
+age of the universe
+it's a rather preposterous aim but
+nevertheless it drops out
+okay so that's the hubble constant um
+but then there are more
+interesting objects and
+they're called density parameters well
+there may be functions
+but for linear evolution laws
+for linear equations of state like those
+they're actually constants
+so let's call them parameters but keep
+in mind that
+in this jargon you should never ever
+deduce anything
+from what it is called you only look at
+the definition
+and so you have a density
+parameter density parameter
+for matter
+of density
+rho say well if you have the density why
+do you need a density parameter
+well you like to normalize this in a
+certain way
+you call this omega now you may have
+several meta types i
+write a small i and you know in here the
+i
+always runs from one to number of meta
+types
+okay so for each meta type that has a
+density rho i which is every everyone
+you get a density parameter capital
+omega i
+and this one first comes with
+a bunch of constants a p 8 pi
+g n third why do we put them
+well of course they're not relevant
+they're just there because we use that
+later in the
+the equations become perfectly simple if
+these constants are absorbed in here
+okay but that of course meaningless it's
+just a rescaling
+and then the relevant thing is that you
+have the density in there linearly
+so that's why it's called a density
+parameter because the density scales
+linearly with the density
+but it's normalized with the hubble
+constant squared
+or the hubble function squared so unless
+you're in a
+in a purely cosmological constant
+scenario and no other matter present
+this is really scaling by a constant um
+but if you have other meta types you
+know the hubble constant isn't quite
+that constant it's it's a function
+right it goes like t minus one
+and um and then we like the scaling
+because this is a nicer quantity if we
+plug it into the equations
+we're going to rewrite the equations
+using these guys
+so this is for the meta types
+as a matter of density but it doesn't
+work
+for the fake matter that makes spatial
+curvature or the
+if you have a spatial curvature i said
+you can consider this as fake matter
+uh or if you have a cosmological
+constant it's like fake matter
+with such a um equation of state where
+the omega is minus one
+right i mean actually only matter is
+only this stuff here
+and different models and the
+cosmological constant didn't come by
+putting it in an energy momentum tensor
+it came from the other side of the
+einstein equation but you could think of
+it as a contribution to the energy
+momentum tensor
+and then it would correspond to a fluid
+of omega is minus one
+you look critical julian
+what's strange it takes taking a term
+from one side of the equation to the
+other side
+second grade it's not strange no no it's
+not strange
+the cosmological constant comes in in
+the einstein equations
+at the level of the action as an
+addition here
+and square root minus g plus you add
+a meta lagrangian not lagrangian density
+because you already
+took care of that it's the associativity
+of
+addition that allows you to do this
+and yeah that's it
+okay good so um
+it's not strange to do that it's maybe
+surprising that it works
+but from there it's clear it does okay
+so
+therefore one also associates density
+parameters but according to a different
+formula
+with the cosmological constant and with
+the fake
+curvature with the curve spatial
+curvature which now really doesn't come
+as matter into the game right i mean
+so for the cosmological concept you say
+okay it comes into the game as matter
+but that the spatial that the spatial
+curvature of your underlying three space
+for which you have three choices
+that that can be understood as a meta
+contribution i mean that's really just
+looking at the terms and saying it looks
+like matter
+for a certain omega okay
+you can do this but now once you've
+defined these density parameters
+you have to make extra definitions for
+the density parameters
+they're also called density parameters i
+call them fake density parameters
+because they just absorb something under
+the same heading
+which has actually a very different
+origin question i'm wondering
+so what's the physical
+meaning okay okay yes so the
+cosmological constant i could just call
+matter
+so for the cosmological because i added
+here whether i say add it here that has
+historical reasons
+rather than adding it to the metal
+lagrangian but of course it could
+equally well be part of the metal
+lagrangian that's the associativity of
+addition here
+so it's an artificial distinction to say
+it is not in the meta it's in the
+geometry
+what do you mean you have an actual
+there's a sum
+how who are you to tell me right
+this belongs to this rather than this no
+of course not well you and that's
+exactly your point right they say what's
+what you mean by fake matter
+so for the cosmological constant it's
+as good matters all the rest it's a bit
+of a funny matter
+because it's everywhere of of negative
+pressure
+but on the other hand if you have a
+rubber band it's also of negative
+pressure now you have a rubber band and
+you stretch it
+and has negative pressure because it
+pulls you in
+is there any physical meaning of the
+energy momentum
+logical the energy momentum tensor for
+um for the cosmological constant uh is
+uh the cosmological constant times the
+metric
+because you vary with respect to the
+metric and there are maybe some dressing
+factor here
+roughly speaking okay one second i say
+one more
+thing now so you could say well here the
+cosmological constant i call it fake
+matter because the
+the term looks different but that's
+still you could still consider it matter
+that has the same right but now however
+if you start talking about the curvature
+the spatial curvature kappa
+which we have three choices zero plus
+one or minus one
+if we absorb the scale into the scale
+factor
+i mean that is strange because it
+doesn't appear anywhere in the
+lagrangian
+well of course if you plug in a special
+solution to the field equations appears
+but it comes from a
+totally different point it comes from a
+symmetry assumption gives a restriction
+you have three
+types of anzacs you can make now
+you say the unsuch i make is matter is a
+meta type
+that's a little strange right so um but
+formally you can do that and then you
+can
+forget about the difference between one
+and the other
+and treat them all the same and measure
+all the same and say this contribution i
+associate to this and so on
+so that that's so that that certainly
+determines
+deserves the name fake fake density but
+i said that's my personal terminology i
+mean you
+you might equally drop that yes
+something like gravitational force again
+because i mean
+in the newtonian picture way gravitation
+had
+something like a meaning of force and
+would put things
+together but i mean we got rid of it
+because now
+it's curvature of space but if you
+introduce something which
+now pulls something together this is
+like
+introducing again something like a force
+in this new tile no no because because
+no because the cosmological constant
+i mean that's the intuition understand
+the negative pressure but the
+cosmological
+constant appears in here i associate to
+the energy momentum tensor it
+contributes to the meta contents of the
+universe
+and that curve space time even more or
+differently
+okay so you add it and the role it plays
+here is that it
+curves best and more therefore all the
+the particle trajectories are modified
+as opposed to you don't have a
+cosmological constant
+in that sense it has an effect it should
+have an effect
+but it's not a force it just contributes
+to the curvature
+via the einstein equation okay fine
+so um let me write down this uh
+okay omega equals minus one did we
+already
+put in the assumption that we assumed to
+be greater than zero
+no no because we will now write down the
+lambda explicitly in the density
+parameter
+no no we didn't okay so um
+we have the first fake density parameter
+that's for the spatial curvature copper
+so that deserves the name fake for the
+spatial uh
+curvature kappa so if it is present we
+think we have a fake density present
+which is omega kappa so kappa is not
+included into the one
+two number of meta types it's an extra
+type
+is minus um kappa
+over h squared
+a squared we just have to define it that
+way
+so that we can treat this at the same
+level and the third
+is then uh the pseudo fake so not quite
+such a fake
+um so let's put in brackets the the
+pseudo fake density parameter
+but i agree that's that's that's
+ridiculous it could also be called the
+density parameter but for the
+cosmological constant you have to write
+it down in a different way
+it's called omega down lambda and it is
+um lambda by
+3h squared lambda
+by 3 h squared so
+the point is ignore the terminology what
+i call the density parameter fake
+density parameter i call it the flower
+concept
+it doesn't matter you have on the right
+hand side of these definitions
+you have quantities you know and you
+well understand
+that are defined that have a physical
+meaning and on the left hand side
+you obviously have a combination of such
+quantities and we
+it's nicer to work with these
+combinations for the following
+reason using
+the hubble function
+and the density
+parameters
+we get well first first of all we get
+for the friedman equation
+we can rewrite it and look
+how nice it looks i take the sum
+of all meta types from one
+to the number capital i of the meta
+types and number of meta types
+is capital i
+and i add up all the density parameters
+for meta type 1 meta type 2 meta type 3
+but i didn't want to call the coppers
+meta types but i call so you could say
+over all non-fake matter so let's make
+really say not fake here let's only say
+fake density parameter here
+so you could also say it's the sum over
+all
+non-fake matter
+so that includes the cosmological
+constant meaning from one
+to i but the fake matter you also add
+okay you'll see in a second why i do it
+like this anyway the sum of all of this
+is one that's the friedman equation you
+can
+check so that is more memorable i guess
+than the original friedman equation okay
+so this is why one likes this but then
+we have another
+equation we had the equation which
+requires an
+acceleration excel flowration
+equation what was that that was this a
+double dot
+and that becomes h inverse
+squared a double dot over a
+you could also set out to rewrite the a
+double dot over a
+using the the h but let's leave it this
+way
+equals minus one-half
+sum over all non-fake matter
+so including cosmological constant but
+not including
+the curvature of one plus 3 omega i
+so the omega from the linear equation of
+state
+makes a reappearance times the omega i
+so you see that using the density
+parameters
+both equations take a rather simpler
+form
+and that is why cosmologists like to
+think of the meta types including the
+cosmological constant
+as meta types and even in this equation
+they like to also think of the spatial
+curvature which you may choose to be
+zero which means that this omega
+copper goes out or you may choose it to
+be plus one or minus one
+okay they like to think of it as the
+same level
+so you say some all matter fake or
+non-fake it's one
+the density parameters but down here is
+only the non-fake matter
+okay so
+you you have this and you say okay you
+re defined these quantities
+what's the point it looks nice but
+what's the point
+well you can ima immediately look at uh
+what i call
+for me that's what should have been
+called density parameter and hubble
+function
+okay so that was section one here
+density
+parameter
+and hubble function
+it's just these redefinitions and the
+friedman equations
+in those terms and then the next
+step is the second
+dominant matter
+at various epochs
+so stages of the evolution of the
+universe
+so now you could think that you have to
+postulate which
+matter is dominant in the early universe
+from your physics intuition and which
+matter is
+more important later on in the universe
+from your physics intuition
+in fact you don't need the intuition you
+can calculate
+we know
+that rho
+goes like a to the minus n of omega
+right so we know the density of the ith
+meta type
+goes like a to the minus n
+of the omega of the nth
+metatype omega is a constant
+now we also know that's the first thing
+you know
+the second thing we know is the not
+erased
+table here but maybe the rest could
+slowly be erased
+um maybe the left the left blackboard
+we know that the various meta types
+radiation dust and cosmological constant
+they have different
+ends so let's write down the ends
+what is the n for radiation i write n
+gamma like a gamma quantum
+right and gamma is four right that's
+what we had is four
+for radiation uh then we could have the
+n the next lower one is three that's the
+one for
+for dust and uh here i write in m like
+matter
+but what i really mean is dust that's
+the terminology
+in cosmology matter and here we mean
+radiation
+okay that is three from the table
+then you also can get from the table
+that the n
+for the kappa if you include it in the
+ticket in the table
+would be a 2
+and the n for the lambda is actually a
+0.
+for the cosmological constant so this is
+the n you would
+formally associate with the spatial
+curvature
+and that's the n you would associate
+formally
+with a cosmological constant okay
+and this is true for any meta type
+including cosmological constant
+remember i emphasized some of the
+equations i wrote down
+are only valid for non-cosmological
+constant matter
+but this one in particular is true for
+all matters see the
+tutorials today where you will derive
+this a very short derivation
+it's good to do this yourself
+no we didn't assume ah
+no this should be for any kappa yes
+that's the end it's the the density
+parameter for the kappa
+carries the kappa and carries the sign
+uh you're right i i think i wrote in
+this table
+in the last lecture i i wrote something
+like this
+no no no sorry that's that's minus one
+third i'm sorry i'm sorry
+no no the sign goes in the omega yeah
+yeah
+i was confused there now now i see now
+that you ask
+and that's just minus one third and the
+sign comes from the omega in a second
+okay so um now you have that
+and from that you can immediately
+conclude
+that the following is true you can
+conclude that the density
+associated with the cosmological
+constant which we just defined
+scales like a squared
+the density associated with spatial
+curvature
+which in turn is proper it may mean
+proportional to that is what i mean
+proportional to
+with a constant factor proportional to a
+squared omega kappa which in turn is
+proportional to
+a to the third omega matter
+so that's the dust which in turn is
+proportional to
+a to the fourth omega for radiation
+this follows immediately if you check
+the definitions of these
+of these density parameters and what we
+wrote up
+here if you plug in these ends here and
+check how the density parameter
+parameter has to row in there it's very
+obvious
+okay so think about this it's very easy
+okay
+aha now this
+is simply an observation but it's an
+observation that tells you a lot
+why does this tell you a lot
+well
+observation
+in an expanding universe
+that means a universe where the hubble
+function
+is at all times greater than zero
+because it's a dot over a
+that means the a increases all the time
+that's an expanding universe in an
+expanding
+universe the later the time the bigger
+the a
+right
+t 1 less than t 2
+if and only if a of t 1 less than a
+of t 2 at later times there's a bigger
+scale
+factor right very simple it's an
+expanding universe
+but if that is true then how
+do look at just this proportionality
+here
+for a second you can look at any of
+these but let's look at this one
+there's an a to the third as an a to the
+fourth so you can of course divide by a
+to the third
+what remains is omega m scales like a
+times omega gamma right
+so they're they're the same so which is
+more important at late
+times this one which is higher this one
+or the omega gamma
+the matter because the matter is
+a thousand omega gamma or a million or
+ever increasing that means
+if you have hence
+we read off
+that if you have here time
+which we now know starts at the big bang
+great
+this one if you go forward in time
+the ones to the left here become ever
+more important
+and if you at the beginning of time
+where the scale factor is very small
+this one is the most important one that
+means in the early universe the gamma
+dominates the others may be there
+but they are suppressed
+so then slowly the gamma is less
+important and the matter starts to
+dominate
+and then slowly the matter is even less
+important this is even further less
+important and the spatial curvature you
+may have chosen or not to be there
+or that maybe they are not dominates the
+evolution of
+the density and at very late times only
+the cosmological constant
+the term determines is the dominant
+matter type in the universe
+that plays the biggest role
+so i didn't have to speculate about
+the role of a cosmological constant in
+the early universe
+there is none it's highly suppressed
+there would only be a role in the early
+universe if all the other meta types
+weren't there
+then of course it remains the dominant
+one because it's the only one
+okay it's a political solution if you
+eliminate all your competitors right
+then you you stay dominant
+everywhere right but but that's the only
+possibility
+otherwise the other one starts to
+dominate
+and that is a result of the theories not
+a modeling
+assumption that's good
+that's good so we have better control
+over the various epochs
+so if a cosmologist says well lambda
+dominates
+at late times it's a very mysterious
+statement unless you know this line of
+proportionalities implied by the
+friedman
+and acceleration equation um
+that's this okay fine so you have the
+these dominant meta types at various
+times yes
+do you know any later time than now
+that's that's the terminology we're at
+late time
+we're at late time okay
+i mean you could say if we weren't at
+late time maybe we couldn't have
+observed this yet right
+if there's other stuff present because
+then this might be still dominating and
+we have that stuff
+and that's the standard model that's our
+assumption
+whether the spatial section is flat
+spherical or hyperbolic
+and we'll see how this fares with uh
+observations yes
+so but we speak only of if we have
+different types of
+meta which are dominating at which time
+but we do not speak about converting one
+type into the other
+no no not included not here no no that's
+not included
+that's right you may want to look at
+that and people in fact people look at
+that and
+their conditions on nuclear synthesis
+and stuff like this and you need a
+deceleration period but not
+as a second derivative is less than zero
+and so on so there are many many results
+they're all based on the model that's
+right i mean
+obviously one needs to look at this this
+is a very simple-minded
+model that uses several types of matter
+yes
+because this spatial curvature we're
+talking about
+is obviously not caused by mass so we
+just assume
+we're living in a sphere or a saddle or
+a blood space
+and that's it yes it's there it isn't
+it's there it isn't but if it's there
+assume the spatial universe is
+s3 it's closed as a finite volume assume
+that's the case
+then that doesn't play a big role in the
+early universe
+and it doesn't play a dominant role in
+the late universe
+but it plays a role somewhere in between
+well not not for late and not for early
+but for in between it is
+okay and whatever processes take place
+here so you can say
+when did i don't know the stars develop
+what was structure formation
+when was the cosmological microwave
+background being imprinted
+in the quantum fluctuation blah blah
+blah blah blah blah right
+when what took that place and you you
+try to
+to figure out when happened what because
+of all the physics you know
+which is more physics input and then you
+slowly get a picture and this is already
+very rough pictures
+of what could have been the most
+dominant meta type
+density wise density parameter wise at
+which stage
+it gives a first order first ordering
+principle to what you're looking at
+and obviously cosmology is a fascinating
+and very big
+business today not only a business a
+fascinating subject it's
+extremely complicated because you need
+to take everything into account
+from quantum field theory uh plasmas but
+what not the whole business this is the
+uh
+the zeroth order approximation to to
+what's going on
+yes
+yes experiments say something and i'll
+i'll show in the diagram in a second
+um
+does this mean that well the meta is not
+dominating
+so this uh canvas interpreted as
+okay we take some galaxy cluster and
+according to its gravity
+it evolves and does stuff but this
+i don't know about any galaxy as little
+as somebody dealing with a gas
+who dealt with gases at the time
+who were these people who who did the
+gas laws what were they called uh
+tell me name help me what boil
+okay boyle didn't think about atoms
+at this level i'm not thinking about
+galaxies i'm thinking about the fluid
+from very far away
+but you say okay the matter in our
+universe has no
+impact or nearly no impact on the
+evolution of the universe as a whole
+at our time now because we are less less
+impact yes
+not the dominant impact yes yes that's
+right
+i no longer i no longer have the
+resolution of i don't even see a galaxy
+cluster
+as little as in this room you see uh uh
+um oxygen
+okay in atoms universe we have now uh
+the matter
+evolves according to the laws of gravity
+but it has nearly no impact on the
+evolution of the universe as a whole
+because
+i mean it's trying i'm trying to draw to
+to make a metaphor
+for what actually is this exact line of
+proportionalities
+i'm trying to bring them to life but if
+you need to go back to this to answer
+any specific question yes so
+obviously the density of matter is being
+reduced a lot
+by time in proportion to the density of
+the cosmological constant for instance
+it's proportionality it doesn't tell you
+anything about the absolute value
+okay so maybe it's just this
+proportionality then but um
+i just wonder how we can met at all
+like dominant matter at all as we have
+um if it's being reduced that much
+well we do have yeah but as i said i
+mean the point is you have a very thin
+very non-dense met i mean
+i'm in this room you have a lot of air
+okay that's one fluid and there's
+another fluid that's all your noses you
+know
+we'll come back to this topic so the
+point is
+all your bodies and now the point is
+what contributes more to gravity in this
+room to the space-time curvature in this
+room
+your bodies or the height the oxygen
+molecules uh
+molecules well you you do
+okay so you have several types of matter
+and here we're in a situation
+where you contribute more to that then
+you could have another situation right
+where you have i don't know
+with a very dense oxygen gas filled with
+a very dense oxygen gas you wouldn't be
+sitting quite so happily here
+but it's the same audience then all of a
+sudden it could be so dense and it
+contributes more to gravity than you do
+and in the evolution of the universe
+these proportions
+in a sense these dominances density-wise
+they change according to this line
+yes it fades away
+so the oxygen will fade away with time
+and our bodies will fade away less
+well it depends i mean it depends also
+on the statistical mechanics of this
+how does it thin out if you make space
+double as big
+how does the density of a radiation
+change compared to the density of
+point bodies you look at this in
+statistical mechanics you get different
+results
+that the scale dependence the volume
+dependence
+is not the same for different meta types
+so this is in perfect accordance with
+say statistical
+considerations because some are massive
+they have a different phase space than
+those that are
+massless has to do with that yes
+the larger the universe grows the less
+important the matter becomes
+that's somehow clear but what's the
+interpretation of the cosmological
+constant then
+is it is it this dark matter well
+yeah so some people say um
+i like to think of photons and little
+balls that don't interact and curvatures
+but this guy i can't imagine and it it
+aids
+some people's imagination to invent
+names
+and so you can call this dark energy
+and then they say well it's a justified
+name because it's an energy as you can
+see well energy density and you have a
+dark
+because the cosmological constant is a
+meta type i added to the energy momentum
+tensor
+but none of the other matter has the
+lavender in it
+do you know the lambda where's the
+lambda in the maxwell action
+in jackson it isn't there the the
+so the the light doesn't couple to the
+lambda
+roughly speaking okay so the lambda
+stays there separately alone
+not coupling to any of the other matter
+okay
+so that means you couldn't detect it by
+other matter because you can only detect
+something if it interacts
+i can detect your head by throwing a
+ball if the ball is reflected but for
+that the ball needs to interact with
+your head
+right if it doesn't i have a problem
+with detecting your head
+okay or with the light and so on so if
+the lamp that doesn't couple to anything
+else in your other matter actions
+which is something we haven't seen okay
+then
+it's dark because you can shine any
+matter on
+it it's not being reflected because it
+goes straight through it
+okay so therefore it's dark energy we
+don't see it
+other than through its gravitational
+effect because it contributes to the
+energy momentum tensor
+hence the met the the einstein curvature
+sees it but that's the only thing that
+sees it hence it's called dark energy
+and then you can say well anyway i'll
+show a diagram in a second
+but that's just the name dark energy and
+then people could say oh it could have
+different types of dark and
+what do you mean by dark energy well for
+you can call this dark energy that's
+terminology i try to avoid it
+yes if it is a constant in the ancient
+equation
+doesn't it mean that it is perfectly
+homogeneously distributed
+that's right that's right yes yes it is
+like the ether
+okay that's polemics but but but the
+point is it is that's right
+that's right
+the background independence
+as giulini in his evening talk in his
+inofficial evening talk
+explained um one has to be very specific
+of what of what
+means by background independence because
+you can
+make any equations background
+independent in a sense
+well any matter you put on somewhere is
+extra structure if you wish
+i i think this question is uh not
+particularly meaningful it depends on
+how i look at it if i say
+well if you provide this density omega
+omega's
+the energy then uh of course you have
+provided one right so
+how is it still background independent
+it provides a background
+but it depends on what you call a
+background it's rather
+at this stage of technical definition
+it's a rather ill-defined question i
+think
+sounds good but that's the case with
+many questions
+in the yes how then can i see a
+gravitational effect in
+smaller scale because the sun i know
+okay there will be some effect but it's
+distributed now you see the you see it
+at the global scale now
+if you only have a cosmological constant
+the evolution is like e to the ht
+right and it blows up not by light
+deflection
+now of course by light deflection
+because if the universe changes in time
+light is a time like null geodesic
+well depending on what the whole overall
+circumstances are and so on
+of course you see it also there yes but
+not in a spatial
+affiliation yep but in a space but in
+spatial foliation you see nothing
+because the experiment needs to use
+massive or masses particles
+and they always are transverse to
+spatial
+the model that we sections uh all all
+the things
+are uniformly isotropic and everything
+but of course in real life matter
+texture
+and even radiation you can have pockets
+with more radiation so
+would it be possible that also dark
+energy also
+memories like this or buying the
+construction
+of course so some people say okay
+let me continue because i first need to
+i always want to give you answers that
+already depend on an experimental result
+i'm trying to show you in a second right
+so um okay so let's see another urgent
+question
+okay good so um
+so let's look at a realistic late
+universe well
+i shouldn't say realistic i should say a
+more realistic
+late universe
+i mean these are all toy theories and
+they can be slightly refined
+so a realistic late universe
+several meta types
+present so let's assume
+we have matter
+spatial curvature and a cosmological
+constant
+yeah let's say that um
+that is a three-dimensional parameter
+space
+that we have for these parameters but
+the friedman equation
+says the sum of the three is 1
+that means i could express for instance
+the omega kappa
+as 1 minus omega mata minus omega lambda
+the friedman equation says if you have
+three density parameters
+you only need to look at two because the
+third one is then determined by the
+friedman equation
+right aha so
+that is hence
+the parameter space
+for this model
+is omega m
+omega lambda because the third one is
+automatically
+determined you only need to track these
+two now let's draw
+a picture of this
+so here i have the omega lambda
+and here i have the omega m the density
+parameter
+for the dust for the pressureless matter
+which i imagine fills the universe
+and here i have the density parameter
+for the cosmological constant
+which i assume might be present
+i don't know how much of this and i
+don't know
+how much of that and i also have
+presents
+the omega kappa but the omega kappa
+i don't need to look at because if i
+know a point in this space like this one
+i know there's this density for that and
+that density for that
+that could be an observation do you
+agree i could look
+now and ask what's omega m and omega
+lambda and that's in fact what the
+various experiments extract from their
+data
+on the basis of the model very
+importantly not absolutely
+but on the basis of the model they
+extract that from their data so very
+important
+caveat right okay and then i know the
+omega kappa because it will be one minus
+this minus that
+is the omega kappa so now
+the cosmological constant this guy here
+is proportional to the cosmological
+constant if you go back to the
+definition
+um let's look at this in the range
+from minus one plus one we'll see in a
+second y
+and let's look at this in the range from
+zero
+to two you'll see in a second why
+okay so we have this model
+here now i can ask various questions in
+order to understand the space of
+possible measurements
+an observation would measure a point i
+mean a sufficiently
+precise observation so classify the
+regions
+in this parameter space classify
+the regions in this
+parameter space and obviously if you say
+hey you forgot the omega gamma what
+about the radiation in the universe i
+say yeah okay
+then draw a three-dimensional diagram
+you have the omega gamma
+in there still the omega kappa is then
+one minus omega m omega lambda minus
+omega
+gamma right then you get a
+three-dimensional graph and you have to
+put a point into a three-dimensional
+graph
+okay but if we are interest in the late
+universe
+the omega gamma is long not more no more
+interesting you remember
+so we leave it out in the model why
+would we bother let's do a two
+dimensional graph
+okay good um
+right so classify these reasons in this
+parameter space
+and the first thing you could ask is
+um consider regions
+of spatial curvature
+copper either greater zero but i would
+also like to know the region where it's
+less than zero
+and i would like to know the region
+where it's equal to zero
+aha how did this go
+well k equals zero kappa equals zero
+corresponds please check the definition
+of omega kappa
+corresponds to omega kappa being zero
+right
+because it was proportional to kappa the
+omega kappa
+if one is zero the other one is zero aha
+but omega kappa
+is one minus omega m minus omega lambda
+agree why the friedman equation
+hence i have
+omega lambda equals this is 0
+equals omega m
+minus 1.
+which line is that omega lambda is
+omega m minus 1.
+is this this is wrong at that right it's
+one minus omega m
+omega lambda goes to the other side is 1
+minus omega m
+what line is that that's
+this one here
+right so this
+straight line here
+in a suitably curved blackboard plane
+this is a straight line
+this straight line here
+are all the observational
+data points i could have which would
+yield
+kappa equals zero
+you see it's just a line and anything
+to this side of it you can check
+has kappa greater than zero
+you check by the same argument but
+instead of the equal sign you take the
+other sign
+and everything to this side of it has
+kappa
+less than zero
+you need to look very closely to see
+whether it's zero or not
+but anyway that's what you can have
+these are the two sides here
+then you can have another i can ask
+another question
+you could ask the acceleration
+of the expansion what is that well
+that's
+h to the minus 2 a double dot over a
+well this one is always positive this
+one is always positive
+so if you are just interested in the
+sign it doesn't matter what the factors
+in front are
+you can again ask where is it less than
+zero where is it greater than zero and
+where's the acceleration of the universe
+zero
+where does the expansion accelerate
+where does it not
+and where does it decelerate that's
+interesting to
+look at now we look at the acceleration
+equation so this was
+friedman this here was the friedman
+equation
+and now we have another equal sign now
+we use the acceleration equation
+and what was that there was something
+like minus one half
+the sum over all non-fake meta types
+i equals one to capital i um
+three now um uh uh
+one plus three omega i right yeah one
+plus three omega i
+omega i aha so i only take the non fake
+types equals
+minus one half now the first type
+i want to look at is the only non-fake
+types are m and lambda
+they're meta types right m was
+uh dust which omega does just have
+zero p equals zero rho
+because it is pressureless has zero so
+the first one is
+one plus zero times omega
+matter plus so that means a minus
+one half next type is the lambda
+what omega did the lambda have
+minus one one minus three
+is minus two minus two times minus one
+half is plus one
+plus one times omega lambda
+you agree
+think you do agree so you have minus one
+half
+omega m plus one omega lambda
+so again from starting from this equal
+sign if you want to get the line here
+from here it follows omega lambda
+is plus one half omega m
+aha so if before we drew this
+yellow line that was the line for kappa
+equals zero
+and now we draw a blue line
+that's the one for acceleration
+equal to zero and it's omega lambda is
+one half
+m it starts here goes to the middle
+goes to up here
+that's this one so this has on this line
+the acceleration of the expansion
+of the universe
+well the acceleration of the scale
+factor is zero
+and you can again do the same
+calculation and check the signs
+if you go in this direction the
+acceleration
+is greater than zero and if you go in
+this direction the acceleration of the
+universe is less than zero
+you can ask further questions you can
+ask
+in what region what about re-collapse i
+think this answer this question was
+asked before right
+re-collapse versus
+eternal acceleration
+i mean it seems very reasonable so you
+say our universe expands
+but there's matter in it i mean matter
+and energy
+and okay some energy has this funny
+negative uh
+pressure type thing the cosmological
+constant but shouldn't
+the energy in there the matter
+try to lump together again it flies
+apart
+but shouldn't finally it fall together
+again
+and that would then okay so i mean
+that's the question that you can ask
+so the so that you can say there is
+recollapse
+if and only if there exists a time
+t star in r plus zero
+please keep it i i need this it exists
+does there exist a time t star in r uh
+zero such that the expansion
+of the universe
+actually comes to a standstill and
+actually also that this is not only this
+but this is a maximum
+know that the a is a maximum
+that the second derivative also vanishes
+and so on so anyway
+you know what i mean you look at the
+scale factor right this is time
+this is the a is there something like
+this so there needs to be a turning
+point
+and of course you can write this in
+terms of an equation right you can ask
+when is the second derivative of the
+expansion
+zero and if it's supposed to be a
+maximum so that really goes back i mean
+it could come to a stencil and then
+go on then you know that you need
+the first derivative to be less than
+zero
+no something is strange here the first
+derivative is zero and the second
+derivative is
+is is less than zero for maximum right
+okay thank you okay so as i said
+undergraduate
+calculus all replaced by differential
+geometry no
+no no kidding so so the point is you
+find the condition
+for this turning point and you can write
+it down and look what the equations say
+um that can be written down it's a
+little bit more complicated
+what you find is the following so you
+find
+the condition that the collapse just
+doesn't happen so the division line
+between re-collapse happens and eternal
+acceleration
+happens is the following
+the division line runs along here
+really exactly along here and then it
+takes off a little here and that's a
+complicated function which however can
+be analytically calculated
+some are cosines in it and so on and
+everything above here
+is eternal acceleration
+eternal expansion and everything
+down here
+every down here is re-collapse
+it only depends in this model on the
+omega m
+and the omega lambda
+now you can investigate well omega m and
+omega lambda actually constants well it
+depends on your model
+in our model they are because in our
+model
+recall
+that the row went like t
+to the minus two and the h went like t
+inverse and you have in the densities
+the omegas are rho
+by h squared quite obviously
+okay anyway so we're here and now the
+question is what does experiment say
+this is all theory
+these are possible universes we might
+have
+filled with this toy matter what does
+the theory the observations say
+and the observations from various
+sources
+and cosmologists believe from
+independent
+sources not independent groups but in a
+sense one is supernova galaxy surveys
+and redshifts and whatnot indicate
+that omega lambda is
+0.7 and
+and omega m is 0.3
+hang on a second yes and kappa omega
+kappa is zero because it lies exactly
+on this line and of course it's an
+experiment right
+so the experiment rather says something
+like this and says our universe
+is somewhere like there
+so um you might say well to a very
+big degree kappa equals zero a flat
+universe
+that means spatially infinitely extended
+is supported but i mean it's very easy
+to
+to jump here to jump here right okay
+and um 70 percent
+of the energy density matter energy
+density of the universe
+70 percent needs to be put in the
+cosmological constant
+and only 30 percent comes from
+matter but it's even worse
+so observations
+say one hundred percent that's the one
+in the friedman equation
+equals zero percent from the spatial
+curvature
+spatial curvature
+contribution and of course
+there may be a little space place a
+curvature plus
+70 percent is the cosmological
+constant contribution this is in order
+to explain
+the totality of observations or a
+certain sub totality of observations
+plus now there's 30 percent left but the
+are split in 25 plus 5
+which we divide for other reasons and
+only these 5 percent
+come from what we believe is standard
+model matter
+standard model of particle physics
+matter
+so if we don't look into the universe
+and we go to accelerators and we
+shoot bananas onto oranges and we see
+what happens
+and we study all the products of these
+of these collisions we get all the
+particles of the standard model
+that's what we get this is quantum field
+series the three
+uh gauge feed not three gauge with the
+three gauge theories and
+or the electro weak and the uh strong uh
+interaction and all the the zoo
+of of of of particles that come with it
+but that what we believed in quantum
+fields here in elementary particle
+physics
+to be all the matter there is
+at high energies as high as we can
+produce them in the lab
+what we believe is all the matter there
+is
+only accounts for five percent of the
+matter
+and energy in the universe that you need
+in order to explain the observations in
+cosmology
+don't steal the moment so now
+the remaining stuff is not of this type
+and it has certain properties and people
+call it dark
+matter because like the cosmological
+constant we introduce which is just one
+model for dark energy it's a
+dark matter and i can call this dark
+energy
+it's just terminology right
+it doesn't interact with any of that
+matter but all our instruments are made
+from that matter can only interact with
+that matter so it could be that dark
+matter interacts with dark matter i mean
+it
+very likely does and so on but the point
+is we don't have
+instruments built of dark matter so we
+can't detect whatever dark matter is
+deflected by dark not deflected is is um
+scattered by other dark matter we can't
+detect it so it's dark for us
+it's dark because we don't have the
+right instruments okay
+um and if we had the right instruments
+that were made of dark matter
+maybe i could still not read off the
+dial because i have no dark matter in me
+so
+if it really doesn't interact it's a
+problem but gravitationally it has an
+effect that's why we see
+certain things so i mean this is
+dramatic
+because well the zero you can forget
+because it says
+that 95 of the stuff
+of the matter energy density that fills
+the universe
+if einstein's theory is correct because
+all of this all the interpretation of
+the raw data
+this diagram more complicated models
+they all depend on einstein's theory
+plus our theories of the standard model
+of particle physics put together in
+combination on craft space-time
+all of this relies on that and if
+there's no mistakes have been made
+the theory says that what we always
+believed is all the matter in the
+universe
+is only five percent so you can
+if you believe firmly and einstein
+gravity
+and you believe firmly in the standard
+model of particle physics put on curved
+space-time
+being treated they're right and people
+who calculate the stuff having made no
+mistake
+if you believe in all of that which is
+quite reasonable to believe
+conservative point of view right
+we have a major discovery here from
+recent observational data of the last 20
+25 years
+we discovered 25
+of matter in the universe in the last 25
+years
+which before went undetected
+this is why people are so excited about
+this
+they say if this is true but it always
+comes with a caveat
+if the underlying theories that have
+been used to extract
+this splitting of numbers are correct
+einstein theory being one of them
+and of course remember i said
+maybe you cannot make the symmetry
+assumption first and then calculate
+maybe you have to do this in another way
+and there are people who claim you need
+to do that
+so some people say maybe some amount of
+this
+maybe not everything but maybe the
+proportions
+shift a lot if you do the good old
+physics properly
+so maybe einstein theory being correct
+quantum field theory being correct
+and also people not having miscalculated
+who calculated the background theory for
+that
+but maybe they made a mistake in line
+one
+okay and therefore it's very valuable
+what some people try that they say don't
+make the symmetry answers too early
+it could be that if you average later
+that this
+shifts and maybe then this is 25 95
+and this is five and you say yeah yeah
+there is something
+okay okay and now you have to work on it
+and
+you know i mean also the smallest
+mercury procession can take you
+somewhere you know
+four arc seconds per century so we
+couldn't just shouldn't discard this
+but this major result would look
+different
+okay so always keep in mind what it's
+based and always
+question where else could this come from
+but of course it's excellent for
+research grants i take it
+so therefore um you follow the standard
+route so anyway
+so you have you have this this result
+um in the universe
+that's different what yulen is referring
+to is
+and should have emphasized this more if
+you have
+a field equation and einstein gravity is
+not
+an exception then you should always
+insert symmetry assumptions
+on the objects about which the field
+equations talk in this case
+on g you should always insert it at the
+level of the equation
+if you remember julian is talking
+symmetry is something that takes a
+solution to a solution
+but this here comes from an action
+namely as grav
+plus s matter this total action by
+variation with respect to all
+possible fields that are in there and
+you could say oh
+i could implement this already up here
+and then i only need to vary for
+instance in cosmology
+with respect to the scale factor because
+that's the only degree of freedom that
+survives
+this here is usually illegal you must
+not insert a symmetry answers into the
+action
+and then derive and it's pretty clear
+why
+think of actions in in classical
+mechanics there you say
+you call this curve special or solution
+of your equations
+if any neighboring curve however
+slightly it deviates
+um now if slightly deviating neighboring
+curves
+don't change the value of this guy to
+first
+order right that's the stationarity
+principle
+but now assume i put in the symmetry
+hundreds from the beginning then i can
+no longer compare to this graph it's
+crucial that you say
+any neighboring curve that deviates only
+a little
+shouldn't change the value by more than
+a quadratic order
+not just one but any but now imagine you
+put in the symmetry answers first in
+that case for your curves
+you would only compare to other curves
+that satisfy
+a certain symmetry condition
+then you're comparing to fewer
+competitors
+if you compare to fewer competitors you
+can be more easily better
+so the point is you can have fake
+solutions
+if you insert it here okay that's the
+point you can have fake solutions
+so this is not allowed but there's the
+principle it's um the principle
+of symmetric criticality
+or stationarity but tradition is called
+criticality
+it's by palais and he gives conditions
+under what conditions you can plug in
+the symmetry
+and very roughly speaking if your
+symmetry algebra
+you know that the symmetry comes with an
+algebra for the metric if the symmetry
+algebra
+is the algebra of a compact group how do
+you find whether it's the symmetry
+algebra of a compact group
+well you calculate the so-called killing
+metric it's the same killing but a
+different object
+you calculate the so-called killing
+metric from the
+structure constants of the algebra
+so we have the structure constants of
+the symmetry algebra you remember
+you square them up down down
+up down down you contract this one with
+that one and this one with that one and
+then this a and b
+remain open you call the result k a b
+it's called the killing metric i think
+if it's negative definite
+then the lee group to that lee algebra
+is compact i think that's right
+so you very quick i give you an algebra
+for instance our our rotation algebra
+you could check this guy is a negative
+definite 0-2 form
+and then you know ah so for a symmetry i
+can do it because palais says
+for compact groups you can do it and
+then vary and it's the same
+but it's a very rough statement and it's
+only sufficient and
+application requires sufficient care but
+roughly something like this
+but that's right but in general that's
+what julian i think you you
+meant yes yes is you're not allowed to
+do that
+but that has nothing to do with
+cosmology
+yes is it possible that these dark
+matters are just
+ordinary particles but unseen by us
+cold or just hidden somewhere yes so
+some people consider that they say
+it could be the standard model over
+again
+but with a little slash on each particle
+and the slash has no interaction terms
+with the non-slash
+particles yeah but that's dark matter so
+nobody knows how to model that in detail
+i mean something like astro
+astrophysical objects like
+match or something like this is it
+out do we know it's not true there are
+many possibilities uh
+these trump this is it's
+it's not believed that it's uh of
+standard model type
+but again who knows okay but it doesn't
+look like it
+it simply doesn't look like it okay is
+there a static solution on this graph
+a static solution you mean where the
+universe does not expand
+well you need to you can you can check
+you can require
+a of t is constant
+and you know that rho goes like a to the
+minus
+n you know that h goes
+like a square root of rho
+you look at the densities and you look
+how they need to go
+if if that's possible at all such that
+there is
+uh that this the solution is static yeah
+you can check that yeah
+okay so i think we need to postpone any
+questions to
+after the pizza event thank you

@@ -1,0 +1,2692 @@
+This program is being presented to you
+by the Heraeus International Winter
+School on gravity and light.
+So, welcome to the actually last central
+lecture of the winter school.
+Um today we'll wrap up
+uh
+these central lectures and I will
+actually
+uh explain something I didn't explain to
+you, namely why the Einstein action has
+the form it has.
+So, we uh took great care to explain how
+the entire structure of the theory
+uh is founded from set theory over
+topology and so on. But uh actually the
+Einstein action and hence the Einstein
+equations uh were just presented.
+And in fact, that's uh
+one simple textbook view that one can
+take and that's often taken that the
+gravitational dynamics are postulated
+alongside the matter dynamics that are
+postulated as well and you postulate
+them such that the result describes
+nature.
+And that's absolutely fine, that's
+absolutely correct.
+However, if you postulate several
+things, you got to make sure that you
+don't postulate two things that are
+contradictory.
+And if indeed one can be derived from
+the other or one is greatly constrained
+by the other postulate,
+then we should know.
+In order to first understand the theory
+better, second in order to be sure that
+there are no contradictions, and third
+because such understanding usually
+points beyond what we already know in a
+concrete context, it yields a deeper
+understanding.
+So, what I would like uh to report about
+today is uh the work by a whole number
+of people
+and um the it can be summarized at uh
+answering the question how quantizable
+matter gravitates.
+Now, I don't know how many of you had a
+course on quantum theory
+in the universities. Okay. So, you all
+know that there's this issue of you have
+a matter theory
+uh and you want to quantize it in order
+to get the corresponding quantum theory.
+And it's a very complicated question how
+to quantize and whether that is a
+well-defined procedure in the first
+place and so on.
+So, if here we speak about quantizable
+matter, it's not quantum matter, it's
+quantizable matter. We speak of the
+classical description of matter, no
+doubt about that. But it should be a
+classi- classical description of matter
+that can be quantized.
+Now, uh at least it needs to satisfy
+some necessary conditions for
+quantization because otherwise we would
+ultimately not consider it as a good
+matter model today because we we require
+that all matter be quantizable.
+Now, it will turn out
+that if you start with a quantizable
+matter model like for instance Maxwell
+theory, electromagnetic waves,
+or well, the whole theory, that the
+theory already carries in itself the
+information of how it gravitates.
+In other words, it carries in it the
+information that gravity should look
+like Einstein gravity.
+Um I will explain this and I will
+explain in a general context uh that
+will also include other matter that
+could produce other gravity theories.
+So, that's the idea of uh these final
+lectures today.
+And um so, let me introduce you here and
+today it will be less of a lecture style
+like usually that you have lots of
+indices to follow, today it's about the
+ideas behind all of that. Of course,
+there will be some technical detail, but
+you're well prepared.
+So, I would like to explain why gravity
+can be derived from given matter
+dynamics and need not be postulated. And
+of course, uh that makes a big
+difference that it can be derived from
+given matter dynamics. It has a massive
+impact
+on our thinking about gravity simply
+because if ever we have to consider
+different matter in the universe because
+it's discovered, we will maybe, and the
+talk will show you under which
+circumstances, have to consider
+different gravity theory.
+But the best thing it it will be
+constructive. So, if there's new matter,
+we know exactly what to do, how to get
+the new gravity.
+So, let me start with the standard model
+of fundamental physics that includes
+gravity and matter and in fact, in this
+school you were already quite well
+educated in that. So, if you want to
+start doing physics and you talk about
+space and time on which you want to put
+matter and we're not questioning uh this
+division, uh then you start with some
+sets, then you may get the idea that you
+need some topology on there if you want
+to do classical physics, that you want a
+smooth atlas and so on. And then you
+know,
+at some point, if you have enough
+structure, namely a smooth manifold,
+then you can start thinking about
+tensors and tensor fields.
+And tensor fields are at this stage of
+development the only matter you can put
+on a manifold, on a smooth manifold.
+Spinners, who have no you know what
+knows what a spinner is?
+Spin one half and so on. Spinners cannot
+be put on the manifold at this stage,
+but soon they will be. So, um you can
+put tensor fields. So, vector fields,
+covector fields and so on.
+So, now this is the uh conceptual
+foundation that you need to start with
+before you can start talking about the
+standard model of fundamental physics as
+we have it today.
+But now I would like to jump back to
+1850 or 1860 when uh Maxwell formulated
+his Maxwell equations. I don't think you
+can read this very well. So, here it
+says uh we look at observations. So, for
+instance, there was the observation that
+currents induce magnetic fields.
+That's uh Ampere or something. And mov-
+pardon me?
+And and mov- and moving magnets induce
+currents. Those were Ampere's or
+Faraday's law and Maxwell combined them
+into the Maxwell equations and uh he
+added a little term and so on. But from
+a modern point of view, what he did, he
+built on the building as it is presented
+here and he wrote down his Maxwell
+theory of electromagnetism.
+Of course, Maxwell didn't think of
+tensors really and smooth atlases and
+topologies and sets not at all, okay?
+But from a modern perspective, that is
+what he did. So, that is where we are
+here 1850, 1860, around that.
+Well, then the story, you know how it
+continued in 1905, probably earlier, uh
+Einstein stared at the Maxwell
+equations.
+And he realized that if these equations
+are true, and they ought to be true
+because they describe all kinds of
+phenomena that were known at the time,
+he saw after all, that took a few years
+and the help of others, Minkowski and
+others, to realize actually on this the
+space has a structure all by itself. It
+it carries a geometric structure, which
+today we call a Lorentzian metric.
+Well, they thought of it first of a flat
+Lorentzian metric because that was the
+first thing you think about, but after
+all, the decisive observation was that
+something, some theory that came from
+observations,
+dictated that you think of space-time
+this way. So, this is the famous 1905
+insight by Einstein. He didn't call it
+Lorentzian metric, he wrote down rather
+cumbersome equations, but if you really
+analyze it from there, it was actually
+just a logical conclusion.
+Now, later, and that's now uh
+100 years ago or 99 years and uh 11
+months or something, um Einstein
+realized that this Lorentzian metric
+better also be given some dynamics
+because after all, the metric
+coefficients feature in the Maxwell
+equations that you all saw, the Maxwell
+action is coefficients, but where do
+these coefficients come from? You can
+brutally set them to zero,
+but you can also give them some
+dynamics. And what comes out is the
+dynamics of the background on which the
+theory lives, on which the waves for
+instance propagate. But if the
+background changes, then the waves
+propagate differently and the
+propagation and the dynamics of this
+background was chosen such it captures
+the gravitational effects. So, how for
+instance waves gravitate. Today we know
+the Einstein equations, they relate the
+energy uh the Einstein curvature of
+space-time to the energy momentum tensor
+of the matter and thereby they encode
+how the gra- matter gravitates with
+itself, with other stuff and so on. So,
+this is we started 1850, 1905, 1915, we
+arrived here. That's the picture.
+Now,
+there is one further ingredient to the
+story and the further ingredient is
+spinorial matter. Actually, that
+shouldn't have vanished yet, but okay.
+Um so, if you have a Lorentzian metric,
+only then can you start talking about
+spin- you know, spinners or fermions on
+space-time. And in fact, the famous spin
+one half is not a quantum mechanical
+thing, it's a thing, a concept that
+comes out of the representation theory
+of the isometry group of a flat
+Lorentzian metric, the so-called
+Poincaré group. It's a geometric thing,
+the spin. And in fact, once you have a
+Lorentzian metric, you can, under
+certain circumstances, there are some uh
+obstructions, but uh
+you can impose spinners on a manifold.
+So, really the spinners come after
+Lorentzian metric. Without Lorentzian
+metric, you don't have spinners. Okay,
+so that there's a logical
+uh thing here going on.
+And now you have tensorial matter and
+spinorial matter, and you can choose
+what in nature you want or you need to
+describe uh by which. And it turns out
+that the spinorial matter is always
+fermions, so they have they satisfy
+fermionic statistics. You know that
+probably from uh statistical mechanics,
+and the tensorial matter encodes bosons.
+Now, if you take the two together, we
+started here in 1850 with Maxwell's
+theory that was the kickstart.
+Everything that comes after Lorentzian
+metric actually is based on what
+Einstein read in the Maxwell equations.
+But then you see you can have other
+matter and so on. So, you take the
+Maxwell equations extremely seriously,
+and the courageous step by Einstein was
+that the Maxwell equations are to be
+taken so seriously
+that what follows from them is the
+foundation of all of physics.
+He was very lucky that that is true. It
+could have been that the Maxwell
+equations only capture a little bit, and
+there's much more out there.
+But in fact, he did that, and then today
+we formulate all matter in terms of the
+standard model of particle physics in
+terms of tensorial and spinorial matter,
+where the spinorial matter firmly rests
+on the concept of Lorentzian metric.
+So, all of this fits nicely together,
+and uh constitutes what today we call
+the standard model of fundamental
+physics, the standard model of gravity,
+with the standard model of particle
+physics, and that is what any textbook
+wants to convey to you, and is of course
+correct. It's an extremely successful
+theory. It's been extremely successful
+for for a very long time. That's the
+standard model, and it's a little bit
+the logical path we followed in this
+course, apart from the spinorial matter,
+which we didn't do.
+Now, if we confront that with
+experiment, you already know we
+calculated that in the cosmology
+uh course, and you also heard it in
+Valeria Pettorino's lectures, uh we have
+a fact that the standard model matter
+that we so proudly describe by the
+standard model only constitutes about 5%
+of the matter and energy in the
+universe. So, those are
+observations that now for uh about 20
+years uh are more and more corroborated.
+So, if you apply the model I showed to
+you before,
+and you evaluate the raw data with that,
+you come to this conclusion.
+We know that. So, that means that here
+the standard model dynamics, which here
+in this nice textbook picture thrown up
+here at the same level with Einstein
+gravity dynamics, and both have to be
+postulated and modeled to work together,
+and everything is fine. Well, in fact,
+you have here 95% dark stuff. I call it
+disrespectfully dark stuff because we
+don't really know where that comes from.
+Okay? Um and it's uh well, the dark
+that's why it's called stuff. The dark
+thing is of course because it only
+interacts gravitationally. It couples to
+this background metric, one assumes,
+okay? And um uh but it doesn't couple to
+any of the other standard model matter
+in here.
+So, most of what is out there is not of
+standard model type.
+And by my argument, what is standard
+model type is actually Maxwell type,
+right? You start with Maxwell, you come
+to there, and you bootstrap the whole
+standard model of particle physics
+because you say all the matter has been
+created in the image of Maxwell theory,
+right?
+And now we have this situation, and one
+logical possibility is that all that
+dark stuff uh somebody will come, will
+write it down in standard model style,
+the standard model will be extended in a
+very conservative way, um that would be
+actually preferable, of course, uh and
+after all, the whole picture stays as it
+is.
+Just we do not know. We simply do not
+know,
+and um so, if we take that seriously
+that we don't know, and that's the right
+thing to do,
+then we have to delete everything I
+deleted now in the current textbook
+picture because if the matter works
+fundamentally different from Maxwell and
+hence other standard model matter, then
+all the conclusions we drew from it are
+to be questioned.
+Of course, you can always question more.
+You can question whether you should have
+a smooth manifold. You could question
+whether you should have a topology at
+all. You should question Okay.
+The game here is we only question what
+we are prompted to question, but what
+we're prompted to question, we take
+seriously. So, you have to delete that.
+So, it's virtually all I taught you.
+Now,
+the point is what we should do, we
+should redo the whole thing.
+We should start with any matter, any new
+matter, any matter, not only Maxwell
+matter.
+But then, what do you mean by any what
+do I mean by any matter? You can't make
+write down theorems for any matter.
+There is not enough structure. So, we
+need to make assumptions about the
+matter we expect to be out there, even
+if it's dark matter or dark energy,
+okay, or any yet to be discovered
+matter.
+And um well, so if we now make
+assumptions, we can of course follow our
+taste. We can say, "Well, let's make an
+assumption. I like strings. Okay, let's
+use strings." Or I like this, or I have
+this I always had this idea that physics
+should be done with purely complex
+numbers, right? You can have ideas like
+this, but again, I would
+rather go for some very conservative
+approach. I would say, "Let's only
+require of matter what we all agree on
+must be required."
+And um
+that is probably on the one hand
+predictivity. So, if we are still
+talking about classical matter theories,
+they should be predictive. If you come
+up with a new matter theory, say
+tomorrow you write down a theory for
+dark matter,
+and it's not predictive in the sense of
+that initial conditions are translated
+into later values of the field, it would
+be rejected outright by the physics
+community, justifiedly, because physics
+is about predicting the future.
+So, certainly we want matter a matter
+model that's predictive.
+But the other really important input in
+what we learned in 20th century physics
+is that all matter is quantum.
+Well, at least so we believe.
+So, if we make a classical matter model
+to fit it into here, it should at least
+be quantizable.
+You it should not
+uh obstruct quantization.
+If we make these two assumptions, and I
+will tell you how to make them
+technically,
+one can show, and I will illustrate this
+in this lecture, that that already gives
+rise uniquely to new tensorial geometry.
+So, not the tensorial geometry described
+by a metric, by Lorentzian metric, but
+possibly by all other kinds of tensors,
+but just not any tensor. Like a
+Riemannian metric would not do.
+But a Lorentzian does, and many others.
+I'll explain that.
+Now, of course, we're here kind of in
+1905 if we repeat the history here. Now,
+what if we want to give this new
+tensorial geometry, which provides the
+coefficients of the matter equations, if
+you and we must provide dynamics for
+that. Um oh, well, they can have
+non-tensorial matter, and then you can
+provide dynamics, and indeed you get new
+gravitational dynamics.
+And if I have these arrows here, they
+don't mean, "Well, you should and one
+could." Uh they mean we know how to do
+that. And I'll explain it.
+Okay. Uh
+by the same token, of course, if you
+start here with Maxwell,
+what you need to do, you can now follow
+this in a modern way, and you arrive at
+Einstein gravity again. So, at the same
+time as it provides the path to new
+gravitational theories starting from new
+matter, which you need to observe and
+formulate in equations, it provides you
+with a clean-cut explanation why if you
+start with Maxwell theory on the one
+side, that you need to end up with
+Einstein gravity on the other side.
+Okay? So, it's also an explanation of
+what we already have.
+So, this is uh the picture I want to
+convey. So, the central result of today,
+I'll announce it in the beginning, is
+you start and you give me some
+predictive and quantizable matter
+equations in form of an action. So,
+you're an observer, you watch out there,
+you see what not the bullet cluster, and
+you come up with a very bright idea of
+how to formulate
+what's going on there as a matter model.
+Okay? As a local matter model, and you
+come and you say, "These are the
+equations for dark matter. We checked it
+here, here, here. What we see there
+locally, that is how it works."
+And then you say, "However, there is a
+problem. This is my matter field, but
+unfortunately, I need coefficients it
+couples to that do not look like the
+coefficients of a Lorentzian metric."
+Well, maybe they do, then everything is
+fine. But say you need coefficients
+that are different from a Lorentzian
+metric. And one possibility, for
+instance, would be the following. If you
+observed tomorrow
+It's unlikely that you observe it
+directly, but to illustrate the point.
+If you tomorrow you observe that there
+is a light ray out there in vacuum,
+and all of a sudden, it splits into two.
+If you observe that,
+then general relativity, with its
+Lorentzian metric, is dead.
+the same moment.
+We know such splitting of light rays
+from the laboratory.
+If you have a birefringent crystal
+and you send a light ray,
+it will split into its polarization
+components. Have you seen that?
+I'm sorry.
+It will split into its polarization
+components. In fact, while the vacuum is
+described by such a metric, such a
+linear medium is described by a fourth
+rank tensor.
+Okay? So, one can show that. You trust
+me. So, that means if you observe the
+same thing in the sky, then you need to
+write down a modified Maxwell theory
+with such a structure.
+Okay? So, it's not like pure fantasy.
+One can very clearly write down
+phenomena that immediately mean the
+death of general relativity. So, assume
+nevertheless you see this and you write
+down the new equations, then I claim
+from these equations, from this action,
+you can construct a linear homogeneous
+system of partial differential
+equations, a linear system.
+Uh it has the slight disadvantage that
+it has infinitely many equations, but
+that doesn't shock us.
+I tell you we know how to do that. The
+straightforward algorithm, no brain
+power required, you convert that into
+such a system. It's not the equations of
+motion for this. It's it's a complicated
+way you get the system, and once you
+have it,
+you solve it. Well, that's a little bit
+more tricky.
+But once you solve that system, and I'll
+talk about the system. All I tell you
+about today is how to get the system of
+PDEs and how you extract it from the
+matter equations. Once you have it, you
+solve it, and the solution is the
+Lagrangian of gravity
+that is required
+in order to be the background for this
+theory such that the theory is both
+predictive and quantizable.
+And that you need.
+That's the idea.
+And um
+the familiar example is you put in the
+standard model action.
+So, all the the electrons and Maxwell
+and
+uh
+electroweak force and everything, or
+just Maxwell's also good. You get a
+linear homogeneous PDE systems, as I
+said, a particular one with particular
+coefficients. You solve it, and hooray,
+the Einstein action I introduced to you
+with undetermined gravitational
+constant, undetermined
+um
+cosmological constant, which appear as
+integration constants when you solve
+this,
+is the solution.
+This would then be the reason, once I
+explain to you how this works. This is
+just the the announcement of this
+result.
+This is then explanation for the
+Einstein theory in if our matter is the
+standard model matter. Okay? So, you
+don't need to postulate that separately.
+It's actually derivable.
+All right. And of course, the general
+principle is that you will look out
+there, not put in the standard model,
+but you put in what you really see.
+Well, that's a complicated business. You
+need to write down equations for that
+and so on. You put that in, and you get
+the relevant gravity theory.
+Now, you say, "What if we see the
+standard model and other stuff?" Well,
+that's then in total it's a new matter
+theory, and you get the relevant gravity
+theory, possibly a modification of
+general relativity.
+So, let me explain
+to you in two steps of how this works.
+The first step, you need to understand
+the new matter, and you need to
+understand the space-time structure that
+follows from it. If I say new matter, it
+could be the old matter, then you will
+just have as a result the old space-time
+structure.
+And the key to all of this is something
+called the principal polynomial of the
+matter field equations. Whenever you
+have field equations, like Maxwell's
+equations, they're partial differential
+equations, and they can come from an
+action. Now, if you vary the action with
+respect to the matter field, which I
+just denote by a phi here, you will
+invariably
+arrive at a partial differential
+equation for the matter field. So, there
+are many derivatives acting on the
+matter field, and it will have
+coefficients. Well, the coefficients
+could depend on the matter field as
+well, because it needn't be linear
+matter field equations, but it will
+always look something like this.
+Now, one question people always ask is
+"Don't I have to use covariant
+derivatives here?" Because if this is
+already a tensor field, you need to use
+covariant derivatives. Or even if it's a
+scalar field, from the second derivative
+onwards, you need covariant derivatives.
+Well, these are partial derivatives, but
+they have coefficients, and there's a
+sum of many.
+And if you think about this, the lower
+coefficients, they can provide, for
+instance, what we call the gamma
+symbols.
+But maybe in a more complicated
+geometry,
+uh not coming from a metric, maybe you
+have to generalize the idea of a
+connection, too.
+We know examples for that. And I don't
+want to assume any of that. You can't uh
+start by saying, "Oh, maybe if we knew
+the geometry, then we could do
+something." But we don't. The point is
+to find out about the geometry. It's not
+to already know it. So, you start from
+some matter action that you observe, you
+write this down, and you have these
+coefficients, and um
+anything is fine, because it comes from
+a matter action. This is fully
+covariant. The coefficients carry all
+the non-triviality.
+Now, the great thing that mathematicians
+found out is if you want to understand
+the causality of these equations, so how
+can signals run, where do I need to put
+my initial conditions, which is very
+important for physicists, you don't need
+to study the whole equation, you only
+look at the highest order coefficient.
+So, if this goes up to the nth
+derivative, you look at the coefficient
+Q A1 to A capital N, the highest order
+coefficient. It's the only one that's
+relevant. Yes. Um
+do you not allow for zeroth order?
+Uh I do, and this is a mistake that that
+keeps in my slides to check the
+attention of the audience. Uh so,
+indeed, this should start from zero.
+Thank you very much. Yeah. Okay. No,
+it's really true. I mean, as every talk,
+I I forget to to correct that. It starts
+from zero. There can be a constant.
+So, you look at the high Yes.
+So, if
+A runs from zero to
+to three.
+A, no. A is an index. A1 to AN is the
+first the zero A A0 to AN is the zeroth
+index to the nth index. No, it's not
+true. No, no. A runs from one to N,
+because if N is zero, then there no
+derivatives, but there is still the
+field itself.
+It's not so important. So, the point is
+it should read like um
+Q
+phi plus Q A1 del A1 phi plus Q A1
+A2 del A1 del A2 phi and so on.
+A it's A1 itself
+Oh, over the dimensions of the manifold.
+I'm sorry. Okay, so I understood this
+understood so on a smooth manifold of
+dimension D, so this runs over the
+dimension over what else on the partial
+derivative? Dimension dimension of the
+manifold. Okay. So, you look You only,
+if you want to understand the causal
+structure, you only look at the highest
+order coefficient.
+What do you do with that? Well, the
+highest order coefficient, you can plug
+in
+a covector K, which has an index A1, but
+you can plug it in several times such as
+to fill all these indices. So, you make
+a full contraction, the same covector
+again and again.
+What do you get? Well, you get a
+polynomial, right?
+Now, um
+if this field here phi is a tensor
+field, it carries some
+indices, then the Q carries double the
+number of indices, because they need to
+connect to this and from the variation
+gets these indices, and you need to get
+rid of these indices, and the
+mathematicians instruct us to take the
+determinant over these indices.
+To achieve what? To construct overall a
+polynomial
+at each point of the underlying
+manifold,
+and the polynomial is in the K. So, it's
+a polynomial in each
+cotangent space, right?
+Because K is a cotangent vector, you
+submit it at a point
+at uh in um in the cotangent space of X,
+and this right-hand side depends
+polynomially
+on this covector.
+That's what you do, and that's we
+instructed to do this by mathematicians,
+because this is called the principal
+polynomial
+of these field equations, and it plays
+an eminent role in order to understand
+them.
+I simplify a little bit. If these
+equations have um a gauge symmetry, it
+works a little differently, but that's
+not our concern. It can be done. And the
+point of this polynomial is if you know
+this polynomial, you understood almost
+everything about the causal structure of
+this theory.
+And I should write down for you the
+polynomial in Einstein theory. If you
+have from Maxwell theory. If you come
+from the Maxwell equations,
+the polynomial is P of X, K is the
+inverse metric GAB KA KB.
+This is the principal polynomial of
+Maxwell theory, and expressions like
+this we see very often.
+It's the principal polynomial. But here,
+this is fully general.
+Okay, for any matter theory.
+Now, if you want to understand the
+causal structure, what you do, so when
+cotangent space, so we go to one point
+of the manifold, and we can do this at
+every point, but now I fix one point. We
+go to one point, and then what I draw
+here is the cotangent space at that
+point. It's a vector space, the
+cotangent space.
+And this shape here, these are the zeros
+of the do of the principal polynomial.
+So, in Maxwell theory, it's all those K
+where this thing is zero. And how does
+that look in Maxwell theory?
+It looks like that.
+Yes. And this K be related to the
+generalized momentum in Lagrangian?
+It is that one. It uh the K If you do
+the geometric optical limit of the field
+equations, then this is the wave
+covector.
+So, it would be the momentum, if you
+wish, of the light ray in the geometric
+optical limit.
+Okay?
+So, this is of course a key structure. I
+introduced the whole space-time
+structure to you via these cones. It's a
+key structure. Well, for another theory
+that's not Maxwell theory, a bit more
+complicated, it could actually look like
+this.
+Okay? So, then you would have to write
+down a gravity theory, a space-time
+theory with such a cone. Or it could
+look even worse. It could have any type
+of shape, right? Uh well, which arises
+as the zero shape of such a polynomial
+that comes from your matter field
+equations. Okay? So, this is the first
+thing where you see, okay, there's
+something terribly different to the
+standard case.
+But it could well be that that happens.
+For instance, uh a while ago, um it was
+claimed that neutrinos run faster than
+the speed of light. Have you heard that
+in the press?
+So, if that had been true, then there
+would be a cone from Maxwell theory,
+because light would still be there, and
+there would have been another cone,
+something like this, from the neutrinos.
+Well, you see,
+it's not excluded that somebody could
+have written down equations describing
+that. It would be dis- equations where
+the zero set of the principal polynomial
+that you calculate has this structure.
+And people gave interviews in the New
+York Times and so on. They said, "Well,
+if this is true, then we are at
+absolutely at zero. We don't know how to
+do any physics anymore." Well, it's not
+quite so bad, right? Okay. So, so please
+follow the talk.
+So, you can have that, and so this is
+the kernel, this is the zero set of this
+polynomial.
+Now, we can play a game, and the game is
+I don't want to know the structure in
+the cotangent space. I want to know a
+rele- a relevant structure induced by it
+in the tangent space.
+And what you can do, you can look at the
+gradients
+of this uh surface. And well, if this is
+a co- a surface in cotangent space, then
+the gradient is a vector.
+Well, the gradient in in tangent space
+would be a covector, that's what I
+always emphasize, but here we are we
+already have one star. We have the star
+star. The gradient to this surface is a
+vector, so we can take this vector and
+uh map it by by the actually the
+derivative map of this guy
+to tangent space. So, that's the origin
+of the tangent space at the same point
+of the manifold, right? And uh we have
+this gradient, and we can draw it in
+tangent space. Well, I can take a
+gradient at any other point. I can take
+this gradient, and I draw it in tangent
+space.
+And if I do this for all the gradients,
+then I get a new figure, a new shape in
+tangent space. In this case, you would
+get this shape.
+Okay? So, that means a shape like this,
+the zero set of the principal polynomial
+that comes from the field equations,
+immediately induces a shape in the
+tangent space via this construction.
+This is how you do it graphically. Uh
+you have to take the fiber derivative if
+you want to do it mathematically. Yes.
+From what in this cone that we uh uh
+know about, we have interpreted this
+space the the outside the cone that you
+cannot um go there. Particle Yes.
+We'll come there. Okay. We'll come
+there. We'll come there.
+If this is in cotangent space at a point
+in Maxwell theory, then the
+corresponding picture in tangent space
+boringly looks very similar.
+Okay?
+So, in this case, it looks like this,
+and there are other cases where it it
+looks more interesting.
+Okay. So, anyway, we came from a the
+theory this was imposed on us. We can,
+however, generate these structures in
+the tangent and cotangent space, and
+they will have to take the role that
+these guys took in Maxwell theory.
+Again, why are these structures
+important? They're important because
+they contain the information about the
+causal structure of the theory. I I'll
+comment on that further.
+And um actually, if you find such this
+shape in the tangent space, you can ask,
+is there a polynomial in the tangent
+space from which, in turn, this shape
+derives as the zero set? This was the
+zero set of a polynomial here that we
+derive from matter field equations. Then
+we make this construction, but is there
+an underlying polynomial that produces
+the shape? And the answer is yes, and
+this is called the dual polynomial, and
+it's totally determined by this
+polynomial. You have a polynomial on a
+cotangent space, fine. You have a dual
+polynomial on the tangent space.
+Well, not always. Not always, but we
+will see that our predictivity condition
+ensures that if you have a polynomial
+here underlying, then they have a
+polynomial there underlying, and you can
+understand these two shapes by these two
+polynomials. And in in Lorentzian
+space-time, if here in the cotangent
+space the polynomial was essentially
+given by the inverse metric, then the
+polynomial here is essentially given by
+the metric.
+But that this is the inverse of this
+one, well, that's just kind of an
+accident of linear algebra. Uh it should
+be more suitably called. If you call
+this G inverse, you may call this G
+inverse, but the metric is the dual
+of the inverse metric. Okay? So, that's
+the abstract logic beyond the special
+case.
+Okay? So, you have this. It's all very
+straightforward.
+Um
+and you have a map that points back.
+Okay? So, you can go back and forth, but
+careful, not with any vector, only with
+a vector that lies or covector that lies
+on the surface, you'll map it to a
+vector lying on the surface.
+Okay.
+So, now
+I showed you these cones. Somebody wrote
+down some theory. We don't know is the
+theory predictive? And that's the first
+thing you must check if somebody hands
+you a theory. And by predictive, I do
+not mean does it make the right
+predictions we observe? Well, that we
+have to check. But the question is,
+does the theory predict from data today
+actually data tomorrow?
+Uh does it even have the power to
+predict? And if it has the power to
+predict, then you can start questioning
+whether it predicts the right thing,
+right? It needs to go in that order.
+And so, that's the first thing, and the
+second thing is that matter is quantum
+matter. I said those are the two
+bottom-line assumptions we make.
+And now, what bearing does that have on
+the shape of these guys? How is the
+shape restricted? Well, the key result,
+first in words, and then I'll show you
+what it means, is that if you have
+matter field dynamics from which we
+started, and you require them to be
+predictive, you must have that the
+polynomial P in each cotangent space is
+a so-called hyperbolic polynomial. What
+that is, I'll tell you in a second. It's
+an algebraic property that you can
+quickly check. Okay? Just I'll explain
+it in a second.
+Now, it turns out, and so this is long
+known. So, this is standard PDE theory,
+linear PDE theory, that you actually
+predictivity has as a necessary the
+hyper-
+hyperbolicity of the
+principal polynomial. That's why it's so
+interesting, right? Because you always
+want to decide that.
+Now, a new result is that if the matter
+field dynamics are quantizable,
+a necessary condition for that is that
+this dual polynomial
+be also a hyperbolic polynomial. It's a
+different polynomial
+living in the dual space,
+but if this polynomial has the property
+of being hyperbolic, I'll explain in a
+second what it is, then it does by no
+means follow that the dual is
+hyperbolic.
+But if you have that, too, those are
+necessary conditions for our basic
+assumptions that we make about matter.
+Okay? And similarly, you can argue for
+point particle dynamics. So, we call
+this bihyperbolicity,
+and this uh these are two independent
+and rather non-negotiable
+reasons we should we would like to give
+for this
+um
+hyperbolicity, that the theory is
+predictive and quantizable.
+Otherwise, you would
+throw away the theory in the first
+instance.
+Okay.
+So, this bihyperbolicity is important.
+So, I should tell you what this
+hyperbolicity condition on the
+polynomials is. It's very simple.
+I'll explain it geometrically, and then
+we can think about what it means
+further. Geometrically, it means the
+following. Let's start with our familiar
+example. We have a light cone, right? It
+comes from a second-degree polynomial
+metric with Lorentzian signature.
+A polynomial with this zero set is
+called hyperbolic if there exists a
+direction. So, this is the start in
+in cotangent space, the origin. There
+exists a direction in cotangent space,
+this one or this one or this one. There
+must be only one. There exists one such
+that
+I can consider any line in the entire
+space that goes in the same direction.
+So, there could be a line
+that is over here or over here, and it's
+an infinite line. Okay? So, there exists
+a direction such that every line in this
+direction
+intersects the surface exactly twice.
+Why twice? Well, exactly as often as the
+degree of the polynomial is. Because
+this is a second-degree polynomial
+null surface, there must exist a
+direction, if it's hyperbolic, then
+there must exist a direction that any
+line in that direction intersects the
+cone as often as its degree says. And
+that's already the general definition of
+hyperbolicity. Take this funny thing
+here.
+There exists a direction, this case this
+one for instance, any line in the space,
+also the one right over here, right?
+Right over here, needs to still
+intersect the shape.
+This is a fourth-degree polynomial, 1 2
+3 4 times.
+Let's go back here. This direction here
+is not a direction that identifies this
+as a hyperbolic
+polynomial, because the line here
+doesn't touch the cone at all. Now, the
+cone is here like this, like this.
+And this line runs over here. It just
+simply doesn't touch it.
+Yes.
+Pardon me?
+Yes. So, the point is what happens if
+you come to the origin here, it seems to
+intersect only once, but you count them
+not geometrically, but algebraically.
+So, the algebraic multiplicity, there
+are two zeros here, two roots. Okay?
+That's the the counting scheme.
+So, it's very simple to decide that, and
+um
+in fact, the set of all the directions
+that have this property that any line in
+that direction intersects as often as
+the polynomial says has an interesting
+is an interesting structure for us is
+called the hyperbolicity cone.
+And it's those guys here, and also the
+guys that point down here. So, in normal
+language we'd say the time-like vectors
+or something like this. Okay? But we
+don't call them like this. Maybe you
+realized I I withstood calling them a
+lot like this.
+Um
+The hyperbolicity cone is so it's not
+the total set, but it's the zero doesn't
+belong to it. It's the it's a connected
+component of such vectors. So, either
+this one or that one, you can pick.
+Well, they're both hyperbolicity cones.
+Later on we'll make a pick. In the
+picture over there, the hyperbolicity
+cone is actually only the set inside
+here.
+So, although this is a very complicated
+structure, and it can be arbitrarily
+complicated, you always have a hyper if
+the polynomial is hyperbolic, there's a
+hyperbolicity cone. There's one, and
+there is also another in this case here.
+And this is by a theorem by Gårding,
+famous theorem, is always an open and a
+convex cone. So, whatever crazy
+polynomial you have, for us physicists,
+whatever matter theory you have you come
+from, it's an open and a convex cone.
+That's very important. This is an open
+and a convex cone. It's extremely
+important that it's open and convex.
+You tell me later on or somewhere in the
+tutorial, somebody, why if it's not
+convex, why you have a stability with
+photons.
+Okay. Anyway, so that's very important,
+that's always guaranteed for these guys,
+and they're hyperbolic. Remember, P is
+hyperbolic if the theory is predictive.
+So, the stability of photons has a lot
+to do with the predictivity of the
+theory. Anyway,
+so
+Now, what I already showed you is if you
+have these cones, they are they
+correspond to say the the wave vectors
+and the light-like vectors, right? In
+cotangent tangent space, you can map the
+null covectors, the P null covectors to
+the P null vectors like by this fiber
+map I had before, right?
+But now we want to do something
+different. So, I have this I can map the
+brown stuff to the yellow stuff, but no
+other vector in the cotangent space can
+be mapped over here.
+Or otherwise, from here, no other vector
+can be mapped back to here. By the way,
+this is of course raising and lower
+raising and lowering of indices, right?
+Do you see this? If you go here,
+this is the raising and the lowering of
+indices. Only here, in general, it's
+nonlinear.
+But it exists. But I can only raise and
+lower indices on the brown and the
+yellow stuff. That's not good enough. I
+also need to know how to raise an index
+on these covectors. How to go over
+there.
+And that's not possible by the same map.
+And instead, what you need is a
+so-called Legendre map that's also a
+fiber derivative, but of the ln of the
+polynomial.
+And its image might lie rather ugly in
+an ugly way over here, but that's just a
+fact of life.
+In the Maxwell case here, it's actually
+very simple. There, also the outer
+vectors, the null vectors, are mapped
+with one type of map over here.
+And the vectors inside the cone are
+mapped by an entirely different type of
+map, namely by a Legendre map to over
+here. It's only by accident, because the
+structure is so simple, that the maps
+numerically, I almost would like to say
+numerically coincide. So, they're
+usually thought of as being one in the
+same map that maps the null vectors, and
+it maps the time-like vectors.
+We always use the metric for that. And
+even worse, one has a meaning of taking
+a vector out here, and you can still,
+because it's linear algebra, you can
+extend this linear map rate that raises
+the index
+to also mapping
+space-like covectors to space-like
+vectors.
+And all seems to be the same thing.
+Well, here it simply isn't. As soon as
+the structure is a little bit more
+complicated, as your matter theory might
+dictate, it's not as simple, and you
+discover they're structurally different
+things.
+So, this is now for the inside of a
+hyperbolicity cone, you go over there,
+and you arrive there, and in fact, you
+can show, or we showed, that if both the
+polynomial and its dual are both
+hyperbolic,
+as a physicist you should think, ah, if
+the matter theory is predictive and
+quantizable. Okay, check, I want that.
+If this is the case, then also the
+inverse of this map exists and is
+unique.
+Meaning,
+if you get these structures for some
+matter type,
+only if the matter is predictive and
+quantizable, which is however exactly
+what we want, do you have a theory of
+raising and lowering indices also on
+elements in the browns in the brown
+areas here.
+Okay?
+Only remains the question, what about
+the vectors that lie neither on the
+boundary here, on the null surface, nor
+in here?
+Maybe here outside or here in between,
+and the answer is we don't know. It's
+probably not possible, and we don't
+care. It's not important. My claim is,
+also in standard theory, you never need
+to raise the index
+of a space-like vector. Has no physical
+meaning. You can do it, because your
+linear map extends to it. So, if you can
+do it, do it if you must, but there is
+no point in the theory where you need to
+do that. But you need very often to
+raise and lower the index on a null
+vector on a time-like vector, a covector
+here, right?
+Okay. So, the Legendre This one is
+called the Gauss map for historical
+reasons, and this one is called the
+Legendre map. And again, in the standard
+theory they coincide, so nobody talks
+about the difference, but there's a huge
+difference, because the Gauss map is
+actually something
+from projective algebraic geometry.
+Algebraic geometry is the study of the
+zero surfaces of polynomials.
+And the Legendre map is an object from
+convex analysis. So, because we always
+have open and convex cones, we have
+Legendre maps. Yes.
+Yes.
+No, no, no, no, no. So, in convex
+analysis, no, no. It's not We found the
+inverse for the Legendre map. This is
+well-established theory, but the point
+is, in this context, right? It's one
+needs to work a little to see that it
+can be applied.
+Okay? So, in this context, coming in
+space-time for hyperbolic polynomials,
+so you can have a Legendre map for any
+convex function on a convex cone, or
+rather stricter conditions if the cone
+has a boundary. So, normally in
+classical mechanics, where we do the
+Legendre transformation to go to the
+Hamiltonian formalism, or in
+statistical physics, where they do the
+Legendre transformation to go to other
+potentials, right? You always act on a
+whole vector space,
+space, and a whole vector space is a
+special case of a cone. A cone is like I
+think I explained this before, it's like
+a vector subspace. So, you can the sum
+of two vectors in a cone is again a
+vector in the cone, and the positive
+multiples of a vector are in the cone.
+Well, that's of course true for the
+entire vector space, and then some
+subtleties of the Legendre
+transformation are not seen. So,
+therefore we think, oh, you can always
+do the Legendre transformation.
+Actually, if the domain is a cone with a
+boundary, that's a little more
+restricted. Okay.
+Anyway, so the message I want to convey
+is very simple. You come from some
+matter model that you propose, if it's
+predictive and quantizable, the
+polynomial must be bihyperbolic. As a
+polynomial must be hyperbolic, and the
+dual polynomial must be hyperbolic, too.
+If it isn't, you can immediately throw
+out the theory.
+Yes.
+a faster than light neutrinos, would
+they
+still be moving this ground stuff? Well,
+yeah. I mean, you could for instance I
+mean, this is a special cone. If you had
+a cone like this one, then the
+hyperbolicity cone, so a double cone
+like this, the hyperbolicity cone would
+be like here. You could think that light
+runs here and that the neutrinos then
+run here and there is no problem.
+Well, that is I say there's no problem.
+You have these structures, right? You
+might here in the first case think which
+is the relevant cone. Well, for what
+it's worth, it's this
+hyperbolicity cone, but this stuff is
+also there. I show you how to deal with
+this, okay? That's the purpose of the
+whole talk, but absolutely, if you had
+Maxwell theory and neutrinos and the
+cone structure was that simple, it could
+be even more complicated to explain the
+case. We know how to deal with it. It's
+not a big mystery. It's not the theory
+is totally dead. Well, general
+relativity is, but the general idea
+isn't. That's what I'm trying to
+explain. Okay.
+So, we have this Legendre map, too.
+Now, we have the complicated cone
+structure, what's the physical
+significance?
+I just need to tell you this. You trust
+me that this is true. We checked this.
+We have many theorems
+proven on that. It's roughly as follows.
+So, you have the cotangent space, you
+have this polynomial and the null
+covectors are the momenta of massless
+particles. Well, this doesn't surprise
+you very much because that is exactly
+what it is here. But it is that not
+because we generalize from here, but
+because this is the general idea of
+massless momenta from geometric
+from the geometric limit of optics. So,
+it's rather like because in the general
+case, the massless momenta lie here,
+that's also the explanation why they lay
+lie there. Did I explain to you why the
+massless momenta are the covectors on
+the on the null cone? I didn't. Okay.
+This is the explanation. That's the
+reason. And the moment the covectors in
+the hyperbolicity cone are the momenta
+of massive particles. Again, that fully
+coincides here with the so-called
+time-like covectors being the covectors
+of massive particles. Then you map them
+over here, then you get the tangent
+vectors of null particles of massless
+particles and you get the tangent
+vectors of massive particles. Okay? And
+the space-like
+covectors
+of what should they be the momenta?
+And their image under raising the index,
+the space-like vectors, of what should
+they be the tangent vectors? Well,
+certainly not of matter.
+You don't need it.
+Okay? That's the reason why you don't
+need it. Anyway, you have this.
+And then you go to the dual space, to
+the tangent space, and there you have
+again the massless particle velocities
+as I just said and the image of this
+cone, which does not coincide with the
+hyperbolicity cone here, which in
+general is bigger than that, that's the
+massive particle velocities.
+The fact that this one is bigger than
+this inner cone here
+has funny consequences. For instance, in
+general theories that are not precisely
+this one, you can have massive observers
+that run alongside some component of
+light. For instance, in this
+birefringent electrodynamics,
+this would not be different matter, but
+would be one and the other polarization
+component of light running like this or
+this. This is why it does that.
+So, in matter
+this is reality, okay?
+In vacuum, we don't know, but in matter,
+it already looks like this.
+Huh? So, this is not fantasy. This you
+if you're a material physicist, you say,
+"Okay, yeah, yeah, I I know this stuff."
+I mean, not in this form they don't, but
+um
+morally morally.
+Okay. But here, so you can run with
+massive matter along one component of
+light and you can even run faster than
+some component of light. You just cannot
+run faster than the fastest light. That
+you can't do.
+Okay? And that gives you effects like
+Cherenkov radiation
+in here,
+but if this also happens in vacuum, also
+there.
+Now, you say, "Okay, why would it happen
+in vacuum?
+It happens in matter." Well, who would
+have thought that in vacuum you could
+have lensing?
+Right? So, it's just the assumption is
+only like maybe the vacuum is as rich in
+structure as matter is. I mean, it could
+be possible, right?
+Anyway, so this is the the picture here
+and that's the physical significance of
+these.
+Now, what is the meaning of this
+hyperbolicity cone here? Well, it's the
+velocities of possible observers.
+You know that in standard general
+relativity, the observer always runs
+along a time-like
+curve.
+A time-like curve is of course the
+hyperbolicity cone of the dual.
+So, you say, "Oh, yeah, all the matter
+and all the observers all on time-like
+curves."
+Well, here it turns out not any matter
+can act as an observer.
+Why not?
+Well, first of all, they can't,
+otherwise the whole picture becomes
+ill-defined, so it's a constraint that
+comes from a well-definition of the
+theory. And if you then calculate what
+happens to the matter that runs faster
+than a than an observer, you see that it
+will very quickly radiate away.
+So, you could say, poetically, you can
+break the speed limit, the lower speed
+limit, but you pay a price for it.
+You radiate away.
+Okay? So, in nature, we wouldn't see
+much of these particles because they
+would immediately radiate away. They
+would immediately lose energy to the
+electromagnetic field, say, and fall
+back into here, which would have been if
+this had been true with the superluminal
+neutrinos, would have been a beautiful
+explanation why never anybody saw them
+before.
+Because they're very unstable. And so,
+we were surprised why they would be so
+stable and therefore we didn't believe
+the result. Other people didn't believe
+the result for other reasons. In fact,
+the result was wrong because they didn't
+plug the socket right or something. But
+uh
+um but but this is the case. So, I'm
+just talking about things that could
+come up from matter theories, right?
+Just talking about this. I'm not saying
+this is how nature is or this is my
+proposal for nature. I say, "If you
+write down new matter theories, they can
+be perfectly predictive, perfectly
+quantizable and have this feature."
+Well, maybe we'll have to live with that
+feature.
+Right?
+So, usually it's assumed if the theory
+isn't like this, it's not predictive.
+That's just wrong. Right? Open any
+mathematics book.
+Okay. Yes.
+So, the the inverse of the Legendre map
+has a bigger domain than the
+hyperbolicity cone in the or can have a
+bigger domain. Uh uh then the hyperbole
+Yes, that's right. So, when when you
+started out with the principal
+polynomial, you wrote the indices on the
+coefficients up, so that suggests that
+we plug in a covector, but there is no
+like
+necessity to plug in a covector. You
+could have also wrote the indices down
+on the coefficients as vectors.
+Yes. Yep. That's just a Yes, you have to
+keep in mind whether it's the velocity
+of a massless or a massive particle.
+There's a very easy thing I can ask an
+exam question
+which I of course won't ask because it's
+just a special case of this theory, is
+is this a tangent vector of a
+of a massive or a massless particle? You
+say, "Well, of course, it's of a massive
+particle."
+Well, in that theory, you don't really
+know.
+Well, you do because I mean, okay. For
+for this one you do. If I ask, "Is this
+the
+the the tangent vector of a massless
+particle?" Here you say yes. In that
+theory, you don't really know because
+there could be other massless particles
+and this could be either the velocity of
+a massive particle, meaning having this
+momentum, and the very same tangent
+vector could be the tangent vector
+could be the tangent vector of a
+massless particle. These two are mapped
+to this one.
+And they say, "Okay, so it's two to
+one." No, because this one is mapped
+with the Legendre map to here and this
+one is mapped with the Gauss map. And
+under the inverse of the Gauss map, this
+one will go back here and under the
+inverse of the Legendre map, this one
+will go here. There is no problem.
+But it confuses one at first sight
+because one is used to be able to tell.
+Right? But why would you be able to tell
+from just a picture? You need to keep it
+in mind. Well, the theory has it in mind
+anyway.
+Okay? So, there is confusion that come
+up precisely because of that and
+therefore I emphasize the different
+character of these maps.
+Again, nothing if this is a model. This
+is all mathematics. It just must be like
+that.
+Okay.
+So, at this point, we arrive at a
+refined physical definition of
+space-time. Remember, I provided in the
+course at the beginning this definition
+of space-time as a Lorentz manifold,
+blah blah blah blah, okay?
+Now, we have a refined definition
+of which of course the definition I gave
+you is a special case, but leaves out
+important aspects.
+Space-time is a triple. Well, for us it
+was whatever it was uh
+a 16 member
+uh tuple.
+Um
+I have of course here a smooth manifold.
+So, the O and the A and so on, you you
+all keep in mind. So, it's a smooth
+manifold.
+But that's is a smooth manifold, then I
+have some
+tensor G which I call the geometry. It
+could have four indices like here. It
+could have 26 indices, 10 up and 16
+down. Could have all crazy symmetries.
+It could be several of those, right? I
+mean, this is just
+to convey the idea.
+And all of that we had before. We have
+the smooth manifold, we had a geometric
+structure, was a Lorentz metric a
+special case.
+But I did not say that a space-time
+consists of a smooth manifold and a
+geometric structure
+and a matter action. I didn't talk about
+matter actions until very late, you
+remember?
+In fact, what I should have written is
+space time is a smooth manifold with a
+Lorentzian metric in order to introduce
+the standard theory and the Maxwell
+action.
+Why?
+Because I do not have the slightest clue
+how to interpret this structure if I do
+not use matter to probe it.
+I can say, I can claim in this room here
+we have a Riemannian metric. I mean, in
+space time, in our portion of there's a
+Riemannian metric, plus plus plus plus
+plus.
+And then we can have long philosophical
+discussions whether that's a good idea
+or not.
+But what you really have to do, you have
+to check.
+You have to use matter to probe the
+structure of space time. For instance,
+you have to look at Mercury, that's
+matter. It goes around the sun and it
+makes this little
+procession and so on. So you say, ah,
+okay, so if I really want to understand
+this and with the light deflection and
+so on,
+there must be a Lorentzian metric. Then
+I have Maxwell theory, it must be a
+Lorentzian metric because Maxwell theory
+on a Riemannian metric is not
+predictive.
+The hyperbolicity in the metric case
+means Lorentzian signature. That's the
+next thing that's explained.
+So if you ask, why do we take a
+Lorentzian metric? Actually, somebody
+asked me that the other day. There's a
+very clear answer.
+If you do Maxwell theory on a non Lor-
+on a metric background, but it's not a
+Lorentz metric, then from initial data
+you cannot predict the future data. You
+simply cannot.
+Okay? Here's the explanation for the
+Lorentz signature, but in general it's
+not there's nothing about signature,
+it's about the bi-hyperbolicity of the
+polynomial. So I say, if you want to
+talk about space time in a meaningful
+way, say it's this manifold, say it's
+this geometric structure,
+but then tell me which matter you use
+and only that gives meaning to the
+geometric structure.
+So it's a smooth manifold
+so field G which we call the geometry
+because we like to and a test matter
+action, matter that probes this.
+And this triple must be such that the
+associated
+principal polynomial and its dual that
+you get from the matter action are both
+hyperbolic. So this is in a sense the
+Lorentzian condition in the metric case.
+In the if you take a metric a Maxwell
+theory, that's the Lorentzian condition.
+And of course you can write and you need
+a time orientation, da da da da da, you
+can all put on top. This is the
+essential thing.
+It makes no sense to ask, is space time
+maybe
+does it maybe have this structure?
+You need to ask, does it have this
+structure combined with that and that
+matter theory being coupled to this
+structure? Then we start talking and
+then you're closer to experiment.
+The question whether metric the space
+time geometry is a metric geometry is a
+philosophical question.
+How would I ever test this? Use matter,
+so you need to provide the matter in
+order to make a coherent whole. So
+matter and space time are not so
+separated as one thinks, not even in the
+basic interpretation.
+And if you now think historically, this
+is exactly what happened. Einstein
+stared at the Maxwell equations and he
+saw, oh, there's this relativistic stuff
+in there and the whole interpretation of
+observers and measurements and all of
+that
+was fixed. Einstein didn't dream this
+up, it was fixed by the Maxwell
+equations and this formalizes this. But
+we don't need a new Einstein to do this,
+we just look at the mathematical
+structure of the theory, we say, okay,
+we do it like Einstein, but with the
+mathematics we have here, okay? So
+that's the that's the good thing.
+And so what I want to emphasize is that
+the physicality of the assumed space
+time geometry
+depends on the matter.
+I have here three exclamation marks,
+always difficult to remember. So I think
+the first exclamation mark is that I
+say, isn't that remarkable? Isn't that
+remarkable that we need to provide
+matter in order to understand what we're
+even talking about, even if I put the
+geometry on the table.
+Second, it's remarkable because it
+explains so many of the questions some
+people did ask and other questions
+people could have asked. Why do you use
+a metric? Well, because it underlies
+Maxwell theory. Why do you use a
+Lorentzian metric? Well, because
+otherwise Maxwell theory is not
+predictive. Why do you raise and lower
+the indices like this? Well, because you
+always need to because that's the
+duality between the spaces. Why do you
+raise and lower null and time like
+vector indices and co-vector indices and
+vector indices
+in the same way? I say, well, that's an
+accident.
+Okay? That is not generic. But you see,
+the history of modifying gravity, of
+doing it differently is a long and
+winding one
+and many proposals have been put forward
+by Einstein himself, for instance, to
+have a non-symmetric metric tensor. He
+says, why would this metric be symmetric
+in its two indices? Maybe if we have a
+non-symmetric one, we have more degrees
+of freedom, maybe we can have a better
+theory that explains more, is more
+refined and so on.
+And then they started constructing
+inverses of this object, right? And that
+is where the whole trouble starts
+because why do you do an inverse? Well,
+because that's
+structural, the formal analogy to what
+you do in GR. Well, formal analogies
+mean very little. You need to understand
+why you did it in GR like this and then
+you can follow the why and do it the
+same, but don't just copy something
+formal. In fact, what you need, you
+don't know how to go from here to here
+unless you have matter. If you have
+matter, it's the matter that tells you
+how to go from here to here. It's the
+principal polynomial that tells you how
+to go from here to here. But the
+principal polynomial you get from this
+structure G
+only by looking at matter whose
+principal polynomial that is.
+And so then one understands why on
+Earth, if you have a matter action, say
+for a point particle, why you actually
+need to write
+why the point particle has actually this
+Lagrangian.
+Why does it have this Lagrangian? Well,
+because if you from this Lagrangian you
+see how you have to raise and lower
+indices, you know that the momentum
+index
+is something
+like this, you pull the index on the
+velocity and you get the momentum. But
+the velocity is a kinematical quantity
+and the momentum always
+depends on your Lagrangian, you know
+that from classical mechanics. You
+cannot calculate a momentum without
+knowing the dynamics. Well, but if this
+is the association of momenta to
+velocities, how on Earth would you make
+them if you don't know what matter
+you're talking about?
+You see, a lot of the stuff we're doing
+by raising, lowering indices and vectors
+go to co-vectors, we do this as if this
+was written in stone on a Lorentzian
+manifold. This is only like this because
+we always substitute Maxwell theory as
+the one theory that tells us how things
+go.
+Okay?
+Okay, so this is the physicality of the
+assumed
+space time.
+So, um, and that's only a slight, you
+see, this is a slight redefinition, it
+actually is not a redefinition, it just
+makes precise what before we just
+introduced tacitly, usually with the
+statement, this is what Einstein told
+us.
+Okay? So, so so far again I emphasize,
+this is maximally conservative, it's
+only
+studying what underlies the standard
+theory logically, but once you
+understand this, you can apply it to any
+matter theory and that's the beauty of
+it. Especially the beauty, in fact, of
+having so much matter around us that we
+don't understand matter and energy. Who
+knows? Who knows? We are prepared here.
+Okay, so this is this thing, you
+understand the space time if you
+understand matter on it and before that
+you understand very little.
+Now,
+everything is fine for a given space
+time geometry, I now understand how this
+works. But how on Earth is this
+new structure that you identify by
+looking at matter that requires it,
+how on Earth are you going to give this
+new structure dynamics?
+Also, that has been undertaken quite a
+lot. Einstein, Schrödinger, Eddington,
+Moffat,
+and hundreds of people have tried to
+formulate new gravitational dynamics for
+new geometric structures.
+It's not
+it's not an idea that wouldn't present
+itself. The question is, how do you do
+it?
+And I think in the past people followed
+too much the formal analogies and always
+ran against some wall or the other.
+Well, so let's try to do a little better
+than that.
+So let's go to gravitational dynamics.
+Well,
+so this goes very close to what Nico
+Giulini was telling you about the
+standard theory,
+um, but I will try to explain
+independently of what he said because I
+do not assume that all of you fully
+studied that because it's excluded from
+the exam. But you should, it was a
+fantastic lecture and actually what he
+said is a very important point of
+understanding gravity, but I'll start
+anew.
+Let's look at space time.
+So again, as always, I have to reduce
+one dimension because otherwise I cannot
+draw a picture of space time. But let's
+assume here this three-dimensional space
+is a picture of space time and I start
+with the view, maybe a little
+Western-centric, of an internal God.
+Okay.
+So how would an internal God view space
+time? Well, he just looks at it, tada,
+there it is. And he knows the history of
+the entire universe. So if there's a
+particle running here, well, so this is,
+uh, 2,000 years ago, this is today, this
+goes on. Just God, this is
+just boom, looks at it and he knows
+everything at once. Okay? This is, uh,
+a view and this is a little bit, uh, the
+megalomaniac view of theoretical
+physicists who say space is a
+four-dimensional manifold, the world
+line is there and
+okay.
+But in a sense in space-time nothing
+happens because it just boom is. Okay?
+Um obviously if we had if we could
+afford this view
+we wouldn't need physics
+cuz I can predict by looking.
+Aha, tomorrow this is going to happen,
+right? So
+Okay.
+Now however, if you're God then
+it's lonely up there. And
+so what you could do, you could play a
+game.
+And God says, "Okay, just for fun,
+let's in my space-time which I overview,
+let's put some arbitrary surfaces. Okay.
+And he might put their surfaces that are
+such that the co-vector is always
+the dual vector to a to a tangent to a
+world line. In other words, he could
+say, let's take a space-time
+hypersurface. I don't know why God would
+be interested in space-like Sorry, in
+space-like hypersurfaces, but let's
+assume he does. That's the game he
+plays.
+And he has this big geometry sitting in
+space. It could be a metric, a
+Lorentzian metric for instance, and he
+decides to look at the metric it induces
+on these
+surfaces. It's a little bit like me
+saying, "Oh, let's put a little sphere
+here and let's study how the sphere
+works, right?" There's a little bit Why
+would I do that? Well, I I'm bored. So I
+study spheres. Okay? So he's bored and
+he studies the spatial hypersurfaces
+just for fun.
+And he knows okay, he knows the induced
+geometry on this one, on this one
+because they all come from the big
+space-time geometry we're also
+interested in.
+And then he continues the game he says,
+"Aha,
+wouldn't it be funny to study
+how the geometry on here changes if I
+slightly deform this hypersurface by a
+lapse N and by a shift shift N alpha.
+You remember that from Giulini's
+lecture? So you
+shift it up a little bit everywhere and
+then you move it a little bit and then
+you have an infinitesimally close other
+one.
+Now God plays this game in two ways. He
+said, "Well, I produced other surface
+and then I just look what is there
+because he can look.
+But he can say, "But it's a funny game.
+I take the data here and I just say how
+I deform the surface and I calculate
+by derivatives how it looks like. And
+then I compare and I calculate it right.
+Okay? Of course, all this is totally
+silly when God plays this game. It's
+really just because it's so boring up
+there. Okay? So that's the God view and
+of obviously I will come back to this
+point, right? So it's a it's a
+pedagogical game.
+So that's God. Now we have us
+or some of us.
+The homo sapiens.
+And our access to space-time is
+different. Our access is we have a very
+short lifetime or our experiments have a
+very short lifetime. We switch them off,
+on and then we're off again. So this a
+little bit this kind of pace. And
+because of the short lifetime and also
+because of the finite length of my arms,
+I have only limited access to space
+around me.
+So however big you are and long-lived,
+you experience something like this. And
+also the experience of any experimental
+apparatus we have. What's the longest
+running experiment in history?
+Gerhard?
+Well, if you don't know, I don't know. I
+don't know. But anyway, it looks a
+little bit
+It looks a little bit like that. Okay?
+So we have a problem if we want to
+compete with God in knowing what's going
+on up here, we're at a serious
+disadvantage.
+Very serious. We just don't know.
+Now this is homo sapiens. Now homo
+sapiens sapientissimus, right?
+Says, "Okay, this
+little piece of cake this too complicate
+for me. I make a little abstraction. I
+linearize
+what happens away from right now. I
+linearize that. So instead of collecting
+data in the piece of cake, he collects
+data on the plate on which the cake is
+served and he linearly approximates
+what's happening in the cake by
+providing to these initial data also
+initial velocities.
+Roughly speaking. And that can also
+apply to the geometry, right? And
+Giulini showed this, right? He had the
+geometric fields and he had the momentum
+fields. It's a bit funny what how
+geometry has a momentum, but if geometry
+is just a field, why wouldn't it have a
+momentum, right? So but this is just a
+linearization
+of we know a little more. But if you
+want to measure the momentum or say the
+velocity of a bird, you look once and
+you look again and you need a finite
+lifetime to do that.
+If you just live in one instant, you can
+never see velocities. You just see the
+picture and then you're dead. Okay? But
+but if you live a little longer, you can
+look look again and then you can
+approximate a velocity. Well, that's
+roughly this. Okay? So giving initial
+conditions consisting of a position and
+a velocity is the first step to
+competing with God because the velocity
+tells you what happens the very next
+moment.
+But that you still get by observation,
+you must get by observation.
+Okay. Now you have the initial
+conditions here, position and momentum
+or velocity or in geometry initial
+geometry and the first order change of
+the geometry, but then your life is
+over.
+Okay?
+More or less.
+Now how do you compete with God? Well,
+you still are not very close to
+competing with him of saying what
+happens here. He just looks and you're
+dead.
+What do you do? What brings you closer
+to God?
+A Hamiltonian.
+A Hamiltonian brings you closer to what
+The Hamiltonian eats the initial
+conditions
+and evolves them.
+Isn't that what Hamiltonian mechanics
+Okay, this is it now geometry and
+velocity. Let's say it's geometry and
+momentum, it's the same thing. It devel-
+evolves the initial conditions.
+So we need Hamiltonians or Lagrangians
+or whatever is equivalent or equations
+of motion because we're not God, because
+we're human. Humans need equations of
+motions in order to say from the now
+what is the tomorrow. Is that right?
+That's exactly it.
+Haha, we're we're close. So
+how do we Now the question is, what is
+the Hamiltonian? What is the Hamiltonian
+that brings me from here to there? Well,
+that's exactly the question we're asking
+in this lecture. What is the Hamiltonian
+of the new gravity theory? Or of the old
+gravity theory for that matter. What is
+it?
+Well, it's the Hamiltonian that makes
+you compete with God.
+So now we come back to our little God
+game here. Giulini actually explained
+this well, he mentioned it. He said this
+constraint algebra. Do you remember the
+H's and the D's? The constraint algebra
+he said you can get from purely
+kinematical deformation algebras. You
+don't need to know the dynamics first,
+you just know the geometry and you know
+how to deform one hypersurface in the
+other and you know how to study how the
+data changes.
+If you know that, you can write down the
+constraint algebra. Okay. Now
+let's look at this.
+So
+the play a game God is playing is
+actually he's embedding Giulini called
+this little E sub T, I call it X sub T.
+You're embedding the same space spatial
+manifold, the same three manifold again
+and again and again into space-time in a
+certain way. In which way? It doesn't
+matter. Must be space-like surfaces,
+right?
+You do embed that.
+And then you choose coordinates on your
+space-time and you choose coordinates on
+your abstract three manifold. Okay? And
+actually that is that is the path you
+actually give it.
+So and now the geometry on here is just
+the pullback of the metric from up here
+along this embedding map.
+It's a pullback.
+Okay, so that's the game God is playing
+a little bit more diagrammatically, but
+we did all of that, right? We did
+pullbacks and stuff like that.
+Now God's game that I explained before
+can be expressed in terms of deformation
+operators.
+What do you do? Well, let's start with
+this one. This is the tangential
+deformation operator. Did he call it H
+and D? How did he call it?
+Aha.
+Okay.
+Anyway, the deformation operators
+um
+Here you use you say this is the N
+alpha, that's the shift and the lapse
+appears up here. That tells you at every
+point of the manifold embedded manifold
+how much you go to the side
+and this N here tells you how much you
+go up. But let's start with how much you
+go to the side in the direction of the
+tangent vectors. All fine. And this is
+just a functional derivative that acts
+on the geometry. Roughly speaking, this
+tells you how these data change if you
+go a little bit to the right. You can
+only calculate it when you're God
+because you need the functional
+derivative, but derivatives mean you
+need to know it here in order to
+compare. Okay? But anyway, that's the
+game God plays.
+A little bit more interesting is this
+one. You have here the deformation this
+direction and the tangent vectors down
+here to a hypersurface. They're always
+given. You have a hypersurface embedding
+and you can always calculate the tangent
+vectors.
+But here what you need is a normal
+vector.
+But a normal vector you cannot you don't
+get for free. If you have a
+hypersurface,
+what you can calculate is a co-normal.
+You can calculate a normal co-vector
+which if you feed in all the tangent
+vectors, annihilates it.
+In other words, you can calculate the
+gradient to the hypersurface, but the
+gradient is a covector, okay? We know
+that.
+Aha, so if this is embedded and the
+gradient is a covector, we have a
+problem because in order to go away from
+the hypersurface in a certain direction,
+we need to convert the covector, which
+is more like something like this, into a
+vector.
+Which is exactly
+this kind of map.
+You need to take a hyperbolic covector.
+Why a hyperbolic one? Because there is
+the theorem that a hype an initial data
+surface must always have a covector, I
+indicate like this, that lies in the
+cotangent space inside the hyperbolicity
+cone.
+So in order to convert the normal, the
+gradient to an initial data surface,
+that's the game we're playing here,
+in order to convert that gradient into a
+direction,
+you need to know how to go from here to
+here. Agree?
+But how do you know to go from there to
+there? You only know if you have matter,
+if you understand your matter, only then
+do you really know that.
+Thank God we postulated matter in our
+definition of spacetime. It's the matter
+we postulated and it will depend on that
+matter through its principal polynomial
+of how the hypersurface
+gradient is converted into a direction
+that co can go into here so that you
+know what you mean by a normal
+deformation.
+So in this whole picture, there is one
+single point where physics comes in.
+This is all clear, this is all logically
+clear, but where's the physics coming
+in? The physics comes in right here.
+The construction of this normal vector
+is actually the Legendre image
+of the gradient of the normal covector
+of the gradient to the surface. But this
+Legendre map was, in general terms, not
+in Einstein theory, but quite generally,
+the Legendre map was the fiber
+derivative of the ln of the polynomial.
+And the inverse Legendre map going back
+was that of the dual polynomial.
+Okay?
+So the Legendre map
+takes you there. But this P is the
+principal polynomial of the matter you
+have on your spacetime.
+So that means
+if God is playing this game in this
+divine view of spacetime,
+then we can compete with him if we know
+that the direction that's chosen here is
+this one. You say, why would this This
+is the conversion from momentum to
+velocity. That is right.
+That is right. It's the conversion of
+momentum to velocities for time-like, uh
+so for massive momenta.
+That's right. That's right. And this is
+the one and only step we identify here
+and there will be no further where
+physics goes into the derivation of
+gravity.
+Exactly, then it comes from matter.
+Gravity comes from matter in precisely
+this point.
+Okay, good. So, aha, so we have that.
+Now God plays his game with these linear
+functional derivative operators, okay,
+that's an easy game. We unfortunately
+have to play a more complicated game. We
+have to represent this here not on the
+space of all geometries on the
+spacetime, we have to represent it as a
+Poisson bracket action on initial data.
+You know that if you do a Hamiltonian,
+well, you can think of this to first
+order as a a Hamiltonian acting on
+positions, you know what you get. You
+get the Q dots and so on. Now it turns
+out the Hamiltonian of gravity is the
+sum of these two, that's what you
+actually can check in Giulini's lecture
+for the special case of Einstein gravity
+coming from the dynamics, we have to
+represent these operators here by
+Poisson bracket operators where one slot
+is filled with two representations of
+these two objects
+in order to evolve. Well, that's the
+game we have to play, Hamiltonian
+dynamics.
+But how on earth are these two guys to
+be chosen?
+How does the world work?
+Well, if you look at this, you say,
+"Aha, we could calculate the algebra of
+these guys
+and require that these guys satisfy the
+same algebra."
+Because that's the information that's in
+there. So let's do that. You take these
+guys, these deformation operators, and
+you calculate from them the deformation
+algebra.
+Now here, this is the degree of the
+polynomial. This is the polynomial, if
+you ask, "Why does it only have two
+indices? If a higher degree polynomial
+should have many more indices." Well,
+these are these two and the remaining
+ones are filled with the K vector.
+Anyway, this is
+the general notion. In Einstein gravity,
+you have degree P is two and this is the
+inverse of the spatial metric on your
+hypersurface. But this works, this comes
+out, this is a calculation, this works
+in our fully general theory. And it must
+work like that for mathematical reasons.
+So you have an algebra, it's the algebra
+of God's little game operators. In order
+to compete with him, these objects must
+satisfy the same algebra because
+otherwise you're playing a different
+game.
+So we want to impose this algebra on
+these objects and then we can actually
+determine these two objects, the ones
+that represent that, and that is
+something we did.
+And it's a very complicated problem
+because in this algebra the H's appear
+squared. I mean, you see HH, it's a
+quadratic problem in the H. It's very
+difficult and it's not even a Lie
+algebra, I think Giulini also emphasized
+that, um because uh here there are no
+structure constants, they're structure
+functions.
+So it's not a Lie algebra and that makes
+it very, very difficult and hard uh
+despite the uh space on which this is
+formulated being infinite dimensional
+geometry space, whatever, the point is a
+hard problem.
+But once you solve the problem, I'll
+show you in a second how to do that, you
+get these two objects and the
+gravitational action, one can show,
+looks like this.
+Meaning, you start with matter, you
+calculate the principal polynomial, you
+put it into here, that's the only thing
+you really need from the matter at the
+end of the day.
+You put it into here, you calculate the
+algebra, this is always the same
+algebra, you don't even need to repeat
+the step, you start from here and you
+find this representation.
+Once you have that, you have the gravity
+Lagrangian. You found the Hamiltonian of
+the geometry.
+Right? Now, how do you solve this very
+complicated representation problem?
+Well, as I said, it's a quadratic
+representation problem.
+You can convert it into a linear
+distribution function differential
+equation, still terribly difficult. A
+linear distribution differential
+equation, still too difficult. You can
+finally convert this into a linear, even
+homogeneous linear system of partial
+differential equations. The price you
+pay is it's uncountably infinitely many.
+Okay? And that's the system you have to
+solve and here it is.
+Okay?
+Now, the point is this looks terrible,
+but it's not bad. So
+this is the Lagrangian of gravity and
+you
+expand it in this case and you want to
+calculate these coefficients capital C.
+If you have them, you have the
+Lagrangian.
+Now for these coefficients capital C
+with varying number of indices, you have
+six equations. That's not finitely
+infinitely many, you have six.
+And then you have five sequences.
+Uh so that's five times infinity, okay?
+So you have in total infinitely many
+equations and the C's in there are the
+ones you want to determine because
+they're the coefficients of your
+Lagrangian expansion. And the other
+coefficients, the U and the S and the T
+and the V and whatever names we gave
+them,
+you simply calculate from the principal
+polynomial.
+It's a recipe. It's one
+A4 page recipe. Blah blah blah blah
+blah. It's very boring, so Max can tell
+you about how boring it is.
+So
+you you calculate that for the matter
+type you have.
+Okay?
+And then you solve the resulting
+equations always have this form, it's
+only these coefficients change to the
+equation coefficients and then you
+calculate these C's that are the
+coefficients up here.
+And then you have your gravity theory.
+Now um
+I mean, actually it is fun to solve that
+stuff.
+Particular, say you start with Maxwell
+theory, you calculate this polynomial,
+you go in, you calculate the the U V M Q
+T and S coefficients, you plug them in,
+you still have infinitely many
+equations, need to be very organized,
+and then you start solving them.
+And then you solve them and if you start
+with Maxwell theory, tada, in the end
+what comes out is that the L up there
+expanded in the C's is the square root
+of minus G R plus lambda over all factor
+one over, well,
+let's say one over G.
+Undetermined because it's a system of
+differential equations, you have
+integration constants, undetermined, you
+have integration constants, but that is
+it.
+Okay? If you start with Maxwell theory.
+So Einstein gravity is the gravity
+theory that produces solutions
+that are such that
+Maxwell theory can live on it and is
+predictive and quantizable.
+That's the game.
+Now, so the point is the problem of
+finding a gravity theory is not working
+in a patent office, it's actually
+solving these equations.
+Okay?
+So if you have new matter
+that you
+for like Maxwell, think always, people
+talk of Maxwell theory fundamental
+theory like the other standard model.
+What do you mean by fundamental theory?
+All physics is phenomenology.
+There comes Ampere and there comes
+Faraday and they work with their little
+magnets. I mean, you actually in in
+fact, so if you think what this really
+means.
+You work with you know these experiments
+from high school. You have a current
+running through a wire and you put your
+little magnetic needles around it and
+they arrange themselves in in this
+shape. And the other thing is you have a
+dynamo on your on your bike and it
+produces light. Okay? Because it turns a
+magnet and tralala.
+Ampere and Faraday, two very simple
+things. You put them together, if you're
+Maxwell, you say, "Okay, there's a
+current term missing, the displacement
+current in order to get the continuity
+equation right." Okay, minor stuff,
+peanuts. Okay. So, you put this
+together, but it's actually these two
+experiments that you do in high school
+that everybody knows actually about it.
+That imply
+this.
+Which implies the Big Bang.
+I mean, this is an amazing stretch
+of connection, right?
+It's quite remarkable. Okay, but now
+assume maybe today the people who look
+at dark matter or dark energy more
+likely the candidate.
+You look at this and one day some new
+Faraday and Ampere will come and say,
+"Well, I have these nice little
+equations that explain this stuff." And
+then a new Maxwell comes and says,
+"Okay, and seriously people, let's put
+this together in a meaningful way."
+Whatever, whatever the windings of
+history will be. And I'm fantasizing
+very clearly. It could all be very very
+simple, but it could be like they write
+down new equations. Well, what to do
+then? Well, very simple. You calculate
+the principal polynomial, plug them into
+these equations here and you solve these
+equations. However easy or hard that
+will be.
+Or other alternative, NASA is looking
+for this. They're looking for
+birefringence in vacuum and they don't
+find it. Okay? And so, they're bounds on
+that and so on. But I ask, "How would
+you find it? You don't even have a
+theory that describes this properly."
+Well, we do. You take Maxwell theory, if
+it's still linear, if it's still
+superposition, you take Maxwell theory,
+but with this Lagrangian.
+So, L Maxwell or Lagrangian density is
+the square root of minus G. You have the
+FAB FCD. So, normally you would use two
+metrics to to tie these together to the
+F squared action. But now, you just use
+GABCD,
+this kind of object which gets then
+induced symmetries like
+square here and there's an exchange
+symmetry, whatever.
+And this is what explains linear super
+birefringence in materials. It would
+also explain birefringence I would
+encode birefringence in the vacuum.
+Okay. So, here you have a theory can
+calculate the principal polynomial, blah
+blah blah. You you you understand the
+drill. So, what one needs to do and
+that's actually one of the projects that
+Max and other of my students are working
+on is to derive the gravity theory that
+consistently underlies the assumption
+that there could be something like this
+in space-time.
+And then you have a prediction where the
+effect will be strong. If you just point
+your telescope somewhere and say, "Oh, I
+don't see birefringence." That's not
+particularly convincing. You can also
+point your telescope somewhere and then
+say, "Oh, there is slight bending." You
+need to look precisely where it is or
+you get yesterday you calculated the
+radiation of the binary pulsar. You need
+to know what you're looking for in order
+to discover that object, right?
+Otherwise, it's not a Nobel Prize if
+everybody can see it. Right? And so, the
+point is you can calculate the gravity
+theory underlying. So, even if you don't
+wait for dark energy to be somehow put
+into equations in a hundred years in
+order to carry this through, you can ask
+questions many people are asking. But
+instead of just parameterizing some
+deviation in the standard theory with an
+extra term, you have a well-rounded full
+theory of the matter and the underlying
+gravity.
+And it is not Einstein gravity. So, the
+question is which matter gives you
+different gravity than Einstein gravity?
+The answer is whenever the matter has a
+principal polynomial that's different
+from this one.
+Okay? And that is whenever the principal
+the cone of the principal polynomial
+looks more complicated than the double
+light cone.
+As simple as that. So, every matter,
+however complicated it is, that has this
+principal polynomial,
+that's standard matter. So, for
+instance, one second. For instance, you
+know, you have the Dirac algebra, right?
+Who's seen the Dirac algebra?
+So, they ain't curved space and
+something like this. So, there's
+something like that. Right?
+Why?
+Why? Because Dirac told us so. Well,
+because
+exactly because
+if this is the Dirac equation without
+mass, say,
+you can calculate the principal
+polynomial of this. What you guess it
+will be?
+It's PKK equals G inverse KAKB. It's the
+principal polynomial of Maxwell theory.
+That is the reason why you need these
+guys to be like that.
+Dirac matter, standard matter there.
+Okay?
+Anyway, I I could tell a lot about this,
+but you get the picture. Yes.
+Does the
+degree of the principal polynomial then
+also relate to the number of
+presentation constants?
+No, it's
+it's very hard to say. So, the question
+you ask is if you go in with a certain
+type of matter,
+you can classify it according to the
+degree of the principal polynomial, to
+the rank of the tensor that underlies it
+and whatnot.
+The answer to your question, how many
+degrees of freedom are there in the
+gravitational theory,
+requires that for that matter you solve
+these equations or you find an abstract
+way,
+the way of existence and uniqueness and
+whatever you, huh?
+To study these equations without solving
+them.
+So, for instance, the question, is there
+an alternate not alternate, is there a
+gravity theory that can underlie
+this type of matter whose equations I
+put down?
+Is there a gravity theory? That's the
+question mathematically, the question of
+existence of a solution of the system.
+Well, is there one or are there many?
+Well, that's mathematically the question
+of uniqueness of solutions.
+And what on earth is the theory
+concretely so I can calculate? That's
+the question of practically solving the
+equations. But all of these are physi-
+are mathematical questions. So, we
+converted this grand physical question
+of what a modified gravity theory could
+be
+to input from experiment and
+observation, matter input,
+phenomenological input,
+and then we just carry through what
+logically is demanded and we convert it
+into a purely mathematical problem.
+And it is as hard to find such a new
+gravity theory as it is to solve these
+equations.
+But again, so now you could ask could
+one do perturbation theory and so on.
+These are all stuff. This is all stuff
+we're following. Okay? Yes. Uh Dirac
+equations describe spin half particles.
+Yes. I have not seen a spin half
+particle which is massless. So, I'm not
+sure if this can work.
+Yeah, some problems very easily fixed.
+It's still the same principal
+polynomial. But are there some It stops
+up Why why is it the same principal
+polynomial? Because you only need to
+look at the highest order term as I
+instructed you. But what about spinorial
+tensors in these equations?
+Um
+we don't have them because as I said,
+if you start with a smooth manifold as
+your bottom line,
+every study needs a bottom line. You
+start with that as the bottom line. Then
+at first, you can only consider
+tensors. Once you identified the
+principal polynomial with some test
+matter,
+right? Then you can redo Dirac's
+question and you can say, "I want now
+also other representations."
+But now, it will not be a binary algebra
+uh that you need, but you will need a
+degree P array algebra. So, it's from mu
+to sigma and these guys run both So,
+these are degree P many. This is the
+principal polynomial. This is the new
+Dirac algebra and it's no longer a
+problem of binary algebra where you have
+two entries. It's a problem with degree
+P many entries.
+And one can show that. So, that's what
+one of my PhD students studied amongst
+other things on on these space-times,
+how you can establish non-tensorial
+matter. That is how it goes. And in the
+special case where the polynomial is the
+metric, it looks like this. This is why
+the indices are up.
+Because actually the the polynomial, the
+principal polynomial in the Dirac
+algebra.
+Okay?
+Okay. So, you solve these guys. So, the
+problem of finding modified gravities
+key theories, but modified always sounds
+like we we want to modify. We don't want
+to modify, but if matter demands it, we
+will and that's the way to do it. It's a
+mathematical question. We reduce it to a
+purely mathematical question.
+There are no free parameters in the
+theory. It's not of the type you add
+some terms and then, "Oh, they're so
+highly suppressed, but I still believe
+in it." or something.
+You get these equations and they are
+what they are. You solve them and you
+will get parameters because they're
+differential equations. You will get
+undetermined stuff.
+And see how useful that is, right? And
+then, the only thing you need to make

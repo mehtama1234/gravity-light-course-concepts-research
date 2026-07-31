@@ -1,0 +1,1740 @@
+this program is being presented to you
+by the heras international winter school
+on gravity and
+[Music]
+light okay so let's
+continue so welcome to the uh second
+Central lecture uh this is lecture
+two
+manifolds
+we talked about topological
+spaces and it's a fact of life that
+topological
+spaces
+um there are so
+many that
+mathematicians cannot even classify
+them
+that may be a statement that's a
+function of
+time but in fact there are many
+topological Notions a house of space a
+connected space a parac compact space or
+a compact space and so on and if you
+take all the Notions ever invented that
+are topological Notions that are
+properties of a topological space that
+are defined in terms of the topology and
+you make a big chart and you say this
+set
+has the notion has not the notion has
+the notion has not the notion even
+Notions that are not Boolean valued yes
+or no it has the notion or not there are
+Notions that are group valued and so on
+so that is this group that is that group
+you take this whole all the the Notions
+and then you ask are there any two
+topological sets that are not
+homeomorphic so between which there
+exists um not an invertible in both
+directions uh continuous map which Maps
+the topology one to one to the other
+topology such that all the Notions uh
+okay now got G so the question is can
+you decide on just click ticking the
+Notions or not whether the two spaces
+are homeomorphic or not and the answer
+is there is no such set known of
+topological Notions that you could do
+that so for any set you come up with
+they are counter examples so they're not
+classified um well okay that's a
+mathematical problem uh a physical
+problem is really that many sets that
+you give a topology they resemble what
+we think of SpaceTime so little uh that
+they're not deemed at the moment they're
+not deemed to be useful as models for
+SpaceTime but there is a very special
+type of topological spaces so I write
+for SpaceTime physics classical
+SpaceTime
+physics we um May
+Focus
+again a statement that may be a function
+of time uh we may focus on topological
+spaces remember that's a pair of a set
+and the chosen
+topology that can be
+charted that can be
+charted
+very or
+analogously
+to how the surface of the
+Earth is
+charted and if you buy many charts that
+cover the surface of the Earth uh in an
+atlas and an atlas and a chart you can
+buy in a
+shop
+but you don't need to because we can
+construct
+them so this special
+type of topological
+spaces these are called
+topological
+manifolds so we start with the
+definition
+definition a topological
+space m o so so so you got my my My
+Philosophy here
+I do a little bit of imprecise blah blah
+blah in order to give you an idea but
+then comes the Precision afterwards okay
+and of course you in the future only
+refer to the
+Precision okay so a topological space m
+o is
+called a d
+dimensional a d
+dimensional
+topological manifold and I already use
+my favorite short cuts here top my
+manifold topological
+manifold if so there's a condition so a
+topological manifold is a topological
+space with an extra Condition it's this
+charting condition it says that for
+every point in the
+set there
+exists an open set u open with respect
+to the topology o of course containing
+the
+point can say it's an open set around
+the point exists an open set containing
+the point such that there
+exists a map
+X from this region open set in the
+manifold
+into r
+d and this D that features here
+is the D that features
+here to Rd such that now comes the
+actual
+condition um first of all such that X is
+invert okay you see already ah so it
+goes to Rd that's correct but of course
+it doesn't need to be
+subjective one could always make it
+subjective but let's say it's not it
+goes to the image
+of the domain under the chart X and that
+is supposed to lie in Rd okay such that
+X is
+invertible that means there is a map X
+inverse that goes from the image back to
+you okay it's the first condition the
+second condition is that X is
+continuous now you say aha
+continuous you need to tell me what the
+topology is on this set Ah that's not a
+problem because this is a
+subset of the entire manifold of the
+entire topological space and this is an
+open subset it's not a problem to
+establish a topology here and here this
+is a subset of Rd so on this m we of
+course have the topology o and on this
+Rd we choose because nothing else is
+said we choose the standard
+topology and with respect to those we
+require X's continuous and then the
+third condition is that the inverse of X
+is also continuous and of course you
+learned from the example in the last
+lecture that if the a map is continuous
+in one to one it still doesn't mean or
+invertible it still doesn't mean that
+the inverse is also continuous but
+nevertheless here we require
+it that's
+it it's a very simple
+definition yes pardon
+me topology
+orology so I take a set with a given
+topology whatever it
+is and this topological space is called
+a topological manifold of Dimension D if
+now it gets complicated for every point
+of this set there exists an open set in
+this topology whatever it is doesn't
+need to be the standard topology and it
+can't be because if m is not Rd I don't
+even know how to define the standard
+topology a some topology exists an open
+set containing the point but there
+exists not only such an open set but
+there also exists together with this set
+for every point there exists an entire
+map so a lot of data whose existence I
+require here there exists a map that
+takes every point of the set around the
+point to a subset of Rd in an invertible
+one to one manner which in both
+directions is continuous I will clarify
+this of course but this is the
+definition and now we'll fill this
+definition and the elements of this
+definition with some
+life okay uh first thing we note if x is
+invertible then the inverse of course
+goes in that direction but then the
+pre-images of open sets are open but
+then the pre-image of u under X inverse
+is of course X of U because this was
+open this must be open so uh because
+this is open and all of these conditions
+apply we know that the image in Rd is
+open what I will do now I will first
+give you three examples that I simply
+draw and will slowly pick up on the
+elements of this and give them names
+that are very familiar to you from
+navigating maps on the surface of the
+Earth if you're the captain of a ship
+okay but I don't want to confound You by
+uh well anyway so we do it like this so
+examples so the first example I just
+draw it and we talk about it and later
+on you can you will be able to actually
+calculate this so I take the surface of
+a
+donut but I just really mean the surface
+of this guy so the surface of a car tire
+okay and I claim that this surface this
+set M donut
+surface this is the set M yeah and um I
+equipped this with some topology it may
+inherit from the surrounding R3 because
+I can put this tire into an R3 I can
+Define it as a subset of R3 I can equip
+R3 with the standard topology and I
+inherit to M the subset topology but
+this is not the standard topology this
+is the subset topology that originally
+comes from the standard topology for
+instance or you prescribe one all by
+yourself but let's take this one then
+the claim is this
+is a
+two-dimensional
+topological manifold I don't discuss
+this technically but let's nevertheless
+go through this
+definition in order to be that it must
+be true that for any point in the set so
+I close my eyes and I blindly Mark a
+point in the set on the surface for any
+point in the set there exists an open
+subset well we know how the open subsets
+in the induced topology look like um
+because they will look like this because
+I could take an open set in the R3 that
+looks like this without the boundary I
+insect this with the car
+tire and and what remains is this guy
+without the boundary
+clear because it's this U intersected s
+so this is okay so I mean it's a quick
+discussion but it's all true I'm saying
+okay so for any point P and M there
+exists a u that contains the point okay
+yeah I found
+one satisfied and there exists a map the
+exists one I need to find some that
+takes every point in the set
+so this is the
+U that takes every point in the set so
+for instance this
+one to some part of
+R2 aha
+so I take some R2 and I take this point
+to say that one by this map X right this
+is Map X but of course I take this point
+here also to a point here
+and if I take all the points in U to all
+the points
+here I get some open region in R2 why do
+I know it's open well because of the
+invertibility and the continuity in both
+directions I I get
+this and this is true and and so for
+this arbitrary point I got this and it's
+clear this works everywhere so I need a
+one to one map and it needs to be
+continuous and one can calculate this
+and really prove there exist such maps
+for this
+example so this is very nice because
+this is precisely what you would do if
+this was not the Taurus if this was the
+surface of the Earth you would take the
+Earth and you would make charts and in
+fact we have uh we'll introduce soon the
+terminology that okay let me before we
+introduce terminology let me talk about
+physics this thing here let's consider
+that to be the real
+world let's say the the globe is not a a
+sphere it's it's a Taurus could be and
+this point here the little cross is the
+foot of the Eiffel Tower I really mean
+the foot of the Eiffel Tower the
+physically existing foot of the Eiffel
+Tower that's a point in the real world
+you can go there and touch it the foot
+of the Eiffel Tower now what I do here I
+construct a map and I have posited the
+existence of a map that Maps this
+situation and the foot of the Eiffel
+Tower into an element of
+R2 but R2 is R cross R is simply a set
+of pairs of real
+numbers of course I could have chosen a
+totally different map into r2ol where
+the foot and here the foot of the AL
+because this is R2 we like to say it has
+components uh one two but anyway uh you
+could have chosen a totally different
+map of this and then the image of the
+foot of the Eiffel Tower this is X of P
+if p is this point the foot of the I
+Tower X of P has two parts it has X1 of
+p and X2 of P this case turn out to be
+one and
+two by choosing such a map you can say
+oh the Eiffel Tower is
+at12 but it means nothing Well it means
+something because you chose a specific
+map so you go to a shop and you buy an
+atlas and you go to page 27 and this
+here this R2 a part of R2 is Page 27 of
+the
+atlas and then you start and then you
+look and you say oh there's the Eiffel
+Tower and here's Munich and so on okay
+and you say oh my God the Eiffel Tower
+is at one two that must mean something
+well of course it means nothing it's
+just one cimeter from the lower edge of
+the of the chart to here because the
+publisher decided to choose the chart
+like this if the publisher had decided
+to choose the chart like this or to
+distort the chart so the publisher uh
+has a a rubber paper and distorts the
+chart and so on things look
+different physical meaning nil nothing
+but the foot of the Eiffel Towers in the
+real world and we like to represent the
+real world by coordinates in a chart and
+in fact well I introduced the
+terminology at this point so terminology
+pce
+Oney a pair uux and remember X is not
+the coordinates or something X is a map
+taking all these points into Rd is
+called a chart so a chart consists of
+the domain of the chart in the real
+world U could be the area of Paris
+I mean the area of Paris in the real
+world that is the area of Paris that you
+can go and
+touch X of U is the image of the area of
+Paris in the chart so this
+here no it is the one I I I already
+shaded here this whole image here this
+is Paris how it appears on paper you can
+also touch it but you touch the paper of
+the atlas right real world paper of the
+atlas the connection is what the
+publisher decided to choose as the
+connection between the two it's a choice
+the publisher also decides whether he
+takes all of Paris with or without the
+Bon Le year and so on okay this is a
+chart and all you require is that for
+every point of the
+manifold there exists a chart that
+contains the
+point every around every point of the
+the whole whole manifold is covered by
+charts that is what this definition says
+so if you go to a shop and you buy a
+chart and your hometown is not on it you
+return the atlas to the shop and you say
+I feel cheated there are many charts in
+there but not the one I
+like you can make sure if for every
+point there exists such a pair ux with
+these properties that your little
+Hometown is on
+there okay so anyway uh
+I already introduced terminology in the
+context of this example although I
+didn't want to but it doesn't matter um
+second
+example
+um I take a wire and it's not
+disconnected here it's just behind it's
+it's an eight figure eight distorted why
+like this you can also imagine this
+lying in some R3 you can again take the
+standard topology on R3 inherit it to
+here and then have here the topology on
+the the topology the standard topology
+here restricted to the set M so by this
+wire the points of this wire are the
+points M the claim is this is a
+1dimensional
+topological
+manifold how do the charts look like
+well for every point that exists an
+open set u in the real world every point
+in in the real world on the manifold
+level there exists such a domain around
+it such that every point of the domain
+is mapped one to one to some part of R
+could also be disconnected or not but
+roughly like this so the charts are just
+one dimensional well because it's a
+onedimensional
+world okay one dimension less this is
+more intuitive to us although it's one
+dimension higher but nevertheless this
+is
+that uh third example
+um you have something like
+this and then it bifes it's also a set
+set M it's clearly a subset for instance
+of R2 right cons can consider it like
+this you can certainly on R2 consider
+the standard topology on R2 and you can
+inherit the standard topology to the
+subset because m is a subset of this
+space so it clearly carries a topology
+so C for instance M equipped with the
+standard topology on the surrounding
+space on the super space restricted to M
+you can do this and this is a
+topological space all right topological
+space but it fails to be a topological
+manifold but
+fails to be
+topological manifold well let's
+investigate this in detail
+investigate the
+problem well I reproduced this at this
+point there's not a problem I need to
+check whether for every Point say this
+one there exists an open set around it
+in the IND used topology like this one
+because you see in the R3 this would for
+instance be open the intersection is
+this and so on okay exist an open set
+and certainly you can hear you can make
+a map of this bit of course also for
+this point there's not a problem also
+for this point there is not a problem
+but this guy here this makes the problem
+because for this guy
+here it is not possible to find a
+neighborhood an open neighborhood which
+for instance we can find an open
+neighborhood for instance by taking an
+open set in R2 and then the subset
+topology would say that for instance
+this blue set
+here is open in the subset topology very
+clear so there's not a problem to find
+around this point there is not the
+problem to find an open
+set what you will not be able to do is
+to find from this blue open set an
+invertible in both directions continuous
+map into either R1 or
+R2 because here it Bates well needs to
+to work a little to I mean intuitively
+one sees it what how would you chart
+this right in fact you can't in fact you
+can't so this is not this is not a well
+question mark
+dimensional topological
+manifold okay so it's very easy to come
+up with stuff that is not a topological
+manifold or maybe string theorists uh
+they like to think of De brains and
+little strings attached to them and
+stuff this total configuration is not a
+topological manifold could also say here
+it is onedimensional and here it's two
+dimensional but the definition requires
+there is one D that applies everywhere
+and you might say oh couldn't we loosen
+this and have a more interesting notion
+well it still wouldn't solve the problem
+what to do about this point where they
+start touching you get a similar problem
+like in the
+bipoc
+uh just this openness does this really
+on this level that it's
+like because I for Simplicity I needed
+to not only give you a set I needed to
+give you a topology on the set in order
+to have a topological space in order to
+then be able to decide whether it's a
+special topological space I topological
+manifold I had to provide you with some
+top apology because it serves our
+intuition for this quick drawn arguments
+without calculating best if I use the
+standard topology which you know
+intuitively and pull them back because I
+know I have to do these intersections I
+use this specific standard topology on
+the surrounding space because I need to
+say anyway what the topology is and then
+it's right if you then have a line and
+uh and then you ask what are open around
+this you could take any open set so say
+you take a line a subset in R2 equipped
+with the standard topology I can take
+any open set in R2 for
+example all these points in the Shaded
+area together are one open set because
+for every point in this open set I find
+a little soft ball that lies entirely in
+it and so on this is an open set and
+this open set intersects
+with the subset sorry intersected with
+the
+subset gives these two open intervals
+but they're not intervals because this
+is not the real line This is already the
+subset gives what looks like two open
+intervals so in in that sense yes uh if
+you come from the standard topology it
+looks like oh we already knew this was
+open or not but the real argument is by
+the subset topology which again I only
+used in order to quickly draw pictures
+using your intuition about open sets in
+R2 okay
+good here yeah well well two dimensional
+one looks like this for instance no but
+the second example we also live in R3
+yes and then you say okay this is a
+onedimensional topological manifold yes
+but why is it a onedimensional could I
+have two
+Dimension there is no continuous map
+from this U from this set u into
+R2 you cannot do
+that you can construct uh uh um I think
+you can
+construct a bjective map into R2 that's
+already difficult because you have to to
+wind the interval like this I'm not
+entirely sure I think that's somehow
+possible but certainly not a continuous
+one that's the
+point okay so that's I mean yes yeah
+that's the point so the it um it would
+fail this year if you increase the D to
+two Okay I'm not claiming I mean this is
+very intuitive and I want to give you an
+impression and you need to trust me that
+it's all true which I do hand waving but
+it's good to First have this impression
+but we'll go to specific examples and
+calculate this also in the tutorials
+today okay but first to have an
+impression of the Notions is important
+okay so um now
+come uh comes a lot of terminology but
+very good
+terminology
+terminology we already had the chart so
+I'm always referring to the objects in
+the definition and so uxx where U and X
+have the properties from the definition
+are a chart of the topological manifold
+M Mo okay and the definition requires
+that around every point there is such a
+chart and as I said that is what a
+publisher needs to make sure if he sells
+you an atlas that satisfies you a set
+a that contains a collection of charts
+so let's call them U alpha x Alpha so
+Alpha is now a label you have many many
+sets U many many sets X this label can
+come from any arbitrary index set so
+have a huge possibly a huge amount of
+charts such a collection is called an
+atlas well it's very intuitive a
+collection of charts is an atlas if
+there's only one condition that if you
+take the union of all the chart domains
+remember this chart domain is Paris the
+real area of Paris in the real world X
+of you can then reconstruct the images
+of Paris
+but if all the areas that are covered by
+the chart if you take them all together
+they may have huge overlap but if you
+take them all together you should
+recover the entire real world so every
+piece of the real world should be
+covered and then you call a collection
+of charts an atlas of the
+world it's a very important notion so
+this is an atlas of the topological
+manifold if this is true very
+intuitive
+okay that was that now a further piece
+is
+called this x that goes from U from the
+piece of the real world into the image
+of the piece of the real world which
+happens to lie in a d-dimensional chart
+well if unfortunately space time is four
+dimensional you cannot print an atlas of
+SpaceTime by printing on sheets of paper
+you need to print on four dimensional
+sheets of paper which mathematically you
+can do practically you can't okay the
+surface of the Earth is uh it's it's
+lucky that it's two-dimensional right
+okay so um this guy this map is called
+the chart map because obviously you can
+have the same domain in the real world
+but you could choose different chart
+maps represent them differently in your
+Atlas but it must be continuous
+okay um and now comes a really important
+piece a Blackboard
+please
+um now comes an important piece namely
+you see if a map goes from some subset
+into Rd what does it mean to go to Rd I
+cannot stop emphasizing Rd is just R
+cross R cross R and so on is the set of
+D tups they're just D numbers in an
+order
+okay how do I provide you with this
+information well I can provide you how a
+point in here how a point p in there is
+mapped by X to an element in Rd well so
+the result must be an
+object with d entries is that right
+clear so for any point here x of P the
+image is an object M D
+entries the each entry will depend on
+what point you chose so you have a
+number a real number X1 of p a real
+number X2 of p and so on and real number
+XD of P so what are the X's
+where where x i the i x is a map that
+takes a point in U of course and Maps it
+only to R so not to
+Rd but to a real number Nam the X2 of P
+to a real number that's then here the
+second element to a real number and this
+you have for IAL 1 2 3 up to
+D in other words a chart map that
+Associates with each point D real
+numbers is of course the same
+information as giving you D many maps
+called XI so x one is a totally
+different map from X2
+that take the points into
+R okay these are the component Maps if
+you wish the component maps and these
+component
+maps please yeah thank you these
+component Maps they have a
+name
+call so if ux is a
+chart thank you so if ux is a
+chart then the maps X1 from from U to
+R down to
+XD of U to
+R which is information that's equivalent
+to the one Map X from U to Rd right
+these guys are
+called
+the
+coordinate
+Maps
+Okay so this the next piece of
+terminology and of course what the co
+okay so that's this and then we have if
+p is a point in the chart domain in the
+domain of a
+chart
+then X1 of p is the first
+coordinate first
+coordinate of the point
+p with respect to the chosen
+chart because if you choose another
+chart of course that will be another
+number X of p is the first coordinate so
+X of P may be
+one uh X of 2 of p is the
+second coordinate of the point p p is
+the foot of the Alpha Tower in the real
+world X2 of p is what happens to be the
+number on your public
+chart where he puts in this direction
+the foot of the Eiffel Tower in the
+chart this is man-made charts are a
+figment of our
+imagination we imagine charts charts
+have nothing to do with physics they may
+be very useful an atlas is extremely
+useful but nobody would say because a
+publisher printed an atlas upside down
+that it would be less comfortable to
+live in that part of the
+world an atlas is some something
+imagined most of undergraduate physics
+we formulate in atlases and we very much
+confuse what is imagined and what is
+real I will emphasize therefore very
+often what is the real world and what is
+an image an arbitrary image of it Ein it
+took Einstein three years to clarify
+this it takes us three days okay so
+that's that's excellent good so but this
+is a key point this is a key point and
+it's totally obvious totally OB you noce
+from lran mechanics you have a physical
+system that moves on some configuration
+space and you all learned that you can
+choose generalized
+coordinates that you can choose other
+generalized
+coordinates choosing coordinates is
+choosing charts choosing different
+charts is choosing different
+coordinates does the bird that flies by
+here care about my idea about charts no
+the bird is not impressed what would be
+physics let's not say a bird a bird has
+this this uh this Free Will thing let's
+take a stone a stone without free
+will you throw a stone what would
+physics be if your stone was
+impressed by your thinking about a chart
+one chart or the other it would be
+physics with
+telekinesis I could start moving things
+by imagining different charts first is
+call these frames of reference or
+whatnot okay or generalized
+coordinates if that comes up tomorrow if
+somebody conducts an experiment and
+we're sure okay the experiment proves by
+thinking I can move things not a problem
+we do chart dependent
+physics but since that is not the case
+all we do until further notice is we do
+chart independent physics we'll very
+much think about the real world the foot
+of the Eiffel Tower is a real point that
+is there has nothing to do with changing
+coordinates changing coordinates doesn't
+move the foot of the Eiffel Tower okay
+we do physics without telekinesis that's
+the
+programmatic uh aim okay good so these
+are the
+coordinate uh the coordinates of a point
+and the coordinate Maps Okay so I
+already explained the foot of the Eiffel
+Tower I don't need to do this again um I
+will look at
+quarter past we have until a quarter
+past is that
+right until when do we uh pardon me 12
+until 12 okay perfect perfect okay um
+so um let's make another
+example so now take as the real world
+the surface the points in R2 I should
+already say surface the points in R2
+it's all these these pairs and now we
+look at the chart U just an example that
+is all these points but I can remove the
+element 0
+0 by the way if I say m is the set
+R2 a set
+okay there is a piece of R2 and it
+consists of the points um what is it if
+the set
+so this is a a little aside that's
+important a set what's the difference
+between the set one two and the set to
+one none yeah okay I already wrote the
+equal sign there's no difference a set
+has no
+order if I consider this as a set I can
+rip it apart I can grind it I can make a
+powder of this and I fill the powder in
+a glass and then I shake the glass and
+then I come to you and I pour the little
+pile of powder there and and I say there
+you got your
+R2 we like to think of R2 as being
+somehow this thing R2 is a powder
+because R2 is a set now I can shake it
+and I change all relations between the
+points that we may imagine now I give it
+a little more structure if I equip it
+with the standard
+topology then I can take this like a
+rubber a uh piece of paper and I can
+pull it and so on but I cannot rip it
+apart because that would be
+non-continuous okay so the R2 you're
+thinking of usually at least is the
+topological space R2 with the standard
+topology but as a pure set it's a
+powder okay okay that just as a warning
+what is a set what's a topological space
+a topological manif and so on and so
+okay so anyway we take this as a
+topological space we we take this set
+and now I invent a chart uh and the
+chart I invent is the following X needs
+to go from U into
+R2 uh and it's as follows R2 elements as
+a set as a powder is nevertheless pairs
+of numbers as a set and I map this to
+now I'm because I feel like it to minus
+M minus n because that's an element of
+R2 I can do that
+uh I arbitrarily took the z0 element out
+so let me draw a picture of this so um
+if you say this is the real world it's
+the real Blackboard right the real
+Blackboard is this it extends it's the
+Blackboard I can touch it's the real
+world but now I take the real Blackboard
+and I only consider the real Blackboard
+without a point which maybe the Z 0 and
+I MA this to a chart now this is the
+chart you have in your book it's a
+picture of the Blackboard for instance
+right and you map this and you see you
+take this point to this point and you
+take that point to this point and you
+and so on and if you have here for
+instance a point set that looks like
+this um then you know that the map I
+just produced takes it to here so this
+would be what your publisher if you have
+an atlas that is an atlas of the
+Blackboard I took this point out for fun
+uh and you want to represent this real
+life situation namely the the chalk dust
+that's here on the Blackboard you want
+to draw it into your map you take your
+chart Map X and every single point You
+Take by the chart Map X to every single
+point here and this is the image of your
+real world it's a perfect chart map you
+might say oh it inverts the real world
+what do you mean it's a chart map it's
+as good as any other chart map
+okay um yes if you the black already
+numbers of R2 you assume already that's
+not the real world you have
+already
+yes yes in order to you're absolutely
+right it's a notorious problem of of
+emphasizing because the real world
+doesn't consist of points the point is
+what I would have to do is what I did in
+the beginning I indicated a map by
+really saying this element and this is
+on the Blackboard I point with my finger
+at it I take this one I assign this the
+number minus 1 minus 2 okay if I do this
+so it's more like these these arrows I I
+drew before and what you need to do in
+real life you need to go and you need to
+put little
+flags and you say here in the real world
+there's a a flag it's here on the moon
+and it's our flag and we call this 0.1
+to uh that is putting up flags that have
+numbers on them is inventing a chart and
+that's what of course what gold diggers
+do they put their claim and they draw
+lines and you know stuff like this so
+it's absolutely true and in fact I will
+draw a diagram in a second in physics we
+always ignore the real world we only
+talk about charts and chart
+representatives of the real world but at
+least mathematically we should put it in
+in order to know what we're talking
+about Okay so
+okay so so we can do it like this but we
+can do another
+chart another chart map on the same
+domain we can do the following I can do
+the points MN if you're happy with that
+we already put up Flags here okay and I
+can map it to square root of m^2 + n 2
+AR tangent n / M if you think that's
+crazy then you say polar coordinates are
+crazy because now again I have the real
+world and say in the real world on this
+Blackboard the dust chalk that lies on
+this
+circle if I map the situation into a
+chart on paper then now the first
+coordinate in quotations Mark is the
+distance from the
+origin intuitively speaking well it's
+just this algebraic expression and the
+second one is an angle it takes with say
+this axis roughly speaking so the chart
+domain of the entire R2 of the entire R2
+without the Z 0 element the entire chart
+domain is this set here it runs here
+only from 0 to 2 pi oh I need to take
+out I'm sorry I take out the entire take
+the slit plane here so I take out the
+entire x axis so
+without a z where a is in R so I not do
+not only take out the point I could have
+also done this here I take out this
+entire slit for certain reasons don't
+worry about it so
+this pardon
+me I don't
+understand a is an
+r ah yeah yeah thank you thank you an
+plus r plus Z now we got it okay so
+um so the chart domain is this infinite
+half infinite strip because it ends
+here that's the point I took the zero
+out
+without
+only
+zero a plus yeah yeah
+sorry the negative ones are still in
+here but I took out the zero as well
+this is everything behind the I took it
+out including the
+zero I take the a the m0 I took it
+out m equal Z is taken
+out okay so this is the x or the Y let's
+call this the map y this is the map y of
+view of this real world and now please
+draw the circle in the
+map how does it look like yes
+exactly the part of the circle that is
+covered by this domain well this point
+of course cannot belong to it because
+it's not in U is this so we have a
+perfect
+chart and this is the image of the real
+life
+circle in this chart it looks like this
+well this is what you call generalized
+coordinates in classical mechanics you
+would probably say oh this is the r
+coordinate and this is the FI coordinate
+but we call them the X1 of p and the X2
+of P could call them the five of p and
+and an R of P but this is just what it
+is okay so again the same real world
+situation of course here if you had the
+circle it would appear as the circle you
+just don't see that it's inverted like
+the F
+right that's it okay so any chart you
+can come up with is covered by this
+definition and in the chart things may
+look very different from The Real World
+you need to know how the charts are
+related to the real world
+okay
+third section chart transition
+Maps so these are objects that are only
+they derived objects objects derived
+from certain charts we already have so
+they're actually not worth
+mentioning but they're heavily used by
+physicists hence we introduced
+them imagine a situation or imagine two
+two
+charts
+ux and VY so different domains and
+different prescriptions of how to map
+into a chart imagine two charts with
+overlapping
+regions so in the real world let's say
+this is now the real world um there is
+one chart domain U and another chart
+domain V and they have a non-empty
+overlap that is what I mean they're
+overlapping the overlap is
+nonempty now U comes with a chart map
+that takes any point in
+U to some pce of R2 or
+Rd well in particular it takes a point
+in the intersection there so I can take
+a point in the intersection by the chart
+Map X that comes with the U into a point
+in some chart why well because the
+intersection certainly is a part of U
+now because that point lies in the
+intersection I may use alternatively the
+chart map that comes with the V region
+because it obviously also lies in the v
+region and I can alternatively map the
+very same point in the real world the
+foot of the Eiffel Tower the same point
+in the real world I can map it into
+another chart of course you will turn
+the pages of your chart and your Eiffel
+Tower will usually appear more than once
+will be appear on that chart here and on
+the other chart here because the charts
+always have a little overlap in order
+for you to navigate it will turn out
+that we also need this overlap to
+navigate okay
+um so that means you can think about
+after you say okay this x is defined on
+all of you but you can certainly
+restrict it to only U intersected V and
+the Y map can also be restricted to U
+intersected V now if you map the whole X
+of U it would maybe look like this this
+would be X of U but if you map only the
+intersection that will be only that
+part the same here if you map the whole
+V by y it may be y of V but if you only
+map the
+intersection it will only be
+maybe this part so this is X of U
+intersected V and this guy here is y of
+U intersected V I think the idea is
+pretty clear now you have in chart on
+the chart on page seven you have the
+foot of the Eiffel Tower here in the
+chart on page 28 you have the foot of
+the I Tower here and one obvious
+question is what if you have to turn
+pages how can you can you directly take
+the coordinates on page seven and
+translate them in the coordinates on
+page 28 that would be very useful
+because here you use this putting up
+flags on the surface of the Earth in
+order to make this map this was exactly
+gard's concern you already chose somehow
+coordinates was just to quickly write
+this down but you put need to put Maps
+wouldn't it be great if I could just
+take these Co coordinates and had a rule
+how to translate them to those well it's
+very simple this map X is invertible so
+I can take the yellow Point
+here and I can feed it into the inverse
+of x x inverse takes me to the real foot
+of the alha tower this is the foot of
+the alha tower in the real world and
+then I apply the Y map to
+it and then I have the coordinates in
+the other chart
+well but this is nothing but y after X
+inverse
+applied to the representative of the
+foot of the Alpha Tower in this
+chart so this is the picture and you see
+this uh requires uh artists skills um
+it's clever to do this
+formally U intersected v u uux and y v y
+are charts you can map this by x to the
+image of X U intersected V which is and
+that's now a point I wish to emphasize
+of course is an element of Rd um subset
+of Rd you can take the entire subset so
+this the entire subset You Take by y you
+go to Y of u intered v subset of the
+same not the same well of Rd forget the
+same thing and now I con con construct a
+map from this set to that set namely
+from the Shaded set to the Shaded set
+and that map is y after X
+inverse and this
+map y after X
+inverse this guy
+here this is
+called the
+chart transition
+map and if physicists talk about a
+change of coordinates or a change of
+chart you know the coordinates are just
+the component Maps the coordinate maps
+are just the component maps of the chart
+map if physicists talk about a change of
+coordinates they go to one of their
+favorite
+imaginations and transform to another of
+their favorite imagin
+ations imaginations
+nevertheless the real world sits up
+here and because the chart maps are
+invertible and in both directions
+continuous the chart transition map is a
+map from under gradate
+analysis a part of Rd to another part of
+Rd from an open part of Rd at that to
+another open part of Rd and this will be
+continuous because these guys are
+continuous in both directions and the
+composition of continuous Maps you
+remember the end of last lecture is
+continuous now as physicists changing
+coord we start in one coordinate system
+and we say let's start in the cartisian
+coordinate system that's a good one well
+it's it's just fantasy okay but you
+start there and then you say oh but now
+this problem is better to go to the
+polar coordinate system and so on you
+just moving back and forth here and
+there and what you never touch as a
+mathematical object is the real world
+you never use the foot of the Eiffel
+Tower you only take your coordinates of
+the foot of the Eiffel Tower now this is
+fair enough and of course it's correct
+in what you predict mechanics everything
+is fine but it can lead you to the
+philosophical problem of somehow
+imagining that there is some reality to
+the coordinates of the foot of the
+Eiffel Tower and even if you understood
+you can choose other coordinates you
+might hold the position that well the
+cesan coordinates those are the real
+coordinates and hence we don't call them
+generalized coordinates and the other
+coordinates they're kind of not so real
+as the other this means nothing okay so
+these are all just Notions you invent
+because the theory is usually presented
+within
+this uh yellow
+box one of the advantages of looking at
+this manifold picture is you can
+calculate very nicely here but please do
+not forget that there's the real world
+you want to talk about and the foot of
+the Eiffel Tower is the point p in here
+and it doesn't care about whether you
+look at this chart map or that chart map
+and this needs this is something that
+took Einstein three years to fully
+understand he understood it half or 34s
+or
+99% and that's wrong okay you need to
+understand it 100% And this manifold
+picture gives you this 100% that's the
+chart transition
+map aha now the chart transition Maps
+they contain this fantastic information
+so you have a chart say you have an
+atlas that has many
+pages and on these Pages there say some
+continent that looks like this and some
+that looks like this now on
+another
+uh chart there is a continent like this
+and there's something like this and so
+on and of course you realize oh this one
+is actually the same part is this one
+and the chart transition Maps here these
+guys will actually say oh here uh I
+don't know what this is uh oh dear
+Madrid Madrid is again to be found here
+so there needs to be a chart transition
+map from here to here that's this the
+chart transition map contains the
+information so this is informally but
+it's a good way to think about it
+contains the instructions is better
+contains the
+instructions
+how to glue together how to glue
+together the charts of an
+atlas imagine you're the captain of a
+ship and these modern ships you can sit
+deep down in the ship you have no
+windows no nothing and it's it's a long
+cruise and you have nothing to do you
+have an atlas of the world with you and
+you're very desperate and it's a
+single-sided
+Atlas okay single page one one side on
+one page and you you're very frustrated
+no women there whatever and you pull out
+the
+charts because they so frustrated and
+then you have some glue and you decide
+to glue together the charts in their
+overlap regions which you can clearly
+identify like in the street Atlas you
+glue what do you get if you glue them
+all
+together you get a paper model of
+the sphere you get a sphere if you glue
+them all together topologically speaking
+well if the charts are small enough it
+looks a little bit Wiggly but you
+essentially get a sphere and all you
+used is the information this part looks
+like this part green continent green
+continent glued together here like this
+you get the sphere and what you did is
+just you identified this point in this
+chart with the corresponding point there
+and glued them together it's a gluing
+instruction which point with which point
+you may have to bend the paper a little
+and so on and then you get a sphere
+in the tutorial today you'll have also
+charts of a world and you need to glue
+them together and they look like now
+normal charts but you will be surprised
+what you get out when you glue them
+together it's the chart transition maps
+that you can have all the information
+about the real world globally
+topologically in the chart transition
+Maps hence they're so beloved by
+physicists it's very good information
+with a data structure Rd to Rd which is
+very simple to implement
+mathematically but the meaning of it is
+only what you glue together nobody would
+say if you have an atlas you understood
+that the world is a a sphere the surface
+of the Earth is a sphere unless you
+start gluing together
+okay okay so uh those are the chart
+transition Maps now we come to a very
+important Point uh I call it a a
+Blackboard
+please uh it's
+so the headline is manifold
+philosophy what is the whole philosophy
+of writing down
+manifolds now the full extent to this of
+this we will only understand once we
+start discussing differentiability of
+Curves and functions so far we only talk
+about continuity no jumps but
+differentiability of a curve means
+there's everywhere a tangent roughly
+speaking okay the full extent we'll only
+understand there but the basic idea is
+the following I have the real world and
+I can rep if I have an atlas I can
+represent the real world in charts for
+instance I have the course of a ship in
+the real world so the bubbles it leaves
+in the sea when it moves these points in
+the real world I can represent them by
+drawing them in a chart that's what
+Navigators do they put the cuse in their
+charts and thereby they represent what
+the ship in the real world did now the
+Navigator puts the cause of the ship in
+a chart would the Navigator be surprised
+or his supervisor at home if all of a
+sudden the course of the ship would jump
+to another point and continue from there
+or he would be very much surprised would
+say how did you do that how did you do
+that but what is the argument that this
+supervisor would have to give why this
+is unusual well he would have to argue
+that the chart maps from the the real
+world into the chart are bjective and
+continuous that in the charts you've
+chose the standard topology blo bloop
+blop so he would to have to argue from
+there that a discontinuity of the curve
+in the chart which is a curve from the
+real numbers the curve parameter into R2
+this is what we teach undergraduate
+students a a point particle is given by
+a curve in R3 or in R2 but this is just
+in the chart so we shouldn't think of
+the Curve curve of R in R3 as the real
+curve in the real world it's the image
+of the curve in a chart you
+chose right that's this but because of
+the postulated continuity or the
+constructed continuity you would indeed
+be able to judge the continuity of the
+curve in the real world from the
+continuity in the chart right so what
+you can do instead of defining
+continuity directly in the real world
+which you can because the real world is
+a topological space and you can Define
+continuity of Curves you could instead
+and that's the manifold philosophy push
+the objects you want to study the Real
+World objects push them down into the
+charts look at the chart Representatives
+using the chart maps study the objects
+in the charts which is very simple
+because these are curves from R to R2 or
+their functions from R2 to R like a
+tempor tempure distribution drawn in a
+chart these are objects you know from
+undergraduate analysis you study them
+there and then you get the idea couldn't
+we define properties of objects in the
+real world by properties that our chart
+Representatives
+have right and the answer is yes you can
+but you got to be careful so that's
+fourth manifold
+philosophy
+often it is
+desirable or in Brackets or indeed the
+only
+way and we will see examples for this or
+in indeed the only way
+to
+define
+properties
+and now I give examples in Brackets but
+of course we will have more examples
+like
+continuity of Real World
+objects for instance a
+curve in the real world a curve gamma
+from R to m is a curve in the real
+world by
+um
+judging
+suitable
+conditions not on the object
+itself not on the real world
+object
+itself
+but on
+a chart
+representative or image I make this
+clear in a second in an example on a
+chart representative of that real world
+object the advantage of such an approach
+is obvious or the advantages the
+advantages are that in a chart let's do
+this for the example of a curve real
+world course of the ship in the real
+world is a curve
+gamma from some parameter set into
+M and now I choose a chart
+U and I look at that portion of the
+curve that lies in the chart U so we
+look at that portion of the curve that
+makes the argument simpler but you can
+generalize
+this and you map this
+curve into a chart so this is is the
+image of the U part this is X of U and
+this Curve will in this chart maybe look
+like this and this is
+X this is um X after gamma why well
+let's draw it here the U comes with an X
+chart into X of U lies in Rd and then
+you can look instead of looking at the
+curve in the real world you can look at
+this object here which is X after gamma
+so you first execute gamma and then X
+and this is of course the curve in the
+chart because it goes from a real
+parameter to a part of
+R2 this is what you're told in
+undergraduate physics this is what you
+say is the trajectory for instance of a
+particle in R3 or something like this
+but you see in fact it's only the chart
+representative of this the curve in the
+real world is this object up here okay
+but now of course you're instructed in
+underg gradiate physics to
+say this is the trajectory of the
+particle and it must be continuous so
+what you really say is if this chge
+representative is continuous which you
+know by undergraduate analysis what it
+means R to Rd
+continuous if this is continuous then
+you say the particle path which is in
+the real world is continuous so you do
+precisely this by ccid
+assumption you you you do this you say
+you judge you define the property like
+continuity of a real world object the
+real path of the real ship in the real
+world by judging suitable conditions in
+this case you also call it continuity
+you call it undergraduate continuity not
+on the real world object but on the
+chart representative of it it's an
+advantage because you can use
+undergraduate analysis in
+charts uh mathematics in charts is
+mathematics on the real numbers it's not
+so complicated it's a good thing but it
+has a
+disadvantage it has a philosophical
+disadvantage which I already mentioned
+the philosophical disadvantage is you
+might start confusing what is a chart
+image which what is the real world
+object assuming you Einstein and you
+spend three years thinking about it and
+you no longer fall into that trap
+there's yet another disadvantage
+the notion you define down here by
+referring to the Chart representation
+may be ill defined what does that mean
+what's ill definition a definition says
+this and this is defined like so and so
+but here we want to assign a property to
+this object gamma but we judge it by the
+object X after gamma where X is a
+figment of our
+imagination so we imagine something with
+certain conditions okay and we say well
+including my fantasy I afford
+here I assign a property to this object
+which has nothing to do with the fantasy
+whatsoever the bird doesn't care about
+my imagined chart so how nuts may it be
+it can be very nuts to take the
+composite object including my fantasy my
+superstition could call it and judge the
+path of the bird and assign the path of
+the real bird a property that also
+depends on my thinking that is very
+dangerous unless I
+ensure that if I have any other
+thinking the result doesn't change need
+so maybe IL
+defined defined um to avoid
+that maybe IL defined
+because
+um an arbitrarily chosen chart
+arbitrarily
+chosen
+chart is
+employed we need to make
+sure that
+property uh that the defined
+property does not
+change if we
+afford
+another
+fantasy well the fantasy is another
+chart because that's just something I'm
+I'm thinking about okay so um formally
+it's a very simple idea I have a curve I
+take do it for a curve I could do it for
+a function on a domain for anything okay
+I take a curve and I say so now
+fantasies will be in in in red fantasies
+are well this is at least a part of the
+real world but what is a real fantasy is
+this chart map how this part is mapped
+this is here and uh so we have the
+composite map uh that consists of a
+little bit of fantasy well of arbitrary
+choice of superstition together with
+something in the real world now I look
+at this object and I say whatever
+properties this has say continuity I
+then call continuity of this guy here
+that may be a problem unless you ensure
+that another fantasy so sorry fantasies
+are in color uh another fantasy is the
+yellow fantasy another chart goes to Y
+of
+U and then you have another
+representative gamma no uh y after gamma
+y after gamma again an object that uses
+some fantasy but if you can ensure that
+if in some chart some property holds if
+you can ensure it holds in any other
+chart too for any other fantasy then
+it's obviously independent of your
+choice of
+fantasy so you may use fantasy if you
+ensure that it's independent of fantasy
+you know this maybe from equivalence
+relations if you define the sum say
+uh you define an operation on
+equivalence classes and you define it by
+using representatives of each class but
+you need to make sure it's independent
+of the representative chosen because
+choice of a representative is a pick you
+make arbitrarily and so on okay so how
+can we insure for say continuity I say
+okay this continuous I can check because
+it goes from R to a subset of Rd both
+equipped with the standard topology
+under graded
+analysis assume I know this is
+continuous can I already conclude that
+with respect to any other chart it's
+also
+continuous yes I can because this map
+here this map here can of is of course
+the same one as if I go down
+here and then by here to here so in
+other words y after gamma that's this
+one can be written as
+um y after X
+backwards
+after X after
+gamma so this just looking at this
+diagram but because the composition is
+associative it's y after X inverse after
+X after gamma I can ah you only inserted
+the
+identity okay you can think of this like
+that algebraically but you can think of
+it in this way whatever way you think
+about it you see ah of course I have
+here this chart transition map why after
+X inverse we know that those are
+continuous we argued this before we know
+that X after gamma is continuous that
+was our starting assumption but then the
+composition of continuous Maps is
+continuous ah so for the notion of
+continuity of this curve from R to Rd
+the continuity of the chart trans ition
+map saved the day the continuity of the
+chart chart transition map makes this
+chart dependent definition fantasy
+independent or Choice independent I
+emphasize fantasy to to be poic but it
+makes it independent of the choice of
+chart now imagine something different
+imagine you came you got the idea that
+undergraduate physicist lecturers get to
+Define
+X after gamma which after all is a map
+from R into Rd they say let's check
+whether this is a differentiable map
+whether we can find the derivative of
+this map which at a point you would call
+the velocity of the curve or something
+but we're in a chart now let's say you
+define you say if this is
+differentiable as a map from R to Rd
+let's say you want to say then you
+define
+the curve gamma in the real world you
+call that
+differentiable no obviously you can't
+decide this immediately because from R
+into some set with a topology you don't
+have enough structure for instance you
+can't do sums and uh uh subtractions and
+divisions which you need for a
+differential quotient right you need a
+difference and the division so
+additional multiplication roughly
+speaking in order to you you cannot
+Define differentiability at the manifold
+level you could with continuity and you
+could push it and you all we did before
+you could have decided at the manifold
+level or at the chart level but now if
+you go to differentiability which we
+will do in the second next lecture you
+can only talk about the chart
+Representatives because here from R to
+Rd you can establish an addition and you
+can establish a multiplication with
+scalers in order to do differential
+quotient but now imagine you did this
+could you still say if I know that this
+here is differentiable you can check
+this this is not a problem you can check
+whether this is
+differentiable but are you guaranteed
+that this one is then differentiable too
+so it's independent of your chart choice
+no you can't because this chart
+transition map
+here y after X inverse we only
+guaranteed that it is
+continuous but if you have a
+differentiable function and you compose
+it with A continuous function it may be
+that the result is only
+continuous but not differentiable
+because the chart transition map can
+introduce into a nice smooth
+curve a little Edge that still continues
+to do something like this but it's no
+longer differentiable you have no unique
+tangent so you see oh my God on a
+topological manifold with its Contin
+chart transition Maps we cannot Define a
+notion of differentiability by defining
+it in the
+charts but in the charts is our only
+possibility and we would like to have a
+way to lift this notion in the chart to
+here such for any other chart oh where
+do the charts come from they come from a
+big Atlas what if we take a huge Atlas
+with lots of topological charts with
+continuous transition functions and we
+rip off page seven page
+113 and Page
+1080 because those were the ones that
+had only continuous transition functions
+from RD to RT Rd but transition
+functions that were not
+differentiable if you take out all the
+troublemaking
+charts then all of a sudden you have a
+restricted Atlas an artificially
+restricted Atlas however if you agree to
+take charts only from the restricted
+Atlas all the transition functions are
+smooth you have composition or
+differentiable you have composition of
+differentiable maps which are again
+differentiable and you lost of you got
+rid of your problem one second but now I
+give you for Christmas a maximal atlas
+what's a maximal atlas an at maximal
+topological Atlas is one that contains
+every chart it could possibly contain
+lots of redundancy it's the maximum
+atlas of to topological space now by
+having to rip out page number n n Prime
+and triple prime and so on I give you
+information because I could encode a
+message in that right number seven
+number 13 so on is the numbers of the in
+the alphabet you know I could send you a
+message I love you or something okay
+ripping out charts is
+information so reducing a maximal atlas
+by ripping out certain charts that make
+trouble for the Notions we want to
+Define means providing information
+and this additional information is
+called the prescription of a
+differentiable atlas and that will be
+the second next lecture we'll do that
+and then we'll make the
+differentiability
+work and that's a major step in
+understanding SpaceTime please I'd like
+to come back to that I'm one of those
+happy physicist who don't care about
+mathematical River at all but presently
+since you forced me to think
+that perfect
+this type of proof normally but we only
+prove that if we have one
+CH uh that we can conclude for any other
+CH we how I'm still missing the step how
+can we prove that uh the continuity
+because we have defined continuity in a
+precise way yes in your first lecture
+please step yes um that's right so this
+I would call
+our continuity I called it undergraduate
+continuity this one was the continuity
+we defined um what the only thing I
+showed so far and it's a very valid and
+important observation the only thing I
+showed so far is that my idea of R
+continuity gives some notion of R
+continuity on the gamma I could call it
+the lifted R continuity that it has to
+do with the continuity we were talking
+about before hasn't been proven yet by
+this but it can be proven very simply
+because as much as if I know that if G
+uh so if I have a map uh there it is
+gamma uh
+r
+u r d roughly speaking X gamma I know if
+this is continuous and this is
+continuous I can conclude that this is
+continuous but what you asking for is if
+you know that this is continuous and
+that is R continuous can you prove from
+these two that this is continuous in the
+original sense and the answer is yes you
+can it's a few lines so indeed I because
+with differentiability it's it's an an
+accident of topology that I can decide
+it at this level in the first place
+hence I deemphasize this point whereas
+differentiability I have no
+differentiability at the manifold level
+to compare with that's the question you
+ask how does it compare to the original
+notion of continuity but for other
+Notions I do not even have something to
+compare with and then you're thrown back
+to the manifold and to the Chart picture
+and then well definition is all you uh
+that remains to be cared of thank
+you yes you need the assumption that
+it's invertible and the inverse is
+continuous as well um in here
+you
+[Music]
+um I'm not
+sure could could be let me think about
+it it could be that you're right that
+you need the Inver the continuity of the
+inverse as well in order to to do the
+the red implication Arrow it could be I
+I think not but I'm not sure simple we
+do this in the break
+okay please another
+question
+okay if there are no further questions I
+invite you to the tutorials at 2:00 yes

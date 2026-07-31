@@ -1,0 +1,2038 @@
+this program is being presented to you
+by the heras international winter school
+on gravity and
+[Music]
+light good morning welcome back to the
+third lecture today's lecture is lecture
+three
+multilinear
+algebra
+and of course all of you will have had a
+course on Vector spaces on linear
+algebra and multi-linear algebra is the
+same field it just emphasizes that you
+might not only look at linear Maps but
+multi-linear maps and the essential
+element of or the object of study of
+multilinear algebra is just Vector
+spaces however uh a word of warning uh
+from the beginning we will
+not we will
+not
+equip
+space or later space time physical space
+or space time with a vector space
+structure you might think we would
+because before we had a set and we
+equipped it with a topological structure
+with a topology and in fact
+that is one step towards the picture of
+space time now today we'll talk about
+and this lecture we'll talk about
+equipping a set with a vector space
+structure and but if this doesn't
+further our aim of describing SpaceTime
+why do we do it and it doesn't further
+this aim and um I emphasize this only
+because often it is assumed that space
+physical space or physical space time
+carries a vector space structure um and
+I do not want to enter into into the
+discussion now but my question would be
+if physical SpaceTime the positions
+carried a vector space structure then
+you should know or here as a question or
+do you
+know where five times Paris
+lies where is five times Paris does that
+make any sense or where does
+Paris plus
+Vienna
+lie
+there is no such notion on physical
+position space to add places to add
+positions or to multiply them by real
+numbers so we will not equip space time
+with a vector space structure so however
+why do we look into this the tangent
+spaces and that's a notion that is
+deceptively intuitive but in fact bear
+with me until we Define it precis ly but
+the tangent spaces they have a name
+TPM to a type of manifold we're going to
+discuss in the fourth lecture today to
+smooth
+manifolds so TPM will be constructed in
+lecture five to uh on Friday uh and
+these are objects that can be uh written
+down for smooth manifolds and smooth
+manifolds will be defined in lecture
+four
+today the tension space to smooth
+manifolds very roughly you can think of
+them but in fact we will Define them
+differently if this is the real world
+say a sphere then you could for instance
+think of the tension space attached to
+the North Pole P this is a TPM but you
+could at any other point of your real
+world you could attach another Point Q
+you have another tangent Point here and
+on the sphere you have many different
+tangent spaces in fact we won't Define
+them in this way it will be slight
+defined slightly differently but the
+point is whatever way you define them
+these guys they carry a vector space
+structure and the natural one at that so
+even though the underlying position
+space space space time does not carry a
+natural T um Vector space structure the
+tangent spaces do
+and the tangent spaces once you have
+them you have a vector space here you
+have a derived notion there that's the
+notion of a tensor and tensors are very
+important in differential geometry and
+it's best to First understand them
+abstractly so um the
+advantage well it's
+beneficial to First
+study Vector
+spaces and all that comes with it
+abstractly so we could enter immediately
+into studying these concrete Vector
+spaces but the point is this is for two
+reasons it's better to have this lecture
+three as we have it today the first
+reason is even in the exact
+construction of the TPM for
+construction of TPM
+which will be a finite dimensional
+Vector space all this will be defined
+one
+needs an
+intermediate Vector
+space which is again a vector space
+which is called C Infinity m whatever
+that will
+be um and so you cannot even construct
+this guy without understanding
+previously what Vector spaces are
+abstractly so it is worthwhile doing
+that and the second is that uh
+tensors or tensor techniques so the
+definition and what you do with them
+tensor techniques are um most
+easily
+understood in an abstract setting where
+you don't have to worry about this
+specific Vector space and its details
+but tensors are something that are
+defined on any Vector space are most
+easily understood in an abstract
+context or in an abstract
+setting this is the reason why for a
+moment we leave our aim where it is but
+consider multilinear
+algebra so first section is Vector
+spaces as I said Vector spaces are the
+object that is being studied in linear
+algebra and you certainly saw the
+definition nevertheless let me repeat it
+the definition is a vector
+space is a triple consisting of a set
+and two operations plus and times so uh
+where a vector space is first of all a
+set V and I don't call it M because it's
+not the M we had before we're going to
+equip with a vector space structure
+later on so if you later on want to
+identify uh this V we're now talking
+about will for most of the rest of the
+course be a TPM at a certain point or an
+another at another Point okay that's
+where we're going to apply
+it um second you have a so-called
+addition but what is an addition an
+addition is a map why because it takes
+two vectors
+and it Maps them to a vector if you have
+such a rule you have an addition and the
+third element is you have an S
+multiplication it's not a multiplication
+it's an S multiplication what does that
+mean that's okay I should say a real
+Vector space an R Vector space and this
+s multiplication takes a real number in
+the vector and it converts it into a
+vector so it's not a multiplication
+between two vectors that has nothing to
+do with the vector space structure okay
+and in order to distinguish this we call
+this an S
+multiplication where of course the S May
+stand for scalar multiplication but I
+will never use that word so it's an S
+multiplication and um of course not any
+such triple is a vector
+space it has to satisfy how many
+axioms eight it's K me
+and
+Adu key and Adu key is the commutative
+law the associative law the neutral
+existence of a neutral element and the
+existence of inverse elements with
+respect to the
+addition let's look at those first and
+remind ourselves of those you have a
+vector v and you have a vector W then
+you can always you always have the
+Symmetry it's commutative that's a
+requirement on this plus the associative
+law U Plus V in Brackets plus W well you
+can shift the brackets U plus v + W
+brackets shifted now this is of course
+true for all V and W in the vector space
+that is what I mean I could write this
+out but you you know this already okay
+for all V and W it's true for all UV W
+it's true now the existence of a neutral
+element we got to be careful there
+exists a vector call it circle circle in
+v
+it one of those exists such that for all
+V in V it is true that V plus circle is
+again
+V of course Circle we read it as zero
+but it's not the zero in the real
+numbers it's the zero in the vector
+space call it Circle if you wish inverse
+elements that's a little bit the other
+way around this is one in one for all
+that's the the musketeer principle but
+this is for all the exists One V in V
+there exists a vector which we just
+denote by the symbol minus V in V it's
+just a symbol it's just ensure it lies
+in there such that v+ minus V is this
+neutral element hence this law has to
+come first so can you can use this
+neutral element here and of course um
+one may write V minus V equal Z as a
+short notation for V plus minus V but
+the point is there is such a vector
+minus V
+then you have an associative law you
+have two distributive laws and um these
+guys here they only refer to the plus
+and all of these four laws they connect
+these
+two okay or connect them to the uh plus
+and times on R uh well the associative
+law very quickly it's uh Lambda time mu
+* V equal Lambda * mu * V and now let's
+be very careful
+because the plus here and the S
+multiplication here maybe it's
+worthwhile marking them in red for a
+while because this is the Plus on the
+vector space this is all the Plus on the
+vector space okay um this is the plus
+here this is the plus there and this is
+all on the vector space but here this is
+the times on the vector space because
+these Lambda and
+mu are supposed to be from the real
+numbers and you see here this is the
+times on the vector space because a real
+number times a vector that's this guy
+the result is a vector so I again have
+to multiply it by a real
+number but this times here this is the
+multiplication on the real numbers and
+that's a different thing so we use the
+dot in both cases but it's useful to use
+colors at the moment okay then there two
+distributive laws Lambda plus mu time
+V equals Lambda V + mu V okay this is of
+course on the vector space this is
+between real numbers this is on the
+vector space on the vector space and
+this is on the vector
+space and there's another distributive
+law namely Lambda * V + mu time no plus
+Lambda time W again Vector space Vector
+space Vector space
+equals Lambda * V +
+W Vector space Vector space okay and the
+unitary law looks a little trivial but
+it's important 1 * V is again V and
+that's of course this and this is the
+one from the real numbers okay so any
+structure of this type that satisfies
+these aums is Vector
+space now a word of
+terminology a
+vector is an
+element or I I I formulate differently
+an
+element of a Vector
+space is
+often referred
+to and I emphasize
+informally as a
+vector so you must not ask the question
+what is a vector well you can and then
+I'll say it's an element of a vector
+space but the question is if I put you
+one vector here I put one here however I
+do this and I ask you is it a vector or
+not the point is you don't know uh I
+make this
+uh this remark in a second again and
+you'll you'll understand what I mean now
+of course you all have in your mind R to
+the three as an example a prime example
+of a vector space and R3 can be made
+into a vector space it's not a vector
+space all by
+itself and last night when we decided
+what examples to present into today's
+lecture we looked in makaveli's book The
+Prince again and there he says you have
+to do the cruel things in the
+beginning now the cruel thing I'm going
+to do I will not give you a single
+directly intuitive example that makes
+contact to what you know about Vector
+spaces why don't I do that because you
+will probably imagine more than what I
+write down I don't want that I will give
+you an example for just everything we
+construct today which are perfect
+example
+but which are not quite immediately
+unless you're a mathematician make you
+think oh that's what I always thought
+what vectors are but that will force you
+to sharpen your understanding of the
+definitions okay that's it and in the
+tutorials uh you then will be reconciled
+with the abstract notion and RN appears
+at some
+point so the one example I will employ
+again and again for all constructions is
+the following I first Define the set
+Define the
+set P it's just what I call it it's the
+set of all maps small P so it's a big p
+of small Maps small P from the real
+interval minus one to + one into the
+real numbers but not just any of those I
+just look at those that as a map can be
+written as some n equal 0 to some
+capital N uh with some coefficients call
+them PN so they are from the real
+numbers times x to the N or in other
+words this is the set of
+pols of let's say fixed n capital N
+equal 7 fixed uh
+degree polom is defined on this part of
+the real life
+x² for instance or 2 + x to 7 if n is
+great capital N is greater than 7 okay
+it's a collection of such objects it's a
+collection of functions of polinomial
+okay it's a set and at this stage I can
+ask a very simple question or somebody
+might ask a simple question or might
+think might think
+is p oh no is
+square a
+vector now you ask what on Earth is
+square well where square is a map that
+takes an X and produces x
+squared right it's the x squared polom
+but as a map as an element in here it
+has a name it's called
+Square and square is the function that
+sends X to X squar okay is square a
+vector you might be thinking that and
+uh you should get the resounding answer
+no square is an element of the set P but
+there is no addition and there is no s
+multiplication defined anywhere around
+so how can you even talk about a vector
+if you didn't talk about a vector space
+in the first place excuse me I was
+already wondering that when you us what
+is five times Paris yes if I take Paris
+if I Define multiplication by say we
+take the and we take five times each
+coordinate and things like that then I
+can tell you what five times I said five
+times Paris but that's just um if you
+really believe in this I tell you at
+seven times Paris I I hid a
+treasure1 million EUR really it's really
+true go and find it where do you go tell
+me where tell me now where do you go
+that's exactly point you said if I have
+a vector space I have to Define what I
+understand yes addition multiplication
+it it will become clear it will become
+clear later okay was just my M it was
+just my motivation to say we will not
+equip physical SpaceTime with this
+structure we can discuss this for half
+an hour and I'm sure I'm sure in the end
+you will
+agree but but let me now let me let me
+let me proceed here it's true you could
+say I Define it my point is that
+physical SpaceTime doesn't carry the
+structure you could say in my picture
+mathematical picture I Define it but you
+will find nothing in the world that
+justifies it that's my point but let's
+not enter this discussion I I I beg you
+okay we'll come back to this okay so
+there is no it's not a vector at this
+stage now what we can of course do I can
+add I can define an
+addition which I do the following way I
+can do this any time any way I want if I
+can show the aoms afterwards I take one
+polinomial and another one that what it
+means to have an element in here and I
+MA this to what I then call p+ Q it's of
+course the colored plus okay maybe here
+at this point I still use it so this is
+the the color plus the color plus and
+how is this defined well this is the sum
+of two polinomial what I do I mean by
+this
+I mean the sum of two pols is a polom
+defined by if I act on X it's p of X
+Plus Q of X so you say well you wrote
+nothing new you said the sum is the sum
+well this is the sum on P but this here
+is the addition on the real numbers
+because P of X is an element in R this
+plus I have and if you wish I Define
+this plus by this plus over here by this
+construction this sum of polinomial is
+the
+polinomial that is the sum whose whose
+um value is the sum of the values okay
+that's the trick that's the trick
+here and uh similarly I can define an S
+multiplication R cross P into P now I
+take a real number Lambda in the
+polinomial p i ma this to Lambda time p
+and this is the times here the s
+multiplic ation and again I need to say
+what kind of polom or what polom this is
+this is a polom whose value is given by
+Lambda times the value of the polinomial
+and this is again the r in the real
+numbers okay good
+now the question can come up again
+exactly the same
+question is box a vector somebody asks
+box is still box box is still this
+polinomial now I have this structure
+defined and now somebody might
+say yes but who
+cares the point is you can't look at
+this guy and say it is a vector because
+this guy is just an element of a set
+that May underly a vector space but in a
+sense you ask is this a vector and it
+depends on whether in the background you
+define this or not however if somebody
+insists this is a vector but cannot tell
+you how to add it to another Vector to
+another element of the space then he or
+she is in trouble so in a sense you can
+say are these two things vectors well if
+you can't add them you're in bad shape
+okay but you see it's a bad question
+actually because being an element of
+something only refers to the underlying
+so I should first write p+
+times p+ times is a vector space and of
+course one has to check these aums and
+uh I'm sure you can and I'm sure this is
+easy P plus times is a vector space but
+if you say a vector is an element of a
+vector space that's fine like this guy
+but it only refers to the underlying set
+so somehow it's not a good question is
+something a vector but you can certainly
+talk about Vector spaces that's all I
+want to say because in in relativity
+there's often the question what is a
+tensor what is it and a vector is a
+special type of tensor how do I see
+something is a tensor you don't you can
+only Define tensor spaces and you may
+informally call its elements tensors
+vectors are an example that's my point
+okay I rather want to discourage you by
+this word formally from using the
+terminology at all of course I myself
+will not adhere to this
+advice okay so this was uh the first
+section question so far one brief
+question how would you this when
+recommend us to rephrase the sentence a
+quantum mechanical State we usually
+describe as a vector in a hbert space
+well a state would be array in the
+Hilbert space instead of a vector but a
+from that ah sorry question so the
+question was how I would rephrase the
+statement in quantum mechanics a quantum
+mechanical state is an element is a
+vector in the Hilbert space I would say
+it's an element of a Hilbert space uh
+although a state a quantum mechanical
+state is a ray in Hilbert space not a
+vector itself because there's ambiguity
+with the phase and the and the norm okay
+but uh it would say it's an element of
+the Hilbert space why would I have to
+say to call it a vector okay good
+um
+so now linear
+Maps it's a standard procedure in
+mathematics once you have an object
+defined a structure a space with certain
+structure that you investigate the
+structure by considering Maps between
+one such structure and another instance
+of such a structure we did this in
+topology we took one topological space
+and another topological space and we
+studied Maps between them which
+preserved or respected the structure in
+topology it was the open set structure
+pre-images of open sets are open here if
+we want to follow this General
+philosophy of studying structures by
+studying structure uh respecting Maps we
+need to look at so-called linear Maps so
+these
+are the
+structure
+uh
+respecting Maps between Vector
+spaces you ask why would I look at
+structure respecting Maps the answer is
+this is always a good idea to learn more
+at any structural level so we do this
+here and they're just called for out of
+tradition they're called linear Maps so
+if V plus s multiplication is a vector
+space and I write plus v and plus
+and and S multiplication V the addition
+and S multiplication on V and W plus on
+W and S multiplication on W they need to
+have nothing to do with each other right
+let these be Vector
+spaces any two Vector spaces you
+like then a map F from V to W you see
+the map again only refers to the
+underlying set sets because if you know
+how one element goes to the other you
+have that then the map is
+called
+linear if two conditions are satisfied
+the first one is f of V plus v twiddle
+is f of V plus F of V twiddle and for
+all V and V twiddle and the second is f
+of Lambda * V equals uh Lambda Time 5 of
+V for all V in the vector space and
+Lambda real numbers but now the question
+is which plus is which and which s
+multiplication is which you tell me this
+is the Plus
+on V this is the Plus
+on
+W this is the S multiplication
+on V and this is the S multiplication on
+pardon me
+W so you see really both goes in now all
+these four operations go into the
+definition of a linear map it connects
+these spaces somehow very special Maps
+only will have this
+property again as much as you in top you
+can only talk about continuity of a map
+if the set carries more structure namely
+a topology is the same here this is a
+map but you can only call it linear if
+you know about a vector space structure
+on both of these sets before that you
+cannot ask is the map linear again I
+just write down any map for you and ask
+you is it linear you say I don't know
+unless you tell me what the additional s
+multiplication on the domain and the
+target are okay it's very
+important so also for maps you cannot
+say it's linear or not unless you define
+addition and
+multiplication so it means also on R to
+the three you have to say how to add two
+triples of real numbers and usually you
+say you add them component wise but
+that's let's say entrywise and how do
+you multiply them by a Scala you say
+well you pull the scalar into each
+entry if you say this then you made the
+set
+R3 into a vector space and all of a
+sudden you know what the sum of two
+elements in R3 is but before you specify
+this the definition of plus and
+definition of times you simply can't
+even think about it okay that's the
+point and again it's like with the
+standard topology you have been
+indoctrinated to always do this addition
+in a certain way and therefore it seems
+a natural
+choice but it's not so natural natural
+in mathematics canonical always means
+with the structure already given you can
+uniquely construct it
+okay but if you have to say more if it's
+not obvious if if you have to say more
+like take it component wise or pull the
+Lambda into each entry that's additional
+information this additional information
+is
+structure okay so there is nothing
+natural about adding two elements in R3
+by adding its individual entries
+entrywise nothing natural about it you
+may call it natural because used to it
+but that's not a good definition of
+natural because it depends on your
+history and again that's not a good
+theorem in
+mathematics
+okay so
+um let me give you an example for a
+linear
+map and of course I provided you with
+only one example of a vector space so
+I'm forced to do the example uh as a
+linear map from P to P okay okay that's
+the space of these pols of degree at
+most some fixed capital n and I call
+this map Delta from P2 p i prescribe it
+as follows I take a
+polom and delt and it's sent to the
+polinomial Delta of P which is defined
+as now I need to give you a specific one
+well I take the derivative of
+p p is a polinomial in one variable I
+can take its derivative the result will
+be a polom right derivative of polom is
+so I take a polom and you'll get a polom
+so the linear map I just described is
+the differentiation
+operator because the map is just the
+operator of
+deriving okay so why is it linear let's
+check what do I have to check I have to
+check whether the Delta of a PO
+polinomial plus another polom well let's
+see what it is uh this is uh p + Q the
+Pol the sum this is of course the Plus
+on P is the Plus on P
+derived but you know the sum rule of
+differentiation which of course not only
+applies to pols but in particular to
+pols this is the derivative of one polom
+plus the derivative of another
+polinomial and it's again the Plus in P
+but this is
+Delta of p plus Delta of Q ah the
+sum the the image of the sum is the sum
+of the images ahuh good first second
+Delta of Lambda p is lamb P derivative
+is Lambda * P derivative is Lambda *
+Delta of p Ah second axm also satisfied
+indeed Delta is a linear
+map so the differ operator acting on
+pols in this case for Simplicity is a
+linear
+map fine um notation in order to not
+always have to say this is a linear map
+if F from V to W V and W equipped with
+plus and S multiplication
+linear we usually write for this by
+definition f v w and I put a little
+twiddle on here this means it's a linear
+map from V to W that saves a lot of
+writing
+okay a very
+important question is as always if you
+have a vector space V in a vector space
+w and the vector space capital
+u and you have linear Maps uh F and S
+going from V to W and another linear map
+from w to you that's called f sometimes
+I put the twiddle underneath okay the
+question is what about the map f after s
+what about it and the claim is uh if
+these two are linear then this one is
+linear and the diagram says it all you
+can go this way or that way if these two
+are linear You can conclude this one is
+linear the composition of linear Maps is
+linear in fact this comp position is
+what if you are
+so well so arbitrary as to introduce a
+basis on your vector space and I will
+only introduce a basis at the very end
+of today's lecture because in order to
+really understand what's going on you
+must not introduce a basis it uh clouds
+your thinking forget the basis you need
+to understand everything like this but
+um later on this will be essentially
+explain the matrix multiplication rule
+rule if you make additional provisions
+of how you store the information in such
+a linear map okay so lots of the rules
+you know are very Arcane rules with lots
+of rules and information for very simple
+facts this is the very simple fact this
+explains everything about matrix
+multiplication okay but don't worry
+about it so this is
+um okay good okay so that's the
+composition of linear Maps is linear uh
+example for the usefulness of this well
+in our example you can look at Delta
+after Delta Delta after Delta will be
+again from P to P it's the second
+derivative operator it's still
+linear okay it's still linear and of
+course the third and so on they're all
+linear fine
+um
+third set
+well Vector
+space of homo not homeo but
+homomorphisms so the fun fun fact is the
+following but uh it's a very useful fun
+fact um if
+V and
+W and I now suppress the notation at
+this this is the Plus on V and this is
+the Plus on W because you yourself found
+out you can always inspect the
+expressions and you know okay so I
+didn't need to uh write this down let
+these be Vector spaces and we only do
+real Vector spaces here this can be
+slightly generalized to any underlying
+number
+field um let these be Vector spaces then
+we can Define the set of all linear maps
+from one to the other well we know what
+a linear map is so I can collect all
+linear Maps between these two specific
+Vector spaces into a big bag and this
+big bag is of course a set and
+uh the set has a name and it need to say
+it's with respect to which Vector space
+is in which order and the set has a name
+it's called H
+VW it's just a funny name for a very
+simple set the collection of all linear
+maps and what is this this is a
+set is this a vector space no not yet
+but we can make this into a vector space
+make this into a vector
+space how do you do this well you
+construct an addition on home
+VW so you take two elements of the set
+and you need to make a
+prescription of how you get the sum of
+these and you do this by taking a f and
+the S linear maps from V to W and you
+say their sum is five plus so now let me
+um let me prescribe this by a plus with
+a Circ it's just because it's yet a
+different plus we have one plus another
+plus and now we introduced the third one
+now it's worth again introducing another
+symbol but later on we'll drop the
+circle you say this the sum of these two
+but I need to say how the sum is defined
+where five plus s well because they're
+both linear Maps I can feed them a V and
+I need to feed them a v uh and I Define
+this as Fe of uh V plus s of V but uh
+they take values in W so this is the
+Plus on W here so I Define the Plus on
+home VH by uh using the Plus on W and
+similarly I don't write this down you
+define the S
+multiplication so the result is
+if you start with two Vector spaces you
+can immediately construct a third one
+namely the set of all linear maps with
+the such defined addition and S
+multiplication and it's again an
+assertion is a vector space of course
+you need to check the axioms but that's
+very
+simple well this could be a curiosity
+you could say okay you can look at the
+linear Maps the vector spaces then they
+themselves have a vector space structure
+but of course this is kind of a tower of
+structures you can continue like this
+because this is now a vector space you
+could look at maps from this Vector
+space into another home uux or something
+like this and then you have the H
+squared and you have a tower of
+structures this way and the vector space
+structure inherits itself again and
+again and
+again we'll come back to this okay um
+aha I lost a sheet of paper ah here
+perfect okay so
+example hang on is a vector yes that
+this is a vector space so
+example of course home
+PP if you go from P to P that's again
+our polinomial example Vector space of
+polinomial Home PP is a vector space
+okay what does that
+mean well it means I can take an element
+of Home PP for instance our Delta was an
+element of Home PP y or it was a linear
+map right was a linear map now we found
+that the composition of linear Maps is a
+linear
+map so P Delta Delta the second
+derivative operator was an element in
+home PP and of course you can continue
+like this you can go to the nth or MTH
+derivative will be an element of Home
+PP but because home PP carries a vector
+space structure you can now look at for
+instance Delta you take the Plus in in
+home
+PP you take the Plus in home PP and you
+add to it the Delta Delta so you can
+build a derivative operator of this form
+and you can also have a five times in
+front of here this is the times in home
+PP so you have five times the first
+derivative plus the second derivative
+and you don't need to think you know
+because this is a vector space the
+result will lie in here again so if you
+ever in doubt whether mixed order
+derivative operators are still linear
+well they
+are okay you could check immediately but
+the point is you see this is something
+you do all the time you do all the time
+so this home PP in this case is a very
+natural object extremely natural to do
+something like this right
+okay so now comes a much
+feared topic dual Vector
+space and it's totally unclear why this
+is such a a feared topic because we
+already did it it's just a heavily used
+special case of the stuff before it's a
+heavily used special
+case namely if you have a vector
+space
+V then you define a
+set V Star first a
+set as all the linear maps from V into
+the real
+numbers now you say oh into the real
+numbers but but are they a vector space
+yes the real numbers with their addition
+and multiplication from elementary
+school well the real numbers maybe not
+good Elementary School um the real
+numbers with plus and multiplication are
+an R Vector space you can quickly check
+they satisfy the aums so you can
+justifiedly talk about the linear
+structure okay but this is of course
+home you tell me
+home VR so it's just a very special case
+of this home VW of this set but it's
+heavily used and I can tell you already
+why because if you know the V and the V
+Star you can construct all the rest
+that's the point it's an elementary
+building block hence it's such a special
+case but all the complicated cases you
+can make out of the V and this building
+block it's always clever to break
+something down to its most Elementary
+building blocks that's the only idea and
+um now say oh this abst a very abstract
+set you you take something it's a set of
+maps well it's not so bad right you
+understand the set of pols that's even
+more complicated it's just the set of
+linear
+Maps now um well this is as a set and
+but you have V Star with the plus and
+the S
+multiplication that is defined on here
+right so that means I Define it just
+like over here is a vector
+space so it's a very special case how
+from one vector space you make another
+one it's this om VR case it's and this
+guy here is called the
+Dual Vector
+space well to V it's the Dual of V it's
+the Dual Vector space to
+V
+ahuh now again there comes some
+terminology and it's as bad terminology
+as it is for the vector but it's
+commonly used terminology an element
+Omega or fi element fi of the Dual space
+is
+called again
+informally a CO
+Vector a coor
+but I mean V Star is a vector space in
+its own
+right so you could also call it a vector
+because an element of a vector space is
+a vector so you can say a co- Vector is
+a vector now it becomes a little funny
+the point is with co- Vector I mean I
+think of a vector space V and I think of
+its dual and it's my tcid agreement that
+the elements of v i quickly refer to as
+vectors and the elements of the
+corresponding V Star I refer to as Co
+vectors but actually Co the Co in front
+only makes sense in relation to to the
+vector space and so on so again you
+cannot look at something and say oh this
+is a co- Vector not a vector and um
+anyway we we we'll come to this but we
+we'll stick with terminology like this
+so start thinking for some reason
+naturally you're given a vector space
+and the naturally will be the tangent
+spaces to our manifold will be Vector
+spaces and the elements of those you may
+call vectors and the uh elements of the
+Dual space to those you may call
+Co vectors again terminology maybe
+confusing terminology but commonly used
+terminology you certainly want to get an
+example you say this is so abstract
+certainly you can't give an example with
+these polinomial well of course I can
+example consider a map I just call it I
+uh that goes from P linearly into the
+real numbers ah that must be an element
+of P star so that is in other words I is
+an element of P star so if I can Define
+such a guy in a linear manner I have an
+example uh and I define indeed this
+specific I up here um
+I of I need to say how a polom is mapped
+here to a real number I take for
+instance our polinomial are defined from
+minus one to to One open interval I take
+just for fun the integral from 0 to 1
+doesn't matter whether the end point is
+in there or not 0 to 1 DX P of
+X you hand me a
+polinomial and I integrate it from 0 to
+one and doubtless I'll get a number a
+real number is this in a Real Fashion is
+this a linear map because it needs to be
+a linear map in order to lie in here
+well of course it is because if you take
+two pols of course you can split the
+integral because the sum of the two pols
+we said that's the sum of the images of
+the
+pols and then you can split the integral
+da da da and you get I of Q Plus I of p
+and similarly you get I of Lambda p is
+Lambda I of P again these are simple
+rules of integration that you know and
+simple rules of integration mean that
+the operation of definite integration is
+a co- Vector so
+um that
+is this map I as a map before it acts is
+what you may write is 0 to 1 DX so the
+integration operator that eats something
+that's to the right of it is a co-
+Vector okay so it's something you use
+all the time in quantum mechanics you
+come from the left with the derivative
+operators or something like this can
+come with an integral operator this is a
+nothing it's a simple thing it's a co-
+Vector is an element in P star p is the
+space of these pols so again you use
+this all the time and in fact we'll also
+see later on that the gradient again you
+have been indoctrinated that the
+gradient of a
+function on RN is a vector no no well
+not if the vectors are the directions a
+great is a co- Vector it must be a co-
+vector and everything else gets you into
+trouble and you can see it if you know
+the multi-dimensional chain rule so if
+you hold that the gradient is a vector
+and you hold that the chain rule applies
+you can prove anything because it's
+inconsistent okay we we'll come to this
+I just want to emphasize you met lots
+and lots of lots of objects in your
+physics physicist's lives that are co-
+vectors but usually they have been
+called vectors in order not to bother
+you with these details but in in fact
+the impression that covectors are
+something extremely unnatural and
+something very esoteric is simply
+because people have lied to you okay
+that's the only thing okay they're all
+around and you know them you know many
+examples of them without knowing
+please okay again we will come back to
+several of these several of these
+points
+okay so I said if you have a vector
+space and you consider it's dual which
+is a very special case of considering
+linear maps from this Vector space into
+another then you have the elementary
+building
+blocks to build this entire structure I
+told you before where you Heap maps on
+maps from maps to maps on each other and
+always equip them with Vector space
+structure and the elements of these
+higher and higher and higher structures
+they're just generically called tensors
+so we're now going to introduce tensors
+and tensors are such a natural object in
+linear algebra you just need to write
+them
+down and um on finite dimensional Vector
+spaces all of this is valid for any
+Dimension first of all I didn't Define
+Dimension yet but any Vector space
+satisfies all of this so all I wrote
+down is true for any Vector space no
+what it's what we later call its
+Dimension however at the end we will
+introduce Dimension and basis and all of
+that because is sometimes useful but it
+introduces a great degree of
+arbitrariness namely the choice of a
+basis
+um but um if you on finite dimensional
+Vector spaces after all there is a very
+simple way to think of tensors as
+multilinear maps and that is what we're
+going to introduce because the tangent
+spaces to our man folds will be finite
+dimensional if the DI manifold has
+manifold Dimension as we defined it D
+then the tangent spaces will have Vector
+space Dimension D it's a different
+notion of Dimension One is dimension of
+a topological manifold which we defined
+the other thing is the dimension of a
+vector space of a tangent Vector space
+and that will be the vector space
+Dimension as we Define it but the two
+numbers agree okay so therefore mostly
+especially on when we apply the theory
+to general relativity we'll only deal
+with four dimensional Vector
+spaces finite dimension of course four
+is finite so we can think of tensors as
+multi-linear maps and that's how I'm
+going to introduce them
+now so fifth is
+tensors
+okay so I just give you straight the
+definition and then you'll see what I
+mean by V and V Star Building being the
+building blocks definition let V plus
+times be a vector
+space an r s
+tensor over this Vector space V and R is
+tensor over V and let's give it a name T
+and R is tensor over
+V is a
+multi linear
+map
+T and now it comes that eats are many
+copies of the Dual Vector
+space and then it eats s
+copies so obviously R and S are in
+um R and S
+are uh non- negative
+integers and then it takes s copies of v
+and it Maps these guys and remember if
+you ask what are the copies of these
+well these are tuples where the first
+the elements of this set here so this is
+a set right the elements of this set are
+tuples where the first R in entries are
+co- vectors and the last s entries are
+vectors okay very simple thing uh into R
+and again multil linearly well one is uh
+tempted to write as many twiddles here
+uh to write here R plus s
+twiddles right because multilinearity
+means and of course we won't do this we
+will just write one t um because mult so
+first of all the definition is finished
+it's a multi-linear map uh that is so I
+explain what multilinear means it's very
+simple um Let me Give an example it's
+best shown in an example and then you
+know what multilinearity is uh let's say
+t is a one one
+tensor what does that mean it means T
+can eat a co- vector and a
+vector right so the FI I take from V
+Star and the vector I take from V and um
+multilinearity means that if
+you take
+two co- vectors F and S comma V that you
+can pull it apart F comma V plus T comma
+V so you only need one plus here and the
+rest Remains the Same uh similarly um if
+you have in this first entry Lambda fi
+comma V you have Lambda goes all in
+front F and V but of course what is true
+for the first entry this would be a
+linear map in the first entry a
+multilinear map is quite independently
+of being linear in the first entry it's
+also linear in the second entry so F of
+V + W is T of f comma v+ T of 5 comma W
+and T of f comma
+Lambda uh V is Lambda T of 5 comma
+V so independent in both entries it's
+linear um I continue the example with a
+sub
+example uh what is then T of uh F + S V
++ W well I need to use linearity twice
+it's t of f v plus T of F W plus T of P
+V plus T of w full
+stop
+yes go
+forer
+yes
+okay yes yes yes
+okay yes yes okay so the question is
+let's do have Excursion it's a very good
+question of
+course we actually reserved it for the
+problem sheet but because it's being
+asked and the Excursion is that uh uh
+the somebody in the audience
+says um he Associates with the one one
+tensor something you feed in a vector
+and you get out a vector so I claim it's
+precisely the same data so uh I do the
+following construction then I answer the
+question so
+given a map T from V Star Cross V into
+the the real numbers that's
+multilinear I Define the following I
+Define a map let's call it fi from the
+data of this T so I say it's the FI
+constructed from the T and this fi is a
+map that takes a vector and spits out a
+vector in linear fashion how does it do
+that well I take a little vector v and I
+spit out a vector in this fashion and ah
+okay I get myself into trouble here um
+aha okay I need to say it anyway so I'll
+do it so this is T of what can the T do
+the T can eat a vector in this slot and
+a co- Vector in this slot so I put a
+vector here but here I can't put
+anything but so this is an object that
+can eat a co- vector and spit out a real
+number is that clear so that means what
+is written here this guy eats a co-
+vector and spits out a real number in
+linear fashion because once the V is
+fixed this is only linear in this slot
+so this T here so this um result this
+here doesn't land in v it lands in V
+Star Star you see this so the result of
+plugging in a V is an object that's a
+linear map from here to here but a
+linear map from a vector space into the
+real number
+is an element of the vector space taken
+to the
+star and now there is a fact that I'm
+not going to prove right here but which
+is true that if the dimension of the
+vector space is less than
+infinity if this is less than infinity
+this is V the star star reproduces the V
+but only for finite Dimension so after
+all you constructed a map from V to V
+and this is the way you like to think
+about a one one tensor this is the way I
+like to think about a one one tensor
+because otherwise you would have to put
+s you have put r v Stars here SVS here
+and PV Stars here and qvs here and then
+the tensor would be classified by being
+an RSQ
+tensor okay but I can save the trouble
+because roughly speaking whenever I have
+something here and can put it over here
+by adding a star to it or if some V is
+here I can put it over here also by
+adding a star to it it always contains
+the same data well I haven't proven that
+yet because from this I constructed this
+but the other way around I can say given
+a map five from V to V again the way a
+linear map again the way to you like to
+think about a one one tensor I can
+construct a map T but now the other way
+around from the data of five which I
+claim must be V Star Cross V into the
+real numbers linearly by taking a co-
+vector and taking a vector and making a
+number out of it by taking this F you
+provided we miss me we you provided me
+with you map it by the FI and then you
+apply this co- Vector here to make a
+real number of it and then you have as a
+fact from this you can show that if you
+have
+given given the T it's true that this T
+can be recovered as the T that you get
+from the FI that you constructed from
+the T and given the FI like you like to
+think about it you can reconstruct this
+fi from the FI constructed from the
+tensor constructed from the FI with
+other words the way I like to think
+about it and the way you like to think
+about a one one tensor for finite
+dimensional Vector space basis has the
+same data it's the same thing but this
+is a canonical notation for
+it this was quick but maybe if you look
+at the video you'll see it yes now you
+sorry complain to the audience
+please okay so the point is that since R
+is a vector space we can say we get a V
+and so the r is a vector space so there
+following HS is that the point
+of this year yeah no the point of this
+year is that that a map from V to V
+contains the same data as a map from V
+Star Cross V to
+R
+okay that's that's the point of this
+construction
+okay good so we call these RS tensors
+and your uh favorite tensors are in
+there I give you an example and then I
+still need to show you something namely
+for instance that vectors are tensors
+because that's also not obvious as
+little as this is obvious what C asked
+as little is it obvious that vectors are
+tensors that co- vectors are tensors is
+obvious but we'll do this first I'll
+give you an example of a
+tensor and again you think oh tensors we
+never use them of course you use them
+all the time the example is the
+following you take a map
+G taking two pols and mapping them
+multil linearly into the real numbers
+and um the specific map for instance
+it's just an example for a one one
+tensor a 02 tensor sorry is you take two
+polinomial
+PQ defined on where they are defined and
+you say for instance the integral from
+minus1 to 1 DX P of x q of
+X you saw this so there was a question
+about quantum mechanics well there we
+want more fun functions than pols um but
+nevertheless this is of course the inner
+product on function space where the
+functions are defined here so this
+appears in quantum mechanics the inner
+product okay well there it's complex
+valued and so you take a little star
+here and so on but that can all be be
+done but this is our specific example
+now this this exactly that it takes two
+polinomial it Maps them to a real number
+and of course it does so multi linearly
+because if I take P plus P twiddle then
+I can again pull the integral apart it
+satisfies for instance also this Rule
+and the question is it takes a p and a p
+it doesn't take any P Stars uh so that
+means this is a 0 to tensor over
+p and inner product is a 02 tensor
+there's nothing simpler than that okay
+and a linear map from P to P like could
+ask before is a one one tensor that's
+it's all beautiful and of course it must
+appear somewhere here because there's
+linearity in the game and I promise you
+that on finite dimensional Vector space
+at least all these structures that Heap
+on on each other and always inherit
+their Vector space structure they will
+all be constructable and that's the
+point they're all constructable from
+these Elementary building blocks V and V
+Star and that's why they're so so
+important okay good
+uh one more piece of information I
+really stop it
+h if T lies in h v v h VW we looked at
+this
+before I don't want to say this okay
+sorry it's um it can be done but it
+leads too far okay let's leave this okay
+fine question so
+far good
+now
+sixth vector
+and Co
+vectors as
+tensors uh well let's write this down as
+a theorem but this is really a this is
+Trivial theorem a co- Vector so an
+element
+fi in V Star what does it mean f lies in
+V Star well by definition of V Star
+V Star it means f is a linear map from V
+to R
+agreed but that by definition of tensors
+is a 0o one
+tensor because it takes zero times the V
+St so a co- Vector you can call this a
+co- Vector if you like a co- Vector is
+by the definitions a 01
+tensor I mean this is is theorem and
+proof in one right theorem including
+proof
+okay now not quite so obvious but
+because of course
+question it's now easy for me to
+argue a vector V in V what does that
+mean well a vector V in V I claim no I
+don't claim I already I already claimed
+I only claim once without proof uh V is
+V Star
+star Remember for dim
+V less than infinity and that's a little
+silly because I haven't defined dim V
+but I will do that in a second okay dim
+V is V Star Star you can construct the
+point is probably I see the
+mathematician move you probably want the
+isomorphism I'm just saying that purpose
+of this the sufficient that is a
+subset the subset of star that's true in
+or but also in order to do the opposite
+direction
+then okay so we agree it's true what I
+write but I could write something weaker
+okay okay good so I have this but if
+this is true I just by definition of the
+star I then know that V is a linear map
+from V Star to R in the sense of it has
+the same information I can construct
+this linear map from a given V and I can
+reconstruct the V from the given map
+that's the name of the game uh but this
+now is in a form congenial to our
+definition of tensors this means that V
+is a one Zer
+tensor thank good so vectors are one
+zero
+tensors can be considered one Zer
+tensors Co vectors are 01 tensors linear
+maps are 1 one
+tensors and so on okay uh an inner
+product for instance on a vector space
+if you give one it's additional it's
+data right an inner product is an
+example for a 02
+tensor an inverse of an inner product
+it's usually called an inverse it should
+call be should be called the Dual inner
+product would be a two Z tensor it would
+be an inner product on the Dual space
+it's stand a two tensor and so on okay I
+claim that everything that written here
+in terms of tenses you have many many
+examples seen in your physics classes
+and probably never called them
+tensors
+okay a homework the in inertia tensor of
+classical mechanics the tensor of
+inertia what is r and what is s well it
+has two indices oh shouldn't say this
+okay we come to this later okay anyway
+the question is anyway is it a 1 one
+tensor a two tensor or a 02
+tensor go to your mechan P book and look
+at it okay good so uh this is that now
+uh Blackboard
+please so all of this has been said
+without ever talking about a basis
+without ever talking about the
+components of a vector and in fact in
+terms of this polinomial without even
+thinking about the Vector being a
+collection of numbers right there are no
+collections of any numbers anywhere
+they're just vectors and with the
+polinomial of course hidden somewhere
+this is there but that's not the point
+the point is to not see it if you don't
+see the numbers in the vectors you did
+well okay you did well
+now because you did well because that is
+the structure of the whole thing okay
+anything that can be constructed this
+way is natural you can make your proofs
+and so on now there is a notion of basis
+of a vector space and bases of the Dual
+Space special bases of the Dual space so
+called dual spaces of the Dual space and
+we'll do all of that and it has its
+place name it has its place if you ask
+me well for it has its place but the
+point is in order to assum associate to
+a vector a collection of
+numbers well first of all it should be a
+finite dimensional Vector space in order
+to really make this working but in order
+to do this you cannot just do this I
+okay I could take give you the
+polinomial X2 + x to the 3r it's an
+element of the P Vector space and I
+asked you what numbers does it
+correspond to what's the collection of
+numbers the point is there uncountably
+many ways you can associate this one
+vector to a set of numbers numbers you
+can there uncountably many ways and the
+choice of one of these ways is called a
+choice of
+bases but it's a choice that has nothing
+to do with the object you wrote down for
+instance in quantum mechanics you have
+an inner product and the inner product
+is what counts now of course you can
+make an additional choice you can make a
+choice one out of uncountably many you
+make a pick I mean that's a a lot of
+information right if you have
+uncountably many choices and you make
+one it's a lot of
+information well you can do this and as
+long as you keep in mind that you made a
+massive Choice a massive choice and that
+everything you now write down using this
+choice will depend on this choice you
+can then earn the fruit of having made
+this choice but never ever should you
+think think that what you write down
+having made this Choice has any
+objective well reality is a bad word but
+has anything to do with the vector alone
+it has to do with the vector and the
+massive choice you made so you see it's
+a very mixed blessing to choose a basis
+nevertheless we'll do it because it's
+quite practical in some places to do
+very explicit calculations but actually
+so uh in England they say a gentleman
+and of course today a lady only chooses
+a basis if he or she has to so unless
+you're really forced because it gets
+really better don't choose a basis in
+the first place okay good now having
+been sufficiently poic about choice of
+bases uh I introduced them it's seven I
+think yes
+seven Aces definition
+let V be a vector
+space a
+subset B in
+V is
+called a
+basis and if you want to be very and
+this is the basis I'm going to Define is
+the basis from your linear algebra
+lecture
+however because you're physicist I have
+to warn you in quantum mechanics you
+often have bases with infinitely many
+elements and you combine a vector by a
+series by a infinite sum of basis
+vectors but that basis I just mentioned
+in quantum mechanics is not the basis of
+linear algebra although most books
+testly assume this or at least don't
+mention the opposite so in order to see
+the difference we call this a HL basis
+and this is the basis of linear algebra
+so this is the basis if you're a
+mathematician you don't think of INF
+anyway this if you're a mathematician
+Hil basis a subset B andv is called a
+basis if now I could go into this long
+thing about generating system and linear
+Independence but a good way to say it is
+is a um is called a basis
+if and now the order is uh important
+if for all V in the vector
+space there exists and now it comes a
+finite it's important word a finite
+subset
+um f f like finite which lies in the
+bases so there must for you first pick a
+vector and then you see whether your
+basis set which may be a set with
+infinitely many
+elements but you see whether for a given
+Vector you find finitely many F in here
+well if this is finite it can be written
+as fub1 to FN whatever the N is that for
+this Vector you find this n might vary
+with this Vector you there exists a
+finite subset in the spaces such that
+there exist
+unique unique numbers V1 V2
+to VN they're all real numbers such that
+V can be
+written and I think this is also a
+unique finite subset that the V can be
+written as uh
+V1
+fub1 plus do plus VN FN
+yes
+um
+yes yes okay um so you don't want
+this I don't think so because um I know
+I I roughly I think I know what you mean
+but it could be that in another part of
+this B There is yet another set of these
+such that again you can write this
+concrete v as this so the question was
+cameraman indicates um the question was
+is there an exclamation mark here or not
+exclamation mark means exist unique a
+unique Choice um there could be in this
+B another stretch of vectors such that
+the V can be alternatively expressed
+using them so then I think uh that would
+be go against what you usually split up
+as the linear Independence of the
+basis um so I I think it's uh it's it's
+correct but I think that you're safe if
+you say if youate that these are in R
+without zero yes the point yes but okay
+then then it becomes the philosophical
+question if you have a serious where you
+know that almost all members are zero
+whether it's still a serious or
+not if it a series becomes a sum if yeah
+okay something like this okay let let's
+keep it like this so the whole the whole
+point here is that really a basis can be
+have infinitely many elements but you
+always must aim at being able to
+represent given vector by only finitely
+many from this basis because then you
+have a sum otherwise you would have a
+series here on the right hand side and
+if you have a series you know a series
+only converges if you have a notion of
+convergence so in order to be able to
+require anything but a Hil basis you
+would need a topology on your vector
+space as well only if you also have a
+topology on top of the vect Vector space
+structure then you can start thinking
+about defining bases in a way that
+you're more liberal here and that's
+called then a Sher basis okay and that's
+usually what you do in quantum mechanics
+anyway this is this that was just
+confusing me if I take a simple Oneal
+harmonic oscillator and the energy
+ionian functions there are infinitely
+many so why is there this stressing it's
+a finite number well the point is those
+IG functions wouldn't constitute a HL
+basis of your Hilbert space they would
+constitute a Sher basis and for that you
+need additional structure on your
+Hilbert space which you do have because
+your Hilbert space has an inner product
+it's a complete space so you have you
+have this norm and it's complete and so
+on so the it converges and and therefore
+you can do it but that is not the basis
+of linear algebra it's it's a basis on a
+topological Vector space not a BAS basis
+on a bare Vector
+space so again it's how much structure
+exactly you you assume so this is the
+basis of linear algebra okay that's this
+so
+definition
+if there exists a
+basis B with finitely many elements now
+B itself has finitely many
+elements say a d
+many
+then we
+call D the dimension of the vector
+space the number of elements in a base
+now of course you might ask hang on
+there is maybe not a unique basis I said
+there isn't more than countable
+countably many bases of course there are
+uh what if I choose another basis well
+you have to show well definition and I
+just asserted this is well
+defined for any other basis then uh any
+other basis then has the same number of
+elements and this is then a finite
+dimensional Vector
+space so now once we made this
+definition we can say what a finite
+dimensional Vector space is if you start
+with the definition you always have a
+finite basis then you never know whether
+you you got them all right
+okay and as I said uh we will
+occasionally use an infinite dimensional
+Vector space but we will never need to
+choose a basis for those we will mainly
+deal with finitely finite dimensional
+Vector spaces and we will never need but
+we will often do choose a basis for
+those okay
+good um next
+point is
+this choice so let me make a remark here
+remark um and for Simplicity I from now
+on we'll only assume we have a finite
+dimensional Vector space but only for
+Simplicity okay remark so let V
+plus uh times be a v be a
+finite dimensional Vector
+space
+then choosing or having chosen a basis
+having chosen chosen a
+basis let's say E1 to e n i called it f
+before now I call it e E1 to n of this
+Vector
+space we may
+uniquely
+associate with a vector a tuple of
+numbers namely with the vector you may
+associate a tuple of numbers V1 to v
+n called the vector components where the
+V1 yeah well
+called the
+components of V with respect ECT to The
+Chosen
+basis so a vector doesn't have
+components all by itself but only once
+you chose a basis where and I have to
+tell you how I get these numbers where
+these V's are the unique numbers are the
+unique numbers such that I write V1 E1
+plus plus VN N I recover the
+vector okay yeah but this requires
+The Chosen
+basis so if you choose a basis you have
+to always keep it in mind and everything
+you say depends on
+that so you may introduce a choice of
+basis but you pay a big cost everything
+will depend on an arbitrary Choice yes
+well I guess we are all exhausted but
+you probably won't like if I ask this
+question at the beginning of the next
+lecture we introduced charts last time
+and there you also stressed uh that
+depends on the publisher what our
+coordinator or however we call are so
+now why is it bad here and wasn't so bad
+there it's bad there
+too and hence I only would buy a so the
+question is why uh if you introduce
+charts uh you have an arbitrariness here
+you introduce basis you have arbit is
+it's as bad and hence I would only buy
+an atlas from a publisher who sells me a
+maximal atlas that has all the charts in
+it and then I will always make sure that
+everything I want to Define is
+independent of my fantasy I talked about
+this last time it's the same here you
+can introduce a basis and then Define
+Concepts using the objects defined in
+this bases but then you have to make
+sure that under a change of bases the
+objects are not changed for instance the
+determinant of a linear map you can
+Define this in this funny way if you use
+choose a bases and Associate a matrix to
+it you can do this but then you have to
+check that under change of bases it's
+invariant well my advice would be never
+introduce a basis in the first place and
+Define the determinant basis free the
+same is true for the trace of a map for
+instance and so on so that's exactly
+it's exactly the philosophy so um I need
+to do uh two more things and that's uh
+fifth it's a
+basis the Dual
+space now having chosen a basis choose
+basis say E1 to n for V of course you
+can
+choose you can choose a
+basis Epsilon one to Epsilon n i
+indicate this by upstairs Ines for V
+Star entirely independently of your
+choice of bases on V because V Star is a
+different Vector space and if you have
+you can choose on V to different bases
+you can also choose on V1 basis and on V
+Star a basis that has nothing to do
+whatsoever with the Bas is chosen on V
+so you make double you introduce double
+as much arbitrariness right um well that
+becomes a little silly especially
+because you may so it's more economical
+however more
+economical to
+require that once a basis E1 en n on V
+has been
+chosen
+that the basis on V Star satisfies that
+the eighth basis element on V Star what
+is that that's an element that's an
+object that sends a vector to real
+number
+right that it eats the be if it eats the
+be basis element on V that what you get
+out is what we abev as Delta up a down B
+which is one if a equals B and is zero
+if a not equal to
+B you can require this and this
+uniquely
+determines
+choice of the
+epsilons the co- vectors from the
+choice backboard please from the choice
+of um Vector bases E1 to
+n okay and this special choice if the
+basis of the Dual space
+definition if a
+basis Epsilon 1 to Epsilon n of V Star
+satisfies
+this it is called because it's Unique I
+can call it
+the Dual
+basis and of course it's the basis of
+the Dual space
+I call it the Dual basis of the Dual
+space and the whole purpose is we
+already made a choice keep the choices
+down by linking the two together it's a
+matter of economy and an additional
+benefit it is it makes the formulas
+simpler in many
+places
+okay
+example
+you remember our space
+p and let's say the n in there is fixed
+to three now I said it was the
+polinomial of degree at most P what is
+the basis for p
+E1 well there I would like to start
+calling with e0 but you know that
+doesn't make a
+difference um e0 1 2 3 so it's a four
+dimensional space apparently uh this is
+a
+basis if now I need to say how they're
+defined well a vector is a polom so that
+means this basis Vector is a polom and I
+say it's the polom that's just defined
+as one E1 of X X2 E2 of x x to the X to
+the cube now it's suffices hang on one
+no here x x² and E3 of x = x cubed I
+claim this is a basis if the objects are
+defined like
+this because every polom up to degree
+three you can write down as a linear
+combination of these guys well of
+course okay now the question is what on
+Earth is the Dual basis e0 E1 E2
+E3 and I already write down the Dual
+basis of the Dual space that satisfies
+this and this is defined by taking the E
+Epsilon I could have also written here e
+down a is X to the a okay here I write
+so let's do this uh e down a of X is
+defined as x to the a it's a choice of
+bases I could choose a totally different
+one what's the Dual
+vectors the Dual vectors
+are 1 over a factorial 0 factorial is
+one and then you take the it's only one
+dimension but I use this as the Der
+derivative operator you take the eth
+derivative of whatever this acts on
+because this is in a dual space it acts
+on pols so it can act on that a times
+and after it acted you evaluate at x
+equal
+Z that sends a polom to a number take a
+polom you calculate
+1/ a factorial times the eth derivative
+of the polinomial is a polinomial and
+then you evaluate at
+zero claim this is the Dual basis to
+this so here the elements of the Dual
+base are not pols they're derivative
+operators with an evaluation
+proof Epsilon a on EB equals well uh you
+apply this to here you get
+um if you have the eighth derivative you
+get a factorial in front you evaluate at
+zero and then you check that all the
+lower orders have been killed only the
+eighth order and the be order is Pres
+oberved and all the higher orders are
+being set to zero indeed this is Delta a
+check
+it bear with me for four more minutes
+this is the Dual base of the Dual Vector
+space and now comes something everybody
+has been waiting for who knew tensors
+before namely components of
+tensors
+let
+definition let T be an RS
+tensor
+over a finite
+dimensional Vector space
+V
+then
+Define the r + S to the dimension V
+many real
+numbers I call them T like the Kern
+letter of the the tensor is called but
+now I write T i1 to i r J1 to
+JS and all the
+I i1 to I and all the J1 and J to JS
+they can all run from one to dimension
+of
+v it could be T 1 1 2 3 seven if seven
+is still less or equal to the dimension
+so you can have all combinations that's
+why you have so many numbers and all of
+these guys it's just a name for fixed
+for fixed numbers 1 1 74 da da this is
+an element of the real numbers okay how
+is it defined well you're given a tensor
+uh real numbers defined as you take the
+tensor and now comes the point you
+cannot Define numbers from a tensor
+unless you chose a basis so you need to
+say let be a
+tensor and E1 to n basis of
+v and then you can plug in for the
+last s elements you can plug in ei1 the
+i1 basis tensor here the IC and so on to
+the I A J J1 J2 to the j s now whatever
+values this takes you plug this in and
+what do you plug in here well you need
+in order to get a number from from these
+indices you plug in the DU Epsilon i1
+down to Epsilon iir then you fill the r
+slots and it's a silent agreement that
+the Epsilon one to Epsilon n is the Dual
+basis of the Dual space the tested
+agreement is that you did this you can
+do it differently but you get yourself
+more work on your hands so you take a
+tensor and you plug in your massive
+choice of bases all possible
+combinations and you get a massive array
+of
+numbers why is this a good idea well
+first of all you can Define it the
+question is is it useful and this is
+useful so these are called the
+components these are called the
+components of the
+tensor with respect to the chosen
+bases
+and why is this
+useful
+knowing the
+components and the bases with respect to
+which the components have been defined
+you have to keep the bases in mind one
+can
+reconstruct
+construct the entire tensor
+and I just do this in an example it's
+very clear say so
+example say t is a one one
+tensor then its components are t i j are
+the application of here the J basis
+vector and here the I dual basis
+vector and when I say I can reconstruct
+the entire tensor what I the the tensor
+is a map and I certainly understand the
+map if I can calculate any image if I
+can take any element in the domain and I
+can calculate what it is I understand
+the map so let's do this how do I
+reconstruct
+reconstruct I can expand the FI in the
+co basis so there it has a
+sum I = 1 to a dimension of v five
+Epsilon uh I and the components are f i
+these are the components of the co-
+Vector I can expand I = 1 to dim V the
+vector that's the components of the
+vector so these guys I in the real
+numbers but these are Co vectors and
+these are vectors now because T is
+multilinear I can pull out the
+sums here and here so you get a double
+sum you can do this in steps if you wish
+I should write this with with a J in
+order not to get into trouble IAL 1 to
+dim V Jal 1 to dim V I can also pull out
+real numbers so I can pull out the f i
+in front and the VJ and All That Remains
+is the T Epsilon i e j these I cannot
+pull out because they're not numbers but
+they're vectors but this is exact
+definition of the IJ component of the
+tensor so you can calculate if you
+decompose the um domain elements in
+terms of their bases you can then write
+understand the mapping of this tensor by
+doing this here and you just make this
+big sum and one last remark the called
+the Einstein summation convention if you
+have tensors of higher rank there will
+be many sums and many indices but it
+will always be and this came from my
+choice that I didn't explain because
+it's the convention that I label
+different basis vectors by an index down
+and I label different Co vectors B in
+the bases by indices up and if I do this
+and I further agree that I then label
+the components here with indices down
+and those components with indices up
+then I have a nice convention that
+multiply occurring in PES like this I
+down and this I up always appear up down
+and this J up and this J down again
+appear in an up down combination and
+they will only always here appear by
+being summed
+over so what one does one defines the
+following
+expression um f i v j t i up I down J it
+has multiple indices and you say what
+are I and J and the answer is if you
+have an index down and an index up there
+is an
+invisible sum sign in front of it
+summing over the index and if you have
+yet another index up
+down twice up down there is yet another
+invisible sum
+sign and it would be a very bad idea
+making some signs invisible because if
+they're invisible they can be pulled out
+without being seen it's like a ghost so
+if you have a linear map and you have a
+sum over
+vectors and the sum sign is invisible I
+wouldn't know is it here or is it here
+because in both cases it's invisible but
+it doesn't matter whether it's here or
+here because if the map is linear you
+can pull it in or out so making some
+science invisible is only working
+because you have you always look at
+multilinear
+Maps so the ghost is not seen but it's
+not necessary to see whether the ghost
+is in or out and this is called the
+Einstein summation convention and it
+saves you a lot of writing effort and it
+makes the formula appear much
+clearer repeated indices one up one down
+are being summed
+over next lecture in half an hour and uh
+tutorials this afternoon thank you very
+much

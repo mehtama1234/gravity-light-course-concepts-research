@@ -1,0 +1,89 @@
+[
+  {
+    "id": "foundations",
+    "name": "Foundations",
+    "plain_question": "What must be built before gravity can be described without a preferred coordinate grid?",
+    "answer": "The early lectures strip geometry down to nearness, local charts, slot-aware algebra, and local directions. This prevents later equations from smuggling in a flat background.",
+    "concept_ids": [
+      "topology-continuity",
+      "manifolds-local-flatness",
+      "multilinear-objects",
+      "tangent-spaces-fields"
+    ],
+    "subthemes": [
+      "Local change",
+      "Local descriptions",
+      "Nearness before measurement",
+      "Slot structure"
+    ],
+    "why_the_math_matters": "These ideas prevent later gravity from depending on a preferred picture, grid, or surrounding flat space."
+  },
+  {
+    "id": "geometry-of-gravity",
+    "name": "Geometry of Gravity",
+    "plain_question": "How does the course turn falling into a statement about geometry?",
+    "answer": "Connections define straight motion on a manifold, curvature measures when those local straightness rules fail to fit globally, and the metric turns measurement into a field.",
+    "concept_ids": [
+      "connections-parallel-transport",
+      "curvature-geodesic-deviation",
+      "metric-measurement"
+    ],
+    "subthemes": [
+      "Comparing nearby directions",
+      "Measurement becomes a field",
+      "Tidal facts"
+    ],
+    "why_the_math_matters": "These ideas turn the felt fact of falling into precise comparisons of local directions and measurements."
+  },
+  {
+    "id": "dynamics-and-matter",
+    "name": "Dynamics and Matter",
+    "plain_question": "What does the field equation actually join together?",
+    "answer": "It joins a divergence-free curvature object to stress-energy, so local conservation of matter and local geometry obey the same accounting rule.",
+    "concept_ids": [
+      "symmetry-conservation",
+      "integration-on-manifolds",
+      "stress-energy-matter",
+      "einstein-equation",
+      "canonical-formulation"
+    ],
+    "subthemes": [
+      "Adding local facts",
+      "Allowed initial data",
+      "Geometry coupled to matter",
+      "Sameness as a calculation",
+      "What gravitates"
+    ],
+    "why_the_math_matters": "These ideas explain why the field equation is a constrained balance between geometry and matter, not a slogan."
+  },
+  {
+    "id": "light-and-observation",
+    "name": "Light and Observation",
+    "plain_question": "How does abstract spacetime become something seen by detectors?",
+    "answer": "Null geodesics, lensing, wave perturbations, and interferometer strain translate metric structure into observed light paths and measured relative lengths.",
+    "concept_ids": [
+      "optical-geometry",
+      "perturbations-waves"
+    ],
+    "subthemes": [
+      "Causal paths",
+      "Small signals"
+    ],
+    "why_the_math_matters": "These ideas explain how spacetime geometry becomes observations through light paths and detector response."
+  },
+  {
+    "id": "applications",
+    "name": "Applications",
+    "plain_question": "Where do the foundations get stress-tested?",
+    "answer": "Cosmology, black holes, and wave sources force local geometry, global causal structure, matter, and measurement to operate as one system.",
+    "concept_ids": [
+      "cosmology-scale-factor",
+      "black-holes-horizons"
+    ],
+    "subthemes": [
+      "Causal boundaries",
+      "Large-scale geometry"
+    ],
+    "why_the_math_matters": "These ideas show why the machinery was built: it handles universe-scale evolution, horizons, and waves."
+  }
+]

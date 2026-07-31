@@ -1,0 +1,2502 @@
+This program is being presented to you
+by the Heraeus International Winter
+School on gravity and light.
+So,
+welcome back.
+Let's continue the discussion on optical
+geometry. So, before the break we've
+seen that
+the Gaussian curvature of the equatorial
+plane of Schwarzschild in the optical
+geometry is negative everywhere, right?
+So, now we want to find out what this
+actually means for the geodesics on the
+surface. In other words, for our spatial
+light rays.
+Of course, to study the connection
+between geodesics and curvature, you
+look at the concept of geodesic
+deviation, which I think you've seen
+before, at least briefly. So, let's go
+over this in the context of surfaces,
+right?
+So, geodesic deviation.
+Um
+Now, to do this, we look at
+let's say
+geodesics that have unit speed
+in terms of our metric.
+So, gamma
+and remember we know in space, so I
+write this parametrized as XA as a
+function of the parameter.
+We can now actually take T as the
+parameter of our geodesics, right? In
+the optical geometry we can take time.
+Of course, that's the
+we have of the
+for the line element.
+So, unit speed that means that G of
+gamma dot gamma dot
+is equal to one
+with respect to our optical metric, I
+should say G tilde.
+Um and then of course they're geodesics,
+so as always
+we have that the covariant derivative of
+the tangent vector in direction of the
+tangent vector is zero.
+And we want to we want to find out how
+geodesics vary from each other. If you
+if you go to neighboring geodesic, and
+it's it's helpful to consider a vector
+field that measures this deviation. And
+so, one way of doing this is to
+introduce a so-called connecting vector
+field.
+Vector field X.
+And this connecting vector field, well,
+first of all it commutes
+with our
+geodesics. It's really a congruence of
+geodesics, I should say. All right, so
+you have a
+bunch of neighboring geodesics that
+define a vector field like this.
+And um
+we measure the distance along X in such
+a way that X is
+orthogonal to the geodesic that we
+consider. So, we also have this
+orthogonality condition.
+Right?
+Okay.
+Now,
+if you have two commuting vectors
+That's right, yeah.
+Yes.
+Yes. This is this is for the congruence.
+And this is orthogonality along the
+geodesic for which we look at the
+deviation.
+Yeah.
+I'll draw a picture.
+Anyway, let's look at the connecting
+vector field
+the commutator first.
+If the commutator of two vector fields
+vanishes, there's a particular property
+for the covariant derivative, which I
+think you've seen in one of your
+tutorials. Oh, no, sorry, in the exam.
+In the exam, okay.
+Good.
+Right? So, if you have
+a vanishing
+commutator, let's look at the
+coordinates
+at the components, rather, of this
+vector.
+Let's say the eighth component
+is given by what? Well,
+I'll write it like this.
+Right?
+It's the eighth component of the
+commutator.
+Now,
+observe that we can now add
+two terms to this which cancel.
+Right?
+So, why is this the same? Well, you can
+observe that these terms with the gammas
+are actually identical.
+Because we can
+relabel C and B, right? Since we repeat
+indices, we can relabel them.
+And then of course the the Levi-Civita
+connection compatible with our optical
+metric G tilde is symmetric in the lower
+two indices. So, those two terms here
+actually cancel
+by relabeling
+uh
+and symmetry
+of the of the gammas.
+Right?
+But now observe that what we have over
+here is actually the component of a
+covariant derivative.
+Right? So, this is actually XB
+gamma dot A
+semicolon
+B
+minus same story here
+gamma dot
+B
+X A semicolon B.
+So, in other words, we really have the
+eighth component of two covariant
+derivatives, right? We have
+um
+the covariant derivative of the um
+tangent vector field with respect to X
+minus the covariant derivative of
+X with respect to
+gamma dot
+the eighth component of that.
+Right? So, the statement is really if
+you have
+commuting vector fields like this
+this implies that the covariant
+derivative of one with respect to the
+other is equal to or the other way
+round.
+Like that.
+That's a useful property.
+Which we will use.
+So, you've covered torque.
+Okay.
+So, now let's look at geodesic
+deviation.
+Let's plug in
+oops.
+Let's plug in our vector fields into the
+the Riemann tensor.
+Well, what is this according to the
+definition
+that um
+I've been using.
+Right? And then of course you get the
+term
+which
+contains the commutator of X and
+and gamma dot. But of course X and gamma
+dot supposedly commute, so there's no
+other contribution.
+Right?
+Uh what else can we see?
+Well,
+nabla gamma dot gamma dot is actually
+zero because of the geodesic equation.
+So, we're just left with this term.
+And let's give this property a name,
+let's call it star.
+Then we can see that we can actually
+rewrite this
+in that way. We can switch X and gamma
+dot in the covariant derivative here on
+the right hand side. And that
+expression is the covariant direct
+derivative of the vector field along the
+gamma dot. Sometimes this is written
+then as uppercase DX
+by D
+T squared if that's
+if that's our um
+coordinate uh parameter.
+Now, let's um
+work this out in components because
+remember we're on the surface. We've
+seen an expression for
+um the Riemann tensor in terms of the
+Gaussian curvature. So, I'd like to find
+out what's the connection of this this
+uh
+deviation vector with the Gaussian
+curvature of the surface.
+Right? So, now in components
+Question? I would ask this real
+notation, this is D over lambda or I
+could think of it as D over D lambda.
+Well, it's just the co- uh um
+the covariant derivative with along the
+curve, right? So,
+so the eighth component of this is
+uh what is it?
+It's D
+XA
+by DT plus gamma
+A
+I write
+I write it down later.
+Let's just write down the the components
+here first of all.
+Right, so this will be R
+A B C D
+uh into into what? Into
+uh gamma dot
+D
+X C
+or rather B
+gamma dot C.
+Mhm. No, the C
+D go with the both entries of the
+Riemann Ah, C D, yes.
+That's what I meant.
+B
+C D, yes.
+Okay? Right.
+Now, what is R A B C D? Remember
+R A B C D
+for the surface we define as Gaussian
+curvature into G
+A D G B C
+minus G
+A C G B D.
+So, now pulling up one of the indices
+So, a question, sorry.
+Um
+Well, this gives us delta A D
+G B C minus pull up A gives us a delta A
+C G B D.
+So
+Okay.
+So, the A's component
+then becomes what? K
+delta A D
+G B C minus delta A C G B D times
+G dot B
+X C
+gamma dot D.
+Yeah, sorry, it's a tedious
+but that's what we get.
+is K into
+Okay, so we get a gamma dot A
+times uh
+times the contraction of
+um
+the tangent vector field and the
+connecting vector field
+minus
+uh
+X A times
+B D uh huh
+the contraction of
+tangent vector field with itself
+Right, so the length of the tangent
+vector field like that.
+Now, by assumption our connecting vector
+field
+um
+is orthogonal to the geodesic um
+that we that we start with.
+To look at the deviation, this is zero.
+And the tangent vector
+to um the geodesic are of unit length,
+that's one.
+Right, so we're we're left with the
+statement
+that um
+nabla gamma dot
+gamma dot X
+Well, yeah, A
+is minus K
+X A.
+Right, or to say it differently
+D squared X
+by D T squared
+is minus K X.
+Yes? And
+can you give me some some form of a
+physical connection or some form of a
+picture because I'm kind of
+I'm not exactly sure what's
+going on in my
+physically like on the manifold the view
+Well, so the physical picture is
+just the same as before. We have a
+surface, right? We have geodesics on the
+surface. The surface is as a curvature.
+We're now trying to find out what the
+impact of the curvature is on the
+geodesic. So, you take one geodesic, you
+look at a neighboring geodesic and you
+want to find out, well, does the
+geodesic do do the geodesics diverge? Do
+they converge? Are they parallel? This
+will depend on the curvature.
+And in what way? Well, exactly in the
+way that we've seen. That's that's over
+there, right?
+And in the
+X that you wrote, they are
+Right. Should we think of them as
+somehow a displacement or something?
+Yeah, exactly, right? So, let's let's
+draw a picture.
+So, here's our geodesic.
+Um we look at neighboring geodesics. So,
+you know, you go to other points
+they will have slightly different
+geodesics, right? Like this. That's the
+congruence of the geodesics.
+We want to measure their deviation
+um by considering this connecting vector
+field X.
+The connecting vector field is
+orthogonal
+to the geodesic like this. It commutes,
+so you know, it closes. You can go
+around this way or that way, doesn't
+matter.
+And um
+Now, we've derived from the geodesic
+deviation equation this statement. So,
+you know, see how um
+uh well, how the components of X, you
+can take them to to to measure the the
+deviation of neighboring geodesics
+change as you move down um you know,
+this geodesic gamma dot which is
+parameterized by by T.
+So, now you see
+The left-hand side is the relative
+acceleration That's right. as measured
+in the parameters of the
+connecting vector field. Right.
+Yes.
+Right.
+So, now you can see that um the local
+behavior of neighboring geodesics
+actually depends on the um
+the sign of the Gaussian curvature on
+the surface. Of course, in
+three-dimensional space it would be
+different, but um if now the Gaussian
+curvature
+is positive
+right?
+You see that um
+that geodesics locally converge.
+And if the geodesic uh curvature is
+negative, then of course they diverge.
+If it's zero
+well, you get um parallel geodesics.
+So, now remember applying this to our
+original problem of the optical geometry
+for the equatorial plane of
+Schwarzschild
+um we always have a negative Gaussian
+curvature as we've seen before the
+break.
+So, this means then
+that uh and I also mentioned this at the
+end of um of the last lecture briefly.
+Now, we can actually see it. It really
+means that the geodesics diverge locally
+everywhere, right?
+And the geodesics physically, remember,
+are our light rays.
+Right? So, the spatial light rays.
+So, the geodesics or light rays
+locally diverge everywhere.
+I mean, if you if you like, we can um
+look at the round metric again for the
+sphere. Remember, K was equal to plus
+one.
+And if you're sitting on the equator, as
+you know, the um
+well, the geodesics would be great
+circles, so it would be for example the
+equator and the meridians, right? But as
+you know, the meridians actually um
+get closer together as you move away
+from
+um
+from the equator, right? That's what
+this says.
+Yes.
+This looks striking. You mean that you
+have a harmonic oscillator It does,
+doesn't it? Yeah.
+That's exactly right. So, um
+in some sense, if you you know, if
+you're on the sphere
+this is exactly what you get. K is equal
+to one, you get a harmonic oscillator
+equation in some sense. And this is how
+the the meridians behave with respect to
+each other.
+Yeah.
+How can you conclude from these
+equations that they converge?
+Well, just look at it. So
+Okay,
+so it's not for geodesics
+only for X. Yeah, so you have to you
+have to come up with some um notion of
+how you measure the distance, right?
+That's the X. I mean, you you would have
+a a fixed
+parameter value times the component of X
+that measures the distance.
+I mean, there's various ways of doing
+it. It's No, so Right. X and X what? X
+prime
+in the neighborhood or something like
+this. Mhm. And they diverge.
+Right.
+So, along the connecting vector field.
+Okay.
+So, now uh we see that light rays
+locally diverge. Remember, we have our
+our funny-shaped surface.
+Um again, from looking at it, if you
+know the Gaussian curvature is is is
+obvious, but light rays always diverge.
+Remember um one one minute. Remember
+yesterday
+uh
+I've I've shown you pictures of actual
+uh of actual gravitational lenses. We've
+seen multiple images, right? Do you
+remember this um
+this Cheshire cat lens, right?
+It sort of looks like this.
+Okay, there's no nose.
+I guess, but um actually it looked
+rather strange. It was just like this.
+Uh
+Okay, forget that. Anyway, something
+like this. Uh so, we had multiple images
+of a background galaxy lensed by the
+cluster. Now, of course, the cluster has
+a complicated structure, right? It has
+several galaxies, but this is far away
+from the cluster. As far as these um
+light rays are concerned uh it's not
+entirely right to say this, but you
+know, basically this is a Schwarzschild
+system.
+Um far away from any mass distribution
+sufficiently far away, if it's a compact
+mass distribution, so this looks like a
+like a point mass.
+Um out there, space is basically
+um Schwarzschild.
+Right? So, um
+But we actually see multiple images. But
+if the light rays converge locally uh
+sorry, diverge locally everywhere, how
+is it possible that they start at the
+light source do something and then come
+back together
+at the observer in such a way that you
+see multiple images?
+So, the answer clearly can't be that
+it's a local property, so it must be a
+global property. In other words,
+topology comes in. So, let's try to
+understand this. And of course, to
+connect curvature and and the topology
+of a surface, you have to look at
+Gauss-Bonnet, which you may or may not
+know.
+So, let's um
+look at this.
+Sorry, let me let me finish by
+writing this down as a question.
+So, if light rays diverge locally, um
+how can multiple images be formed?
+Can you make a brief historical remark
+on whether this confused people?
+Because intuitively you would say, well,
+if you press it down to space, you would
+assume it's a
+space with a positive curvature.
+Um You have the local convergence if you
+want to understand lensing.
+Well, um I see.
+Um
+I was certainly very surprised when I
+saw it first.
+Um
+and I think people haven't thought about
+this um
+in these terms before.
+So, um for lensing, the first paper to
+do it um is actually Gibbons and Werner,
+2008.
+Nobody looked at it before? Not like
+this, no.
+Uh and the reason is in in astronomy, um
+people don't really look at it from the
+GR point of view. They basically start
+with a Euclidean space, which space, you
+know, the universe basically is a
+spatially flat, um as far as we can
+tell, and um
+any any lenses are very much localized.
+So, you don't need all this all this
+machinery. You can actually do a lot of
+lensing with without that. And I'll come
+to this at the very end. I'll show you
+um hopefully how how it's set up in
+astrophysics, and that's really what
+people have used for a long time. But to
+discuss lensing in a sort of more GR
+setting in this way, anyway, I think
+hasn't been done before.
+Um
+now of course, the natural arena for
+lensing is um null geodesics. That's
+again more complicated. So, Capozziello,
+for example, did a lot of work on
+Fermat's principle in Lorentzian um
+spacetimes. But this is kind of in
+between. It's general relativistic, but
+it's the spatial picture,
+uh but it's more geometrical compared to
+what the astronomers used to in the
+standard formalism.
+Anyway.
+So, back to our question. If light rays
+diverge locally, how can multiple images
+be formed? Well, the answer then is
+really um
+it's it's a global property.
+Um so, lensing
+is intrinsically global.
+I mean, it sounds rather wishy-washy I
+suppose it is if I say it like that. Um
+but I will actually show you that the
+topological contribution for
+Schwarzschild is essential really
+essential for multiple images to occur.
+Um I can show this explicitly. So,
+so therefore, use Gauss-Bonnet.
+Okay.
+No.
+Okay, Gauss-Bonnet.
+So, that's the last topic
+um
+of these lectures um except that at the
+end I'll I'll show a little bit
+I'll show you a little bit about um
+the framework in astrophysics as well.
+Okay, Gauss-Bonnet. So, we consider the
+optical geometry of a static spherically
+symmetric spacetime, not necessarily in
+vacuum. Of course, if it's in vacuum, by
+Birkhoff's theorem,
+it will be Schwarzschild, right? So,
+we've seen some of this already, but uh
+it doesn't have to be in vacuum. It can
+be slightly more general. So, consider
+the optical geometry
+of a static
+spherically symmetric spacetime,
+um
+not necessarily in vacuum.
+So, if it's vacuum, it's Schwarzschild.
+If it's not vacuum, um you can consider,
+you know, a fluid that has these
+properties,
+and then the field equations take on a
+special form, which is called the
+Tolman-Oppenheimer-Volkoff.
+You can solve it, right?
+Um that's in his paper if you're
+interested.
+Um of course, we will just use
+Schwarzschild for the purpose of these
+lectures anyway.
+But it's a bit more general.
+Um
+so, if the optical metric
+Oops.
+g twiddle,
+and because of um
+spherically spherically symmetry, we can
+we can restrict our attention just to um
+the geodesically complete surface of the
+equatorial plane or any other other
+plane to the through the origin.
+So,
+again, with all loss of generality,
+choose
+the equatorial plane in the same these
+standard uh spherical coordinates.
+Right? So, we have a
+we have this uh equatorial plane in the
+optical geometry g twiddle, and within
+this, let's consider some
+uh
+some some region, some surface region,
+region A,
+which can have a boundary, and the
+boundary may be uh piecewise straight uh
+piecewise smooth.
+Um with dA.
+So, it consists of uh smooth bits,
+right? Smooth curves and vertices.
+So,
+uh I mean, it's
+it's a bit symbolic to write like this,
+but let's say consists of curves
+in the union with
+uh the vertices.
+So, with
+smooth boundary curves,
+C,
+so again, we parameterize them somehow,
+T say.
+Um let's take the components to be
+corresponding to unit speed boundary
+curves.
+Right? So, unit speed.
+Um so, g twiddle
+of c.c
+is equal to 1.
+Um
+then the vertices,
+V,
+so at the at the vertices, your your
+smooth boundary curve undergoes a jump,
+right? That That's right, the tangent
+vectors undergo a jump.
+And this jump is called jump angle. And
+of course, you can measure the jump
+angle inside or outside.
+Um if you want to define the exterior
+jump angle.
+Right? So, vertices
+with exterior jump angles
+epsilon.
+Um I'll draw a picture later.
+So, what other properties do we have
+with a surface? The surface might have
+holes. The number of holes of um
+a topological disk can be described by
+what's called the Euler characteristic,
+which you might be familiar with. So,
+there's also
+an Euler characteristic,
+chi,
+which is uh in the case of a disk, it's
+1 - g, where g is the number of holes
+that your surface has.
+The surface um might have a curvature,
+as we've seen before. So, we would have
+a Gaussian curvature.
+Again, we call this uppercase K.
+And there's also a a quantity which you
+may or may not have seen before. It's
+called the geodesic curvature.
+So, it's the geodesic curvature, which
+is defined because only on the smooth
+parts of the boundary curve.
+It's denoted by little kappa, and I'm
+afraid
+it just looks like a small version of
+the big K, but
+it's conventional.
+Oh, actually oh, maybe I can
+shall I write like this?
+Okay.
+Kappa.
+So, that's um the length of
+the vector of the covariant derivative
+of the boundary curve along the tangent
+vectors, like this.
+Right? So, you can see immediately from
+the definition
+um that the geodesic curvature of a
+geodesic is zero. So, it's a quantity
+that measures to what extent
+a curve
+um is not a geodesic.
+Or is the acceleration? It is the
+acceleration. Yes.
+Right?
+So, given all this stuff I'm sorry and
+and these things of course um they're
+metric quantities with respect to
+our optical metric G tilde.
+The angles are two.
+So, uh given all this
+Yes.
+What is the meaning behind this
+Chinese letters?
+So, sorry repeat the question, please.
+Could you project the meaning in some
+some easy words what is written there
+what what all this what this is all
+about?
+Uh yeah yeah yeah. Um okay.
+Okay, let me let me draw a picture.
+So, this is So, it's a the blackboard
+represents the um
+the equatorial plane in the uh optical
+metric
+and we have some
+bounded region A
+uh
+which has a boundary DA
+which consists of smooth as piecewise
+smooth it consists of smooth bits which
+is this and that, right? That's part of
+C. But it also has vertices
+like over here.
+Like V1, V2, whatever.
+Um
+You have a well-defined um tangent
+vector of course everywhere except at
+the vertices. But um
+So, here is tangent vector
+from from Okay, let's call it C1 and C2,
+right? So, DA
+is C1 with C2 and V1 and V2.
+Maybe in a particular order, anyway. See
+what I mean? Um So, this is the tangent
+vector of C1 at V2. Now, as you As you
+move around in this orientation, you
+need a consistent orientation as well.
+Um
+The next tangent vector
+um on C2 at at this particular vertex,
+of course, we start like this, right?
+So, you have a a jump angle.
+Which um
+is the jump angle corresponding to this
+vertex. Let's call it epsilon two.
+Similar thing here. You have a
+tangent vector from C2 at V1. You'll
+have a tangent vector
+um
+on C1 at V1. It starts like this. So,
+there's another jump in the tangent
+vector. That's the exterior jump angle
+epsilon one.
+Um yeah, what else is going on? So, we
+have a um Gaussian curvature of the
+surface
+um
+in A, right? We have a geodesic
+curvature kappa
+defined in this particular way along the
+the smooth part of the boundary. We
+might also have a holes.
+So, so there might be a hole in it.
+Right? G.
+And of course, if we have a hole, we
+need a boundary curve for the hole. So,
+this then is also some some boundary
+curve
+C of of the hole.
+Do you see what I mean with here? We
+only measure holes of the dimension of
+A not much on the hole.
+That's right. Yes. So, this is
+topologically that's a disc. Yeah.
+Okay. And this goes into the boundary as
+well.
+The extra C
+Yeah, yeah, yeah. That's part of the
+boundary. That's right. Yes. So, but
+what is the um the Gaussian curvature if
+we have a just the equatorial plane?
+Yeah, but remember this this can be
+curved, right? So, So, this is a
+This is part of a region on our surface.
+So, maybe like like this.
+Right? So, it lives on the surface in
+the embedding.
+It has a curvature.
+Which varies from Which varies might It
+might possibly vary from point to
+Any other questions?
+I mean I show you a set up of this and
+then of course we do calculations. Yes.
+How are are these jump angles defined by
+just by use of the metric or Exactly.
+Yes. All of So, all metric quantities
+here like the Gaussian curvature and so
+on, geodesic curvature and of course
+angles too, they're all measured with
+respect to to uh G tilde. Yes.
+That's the only metric we have here.
+Anything else?
+Well, you see how I use it in in a
+moment, but let let me um write down the
+statement
+the Gauss-Bonnet theorem.
+So, it's a it's a beautiful theorem
+um which connects local properties of
+the surface, the Gaussian curvature,
+with the global properties So, in
+particular with um
+with the Euler characteristic, the
+number of holes. But of course, we have
+to take care of the boundary as well.
+So, the statement is that
+the integral
+of K
+over A
+plus
+the integral along the boundary
+Well, um
+really the the smooth part of the
+boundary
+right? Of the geodesic curvature
+plus Well, from the jump angles we get
+also contributions.
+The sum over the exterior um jump angles
+of the vertices, all of this stuff is
+equal to 2 pi
+chi
+of A. Yes. So, you're assuming that uh
+V is a finite set.
+Yeah.
+Yes.
+We just have a finite number of
+vertices.
+Otherwise, it's it's smooth. So, it's
+piecewise smooth.
+Okay?
+So, how can we apply this to our lensing
+problem? Well, I want to look at two
+constructions. The first construction
+will show us how the topology really um
+you know, impinges on the number of lens
+images we can see.
+And then the second construction will be
+to actually compute the deflection
+angle, finally, the thing that I've
+been, you know, rambling on about for
+the last two lectures. Uh we can
+actually derive it from this um from
+this point of view, which is very
+different from what you might have seen
+in the textbooks. They always do it the
+same way, you know, work out the
+deflection angle, but here you see a
+different
+way to do it. Okay, so A
+So, let's call this
+topology
+and multiple images.
+Images in the sense of lens image.
+Okay?
+So, I can basically have the same setup
+as I've as I've drawn it
+uh over there. So, let's suppose we have
+a light source S
+and an observer O, right?
+Now, if we have multiple images, let's
+say we have two images.
+That means
+there are two light rays connecting S
+and O, right? Like this, let's say.
+So, these are now light rays, let's say
+I don't know, gamma one
+gamma two.
+Right? So, we have a light source
+S
+observer
+O
+As you can see, these correspond to our
+vertices.
+Um
+light rays
+gamma one, gamma two.
+Um
+Really a particular orientation.
+Actually, the light rays go like this.
+We have
+be careful in applying a consistent
+orientation though for Gauss-Bonnet.
+Uh
+Well, and then there might be holes. So,
+remember for example, for Schwarzschild,
+we have um we actually have a hole.
+Um
+So, we have to we have to use an inner
+boundary curve for this hole.
+And um it's actually convenient to take
+the radius of the photon orbit to be the
+inner boundary curve.
+And the reason for doing is that it's a
+geodesic, right? So, this actually makes
+computing the geodesic curvature in this
+case very easy. We'll see this in a
+moment. Right? So, there might be Let's
+call this gamma P.
+So, the inner boundary
+gamma P, e.g. for Schwarzschild
+Take the circular photon orbit
+at uh
+R is equal to 3M as you've seen before.
+So, in some sense, I have the feeling of
+this picture is looking into the throat
+from up. That's right.
+That's right. Yes. So, So, the Z
+coordinate that we've seen before for
+the you know, for the embedding so comes
+out of the blackboard now.
+Um and this is now um
+the surface region A that encloses the
+throat.
+And well, we want to determine whether
+this kind of setup is actually possible,
+right? Can we have multiple images like
+this?
+So, then remember that at these jump
+angles here, this is um
+Let's call this epsilon S for the
+source. There's a jump angle here
+epsilon O.
+And well, this setup is only possible of
+course if um
+Well, if these two light rays converge
+at S and O as drawn, right? So, in other
+words, if those angles here
+are really positive.
+So, let's call them I don't know
+theta S
+theta O
+Right?
+So
+This is like the inner jump angle. Of
+course, it's related to the outer jump
+angle just by
+subtracting them from pi.
+And the question is
+can such a situation arise?
+Right? Is this possible?
+I mean, is it possible to have the two
+light rays reconverging of the at the
+observer? Is possible to have
+multiple I E two images in this case?
+Well, let's check.
+So, it's possible
+if these two angles theta S and theta O
+are really positive.
+Now, clearly this is 2 pi
+minus
+epsilon S epsilon O, right? So, it's 2
+pi minus the sum over the
+exterior jump angles of
+at the vertices.
+So, according to Gauss-Bonnet
+this is
+is what?
+So, you see we
+we subtract this.
+So, it's 2 pi times 1 minus chi. So,
+it's 2 pi that's actually pi and yet
+another pi. So, it's pi minus E S minus
+minus
+plus pi minus E zero. Logically
+speaking, it's not one full angle. It's
+two half angles because of this picture.
+Ah, sorry. Say say say
+I agree. It's 2 pi, but it's individual
+pies. Yes, yes. Of course. One epsilon
+and the other one is zero. Of course,
+yeah.
+Um it's very suggestive of setting up a
+Let's just look at this setup. Of
+course, you can do it in other ways. Um
+Um
+plus
+where the integral over the smooth
+boundary curve C of the geodesic
+curvature times DT. Um well, plus the
+integral of the Gaussian curvature.
+Right? Um
+Now, this is 2 pi times the number of
+holes in principle. Right? Let's say we
+have multiple
+Schwarzschild black holes in there.
+Could be.
+2 pi G
+Um
+plus
+the rest.
+Well, but what is C?
+Um
+Well, the way we set this up is it's
+gamma one
+and gamma two. I mean, if if you want to
+be
+Um
+Once you correctly really have to um
+be consistent as far as the orientation
+is concerned, so we really have to
+reverse gamma two, but doesn't really
+make a great deal of difference.
+Plus um this gamma P
+Right? So, if
+if it reverse the orientation
+then
+we have to have a consistent
+orientation. It's actually like this
+on the inner boundary curve gamma P.
+Uh well, what is kappa evaluated on on
+the smooth boundary bits?
+Well, gamma one is a light ray. It's a
+geodesic. Gamma two is a light ray. It's
+a geodesic. Gamma P we've chosen to be
+the radius of the photon orbit. That's a
+geodesic tool. So
+kappa of the smooth part of the boundary
+is zero conveniently.
+Right?
+So, we end up
+with the statement that
+for this multiple imaging situation to
+occur
+um
+2 pi G plus the integral of the Gaussian
+curvature over the uh the surface region
+must be greater than zero.
+But remember, for Schwarzschild
+Well, that's of course the sort of model
+that we have in the
+back of our minds. For Schwarzschild,
+kappa is always negative.
+So, for this to be true
+we must have
+um
+the property that G is certainly greater
+than zero. It's at least one. So, it's
+an integer.
+Right?
+Or one in the case of just one
+Schwarzschild black hole.
+Right?
+But that's the topological contribution.
+So, you see multiple images in the case
+of a Schwarzschild um
+solution that the two images that we get
+here is actually only possible if the
+topology is non-singular. So, you can
+really conclude in this particular case
+that um the topological contribution is
+essential for multiple images to occur.
+Right? So, hence
+this case
+is really essential
+for multiple lens images um
+to occur.
+And conversely, the topology of the
+throat was forced upon us because the
+three-dimensional metric cannot be put
+on a space that doesn't have a hole.
+Is that right? Uh I think that's right.
+That's right. What if there is a massive
+body uh which radius is just a radius of
+the throat and it's not a black hole?
+Yeah, okay. I'll come to this. So, um
+in this particular case where we have
+Schwarzschild in mind, here we really
+see that it's essential if um there's a
+massive body. If we don't have a um
+I mean, if we don't have a photon orbit,
+we don't have a a horizon
+then uh the situation will will change.
+Then kappa can actually be positive. So,
+typically for a galaxy, you know,
+um
+a mass distribution
+that's um
+static spherically symmetric but not
+Schwarzschild, um you don't get this
+kind of picture in the embedding
+diagram.
+Whereas clearly uh where the Gaussian
+curvature is is clearly negative
+everywhere, um something simpler
+happens. It just sort of bulges out like
+that.
+But here you can see the Gaussian
+curvature is actually positive.
+Right? So, so in this case, the sign of
+K can actually change. And in that case,
+of course, you can also have other
+images because of that, right? So, of
+course, it's more complicated in the
+general case, but in the particular case
+of Schwarzschild, we see that topology
+is really essential. In the more general
+case, it's not essential, but it comes
+in.
+Right? So, so the topological
+contribution is really important. That's
+certainly true to say um for lensing in
+general even.
+So
+And this is what I meant earlier. Um
+that's the precise meaning of what I
+meant earlier by the statement that
+lensing is really intrinsically a global
+effect. So, we have to take the the
+topology of the surface into account. Um
+in the case like Schwarzschild, it's
+actually essential. It doesn't work
+without.
+In the more general case, well, it
+contributes, but K can also be positive,
+right? So, it's less strict. Yes. Is
+there a
+Is there an intuitive explanation for
+this
+Gauss-Bonnet
+theorem?
+Ah. It's a
+logical effect, right? It It arises from
+this theorem. Yes. It's really
+Yeah.
+Okay.
+It's It's a It's a beautiful theorem.
+It's not easy to derive. I couldn't
+just, you know, cough up a derivation of
+this immediately. Um so, this is for a
+surface with boundary. Let me just
+motivate for you um a particular case.
+So, suppose your two-dimensional surface
+actually has no boundary.
+Right? So, for example
+consider the surface to be
+our old friend S2 again.
+So, then
+there's nothing like this. We just don't
+have a boundary. And Gauss-Bonnet then
+says, well, the integral of the Gaussian
+curvature over the surface must be
+um
+uh 2 pi times the Euler characteristic.
+Right? Now, remember we've already
+worked out uh K for S2
+K for S2 is equal to one.
+The integral
+over the over the unit radius sphere
+is 4 pi.
+Right? So, we get the statement 1 times
+4 pi is equal to 2 pi times Well, what's
+the Euler characteristic of of a sphere?
+Well, it is indeed two.
+Um
+So, you can sort of see that it works in
+this case.
+Why is it two when we have
+uh non-this
+definition with one
+This is for a topological disk.
+Um where we have a boundary curve. If
+you don't have a boundary curve, it's
+actually 2 minus 2 G.
+Right? And in this case, of course, the
+sphere has no hole in it, so you get
+two. That's different, right? This is
+for a disk with boundary. This is for a
+surface without boundary.
+But the beautiful thing is if you deform
+the sphere
+topologically
+Mhm. it stays the same.
+That's right. So, so if if it if it's
+Right? If it doesn't If you don't
+introduce a boundary surface, that's
+also a topological sphere
+um
+with the same Euler characteristic.
+Okay. So, here now we've seen the other
+here.
+I know. Hold on. Hold on.
+So, this is only for topological disk
+where you have a boundary.
+Um like this
+relates to the other question. In this
+case, if there's no boundary,
+um,
+chi is actually 2 - 2 * number of holes.
+So, for the for topological sphere,
+there's no hole, g is equal to zero.
+It's a different formula.
+Right? Um, yes. What is the definition
+of boundary because I think that the
+boundary of the S2 is maybe the S2
+itself because um, if you take a point
+out of the S2, there's always if you lay
+them all around it, you have part of the
+S2 and then part of the
+not the S2.
+Uh, well, I mean this is really in the
+standard sense of um, surface, you know,
+manifold without boundary. Um,
+you don't have a boundary curve that
+that um, you know, bounds S2, of course.
+That's that's what we what we need.
+Right? You can have um, two two
+geodesics that um, stay long way away
+from the
+um, from the throat, but you still have
+them diverging and converging. I mean,
+what we said earlier is just a local
+property of the of the geodesics.
+Right? It's just local.
+So, but actually Frederick I mean, he's
+quite right. You can have um,
+more complicated lensing. This is all
+relativistic, remember? You can actually
+You could consider in principle the
+case, I haven't done it here, that you
+have um, you know, geodesics wrapping
+around
+and and actually rotating several times
+and then move back out again. It's It's
+possible.
+Um,
+I've considered the sort of trivial case
+because that's actually what's going on
+in nature. That's actually what we
+observe in lensing, right? So, these
+light rays pass by the lens, the galaxy
+in distance of, you know, thousands of
+of parsecs typically.
+So, it's actually rather trivial.
+So, I want to show you the trivial
+example because even in the trivial
+example, the topological contribution
+comes in.
+Um, this, yes, we could also discuss,
+but it just makes things more
+complicated and it's never been
+observed, I think. Um,
+Anyway, so let me What's the What's the
+one more question?
+Yes. You mentioned it has never been
+observed. Like how would you distinguish
+Ah, yeah, very good question. Um,
+you could um,
+So, if you work out the lensing
+properties of of these multiple orbits,
+they just come out, of course, in you
+know, in different point.
+Um,
+actually to you know, for the lensing to
+occur, you have to make sure not just
+that these
+geodesics get deflected at the at the
+um, black hole, but they have to start
+at some emission event and you actually
+have to be able to observe them. So,
+there's an additional
+just geometrically um,
+constraint that these geodesics really
+end up where they where they should so
+that we can observe them and then this
+lensing case would be slightly
+different. You could I think take, you
+know, tell it apart. Um,
+But anyway, let me let me now go on from
+um,
+the first part to the second part. Let's
+let's use Gauss-Bonnet to um,
+to um, actually work out the deflection
+angle in this simple case, in the sort
+of trivial case where the light ray
+passes by the black hole at um, at great
+distance. Now, what's the the deflection
+angle that I've written down yesterday,
+right?
+So, there's no B.
+And for this uh, computation, we again
+use Gauss-Bonnet,
+but um,
+with a different region,
+which turns out to be useful. So, again,
+we have our light source,
+which sends out light.
+There's a lens somewhere.
+The lens might have uh, you know, a
+photon sphere. We're actually way away
+from the photons. We We don't really
+care, but there will be some, you know,
+small deflection.
+And then we end up at the observer here.
+Now, let's suppose we take our
+as this would have been the undeflected
+ray.
+Um,
+it passes by the the the lens at some
+distance. Well, let's say let's just
+take the coordinate distance because
+it's such a long way away from the black
+hole, we can use Schwarzschild
+coordinates. That's the impact parameter
+B.
+And um,
+the region I want to consider is the
+following. It It has the following
+boundary. It has the light ray gamma
+and it has something which is not a
+light ray, just um,
+um, an arc
+that connects O
+back with S.
+Like this.
+And um,
+that's the boundary curve C.
+Let's make it symmetric. We want to work
+out the asymptotic deflection angle. So,
+we eventually we want to let S go off to
+infinity in one direction, O go off to
+infinity in the other direction.
+Um,
+so let's just make to make life easy for
+ourselves, let's say the distance from S
+to L
+is the same as the distance from L to O,
+which we call big R.
+And um,
+the boundary curve C
+is just this arc uh,
+X A of T.
+Um,
+well,
+let's just write it in in polar
+coordinates. R of T is big R, it's
+constant.
+And phi
+So, asymptotically, let's say this is
+also the the polar axis for our phi
+coordinate system,
+uh, phi then goes from
+let's call this angle
+alpha,
+goes from minus alpha to pi.
+Okay, and then this alpha will actually
+become our asymptotic deflection angle
+of the light rays. As this you can sort
+of see.
+And um, okay, so gamma is the light ray.
+And the region that we want to apply
+Gauss-Bonnet to is now this.
+It depends, of course, on on R. It's
+bigger.
+Eventually, we let um,
+we let R go to infinity.
+But actually for for this to work,
+really what we what we need to have is
+that the Schwarzschild radius, so
+that's, you know, 2M,
+must be a lot smaller than the impact
+parameter, which itself is a lot smaller
+than R.
+And then it works.
+But in the limit, it's exact.
+The statement.
+So, it's a picture in this curved
+two-dimensional space, but this whole
+picture spans over a huge range
+Mhm.
+such that far outside it looks like
+approximately Euclidean space. Exactly.
+So, as as R goes to infinity,
+um,
+dt squared, that's actually going to be
+important, goes to its Okay,
+bad notation here. But dr squared plus r
+squared d phi squared, in other words,
+uh,
+the Euclidean metric of of the surface,
+right? Uh,
+Riemannian surface, but in polar
+coordinates.
+Okay.
+Now, we also ignore cosmology in this
+setup, right? Of course, physically we
+we have the lens which is somewhere in
+the universe, the universe expands. So,
+it's really conformally Euclidean, but
+it's not not a big problem. We can
+actually change this. But um, if you
+want to be pedantic, you can say, "Okay,
+this R um,
+is is very large, but it's actually less
+large than the Hubble parameter."
+Right? Then we have to take into account
+cosmology, but
+let's leave it at that for the time
+being.
+Can be changed easily. So, what about
+AR? Let's apply Gauss-Bonnet
+to this. First of all,
+in this case, there's now no hole,
+right? AR is topologically trivial, it's
+topologically uh, a disk without hole,
+so chi is equal to one.
+That's for sure.
+Um,
+right? So, let me write down
+Gauss-Bonnet again.
+So, we just get 2 pi here.
+Um,
+what about the Gaussian
+cur- where the geodesic curvature on the
+boundary curve?
+Um,
+let me work it out over here. Thanks.
+So, the geodesic curvature of the light
+ray, of course, is zero because that's
+geodesic.
+What's the geodesic curvature on our
+boundary curve?
+So, we have to work out now the geodesic
+curvature of um, a circular arc in
+well, essentially in um,
+in flat Euclidean geometry.
+By the way, what are the um,
+non-vanishing connection components
+here?
+So, dt squared
+is dr squared plus r squared d phi
+squared.
+Let's say um,
+what are the non-vanishing connection
+components?
+Well, we've already worked this out
+earlier. I mean, in the last lecture
+because this is again of our special
+form,
+right? So,
+it would be gamma r phi phi
+and gamma Oops.
+What's the other one?
+Phi r phi, I think.
+So, so you know, our function f of r is
+simply r. Remember, this was um,
+minus f f prime, so this is just minus
+r. And this was f prime over f, so
+that's 1 over r.
+So, what's um,
+I mean, it's actually trivial if you
+know Gauss if if you know the geodesic
+curvature, it's just the geodesic
+curvature of a circle in Euclidean
+space, but let's work it out the long
+way uh for fun. So, what is kappa of C?
+So, by definition, it's the length with
+respect to the optical metric when the
+in the Euclidean domain relative to
+Euclidean metric here
+of
+nabla C. C.
+Right?
+Okay.
+So, let's look at the components. What
+is
+the eighth component of this?
+Well, it will be C. B C. A semicolon B,
+right? So, C. B C. A, B plus gamma A B C
+C.
+C C. B.
+And what is C. B? Well, we have polar
+coordinates, so
+So, what is it? Um
+C. It's It's certainly by by by
+by um circle symmetry, it can only have
+a component in the phi direction.
+Uh there's no radial component of the
+tangent vector.
+Um
+Let me write down the curve again. So, C
+is um is really given by R of phi is R
+is constant.
+So, what is C. uh phi? Now, remember for
+Gauss-Bonnet,
+it was for this definition, we have unit
+speed curves.
+So, the unit speed condition fixes our
+um component here.
+Right? So, G
+C. C is 1
+means then that Well, there's only a phi
+component that G phi phi C. phi C. phi
+is equal to 1.
+Uh G phi phi is R squared evaluated at
+the curve is big R. So, we conclude then
+that C. phi is simply
+Well, it's simply 1 over big R, right?
+Now, in case it's a constant component,
+so whatever it is um in the covariant
+derivative, the derivatives will vanish.
+So, we're only left with terms from the
+connection components.
+Um
+So, you can see we have a contraction
+here with the components
+gamma. C. Well, we only have one
+component in the phi direction. So, you
+see the only component of the covariant
+derivative um is actually the the radial
+component.
+Right? So, the only non-vanishing
+component of the covariant derivative is
+the R component,
+which will be given by gamma phi
+Uh sorry, gamma R phi phi C. phi
+squared.
+And um
+Well, and gamma R phi phi is minus R
+evaluated at the curve is minus big R
+divided by R squared, so it's minus 1
+over R.
+So, the geodesic curvature Well,
+we can work it out over here. It's the
+length. Well, it's just one component,
+so it's um
+Well, it's
+and it's Riemannian, so it's G R R
+C. R C. R
+to the power of a half.
+So, it's basically this squared square
+rooted,
+so it's 1 over R.
+So, you get the result is probably
+perfectly obvious anyway. The Gauss sum
+curvature and sorry, the geodesic
+curvature of a circle in Euclidean space
+is 1 over the radius of that circle. And
+clearly, you can see now if you let the
+radius of a circle go to infinity,
+you get a straight line. A straight line
+is a geodesic in Euclidean space. Well,
+yes, indeed, kappa is equal to zero as
+you would expect.
+Right? So, it makes perfect sense.
+Now, um
+let's go back to our computation here
+then.
+So, as R goes to infinity, as we move
+the circle out into to the Euclidean
+domain that we've been using over there,
+uh what happens? Well,
+we get the domain, let's call it A
+infinity.
+K D A
+plus
+um
+Well,
+what is DT?
+You see at at R is equal to constant.
+Well, if
+Right over here.
+Um
+If R is constant, DT squared is DR
+squared plus R squared D phi squared,
+right? So, DT
+is just R D phi.
+Right? So,
+integrating
+over this bit then is the integral of
+of kappa of C. which we've shown to be 1
+over R times DT, but that's really R D
+phi over the range of C. The C C goes
+from minus alpha to pi.
+Plus the jump angles. Well,
+by symmetry, we have a circular um
+We have a circular arc intersecting
+essentially radial arcs. They're offset,
+but as you go to infinity, um
+they become orthogonal. So, the two jump
+angles are actually just pi by 2 pi by 2
+in the limit. Right? It's 2 times pi by
+is equal to 2 pi.
+This
+gives us
+pi plus alpha.
+That's obviously pi.
+Well, what about the jump angle at where
+the light ray
+Yeah, so so these jump angles turn to pi
+by 2 as R goes to infinity.
+The other one, too. Yes, but what about
+the one in the middle where
+There's no jump angle. I'm sorry?
+There is There is no jump angle. It's a
+It's a smooth It's a light ray. It's
+just, you know, curved. Oh, it's smooth.
+Yes.
+There's no jump There's only two
+vertices, S and O, just like before.
+Right?
+Um I mean, essentially, it looks as if
+there was a jump angle, and that's what
+the astronomers do. In the standard
+formalism, you actually treat the light
+rays as straight lines in Euclidean
+space, and there's a is a is actually a
+kink. There's a jump angle there.
+But here, we're doing it in this sort of
+GR setting, we don't. We just take it as
+it is. It's a smooth
+light ray.
+Right?
+Okay. So, that's what we get here. The
+the jump angles that do occur are at the
+two vertices, S and O, where we
+actually, you know, we we match two
+different curves.
+And um well, as you can see, we can
+rearrange.
+Sorry about the
+um
+layout of the of the blackboards,
+but now we can we can um deduce.
+Yes?
+So, you are
+alpha approaches infinity, alpha goes to
+zero, and we are moving a path from
+observer towards infinity. Yeah.
+That's right.
+And then the region I I'll just call A
+infinity. So, it's the region that is
+bounded by this infinite light ray,
+excludes the lens, and goes all the way
+off to infinity.
+And this um
+deflection angle is then minus
+the integral of the Gaussian curvature
+over this region A infinity
+integrated, you know,
+So, it's all of this
+A infinity excluding the lens,
+and then going off to infinity.
+That's the statement. And you've seen we
+haven't actually made any approximation.
+That's Excuse me, that equation is exact
+for the deflection angle in the case of
+um a static spherically symmetric lens.
+And um if you think about it, it's a
+very surprising equation, I think.
+So, note.
+Um
+Well, normally, when you say, "Okay, a
+mass deflects light,"
+you would think that the action of
+deflection
+of course depends on the mass that's
+enclosed within the impact parameter.
+Right? You have a light ray. The light
+ray is deflected by some stuff, by some
+mass. The more mass you have inside of
+the of
+deflection angle
+is indeed proportional to to M as we've
+seen yesterday. That's what we want to
+work out later in a moment. Right?
+But actually, look at this equation.
+It tells you you can look the other way.
+You can work out a quantity integrated
+from the light ray off to infinity
+excluding the lens.
+Right? You're not looking at what's
+enclosed in the impact parameter, you
+look at what's outside of it.
+So, how how can it be possible that you
+get the same thing? Again, it tells you
+it's a global effect. Lensing is a
+global effect. You can look on the
+inside, or you can also choose to look
+at the outside. Get the same thing. Uh
+yeah, sorry, there was a question.
+Oh, yes.
+Very good.
+Very good. Yes. Huh. Okay.
+Let me make this this note first. Okay.
+So,
+So, the deflection angle alpha um
+is determined
+by some quantity, you know, the integral
+of the Gaussian curvature of the optical
+metric, blah blah blah,
+outside of the light ray.
+So, okay. Obviously, that's true, and it
+just underscores again that lensing is
+intrinsically global.
+Right?
+We have seen a topological property.
+That's in some sense saying the same
+thing.
+Um
+Yes, and then as you have observed, um
+Now, to actually compute this, how do we
+compute this? Well, as you can see the
+region already contains the answer. It
+contains the actual light ray.
+Right? Is that a problem? Well, not
+really. It just means you have to
+compute this iteratively.
+You might say, "Okay, um we don't know
+what the deflection is. Let's say
+initially
+we take the boundary to be an
+undeflected light ray, then you get some
+value for the deflection angle
+proportional to M." Okay, so this then
+gives you a slightly better fit for the
+actual light ray. Now we have a better
+boundary.
+It's still not the the the precise light
+ray. You plug it in again and get, you
+know, third order corrections and so on.
+So, um
+this formula contains
+the answer, so you have to solve it
+iteratively.
+And that's exactly what we're going to
+do now.
+Um
+Yes?
+Yeah, yeah, that's what I mean by
+iteratively. So,
+so we know
+that if we integrate over this A
+infinity, we get the correct deflection
+angle. Well, let's then suppose we just
+integrate over the straight
+over fiducial light ray which is
+undeflected. Right? So, you approximate
+A infinity by this region, but of course
+there's a mis- there there's a um
+you incur
+um
+a mistake because A infinity actually
+contains this region, too. But remember
+um the optical metric of course
+approaches the Euclidean metric, so even
+though this is an infinite region, it
+doesn't really contribute much.
+So, you get a value for A
+with this um
+you know, first approximation for the
+light ray. Second approximation, you Now
+you know there's a there's a so first
+order A Let's say A zero,
+then you get a better approximation to A
+infinity. You plug it in again, get a
+new value for A.
+This then gives you another correction
+and so on.
+It's iterative solution.
+Now, um you know, this will be A if you
+work it out will be an expansion in M.
+You can think of this as a Taylor
+expansion in M. If you really want to
+find the correct value for for A, for
+alpha,
+you'd have to go through this procedure
+of iteratively solving it. Now we just
+want to work out the leading order. This
+is what I've shown you yesterday. And it
+turns out for this it's sufficient to
+just approximate A infinity by this
+region.
+Right?
+Well, let's let's see that really this
+is the case.
+So, now let's work out the leading order
+approximation for for alpha, so the one
+that's only proportional to M.
+And by the way, this um Okay, I'll say
+it again.
+All right.
+Let's say we take this to be our first
+approximation for for A infinity.
+Now what's the boundary curve?
+It's this undeflected light ray.
+And what's it given by? Well, R of phi
+is what? Uh what?
+This is this is R
+phi.
+Um remember B is a lot bigger than the
+Schwarzschild radius. That's what we've
+assumed, right? B is a lot bigger than 2
+M.
+So, we're here already in the Euclidean
+region. I can take this to be
+B over sin phi.
+Right? So, then alpha
+will be approximately, well, at first
+order anyway, will be the integral of
+this
+uh Gaussian curvature kappa over
+um
+A infinity.
+I don't remember what the Gaussian
+curvature was.
+So, recall
+kappa for for Schwarzschild
+um
+we worked it out,
+or kind of anyway,
+was equal to Oh, yeah.
+-2M over R cubed
+into 1 - 3M over 2R.
+So, we can just do the leading order
+calculation.
+Um
+So, all the R's are a lot bigger than M,
+right? By this assumption. So, it's
+basically just minus 2M over R cubed.
+Um
+So, alpha will be approximately
+the integral of
+-2M over R cubed.
+What's uh
+What's dA?
+Well, of course it will be the square
+root of the determinant of G twiddle,
+right? Times our coordinates coordinate
+area element dr d phi. Guess you've seen
+this before.
+So, this will just be when the in the
+Euclidean region, this will be square
+root of R squared
+dr d phi, which is basically R dr d phi.
+You know this anyway.
+So, R dr d phi
+integrated from where to where? Well,
+from R phi,
+which is B over sin phi,
+up to infinity.
+And then phi
+goes from
+Oh, it goes to infinity. It goes from
+zero to pi.
+And that's the that's approximate, of
+course, but
+at first order.
+So, what do we get?
+Integral from zero to pi
+of um
+Well, um of what?
+-1 over R squared, that's
+-1 over R +1 over R.
+Is this right?
+So,
+d phi.
+It's minus, right?
+Minus?
+Good.
+So, this is integral from zero to pi of
+2M over B times sin phi d phi.
+Well, obviously that's 2M over B.
+-cos from zero to pi.
+Oh, sorry.
+Uh yeah, yeah, yeah, yeah. That's right.
+But there was a minus in front, right?
+Okay.
+Huh.
+Right?
+But there's minus here, I think, and um
+that gives us minus minus one, which is
+one.
+Minus minus
+So, that gives us two.
+Yes, so it's 4M over B.
+Huh.
+Right?
+Uh or remember, so M was was
+physically that's G physical mass over C
+squared. So, this is 4GM
+over
+uh BC squared.
+Finally, and that's what I've written
+down yesterday. Or what?
+What what's the um you know, leading
+order deflection angle for light in
+general relativity? For Schwarzschild
+and then indeed for any any mass if
+you're sufficiently far away when it's
+compact.
+Okay. So, um
+Yes, so you can use this method to
+compute the deflection angle. I agree
+it's maybe not the best way because you
+actually have to go through, you know,
+you have to go to curvature, you have to
+go to second derivative of of a metric.
+Um you have to solve it iteratively.
+Maybe it's not the best method to to to
+use in practice to actually work it out,
+but I think conceptually it's
+interesting because it really brings out
+that lensing is a global effect.
+And then in the last Oh.
+In the last uh few minutes, sorry I'm
+overrunning already.
+I just want to discuss or to mention uh
+one other example
+uh which is not Schwarzschild,
+but um
+a model for galaxy that astronomers like
+to use.
+So,
+so yeah, I can do that.
+What?
+Sorry?
+Oh, you're still writing.
+Can Can I
+Can I clean this?
+Can you reconstruct what was written
+there because I've forgotten?
+It's on the video. Oh, okay.
+It's in the paper anyway.
+Um
+So,
+This is what Okay.
+So, another example
+um called the singular isothermal
+sphere.
+The reason it's called um isothermal is
+that it really corresponds to um mass
+model where every um massive particle
+has the same kinetic temperature and
+you're looking for
+you know model that's self-consistent
+that satisfies process equation
+and it's singular because the density
+blows up at the center but anyway it's a
+this is Newtonian right um
+the spatial density as a function of
+radius
+is is given by this sigma squared over 2
+pi g r squared which is the
+gravitational constant sigma squared is
+the velocity dispersion of the system of
+particles
+and that's the density so if you like
+it's a model for a galaxy I'm afraid
+that the density blows up but it doesn't
+really matter
+too much we can sort of smooth it
+and we also you know this is not
+Newtonian
+the velocity dispersion is a lot less
+than the speed of light
+it's you know hundreds of kilometers per
+second maybe
+and um
+all of that is in thermodynamic
+equilibrium
+Indeed yes or if you like a ball of a
+ball of point particles massive point
+particles so there's a you know a
+stellar
+kinematics version of this tool which
+describes a galaxy if you smooth out um
+these massive particles then you get a
+spatial density so it's very easy way of
+um
+thinking about this so it's really if
+you like a circularly symmetric galaxy
+it's actually not a bad model for galaxy
+astronomers like to use it um
+now you've got all the machinery in
+principle you can work out you know the
+the optical geometry let me just tell
+you what the result is so you get some
+um
+you get some optical metric you um
+can look at the
+at the equatorial plane right total
+geodesic you can So that's
+so you have this distribution
+you make out of this an energy momentum
+tensor You could yes
+Tolman-Oppenheimer-Volkoff Ah okay You
+can do there is a there's a general
+relativistic version of this tool it's
+by
+um
+Misner-Novikov But you would need that
+You could yes but that's right but then
+in the end we're just looking at lensing
+in the Newtonian limit and
+you know
+you you basically plug in
+the Newtonian mass distribution again
+and from general relativity you just
+inherit the factor of two and that's
+You need that You need yes Okay Yeah
+So all of this can be done special
+relativistically with
+Tolman-Oppenheimer-Volkoff
+but um anyway so this is
+what what it looks like Newtonian in in
+Newtonian physics setting at large
+scales really what we need
+The optical geometry of the spatial um
+the optical geometry of the equatorial
+plane
+embedded in r3 so we do exactly the same
+as we did before looks like this
+So in this limit a bit more complicated
+it's square root of 8 sigma squared
+times r
+So what does that tell you
+What does the um
+the equatorial plane look like in
+optical in optical geometry
+It's a cone
+right
+So um
+the mass can be in this in this model It
+is yes yes
+You can cut it off then um and then the
+optical properties depend on whether
+you're inside or outside of the cutoff
+outside then it would look like
+Schwarzschild right inside it would
+still look like that
+We have a let's let mass diverge it's
+sort of a problem for this argument
+anyway So um
+So we have a
+we have a cone in the optical geometry
+What does that tell us for the Gaussian
+curvature
+Zero
+Yep
+What does that tell us for the
+deflection angle
+Really
+Ah The angle of the cone
+The deficit angle yes
+So we go through the same argument with
+uh Gauss-Bonnet remember the way I've
+set it up was really for um
+a static specially symmetric spacetime
+that approaches Euclidean space um in
+the optical geometry at large distance
+here well it's flat but it's not quite
+Euclidean space actually conic
+So you know basically if if you work out
+the
+the same formula that we did before
+kappa will be different
+right cuz it's really for conic
+spacetime and then alpha will not be
+zero so you have to modify this formula
+right um it's no longer Euclidean at
+large distance and what you get for for
+alpha at leading order is 4 pi sigma
+squared or it's actually
+just half of the deflection of the
+deficit angle of a cone so if you you
+know you know this picture
+you can take a
+a disk you can cut out some
+oops
+some some sector
+and then glue these bits together and
+then you get a cone right this angle
+here is called the deficit angle
+and um
+of course as far as lensing is concerned
+you know on on a cone we have as before
+we have geodesics that correspond to
+light rays
+um and the Gaussian curvature is zero so
+they're basically well it
+straight light rays except of course we
+have this um this conic structure so
+light deflection angle not surprisingly
+is actually connected to this deficit
+angle of the cone it's quite a nice
+result
+um
+so you get a fixed deflection angle if
+you have a singular isothermal sphere
+and it's translucent right um its
+optical properties are such that the
+gravitational light deflection angle is
+actually independent of distance
+and that has to do with this mass
+element
+if you if you want to work out what's
+the mass enclosed within the impact
+parameter
+you know m
+smaller or equal to r Only inside the
+distribution Inside will be proportional
+to r once it
+and then remember the deflection angle
+is something like m over r so you can
+well if you like enclosed within r
+divided by r so you it's not surprising
+that that's constant sometimes right of
+course you have to do it more precisely
+But yes so for the singular isothermal
+sphere you get a constant deflection
+angle there's another um
+now spacetime that you might have met
+before um called a cosmic string
+Have you seen this in tutorials or
+Ah
+Okay
+Let me just briefly mention it so a
+cosmic string
+um if you like is a
+is a um a
+curve that carries mass
+in in spacetime
+so as you you have a
+you know you have a energy momentum
+tensor
+that um
+just has mass along some curve in space
+and you ask what's the spacetime where
+the solution of Einstein's equation
+gives you a conic spacetime
+So
+as in this case there's a deficit angle
+um the deficit angle of course is not in
+space but actually in the spacetime but
+it's a similar sort of picture you can
+work out the light deflection there
+and um it's exactly the same
+relationship because it's also a cone
+the light deflection angle for cosmic
+string is half the deflection angle
+uh the the def- deficit angle excuse me
+of this of this conic spacetime is also
+constant
+So there's a formal similarity between a
+cosmic string and a singular isothermal
+sphere two very different models
+The the main difference of course is the
+following
+A cosmic string is a spacetime
+the spacetime is what's conic
+singular isothermal sphere it's the
+spatial part it's the optical geometry
+that's conic
+What what does that mean
+Well if the spacetime is uh for the
+cosmic string the spacetime is conic
+it has no
+it is locally no um no curvature
+the curvature is zero so the light rays
+are not actually magnified
+whereas here
+it's just the optical geometry that's
+conic the spacetime itself will actually
+be curved
+so here we have um magnification of of
+light rays here we don't
+right so for singular isothermal sphere
+um
+what you see
+you might see um
+right yeah the light source you might
+just see a shifted image but the shifted
+image by constant alpha will be brighter
+let's say
+in the case of the cosmic string you
+would have a shifted image but it will
+have exactly the same brightness because
+it's the spacetime that's conic the
+spacetime itself not just the optical
+geometry
+Anyway one can say a lot more about this
+but just give you a flavor
+So um
+I think that's all I want to say
+I've been overrunning anyway so thanks
+for your attention
+and
+Any questions
+Yesterday it was mentioned that there
+exists
+always odd numbers of the images Hm Why
+is
+Ah
+But it would be another lecture um
+I'm afraid
+I can give you a very quick um argument
+for this if you want
+You have a light source
+uh you have an observer
+you have a lens um
+let's take the plane through this lens
+as a way of characterizing light rays
+that go from s to o
+Now in in in the standard approximation
+of lensing
+this is basically Euclidean space
+uh you can
+formulate it in such a way that you have
+Euclidean space but with a plane and at
+the plane your light ray your your you
+know straight light rays get a kink.
+So, they're piecewise straight, really.
+Um but anyway, so
+for light light starting at S going to
+O, um
+you can you can characterize all
+possible curves, of course, by
+specifying where they intersect the lens
+plane, right?
+Now, all of all these possible curves,
+the actual geodesics will have a special
+property, as you know. Excuse me. They
+will be given by uh Fermat's principle.
+So, we have a stationary, of course,
+this is now in
+standard optics, where
+where we're given by by those
+curves which have a stationary travel
+time.
+So, you can plot the travel time, this
+is called the Fermat potential phi, as a
+function of lens plane coordinates,
+let's call this X.
+Right? So, let's say the light source is
+in another plane called the source
+plane.
+Um we have some coordinates there called
+Y.
+Um
+I have to write this more more
+carefully.
+So,
+that's the deflection potential uh the
+the the Fermat potential, so it depends
+on X.
+Um
+It depends on the source position, but
+that's just a fixed parameter.
+Right? And then by Fermat's principle,
+that's the total travel time. This
+corresponds to the geometric time delay,
+which just comes from um
+the various paths having different
+different um paths,
+really. Ha. Right? This is a function of
+the lens plane coordinate. That's the
+rotation time delay.
+That's the Shapiro effect, eventually.
+And then Fermat's principle says that
+where we're looking for stationary
+points, so
+nabla of phi is equal to zero.
+And um
+Now, if you plot phi
+as a function of of lens plane
+coordinate,
+you get some graph.
+Um
+It turns out for a
+isolated lens,
+all the images which will correspond to
+stationary points on the surface
+on some finite region.
+Um and at large distance,
+this uh deflection potential
+gravitational deflection potential um
+diverges at most logarithmically.
+So, it will be
+dominated by the polynomial term.
+So, at large distance, it will actually
+look like a paraboloid.
+Right?
+So, now counting images comes down to
+the simple problem of just counting the
+number of critical points on a surface.
+Right? The three different types, you
+can have minima, maxima, and saddle
+points.
+Right? So, the total number of images
+will the number of minima,
+the number of saddle points,
+and the number of maxima.
+But they're in some finite,
+you know, compact region of the surface.
+Um out here,
+the surface will just look like a like a
+paraboloid.
+Now, um
+there's a theorem
+due to Morse,
+which says that if you have a closed um
+manifold
+without boundary of some dimension D,
+then um the sum of the critical points,
+the regular critical points, of index
+lambda
+is an alternating sum times minus one to
+the lambda
+from lambda equals zero up to D is equal
+to the Euler characteristic of that
+um manifold. What's lambda?
+It's an index um it's called the Morse
+index.
+For for minima,
+the Morse index is zero. For saddle
+points, it's one, and for maxima, it's
+Is that right?
+I think it's right. No, sorry, it's the
+other way around.
+2 1 0. I think.
+No, sorry.
+It's the other way around. It's 0 1 2.
+Anyway,
+right?
+So, so given this, um
+we know the time delay surface which
+just look like a paraboloid.
+Let's suppose we close the surface
+um to actually make a compact manifold
+without boundary. Of course, by doing
+this, you change the problem in some
+sense. Well, anyway, it changes the
+problem up here, not down there.
+Uh but you introduce an additional
+critical point on the top,
+a maximum, in fact,
+which, of course, does not correspond to
+lensed image, right? It's just something
+you've introduced.
+So, D is equal to two. So, the statement
+is the number of minima,
+which carries a plus one, minus one to
+the zero,
+minus the number of saddle points,
+right? Minus one to the one, plus the
+number of maxima,
+minus one to the two, plus sign,
+of of lens images, plus the additional
+image uh sorry, the additional maximum
+at the top, which is not an image, is
+equal to chi of a sphere. We've seen
+this before in this lecture, equal to
+two.
+Right?
+So, now subtracting these two equations,
+magically, you get the total number of
+images is twice the number of saddle
+points plus one, and that's an odd
+number.
+But then the plus one can't be the Morse
+index for maximum.
+Sorry?
+If if
+two is the Morse index for a maximum,
+Mhm.
+why do you have to add plus one
+on the left hand side?
+No, it's the number. It's the number of
+critical points of that index.
+So, so the number of maxima is the the
+number of maxima images down here, plus
+an additional maximum which is not an
+image.
+Yeah.
+Isn't it the
+uh index plus two one?
+No, it's two.
+Uh we we discussed this before. For
+topological disk, chi is one minus G as
+a boundary with holes. For um
+for a manifold without boundary like
+like a
+this, two minus two G.
+No hole means G is equal to two.
+And indeed, you can check using using
+this theorem, right?
+Let's have a sphere
+and a height function.
+Sphere with a height function means you
+have two critical points. You have a
+south pole and north pole. This will be
+what will be the minimum of the height
+function. So, it has Morse You have one
+minimum
+times minus one to the zero is one, plus
+um
+one maximum, one times one, minus one to
+the two,
+is equal to chi. Well, obviously, that's
+two.
+Of course, we have has no boundary.
+That's why it's different, right? We
+were discussing disks before.
+Okay, so you see the total number of
+images is actually an odd number, and
+that's true as long as
+um your mass distribution is finite. In
+other words, all the images are in this
+compact region.
+And um the distri-
+Well, you know, this this surface is
+smooth.
+You can see for Schwarzschild, it
+doesn't work.
+Uh
+it actually has two images, but that's
+because
+there's a singularity, so it's
+deflection potential phi actually looks
+like a logarithm. So,
+you know, the surface actually looks
+like this.
+If you see what I mean.
+So, um
+But anyway, that's that's singular.
+That's not really what happens in
+nature. In nature, you have a nice
+smooth
+mass distribution, which is finite, and
+that's really what you have. So, you
+have an odd number of images. As I as I
+said yesterday,
+typically, one of the images you can't
+see because either you know, the
+galaxy's in in front of it, or it's it's
+strongly demagnified. So, typically, the
+odd number theorem becomes an even
+number theorem in uh
+in real life.
+Hence, for example, the Einstein cross,
+right? With the four
+images.
+Anything? I have a question.
+Yes.
+If you please,
+in your big picture,
+the fundamental
+geometrical setting, I mean, we've
+always been dealing with with a
+two-dimensional
+Mhm.
+setting where we have basically
+everything in one plane, and the
+Mhm. That's right.
+Mhm. That's right. In principle, of
+course, you can consider
+more lenses
+in other positions, other distances.
+Then you have a a multi-lens plane
+setting.
+And um you can actually extend this
+argument to that, too.
+Um it doesn't quite work like this.
+That's a sort of easy easy way out.
+You'd have to use um
+what's called Morse theory boundary
+conditions A and B. They, you know,
+it becomes it's a multi-dimensional
+version of of of the lens equation.
+Uh but but you can still work out um you
+can you still use Morse theory to come
+up with um
+constraints on the image number. Like
+this. Yes.
+Okay. Lunch?
+Okay. Thank you.

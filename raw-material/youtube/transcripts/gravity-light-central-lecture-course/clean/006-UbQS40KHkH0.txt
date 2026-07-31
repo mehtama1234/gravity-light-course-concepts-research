@@ -1,0 +1,1745 @@
+This program is being presented to you
+by the Heraeus International Winter
+School on gravity and light.
+Welcome to the sixth lecture whose title
+is fields and it means fields in the
+sense of physicists and the notion of
+field was introduced into physics by
+Faraday who didn't know any mathematics
+by modern standards and in fact he
+invented the fields to deal with that
+fact.
+Now today we'll in this lecture draw
+many pictures that will
+pay tribute to the fact that this can be
+all understood by pictures like Faraday
+did. However, in order to really work
+with it we need some mathematics that
+underlie the pictures in a one-to-one
+manner and that I will introduce. So the
+basic idea is that so far we focused
+technically on a single tangent space
+and a vector in there, a co-vector,
+maybe if you chose a chart on the
+manifold you a coordinate induced basis
+on that chart so this would be
+if you carry back the
+grid from RD back to here it may look
+like this or like a polar coordinates
+something like this and that would
+induce a basis here at this point and
+then you could decompose this vector in
+this basis. This was the D by DXI or in
+the co-tangent space to DX1 to DXD basis
+induced from such a chart choice but
+nevertheless we were always technically
+at one point.
+Now as physicists we're interested in
+vector fields for instance so we want
+everywhere we want to think about a
+vector such that just any point there is
+a vector and I just draw a few and the
+question is how do you deal with this
+technically?
+Now of course you can say well just
+imagine at every point a vector and
+that's how you usually introduce this.
+Now imagining is dangerous because you
+may imagine something different from me
+so we need a proper way of saying what
+imagining is and actually the proper way
+of doing this is the so-called theory of
+bundles.
+So we will develop it.
+Bundles.
+Definition.
+A bundle
+is a triple.
+It consists of three pieces of data.
+E
+pi
+and M
+where E is a smooth manifold.
+So some people would call this a smooth
+bundle but we will only consider such so
+we just call it a bundle consists of a
+smooth manifold E which goes by the name
+total space.
+But that's just because I don't want to
+say E all the time and sometimes it may
+be called E prime. They're always the
+total space of the bundle.
+This is again a smooth manifold M
+called the base space
+of the bundle.
+And this pi
+is a smooth, you guessed it, map that is
+surjective.
+A smooth map between smooth manifolds
+you know what that means. We defined
+stuff like this and it's a surjective
+smooth map and it goes by the name
+projection map
+of the bundle.
+That's it. That's a bundle. Any three
+pieces of data like this are called a
+bundle.
+Example.
+I could take E to be a cylinder
+a two-dimensional cylinder.
+Let me draw a picture.
+So it's continued
+arbitrarily. I could choose M to be a
+circle
+and always equipped with a topology and
+a smooth atlas and blah blah blah blah.
+So I have M the circle
+and you may think of it. I mean as you
+know it's a picture. You know every time
+I say picture
+it's just for your intuition. It's not
+mathematics and mathematics is here.
+It's a picture. And pi is a map from E
+to M. Well I can choose it as long as
+it's smooth. I could for instance think
+of the surface of this. I put pick a
+point on the surface of the cylinder and
+I could associate this point
+here on the cylinder to this point down
+here. So if this is the point
+little E in the cylinder, this is the
+point pi of E in the base space because
+pi is such a map and as long I can
+invent any map I wish
+as long pi of E prime, if this is the
+point E prime, I can invent any map I
+wish for any points here. I mean need to
+map all the points as long as the map is
+smooth and it hits all the points of the
+base space.
+If I'm not very imaginative
+I might
+in this
+picture
+choose
+every
+all the points that lie on this line
+to project to this point.
+And all the points that lie on this line
+to project to this point, right? And all
+the points that lie on the line here in
+the back
+to project to this point in the back.
+But that's just one choice of the map
+pi. Any choice of manifold E, any choice
+of manifold M, this is just this E is
+here the surface, right? And any map pi
+that satisfies this is called a bundle.
+There are enormously many bundle
+bundles.
+Okay. Now
+that's pretty. Now definition
+a fiber. So if E pi M is a bundle
+and P is a point of the base space
+we define
+the fiber
+the fiber over P.
+The fiber over P is something extremely
+simple. It's defined as the pre-image
+of the set with the element P with
+respect to the bundle map to to the
+projection map. The pre-image meaning
+for instance here the pre-image of this
+point is this entire set.
+It's the fiber over the base point but
+the fibers are not the primarily given
+thing. It's the bundle projection
+primarily given. The fibers are a
+derived object. That's the fiber over a
+point.
+Now comes already the basic idea of
+field so in a sense Faraday comes in
+very quickly
+but we'll only talk about vector fields
+and so on after some more work and
+that's the definition of a section. It's
+a key principle.
+A section of a bundle
+and let me be very intuitive.
+The bundle is
+this type of data.
+We project down. I write it like this. A
+section, let's say a section sigma what
+is that? It's a map that goes the other
+way.
+That goes from the base space to the
+bundle.
+Now there will be an extra condition for
+the map to be a section but it's useful
+to first not impose the condition. I I
+do it in in two minutes but to think
+about what this could be. Let's go to
+this image here. You could take a base
+point, say this one
+and you could send it by sigma, if it
+was just a map without further
+condition, to any point in the total
+space. For instance, you could send it
+here.
+This could be sigma of the base point P.
+Agree?
+In other words, it could lie in a
+different fiber than the fiber over the
+base point.
+We don't want that.
+We require
+that if you
+first go up with sigma and then you
+project down, you land at the same
+point.
+Projecting down after having gone up
+is the identity on the base space.
+That's the requirement for a section.
+Otherwise it's just a map from M to TM
+and you see a section of a bundle
+requires all the structure the bundle
+has to give. It requires the E and the M
+as the target in the domain and it
+requires the pi by this compatibility
+condition. And
+as a physicist imagine we were able to
+construct as the fiber over a point, the
+fiber would consist of all the tangent
+vectors at the point.
+What would a section be?
+It would go to a point
+and pick an element associate to the
+point an element of the section of the
+fiber.
+If it's a section, right? The same
+fiber. That means vector in this tangent
+if the fiber was the tangent space. I'm
+abstractly speaking now, right? Well for
+the circle it's actually true because if
+you have a circle
+and you look at the tangent space here
+and the tangent space there, as a set,
+this is just a cylinder, because as a
+set, you grind it,
+you
+put these all up and then you have have
+it like this. So, this is indeed the
+so-called tangent bundle of the circle.
+Okay?
+I'm I'm just I'm going to make this
+precise, but the point is you don't want
+a vector field where you say the vector
+at this point is a vector over here.
+You don't want that. You want a vector
+at this point is really in that tangent
+space. Well, nothing else is the idea of
+a section.
+The sections are the fields. What type
+of field depends on the fiber.
+So, the base space is the manifold.
+And when we want a field which is a
+vector field, we need vector space
+tangent vector space fibers, and then
+sections in the big construction
+are the fields.
+In that case, the vector fields. What
+would be a co-vector field?
+Well, it would be a section in the
+cotangent bundle where you achieve, and
+do this explicitly, where you make the
+construct the fibers from the cotangent
+spaces. What's a tensor field? Well, you
+over the ten over the base space, you
+construct fibers. Of course, it's higher
+dimensional, you can't draw this
+anymore, that are tensor spaces.
+So, you have a tensor field.
+It's very simple what a field is. The
+intuition is right. At the point, in the
+tangent space, you have an object of
+that type.
+Okay?
+Side remark. In quantum mechanics, in
+quantum so, aside,
+in quantum mechanics, we talk about
+a wave function on the position space.
+And we say wave functions are functions.
+They're not.
+Wave functions are actually
+sections
+of a C line bundle over the base space.
+You have the base space, you attach to
+each point a complex line,
+and you do a section. You say, "Well,
+that's exactly this. To a point, you
+associate
+a point in the fiber. So, isn't that a
+function?"
+Not quite, because on such
+constructions, on such bundles, over
+such bundles, it's a bit more
+complicated, but roughly speaking, you
+can define covariant derivatives. And in
+quantum mechanics, if you want to do
+quantum mechanics in curved coordinates,
+you run into a wall with thinking the
+wave function is a function.
+The wave function is a scalar field
+on the base space. You say, "But a
+function is a scalar field." No, it
+isn't.
+Fields are always sections, and there
+are subtle differences.
+On a function, you would act with
+something we'll introduce later, a
+covariant derivative in a trivial
+manner. On a C section, you can act in a
+non-trivial manner, and that makes all
+the difference.
+So, the wave function of quantum
+mechanics is also a misnomer. Anyway, so
+that was just an an aside.
+Uh fields, fields, very important.
+Okay.
+So, um
+Right. So, that was the were the
+introductory remarks. I think the ideas
+Yes?
+Just a question. So, that the psi, which
+is the wave function,
+are the components, and not
+not the So, aren't we mixing up tensors
+and tensor
+components when we
+talk about whether
+It's with with the C bundle, it's a
+little degenerate. Okay, so the question
+is how exactly that works in in the
+quantum mechanical context.
+I don't want to go into detail now, we
+can do this afterwards, okay?
+It's true that locally, I can always
+represent such a section by a function.
+But the whole point is the global
+question, and the question what is the
+momentum operator? Is the momentum
+operator a partial derivative, or is it
+a covariant derivative with the
+appropriate connection? And if it was a
+function, then the
+covariant derivative is always equal to
+the partial derivative, but this doesn't
+transform right if you go to non
+if you go to a curved space. For
+instance, if you do quantum mechanics on
+a sphere.
+Okay. Anyway, I don't want to go into
+this. I just I mean, please, you can't
+understand this, right? It's just my
+answer to this question. It is really
+just an aside, okay? I just want to say
+the field concept even in quantum
+mechanics, you have it, too. Okay?
+Okay. So, um
+Now, let's become
+even more precise. I mean, the
+definitions are precise, and the
+pictures are a lot of talk. Let's be
+precise. Second, tangent bundle
+of a smooth manifold.
+We need this because we want to
+understand vector fields, and these are
+sections of the tangent bundle.
+Uh
+So, we need to understand this. The
+tangent bundle of a smooth manifold.
+We'll do this construction in detail,
+because it's fantastic practice of all
+the concepts we have. Yes?
+No, it's the definition of a section is
+a field?
+A section is a field, and what type of
+field it is depends on the choice of
+total space.
+Let me do our primary example for
+general relativity that we need, and
+then maybe the question
+is is clear, okay?
+So, tangent bundle of a smooth manifold.
+So, let M O A be a smooth manifold,
+which is going to be the base space of
+the bundle we're going to construct,
+okay?
+Um
+First,
+as a set,
+as a set only, we define TM, that's the
+so-called tangent bundle, it's just the
+name of the set,
+tangent bundle,
+we define it as Well, we take the
+tangent spaces, which we know,
+at each point P,
+and we all throw them into a big bag.
+And we do so in a disjoint manner. So,
+it's the disjoint union of all the
+tangent spaces.
+Well, why is it disjoint? Well, the idea
+is
+you have a tangent space here, TPM, you
+have a tangent space here, TQM. Well, a
+vector in here is quite a different
+thing from a vector there.
+Okay? So, if you throw them into
+a bag, you still know this is a
+different thing than this one. Right?
+Different object. This is the disjoint
+union. This is as a set.
+Okay.
+Now, that is supposed to be the total
+space of the bundle we're constructing.
+I don't call it E, I call it TM, because
+I constructed it from the M from the M.
+Okay. So, now the second piece of data I
+would like to have
+Yes?
+Disjoint given is this a special case of
+a union?
+It's a union where um you Well, first of
+all, this is just um
+an emphasis, right? It emphasizes that
+the elements There are no elements to be
+identified from the dif- from the
+different sets, okay? It's like you all
+have a nose.
+And your noses constitute a vector field
+in this room. Okay, well, you need a
+point at every point, okay? And if I cut
+all your noses off, and I collect it in
+a bag,
+I can roll it around, I have this set,
+but it doesn't mean that your nose is
+all of a sudden Kurt's nose, right?
+They're still different noses.
+Okay?
+Good.
+Right. So, that's this. Now, the the
+second piece of data is you construct
+the projection map. We want a map from
+TM to M, but now as a pure map, I can't
+talk of smooth map yet, because this is
+just a set. But first, I need a map.
+Now, what is the map? Now, that looks
+funny. I take an element X in TM, I take
+an element out of the bag of noses,
+and I map it to P.
+What is P? Where P is the unique
+point,
+the unique point P in M such that the X
+I took from the bag, the nose I took
+from the bag, is the nose of Mr. P.
+So, I put any element out of the bag,
+and I say, "Oh, that's Kurt's nose."
+And then pi of Kurt's nose is Kurt.
+Okay?
+It's unique. It's unique because of the
+disjoint union.
+If you put in noses, and they are the
+same noses, then I wouldn't know whose
+nose it is.
+So, and obviously, I hit every point,
+because I took every tangent space. So,
+it's a surjective map.
+Surjective.
+Great. So, where are we now? So, what's
+now the situation
+at this point?
+The situation is I have a smooth
+manifold M by assumption, right?
+And I constructed a mere set TM, far
+from a smooth manifold,
+and I constructed a surjective map,
+of which I can't say yet whether it's
+smooth or not, because I need a smooth
+structure here in order to start talking
+about whether the map I already have
+is smooth with respect to the respective
+smooth structures.
+So, what's the next thing I need?
+I need to make this into a smooth
+manifold because otherwise I don't have
+a bundle.
+Cuz the bundle requires this to be
+smooth and this to be smooth.
+So, the next step C
+is to make this into a smooth manifold.
+What is a smooth manifold? A smooth
+manifold is first of all a topological
+manifold.
+And once I have a topological manifold,
+I can rip pages off the atlas
+to make it a smooth manifold.
+We make it a topological manifold first.
+What is a topological manifold? It's a
+special type of topological space.
+I need to equip the set with a topology
+first. Where do I get it from? Well, I
+have a topology here.
+Do I have a chance of getting this
+topology here?
+Ah, I could require that the topology
+here
+is the coarsest topology such that the
+pi is continuous.
+So, I construct idea or construct
+topology
+on TM
+that is the coarsest
+topology such that the map pi which I
+already have becomes
+just that's relates the coarsest just
+continuous.
+If it's not continuous, I have no chance
+of making it smooth.
+Okay? Now, why do I insist on taking the
+coarsest topology? Well, of course I
+could take here the discrete topology.
+Every subset is open. Then trivially
+this pi
+is continuous.
+Well, but then I didn't use the pi at
+all, the data that I already have in the
+pi. So, it's clever not to choose the
+finest topology but the coarsest that
+doesn't yet destroy the continuity of
+this. This is a
+concept known as the initial topology.
+Initial topology with respect to pi
+where you know the topology on the
+target and you provide a map and you
+equip this with the coarsest topology
+that makes the map continuous. It's the
+initial topology and it's beautifully
+simple because the topology on TM we
+choose is simply and you will see in a
+second that it's
+the coarsest topology. It's the
+preimages
+of any open map with respect to pi where
+U is an element of the topology on here.
+Well, at least you need these guys in
+order to be pi to be continuous because
+the preimages of open sets must be open
+so you must include them.
+The question is can you do you have to
+include more? The answer is no because
+you can show
+and we do this in the tutorial. Is that
+right?
+We show in the tutorial that this is a
+that's right. Yes, we show in the
+tutorial
+that OTM is not only called a topology,
+it is a topology. The empty set and all
+TM are in it. Finite intersections and
+arbitrary unions of open sets are again
+in it. Okay? So, you believe me or you
+check it in the tutorial. Best is both
+and that's this. Okay. Yes. This is
+actually a definition of coarsest
+topology, right? Yes. Okay. Yes, it is.
+So, the initial topology is very easy to
+write down. For the final topology,
+that's the other way around. You know
+the topology on the target and you want
+to establish a topology on the domain
+such that the map that's the the final
+topology. There you need the concept of
+topological basis. That's something
+different. It's a little bit more
+tricky. We're lucky here that I didn't
+need to introduce that. Okay. So, you
+construct it this way. So, at this point
+we equipped this TM with a topology.
+Great. Now, the question is is it a
+topological manifold? As a topological
+space, it could be just not a
+topological manifold. And if it's a
+topological manifold, can you always
+choose charts with continuous no with
+smooth transition maps?
+In order to check this, we will
+construct an atlas. And from the atlas
+we'll read off it's a topological
+manifold and even a smooth manifold.
+Okay. Well, of course we construct the
+atlas in such a way that it works but we
+only use data we already have. To
+construct this, we only use the data we
+already had. In order to construct the
+atlas, we now use the atlas on the base
+space.
+Construction
+of a C infinity atlas
+on TM
+from
+the C infinity atlas
+A
+that we have on M.
+How could we do this?
+Well, we just write it down. ATM.
+The atlas is supposed to contain what?
+Chart maps, right? But now chart maps of
+the tangent bundle.
+Think again of the circle and these
+lines which are the tangent spaces put
+up as a set as a topological space and
+so on. And we want to start with a chart
+or with charts
+of the underlying base manifold.
+How do we construct from them a chart on
+the bundle?
+Well, let me draw the picture here. I
+think it's useful.
+So, this is M. At each of these points,
+well M is here the example S1.
+This is the point P. This is the fiber
+over P and this is in our construction
+already the TPM. And the bundle is the
+collection of all the fibers and it's
+disjoint, right?
+And now what we do have, we have
+charts here. So, I can take a piece of
+this here open open and I can map this
+in this case to an R1 because the
+one-dimensional manifold. Okay? And on
+here I have I have this chart. Question,
+can I make from such data can I make a
+chart of this TM? Well, the idea is to
+take all the
+disjoint union of all the fibers that
+lie over the points here. So, you take
+this TU. So, only this collection is
+called TU.
+Right?
+And you need a chart map that maps the
+points of TU.
+Well, colors should be different now.
+So, the fibers are green here.
+You take a chart map that maps them to
+well, in this case it's already a
+two-dimensional space, right? So, that
+is a chart map and it's called psi but
+it's supposed to be constructed from
+this X.
+So, we make a chart map psi
+constructed from this chart map X. Well,
+the TU is just a disjoint union of the
+tangent spaces to the U. You know what
+that is. But the psi X I need to write
+down.
+Where and I claim if you do this
+construction for all the charts in the
+base manifold, you get an atlas for the
+other manifold. But I need to tell you
+what the map psi is. The map psi of X
+takes you from TU
+to
+Well, I just claim it is like this and I
+construct it I did this to twice the
+dimension of the base manifold. It's not
+so surprising. We know each tangent
+space has dimension of the manifold. If
+I put all the tangent spaces to each of
+the points, I have a double S
+dimensional manifold
+if I have a manifold at all.
+Okay? So, I do this chart map. It's not
+linear because it's a chart map and I
+need to tell you how exactly it works.
+So, what do you do?
+You take a nose.
+Some element in here, this one.
+In TU, you take a nose and you map it to
+what?
+Well,
+this is now just something I write down
+but I have an idea. My idea is aha,
+it has a base point and the base point
+has coordinates D many. So, why don't I
+first of all take care of the base
+point? So, I take the coordinate
+of
+the base point pi of X. Pi of X is a
+point in M.
+And I take the first coordinate of that
+point.
+And I do this up to the Dth. I take the
+pi of X.
+But after that, I take the Dth
+coordinate chart. So, the point is this
+here this here are the
+UX
+coordinates. Coordinates depend on the
+chart. Are the UX coordinates of the
+base point of the nose.
+The quartz coordinates.
+That's how many? That's D many.
+Hm? Clear.
+I already used up half of this. Now,
+what else do I have to remember if I
+want to know where I am here? First, I
+only know this base point.
+Now, I have a chart and it's a nose.
+It's a
+vector. I know that the X
+is an element of T
+pi of X M. It's a vector in the tangent
+space to its own base point. Very clear.
+So, it is a vector. A vector has
+components with respect to a chosen
+basis. Well, I of course choose the
+basis
+that comes from this chart because I use
+the chart anyway. I can use it for that,
+too.
+So, I use the coordinates I expand X in
+XI with respect to the chart X d by d xi
+at the point pi of X because that's the
+base point, right?
+Now, it's un it's not so nice to now say
+I expand it like this and then I put the
+X1 X2 XD X in here, but that's exactly
+what I want to do, but there is a
+smarter way to do this because if this
+is the case, if this defines these guys
+uniquely because this is a basis,
+I could tell I could look at dxj
+at the point pi of X and apply it to the
+abstract vector.
+So, that's the abstract object I have
+and I can act on it with this. What do I
+get? I have dxj
+at the point pi of X. I act on this
+object XI X. These are just numbers and
+that's a vector d by d xi at the point
+pi of X.
+Now, this is a linear map because an
+element of the cotangent space, that
+means you can pull these guys out. It's
+the XI of X's and then you have the dxj
+acting on the d by d xi, but that's the
+dual basis, so that's a delta ji, so
+this is the jth component
+I want. So, I can take the abstract
+object and act on it with this guy and I
+get the component I want to put in here.
+So, that's clever. So, I write dx1
+at the base point of the object up to
+dxt
+at the base point of the object. And
+that's it. So, I stored in the chart the
+information of the coordinates of the
+base point and the information about the
+components of the vector
+with respect to the chosen chart.
+That's it. That is the chart map
+I have here.
+Now, is it a chart map? Does it do the
+thing you want it to do? Um
+uh note
+what is its inverse? If we think of
+chart maps and change of chart, we need
+to think of the inverse chart maps and
+compose that. But first
+the inverse of this chart map uh is a
+map from
+uh
+xi X of
+T U
+which is a part of R2
+dim M
+up to T U, right? So, I must be able
+from just a mere collection of numbers
+alpha 1 to alpha D, beta 1 to beta D
+because what else are the elements of R2
+DM? I must be able to reconstruct from
+those
+a vector
+in the appropriate tangent space. But
+how does it work? Well, I said these are
+these numbers are the components of the
+vector, that's BI with respect to
+the basis d by d xi at the base point,
+but the base point is given as the
+X inverse of the alphas.
+Because these are the coordinates of the
+base point, then this is the point P
+itself, so this guy is pi of X.
+Ah, I reconstruct the vector and it's a
+vector at the base point and that is all
+the nose is whatever nose I picked from
+the bag, it's a particular nose. So, I
+fully reconstructed the nose.
+So, that's the inverse of the chart map
+and now check and that's of course what
+we're all after. We need to check I mean
+I can write down any kind of map. The
+question is
+is this atlas smooth? Are the
+transitions between the such constructed
+maps smooth?
+So, we calculate
+xi Y after xi X inverse.
+What is this? This goes from RD to RD
+because it's a chart transition map, so
+it eats alpha 1 to alpha D, beta 1 to
+beta D
+and I need to check whether this map is
+smooth. In order to know, I best write
+it down. What is the map? Well, I first
+apply the xi X inverse, so it's xi Y of
+What is xi X inverse of this? Well, this
+is what I just wrote down. That's beta I
+d by d xi at the point X inverse of
+alpha 1 to alpha D.
+Aha. So, I now need to say what Y xi
+xi Y is. Well, that is this construction
+and I now only write the ith element of
+this here, not from 1 to D, but 1 in the
+middle, the ith one. So, I have a number
+of those
+and then comes the first one. It's the
+XI, it's the ith position, the XI after
+the projection map
+applied to beta I d by d xi at the point
+X inverse alpha 1 to alpha D.
+There come more of these with other
+eyes.
+Then come
+those here.
+I leave out the first few and then I
+take again the the ith, right? Uh so,
+it's the d xi, yes? Too many eyes.
+Too many eyes, yes, that's right because
+um what he refers to is I take the ith
+position, but I have here a summation
+index I, so I make this a summation
+index M. Thank you very much.
+Okay. So, I now take the ith position in
+the second half, so that's the d xi
+of um at the base point pi of X, but the
+point is uh
+the X is actually this guy. Well, I
+quickly calculate this. The base point
+is of course X inverse alpha X inverse
+of the alpha 1 to alpha D
+and this is applied to the abstract
+vector that is this guy. It's the beta M
+d by d xm
+at the base point, which is the X
+inverse alpha 1 to alpha D, comma dot
+dot dot dot, close bracket. It's just
+plugging in. Many indices, but well
+okay.
+So, now we have this. Now, we evaluate
+it. Let me see, I continue here.
+Equals. So, what is this guy? Well, it's
+simple. Look, this is a vector with this
+base point. The projection map just
+selects the base point X inverse alpha 1
+to alpha D.
+Ah, mistake.
+Xi Y requires here a Y
+and requires
+here a Y.
+And now I need to be careful where I
+made other mistakes. It requires here a
+Y and here a Y. The rest remains the
+same. It requires here a Y and that's
+it. So, sorry. So, because of this Y,
+this is an X, but this is a Y. I need a
+Y here and you need a Y there. Okay? I'm
+sorry. Yes? Uh where do we get the Y
+from or something?
+Pardon me? Where did you say you got the
+Y from? Oh, from the atlas. Uh so, for
+another map, so check
+check uh
+Hang on. Check transition map. You take
+another chart
+V Y with U intersected V non-empty.
+Okay?
+And uh then you check the transition map
+uh
+from the image of the intersection to
+the image of the intersection.
+Okay? As always. Okay. Good. So,
+now it's very simple. Look, you have a
+vector with this base point. The pi
+selects the base point. It's X inverse
+and then you have YI. So, the ith
+position
+is YI after X inverse
+of alpha 1 to alpha D. Oh, that's an old
+acquaintance. That's the chart
+transition map on the base space. Very
+nice. So, this is the first D
+components. Now, it continues because
+the blackboard has ended. Uh you need to
+take the next D and I take the ith here.
+So, here I have this vector at this base
+point with respect to this XM here,
+right? And I apply the DY
+I.
+Now, the DYI is a linear map, so I can
+pull the numbers beta M out. So, there
+is beta M, then comes DY, importantly
+DYI
+uh at the base point, at the point X
+inverse
+of the alpha 1 to alpha D
+and this acts on the d by dxm
+at the base point X inverse of alpha 1
+to alpha D.
+Close bracket. No, not close bracket,
+yeah. Close bracket here, comma dot dot
+dot, big close bracket. Okay? That was
+the ith element. So, that's very simple.
+So, this one is already the chart
+transition map. Now, what is this guy
+here? We need to look at this guy here.
+This guy is just the beta M
+and we know that the Y of a function and
+the coordinate maps are all functions on
+a vector is actually the vector acting
+on the function. That's what we defined
+before as the gradient.
+And this is still at the base point.
+Right? And then of course, I can let
+this jump in here by mere notation.
+Okay? That is this and that was it.
+And now you see this is
+the chart transition map
+and this is the transformation behavior
+map for the components of a vector under
+chart transition.
+Now, the question is is this a smooth
+map? Yeah, sorry. Good.
+Yes. Are you
+in this
+two-dimensional
+vector
+vectors and covectors?
+No.
+This is a vector
+on which a gradient acts
+and selects
+a component which is a number.
+I get the components of a vector with
+respect
+to the chart induced basis
+by acting on it with a chart induced
+dual basis.
+That's what I showed here.
+Okay?
+Okay. Now, the question is is this map
+as a map from RD to RD smooth?
+Because if and only if it is, we
+constructed a smooth atlas on the total
+space. Well, inspect it. You take these
+real numbers. It's undergraduate
+analysis RD to RD.
+Is this smooth? This These are these
+components smooth? Well, of course they
+are because the chart transition map
+down is smooth.
+Is this smooth in alpha and in beta? In
+beta it certainly is because it's a um
+it's linear in beta. That's certainly
+smooth.
+What about in alpha? Well, that looks a
+little ugly. That's down here. How do I
+judge whether this is smooth? Well, we
+just remember what the symbol means. The
+symbol means you take the M from down
+here, you take the function from up
+here, you do it after X inverse, and you
+evaluate it at X of whatever point you
+have X inverse of alpha 1 to alpha D.
+Ah, so the X goes away. It's at alpha 1
+up to alpha D, and it is the derivative
+of the chart transition maps, but they
+are C infinity, so deriving them once
+still keeps them smooth. Hooray,
+everything is smooth.
+Upshot.
+We have TM
+pi M
+smooth manifold
+and the pi
+is a smooth map
+because you see the pi in the chart
+represent representation, it takes these
+guys to just those guys. It's a
+projection to first the components.
+That's smooth. So, indeed the smooth is
+also obvious.
+Hence, we have a bundle
+in our sense
+bundle called the tangent bundle.
+That's it.
+Right.
+So, that was a lot of work
+in order to make a very intuitive
+picture precise. But it doesn't only
+work for the circle. We showed it for
+just any smooth manifold that over it we
+can construct a tangent bundle. And more
+than that we understood how to deal how
+we already have an atlas for it. So, we
+can work in atlas if you want. It's It's
+exactly the same. And we produce this
+all from the data from below.
+Now, you might wonder why on earth I put
+so much effort
+into seeing that the total space is a
+smooth manifold.
+Well, the answer is very clear.
+Third section is vector fields.
+The answer to the question I just posed
+is
+I can make the following definition.
+Definition.
+A smooth vector field
+I want to look to be able not only at
+vector fields which are just sections of
+the bundle. I don't need this to be a
+manifold in order to have some vector
+field where the vectors go like this,
+but in order to have a smooth vector
+field, a notion of differentiable vector
+field, a smooth vector field
+is a And now it comes in all the work
+has been done in order to be able to
+write down the following word.
+A smooth vector field
+uh X Ah, let's call vector fields Let's
+call them shy.
+A smooth smooth vector field shy is a
+smooth map. And that's in order of to
+write down this orange word, we had to
+invest so much effort. Is a smooth map
+Well, you guess it.
+You have the
+tangent bundle smooth smooth smooth
+and a smooth vector field is a smooth
+map
+that is a section.
+Is a smooth map where pi after shy is
+the identity on M. So, it's a smooth
+section
+of the tangent bundle. But in order to
+say that this guy is smooth I need to
+have a smooth manifold here and a smooth
+manifold there.
+Had I not chosen that this is a smooth
+manifold, I could not talk of smooth
+vector fields.
+And now you see in the beginning I said
+your intuition is right. A vector field
+is association of a vector at each point
+of the manifold.
+But how do I say that this association
+is a smooth association?
+How do you say that? You can say, "Well,
+it just goes like this, right?" But this
+is not technically good. Now, we have
+the technical way of saying it's a
+smooth vector field.
+Okay?
+So, this is the smooth vector field on a
+cotangent bundle. Uh I draw you a little
+picture.
+So, let's say we look at T
+S1
+with the projection down to S1, S1 being
+the circle.
+So, S1 is this guy. It's the circle.
+And you can draw an image of TS1
+as this cylinder.
+Okay?
+And now on the circle I make you a
+picture of the circle separately. That's
+your world, right? Your circle.
+And now you may think, but this is just
+thinking. It's not technically. You may
+say, "Well, there is a vector field here
+that points like this. Here it has
+become smaller. There it's zero. Uh here
+it has turned around. Uh uh here it's
+zero again, and here it's growing again
+a little bit, right?"
+And how do you represent this as a
+section here? Well, you have for every
+point, say for this in front, that's
+this fiber here. It's the fiber here in
+front, right? If I match the pictures.
+Uh there it's the zero vector, so I
+choose this point out of the bundle.
+Now, at this point, that's this point
+here, uh that's in vector in
+mathematically negative direction, so I
+say it's this guy here. That's this
+vector. I go further to the back. So,
+that's the point here
+in a fiber over this point in the back.
+Uh there's a vector mathematically
+negative.
+Uh say it's even bigger. That's this
+point and so on. And you you get you get
+the idea. Uh the section is just um
+is is is just something in here, right?
+You you associate all these points, and
+that corresponds to this vector field.
+Okay?
+Okay, so that's the image to it.
+And um but now comes a very very very
+important point, and it's a point that
+makes you understand stuff that
+otherwise you wouldn't.
+And um
+and there's an awe-inspiring headline.
+It's called the C infinity
+M module
+gamma of TM.
+Pardon me?
+Indeed.
+Okay.
+I think there's nothing else I want to
+say.
+No, it's fine. It's fine. So, it's it's
+four. You're absolutely right.
+Okay.
+The C infinity module
+gamma of TM. Well, I first of all tell
+you what C infinity is you already know.
+It's the collection of all smooth
+functions. You already know it's a
+vector space, right?
+But you can always multiply two smooth
+functions with each other.
+You get a smooth function. So, this guy
+is not only a vector space
+with an S multiplication with R, but it
+also has a fat multiplication that takes
+two elements and makes them to an
+element.
+And this thing is
+commutative here, associative. There is
+a neutral element. That's the function
+that vanishes everywhere.
+Of neutral element of addition. There is
+an inverse element of addition, minus
+the function.
+About multiplication, it's commutative.
+The pointwise multiplication.
+It is associative.
+Is there a neutral element for
+multiplication? Yes, it's the constant
+one function.
+Is there an inverse for every function
+that's non-zero?
+No, because a function that's non-zero
+as a function sending everything to zero
+may still be zero in some points.
+That means this structure satisfies the
+Cayley-Cayley
+D
+plus plus plus plus times times times
+times, but this is only for this without
+the zero function and the distributive
+law, which mathematicians call a field,
+like the real numbers.
+Right? So, Q is a field and the real
+numbers are a field, that isn't a field.
+Okay?
+But, not this one.
+So, it's not a field.
+It's a so-called ring.
+You say, "Okay."
+It's
+terribly important because now we do the
+following. We look at this gamma TM
+first and I'll tell you what the
+relevance of this ring is. The gamma TM
+is the following. The gamma TM is very
+simply
+the collection of all sections over TM.
+Or you could say
+all vector fields.
+Smooth
+section.
+So, if you collect all the sections over
+a bundle or here the tensor fields, you
+have this set. It's a set.
+Now, this set can be equipped with an
+addition
+where you take two such
+vector fields
+and you define a vector field, which is
+defined such that if it acts at the
+point, if it acts on a function,
+it's defined as the action of the first
+vector field on the function plus the
+action of the second vector field on the
+function, but the vector field acting on
+a function is not a number like a
+vector, but it's an element is a
+function again and this is added like
+this.
+Now, you might say, "How do you if you
+have a vector field that is a map from
+here to here?"
+I'm sorry. That is a map from here to
+here, how is it supposed to act on a
+function? I must put a point here.
+Right? And the idea is a vector field P
+if I write this shy, I associate to this
+an XP, namely the evaluation of the
+vector field at a point.
+And with that one I can then act on a
+function. So, if I write XF, what I mean
+is the association of M to real number,
+where P is mapped to shy evaluated at P
+then acting on F. But, intuitively it's
+clear, vectors on a function at a point
+gives a number, a vector field on a
+function, you can do this at every point
+gives you a smooth function. You can add
+the two functions, the two smooth
+functions, but by that you add you
+define the addition of the vector
+fields. I'm we're missing here the wave
+of the the tilde over the second Yes, we
+do. Thank you very much.
+You can define this and now comes the
+point. You could of course now take a
+real number
+and make this into an R vector space.
+Well, you have an addition, you can make
+an S multiplication. You could make
+this into an R vector space simply by
+taking a constant real number here
+and doing this, but you can do more.
+You can take a whole function
+at each point a different number
+and you can multiply this and
+this being a multiplication on this CM,
+you see this this one,
+still gives you a vector field. Of
+course, you can take a vector field and
+at every point you can scale it
+differently.
+That's the multiplication of a vector
+field with a function.
+Now, what we have here therefore is
+if I had put here an a real number only,
+then I would have said that gamma TM
+with this plus and this S
+multiplication, I would say is an R
+vector space.
+Because I have multiplication by R.
+R is a number field.
+I want it to be
+I want to allow to scale the vector
+field differently at each point
+and so I make it a C infinity M vector
+space. It satisfies all the vector space
+axioms,
+but this underlying
+scalars for the S multiplication are
+only a ring.
+And mathematicians call a vector space
+structure, I mean the axioms, over a
+ring, they don't call it vector space,
+they call it a module.
+You say, "Why don't they call it vector
+space over a ring?"
+It because it is a vector space over a
+ring according to the axioms, but it
+deserves an extra name because modules
+don't have all the properties that
+vector spaces have.
+If you start multiplying by non-field
+elements,
+but by ring elements,
+you no longer have all the nice theorems
+for vector spaces.
+So, if we think of vector fields as
+being able to add them and to scale them
+arbitrarily,
+then we deal with a C infinity M module
+of all vector fields and I tell you a
+conclusion in a second. So, upshot,
+vec set
+of all smooth
+vector fields.
+So, this is set gamma TM
+uh can be made
+as above into
+a C infinity M instead of R vector space
+no module.
+Okay.
+Now, this sounds like a mathematical
+pedantry,
+but in fact,
+we have the following fact.
+First,
+depending on your choice of set theory,
+we never talked about the axioms of set
+theory. I said, "Okay, we all know what
+a set is." Okay, in the beginning.
+But, in fact, if you want to prove that
+every vector space has a basis,
+every vector space
+has
+a basis,
+this requires that you have the axiom of
+choice in set theory. So, very deep down
+this goes very high up.
+Every vector space has a basis.
+Second,
+no such result
+exists
+for modules.
+So, if you have a module, a vector space
+structure over a ring,
+where the objects by which you multiply
+your objects
+S multiply your objects doesn't have
+this,
+you can no longer prove that there
+exists a basis.
+That's a shame
+because the vector fields,
+this set gamma TM doesn't have a basis.
+This is a shame
+because
+otherwise,
+we could have chosen
+in any case or for any for any manifold.
+That's the point. For some manifolds it
+works anyway, but for interesting ones
+it doesn't work already.
+We could have chosen vector fields,
+namely dim many shy one
+up to shy D
+elements in gamma TM
+and would be able
+to write every vector field
+chi, so it's not none of those in the
+basis, chi as chi is
+the ith basis vector field, a vector
+field like this and a vector field like
+that on the sphere for instance.
+Of course, you want to scale at every
+point. Okay, now I'm running here. At
+every point you want to scale with some
+functions FI
+in order to get any vector. So, imagine
+you have, say, a unit vector field like
+here and a unit I shouldn't say this.
+You have a certain vector field here
+like this, a certain vector field here
+like this, but now you want one that
+lies somehow in the middle. Well, you
+need to take linear combinations, but at
+different points your chosen vector
+field could have longer vectors. I
+shouldn't say longer,
+but anyway, other vectors and but if you
+scale at each point with a function,
+then you can you could get
+the vector field if there was a basis
+for this.
+So, these would be the component
+functions.
+And the point is the question is exist
+there global vector fields on the whole
+manifold
+which I can choose once and for all or
+another choice and I can expand every
+vector field globally on the whole
+manifold.
+If gamma TM was not a module, but a
+vector space with these coefficients or
+if these coefficients always had
+multiplicative inverses if they're not
+the zero function, then this would need
+to be possible if I choose the set
+theory I chose implicitly all the time.
+Now, what is the case, and indeed there
+is a very simple counter example to
+this.
+Simple counter example
+which shows that the observation that
+this is a module, and hence doesn't have
+necessarily a basis, is highly relevant.
+The simple counter example is you take
+the sphere,
+and I want a smooth vector field to be
+expressed in a basis of smooth vector
+fields. Well, let's try to find a single
+smooth vector field on the sphere that
+can be element of a basis. Okay?
+Let alone two for the sphere. Let's find
+one smooth vector field.
+Um
+Imagine the sphere
+had hair.
+This is the aging physicist, right? So,
+the sphere has hair.
+Uh now it has of course hair as this is
+sphere, right? It has hair everywhere.
+The question is, if it has hair
+everywhere, can you comb the sphere?
+Um you say yes. Uh
+Uh
+you can comb the sphere. You can put the
+hair
+somehow like this. And of course, the
+root of the hair is you know, it's
+supposed to be the vector field, right?
+The hair from the root to the tip.
+But you see, if you want this smooth,
+well, this is just intuition, but you
+can prove this.
+Up here you get in a problem. You need
+to let the vector field, if it's smooth,
+it needs to vanish here and here.
+Think Morse theory can tell you that
+uh abstractly. You can prove every
+smooth vector field on the sphere must
+vanish somewhere, but it's still smooth.
+Excellent. Smooth vector
+Oh,
+it should be part of a basis of vector
+fields. So, what do you do if you have
+another a second smooth vector field
+being the second?
+One, you can choose of course a second
+one that's independent. You can let it
+go down here, right? You say, "Oh,
+that's great. You can go down here."
+But the point is, you do not have Well,
+this of course is not possible. You have
+to come from behind like this, okay? Uh
+it's more like like this, right?
+At this point, what if you want to write
+a vector field that has a component in
+this direction? One of your vector
+fields got zero.
+So, you may have smooth vector fields on
+the sphere,
+but you do not have a single one that
+doesn't vanish somewhere. But wherever
+it vanishes, it loses its power as a
+basis for the vector at that point.
+You cannot comb a sphere.
+This has to do with the set of all
+vector fields to be only a C infinity
+module, not a vector space, not having a
+basis.
+So, what do we do? Well, we say we only
+always expand a vector field in terms of
+components in a basis on a domain where
+it's possible. That can be done.
+And after all, you don't need to expand
+in a basis in the first place.
+Because the basis is nothing different
+for you could come from a chart and do
+this. And if you insist, so for vectors,
+you could still say I can always go into
+a chart. Right? That's the argument the
+discussion one can lead. I can always go
+into a chart. Who cares about the the
+real world?
+As soon as it comes to vector fields,
+you no longer necessarily can.
+Globally.
+Locally still, but not globally. Okay?
+So, this is yet another blow to the
+idea, let's just do it in charts, right?
+Mhm? Okay. So, you see, it's always the
+same story I'm trying to convey, and
+it's very deep in in mathematical
+structure. Uh this is not philosophy.
+This is just uh mathematics. Locally,
+you can do this, and locally,
+however,
+so you shouldn't now be too discouraged.
+However, d by dxi,
+we always put a p here. Now I don't
+because now I can con- define a new
+symbol without the p down here as a map
+from m to tm that's smooth, and that
+assigns to a point p in m in a smooth
+fashion d by dxi p, that's an object you
+again know. And this, if this was a
+tangent vector a chart induced tangent
+vector at a point, this is a chart
+induced tangent vector field. And
+indeed, if you have the real world, and
+you have a local chart,
+then in here, you have of course at
+every point a basis, and this is kind of
+the
+basis vector field from the chart
+distributed over here. That's okay, but
+that is only because it's local. It's
+only on the chart domain.
+That's not in contradiction to this. And
+in fact, your charts, for instance, fail
+at similar points.
+Because if you want to write just any
+vector field
+as a linear combination of this,
+that at the point where one of one of
+these vanishes, at that point you will
+not be able
+to reproduce a com- a direct a component
+in that direction.
+It fails only at a point. It's very
+subtle, but it fails.
+Yes. So,
+I can choose a basis set for a local
+area. Yes. Yes.
+And
+now I need to make sure that I don't
+leave the area with these with this
+basis set, right?
+Yes, but the area could be arbitrary.
+So, for example, on the manifold R2. R2
+as a smooth manifold,
+you don't run into the problem.
+So, R2, there are the vector fields on
+R2 are still a C infinity module.
+However, a C infinity module that
+happens to have a basis.
+I don't say it cannot have a basis. I
+say it's not guaranteed to have a basis.
+Then you could say, "Oh, maybe that's
+just very remote mathematical
+possibility." No, the sphere,
+right? Already doesn't work.
+So, that's the logical status, right?
+And it doesn't prevent us from doing
+anything.
+It just is another blow to the idea,
+just let's go to charts and let's be
+done with it. It's not so easy.
+Okay?
+So, I have 10 minutes left. Um that's
+excellent because I can introduce the
+final object I want to talk about,
+namely tensor fields. Tensor field,
+almost everything in general relativity
+that you put on the manifold, matter,
+but also the geometry itself you put on
+a smooth manifold, is given by a tensor
+field. So, we really need to understand
+what a tensor field is, and you'll see
+it's a very simple notion, and it builds
+on a C infinity m module that doesn't
+need to scare you. You deal with it like
+with a vector space. The only thing you
+mustn't choose is a basis, a global
+basis. Okay?
+Six, tensor fields.
+So, so far,
+we constructed
+the sections over the tangent bundle.
+In vulgar language, it's the vector
+fields.
+The set of vector fields.
+Okay?
+And you can imagine, and you don't want
+me to do it in detail, but I want you to
+do it in detail in the lec- in the
+tutorial, you can construct exactly
+along the same lines to cotangent bundle
+by mapping a covector to the coordinates
+of its base points or an atlas,
+and the components of the covector with
+respect to the dxi basis,
+and you can then make this into a smooth
+manifold, and therefore you can consider
+sections on it, covector fields, and you
+have this. You have the covector fields.
+And again, you can scale vector fields
+by functions to get a new vector field,
+and we had a C infinity m module
+defined this way here. And similarly,
+the sections of the cotangent bundle
+also constitute a C infinity m module.
+Forget the gammas. The tpm and the tp
+star m were the basic building blocks
+from which we understood every tensor.
+Well, you won't be surprised that these
+two are the basic building blocks from
+which we understand every tensor field.
+Definition.
+A
+r n r s tensor
+field
+t
+is a
+Leave a little space. Multi-linear
+map.
+And before, for tensors, we had r
+multi-linear.
+It's a blah blah blah multi-linear map t
+that takes r copies of the sections of
+the cotangent bundle,
+or in other words, the map
+the tensor field will eat
+r covector fields,
+and it will eat
+um
+S vector fields
+and send them to
+the real numbers?
+No, to a function.
+Because it's point by point. It's a real
+number point by point and everything is
+supposed to be smooth.
+Is a multilinear map
+but it's multilinear with respect to of
+course addition in this guy but there's
+also an S multiplication but the S
+objects are now these functions.
+So, it's a multilinear map between
+modules.
+C infinity M is trivially a C infinity M
+module as much as R is an R vector
+space.
+These are C infinity M modules. It's a
+multilinear map between C infinity M
+modules. So, the only natural
+requirement is that it be C infinity M
+multilinear. Of course, it could it is
+also R multilinear but that doesn't
+capture the whole
+uh
+aspect of it. This is an RS tensor
+field.
+And in fact, this is an incredibly
+practical
+uh requirement because in the future
+we'll define the Riemann tensor and the
+torsion tensor with respect to
+additional structure we introduce.
+And once you wrote them down, all looks
+nice and so on.
+But you need to check is the map
+multilinear in each
+entry and in the scaling part, you have
+to check with respect to functions, not
+with respect to scaling by real numbers.
+Many objects you write down are R
+multilinear maps if you feed vector
+fields in them but they're not C
+infinity M linear.
+But only the second type is a tensor
+field, qualifies as a tensor field.
+Okay?
+So, let me give you one example and then
+we're done.
+And further examples will follow.
+And the example I want to give you is
+one is an old acquaintance in
+field extension.
+I define a DF, you remember a for a
+function F, a smooth function on the
+manifold.
+I defined DF at a point.
+I define an entirely new object, namely
+a DF.
+And is a smooth map. No, hang on. Do I
+want this? Um
+Can do this in several ways. No, I want
+it differently. Sorry.
+That eats a vector field and maps it
+in multilin in linear fashion only one
+to a function.
+How is this given? I take a vector field
+shy.
+I plug it in
+and I apply the DF without the P point
+to the vector field.
+Actually, once I write it like this,
+already here I know if it really is to
+going to be linear, this is going DF is
+going to be a zero one tensor
+field, right? Because it has exactly
+this structure for R equals zero and S
+equals one.
+I define its action so I need to define
+this such that I get a function out. How
+do I do this? Well, I define it as the
+action of the vector field on F. Sorry.
+Now you say, "Hang on, but a vector
+field is a map from M to TM. It's a
+section.
+How can I act on a function? Well,
+obviously this is a new type of action
+which we always write like this. I could
+invent a new
+prescription here. One doesn't do that.
+Where I but I have to say what I mean by
+this. Where shy F
+is supposed to be a function so you can
+evaluate it at a point in the domain of
+the function and it's defined as shy of
+P. Now, this is the shy that goes from M
+to TM. So, this is the element of TPM
+because it's a section so it's at the
+point P where it starts from and that
+can act on the function. So, this here
+is to be read like once you evaluated,
+the evaluation point jumps in between.
+But this is standard notation to say a
+vector field acts on a function and
+gives you a function. And that's
+intuitively totally clear. But
+abstractly, you need to know exactly
+what you're talking about because from
+where to where does the map go? So, in a
+sense here, there is a new application
+rule defined, whatever. We we don't uh
+invent a symbol for that.
+That is this um
+that's this thing.
+Okay? And indeed, you can check. I don't
+do this now but maybe you want to do it
+at home. You can check that this DF is C
+infinity linear in this entry shy. So,
+if I scale the shy by a function G, it's
+G times the result. Well, that's pretty
+obvious once you go here, you pull it
+out, it's G times the result. So,
+indeed, it's not only a map from here to
+here, it's a linear map and a C infinity
+linear map from there to there. So,
+indeed, we justified it's a tensor
+field. You can make of the gradient at a
+point a gradient vector field.
+There you see, I said it. A gradient
+covector field.
+Thank you very much.

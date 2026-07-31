@@ -1,0 +1,22 @@
+[
+  {
+    "id": "object-operation-meaning",
+    "name": "Object, operation, meaning",
+    "description": "Every mathematical idea is tracked as a thing, an action performed on it, and the physical distinction that action protects."
+  },
+  {
+    "id": "coordinate-independence",
+    "name": "Coordinate independence",
+    "description": "A formula earns its place only when it describes something that survives a change of chart or frame."
+  },
+  {
+    "id": "local-to-global",
+    "name": "Local to global",
+    "description": "The course repeatedly builds local rules first, then asks what happens when they are carried around loops, regions, or whole spacetimes."
+  },
+  {
+    "id": "measurement-as-structure",
+    "name": "Measurement as structure",
+    "description": "Distances, times, angles, volumes, and light cones are not assumed; each enters through a named mathematical object."
+  }
+]
