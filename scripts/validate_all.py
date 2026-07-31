@@ -70,6 +70,8 @@ def validate() -> tuple[list[str], list[str]]:
     readiness_report = ANALYSIS / "audits" / "goal-readiness-audit.md"
     full_archive_readiness_report = ANALYSIS / "audits" / "full-archive-readiness-audit.md"
     archive_evidence_page = SITE / "archive-evidence.html"
+    learning_path_page = SITE / "learning-path.html"
+    dependency_map_page = SITE / "what-breaks.html"
     manual_note_templates = [
         ROOT / "raw-material" / "manual-notes" / "lecture-18-canonical-formulation-gr-i.md",
         ROOT / "raw-material" / "manual-notes" / "lecture-19-canonical-formulation-gr-ii.md",
@@ -83,6 +85,8 @@ def validate() -> tuple[list[str], list[str]]:
     archive_videos = load_json(ANALYSIS / "archive" / "video-atlas.json")
     archive_evidence = load_json(ANALYSIS / "archive" / "evidence-ledger.json")
     integration = load_json(ANALYSIS / "integration" / "concept-archive-integration.json")
+    learning_path = load_json(ANALYSIS / "integration" / "learning-path.json")
+    dependency_map = load_json(ANALYSIS / "integration" / "dependency-map.json")
 
     require(len(transcript_index) == 28, "transcript index must contain 28 records", errors)
     full_archive_videos = full_archive_manifest.get("videos", [])
@@ -109,6 +113,8 @@ def validate() -> tuple[list[str], list[str]]:
     require(readiness_report.exists(), "goal readiness audit must exist", errors)
     require(full_archive_readiness_report.exists(), "full archive readiness audit must exist", errors)
     require(archive_evidence_page.exists(), "archive evidence page must exist", errors)
+    require(learning_path_page.exists(), "learning path page must exist", errors)
+    require(dependency_map_page.exists(), "what-breaks dependency page must exist", errors)
     require("Overall status: complete" in full_archive_readiness_report.read_text(encoding="utf-8"), "full archive readiness audit must say complete", errors)
     for template in manual_note_templates:
         require(template.exists(), f"manual note template missing: {template.relative_to(ROOT)}", errors)
@@ -155,6 +161,8 @@ def validate() -> tuple[list[str], list[str]]:
     require(len(archive_videos) == 13, "archive video atlas must contain 13 tutorial/evening records", errors)
     require(len(archive_evidence) == 13, "archive evidence ledger must contain 13 records", errors)
     require(len(integration) >= 20, "concept/archive integration should contain tutorial pressure-test links", errors)
+    require(len(learning_path) >= 7, "learning path should contain the main course route", errors)
+    require(len(dependency_map) >= 10, "dependency map should contain major failure modes", errors)
     require(sum(item["type"] == "tutorial" for item in archive_videos) == 11, "archive video atlas must contain 11 tutorials", errors)
     require(sum(item["type"] == "evening-lecture" for item in archive_videos) == 2, "archive video atlas must contain 2 evening lectures", errors)
     for item in archive_videos:
@@ -188,6 +196,23 @@ def validate() -> tuple[list[str], list[str]]:
         for field in ("pressure_test", "why_it_changes_concept", "source_span_read"):
             require(words(item[field]) >= 35, f"integration {item['concept_id']} via {item['archive_slug']} field {field} is too thin", errors)
             check_banned_phrases(f"integration {item['concept_id']} via {item['archive_slug']} field {field}", item[field], errors)
+    for item in learning_path:
+        require(item["concept_ids"], f"learning path {item.get('id')} lacks concepts", errors)
+        require(item["archive_slugs"], f"learning path {item.get('id')} lacks archive links", errors)
+        for concept_id in item["concept_ids"]:
+            require(concept_id in concept_ids, f"learning path {item.get('id')} points to missing concept {concept_id}", errors)
+        for slug in item["archive_slugs"]:
+            require(slug in archive_slugs, f"learning path {item.get('id')} points to missing archive page {slug}", errors)
+        for field in ("plain_goal", "reader_task", "payoff"):
+            require(words(item[field]) >= 18, f"learning path {item.get('id')} field {field} is too thin", errors)
+            check_banned_phrases(f"learning path {item.get('id')} field {field}", item[field], errors)
+    for item in dependency_map:
+        require(item["concept_id"] in concept_ids, f"dependency map points to missing concept {item.get('concept_id')}", errors)
+        for dep in item["depends_on"]:
+            require(dep in concept_ids, f"dependency map {item.get('id')} points to missing dependency {dep}", errors)
+        for field in ("breaks", "repair"):
+            require(words(item[field]) >= 16, f"dependency map {item.get('id')} field {field} is too thin", errors)
+            check_banned_phrases(f"dependency map {item.get('id')} field {field}", item[field], errors)
 
     required_concept_fields = (
         "ordinary_problem",
@@ -271,6 +296,8 @@ def validate_site(concepts: list[dict[str, Any]], errors: list[str]) -> None:
         SITE / "concepts.html",
         SITE / "families.html",
         SITE / "themes.html",
+        SITE / "learning-path.html",
+        SITE / "what-breaks.html",
         SITE / "evidence.html",
         SITE / "assets" / "styles.css",
     ]
@@ -294,6 +321,20 @@ def validate_site(concepts: list[dict[str, Any]], errors: list[str]) -> None:
         concept_page = SITE / "concepts" / f"{concept_id}.html"
         if concept_page.exists():
             require("Tutorial Pressure Tests" in concept_page.read_text(encoding="utf-8"), f"concept page lacks tutorial pressure tests: {concept_id}", errors)
+    families_page = SITE / "families.html"
+    themes_page = SITE / "themes.html"
+    learning_path_page = SITE / "learning-path.html"
+    dependency_map_page = SITE / "what-breaks.html"
+    if families_page.exists():
+        require("Tutorial pressure carried by this family" in families_page.read_text(encoding="utf-8"), "families page lacks tutorial pressure section", errors)
+    if themes_page.exists():
+        require("Tutorial pressure in this theme" in themes_page.read_text(encoding="utf-8"), "themes page lacks tutorial pressure section", errors)
+    if learning_path_page.exists():
+        text = learning_path_page.read_text(encoding="utf-8")
+        require("Cross-Video Learning Path" in text and "Reader task" in text, "learning path page lacks required route language", errors)
+    if dependency_map_page.exists():
+        text = dependency_map_page.read_text(encoding="utf-8")
+        require("What Breaks If You Skip This" in text and "Repair" in text, "dependency map page lacks failure-and-repair language", errors)
 
 
 def main() -> int:

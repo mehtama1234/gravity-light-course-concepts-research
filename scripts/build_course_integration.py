@@ -65,6 +65,161 @@ PRESSURE_TESTS = {
 }
 
 
+LEARNING_PATH = [
+    {
+        "id": "nearness-before-distance",
+        "title": "Earn Nearness Before Measuring",
+        "plain_goal": "Start with the weakest structure that still lets a physical statement vary without jumping, before the course has earned any right to speak about distance, clocks, or rulers.",
+        "concept_ids": ["topology-continuity", "open-sets-neighborhood-tests", "continuous-maps-preserve-nearness"],
+        "archive_slugs": ["tutorial-01"],
+        "reader_task": "Ask whether a region is locally roomy around each point and whether a map preserves that kind of room. Do not use meters yet.",
+        "payoff": "This is the base layer for every later statement about smooth fields, light paths, and limits. If nearness is not stable, later derivatives are pretending.",
+    },
+    {
+        "id": "local-names-without-mistaking-the-name",
+        "title": "Use Coordinates Without Mistaking Them For Space",
+        "plain_goal": "Learn to describe one space with many local naming systems while keeping the space separate from the names.",
+        "concept_ids": ["manifolds-local-flatness", "charts-atlases-coordinate-overlap", "smoothness-change-rates"],
+        "archive_slugs": ["tutorial-02", "tutorial-04"],
+        "reader_task": "Move statements through overlap maps and transition maps. A claim is allowed to be geometric only if it survives the change of local chart.",
+        "payoff": "This prepares the reader for horizons, singular-looking coordinates, and covariant derivatives. A bad chart should not be mistaken for bad spacetime.",
+    },
+    {
+        "id": "slot-aware-quantities",
+        "title": "Separate Objects From Their Component Displays",
+        "plain_goal": "Learn why vectors, covectors, and tensors have jobs before they have coordinate lists, so the reader can tell an object from one chosen display of it.",
+        "concept_ids": ["multilinear-objects", "dual-vectors-measure-directions", "tensor-components-versus-object"],
+        "archive_slugs": ["tutorial-03"],
+        "reader_task": "Feed basis vectors into tensor slots and watch component numbers appear. Then change the basis and keep track of what did not change.",
+        "payoff": "This is what lets the metric, stress-energy, curvature, and Einstein tensor be read as physical measuring rules rather than arrays of symbols.",
+    },
+    {
+        "id": "directions-and-fields",
+        "title": "Make Direction And Field Internal",
+        "plain_goal": "Build directions and fields without borrowing arrows from a surrounding flat room, then make point-by-point assignments precise enough to carry physical variables.",
+        "concept_ids": ["tangent-spaces-fields", "tangent-vectors-as-derivatives", "vector-fields-as-local-instructions"],
+        "archive_slugs": ["tutorial-05", "tutorial-06"],
+        "reader_task": "Use a tangent vector by its action on functions, then build a field as a section choosing one allowed object over each point.",
+        "payoff": "Observers, light rays, matter fields, and gravitational variables all depend on this point-by-point structure before the metric says what they measure.",
+    },
+    {
+        "id": "compare-add-and-preserve",
+        "title": "Compare, Add, And Preserve Geometric Facts",
+        "plain_goal": "Learn the operations that make local geometry become physical accounting: comparison from point to point, adding over regions, and preserving structure under motion.",
+        "concept_ids": ["connections-parallel-transport", "covariant-derivative-corrects-comparison", "symmetry-conservation", "killing-fields-symmetry-directions", "integration-on-manifolds", "stokes-boundary-bulk-accounting"],
+        "archive_slugs": ["tutorial-11", "tutorial-12"],
+        "reader_task": "Ask how to compare nearby directions, what a flow preserves, and how an integral stays the same after changing charts.",
+        "payoff": "This is where conservation laws, actions, fluxes, and boundary terms stop being algebra tricks and become coordinate-independent statements.",
+    },
+    {
+        "id": "matter-geometry-and-allowed-data",
+        "title": "Couple Geometry To Matter Without Losing The Bookkeeping",
+        "plain_goal": "Understand why the source side, geometry side, and initial data constraints must fit together before Einstein's equation can be treated as a physical law.",
+        "concept_ids": ["stress-energy-matter", "einstein-equation", "einstein-tensor-conserved-geometry", "canonical-formulation", "initial-data-constraints"],
+        "archive_slugs": ["evening-02"],
+        "reader_task": "Ask what kind of object each side of the field equation is, and what becomes difficult when the source is quantum rather than classical.",
+        "payoff": "This makes Einstein's equation a coupled accounting rule and shows why quantum gravity is a pressure point in the theory, not an optional epilogue.",
+    },
+    {
+        "id": "causal-worlds-and-observation",
+        "title": "Read Black Holes, Cosmology, And Waves As Geometry You Can Observe",
+        "plain_goal": "Carry the foundations into the places where geometry becomes causal reach, expansion history, and measured signal rather than remaining abstract mathematical preparation.",
+        "concept_ids": ["cosmology-scale-factor", "scale-factor-expansion-history", "hubble-rate-as-change-of-scale", "black-holes-horizons", "event-horizon-causal-boundary", "penrose-diagrams-compress-infinity", "perturbations-waves", "quadrupole-source-changing-shape", "strain-relative-length-change", "interferometer-light-as-ruler"],
+        "archive_slugs": ["tutorial-13", "tutorial-15", "tutorial-16", "evening-01"],
+        "reader_task": "Use metrics and diagrams to ask what light can reach, use the scale factor to read expansion, and use strain to connect metric disturbance to measurement.",
+        "payoff": "This is the course becoming physics: horizons, redshift, waves, and detectors are no longer separate stories but consequences of the same geometric bookkeeping.",
+    },
+]
+
+
+DEPENDENCY_MAP = [
+    {
+        "id": "skip-topology",
+        "concept_id": "topology-continuity",
+        "depends_on": [],
+        "breaks": "Continuity becomes a slogan. Later fields can jump, limits can be chart accidents, and smooth-looking formulas can hide discontinuities.",
+        "repair": "Return to open sets and inverse-image tests before speaking about smoothness, paths, or field equations.",
+    },
+    {
+        "id": "skip-chart-discipline",
+        "concept_id": "charts-atlases-coordinate-overlap",
+        "depends_on": ["topology-continuity"],
+        "breaks": "Coordinates become the space. Horizons, poles, and chart edges are misread as physical edges or singularities.",
+        "repair": "Check overlap maps and ask whether the geometric claim survives changing charts before treating a coordinate feature as a physical feature of spacetime.",
+    },
+    {
+        "id": "skip-smoothness",
+        "concept_id": "smoothness-change-rates",
+        "depends_on": ["charts-atlases-coordinate-overlap"],
+        "breaks": "Derivatives measure the chosen map instead of the manifold. Connections, curvature, and geodesics lose their right to be geometric.",
+        "repair": "Make transition maps smooth enough for calculus to pass from one chart to another, then allow derivatives only when that compatibility has been checked.",
+    },
+    {
+        "id": "skip-tensor-slots",
+        "concept_id": "tensor-components-versus-object",
+        "depends_on": ["multilinear-objects"],
+        "breaks": "Einstein's equation becomes array matching. A coordinate artifact can be mistaken for a physical tensor statement.",
+        "repair": "Track the slot rule first, then treat components as one chosen display of that rule whose numbers may change when the basis changes.",
+    },
+    {
+        "id": "skip-tangent-fields",
+        "concept_id": "vector-fields-as-local-instructions",
+        "depends_on": ["tangent-vectors-as-derivatives"],
+        "breaks": "Velocity, observer fields, and matter fields are imported from flat-space intuition instead of built on the manifold.",
+        "repair": "Define tangent vectors by what they do to functions, then define fields as smooth pointwise assignments.",
+    },
+    {
+        "id": "skip-comparison",
+        "concept_id": "covariant-derivative-corrects-comparison",
+        "depends_on": ["vector-fields-as-local-instructions"],
+        "breaks": "Change from place to place is confused with coordinate drift. Curvature and free motion become ordinary derivative mistakes.",
+        "repair": "Use a connection to specify how nearby directions are compared before asking what changes, so change is not confused with coordinate drift.",
+    },
+    {
+        "id": "skip-integration",
+        "concept_id": "integration-on-manifolds",
+        "depends_on": ["smoothness-change-rates"],
+        "breaks": "Actions, fluxes, and source totals depend on the chart used to add them. Boundary terms look like algebra scraps.",
+        "repair": "Use forms, orientation, and chart-change cancellation so adding local facts gives one geometric answer rather than a chart-dependent total.",
+    },
+    {
+        "id": "skip-symmetry",
+        "concept_id": "killing-fields-symmetry-directions",
+        "depends_on": ["covariant-derivative-corrects-comparison"],
+        "breaks": "Conserved quantities look arbitrary. Energy and angular momentum are assumed even when the spacetime has no structure to support them.",
+        "repair": "Check what a flow preserves before claiming a conservation law, and only then attach conserved quantities to that spacetime.",
+    },
+    {
+        "id": "skip-source-accounting",
+        "concept_id": "stress-energy-matter",
+        "depends_on": ["tensor-components-versus-object", "integration-on-manifolds"],
+        "breaks": "Matter is reduced to mass alone, and Einstein's equation loses the pressure, momentum, and stress information that actually gravitates.",
+        "repair": "Treat stress-energy as the local accounting object for what matter contributes to geometry, including pressure, momentum flow, and stress.",
+    },
+    {
+        "id": "skip-causal-structure",
+        "concept_id": "event-horizon-causal-boundary",
+        "depends_on": ["metric-signature-light-cones", "geodesics-free-motion"],
+        "breaks": "Black holes become pictures of dark surfaces rather than claims about what signals can reach, and horizons are mistaken for material walls.",
+        "repair": "Read horizons through future-directed light paths and global causal reach, then use Penrose diagrams only for what they preserve.",
+    },
+    {
+        "id": "skip-scale-factor",
+        "concept_id": "scale-factor-expansion-history",
+        "depends_on": ["metric-measurement", "stress-energy-matter"],
+        "breaks": "Cosmic expansion is misread as motion through a fixed outside space. Redshift and Hubble rate lose their geometric meaning.",
+        "repair": "Use the scale factor as the model's changing distance relation and connect it to matter content through the reduced equations.",
+    },
+    {
+        "id": "skip-wave-measurement",
+        "concept_id": "strain-relative-length-change",
+        "depends_on": ["perturbations-waves", "interferometer-light-as-ruler"],
+        "breaks": "Gravitational waves become metaphorical ripples with no clear measured quantity, and detectors look disconnected from the earlier geometry.",
+        "repair": "Connect the small metric disturbance to relative length change read by light in an interferometer, so the measured strain has a geometric meaning.",
+    },
+]
+
+
 def load_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -101,6 +256,8 @@ def main() -> int:
             )
 
     write_json(ANALYSIS / "integration" / "concept-archive-integration.json", entries)
+    write_json(ANALYSIS / "integration" / "learning-path.json", LEARNING_PATH)
+    write_json(ANALYSIS / "integration" / "dependency-map.json", DEPENDENCY_MAP)
     print(f"built {len(entries)} concept/archive integration records")
     return 0
 

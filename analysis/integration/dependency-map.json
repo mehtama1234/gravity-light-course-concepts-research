@@ -1,0 +1,112 @@
+[
+  {
+    "id": "skip-topology",
+    "concept_id": "topology-continuity",
+    "depends_on": [],
+    "breaks": "Continuity becomes a slogan. Later fields can jump, limits can be chart accidents, and smooth-looking formulas can hide discontinuities.",
+    "repair": "Return to open sets and inverse-image tests before speaking about smoothness, paths, or field equations."
+  },
+  {
+    "id": "skip-chart-discipline",
+    "concept_id": "charts-atlases-coordinate-overlap",
+    "depends_on": [
+      "topology-continuity"
+    ],
+    "breaks": "Coordinates become the space. Horizons, poles, and chart edges are misread as physical edges or singularities.",
+    "repair": "Check overlap maps and ask whether the geometric claim survives changing charts before treating a coordinate feature as a physical feature of spacetime."
+  },
+  {
+    "id": "skip-smoothness",
+    "concept_id": "smoothness-change-rates",
+    "depends_on": [
+      "charts-atlases-coordinate-overlap"
+    ],
+    "breaks": "Derivatives measure the chosen map instead of the manifold. Connections, curvature, and geodesics lose their right to be geometric.",
+    "repair": "Make transition maps smooth enough for calculus to pass from one chart to another, then allow derivatives only when that compatibility has been checked."
+  },
+  {
+    "id": "skip-tensor-slots",
+    "concept_id": "tensor-components-versus-object",
+    "depends_on": [
+      "multilinear-objects"
+    ],
+    "breaks": "Einstein's equation becomes array matching. A coordinate artifact can be mistaken for a physical tensor statement.",
+    "repair": "Track the slot rule first, then treat components as one chosen display of that rule whose numbers may change when the basis changes."
+  },
+  {
+    "id": "skip-tangent-fields",
+    "concept_id": "vector-fields-as-local-instructions",
+    "depends_on": [
+      "tangent-vectors-as-derivatives"
+    ],
+    "breaks": "Velocity, observer fields, and matter fields are imported from flat-space intuition instead of built on the manifold.",
+    "repair": "Define tangent vectors by what they do to functions, then define fields as smooth pointwise assignments."
+  },
+  {
+    "id": "skip-comparison",
+    "concept_id": "covariant-derivative-corrects-comparison",
+    "depends_on": [
+      "vector-fields-as-local-instructions"
+    ],
+    "breaks": "Change from place to place is confused with coordinate drift. Curvature and free motion become ordinary derivative mistakes.",
+    "repair": "Use a connection to specify how nearby directions are compared before asking what changes, so change is not confused with coordinate drift."
+  },
+  {
+    "id": "skip-integration",
+    "concept_id": "integration-on-manifolds",
+    "depends_on": [
+      "smoothness-change-rates"
+    ],
+    "breaks": "Actions, fluxes, and source totals depend on the chart used to add them. Boundary terms look like algebra scraps.",
+    "repair": "Use forms, orientation, and chart-change cancellation so adding local facts gives one geometric answer rather than a chart-dependent total."
+  },
+  {
+    "id": "skip-symmetry",
+    "concept_id": "killing-fields-symmetry-directions",
+    "depends_on": [
+      "covariant-derivative-corrects-comparison"
+    ],
+    "breaks": "Conserved quantities look arbitrary. Energy and angular momentum are assumed even when the spacetime has no structure to support them.",
+    "repair": "Check what a flow preserves before claiming a conservation law, and only then attach conserved quantities to that spacetime."
+  },
+  {
+    "id": "skip-source-accounting",
+    "concept_id": "stress-energy-matter",
+    "depends_on": [
+      "tensor-components-versus-object",
+      "integration-on-manifolds"
+    ],
+    "breaks": "Matter is reduced to mass alone, and Einstein's equation loses the pressure, momentum, and stress information that actually gravitates.",
+    "repair": "Treat stress-energy as the local accounting object for what matter contributes to geometry, including pressure, momentum flow, and stress."
+  },
+  {
+    "id": "skip-causal-structure",
+    "concept_id": "event-horizon-causal-boundary",
+    "depends_on": [
+      "metric-signature-light-cones",
+      "geodesics-free-motion"
+    ],
+    "breaks": "Black holes become pictures of dark surfaces rather than claims about what signals can reach, and horizons are mistaken for material walls.",
+    "repair": "Read horizons through future-directed light paths and global causal reach, then use Penrose diagrams only for what they preserve."
+  },
+  {
+    "id": "skip-scale-factor",
+    "concept_id": "scale-factor-expansion-history",
+    "depends_on": [
+      "metric-measurement",
+      "stress-energy-matter"
+    ],
+    "breaks": "Cosmic expansion is misread as motion through a fixed outside space. Redshift and Hubble rate lose their geometric meaning.",
+    "repair": "Use the scale factor as the model's changing distance relation and connect it to matter content through the reduced equations."
+  },
+  {
+    "id": "skip-wave-measurement",
+    "concept_id": "strain-relative-length-change",
+    "depends_on": [
+      "perturbations-waves",
+      "interferometer-light-as-ruler"
+    ],
+    "breaks": "Gravitational waves become metaphorical ripples with no clear measured quantity, and detectors look disconnected from the earlier geometry.",
+    "repair": "Connect the small metric disturbance to relative length change read by light in an interferometer, so the measured strain has a geometric meaning."
+  }
+]

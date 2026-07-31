@@ -29,6 +29,8 @@ def page(title: str, body: str, prefix: str = "") -> str:
       <a href="{prefix}concepts.html">Concepts</a>
       <a href="{prefix}families.html">Families</a>
       <a href="{prefix}themes.html">Themes</a>
+      <a href="{prefix}learning-path.html">Learning Path</a>
+      <a href="{prefix}what-breaks.html">What Breaks</a>
       <a href="{prefix}evidence.html">Evidence</a>
       <a href="{prefix}archive-evidence.html">Archive Evidence</a>
     </nav>
@@ -100,6 +102,18 @@ def render_home(concepts: list[dict[str, Any]], lectures: list[dict[str, Any]], 
     </section>
     """
     write(SITE / "index.html", page("Gravity and Light Concept Atlas", body))
+
+
+def integration_for_concepts(concept_ids: list[str], integration_by_concept: dict[str, list[dict[str, Any]]]) -> list[dict[str, Any]]:
+    items: list[dict[str, Any]] = []
+    seen: set[tuple[str, str]] = set()
+    for concept_id in concept_ids:
+        for item in integration_by_concept.get(concept_id, []):
+            key = (item["concept_id"], item["archive_slug"])
+            if key not in seen:
+                items.append(item)
+                seen.add(key)
+    return items
 
 
 def render_theme_summary(theme: dict[str, Any]) -> str:
@@ -347,10 +361,15 @@ def render_related(title: str, ids: list[str], concepts_by_id: dict[str, dict[st
     return f"<article><h3>{esc(title)}</h3><p>{links}</p></article>"
 
 
-def render_themes(themes: list[dict[str, Any]], concepts_by_id: dict[str, dict[str, Any]]) -> None:
+def render_themes(themes: list[dict[str, Any]], concepts_by_id: dict[str, dict[str, Any]], integration_by_concept: dict[str, list[dict[str, Any]]]) -> None:
     blocks = []
     for theme in themes:
         links = " ".join(f"<a class=\"chip\" href=\"{concept_link(concepts_by_id[cid])}\">{esc(concepts_by_id[cid]['name'])}</a>" for cid in theme["concept_ids"])
+        pressure_items = integration_for_concepts(theme["concept_ids"], integration_by_concept)
+        pressure_text = "".join(
+            f"<li><a href=\"archive/{esc(item['archive_slug'])}.html\">{esc(item['video_title'])}</a>: {esc(item['why_it_changes_concept'])}</li>"
+            for item in pressure_items[:5]
+        ) or "<li>No archive pressure test assigned yet.</li>"
         blocks.append(
             f"""
             <article class="row-block">
@@ -358,6 +377,8 @@ def render_themes(themes: list[dict[str, Any]], concepts_by_id: dict[str, dict[s
               <p><strong>{esc(theme['plain_question'])}</strong></p>
               <p>{esc(theme['answer'])}</p>
               <p>{esc(theme['why_the_math_matters'])}</p>
+              <h3>Tutorial pressure in this theme</h3>
+              <ul>{pressure_text}</ul>
               <p>{links}</p>
             </article>
             """
@@ -365,7 +386,7 @@ def render_themes(themes: list[dict[str, Any]], concepts_by_id: dict[str, dict[s
     write(SITE / "themes.html", page("Themes", "<h1>Themes and Subthemes</h1>" + "\n".join(blocks)))
 
 
-def render_families(families: list[dict[str, Any]], concepts_by_id: dict[str, dict[str, Any]]) -> None:
+def render_families(families: list[dict[str, Any]], concepts_by_id: dict[str, dict[str, Any]], integration_by_concept: dict[str, list[dict[str, Any]]]) -> None:
     blocks = []
     for family in families:
         links = " ".join(
@@ -373,6 +394,11 @@ def render_families(families: list[dict[str, Any]], concepts_by_id: dict[str, di
             for cid in family["concept_ids"]
         )
         missing = ", ".join(f"{index:02d}" for index in family["missing_transcript_lectures"]) or "none"
+        pressure_items = integration_for_concepts(family["concept_ids"], integration_by_concept)
+        pressure_text = "".join(
+            f"<li><a href=\"archive/{esc(item['archive_slug'])}.html\">{esc(item['video_title'])}</a>: {esc(item['pressure_test'])}</li>"
+            for item in pressure_items[:6]
+        ) or "<li>No tutorial pressure test assigned yet.</li>"
         blocks.append(
             f"""
             <article class="family-block">
@@ -383,11 +409,72 @@ def render_families(families: list[dict[str, Any]], concepts_by_id: dict[str, di
               <p><strong>Why it matters:</strong> {esc(family['why_it_matters'])}</p>
               <p><strong>What to watch for:</strong> {esc(family['what_to_watch_for'])}</p>
               <p class="quiet">Missing local transcripts: {esc(missing)}</p>
+              <h3>Tutorial pressure carried by this family</h3>
+              <ul>{pressure_text}</ul>
               <p>{links}</p>
             </article>
             """
         )
     write(SITE / "families.html", page("Lecture Families", "<h1>Lecture Families</h1>" + "\n".join(blocks)))
+
+
+def render_learning_path(path_items: list[dict[str, Any]], concepts_by_id: dict[str, dict[str, Any]], archive_by_slug: dict[str, dict[str, Any]]) -> None:
+    blocks = []
+    for index, item in enumerate(path_items, start=1):
+        concept_links = " ".join(
+            f"<a class=\"chip\" href=\"concepts/{esc(concept_id)}.html\">{esc(concepts_by_id[concept_id]['name'])}</a>"
+            for concept_id in item["concept_ids"]
+            if concept_id in concepts_by_id
+        )
+        archive_links = " ".join(
+            f"<a class=\"chip\" href=\"archive/{esc(slug)}.html\">{esc(archive_by_slug[slug]['expected_title'])}</a>"
+            for slug in item["archive_slugs"]
+            if slug in archive_by_slug
+        )
+        blocks.append(
+            f"""
+            <article class="family-block">
+              <h2>{index}. {esc(item['title'])}</h2>
+              <p><strong>Plain goal:</strong> {esc(item['plain_goal'])}</p>
+              <p><strong>Reader task:</strong> {esc(item['reader_task'])}</p>
+              <p><strong>Payoff:</strong> {esc(item['payoff'])}</p>
+              <p>{concept_links}</p>
+              <p>{archive_links}</p>
+            </article>
+            """
+        )
+    body = """
+    <h1>Cross-Video Learning Path</h1>
+    <p class="lede">A route through the course that follows what the reader must be able to do, not just the upload order.</p>
+    """ + "\n".join(blocks)
+    write(SITE / "learning-path.html", page("Learning Path", body))
+
+
+def render_dependency_map(items: list[dict[str, Any]], concepts_by_id: dict[str, dict[str, Any]]) -> None:
+    blocks = []
+    for item in items:
+        concept = concepts_by_id[item["concept_id"]]
+        dependencies = " ".join(
+            f"<a class=\"chip\" href=\"concepts/{esc(dep)}.html\">{esc(concepts_by_id[dep]['name'])}</a>"
+            for dep in item["depends_on"]
+            if dep in concepts_by_id
+        ) or "<span class=\"quiet\">Starts here.</span>"
+        blocks.append(
+            f"""
+            <article class="row-block">
+              <h2><a href="concepts/{esc(concept['id'])}.html">{esc(concept['name'])}</a></h2>
+              <p><strong>If skipped:</strong> {esc(item['breaks'])}</p>
+              <p><strong>Repair:</strong> {esc(item['repair'])}</p>
+              <p><strong>Depends on:</strong> {dependencies}</p>
+            </article>
+            """
+        )
+    body = """
+    <h1>What Breaks If You Skip This</h1>
+    <p class="lede">A dependency map for the mathematical ideas: each row names the failure mode, then the repair.</p>
+    <div class="theme-list">
+    """ + "\n".join(blocks) + "</div>"
+    write(SITE / "what-breaks.html", page("What Breaks", body))
 
 
 def render_evidence(evidence: list[dict[str, Any]]) -> None:
@@ -530,8 +617,12 @@ def main() -> int:
     themes = load_json(ANALYSIS / "themes" / "theme-map.json")
     families = load_json(ANALYSIS / "families" / "family-map.json")
     integration = load_json(ANALYSIS / "integration" / "concept-archive-integration.json")
+    learning_path = load_json(ANALYSIS / "integration" / "learning-path.json")
+    dependency_map = load_json(ANALYSIS / "integration" / "dependency-map.json")
+    archive_videos = load_json(ANALYSIS / "archive" / "video-atlas.json")
     concepts_by_id = {concept["id"]: concept for concept in concepts}
     evidence_by_id = {item["id"]: item for item in evidence}
+    archive_by_slug = {item["slug"]: item for item in archive_videos}
     integration_by_concept: dict[str, list[dict[str, Any]]] = {}
     for item in integration:
         integration_by_concept.setdefault(item["concept_id"], []).append(item)
@@ -540,8 +631,10 @@ def main() -> int:
     render_lecture_pages(lectures, concepts_by_id, families)
     render_concepts(concepts)
     render_concept_pages(concepts, evidence_by_id, integration_by_concept)
-    render_families(families, concepts_by_id)
-    render_themes(themes, concepts_by_id)
+    render_families(families, concepts_by_id, integration_by_concept)
+    render_themes(themes, concepts_by_id, integration_by_concept)
+    render_learning_path(learning_path, concepts_by_id, archive_by_slug)
+    render_dependency_map(dependency_map, concepts_by_id)
     render_evidence(evidence)
     write_css()
     print(f"wrote site to {SITE}")

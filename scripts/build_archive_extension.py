@@ -368,6 +368,8 @@ def page(title: str, body: str, prefix: str = "") -> str:
       <a href="{prefix}concepts.html">Concepts</a>
       <a href="{prefix}families.html">Families</a>
       <a href="{prefix}themes.html">Themes</a>
+      <a href="{prefix}learning-path.html">Learning Path</a>
+      <a href="{prefix}what-breaks.html">What Breaks</a>
       <a href="{prefix}evidence.html">Evidence</a>
       <a href="{prefix}archive-evidence.html">Archive Evidence</a>
     </nav>
