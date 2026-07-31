@@ -64,6 +64,7 @@ def validate() -> tuple[list[str], list[str]]:
     transcript_index = load_json(RAW / "transcript-index.json")
     notes_index_path = ROOT / "raw-material" / "external-notes" / "notes-index.json"
     recovery_report = ANALYSIS / "audits" / "source-recovery-report.md"
+    readiness_report = ANALYSIS / "audits" / "goal-readiness-audit.md"
     manual_note_templates = [
         ROOT / "raw-material" / "manual-notes" / "lecture-18-canonical-formulation-gr-i.md",
         ROOT / "raw-material" / "manual-notes" / "lecture-19-canonical-formulation-gr-ii.md",
@@ -78,6 +79,7 @@ def validate() -> tuple[list[str], list[str]]:
     require(len(transcript_index) == 28, "transcript index must contain 28 records", errors)
     require(notes_index_path.exists(), "external notes index must exist", errors)
     require(recovery_report.exists(), "source recovery report must exist", errors)
+    require(readiness_report.exists(), "goal readiness audit must exist", errors)
     for template in manual_note_templates:
         require(template.exists(), f"manual note template missing: {template.relative_to(ROOT)}", errors)
     available = [r for r in transcript_index if r["transcript_status"] == "available"]

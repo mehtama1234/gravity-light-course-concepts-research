@@ -11,6 +11,16 @@
 
 `yt-dlp --list-subs` reports English automatic captions for lecture 10, but direct subtitle download currently fails with HTTP 429. It reports no subtitles and no automatic captions for lectures 18, 19, 20, 23, 24, and 25.
 
+## 2026-07-31 Caption Retry
+
+Lecture 10 was retried through three routes:
+
+- system `yt-dlp` subtitle download with longer sleeps
+- venv `yt-dlp` with `curl_cffi` installed and Chrome impersonation
+- direct `curl_cffi` request against the extracted YouTube `timedtext` VTT URL
+
+All three routes returned HTTP 429 for the caption payload. No partial VTT was left in `raw-material/youtube/transcripts/gravity-light-central-lecture-course/raw-vtt/`.
+
 ## External Sources Added
 
 - `richie-dadhley-gravity-light-notes`: course notes PDF with sections covering 1-17, 20-26.
