@@ -1,0 +1,108 @@
+10 ERNEST YEUNG
+Check:
+(ξy◦ξ−1
+x )(α1,...,α d,β 1,...,β d) =
+=ξy
+(
+βi
+( ∂
+∂xi
+)
+x−1(α1,...,αd)
+)
+=
+(
+..., (yi◦π)(βm·
+( ∂
+∂xm
+)
+x−1(α1...αd)
+),...,... (dyi)x−1(α1,...αd)
+(
+βm
+( ∂
+∂xm
+)
+x−1(α1...αd)
+)
+,...
+)
+=
+= (..., (yi◦x−1)(α1,...,α d),...,...,β m(dyi)x−1(α1,...,αd)
+(( ∂
+∂xm
+)
+x−1(α1...αd)
+)
+  
+βm( ∂y
+∂xm )x−1 (α1...αd )
+)
+(
+∂y
+∂xm
+)
+x−1(α1...αd)
+=∂m(yi◦x−1)(x◦ (x−1(α1...α d))) =∂m(yi◦x−1)(α1...α d) smooth.
+upshot
+TM
+smooth manifold
+π
+− →
+smooth map
+M
+smooth manifold
+bundle, called the tangent bundle.
+6.3. Vector ﬁelds.
+Deﬁnition 17. A smooth vector ﬁeld χ is a smooth map
+6.4. The C∞(M)-module Γ(TM ). set Γ(TM ) ={χ M →TM| smooth section}
+(χ⊕˜χ)(f) := (χf) + ˜χ
+C∞(M)
+(f)
+(g⊙ξ)(f) :=g· χ
+C∞(M)
+(f)
+upshot: set of all smooth vector ﬁelds can be made into a C∞(M)-module.
+Fact:
+(1) ZFC =⇒ every vector space has a basis.
+(2) no such result exists for modules.
+This is a shame, because otherwise, we could have chosen (for any manifolds) vector ﬁelds,
+Ξ(1),..., Ξ(d)∈ Γ(TM )
+and would be able to write every vector ﬁeld Ξ
+Ξ = fi
+
+component functions
+·Ξ(i)
+Simple counterexample
+Schuller says: Take a sphere, Morse Theorem, every smooth vector ﬁeld must vanish at 2 pts. “mustn’t choose a global basis”
+However:
+∂
+∂xi :U
+smooth
+−−−−−→TU
+p↦→
+( ∂
+∂xi
+)
+p
+6.5. Tensor ﬁelds. so far
+Γ(M) =”set of vector ﬁelds” C∞(M)-module
+Γ(T∗M) = “covector ﬁelds” C∞(M)-module
+Deﬁnition 18. An (r,s )-tensor ﬁeld T is a multi-linear map
+T : Γ(T∗M)×···× Γ(T∗M)  
+r
+×Γ(TM )×···× Γ(TM )
+∼
+− →C∞(M)
+Example: f∈C∞(M)
+df :Γ(TM )
+∼
+− →C∞(M)
+Ξ↦→df(Ξ) := Ξ[f]
+df (0, 1)-T.F. (tensor ﬁeld)
+where (Ξf)( p
+∈M
+) := Ξ(p)
+∈TpM
+f
+can check: df is C∞−linear

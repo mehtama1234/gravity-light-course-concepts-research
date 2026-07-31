@@ -1,0 +1,3817 @@
+[[page 1]]
+NOTES ON GENERAL RELATIVITY (GR) AND GRAVITY
+ERNEST YEUNG
+Abstract. These are notes on General Relativity (GR) and Gravity.
+As of March 23, 2015, I ﬁnd that the Central Lectures given by Dr. Frederic P. Schuller for the WE Heraeus International Winter School to be, unequivocally, the best, most lucid, and well-constructed lecture series on General Relativity and Gravity. Instead of reinventing the
+wheel, I write these notes to build upon and supplement the video lectures and tutorials already created by them. This includes my corrections, comments, relations to other aspects of theoretical physics, and code implementing calculations in GR.
+It should be noted that for symbolic computation, I heavily use the SageManifolds v.0.7 package for Sage Math. My goal in this area is this: we see a concept or idea from GR and we go from the equation on the blackboard or textbook and into (Python/Sage Math) code that
+immediately computes a calculation.
+I keep these notes available online, openly accessible, and free for anyone, anytime (with your (ﬁnancial) help and contribution at Tilt/Open, which is a subscription service). I want to keep these notes openly accessible because I want to encourage anyone to freely edit, copy, and
+make their own notes in the spirit of open-source software.
+I continuously update these notes and post them here ernestyalumni.wordpress.com
+The stated goal of the WE Heraeus International Winter School on Gravity and Light is to take the student from an introduction to the research frontier (cf. http://www.gravity-and-light.org/lectures). I want to get myself and other students or ambitious non-academic
+(maybe he or she is a working professional who had studied physics before in college, went to work in another ﬁeld, maybe even, gasp, investment banking or mobile app developer, but still is curious and passionate about physics and want to contribute) equipped with all the tools
+available to do research, do calculations, to design experiments or collect data. Again, we’re not here to reinvent the wheel. I’m not trying to make a General Relativity appreciation class, but this is a serious attempt towards training to do research.
+Contents
+Part 1. WE Heraeus International Winter School on Gravity and Light 2
+Introduction (from EY) 2
+1. Lecture 1: Topology 2
+Topology Tutorial Sheet 2
+2. Lecture 2: Topological Manifolds 3
+Tutorial Topological manifolds 3
+3. 4
+4. Lecture 4: Diﬀerentiable Manifolds 4
+Tutorial 4 Diﬀerentiable Manifolds 6
+5. Lecture 5: Tangent Spaces 7
+6. Lecture 6: Fields 9
+7. Lecture 7: Connections 10
+8. Lecture 8: Parallel Transport & Curvature (International Winter School on Gravity and Light 2015) 12
+Tutorial 8 Parallel transport & Curvature 12
+9. Lecture 9: Newtonian spacetime is curved! 13
+10. Lecture 10: Metric Manifolds 15
+11. Symmetry 17
+12. Integration 19
+13. Lecture 13: Relativistic spacetime 20
+14. Lecture 14: Matter 21
+15. Lecture 15: Einstein gravity 23
+Tutorial 13 Schwarzschild Spacetime 24
+16. 25
+Date: 23 mars 2015.
+1991 Mathematics Subject Classiﬁcation. General Relativity.
+Key words and phrases. General Relativity, Gravity, Diﬀerential Geometry, Manifolds, Integration, MIT OCW, education, mathematics, physics.
+I write notes, review papers, and code and make calculations for physics, math, and engineering to help with education and research. With your support, we can keep education and research material available online, openly accessible, and free for anyone, anytime. If you like what I’m trying to do
+for physics education research, please go to my Tilt/Open crowdfunding campaign, read the mission statement, share the page, and contribute ﬁnancially if you can. ernestyalumni.tilt.com .
+1
+
+
+[[page 2]]
+2 ERNEST YEUNG
+17. 25
+18. Canonical Formulation of GR I 25
+19. 26
+20. 26
+21. 26
+22. Lecture 22: Black Holes 26
+Part 2. Special Relativity 27
+Part 3. Euclidean space 27
+23. R2 27
+24. R3 28
+25. Rn 28
+References 32
+Part 1. WE Heraeus International Winter School on Gravity and Light
+Introduction (from EY)
+The International Winter School on Gravity and Light held central lectures given by Dr. Frederic P. Schuller. These lectures
+on General Relativity and Gravity are unequivocally and undeniably, the best and most lucid and well-constructed lecture series
+on General Relativity and Gravity. The mathematical foundation from topology and diﬀerential geometry from which General
+Relativity arises from is solid, well-selected in rigor. The lectures themselves are well-thought out and clearly explained.
+Even more so, the International Winter School provided accompanying Tutorial Sessions for each of the lectures. I had given
+up hopes in seeing this component of the learning process ever be put online so that anyone and everyone in the world could learn
+through the Tutorial process as well. I was afraid that nobody would understand how the Tutorial or “Oﬃce Hours” session
+was important for students to digest and comprehend and work out-doing exercises-the material presented in the lectures. This
+International Winter School gets it and shows how online education has to be done, to do it in an excellent manner, moving
+forward.
+For anyone who is serious about learning General Relativity and Gravity, I would simply point to these video lectures and
+tutorials.
+What I want to do is to build upon the material presented in this International Winter School. Why it’s important to me,
+and to the students and practicing researchers out there, is that the material presented takes the student from an introduction
+to the research frontier. That is the stated goal of the International Winter School. I want to dig into and help contribute to
+the cutting edge in research and this entire program with lectures and tutorials appears to be the most direct and sensible route
+directly to being able to do research in General Relativity and Gravity. -EY 20150323
+1. Lecture 1: Topology
+1.1. Lecture 1: Topological Spaces.
+Deﬁnition 1. LetM be a set.
+A topologyO is a subset O⊆P (M),P(M) power set of M: set of all subsets of M. satisfying
+(i) ∅∈O , M∈O
+(ii) U∈O , V ∈O =⇒U⋂V ∈O
+(iii) Uα∈O , α∈A =⇒
+(⋃
+α∈AUα
+)
+∈O
+O} utterly useless
+Deﬁnition 2. Ostandard⊆P (Rd)
+EY : 20150524
+I’ll ﬁll in the proof that Ostandard is a topology.
+Proof.∅∈O standard
+since∀p∈∅ ,∃r∈ R+:Br(p)⊆∅ (i.e. satisﬁed “vacuously”)
+Suppose U,V ∈O standard.
+Let p∈U⋂V . Then ∃r1,r 2∈ R+ s.t. Br1(p)⊆U
+Br2(p)⊆V
+Let r = min{r1,r 2}.
+ClearlyBr(p)⊆U andBr(p)⊆V . Then Br(p)⊆U⋂V . So U⋂V ∈O standard.
+Suppose, Uα∈O standard,∀α∈A .
+Let p∈⋃
+α∈AUα. Then p∈Uα for at least 1 α∈A .
+∃rα∈ R+ s.t.Brα(p)⊆Uα⊆⋃
+α∈AUα. So ⋃
+α∈AUα∈O standard □
+1.2. 2. Continuous maps.
+1.3. 3. Composition of continuous maps.
+1.4. 4. Inheriting a topology. EY : 20150524
+I’ll ﬁll in the proof that givenf continuous (cont.), then the restriction off onto a subspaceS is cont. If you want a reference,
+check out Klaus J¨ anich [2, pp. 13, Ch. 1 Fundamental Concepts, Sec. Continuous Maps]
+If cont. f :M→N, S⊆M, then f|S cont.
+Proof. Let open V ⊆N, i.e. V ∈O N i.e. V in the topologyON of N.
+f|−1
+S (V ) ={m∈M|f|S (m)∈V}
+Nowf−1(V ) ={m∈M|f(m)∈V}.
+So f−1(V )⋂S = f|−1
+S (V )
+Nowf cont. So f−1(V )∈O N.
+and recall OS| :={U⋂S|U∈O M}.
+
+
+[[page 3]]
+GR 3
+so f−1(V )⋂S = f|−1
+S (V )∈O S i.e. f|−1
+S (V ) open.
+=⇒ f|S cont. □
+Topology Tutorial Sheet
+ﬁlename : main.pdf
+The WE-Heraeus International Winter School on Gravity and Light: Topology
+EY : 20150524
+What I won’t do here is retype up the solutions presented in the Tutorial (cf. https://youtu.be/_XkhZQ-hNLs): the pre-
+senter did a very good job. If someone wants to type up the solutions and copy and paste it onto this LaTeX ﬁle, in the spirit
+of open-source collaboration, I would encourage this eﬀort.
+Instead, what I want to encourage is the use of as much CAS (Computer Algebra System) and symbolic and numerical
+computation because, ﬁrst, we’re in the 21st century, second, to set the stage for further applications in research. I use Python
+and Sage Math alot, mostly because they are open-source software (OSS) and fun to use. Also note that the structure of Sage
+Math modules matches closely to Category Theory.
+In checking whether a set is a topology, I found it strange that there wasn’t already a function in Sage Math to check each
+of the axioms. So I wrote my own; see my code snippet, which you can copy, paste, edit freely in the spirit of OSS here, titled
+topology.sage:
+gist github ernestyalumni topology.sage
+Download topology.sage
+Loading topology.sage, after changing into (with the usual Linux terminal commands, cd, ls) by
+sage: load(‘‘topology.sage’’)
+Exercise 2: Topologies on a simple set.
+Question DoesO1 :=... constitute a topology . . . ?.
+Solution: Yes, since we check by typing in the following commands in Sage Math:
+emptyset in O_1
+Axiom2check(O_1) # True
+Axiom3check(O_1) # True
+Question What about O2 . . . ?.
+Solution: No since the 3rd. axiom fails, as can be checked by typing in the following commands in Sage Math:
+emptyset in O_2
+Axiom2check(O_2) # True
+Axiom3check(O_2) # False
+2. Lecture 2: Topological Manifolds
+Lecture 2: Manifolds. Topological spaces:∃ so man that mathematicians cannot even classify them.
+For spacetime physics, we may focus on topological spaces (M,O) that can be charted, analogously to how the surface of the
+earth is charted in an atlas .
+2.1. Topological manifolds.
+Deﬁnition 3. A topological space (M,O) is called a d-dimensional topological method if
+∀p∈M :∃U∈O, U∋p :∃x :U⊆M→x(U)⊆ Rd (M,O), (Rd,Ostd)
+(i) x invertible :
+x−1 :x(U)→U
+(ii) x continuous
+(iii) x−1 continuous
+2.2. Terminology.
+2.3. 3. Chart transition maps. Imagine 2 charts (U,x ) and (V,y ) with overlapping regions.
+2.4. 4. Manifold philosophy. Often it is desirable (or indeed the way) to deﬁne properties (“continuity”) of real-world object
+(“R
+γ
+− →M”) by judging suitable coordinates not on the “real-world” object itself, but on a chart-representation of that real
+world object.
+EY’s add-ons. This lecture gives me a good excuse to review Topology and Topological Manifolds from a mathemati-
+cian’s point of view. I ﬁnd John M. Lee’s Introduction to Topological Manifolds book good because it’s elementary
+and thorough and it’s fairly recent (2010) so it’s up to date [ ?]. See my notes and solutions for the book; it’s a ﬁle titled
+LeeJM_IntroTopManifolds_sol.pdf of which I’ll try to keep the pdf and LaTeX ﬁle available for download on my ernestyalumni
+Google Drive (so try to search for it on Google).
+Tutorial Topological manifolds
+ﬁlename: Sheet_1.2.pdf
+Exercise 4: Before the invention of the wheel.
+Another one-dimensional topological manifold. Another one?
+Consider set F 1 :={(m,n )∈ R2|m4 +n4 = 1}, equipped with subset topology Ostd|F 1
+Question x :F 1→ R is what?.
+Solution . EY : 20150525 The tutorial video https://youtu.be/ghfEQ3u_B6g is really good and this solution is how I’d write
+it, but it’s really the same (I needed the practice).
+x :F 1→ R
+(m,n )↦→m
+If m = 0, n4 = 1 so n =±1 so it’s not injective.
+Let the closed n-dim. upper half-space Hn⊆ R1. Then
+Hn ={(x1...x n)∈ Rn|xn≥ 0}
+intHn ={(x1...x n)∈ Rn|xn > 0}
+−Hn ={(x1...x n)∈ Rn|xn≤ 0}
+−intHn ={(x1...x n)∈ Rn|xn < 0}
+Question This map x may be made injective by restricting its domain to either of 2 maximal open subsets of F 1. Which
+ones?.
+Solution .
+
+
+[[page 4]]
+4 ERNEST YEUNG
+Let
+U+ =F 1∩ intH2
+U− =F 1∩− intH2
+Look at
+x4 = 1−n4
+=⇒x =±(1−n4)1/4
+Then for
+x−1
++ : (−1, 1)⊆ R→U+
+m↦→ (m, (1−m4)1/4)
+x−1
+− : (−1, 1)⊆ R→U−
+m↦→ (m,−(1−m4)1/4)
+x+,x− injective (since left inverse exists).
+Question Construct injective y.
+Solution .
+Let
+V+ =F 1∩ intH1
+V− =F 1∩− intH1
+Then
+y+ :V+→ (−1, 1)⊆ R
+(m,n )↦→n
+y− :V−→ (−1, 1)⊆ R
+(m,n )↦→n
+Question Construct inverse y−1. Solution .
+For
+y−1
++ : (−1, 1)⊆ R→V+
+n↦→ ((1−n4)1/4,n )
+y−1
+− : (−1, 1)⊆ R→V−
+n↦→ (−(1−n4)1/4,n )
+y+,y− injective (since left inverse exists).
+Note (−1, 0) /∈U+,U−
+(1, 0) /∈U+,U−
+and
+(0, 1) /∈V+,V−
+(0,−1) /∈V+,V−
+Question construct transition map x◦y−1.
+Solution .
+x+y−1
++ : (0, 1)⊆ R→ (0, 1)⊆ R
+n↦→ (1−n4)1/4
+x−y−1
++ : (−1, 0)⊆ R→ (0, 1)⊆ R
+n
+y−1
++
+−−→((1−n4)1/4,n )
+x−
+−−→(1−n4)1/4
+x+y−1
+− : (0, 1)⊆ R→ (−1, 0)⊆ R
+n↦→− (1−n4)1/4
+x−y−1
+− : (−1, 0)⊆ R→ (−1, 0)⊆ R
+n↦→− (1−n4)1/4
+Question . . . Does the collection of these domains and maps form an atlas of F 1?.
+Yes, with atlas
+A ={
+(U+,x +)
+(U−,x−),
+(V+,y +)
+(V−,y−)}
+Clearly
+U+∪U−∪V+∪V− = (F 1∩ intH2)∪ (F 1∩− intH2)∪ (F 1∩ intH1)∪ (F 1∩− intH1) =
+=F 1∩ R2\{(0, 0)} =F 1
+and (the point is that) x±,y± are homeomorphisms of open sets of F 1 onto open sets of 1 dim. R1 (namely (−1, 1)⊆ R1), and
+soA is an atlas of F 1.
+3.
+4. Lecture 4: Differentiable Manifolds
+so far: top. mfd. (M,O)
+dimM =d
+we wish to deﬁne a notion of diﬀerentiable
+curves R→M
+function M→ R
+maps M→N
+
+
+[[page 5]]
+GR 5
+4.1. 1. Strategy. choose a chart (U,x )
+γ : R→M portion of curve in chart domain
+γ : R U
+x(U)⊆ Rd
+x◦γ x
+idea. try to “lift” the undergraduate notion of diﬀerentiability of a curve on Rd to a notion of
+diﬀerentiability of a curve on M
+Problem Can this be well-deﬁned under change of chart?
+y(U∩V )⊆ Rd
+γ : R U∩V ̸=∅
+x(U∩V )⊆ Rd
+x◦γ
+y◦γ
+x
+y
+y◦x−1
+x◦γ undergraduate diﬀerentiable (“as a map R→ Rd”)
+y◦γ
+maybe only continuous, but not undergraduate diﬀerentiable
+= (
+Rd→Rd
+  
+y◦x−1)  
+continuous
+◦
+R→Rd
+  
+(x◦γ)  
+undergrad diﬀerentiable
+=y◦ (x−1◦x)◦γ
+At ﬁrst sight, strategy does not work out.
+4.2. 2. Compatible charts. In section 1, we used any imaginable charts on the top. mfd. ( M,O).
+To emphasize this, we may say that we took U and V from the maximal atlas A of (M,O).
+Deﬁnition 4. Two charts (U,x ) and (V,y ) of a top. mfd. are called ;-compatible if either
+(a) U∩V =∅ or
+(b) U∩V ̸=∅
+chart transition maps have undergraduate ; property.
+EY : 20151109 e.g. since Rd→ Rd, can use undergradate ; property such as continuity or diﬀerentiability.
+y◦x−1 :x(U∩V )⊆ Rd→y(U∩V )⊆ Rd
+x◦y−1 :y(U∩V )⊆ Rd→x(U∩V )⊆ Rd
+Philosophy:
+Deﬁnition 5. An atlasA; is a ;-compatible atlas if any two charts in A; are ;-compatible.
+Deﬁnition 6. A ;-manifold is a triple ( M,O
+top. mfd.
+,A;) A;⊆A maximal
+; undergraduate ;
+C0 C0(Rd→ Rd) = continuous maps w.r.t. O
+C1 C1(Rd→ Rd) = diﬀerentiable (once) and is continuous
+Ck k-times continuously diﬀerentiable
+Dk k-times diﬀerentiable
+...
+C∞ C∞(Rd→ Rd)
+⊇
+Cω ∃ multi-dim. Taylor exp.
+C∞ satisfy Cauchy-Riemann equations, pair-wise
+EY : 20151109 Schuller says: Ck is easy to work with because you can judge k-times cont. diﬀerentiability from existence of
+all partial derivatives and their continuity. There are examples of maps that partial derivatives exist but are not Dk, k-times
+diﬀerentiable.
+Theorem 1 (Whitney). Any Ck≥1-atlas,ACk≥1 of a topological manifold contains a C∞-atlas.
+Thus we may w.l.o.g. always consider C∞-manifolds, “smooth manifolds”, unless we wish to deﬁne Taylor expandibility/-
+complex diﬀerentiability . . .
+EY : 20151109 Hassler Whitney 1
+Deﬁnition 7. A smooth manifold ( M,O
+top. mfd.
+, A
+C∞−atlas
+)
+R M
+Rd
+γ
+x◦γ x
+EY: 20151109 Schuller was explaining that the trajectory is real inM; the coordinate maps to obtain
+coordinates is x◦γ
+4.3. 4. Diﬀeomorphisms. M
+φ
+− →N
+If M,N are naked sets, the structure preserving maps are the bijections (invertible maps).
+e.g.{1, 2, 3}→{ a,b}
+Deﬁnition 8. M∼=set N (set-theoretically) isomorphic if∃ bijectionφ :M→N
+Examples. N∼=set Z
+N∼=set Q (EY: 20151109 Schuller says from diagonal counting)
+N∼=setR
+Now (M,OM)∼=top (N,ON) (topl.) isomorphic = “homeomorphic” ∃ bijection φ :M→N
+φ,φ−1 are continuous.
+(V, +,·)∼=vec (W, +w,·w) (EY: 20151109 vector space isomorphism) if
+∃ bijection φ :V →W linearly
+ﬁnally
+Deﬁnition 9. Two C∞-manifolds
+(M,OM,AM) and (N,ON,AN) are said to be diﬀeomorphic if∃ bijectionφ :M→N s.t.
+φ :M→N
+φ−1 :N→M
+are both C∞-maps
+1http://mathoverflow.net/questions/8789/can-every-manifold-be-given-an-analytic-structure
+
+
+[[page 6]]
+6 ERNEST YEUNG
+Rd Re
+M⊇U V ⊆N
+Rd Re
+˜y◦φ◦˜x−1
+˜x
+φ
+x
+y◦φ◦x−1
+undergraduateC∞
+C∞
+˜y
+y
+Theorem 2. # = number of C∞-manifolds one can make out of a given C0-manifolds (if any) - up to diﬀeomorphisms.
+dimM #
+1 1 Morse-Radon theorems
+2 1 Morse-Radon theorems
+3 1 Morse-Radon theorems
+4 uncountably inﬁnitely many
+5 ﬁnite surgery theory
+6 ﬁnite surgery theory
+... ﬁnite surgery theory
+EY : 20151109 cf. http://math.stackexchange.com/questions/833766/closed-4-manifolds-with-uncountably-many-differentiable-structures
+The wild world of 4-manifolds
+Tutorial 4 Differentiable Manifolds
+EY : 20151109 The gravity-and-light.org website, where you can download the tutorial sheets and the full length videos
+for the tutorials and lectures, are no longer there. = (
+Hopefully, the YouTube video will remain:https://youtu.be/FXPdKxOq1KA?list=PLFeEvEPtX_0RQ1ys-7VIsKlBWz7RX-FaL
+Exercise 1: True or false?. These basic questions are designed to spark discussion and as a self-test.
+Tick the correct statements, but not the incorrect ones!
+(a) The function f : R→ R, . . .
+•
+•
+• . . . , deﬁned byf(x) =|x3|, lies in C3(R→ R).
+EY : 20151109 Solution 1a3. Forf : R→ R, f(x) =|x3| =
+{
+x3 if x≥ 0
+−x3 if x< 0
+f′(x) =
+{
+3x2 if x≥ 0
+−3x2 if x< 0
+f′′(x) =
+{
+6x if x≥ 0
+−6x if x< 0
+Thus,
+f(x) =|x3|∈ C1(R) but f(x) /∈C2(R)⊆C3(R)
+•
+•
+(b)
+(c)
+Short Exercise 4: Undergraduate multi-dimensional analysis .
+A good notation and basic results for partial diﬀerentiation .
+For a map f : Rd→ R we denote by the map ∂if : Rd→ R the partial derivative with respect to the i-th entry.
+Question :. Given a function
+f : R3→ R; (α,β,δ )↦→f(α,β,δ ) :=α3β2 +β2δ +δ
+calculate the values of the following derivatives:
+Solution :.
+• (∂2f)(x,y,z ) =
+• (∂1f)(□,◦,∗) =
+• (∂1∂2f)(a,b,c ) =
+• (∂2
+3f)(299, 1222, 0) =
+EY: 20151110
+Forf(α,β,δ ) :=α3β2 +β2δ +δ, or f(x,y,z ) =x3y2 +y2z +z,
+(∂2f) = 2(x3y +yz)
+(∂1f) = 3x2y2
+(∂1∂2f) = 6x2y
+(∂2
+3f) = 0
+and so
+• (∂2f)(x,y,z ) = 2(x3y +yz)
+• (∂1f)(□,◦,∗) = 3□2◦2
+• (∂1∂2f)(a,b,c ) = 6a2b
+• (∂2
+3f)(299, 1222, 0) = 0
+Exercise 5: Diﬀerentiability on a manifold.
+How to deal with functions and curves in a chart
+Let (M,O,A) be a smooth d-dimensional manifold. Consider a chart ( U,x ) of the atlas A together with a smooth curve
+γ : R→U and a smooth function f :U→ R on the domain U of the chart.
+Question :. Draw a commutative diagram containing the chart domain, chart map, function, curveand the respective represen-
+tatives of the function and the curve in the chart.
+Solution :.
+R U Rd
+R
+γ
+x◦γ
+x−1
+(f◦x−1)f
+x τ∈ R p∈U x(p) = (x◦γ)(τ)∈ Rd
+f(p)∈ R
+γ
+x◦γ
+x−1
+(f◦x−1)f
+x
+
+
+[[page 7]]
+GR 7
+Question :. Consider, for d = 2,
+(x◦γ)(λ) := (cos (λ), sin (λ)) and (f◦x−1)((x,y )) :=x2 +y2
+Using the chain rule, calculate
+(f◦γ)′(λ)
+explicitly.
+Solution :.
+EY : 20151109 Indeed, the domains and codomains of this fγ mapping makes sense, from R → R for
+R U Rd
+R
+γ
+x◦γ
+f◦γ x−1
+(f◦x−1)f
+x τ∈ R p∈U x(p) = (x◦γ)(τ)∈ Rd
+f(p)∈ R
+γ
+x◦γ
+f◦γ x−1
+(f◦x−1)f
+x
+(f◦γ)′(λ) = (Df)· ˙γ(λ) = ∂f
+∂xj ˙γj(λ) = 2x(− sinλ) + 2y cosλ = 2(− cosλ sinλ + sinλ cosλ) = 0
+5. Lecture 5: Tangent Spaces
+lead question: “what is the velocity of a curve γ point p?
+5.1. Velocities.
+Deﬁnition 10. (M,O,A) smooth mfd.
+curve γ : R→M at least C1.
+Supposeγ(λ0) =p
+The velocity of γ p is the linear map
+vγ,p :C∞(M)
+∼
+− →R
+C∞(M) :={f :M→ R|f smooth function} equipped with (f⊕g)(p) :=f(p) +g(p)
+(λ⊗g)(p) :=λ·g(p)
+∼ denotes linear map on top of − →.
+f↦→vγ,p(f) := (f◦γ)′(λ0)
+intuition
+R M R
+γ
+f◦γ
+f
+Schuller says: children run around the world. Temperature function as temperature contour lines. You feel the temperature.
+You observe the rate of change of temperature as you run around. f is temperature.
+past: “ vi
+(∂if) = (vi∂i
+vector
+)f
+5.2. Tangent vector space.
+Deﬁnition 11. For each point p∈M
+def the set “tangent space̸=0 M p “
+TpM :={vγ,p|γ smooth curves}
+picture:
+rather M than (embedded) p TpM EY : 20151109 see https://youtu.be/pepU_7NJSGM?t=12m38s for the picture
+Observation: TpM can be made into a vector space.
+⊕ :TpM×TpM→
+(vγ,p⊕vδ,p)( f
+∈C∞(M)
+) :=vγ,p(f) +Rvδ,p(f)
+⊙ :R×TpM→ Hom(C∞(R), R)
+(α⊙vγ,p)(f) :=α·Rvγ,p(f)
+Remains to be shown that
+(i) ∃σ curve : vγ,p⊕vδ,p =vσ,p
+(ii) ∃τ curve : α⊙vγ,p =vτ,p
+Claim: τ : R→M
+↦→τ(λ) :=γ(αλ +λ0) = (γ◦µα)(λ)
+where µα :R→ R
+r↦→α·r +λ0
+, does the trick.
+τ(0) =γ(λ0) =p
+vτ,p := (f◦τ)′(0) = (f◦γ◦µα)′(0)
+= (f◦γ)′(λ0)·α =
+=α·vγ,p
+Now for the sum:
+vγ,p⊕vδ,p
+?
+=vσ,p
+make a choice of chart ( U
+∋p
+,x ) In cloud: ill deﬁnition alarm bells.
+and deﬁne:
+Claim:
+σ : R→M
+σ(λ) :=x−1((x◦γ)(λ0 +λ)  
+R→Rd
++(x◦δ)(λ1 +λ)− (x◦γ)(λ0))
+does the trick.
+Proof. Since:
+σx(0) =x−1((x◦γ)(λ0) + (x◦δ)(λ1)− (x◦γ)(λ0))
+=δ(λ1) =p
+Now:
+vσx,p(f) := (f◦σx)′(0) =
+= ((f◦x−1)  
+Rd→R
+◦ (x◦σx)  
+R→Rd
+)′(γ) = ( x◦σx)′(0)  
+(x◦γ)′(λ0)+(x◦δ)′(λ1)
+·
+(
+∂i(f◦x−1)
+)
+(x(σ(0)
+p
+)) =
+= (x◦γ)′(λ0)(∂i(f◦x−1))(x(p)) + (x◦δ)(λ1)(∂i(f◦x−1))(x(p))
+= (f◦γ)′(λ0) + (f◦δ)′(λ1) =
+=vγ,p(f) +vδ,p(f) ∀f∈C∞(M)
+
+
+[[page 8]]
+8 ERNEST YEUNG
+vγ,p⊕vδ,p =vσ,p
+□
+R M R
+Rd
+σ
+x◦σ x
+f
+f◦x−1
+picture: (cf. https://youtu.be/pepU_7NJSGM?t=39m5s)
+γ : R→M
+δ : R→M
+(γ⊕)(λ) :=γ(λ) +δ(λ)
+EY : 20151109 Schuller says adding trajectories is chart dependent, bad. Adding velocities is good.
+5.3. Components of a vector wrt a chart.
+Deﬁnition 12. Let (U,x )∈A smooth.
+Let
+γ : R→U
+γ(0) =p .
+Calculate
+vγ,p(f) := (f◦γ)′(0) = ((f◦x−1)  
+Rd→R
+◦ (x◦γ)  
+R→Rd
+)′(0)
+= (x◦γ)i′
+(0)  
+˙γix(0)
+· (∂i(f◦x−1))(x(p))  
+=:( ∂f
+∂xi )p
+think cloud f :M→ R
+= ˙γi
+x(0)·
+( ∂
+∂xi
+)
+p
+f ∀f∈C∞(M)
+∴ as a map.
+vγ,p =
+use of chart
+γi
+x(0)
+“components of the velocity vγ,p”
+( ∂
+∂xi
+)
+  
+basis elements of the TpM wrt which the components need to be understood.
+“chart induced basis of TpM”
+Picture: https://youtu.be/pepU_7NJSGM?t=1h16s
+5.4. 4. Chart-induced basis.
+Deﬁnition 13. (U,x )∈A smooth
+the
+( ∂
+∂x1
+)
+p,...,
+( ∂
+∂xd
+)
+p∈TpU⊆TpM
+constitute a basis of TpU
+Proof. remains: linearly independent
+λi
+( ∂
+∂xi
+)
+p
+!
+= 0
+=⇒λi
+( ∂
+∂xi
+)
+p
+(xj) =λi∂i(xj◦x−1
+  )(x(p)) =
+=λiδ j
+i =λj j = 1,...,d
+xj◦x−1 : Rd→ R
+(α1,...,α d)↦→αj
+in cloud: xj :U→ R diﬀerentiable
+□
+Corollary 1. dimTpM =d = dimM
+Terminology: X∈TpM→∃ γ : R→M :X =vγ,p and
+∃ X1
+1,...,X d
+  
+∈R
+:X =Xi( ∂
+∂xi
+)
+p
+5.5. 5. Change of vector components under a change of chart.  vector does not change under change of chart.
+Let (U,x ) and (V,y ) be overlapping charts and p∈U∩V .
+Let X∈TpM
+Xi
+(y)·
+( ∂
+∂yi
+)
+p
+=
+(V,y)
+X =
+(U,x)
+Xi
+x
+( ∂
+∂xi
+)
+p
+to study change of components formula:
+( ∂
+∂xi
+)
+p
+f =∂i(f◦x−1)(x(p)) =
+=∂i((f◦y−1)  
+Rd→R
+◦(y◦x−1
+  
+Rd→Rd
+)(x(p))
+= (∂i(yi◦x−1))(x(p))· (∂j(f◦y−1))(y(p)) =
+=
+(∂yp
+∂xi
+)
+p
+·
+(∂f
+∂yj
+)
+p
+f
+=⇒Xi
+(x)
+(∂yj
+∂xi
+)
+p
+( ∂
+∂yj
+)
+p
+=Xj
+(y)
+( ∂
+∂yj
+)
+p
+=⇒ Xj
+(y) =
+(∂yj
+∂xi
+)
+p
+Xi
+(x)
+5.6. 6. Cotangent spaces. TpM =V
+trivial (TpM)∗ :={ϕ :TpM
+∼
+− →R}
+Example: f∈C∞(M)
+(df)p :TpM
+∼
+− →R
+X↦→ (df)p(X)
+i.e. ( df)p∈TpM∗
+(df)p called the gradient of f p∈M.
+Calculate components of gradient w.r.t. chart-induced basis ( U,x )
+
+
+[[page 9]]
+GR 9
+((df)p)j := (df)p
+(( ∂
+∂xj
+)
+p
+)
+=
+(∂f
+∂xj
+)
+p
+=∂j(f◦x−1)(x(p))
+Theorem 3. Consider chart (U,x ) =⇒xi :U→ R
+Claim: (dx1)p, (dx2)p,..., (dxd)p basis of T∗
+pM
+=⇒ In fact: dual basis:
+(dxa)p
+(( ∂
+∂xb
+)
+p
+)
+=
+(∂xa
+∂xb
+)
+p
+=··· =δa
+b
+5.7. 7. Change of components of a covector under a change of chart:
+T∗
+pM
+
+∋ω
+with ω(y)(dyj)p =ω =ω(x)i(dxi)p
+=⇒ ω(y)i = ∂xj
+∂yiω(x)j
+6. Lecture 6: Fields
+So far:
+TpM
+T∗
+pM
+...
+...
+...
+,
+now
+in Thought Cloud: theory of bundles
+6.1. Bundles.
+Deﬁnition 14. A bundle is a triple
+E
+π
+− →M
+E smooth manifold “ total space”
+π smooth map (surjective) “projection map”
+M smooth manifold “base space”
+Example E = cylinder M = circle
+Deﬁnition 15. deﬁne ﬁbre over p
+:= preimπ({p})
+Deﬁnition 16. A sectionσ of a bundle
+E
+M
+φ∗
+d
+requireπ◦σ = idM
+Schuller says: in quantum mechanics, Aside : ψ :M→ C
+6.2. Tangent bundle of smooth manifold. (M,O,A) smooth manifold
+(a) as a set TM := ˙⋃
+p∈MTpM
+(b) surjectiveπ :TM →M
+X↦→p
+the unique point p∈M, X∈TpM
+situation: TM
+set
+π
+− →
+surjective map
+M
+smooth manifold
+(c) Construct topology on TM that is the coarsest topology such that π (just) continuous. (“initial topology with respect
+to π”).
+OTM :={preimπ(U)|U∈O}
+Show: TutorialOTM Schuller says this is shown in the tutorial
+(TM,OTM )
+Construction of a C∞-atlas on TM from the C∞-atlasA on M.
+ATM :={(TU,ξx)|(U,x )∈A}
+where
+ξx :TU→ R2·dimM
+X↦→ ((x1◦π)(X),..., (xd◦π)(X)  
+(U,x)− coords of π(X) (d many )
+, (dx1)π(X)(X),..., (dxd)π(X)(X))
+where X∈Tπ(X)M
+X =Xi
+(x)
+( ∂
+∂xi
+)
+π(X)
+(dxj)π(X)(X) = (dxj)π(X)
+(
+Xi
+(x)
+( ∂
+∂xi
+)
+π(X)
+)
+=
+=Xi
+(x)δj
+i =Xj
+(x)
+Writeξ−1
+x :ξx(TU )⊆ R2dimM→TU
+(α1,...,α d,β 1,...,β d) :=βi
+( ∂
+∂xi
+)
+x−1(α1,...,α d)  
+π(X)
+
+
+[[page 10]]
+10 ERNEST YEUNG
+Check:
+(ξy◦ξ−1
+x )(α1,...,α d,β 1,...,β d) =
+=ξy
+(
+βi
+( ∂
+∂xi
+)
+x−1(α1,...,αd)
+)
+=
+(
+..., (yi◦π)(βm·
+( ∂
+∂xm
+)
+x−1(α1...αd)
+),...,... (dyi)x−1(α1,...αd)
+(
+βm
+( ∂
+∂xm
+)
+x−1(α1...αd)
+)
+,...
+)
+=
+= (..., (yi◦x−1)(α1,...,α d),...,...,β m(dyi)x−1(α1,...,αd)
+(( ∂
+∂xm
+)
+x−1(α1...αd)
+)
+  
+βm( ∂y
+∂xm )x−1 (α1...αd )
+)
+(
+∂y
+∂xm
+)
+x−1(α1...αd)
+=∂m(yi◦x−1)(x◦ (x−1(α1...α d))) =∂m(yi◦x−1)(α1...α d) smooth.
+upshot
+TM
+smooth manifold
+π
+− →
+smooth map
+M
+smooth manifold
+bundle, called the tangent bundle.
+6.3. Vector ﬁelds.
+Deﬁnition 17. A smooth vector ﬁeld χ is a smooth map
+6.4. The C∞(M)-module Γ(TM ). set Γ(TM ) ={χ M →TM| smooth section}
+(χ⊕˜χ)(f) := (χf) + ˜χ
+C∞(M)
+(f)
+(g⊙ξ)(f) :=g· χ
+C∞(M)
+(f)
+upshot: set of all smooth vector ﬁelds can be made into a C∞(M)-module.
+Fact:
+(1) ZFC =⇒ every vector space has a basis.
+(2) no such result exists for modules.
+This is a shame, because otherwise, we could have chosen (for any manifolds) vector ﬁelds,
+Ξ(1),..., Ξ(d)∈ Γ(TM )
+and would be able to write every vector ﬁeld Ξ
+Ξ = fi
+
+component functions
+·Ξ(i)
+Simple counterexample
+Schuller says: Take a sphere, Morse Theorem, every smooth vector ﬁeld must vanish at 2 pts. “mustn’t choose a global basis”
+However:
+∂
+∂xi :U
+smooth
+−−−−−→TU
+p↦→
+( ∂
+∂xi
+)
+p
+6.5. Tensor ﬁelds. so far
+Γ(M) =”set of vector ﬁelds” C∞(M)-module
+Γ(T∗M) = “covector ﬁelds” C∞(M)-module
+Deﬁnition 18. An (r,s )-tensor ﬁeld T is a multi-linear map
+T : Γ(T∗M)×···× Γ(T∗M)  
+r
+×Γ(TM )×···× Γ(TM )
+∼
+− →C∞(M)
+Example: f∈C∞(M)
+df :Γ(TM )
+∼
+− →C∞(M)
+Ξ↦→df(Ξ) := Ξ[f]
+df (0, 1)-T.F. (tensor ﬁeld)
+where (Ξf)( p
+∈M
+) := Ξ(p)
+∈TpM
+f
+can check: df is C∞−linear
+7. Lecture 7: Connections
+∇Xf =Xf = (df)(X) but (not quite)
+X :C∞(M)→C∞(M)
+df : Γ(TM )→C∞(M)
+∇X :C∞(M)→C∞(M)
+∇X :C∞(M) C∞(M)
+∇X : TMp⊗T∗Mq i.e.
+(p
+q
+)
+tensor ﬁeld
+TMp⊗T∗Mq i.e.
+(p
+q
+)
+tensor ﬁeld
+... ...
+7.1. Directional derivatives of tensor ﬁelds. manifold with connection is quadruple (M,O,A,∇)
+topologyO
+atlasA
+Consider chart (U,x )∈A
+Deﬁnition 19. ∀ pair (X, (p,q )− tensor ﬁeld)≡ (X, (p,q )−TF ),
+connection∇ on smooth manifold (M,O,A)
+∇ : (X, (p,q )−TF )→ (p,q )−TF s.t.
+(i) ∇Xf =Xf
+(ii) ∇X(T +S) =∇XT +∇XS
+(iii)
+∇X(T (ω,Y )) = (∇XT )(ω,T ) +T (∇Xω,Y ) +T (ω,∇XY )
+“Leibnitz” rule.
+As
+T⊗S(ω(1)...ω (p+r),Y (1)...Y (q+s)) =T (ω(1)...ω (p),Y (1)...Y (q))·S(ω(p+1)...ω (p+r),Y (q+1)...Y (q+s))
+
+
+[[page 11]]
+GR 11
+so
+∇X(T⊗S) = (∇XT )⊗S +T⊗∇XS
+(iv) ∇fX +ZT =f∇XT +∇ZT C∞-linear
+7.2. New structure on (M,O,A) required to ﬁx ∇. There are (dimM)3 many Γi
+jk
+Γi
+jk :U→ R
+p↦→
+(
+dxi(∇ ∂
+∂x
+∂
+∂xj )
+)
+(p)
+Now∇ ∂
+∂xm (dxi) =?
+∇ ∂
+∂xm (dxi
+( ∂
+∂xj
+)
+  
+δi
+j
+)
+  
+= (iii)
+= ∂
+∂xm (δi
+j) = 0
+=
+(
+∇ ∂
+∂xmdxi
+)( ∂
+∂xj
+)
++dxi(∇ ∂
+∂xm
+∂
+∂xj
+  
+Γq
+jm
+∂
+∂xq
+) = 0
+=⇒
+(
+∇ ∂
+∂xmdxi
+)( ∂
+∂xj
+)
+=−Γi
+jm
+∇ ∂
+∂xmdxi =−Γi
+jmdxj
+Hence
+(∇XY )i =X(Yi) + Γi
+j m
+last entry goes in direction of X
+YjXm
+(∇Xω)i =X(ωi) +−Γj
+imωjXm
+Note that for the immediately above expression for (∇XY )i, in the second term on the right hand side, Γ i
+jm has the last entry
+at the bottom, m going in the direction of X, so that it matches up with Xm. This is a good mnemonic to memorize the index
+positions of Γ.
+summary so far:
+(∇XY )i =X(Yi) + Γi
+jmYjXm
+(∇Xω)i =X(ωi) +−Γj
+imωjXm
+similarly, by further application of Leibnitz
+T a (1, 2)-TF (tensor ﬁeld)
+(∇XT )i
+jk =X(Ti
+jk) + Γi
+smTs
+jkXm− Γs
+jmTi
+skXm− Γs
+kmTi
+jsXm
+What is a Euclidean space:
+(M = Rn,Ost,A) smooth manifold.
+Assume (Rn, idRn)∈A and
+(Γi
+(x))jk =dxi
+(
+(∇E) ∂
+∂xk
+∂
+∂xj
+)
+!
+= 0
+7.3. Change of Γ’s under change of chart. (U,x ), (V,y )∈A and U∩V ̸=∅
+Γi
+jk(y) :=dyi
+(
+∇ ∂
+∂yk
+∂
+∂yj
+)
+= ∂yi
+∂xqdxq
+(
+∇∂xp
+∂yk
+∂
+∂xp
+∂xs
+∂yj
+∂
+∂xs
+)
+Note∇fX is C∞-linear for fX
+covectordyi is C∞-linear in its argument
+=⇒ Γi
+jk(y) = ∂yi
+∂xqdxq
+(∂xp
+∂yk
+[(
+∇ ∂
+∂xp
+∂xs
+∂yj
+) ∂
+∂xs + ∂xs
+∂yj
+(
+∇ ∂
+∂xp
+∂
+∂xs
+)])
+=
+= ∂yi
+∂xq
+∂xp
+∂yk
+∂
+∂xp
+∂xs
+∂yjδq
+s + ∂yi
+∂xq
+∂xp
+∂yk
+∂xs
+∂yj Γq
+sp(x)
+(1) Γ i
+jk(y) = ∂yi
+∂xq
+∂2xq
+∂yj∂yk + ∂yi
+∂xq
+∂xs
+∂yj
+∂xp
+∂yk Γq
+sp(x)
+Eq. (1) is the change of connection coeﬃcient function under the change of chart ( U∩V,x )→ (U∩V,y )
+7.4. Normal Coordinates.
+Tutorial 7 Connections. Exercise 1. : True or false?
+(a) • ∇fXY =f∇XY by deﬁnition so∇fX =f∇X i.e.∇X is C∞(M)-linear in X
+• f∈C∞(M) is a (0, 0)-tensor ﬁeld. ∇Xf =Xf≡X(f) by deﬁnition.
+• If the manifold is ﬂat, I’m assuming that means that the manifold is globally a Euclidean space, and by deﬁnition,
+Γ = 0.
+∇XY =Xj ∂
+∂xj (Yi) ∂
+∂xi + Γi
+jkYkXk ∂
+∂xi =Xj∂Y i
+∂xj
+∂
+∂xi + 0
+and similarly for any (p,q )-tensor ﬁeld, i.e.
+∇XT =Xj∂Ti1...ip
+j1...jq
+∂xj
+•
+∇Xf =Xj ∂f
+∂xj =X· grad(f)
+• ∀(U,x )∈A , locally (after working out the ﬁrst few cases, and doing induction, one can look up the expression
+for the local form; I found it in Nakahara’s Geometry, Topology and Physics , Eq. 7.26, and it needs to be
+modiﬁed for the convention of order of bottom indices for Γ:
+∇νtλ1...λp
+µ1...µq =∂νtλ1...λp
+µ1...µq + Γλ1
+κνtκλ2...λp
+µ1...µq +··· + Γλp
+κνtλ1...λp−1κ
+µ1...µq − Γκ
+µ1νtλ1...λp
+κµ2...µq−···− Γκ
+µqνtλ1...λp
+µ1...µq−1κ
+Clearly,∇X is uniquely ﬁxed∀p∈M by choosing each of the (dimM)3 many connection coeﬃcient functions Γ.
+(b) • ∇ : X(M)→ X(M)
+∇ : (p,q )-tensor ﬁeld↦→ (p,q )-tensor ﬁeld
+• By deﬁnition,∇ satisﬁes the Leibniz rule.
+•
+•
+•
+Exercise 2. : Practical rules for how∇ acts Torsion-free covariant derivative boils down to a connection coeﬃcient function
+Γ that is symmetric in the bottom indices.
+•
+∇Xf =X(f) =Xi∂f
+∂xi
+
+
+[[page 12]]
+12 ERNEST YEUNG
+•
+(∇XY )a =Xi∂Y a
+∂xi + Γa
+jkYjXk
+•
+(∇Xω)a =Xi∂ωa
+∂xj− Γi
+akωiXk
+•
+(∇mT )a
+bc = ∂
+∂xm (Ta
+bc) + Γa
+imTi
+bc− Γi
+bmTa
+ic− Γj
+cmTa
+bj
+•
+(∇[mA)n] = (∇mA)n− (∇nA)m = ∂An
+∂xm− Γi
+nmAi−
+(∂Am
+∂xn − Γi
+mnAi
+)
+= ∂Am
+∂xm− ∂Am
+∂xn
+•
+(∇mω)nr = ∂ωnr
+∂xm − Γi
+nmωir− Γi
+rmωni
+Exercise 3. : Connection coeﬃcients
+Question .
+The connection coeﬃcient functions Γ in chart ( U∩V,y ) is given, in terms of chart ( U∩V,x ) as follows:
+Recall Eq. (1)
+Γi
+jk(y) = ∂yi
+∂xq
+∂2xq
+∂yj∂yk + ∂yi
+∂xq
+∂xs
+∂yj
+∂xp
+∂yk Γq
+sp(x)
+8. Lecture 8: Parallel Transport & Curvature (International Winter School on Gravity and Light 2015)
+8.1. Parallelity of vector ﬁelds.
+Deﬁnition 20. (1) parallely transported along smooth curve γ : R→M
+if
+(2) ∇vγX = 0
+(2) A slightly weaker condition
+is “parallel”
+(∇vγ,γ (λ)X)γ(λ) =µ(λ)Xγ(λ)
+8.2. Autoparallely transported curves.
+Deﬁnition 21. curve γ : R→M is called
+autoparallely transported if
+(3) ∇vγvγ
+!
+= 0
+8.3. Autoparallel equation.
+∇vγvγ = 0
+in summary:
+(4) ¨ γm
+(x)(λ) + (Γm
+(x))ab(γ(λ)) ˙γa
+(x)(λ) ˙γb
+(x)(λ) = 0
+8.4. Torsion.
+Deﬁnition 22. torsion of a connection∇ is the (1, 2)-tensor ﬁeld
+(5) T (ω,X,Y ) :=ω(∇XY−∇YX− [X,Y ])
+(Inside a cloud)
+[X,Y ] vector ﬁeld deﬁned by
+[X,Y ]f :=X(Yf )−Y (Xf )
+Proof. checkT is C∞-linear in each entry
+T (ω,fX,Y ) =ω(∇fXY−∇Y (fX )− [fX,Y ])
+□
+Deﬁnition 23. A (M,O,A,∇) is called torsion-free if T = 0
+In a chart
+Ti
+ab :=T
+(
+dxi, ∂
+∂xa, ∂
+∂xb
+)
+=dxi(... )
+= Γi
+ab− Γi
+ba = 2Γi
+[ab]
+From now on, in these lectures, we only use torsion-free connections.
+8.5. 4. Curvature.
+Deﬁnition 24. Riemann curvature of a connection∇ is the (1, 3)-tensor ﬁeld
+(6) Riem(ω,Z,X,Y ) :=ω(∇X∇YZ−∇Y∇XZ−∇ [X,Y ]Z)
+Proof. do it: C∞-linear in each slot. □
+Tutorials Riemi
+jab =...
+Tutorial 8 Parallel transport & Curvature
+Exercise 1.
+Exercise 2. : Where connection coeﬃcients appear
+It was suggested in the tutorial sheets and hinted in the lecture that the following should be committed to memory.
+Question : Recall the autoparallel equation for a curve γ.
+(a)
+∇vγvγ = 0
+(b)
+∇vγvγ =∇ ˙γ ∂
+∂xµvγ = ˙γν∇∂νvγ = ˙γν
+[∂vµ
+γ
+∂xν + Γρ
+µνvµ
+γ
+] ∂
+∂xρ = ˙γν
+[∂ ˙γρ
+∂xν + Γρ
+µν ˙γµ
+] ∂
+∂xρ = 0
+=⇒ ¨γρ + Γρ
+µν ˙γµ ˙γν
+as, for example, for F (x(t)),
+dF (x(t))
+dt = ˙x∂F
+∂x = d
+dtF
+so that
+˙γν∂vµ
+γ
+∂xν = d
+dλvµ
+γ = d2
+dλ2γµ
+
+
+[[page 13]]
+GR 13
+Question : Determine the coeﬃcients of the Riemann tensor with respect to a chart (U,x ).
+Recall this manifestly covariant deﬁnition
+Riem(ω,Z,X,Y ) =ω(∇X∇YZ−∇Y∇XZ−∇ [X,Y ]Z)
+We wantRi
+jab.
+now
+∇X∇YZ =∇X((Yµ ∂
+∂xµZρ + Γρ
+µνZµYν) ∂
+∂xρ ) = (Xα ∂
+∂xα (Yµ ∂
+∂xµZρ + Γρ
+µνZµYν) + Γρ
+αβ(Yµ ∂
+∂xµZα + Γα
+µνZµYν)Xβ) ∂
+∂xρ
+ForX =∂a, Y =∂b, Z =∂j, then the partial derivatives of the coeﬃcients of the input vectors become zero.
+=⇒∇ ∂a∇∂b∂j = ∂
+∂xa (Γi
+jb) + Γi
+αaΓα
+jb
+Now
+[X,Y ]i =Xj ∂
+∂xjYi−Yj∂Xi
+∂xj
+For coordinate vectors, [∂i,∂j] = 0∀i,j = 0, 1...d .
+Thus
+Ri
+jab = ∂
+∂xa Γi
+jb− ∂
+∂xb Γi
+ja + Γi
+αaΓα
+jb− Γi
+αbΓα
+ja
+Question :Ric(X,Y ) := Riemm
+ambX aY b deﬁne (0, 2)-tensor?.
+Yes, transforms as such:
+EY developments. I roughly follow the spirit in Theodore Frankel’s The Geometry of Physics: An Introduction Second
+Ed. 2003, Chapter 9 Covariant Diﬀerentiation and Curvature, Section 9.3b. The Covariant Diﬀerential of a Vector Field. P.S.
+EY : 20150320 I would like a copy of the Third Edition but I don’t have the funds right now to purchase the third edition: go
+to my tilt crowdfunding campaign, http://ernestyalumni.tilt.com, and help with your ﬁnancial support if you can or send
+me a message on my various channels and ernestyalumni gmail email address if you could help me get a hold of a digital or hard
+copy as a pro bono gift from the publisher or author.
+The spirit of the development is the following:
+“How can we express connections and curvatures in terms of forms?” -Theodore Frankel.
+From Lecture 7, connection∇ on vector ﬁeld Y , in the “direction” X,
+∇ ∂
+∂xk
+Y =
+(∂Y i
+∂xk + Γi
+jkYj
+) ∂
+∂xi
+Make the ansatz (approche, impostazione) that the connection ∇ acts on Y , the vector ﬁeld, ﬁrst:
+∇Y (X) =
+(
+Xk∂Y i
+∂xk + Γi
+jkYjXk
+) ∂
+∂xi =Xk
+(
+∇ ∂
+∂xk
+Y
+)i ∂
+∂xi = (∇XY )i ∂
+∂xi =∇XY
+Now from Lecture 7, Deﬁnition for Γ,
+dxi
+(
+∇ ∂
+∂xk
+∂
+∂xj
+)
+= Γi
+jk
+Make this ansatz (approche, impostazine)
+∇ ∂
+∂xj =
+(
+Γi
+jkdxk)
+⊗ ∂
+∂xi∈ Ω1(M,TM ) =T∗M⊗TM
+where Ω1(M,TM ) =T∗M⊗TM is the set of all TM or vector-valued 1-forms on M, with the 1-form being the following:
+Γi
+jkdxk = Γi
+j∈ Ω1(M) i = 1... dim(M)
+j = 1... dim(M)
+So Γi
+j is a dimM× dimM matrix of 1-forms (EY !!!).
+Thus
+∇Y = (d(Yi) + Γi
+jYj)⊗ ∂
+∂xi
+So the connection is a (smooth) map from TM to the set of all vector-valued 1-forms on M, Ω 1(M,TM ), and then, after
+“eating” a vector Y , yields the “covariant derivative”:
+∇ :TM → Ω1(M,TM ) =T∗M⊗TM
+∇ :Y ↦→∇Y
+∇Y :TM →TM
+∇Y (X)↦→∇Y (X) =∇X(Y )
+Now [ ∂
+∂xi, ∂
+∂xj
+]
+f = ∂
+∂xi
+( ∂
+∂xj
+)
+− ∂
+∂xj
+( ∂
+∂xi
+)
+= 0
+(this is okay as on p∈ (U,x ); x-coordinates on same chart (U,x ))
+EY : 20150320 My question is when is this nontrivial or nonvanishing (i.e. not equal to 0).
+[ea,eb] =?
+for a frame (ec) and would this be the diﬀerence between a tangent bundle TM vs. a (general) vector bundle?
+Wikipedia helps here. cf. wikipedia, “Connection (vector bundle)”
+∇ : Γ(E)→ Γ(T∗M⊗E) = Ω1(M,E )
+∇ea =ωc
+abfb⊗ec
+fb∈T∗M (this is the dual basis for TM and, note, this is for the manifold, M
+∇fbea =ωc
+abec∈E
+ωc
+a =ωc
+abfb∈ Ω1(M)
+is the connection 1-form, with a,c = 1... dimV . EY : 20150320 This V is a vector space living on each of the ﬁbers of E. I
+know that Γ(T∗M⊗E) looks like it should take values in E, but it’s meaning that it takes vector values of V . Correct me if
+I’m wrong: ernestyalumni at gmail and various social media.
+Let σ∈ Γ(E), σ =σaea
+∇σ = (dσc +ωc
+abσafb)⊗ec with
+dσc = ∂σc
+∂xbfb
+=⇒∇ Xσ =
+(
+Xb∂σc
+∂xb +ωc
+abσaXb
+)
+ec =Xb
+(∂σc
+∂xb +ωc
+abσa
+)
+ec
+
+
+[[page 14]]
+14 ERNEST YEUNG
+9. Lecture 9: Newtonian spacetime is curved!
+Axiom 1 (Newton I:). A body on which no force acts moves uniformly along a straight line
+Axiom 2 (Newton II:). Deviation of a body’s motion from such uniform straight motion is eﬀected by a force, reduced by a
+factor of the body’s reciprocal mass.
+Remark:
+(1) 1st axiom - in order to be relevant - must be read as a measurement prescription for the geometry of space ...
+(2) Since gravity universally acts on every particle, in a universe with at least two particles, gravity must not be considered
+a force if Newton I is supposed to remain applicable.
+9.1. Laplace’s questions. Laplace ∗ 1749
+†1827
+Q: “Can gravity be encoded in a curvature of space, such that its eﬀects show if particles under the inﬂuence of (no other)
+force we postulated to more along straight lines in this curved space?”
+Answer: No!
+Proof. gravity is a force point of view
+m¨xα(t) =Fα(x(t))
+m¨xα(t) =mfα
+
+Fα
+(x(t))
+−∂αfα = 4πGρ (Poisson)
+ρ mass density of matter
+(EY : 20150330) You know this, F =Gm1m2/r2
+¨xα(t)−fα(x(t)) = 0
+Laplace asks: Is this (¨x(t)) of the form
+¨xα(t) + Γα
+βγ(x(t)) ˙xβ(t) ˙xγ(t) = 0
+Conclusion: One cannot ﬁnd Γ s such that Newton’s equation takes the form of an autoparallel.
+□
+9.2. The full wisdom of Newton I. use also the information from Newton’s ﬁrst law that particles (no force) move uniformly
+introduce the appropriate setting to talk about the diﬀerence easily
+insight: in spacetime uniform & straight motion is simply straight motion
+So let’s try in spacetime :
+let x : R→ R3
+be a particle’s trajectory in space ←→ worldline (history) of the particle
+X : R→ R4
+t↦→ (t,x 1(t),x 2(t),x 3(t)) :=
+:= (X0(t),X 1(t),X 2(t),X 3(t))
+That’s all it takes:
+Trivial rewritings:
+˙X0 = 1
+=⇒
+¨X0 = 0
+¨Xα−fα(X(t))· ˙X0· ˙X0 = 0
+(α = 1, 2, 3) =⇒
+a = 0, 1, 2, 3
+¨Xa + Γa
+bc ˙Xb ˙Xc = 0
+antoparallel eqn in spacetime
+Yes, choosing Γ0
+ab = 0
+Γα
+βγ = 0 =Gammaα
+0β = Γα
+β0
+only: Γ α
+00
+!
+=−fα
+Question: Is this a coordinate-choice artifact?
+No, since Rα
+0β0 =− ∂
+∂xβfα (only non-vanishing components) (tidal force tensor, − the Hessian of the force component)
+Ricci tensor =⇒R00 =Rm
+0m0 =−∂αfα = 4πGρ
+Poisson:−∂αfα = 4πG·ρ
+writing: T00 = 1
+2s
+=⇒ R00 = 8πGT00
+Einstein in 1912 ((((((( hhhhhhhRab = 8πGTab
+Conclusion: Laplace’s idea works in spacetime
+Remark
+Γα
+00 =−fα
+Rα
+βγδ = 0 α,β,γ,δ = 1, 2, 3
+R00 = 4πGρ
+Q: What about transformation behavior of LHS of
+¨xa + Γa
+bc ˙Xb ˙Xc
+  
+(∇vXvX)a
+  
+:=aa “acceleration vector ”
+= 0
+9.3. The foundations of the geometric formulation of Newton’s axiom. new start
+Deﬁnition 25. A Newtonian spacetime is a quintuple
+(M,O,A,∇,t )
+where (M,O,A) 4-dim. smooth manifold
+t :M→ R smooth function
+(i) “There is an absolute space”
+(dt)p̸= 0 ∀p∈M
+(ii) “absolute time ﬂows uniformly”
+∇dt =
+space of (0, 2)-tensor ﬁelds
+0 everywhere
+∇dt is a (0, 2)-tensor ﬁeld
+(iii) add to axioms of Newtonian spacetime ∇ = 0 torsion free
+Deﬁnition 26. absolute space at time τ
+Sτ :={p∈M|t(p) =τ}
+dt̸=0
+−−−→M =
+∐
+Sτ
+
+
+[[page 15]]
+GR 15
+Deﬁnition 27. A vector X∈TpM is called
+(a) future-directed if
+dt(X)> 0
+(b) spatial if
+dt(X) = 0
+(c) past-directed if
+dt(X)< 0
+picture
+Newton I: The worldline of a particle under the inﬂuence of no force (gravity isn’t one, anyway) is a
+future-directed autoparallel i.e.
+∇vXvX = 0
+dt(vX)> 0
+Newton II:
+∇vXvX = F
+m⇐⇒m·a =F
+where F is a spatial vector ﬁeld:
+dt(F ) = 0
+Convention: restrict attention to atlases Astrateﬁed whose charts (U,x ) have the property
+x0 :U→ R
+x1 :U→ R
+... ...
+x3
+x0 = t|U =⇒ 0
+“absolute time ﬂows uniformly”
+= ∇dt
+0 =∇ ∂
+∂xadx0 =−Γ0
+ba a = 0, 1, 2, 3
+Let’s evaluate in a chart (U,x ) of a stratiﬁed atlas Asheet: Newton II:
+∇vXvX = F
+m
+in a chart.
+(X0)′′ +(((((((Γ0
+cd(Xa)′(Xb)′stratiﬁed atlas = 0
+(Xα)′′ + Γα
+γδXγ′
+Xδ′
++ Γα
+00X0′
+X0′
++ 2Γα
+γ0Xγ′
+X0′
+= Fα
+m α = 1, 2, 3
+=⇒ (X0)′′(λ) = 0 =⇒X0(λ) =aλ +b constantsa,b with
+X0(λ) = (x0◦X)(λ)
+stratiﬁed
+= ( t◦X)(λ)
+convention parametrize worldline by absolute time
+d
+dλ =ad
+dt
+a2 ¨Xα +a2Γα
+γδ ˙Xγ ˙Xδ +a2Γα
+00 ˙X0 ˙X0 + 2Γα
+γ0 ˙Xγ ˙X0 = Fα
+m
+=⇒ ¨Xα + Γα
+γδ ˙Xγ ˙Xδ + Γα
+00 ˙X0 ˙X0 + 2Γα
+γ0 ˙Xγ ˙X0
+  
+aα
+= 1
+a2
+Fα
+m
+10. Lecture 10: Metric Manifolds
+cf. Lecture 10: Metric Manifolds (International Winter School on Gravity and Light 2015)
+We establish a structure on a smooth manifold that allows one to assign vectors in each tangent space a length (and an angle
+between vectors in the same tangent space).
+From this structure, one can then deﬁne a notion of length of a curve.
+Then we can look at shortest curves.
+Requiring then that the shortest curves coincide with the straightest curves (wrt ∇) will result in∇ being determined by the
+metric structure.
+g
+straight=short
+T=0⇝ ∇⇝ Riem
+10.1. Metrics.
+Deﬁnition 28. A metric g on a smooth manifold (M,O,A) is a (0, 2)-tensor ﬁeld satisfying
+(i) symmetry g(X,Y ) =g(Y,X ) ∀X,Y vector ﬁelds
+(ii) non-degeneracy: the musical map
+“ﬂat” ♭ : Γ(TM )→ Γ(T∗M)
+X↦→♭(X)
+where ♭(X)(Y ) :=g(X,Y )
+♭(X)∈ Γ(T∗M)
+In thought bubble: ♭(X) =g(X,·)
+. . . is aC∞-isomorphism in other words, it is invertible.
+Remark: (♭(X))a or
+Xa
+(♭(X))a :=gamXm
+Thought bubble: ♭−1 =♯
+♭−1(ω)a :=gamωm
+♭−1(ω)a := (g“−1′′
+)amωm =⇒ not needed. (all of this is not needed)
+Deﬁnition 29. The (2, 0)-tensor ﬁeld g“−1′′
+with respect to a metric g is the symmetric
+g“−1′′
+: Γ(T∗M)× Γ(T∗M)− →C∞(M)
+(ω,σ )↦→ω(♭−1(σ)) ♭−1(σ)∈ Γ(TM ))
+chart: gab =gba
+(g−1)amgmb =δa
+b
+Example: (S2,O,A)
+chart (U,x )
+ϕ∈ (0, 2π)
+θ∈ (0,π )
+deﬁne the metric
+gij(x−1(θ,ϕ )) =
+[R2 0
+0 R2 sin2θ
+]
+ij
+R∈ R+
+“the metric of the round sphere of radius R”
+
+
+[[page 16]]
+16 ERNEST YEUNG
+10.2. Signature. Linear algebra:
+Aa
+mvm =λva
+
+
+λ1 0
+...
+0 λn
+
+
+gamvm =λ·va?⇝
+
+
+1
+...
+1
+−1
+...
+−1
+0
+...
+0
+
+
+(1, 1) tensor has eigenvalues
+(0, 2) has signature (p,q ) (well-deﬁned)
+(+ + +)
+(+ +−)
+(+−− )
+(−−− )
+
+
+
+d + 1 if p +q = dimV
+Deﬁnition 30. A metric is called
+Riemannian if its signature is (+ +··· +)
+Lorentzian if (+−···− )
+10.3. Length of a curve. Let γ be a smooth curve.
+Then we know its veloctiy vγ,γ(λ) at each γ(λ)∈M.
+Deﬁnition 31. On a Riemannian metric manifold M,O,A,g ), the speed of a curve at γ(λ) is the number
+(
+√
+g(vγ,vγ))γ(λ) =s(λ)
+F. Schuller: “I feel the need for speed.” -Top Gun.
+(I feel the need for speed, then I feel the need for a metric)
+Aside: [va] = 1
+T
+[gab] =L2
+[
+√
+gabvavb] =
+√
+L2
+T 2 = L
+T
+Deﬁnition 32. Letγ : (0, 1)→M a smooth curve.
+Then the length of γ is the number
+R∋L[γ] :=
+∫ 1
+0
+dλs(λ) =
+∫ 1
+0
+dλ
+√
+(g(vγ,vγ))γ(λ)
+F. Schuller: “velocity is more fundamental than speed, speed is more fundamental than length”
+Example: reconsider the round sphere of radius R
+Consider its equator:
+θ(λ) := (x1◦γ)(λ) = π
+2
+ϕ(λ) := (x2◦γ)(λ) = 2πλ3
+θ′(λ) = 0
+ϕ′(λ) = 6πλ2
+on the same chart gij =
+[R2
+R2 sin2θ
+]
+F.Schuller: do everything in this chart
+L[γ] =
+∫ 1
+0
+dλ
+√
+gij(x−1(θ(λ),ϕ (λ)))(xi◦γ)′(λ)(xj◦γ)′(λ) =
+∫ 1
+0
+dλ
+√
+R2· 0 +R2 sin2 (θ(λ))36π2λ4 =
+= 6πR
+∫ 1
+0
+dλλ2 = 6πR[1
+3λ3]1
+0 = 2πR
+Theorem 4. γ : (0, 1)→M and
+σ : (0, 1)→ (0, 1) smooth bijective and increasing “reparametrization”
+L[γ] =L[γ◦σ]
+Proof. =⇒ Tutorials □
+10.4. Geodesics.
+Deﬁnition 33. A curve γ : (0, 1)→M is called a geodesic on a Riemannian manifold (M,O,A,g ) if its a stationary curve
+with respect to a length functional L.
+Thought bubble: in classical mechanics, deform the curve a little, ϵ times this deformation, to ﬁrst order, it agrees with L[γ]
+Theorem 5. γ geodesic iﬀ it satisﬁes the Euler-Lagrange equations for the Lagrangian
+L :TM → R
+X↦→
+√
+g(X,X )
+In a chart, the Euler Lagrange equations take the form:
+( ∂L
+∂ ˙xm
+)·
+− ∂L
+∂xm = 0
+F.Schuller: this is a chart dependent formulation
+here:
+L(γi, ˙γi) =
+√
+gij(γ(λ)) ˙γi(λ) ˙γj(λ)
+Euler-Lagrange equations:
+∂L
+∂ ˙γm = 1
+√... gmj(γ(λ)) ˙γj(λ)
+( ∂L
+∂ ˙γm
+)·
+=
+(
+1
+√...
+)·
+gmj(γ(λ))· ˙γj(λ) + 1
+√...
+(
+gmj(γ(λ))¨γj(λ) + ˙γs(∂sgmj) ˙γj(λ)
+)
+Thought bubble: reparametrize g( ˙γ, ˙γ) = 1 (it’s a condition on my reparametrization)
+By a clever choice of reparametrization ( 1√...)· = 0
+∂L
+∂γm = 1
+2√... ∂mgij(γ(λ)) ˙γi(λ) ˙γj(λ)
+putting this together as Euler-Lagrange equations:
+gmj¨γj +∂sgmj ˙γs ˙γj− 1
+2∂mgij ˙γi ˙γj = 0
+
+
+[[page 17]]
+GR 17
+Multiply on both sides (g−1)qm
+¨γq + (g−1)qm(∂igmj− 1
+2∂mgij) ˙γi ˙γj = 0
+¨γq + (g−1)qm 1
+2(∂igmj +∂jgmi−∂mgij) ˙γi ˙γj = 0
+geodesic equation for γ in a chart.
+(g−1)qm 1
+2(∂igmj +∂jgmi−∂mgij) =: Γq
+ij(γ(λ))
+Thought bubble:
+(
+∂L
+∂ξa+dimM
+x
+)·
+σ(x)
+−
+(
+∂L
+∂xiax
+)
+σ(x)
+= 0
+Deﬁnition 34. “Christoﬀel symbol” L.C.Γ are the connection coeﬃcient functions of the so-called Levi-Civita connection L.C.∇
+We usually make this choice of∇ if g is given.
+(M,O,A,g )→ (M,O,A,g, L.C.∇)
+abstract way:∇g = 0 and T = 0 (torsion)
+=⇒∇ = L.C.∇
+Deﬁnition 35. (a) The Riemann-Christoﬀel curvature is deﬁned by
+Rabcd :=gamRm
+bcd
+(b) Ricci: Rab =Rm
+amb
+Thought bubble: with a metric, L.C.∇
+(c) (Ricci) scalar curvature:
+R =gabRab
+Thought bubble: L.C.∇
+Deﬁnition 36. Einstein curvature (M,O,A,g )
+Gab :=Rab− 1
+2gabR
+Convention: gab := (g“−1′′
+)ab
+F. Schuller: these indices are not being pulled up, because what would you pull them up with
+(student) Question: Does the Einstein curvature yield new information?
+Answer:
+gabGab =Rabgab− 1
+2gabgabR =R−δa
+aR =R− 1
+2dimMR = (1− d
+2)R
+Tutorial 9: Metric manifolds. Exercise 3: Levi-Civita Connection. Suppose torsion-free T = 0 and metric-compatible
+connection∇g = 0
+Question Recall T = 0 on a chart.
+Γc
+ba = 1
+2(g−1)cm
+(∂gbm
+∂xa + ∂gma
+∂xb − ∂gab
+∂xm
+)
+or
+Γa
+bc = 1
+2(g−1)am
+(∂gbm
+∂xc + ∂gmc
+∂xb − ∂gbc
+∂xm
+)
+11. Symmetry
+EY : 20150321 This lecture tremendously and lucidly clariﬁed, for me at least, what a symmetry of the Lie algebra is, and in
+comparing structures (M,O,A) vs. (M,O,A,∇), clariﬁed diﬀerences, and asking about diﬀerences is a good way to learn, the
+diﬀerence betweenL and∇, respectively.
+Feeling that the round sphere
+(S2,O,A,g round)
+has rotational symmetry, while
+the potato
+(S2,O,A,g potato)
+does not.
+11.1.
+11.2. Important
+11.3. Flow of a complete vector ﬁeld. Let (M,O,A) smooth X vector ﬁeld on M
+Deﬁnition 37. A curve γ :I⊆ R→M is called an integral curve of X
+if
+vγ,γ(λ) =Xγ(λ)
+Deﬁnition 38. A vector ﬁled X is complete if all integral curves have I = R EY: 20150321 (i.e. domain is all of R)
+Ex. minute 48:30 EY : reall good explanation by F.P.Schuller; take a pt. out for an incomplete vector ﬁeld.
+Theorem 6. compactly supported smooth vector ﬁeld is complete.
+Deﬁnition 39. The ﬂow of a complete vector ﬁeld X is a 1-parameter family
+hX = R×M→M
+where γp : R→M
+γ(0) =p
+is the integral curve of X with
+Then for ﬁxed λ∈ R
+hX
+λ :M→M smooth
+picturehX
+λ (S)̸=S( if X̸= 0)
+11.4. Lie subalgebras of the Lie algebra (Γ(TM ), [·,·]) of vector ﬁelds.
+(a) Γ(TM ) ={ set of all vector ﬁelds } C∞(M)-module = R-vector space
+=⇒ [X,Y ]∈ Γ(TM ) [ X,Y ]f :=X(Yf )−Y (Xf )
+(i) [X,Y ] =−[Y,X ]
+(ii) [λX +Z,Y ] =λ[X,Y ] + [Z,Y ]
+(iii) [X, [Y,Z ]] + [Z, [X,Y ]] + [Y, [Z,X ]] = 0
+(Γ(TM ), [·,·]) Lie algebra
+(b) Let X1...X s for s (many) vector ﬁelds on M, such that
+
+
+[[page 18]]
+18 ERNEST YEUNG
+Tutorial 11 Symmetry. Exercise 1. : True or false?
+(a) •
+• φ∗ :T∗N→T∗M i.e. φ∗ν(X) =ν(φ∗X) for smooth φ :M→N, so the pullback of a covector ν∈T∗N maps to
+a covector in T∗M.
+•
+•
+•
+•
+(b)
+(c)
+Exercise 2. : Pull-back and push-forward
+Question . Let’s check this locally
+φ∗(df)(X) = (df)(φ∗X) = (df)(Xi∂yj
+∂xi
+∂
+∂yj ) =Xi∂yj
+∂xi
+∂f
+∂yj where φ∗X =Xi∂yj
+∂xi
+∂
+∂yj
+d(φ∗f)(X) =d(f(φ))(X) = ∂f
+∂yj
+∂yj
+∂xidxi(X) =Xi∂yj
+∂xi
+∂f
+∂yj
+So
+φ∗(df) =d(φ∗f) ∀p∈M, ∀X∈ X(M)
+The big idea is that this is a showing of the naturality of the pullback φ∗ with d, i.e. that this commutes:
+Ω1(M) Ω1(N)
+C∞(M) C∞(N)
+φ∗
+d
+φ∗
+d
+Question .
+(φ∗)a
+b := (dya)(φ∗( ∂
+∂xb ))
+Let g∈C∞(N)
+φ∗
+( ∂
+∂xb
+)
+g = ∂xb
+g φ(p) = ∂
+∂xbgφx−1x(p) = ∂
+∂xb (gyy−1φx−1)(x) =
+= ∂
+∂xb (gy−1(yφx−1(x(p)))) = ∂g
+∂y
+b
+⏐⏐⏐⏐⏐
+y
+∂ya
+∂xb
+⏐⏐⏐⏐
+x
+= ∂ya
+∂xb
+∂g
+∂ya
+Then
+φ∗
+( ∂
+∂xb
+)
+= ∂ya
+∂xb
+∂
+∂ya
+and so
+(φ∗)a
+b = ∂ya
+∂xb
+Question .
+Exercise 3. :Lie derivative-the pedestrian way
+Question . While it is true that ∀p∈ S2, for x(p) = (θ,ϕ ), and ( yix−1)(θ,ϕ ) = (y1,y 2,y 3)∈ R3 and that, at this point
+p, (y1)2/a2 + (y2)2/b2 + (y3)2/c3 = 1, this doesn’t imply (EY: 20150321 I think) that, globally, it’s an ellipsoid (yet). In the
+familiar charts given,
+spherical chart (U,x )∈A and
+(R3,y = idR3)∈B
+it looks like an ellipsoid, but change to another choice of charts, and it could look something very diﬀerent.
+Question .
+Equip (R3,Ost,B) with the Euclidean metric g, and pullback g.
+Note that the pullback of the inclusion from R3 ontoS2 for the Euclidean metric is the following:
+i∗g
+( ∂
+∂θi, ∂
+∂θj
+)
+=g
+(
+i∗
+∂
+∂θi,i∗
+∂
+∂θj
+)
+=g
+(∂xa
+∂θi
+∂
+∂xa,∂xb
+∂θj
+∂
+∂xb
+)
+=gab
+∂xa
+∂θi
+∂xb
+∂θj
+With gab =δab, the usual Euclidean metric, this becomes the following:
+gellipsoid
+ij = ∂xa
+∂θi
+∂xa
+∂θj
+At this point, one should get smart (we are in the 21st century) and use some sort of CAS (Computer Algebra System). I
+like Sage Math (version 6.4 as of 20150322). I also like the Sage Manifolds package for Sage Math.
+I like Sage Math for the following reasons:
+• Open source, so it’s open and freely available to anyone, which ﬁts into my principle of making online education open
+and freely available to anyone, anytime
+• Sage Math structures everything in terms of Category Theory and Categories and Morphisms naturally correspond to
+Classes and Class methods or functions in Object-Oriented Programming in Python and they’ve written it that way
+and I like Sage Manifolds for roughly the same reasons, as manifolds are ﬁt into a category theory framework that’s written into
+the Python code. e.g.
+sage: S2 = Manifold(2, ’S^2’, r’\mathbb{S}^2’, start_index=1) ; print S2
+sage: print S2
+2-dimensional manifold ’S^2’
+sage: type(S2)
+<class ’sage.geometry.manifolds.manifold.Manifold_with_category’>
+With code (I’ve provided for convenience; you can make your own as I wrote it based upon to example of S2 on the sage-
+manifolds documentation website page), load it and do the following:
+cf. https://github.com/ernestyalumni/diffgeo-by-sagemnfd/blob/master/S2.sage
+http://sagemanifolds.obspm.fr/examples.html
+sage: load("S2.sage")
+sage: U_ep = S2.open_subset(’U_{ep}’)
+sage: eps.<the,phi> = U_ep.chart()
+sage: a = var(\a")
+sage: b = var(\b")
+sage: c = var("c")
+sage: inclus = S2.diff_mapping(R3, {(eps, cart): [ a*cos(phi)*sin(the), b*sin(phi)*sin(the),c*cos(the) ]} , name="inc",latex_name=r’\mathcal{i}’)
+sage: inclus.pullback(h).display()
+inc_*(h) = (c^2*sin(the)^2 + (a^2*cos(phi)^2 + b^2*sin(phi)^2)*cos(the)^2) dthe*dthe - (a^2 - b^2)*cos(phi)*cos(the)*sin(phi)*sin(the) dthe*dphi
+- (a^2 - b^2)*cos(phi)*cos(the)*sin(phi)*sin(the) dphi*dthe + (b^2*cos(phi)^2 + a^2*sin(phi)^2)*sin(the)^2 dphi*dphi
+sage: inclus.pullback(h)[2,2].expr()
+(b^2*cos(phi)^2 + a^2*sin(phi)^2)*sin(the)^2
+
+
+[[page 19]]
+GR 19
+A new open subset Uep was declared in S2, a new chart (Uep, (θ,φ )) was declared, the constants, a,b,c , were declared, and
+the inclusion map given in the problem
+y◦ i◦x−1 : (θ,φ )↦→ (a cosφ sinθ,b sinφ sinθ,c cosθ)
+Then the pullback of the inclusion map ⟩ was done on the Euclidean metric h, deﬁned earlier in the ﬁle
+S2.sage
+. Then one can access the components of this metric and do, for example,
+simplify_full(),full_simplify(), reduce_trig()
+on the expression.
+In Python, I could easily do this, and give an answer quick in LaTeX:
+sage: for i in range(1,3):
+....: for j in range(1,3):
+....: print inclus.pullback(h)[i,j].expr()
+....: latex(inclus.pullback(h)[i,j].expr() )
+....:
+c^2*sin(the)^2 + (a^2*cos(phi)^2 + b^2*sin(phi)^2)*cos(the)^2
+(EY: I’ll suppress the LaTeX output but this sage math function gives you LaTeX code)
+and so
+i∗g =c2 sin (the)2 +
+(
+a2 cos (φ)2 +b2 sin (φ)2
+)
+cos (the)2dθ⊗dθ+
+−2
+(
+a2−b2)
+cos (φ) cos (the) sin (φ) sin (the)dθ⊗dφ+
++
+(
+b2 cos (φ)2 +a2 sin (φ)2
+)
+sin (the)2dφ⊗dφ
+Question .
+sage: polar_vees = eps.frame()
+sage: X_1 = - sin(phi) * polar_vees[1] - cot( the ) * cos(phi) * polar_vees[2]
+sage: X_2 = cos( phi ) * polar_vees[1] - cot( the ) * sin( phi) * polar_vees[2]
+sage: X_3 = polar_vees[2]
+sage: X_2.lie_der(X_1).display()
+(cos(the)^2 - 1)/sin(the)^2 d/dphi
+sage: X_3.lie_der(X_1).display()
+cos(phi) d/dthe - cos(the)*sin(phi)/sin(the) d/dphi
+sage: X_3.lie_der(X_2).display()
+sin(phi) d/dthe + cos(phi)*cos(the)/sin(the) d/dphi
+Indeed, one can check on a scalar ﬁeld feps∈C∞(S2):
+sage: f_eps = S2.scalar_field({eps: function(’f’, the, phi ) }, name=’f’ )
+sage: (X_1( X_2(f_eps)) - X_2(X_1(f_eps) ) ).display()
+U_{ep} --> R
+(the, phi) |--> -D[1](f)(the, phi)
+sage: X_2.lie_der(X_1) == -X_3
+True
+sage: X_3.lie_der(X_1) == X_2
+True
+sage: X_3.lie_der(X_2) == -X_1
+True
+=⇒ [Xi,Xj] =−ϵijkXk
+So spanR{X1,X 2,X 3} equipped with [, ] constitute a Lie subalgebra on S2 (It’s closed under [ , ]
+12. Integration
+12.1.
+12.2.
+12.3. Volume forms.
+Deﬁnition 40. On a smooth manifold (M,O,A)
+a (0, dimM)-tensor ﬁeld Ω is called a volume form if
+(a) Ω vanishes nowhere (i.e. Ω̸= 0∀p∈M)
+(b) totally antisymmetric
+Ω(..., X
+ith
+,..., Y
+jth
+... ) =−Ω(..., Y
+ith
+,..., X
+jth
+... )
+In a chart:
+Ωi1...id = Ω[i1...id]
+Example (M,O,A,g ) metric manifold
+construct volume form Ω from g
+In any chart: (U,x )
+Ωi1...id :=
+√
+det(gij(x))ϵi1...id
+where Levi-Civita symbol ϵi1...id is deﬁned as ϵ123...d = +1
+ϵ1...d =ϵ[i1...id]
+Proof. (well-deﬁned) Check: What happens under a change of charts
+Ω(y)i1...id =
+√
+det(g(y)ij)ϵi1...id =
+=
+√
+det(gmn(x)∂xm
+∂yi
+∂xn
+∂yj )∂ym1
+∂xi1
+... ∂ymd
+∂xid
+ϵ[m1...md] =
+=
+√
+|detgij(x)|
+⏐⏐⏐⏐det
+(∂x
+∂y
+)⏐⏐⏐⏐ det
+(∂y
+∂x
+)
+ϵi1...id =
+√
+detgij(x)ϵi1...idsgn
+(
+det
+(∂x
+∂y
+))
+□
+EY : 20150323
+
+
+[[page 20]]
+20 ERNEST YEUNG
+Consider the following:
+Ω(y)(Y(1)...Y (d)) = Ω(y)i1...idYi1
+(1)...Y id
+(d) =
+=
+√
+det(gij(y))ϵi1...idYi1
+(1)...Y id
+(d) =
+=
+√
+det(gmn(x))∂xm
+∂yi
+∂xn
+∂yjϵi1...id
+∂yi1
+∂xm1
+... ∂yid
+∂xmd
+Xm1...X md =
+=
+√
+det(gmn(x))∂xm
+∂yi
+∂xn
+∂yj det
+(∂y
+∂x
+)
+ϵm1...mdXm1...X md =
+=
+√
+det(gmn(x))
+⏐⏐⏐⏐det
+(∂x
+∂y
+)⏐⏐⏐⏐ det
+(∂y
+∂x
+)
+ϵm1...mdXm1...X md =
+=
+√
+det(gmn(x))ϵm1...mdsgn
+(
+det
+(∂x
+∂y
+))
+Xm1...X md = sgn(det
+(∂x
+∂y
+)
+)Ωm1...md(x)Xm1...X md
+If det
+(
+∂y
+∂x
+)
+> 0,
+Ω(y)(Y(1)...Y (d)) = Ω(x)(X(1)...X (d))
+This works also if Levi-Civita symbol ϵi1...id doesn’t change at all under a change of charts. (around 42:43 https:
+//youtu.be/2XpnbvPy-Zg)
+Alright, let’s require,
+restrict the smooth atlas A
+to a subatlas (A↑ still an atlas)
+A↑⊆A
+s.t.∀ (U,x ), (V,y ) have chart transition maps y◦x−1
+x◦y−1
+s.t. det
+(
+∂y
+∂x
+)
+> 0
+suchA↑ called an oriented atlas
+(M,O,A,g ) =⇒ (M,O,A↑,g )
+Note: associated bundles.
+Note also: det
+(
+∂yb
+∂xa
+)
+= det( ∂a(ybx−1)) ∂yb
+∂xa is an endomorphism on vector space V .
+ϕ :V →V
+detϕ independent of choice of basis
+g is a (0, 2) tensor ﬁeld, not endomorphism (not independent of choice of basis)
+√
+|det(gij(y))|
+Deﬁnition 41. Ω be a volume form on (M,O,A↑) and consider chart (U,x )
+Deﬁnition 42. ω(X) := Ωi1...idϵi1...id same way ϵ12...d = +1
+ϵ[... ]
+one can show
+ω(y) = det
+(∂x
+∂y
+)
+ω(x) scalar density
+12.4. Integration on one chart domain U.
+Deﬁnition 43.
+(7)
+∫
+U
+f :
+(U,y)
+=
+∫
+y(U)
+ddβω(y)(y−1(β))f(y)(β)
+Proof. : Check that it’s (well-deﬁned), how it changes under change of charts
+∫
+U
+f :
+(U,y)
+=
+∫
+y(U)
+ddβω(y)(y−1(β))f(y)(β) = =
+(U,y)
+∫
+x(U)
+∫
+ddα
+⏐⏐⏐⏐det
+(∂y
+∂x
+)⏐⏐⏐⏐f(x)(α)ω(x)(x−1(α)det
+(∂x
+∂y
+)
+=
+=
+∫
+x(U)
+ddαω(x)(x−1(x))f(x)(α)
+□
+On an oriented metric manifold (M,O,A↑,g )∫
+U
+f :=
+∫
+x(U)
+ddα
+√
+det(gij(x))(x−1(α))
+  √g
+f(x)(α)
+12.5. Integration on the entire manifold.
+13. Lecture 13: Relativistic spacetime
+Recall, from Lecture 9, the deﬁnition of Newtonian spacetime
+(M,O,A,∇,t )
+∇ torsion free
+t∈C∞(M)
+dt̸= 0
+∇dt = 0 (uniform time)
+and the deﬁnition of relativistic spacetime (before Lecture )
+(M,O,A↑,∇,g,T )
+∇ torsion-free
+g Lorentzian metric(+−−− )
+T time-orientation
+13.1. Time orientation.
+Deﬁnition 44. (M,O,A↑,g ) a Lorentzian manifold. Then a time-orientation is given by a vector ﬁeld T that
+(i) does not vanish anywhere
+(ii) g(T,T )> 0
+Newtonian vs. relativistic
+Newtonian
+X was called future-directed if
+dt(X)> 0
+∀p∈M, take half plane, half space of TpM
+also stratiﬁed atlas so make planes of constant t straight
+relativistic
+
+
+[[page 21]]
+GR 21
+half cone∀p,q∈M, half-cone⊆TpM
+This deﬁnition of spacetime
+Question
+I see how the cone structure arises from the new metric. I don’t understand however, how the T , the time orientation, comes in
+Answer
+(M,O,A,g ) g
+(
+← −+−−− )
+requiring g(X,X )> 0, select cones
+T chooses which cone
+This deﬁnition of spacetime has been made to enable the following physical postulates:
+(P1) The worldline γ of a massive particle satisﬁes
+(i) gγ(λ)(vγ,γ(lambda),vγ,γ(λ))> 0
+(ii) gγ(λ)(T,vγ,γ(λ))> 0
+(P2) Worldlines of massless particles satisfy
+(i) gγ(λ)(vγ,γ(λ),vγ,γ(λ)) = 0
+(ii) gγ(λ)(T,vγ,γ(λ))> 0
+picture: spacetime:
+Answer (to a question) T is a smooth vector ﬁeld, T determines future vs. past, “general relativity: we have such a time
+orientation; smoothness makes it less arbitrary than it seems” -FSchuller,
+Claim: 9/10 of a metric are determined by the cone
+spacetime determined by distribution, only one-tenth error
+13.2. Observers. (M,O,A↑,∇,g,T )
+Deﬁnition 45. An observer is a worldline γ with
+g(vγ,vγ)> 0
+g(T,vγ)> 0
+together with a choice of basis
+vγ,γ(λ)≡e0(λ),e 1(λ),e 2(λ),e 3(λ)
+of each Tγ(λ)M where the observer worldline passes, if g(ea(λ),eb(λ)) =ηab =
+
+
+1
+−1
+−1
+−1
+
+
+ab
+precise: observer = smooth curve in the frame bundle LM over M
+13.2.1. Two physical postulates.
+(P3) A clock carried by a speciﬁc observer (γ,e ) will measure a time
+τ :=
+∫ λ1
+λ0
+dλ
+√
+gγ(λ)(vγ,γ(λ),vγ,γ(λ))
+between the two “events”
+γ(λ0) “start the clock”
+and
+γ(λ1) “stop the clock”
+Compare with Newtonian spacetime:
+t(p) = 7
+Thought bubble: proper time/eigentime τ
+Application/Example.
+M = R4
+O =Ost
+A∋ (R4, idR4)
+g :g(x)ij =ηij ; Ti
+(x) = (1, 0, 0, 0)i
+=⇒ Γi
+(x) jk = 0 everywhere
+=⇒ (M,O,A↑,g,T, ∇) Riemm = 0
+=⇒ spacetime is ﬂat
+This situation is called special relativity.
+Consider two observers:
+γ : (0, 1)→M
+γi
+(x) = (λ, 0, 0, 0)i
+δ : (0, 1)→M
+α∈ (0, 1) :δi
+(x) =
+{
+(λ,αλ, 0, 0)i λ≤ 1
+2
+(λ, (1−λ)α, 0, 0)i λ> 1
+2
+let’s calculate:
+τγ :=
+∫ 1
+0
+√
+g(x)ij ˙γi
+(x) ˙γj
+(x) =
+∫ 1
+0
+dλ1 = 1
+τδ :=
+∫ 1/2
+0
+dλ
+√
+1−α2 +
+∫ 1
+1/2
+√
+12− (−α)2 =
+∫ 1
+0
+√
+1−α2 =
+√
+1−α2
+Note: piecewise integration
+Taking the clock postulate (P3) seriously, one better come up with a realistic clock design that supports the postulate.
+idea.
+2 little mirrors
+(P4) Postulate
+Let (γ,e ) be an observer, and
+δ be a massive particle worldline that is parametrized s.t. g(vγ,vγ) = 1 (for parametrization/normalization convenience)
+Suppose the observer and the particle meet somewhere (in spacetime)
+δ(τ2) =p =γ(τ1)
+This observer measures the 3-velocity (spatial velocity) of this particle as
+(8) vδ :ϵα(vδ,δ(τ2))eα α = 1, 2, 3
+where ϵ0, ϵ1,ϵ 2,ϵ 3 is the unique dual basis of e0, e1,e 2,e 3
+EY:20150407
+There might be a major correction to Eq. (8) from the Tutorial 14 : Relativistic spacetime, matter, and Gravitation, see the
+second exercise, Exercise 2, third question:
+(9) v := ϵα(vδ)
+ϵ0(vδ)eα
+Consequence: An observer ( γ,e ) will extract quantities measurable in his laboratory from objective spacetime quantities
+always like that.
+Ex: F Faraday (0, 2)-tensor of electromagnetism:
+
+
+[[page 22]]
+22 ERNEST YEUNG
+F (ea,eb) =Fab =
+
+
+0 E1 E2 E3
+−E1 0 B3 −B2
+−E2 −B3 0 B1
+−E3 B2 −B1 0
+
+
+observer frame ea,eb
+Eα :=F (e0,eα)
+Bγ :=F (eα,eρ)ϵαβγ where ϵ123 = +1 totally antisymmetric
+13.3. Role of the Lorentz transformations. Lorentz transformations emerge as follows:
+Let (γ,e ) and (˜γ,˜e) be observers with γ(τ1) =˜γ(τ2)
+(for simplicity γ(0) =˜γ(0)
+Now
+e0,...,e 1 at τ = 0
+and˜e0,..., ˜e1 at τ = 0
+both bases for the same Tγ(0)M
+Thus: ˜ea = Λb
+aeb Λ∈GL(4)
+Now:
+ηab =g(˜ea,˜eb) =g(Λm
+aem, Λn
+ben) =
+= Λm
+aΛn
+bg(em,en)  
+ηmn
+i.e. Λ∈O(1, 3)
+Result: Lorentz transformations relate the frames of any two observers at the same point.
+“˜xµ− Λµ
+νxν” is utter nonsense
+Tutorial. I didn’t see a tutorial video for this lecture, but I saw that the Tutorial sheet number 14 had the relevant topics. Go
+there.
+14. Lecture 14: Matter
+two types of matter
+point matter
+ﬁeld matter
+point matter
+massive point particle
+more of a phenomenological importance
+ﬁeld matter
+electromagnetic ﬁeld
+more fundamental from the GR point of view
+both classical matter types
+14.1. Point matter. Our postulates (P1) and (P2) already constrain the possible particle worldlines.
+But what is their precise law of motion, possibly in the presence of “forces”,
+(a) without external forces
+Smassive[γ] :=m
+∫
+dλ
+√
+gγ(λ)(vγ,γ(λ),vγ,γ(λ))
+with:
+gγ(λ)(Tγ(λ),vγ,γ(λ))> 0
+dynamical law Euler-Lagrange equation
+similarly
+Smassless[γ,µ ] =
+∫
+dλµg(vγ,γ(λ),vγ,γ(λ))
+δµ g(vγ,γ(λ),vγ,γ(λ)) = 0
+δγ e.o.m.
+Reason for describing equations of motion by actions is that composite systems have an action that is the sum of the
+actions of the parts of that system, possibly including “interaction terms. ”
+Example.
+S[γ] +S[δ] +Sint[γ,δ ]
+(b) presence of external forces
+or rather presence of ﬁelds to which a particle “couples ”
+Example
+S[γ;A] =
+∫
+dλm
+√
+gγ(λ)(vγ,γ(λ),vγ,γ(λ)) +qA(vγ,γ(λ))
+where A is a covector ﬁeld on M. A ﬁxed (e.g. the electromagnetic potential)
+Consider Euler-Lagrange eqns. Lint =qA(x) ˙γm
+(x)
+m(∇vγvγ)a +
+˙(
+∂Lint
+∂ ˙m
+(x)
+)
+γ− ∂Lint
+∂γm
+(x)
+  
+∗
+= 0 =⇒ m(∇vγvγ)a = −qFa
+m ˙γm
+  
+Lorentz force on a charged particle in an electromagnetic ﬁeld
+∂L
+∂ ˙γa =qA(x)a,
+˙( ∂L
+∂ ˙m
+)
+γ =q· ∂
+∂xm (A(x)m)· ˙γm
+(x)
+∂L
+∂γa =q· ∂
+∂xa (A(x)m) ˙γm
+∗ =q
+(∂Aa
+∂xm− ∂Am
+∂xa
+)
+˙γm
+(x) =q·F(x)am ˙γm
+(x)
+F← Faraday
+S[γ] =
+∫
+(m
+√
+g(vγ,vγ) +qA(vγ))dλ
+14.2. Field matter.
+Deﬁnition 46. Classical (non-quantum) ﬁeld matter is any tensor ﬁeld on spacetime where equations of motion derive from
+an action.
+Example:
+SMaxwell[A] = 1
+4
+∫
+M
+d4x√−gFabFcdgacgbd
+A (0, 1)-tensor ﬁeld
+= thought cloud: for simplicity one chart covers all of M
+− for√−g (+−−− )
+Fab := 2∂[aAb] = 2(∇[aA)b]
+Euler-Lagrange equations for ﬁelds
+0 = ∂L
+∂Am
+− ∂
+∂xs
+( ∂L
+∂∂sAm
+)
++ ∂
+∂xs
+∂
+∂xt
+∂2L
+∂∂t∂sAm
+
+
+[[page 23]]
+GR 23
+Example . . .
+(∇ ∂
+∂xmF )ma =ja
+inhomogeneous Maxwell
+thought bubble j =qvγ
+∂[aFb]− ()
+homogeneous Maxwell
+Other example well-liked by textbooks
+SKlein-Gordon[φ] :=
+∫
+M
+d4x√−g[gab(∂aφ)(∂bφ)−m2φ2]
+φ (0, 0)-tensor ﬁeld
+14.3. Energy-momentum tensor of matter ﬁelds. At some point, we want to write down an action for the metric tensor
+ﬁeld itself.
+But then, this action Sgrav[g] will be added to any Smatter[A,φ,... ] in order to describe the total system.
+Stotal[g,A ] =Sgrav[g] +SMaxwell[A,g ]
+δA :=⇒ Maxwell’s equations
+δgab : 1
+16πGGab + (−2Tab) = 0
+G Newton’s constant
+Gab = 8πGNTab
+Deﬁnition 47. Smatter[Φ,g ] is a matter action, the so-called energy-momentum tensor is
+Tab := −2√−g
+(∂Lmatter
+∂gab
+−∂s
+∂Lmatter
+∂∂sgab
++...
+)
+− of −2√g is Schr¨ odinger minus (EY : 20150408 F.Schuller’s joke? but wise)
+choose all sign conventions s.t.
+T (ϵ0,ϵ 0)> 0
+Example: For SMaxwell:
+Tab =FamFbngmn− 1
+4FmnFmngab
+Tab≡TMaxwellab
+T (e0,e 0) =E2 +B2
+T (e0,eα) = (E×B)α
+Fact: One often does not specify the fundamental action for some matter, but one is rather satisﬁed to assume certain
+properties / forms of
+Tab
+Example Cosmology: (homogeneous & isotropic)
+perfect ﬂuid
+of pressure p and density ρ modelled by
+Tab = (ρ +p)uaub−pgab
+radiative ﬂuid
+What is a ﬂuid of photons:
+observe:
+T ab
+Maxwellgab = 0
+T ab
+p.f.gab
+!
+= 0
+= (ρ +p)uaubgab−pgabgab  
+4
+↔ρp04p = 0
+ρ = 3p
+p = 1
+3ρ
+Reconvene at 3 pm? (EY : 20150409 I sent a Facebook (FB) message to the International Winter School on Gravity and
+Light: there was no missing video; it continues on Lecture 15 immediately)
+Tutorial 14: Relativistic Spacetime, Matter and Gravitation. Exercise 2: Lorentz force law.
+Question electromagnetic potential.
+15. Lecture 15: Einstein gravity
+Recall that in Newtonian spacetime, we were able to reformulate the Poisson law ∆ φ = 4πGNρ in terms of the Newtonian
+spacetime curvature as
+R00 = 4πGNρ
+R00 with respect to∇Newton
+GN = Newtonian gravitational constant
+This prompted Einstein to postulate < 1915 that the relativistic ﬁeld equations for the Lorentzian metric g of (relativistic)
+spacetime
+Rab = 8πGNTab
+However, this equation suﬀers from a problem
+LHS: (∇aR)ab̸= 0
+generically
+RHS:
+(∇aT )ab = 0
+thought bubble: = formulated from an action
+Einstein tried to argue this problem away.
+Nevertheless, the equations cannot be upheld.
+15.1. Hilbert. Hilbert was a specialist for variational principles.
+To ﬁnd the appropriate left hand side of the gravitational ﬁeld equations, Hibert suggested to start from an action
+SHilbert[g] =
+∫
+M
+√−gRabgab
+thought bubble = “simplest action”
+aim: varying this w.r.t. metric gab will result in some tensor
+Gab = 0
+
+
+[[page 24]]
+24 ERNEST YEUNG
+15.2. Variation of SHilbert.
+0
+!
+= δ
+gi
+SHilbert[g] =
+∫
+M
+[δ√−ggabRab  
+1
++√−gδgabRab  
+2
++√−ggabδRab  
+3
+]
+and 1 : δ√−g =−(detg)gmnδgmn
+2√−g = 1
+2
+√−ggmnδgmn
+thought bubble
+δdet(g) = det(g)gmnδgmn
+e.g. from
+det(g) = exp trlng
+ad 2: gabgbc =δa
+c
+=⇒ (δgab)gbc +gab(δgbc) = 0
+=⇒δgab =−gamgbnδgmn
+ad 3:
+∆Rab =
+normal coords at point
+δ∂bΓm
+am−δ∂mΓm
+ab + ΓΓ− ΓΓ =
+=∂bδΓm
+am−∂mδΓm
+ab =
+=∇b(δΓ)m
+am−∇m(δΓ)m
+ab
+=⇒√−ggabδRab =√−g
+“if you formulate the variation properly, you’ll see the variation δ commute with ∂b” EY : 20150408 I think one uses the
+integration at the bounds, integration by parts trick
+Γi
+(x) jk−˜Γi
+(x) jk are the components of a (1, 2)-tensor.
+Notation: (∇bA)i
+g =:Ai
+j;b
+=⇒√−ggabδRab
+=
+∇g=0
+√−g(gabδΓm
+am);b−√−g(gabδΓm
+ab);m =√−gAb
+;b−√−gBm
+,m
+Question: Why is the diﬀerence of coeﬃcients a tensor?
+Answer:
+Γi
+(y) jk = ∂yi
+∂xm
+∂xm
+∂yj
+∂xq
+∂yk Γm
+(x) ,nq + ∂yi
+∂xm
+∂2xm
+∂yj∂yk
+Collecting terms, one obtains
+0
+!
+=δSHilbert =
+∫
+M
+[1
+2
+√−ggmnδgmngabRab−√−ggamgbnδgmnRab + (√−gAa),a  
+surface
+− (√−gBb),b  
+surface term
+]
+=
+∫
+M
+√−gδ g mn
+arbitrary variation
+[1
+2gmnR−Rmn] =⇒Gmn =Rmn− 1
+2gmnR
+Hence Hilbert, from this “mathematical” argument, concluded that one may take
+Rab− 1
+2gabR = 8πGNTab
+Einstein equations
+SE−H[g] =
+∫
+M
+√−gR
+15.3. 3. Solution of the ∇aTab = 0 issue. One can show (→ Tutorials) that the Einstein curvature
+Gab =Rab− 1
+2gabR
+satisfy the so-called contracted diﬀerential Bianchi identity
+(∇aG)ab = 0
+15.4. Variants of the ﬁeld equations.
+(a) a simple rewriting:
+Rab− 1
+2gabR = 8πGNTab =Tab
+GN = 1
+8π
+Contract on both sides gab
+Rab− 1
+2gabR =Tab||gab
+R− 2R =T :=Tabgab
+=⇒R =−T
+=⇒Rab + 1
+2gabT =Tab
+⇐⇒Rab = (Tab− 1
+2Tgab) =: ˆTab
+Rab = ˆTab
+(b)
+SE−H[g] :=
+∫
+M
+√−g(R + 2Λ)
+thought bubble: Λ cosmological constant
+History:
+1915: Λ < 0 (Einstein) in order to get a non-expanding universe
+>1915: Λ = 0 Hubble
+today Λ > 0 to account for an accelerated expansion
+Λ̸= 0 can be interpreted as a contribution
+− 1
+2Λg to the energy-momentum
+“dark energy”
+Question: surface terms scalar?
+Answer: for a careful treatment of the surface terms which we discarded, see, e.g. E. Poisson, “A relativist’s toolkit”
+C.U.P. “excellent book”
+Question: What is a constant on a manifold?
+Answer:
+∫√−gΛ = Λ
+∫√−g1
+[back to dark energy]
+[Weinberg, QCD, calculated]
+idea: 1 could arise as the vacuum energy of the standard model ﬁelds
+Λcalculated = 10120× Λobs
+“worst prediction of physics”
+Tutorials: check that
+• Schwarzscheld metric (1916)
+• FRW metric
+• pp-wave metric
+• Reisner-Nordstrom
+
+
+[[page 25]]
+GR 25
+=⇒ are solutions to Einstein’s equations
+in high school
+m¨x +mω2x2 = 0
+x(t) = cos (ωt)
+ET: [elementary tutorials]
+study motion of particles & observers in Schwarzscheld S.T.
+Satellite: Marcus C. Werner
+Gravitational lensing
+odd number of pictures Morse theory (EY:20150408 Morse Theory !!!)
+Domenico Giulini
+Hamiltonian form Canonical Formulations
+Key to Quantum Gravity
+Tutorial 13 Schwarzschild Spacetime
+EY : 20150408 I’m not sure which tutorial follows which lecture at this point.
+The tutorial video is excellent itself. Here, I want to encourage the use of CAS to do calculations. There are many out there.
+Again, I’m partial to the Sage Manifolds package for Sage Math which are both open-source and based on Python. I’ll use that
+here.
+Exercise 1. Geodesics in a Schwarzschild spacetime
+Question Write down the Lagrangian.
+Load “Schwarzschild.sage” in Sage Math, which will always be available freely here https://github.com/ernestyalumni/
+diffgeo-by-sagemnfd/blob/master/Schwarzschild.sage:
+sage: load("Schwarzschild.sage")
+4-dimensional manifold ’M’
+open subset ’U_sph’ of the 4-dimensional manifold ’M’
+Levi-Civita connection ’nabla_g’ associated with the Lorentzian metric ’g’ on the 4-dimensional manifold ’M’
+and so on.
+Look at the code and I had deﬁned the Lagrangian to be
+L
+. To get out the coeﬃcients of L of the components of the tangent vectors to the curve, i.e. t′,r′,θ′,φ′, denoted
+tp,rp,thp,php
+in my .sage ﬁle, do the following:
+sage: L.expr().coefficients(tp)[1][0].factor().full_simplify()
+(2*G_N*M_0 - r)/r
+sage: L.expr().coefficients(rp)[1][0].factor().full_simplify()
+-r/(2*G_N*M_0 - r)
+sage: L.expr().coefficients(php)[1][0].factor().full_simplify()
+r^2
+sage: L.expr().coefficients(thp)[1][0].factor().full_simplify()
+r^2*sin(th)^2
+Question There are 4 Euler-Lagrange equations for this Lagrangian. Derive the one with respect to the function t(λ)!.
+sage: L.expr().diff(t)
+0
+This conﬁrms that ∂L
+∂t = 0
+For d
+dλ
+∂L
+∂t′ , then one needs to consider this particular workaround for Sage Math (computer technicality). One takes deriva-
+tives with respect to declared variables (declared with var) and then substitute in functions that are dependent upon λ, and
+then take the derivative with respect to the parameter λ. This does that:
+sage: L.expr().diff( thp ).factor().subs( r == gamma1 ).subs( thp == gamma3.diff( tau ) ).subs( th == gamma3 ).diff(tau)\
+....: .factor()
+2*(2*cos(gamma3(tau))*gamma1(tau)*D[0](gamma3)(tau)^2 + 2*sin(gamma3(tau))*D[0](gamma1)(tau)*D[0](gamma3)(tau)
++ gamma1(tau)*sin(gamma3(tau))*D[0, 0](gamma3)(tau))*gamma1(tau)*sin(gamma3(tau))
+Question Show that the Lie derivative of g with respect to the vector ﬁelds Kt := ∂
+∂t .
+The ﬁrst line deﬁnes the vector ﬁeld by accessing the frame deﬁned on a chart with spherical coordinates and getting the
+time vector. The second line is the Lie derivative of g with respect to this vector ﬁeld.
+sage: K_t = espher[0]
+sage: g.lie_der(K_t).display() # 0, as desired
+0
+EY : 20150410 My question is this: ∀X∈ Γ(TM ) i.e. X is a vector ﬁeld on M, or, speciﬁcally, a section of the tangent
+bundle, then does
+LXg = 0
+instantly mean that X is a symmetry for (M,g )?LXg is interpreted geometrically as how g changes along the ﬂow generated
+byX, and if it equals 0, then g doesn’t change.
+16.
+17.
+18. Canonical Formulation of GR I
+Dynamical and Hailtonian formulation of General Relativity.
+Purpose
+(1) formulate and solve initial-value problems
+(2) integrate Einstein’s Equations by numerical codes
+(3) characterize degrees of freedom
+(4) characterize isolated systems, associated symmetry groups and conserved quantities, like Energy/Mass, Momenta (linear
+and angular), Poincar´ e charges
+(5) starting point for “canonical quantization” program.
+How. We will rewrite Einstein’s Eq. in form of a constrained Hamiltonian system.
+Rµν− 1
+2gµνR
+  
+Gµν
++ Λ
+kosm.const.
+gµν = k
+8πG
+c4
+Tµν
+(− + ++)
+Tµν =
+(
+W 1
+cSm
+cgm tmn
+)
+W = Energy density (1 component)
+gm = Momentum density, (3 components)
+Sm = Energy current-density (3 components)
+tmn = Momentum current-density (6 components)
+
+
+[[page 26]]
+26 ERNEST YEUNG
+Tµν =Tνµ =⇒Sm =c2gm
+10 independent komp. (components)
+Phys. dim. [Tµν] = J
+m3
+[Gµν] = 1
+m2
+[k] = 1
+m2/ J
+m3 ,
+k = curvature
+Energy · density
+2k Curvature
+mass density =
+( 1
+1.5 AU
+)2
+/ Density of water
+=
+( 1
+10km
+)2
+/ Nuclear density in core of neutron star ≃ 5· 1017kg/m3
+If “Ein” for Einstein Tensor, Gµν = Ein
+( ∂
+∂xµ, ∂
+∂xν
+)
+Ein(v,w ) = 1
+4[Ein(v +w,v +w)− Ein(v−w,v−w)
+Ein(w,w ) =−g(w,w )
+∑
+⊥w
+Sec
+where⊥w is take the sum over any triple of mutually perp. 2-planes in ⊥w
+Sec(Span{v,w}) = Riem(v,w,v,w)
+[g(v,w)]2−g(v,v)g(w,w)
+“sectional curvature”
+Identity:∇µGµν = 0 (follows from twice-contracted II. Bianchi Identity∑
+λµν cycl∇λRαβµν = 0 )
+∂0G0ν
+  
+contains at most 1st time der.
++ ∂kGkν + ΓG + ΓG≡ 0  
+contains at most 2nd. time derivatives
+=⇒ 4 out of 10 Einstein Eq. do not evolve the ﬁelds but rather constrain the initial data. The space-space components (6
+Eqns.) are the evolution Eqns.
+10 Einstein Eq. - 4 constraints (underdetermined elliptic type)
+\ - 6 evolution equations (undetermined hyperbolic type)
+19.
+20.
+21.
+22. Lecture 22: Black Holes
+Only depends on Lectures 1-15, so does lecture on “Wednesday”
+Schwarzschild solution also vacuum solution (from tutorial EY : oh no, must do tutorial)
+Study the Schwarzschild as a vacuum solution of the Einstein equation:
+m =GNM where M is the “mass”
+g =
+(
+1− 2m
+r
+)
+dt⊗dt− 1
+1− 2m
+r
+dr⊗dr−r2(dθ⊗dθ + sin2θdϕ⊗dϕ
+in the so-called Schwarzschild coordinates t r θ ϕ
+(−∞,∞) (0 ,∞) (0 ,π ) (0 , 2π)
+What staring at this metric for a while, two questions naturally pose themselves:
+(i) What exactly happens r = 2m?
+t r θ ϕ
+(−∞,∞) (0 , 2m)∪ (2m,∞) (0 ,π ) (0 , 2π)
+(ii) Is there anything (in the real world) beyond t→−∞
+t→ +∞
+?
+idea: Map of Linz, blown up
+Insight into these two issues is aﬀorded by stopping to stare.
+Look at geodesic of g, instead.
+22.1. Radial null geodesics. null - g(vγ,vγ) = 0
+Consider null geodesic in “Schd ”
+S[γ] =
+∫
+dλ
+[(
+1− 2m
+r
+)
+˙t2−
+(
+1− 2m
+r
+)−1
+˙r2−r2( ˙θ2 + sin2θ ˙ϕ2)
+]
+with [... ] = 0
+and one has, in particular, the t-eqn. of motion:
+((
+1− 2m
+r
+)
+˙t
+).
+= 0
+=⇒ (
+1− 2m
+r
+)
+˙t =k = const.
+Consider radial null geodesics
+θ
+!
+= const. ϕ = const.
+From□ and□
+=⇒ ˙r2 =k2↔ ˙r =±k
+=⇒r(λ) =±k·λ
+Hence, we may consider
+˜t(r) :=t(±kλ)
+Case A:⊕
+d˜t
+dr =
+˙˜t
+˙r = k(
+1− 2m
+r
+)
+k = r
+r− 2m
+=⇒˜t+(r) =r + 2m ln|r− 2m|
+(outgoing null geodesics)
+Case b.± (Circle around−, consider−):
+˜t−(r) =−r− 2m ln|r− 2m|
+(ingoing null geodesics)
+Picture
+
+
+[[page 27]]
+GR 27
+22.2. Eddington-Finkelstein. Brilliantly simple idea:
+change (on the domain of the Schwarzschild coordinates) to diﬀerent coordinates, s.t.
+in those new coordinates,
+ingoing null geodesics appear as straight lines, of slope −1
+This is achieved by
+¯t(t,r,θ,ϕ ) :=t + 2m ln|r− 2m|
+Recall: ingoing null geodesic has
+˜t(r) =−(r + 2m ln|r− 2m|) ( Schdcoords)
+⇐⇒¯t− 2m ln|r− 2m| =−r− 2m ln|r− 2m| + const.
+∴ ¯t =−r + const.
+(Picture)
+outgoing null geodesics
+¯t =r + 4m ln|r− 2m| + const.
+Consider the new chart (V,g ) while (U,x ) was the Schd chart.
+U
+Schd
+⋃
+{ horizon} =V
+“chart image of the horizon”
+Now calculate the Schd metric g w.r.t. Eddington-Finkelstein coords.
+¯t(t,r,θ,ϕ ) =t + 2m ln|r− 2m|
+¯r(t,r,θ,ϕ ) =r
+¯θ(t,r,θ,ϕ ) =θ
+¯ϕ(t,r,θ,ϕ ) =ϕ
+EY : 20150422 I would suggest that after seeing this, one would calculate the metric by your favorite CAS. I like the Sage
+Manifolds package for Sage Math.
+Schwarzschild BH.sage on github
+Schwarzschild BH.sage on Patreon
+Schwarzschild BH.sage on Google Drive
+sage: load(‘‘Schwarzschild_BH.sage’’)
+4-dimensional manifold ’M’
+expr = expr.simplify_radical()
+Levi-Civita connection ’nabla_g’ associated with the Lorentzian metric ’g’ on the 4-dimensional manifold ’M’
+Launched png viewer for Graphics object consisting of 4 graphics primitives
+Then calculate the Schwarzschild metric g but in Eddington-Finkelstein coordinates. Keep in mind to calculate the set of
+coordinates that uses ¯t, not˜t:
+sage: gI.display()
+gI = (2*m - r)/r dt*dt - r/(2*m - r) dr*dr + r^2 dth*dth + r^2*sin(th)^2 dph*dph
+sage: gI.display( X_EF_I_null.frame())
+gI = (2*m - r)/r dtbar*dtbar + 2*m/r dtbar*dr + 2*m/r dr*dtbar + (2*m + r)/r dr*dr + r^2 dth*dth + r^2*sin(th)^2 dph*dph
+Part 2. Special Relativity
+Physics Stackexchange question (from Wesley) and answer (from David Bar Moshe had an excellent question and explanation
+for special relativity.
+http://physics.stackexchange.com/questions/12221/what-does-a-frame-of-reference-mean-in-terms-of-manifolds
+Recall that for charts (U,x )∈A M
+(U′,x′)∈A M
+, of smooth atlasAM of smooth M. Now x :U⊂M→ Rn
+x′ :U′⊂M→ Rn
+If U∩U′̸=∅, by def. of smooth atlas AM, x′◦x : Rn→ Rn
+x◦x′ : Rn→ Rn
+are diﬀeomorphisms.
+For notation,
+A,B∈ Ω1(M)
+A∧B∈ Ω2(M)
+A∧B =Aidxi∧Bjdxj =AiBjdxi∧dxj
+A,B∈TpM or TM
+A∧B∈∧ 2(TM ), A∧B =Aiei∧Bjei =AiBjei∧ej
+(A×B)i =eijkAjBk or A×B =AjBkϵijkei
+if dimM = 3,∗(A∧B) =
+√g
+(3−2)!AiBjgilgjmϵlmndxn =√ggilAigjmBjϵlmndxn
+Part 3. Euclidean space
+23. R2
+Consider R2 as a smooth manifold.
+Clearly, R2 is covered by 1 chart, with so-called Cartesian coordinates (that also happen to be global coordinates, in this
+particular case): ( R2,Ostd,A ={={(R2,ϕ cart)}), with the chart (which is a homeomorphism, by deﬁnition)
+ϕcart : R2→ R2
+ϕcart :p≡ (x,y )↦→ (x,y )
+Clearly,ϕcart = 1R2 is a homeomorphism; in fact, it’s a smooth diﬀeomorphism.
+Ostd denotes the so-called “standard” topology, that open sets consists of Euclidean d-balls. I will assume this topology for
+this discussion of Rd’s.
+Clearly, the above discussion generalizes to Rd.
+Consider the so-called polar coordinates
+(10)
+x =r cosϕ
+y =r sinϕ
+wherer≥ 0 and ϕ∈ R. We want to construction a homeomorphism ϕ−1
+pol from an open subset V ⊆ R2 to R2 according to these
+polar coordinates:
+ϕ−1
+pol :V ⊆ R2→ R2
+ϕ−1
+pol : (r,ϕ )↦→ (x,y )
+Immediately, from this choice of polar coordinates, we see problems with deﬁning a homeomorphism, which is a bijection by
+deﬁnition. For instance, let (ϕ−1
+pol)−1≡ϕpol (deﬁning this highly suggestive notation), and so
+ϕpol : R2→ R2
+ϕpol : (x,y )↦→ (r,ϕ )
+
+
+[[page 28]]
+28 ERNEST YEUNG
+The single point, the origin of R2, gets mapped to many possible values! In other words,
+ϕpol(0, 0) ={(r,ϕ )|r = 0 or ϕ∈ R}
+Clearly this must be the case for any kind of coordinates involving cos’s, sin’s, etc. (i.e. transcendental functions). So the
+choice of these kinds of coordinates necessitate giving up on the possibility of a single chart covering the entire manifold of the
+Euclidean space.
+Consider
+V :={(r,ϕ )|r> 0,ϕ∈ (0, 2π)}⊂ R2
+[0,∞)× [0, 2π)−V ={(r,ϕ )|r = 0 or ϕ = 0}
+Nowϕ−1
+pol([0,∞)× [0, 2π)) = R2, i.e. ϕ−1
+pol maps [0,∞)× [0, 2π) onto R2 “once.”
+Now consider if ϕ = 0. Then x =r
+y = 0
+for r> 0. So x> 0 and y = 0. If r = 0, then (x,y ) = (0, 0). Thus
+ϕ−1
+pol([0,∞)× [0, 2π)−V ) ={(x,y )|x≥ 0 and y = 0}
+(If you have trouble seeing this, think of the union of the cases when r = 0 or when ϕ = 0). Thus
+ϕ−1
+pol(V ) ={(x,y )|x< 0 or y̸= 0}
+Thus, in summary, we can include this chart into atlas A:
+(11)
+(U,ϕ pol)∈A
+U ={(x,y )|x< 0 or y̸= 0}
+ϕpol(U) ={(r,ϕ )|r> 0,ϕ∈ (0, 2π)}
+ϕpol :U→ R2
+ϕpol(x,y ) = (
+√
+x2 +y2, arctan
+(y
+x
+)
+ϕ−1
+pol :ϕpol(U)→ R2
+ϕ−1
+pol(r,ϕ ) = (r cosϕ,r sinϕ) = (x,y )
+If someone really wanted to, one can try to cover R2 with another polar coordinate chart, but I would argue that we already
+have the cartesian coordinate chart that singlely covers R2. Also note that the transition map between polar coordinate charts
+and the cartesian coordinate chart is easy, since the cartesian chart is the identity.
+24. R3
+Consider the spherical coordinates
+(12)
+x =r sinθ cosϕ
+y =r sinθ sinϕ
+z =r cosθ
+We seek to construct a chart and open subset/domain for these spherical coordinates. So consider, in parallel, following closely
+the discussion above for R2,
+ϕ−1
+sph :V ⊂ R3→ R3
+ϕ−1
+sph : (r,θ,ϕ )↦→ (x,y,z )
+V :={(r,θ,ϕ )∈ R3|r> 0,θ∈ (0,π ),ϕ∈ (0, 2π)}
+ϕ−1
+sph([0,∞)× [0,π )× [0, 2π)) = R3( once over )
+[0,∞)× [0,π )× [0, 2π)−V ={(r,θ,ϕ )|r = 0 or θ = 0 or ϕ = 0}
+Now if ϕ = 0,
+x =r sinθ
+y = 0
+z =r cosθ
+, and if θ = 0,
+x = 0
+y = 0
+z =r
+, for r> 0 and θ∈ (0,π ).
+Thus,
+ϕ−1
+sph([0,∞)× [0,π )× [0, 2π)−V ) ={(x,y,z )|y = 0 and x≥ 0}
+ϕ−1
+sph(V ) ={(x,y,z )|y̸= 0 or x< 0}
+So, in summary,
+(13)
+(U,ϕ sph)∈A with
+U ={(x,y,z )|x< 0 or y̸= 0}
+ϕsph(U) ={(r,θ,ϕ )|r> 0,θ∈ (0,π ),ϕ∈ (0, 2π)}
+ϕsph :U→ R3
+ϕsph(x,y,z ) = (
+√
+x2 +y2 +z2, arctan
+(√
+x2 +y2
+z
+)
+, arctan
+(y
+x
+)
+)
+ϕ−1
+sph :ϕsph(U)→ R3
+ϕ−1
+sph(r,θ,ϕ ) = (r sinθ cosϕ,r sinθ sinϕ,r cosθ)
+Consider another chart for cylindrical coordinates for R3:
+(14)
+x =r cosϕ
+y =r sinϕ
+z =z
+Following a similar procedure as above, let
+ϕ−1
+cyl :V ⊆ R3→ R3
+ϕ−1
+cyl : (r,ϕ,z )↦→ (x,y,z ) = (r cosϕ,r sinϕ,z )
+ϕ−1
+cyl([0,∞)× [0, 2π)× R) = R3 (once over)
+V :={(r,ϕ,z )∈ R3|r> 0, ϕ∈ (0, 2π), z∈ R}
+and so
+[0,∞)× [0,π )× R−V ={(r,ϕ,z )|r = 0 or ϕ = 0}
+if ϕ = 0,
+x =r
+y = 0
+z =z
+, for r> 0.
+Thus
+ϕ−1
+cyl([0,∞)× [0, 2π)× R−V ) ={(x,y,z )|y = 0 and x≥ 0}
+and so
+(15)
+(U,ϕ cyl)∈A with
+U ={(x,y,z )|y̸= 0 or x< 0}
+ϕcyl(x,y,z ) = (
+√
+x2 +y2, arctan
+(y
+x
+)
+,z )
+
+
+[[page 29]]
+GR 29
+25. Rn
+For “spherical coordinates” of Rn,
+(16)
+x1 =r sin (θ1)... sin (θn−2) cos (φ)
+x2 =r sin (θ1)... sin (θn−2) sin (φ)
+x3 =r sin (θ1)... sin (θn−3) cos (θn−2)
+x4 =r sin (θ1)... sin (θn−4) cos (θn−3)
+...
+xn−1 =r sin (θ1) cos (θ2)
+xn =r cos (θ1)
+Consider V ={(r,θ 1...θ n−2,φ )|r> 0,θ 1,θ 2,...θ n−2∈ (0,π ),φ∈ (0, 2π)}.
+Now for θi = 0, i∈ 1...n − 2, x1 =x2 =··· =xn−i = 0.
+for φ = 0, x2 = 0, x1 > 0, since θi∈ (0,π ) ∀i∈ 1...n − 2.
+So let
+V ={(x1...x n)|x2 = 0 and x1≥ 0}
+and so
+(17) U ={(x1...x n)|x2̸= 0 or x1 < 0}
+and we have chart (homeomorphism)
+ϕsph :U→ Rn
+ϕsph(x1...x n) = (
+√
+x2
+1 +··· +x2n,
+arctan
+
+
+√
+x2
+1 +··· +x2
+n−1
+xn
+
+, arctan
+
+
+√
+x2
+1 +··· +x2
+n−2
+xn−1
+
+,... arctan
+(√
+x2
+1 +x2
+2
+x3
+)
+, arctan
+(x2
+x1
+)
+)
+For “cylindrical coordinates” of Rn, with coordinate xn being a parameter of each “sphere”,
+(18)
+x1 =r sin (θ1)... sin (θn−3) cos (φ)
+x2 =r sin (θ1)... sin (θn−3) sin (φ)
+x3 =r sin (θ1)... sin (θn−4) cos (θn−3)
+x4 =r sin (θ1)... sin (θn−5) cos (θn−4)
+...
+xn−2 =r sin (θ1) cos (θ2)
+xn−1 =r cos (θ1)
+xn =xn
+If θi = 0, i∈ 1...n − 3, x1 =x2 =··· =xn−1−i = 0.
+If φ = 0, x2 = 0.
+ForV ={(r,θ 1...θ n−3,φ,z )|r∈ (0,∞), θi∈ (0,π )∀i∈ 1,...n − 3, φ∈ (0, 2π), z∈ R},
+ϕ−1
+cyl([0,∞)× [0,π )···× [0,π )× [0, 2π)× R−V ) ={(x1...x n)|x2 = 0 and x1≥ 0}
+For ifφ = 0, x2 = 0, and x1(ϕ = 0) =r sin (θ1)... sin (θn−3)> 0 for θ1...θ n−3∈ (0,π ).
+Thus,
+(19) ϕ−1
+cyl(V ) ={(x1...x n)|x2̸= 0 or x1 < 0} =:Ucyl
+and the chart is
+ϕcyl :U→ Rn
+ϕcyl(x1...x n) = (
+√
+x2
+1 +··· +x2
+n−1,
+arctan
+
+
+√
+x2
+1 +··· +x2
+n−2
+xn−1
+
+, arctan
+
+
+√
+x2
+1 +··· +x2
+n−3
+xn−2
+
+,... arctan
+(√
+x2
+1 +x2
+2
+x3
+)
+, arctan
+(x2
+x1
+)
+,xn)
+25.0.1. Sage Math, sagemanifolds, implementation. As described above, with our chart constructions for spherical (or polar for
+2-dimensions) and cylindrical coordinates, the Euclidean spaces R2, R3, and Rn, in general, (for instance, say n = 4), can be
+implemented in Sage Math, using the sagemanifolds package. This implementation is given in Rn.sage of the github repository
+Gravite.
+What Rn.sage provides are Python classes so that one can create automatically orinstantiate Euclidean spaces as a manifold,
+and the “usual” atlas with charts for spherical and/or cylindrical coordinates. It was coded (you should be welcomed to take a
+look at the code directly) to follow precisely the logic of the above developments, e.g. the open subset U in Equations 11, 13,
+15, 17, 19 is written into the code for the classes that represent the Euclidean spaces as such:
+class R2(object):
+def __init__(self):
+self.M = Manifold(2,’R2’,r’\mathbb{R}^2’,start_index=1)
+self.cart_ch = self.M.chart(’x␣y’)
+self.U = self.M.open_subset(’U’,coord_def={self.cart_ch: (self.cart_ch[1]<0, self.cart_ch[2]!=0)})
+class R3(object):
+def __init__(self):
+self.M = Manifold(3,’R3’,r’\mathbb{R}^3’,start_index=1)
+self.cart_ch = self.M.chart(’x␣y␣z’)
+self.U = self.M.open_subset(’U’,coord_def={self.cart_ch: (self.cart_ch[1]<0, self.cart_ch[2]!=0)})
+class Rn(object):
+def __init__(self,n):
+assert n>0
+if n == 2:
+print ‘‘Use the class R2’’
+elif n == 3:
+print ‘‘Use the class R3’’
+else:
+self.M = Manifold(n,’R’+str(n),r’\mathbb{R}^’+str(n),start_index=1)
+self.cart_ch = self.M.chart(r’’ ‘‘.join([r’’x’’+str(i) for i in range(1,n+1)]))
+xis = [self.cart_ch[i[0]] for i in self.M.index_generator(1)]
+self.U = self.M.open_subset(’U’,coord_def={self.cart_ch:(xis[0]<0,xis[1]!=0)})
+so that the “spirit” in coding up Rn.sage is to follow the (abstract) math developed above closely and exactly, if possible.
+Now, for instance, to implement
+(R2,AR2) AR2 ={(R2,ϕ cart≡xi), (U,ϕ pol≡ϕsph)}
+(R3,AR3) AR3 ={(R3,xi), (U,ϕ sph), (U,ϕ cyl)}
+(Rn,ARn) ARn ={(Rn,xi), (U,ϕ sph), (U,ϕ cyl)}
+one does, after loading the ﬁle, which is assumed to be in the working directory for Sage (simply cd or change directory into it)
+into Sage Math
+sage: load(‘‘Rn.sage’’)
+sage: R2eg = R2()
+sage: R3eg = R3()
+sage: R4 = Rn(4)
+Indeed, the coordinate transformations in Equations 10, 12, 14, 16, 18 are implemented with this ﬁle Rn.sage as follows:
+
+
+[[page 30]]
+30 ERNEST YEUNG
+sage: R2eg.transit_sph_to_cart.display()
+x = r*cos(ph)
+y = r*sin(ph)
+sage: R3eg.transit_sph_to_cart.display()
+x = rh*cos(ph)*sin(th)
+y = rh*sin(ph)*sin(th)
+z = rh*cos(th)
+sage: R3eg.transit_cyl_to_cart.display()
+x = r*cos(phi)
+y = r*sin(phi)
+z = zc
+sage: R4.transit_sph_to_cart.display()
+x1 = rh*cos(ph)*sin(th1)*sin(th2)
+x2 = rh*sin(ph)*sin(th1)*sin(th2)
+x3 = rh*cos(th2)*sin(th1)
+x4 = rh*cos(th1)
+sage: R4.transit_cyl_to_cart.display()
+x1 = r*cos(phi)*sin(the1)
+x2 = r*sin(phi)*sin(the1)
+x3 = r*cos(the1)
+x4 = z
+I would welcome readers at any point to open up Rn.sage and play with the code and to run it in Sage Math and to explore
+the methods associated with the classes; I use command dir(). I want to point out that the Jacobian for the coordinate changes
+can be obtained easily by the following:
+sage: to_orthonormal2, e2, Jacobians2 = R2eg.make_orthon_frames(R2eg.sph_ch)
+sage: Jacobians2[0].inverse()[:,R2eg.sph_ch]
+[ cos(ph) -r*sin(ph)]
+[ sin(ph) r*cos(ph)]
+sage: to_orthonormal3sph, e3sph, Jacobians3sph = R3eg.make_orthon_frames(R3eg.sph_ch)
+sage: to_orthonormal3cyl, e3cyl, Jacobians3cyl = R3eg.make_orthon_frames(R3eg.cyl_ch)
+sage: Jacobians3sph[0].inverse()[:,R3eg.sph_ch]
+[ cos(ph)*sin(th) rh*cos(ph)*cos(th) -rh*sin(ph)*sin(th)]
+[ sin(ph)*sin(th) rh*cos(th)*sin(ph) rh*cos(ph)*sin(th)]
+[ cos(th) -rh*sin(th) 0]
+sage: Jacobians3cyl[0].inverse()[:,R3eg.cyl_ch]
+[ cos(phi) -r*sin(phi) 0]
+[ sin(phi) r*cos(phi) 0]
+[ 0 0 1]
+sage: to_orthonormal4sph, e4sph, Jacobians4sph = R4.make_orthon_frames(R4.sph_ch)
+sage: to_orthonormal4cyl, e4cyl, Jacobians4cyl = R4.make_orthon_frames(R4.cyl_ch)
+sage: Jacobians4sph[0].inverse()[:,R4.sph_ch]
+[ cos(ph)*sin(th1)*sin(th2) rh*cos(ph)*cos(th1)*sin(th2) rh*cos(ph)*cos(th2)*sin(th1) -rh*sin(ph)*sin(th1)*sin(th2)]
+[ sin(ph)*sin(th1)*sin(th2) rh*cos(th1)*sin(ph)*sin(th2) rh*cos(th2)*sin(ph)*sin(th1) rh*cos(ph)*sin(th1)*sin(th2)]
+[ cos(th2)*sin(th1) rh*cos(th1)*cos(th2) -rh*sin(th1)*sin(th2) 0]
+[ cos(th1) -rh*sin(th1) 0 0]
+sage: Jacobians4cyl[0].inverse()[:,R4.cyl_ch]
+[ cos(phi)*sin(the1) r*cos(phi)*cos(the1) -r*sin(phi)*sin(the1) 0]
+[ sin(phi)*sin(the1) r*cos(the1)*sin(phi) r*cos(phi)*sin(the1) 0]
+[ cos(the1) -r*sin(the1) 0 0]
+[ 0 0 0 1]
+As one can see, the Jacobian for the coordinate changes in Equations 10, 12, 14, 16, 18 was calculated (stop doing it by hand!).
+25.0.2. Euclidean metric g. We’d want to now equip our Euclidean space as a smooth manifold with the usual Euclidean metric
+g, which exists (or is valid) everywhere (i.e. globally) on the manifold. Thus, we can think of the Euclidean space as a triple
+(with the standard topology Ostd simply assumed and implicit):
+(R2,AR2,g )
+(R3,AR3,g )
+(Rn,ARn,g )
+This is precisely implemented in Sage Math, using the sagemanifolds package, as follows:
+sage: R2eg.equip_metric()
+sage: R3eg.equip_metric()
+sage: R4.equip_metric()
+25.1. Orthonormal coordinates, orthonormal (basis) vectors, and their problems. Coordinate basis vectors, ∂
+∂xi ∈
+X(U) that live on the chart domain U of chart (U,ϕ )∈A M of a smooth manifold, need to be carefully distinguished from
+so-called orthonormal or orthogonal coordinates and their orthonormal basis vectors, ei. This becomes problematic because
+most of us have grown up, with physics and engineering textbooks, with orthonormal basis vectors ei such as Cartesian basis
+vectors ex, ey, ez, cylindrical basis vectors er, eϕ, ez, and spherical basis vectors eρ, eθ, eφ without understanding how they are
+related to the metric on a manifold.
+I’m not sure why textbooks I’ve read doesn’t touch upon the diﬀerence between (local) coordinate basis vectors and orthonor-
+mal basis vectors more explicitly and lucidly. Frankel (2004) [4] touches upon this issue in Problem 2.1(2) of Chapter 2, calling
+the components of a vector ﬁeld in these orthonormal basis vectors “physical” components. Bertschinger in his lectures notes
+for MIT Physics 8.962 Spring 1999 calls them “orthonormal non-coordinate bases” in Section 3.7 Example: Euclidean plane of
+“Introduction to Tensor Calculus for General Relativity” 2. But from the manifold point of view, these non-coordinate bases
+seem to obfuscate what the components of a vector ﬁeld should be.
+We can agree upon a curveγ, γ : R→M
+γ(λ)∈M, λ∈ R
+, parametrized byλ∈ R on the manifold, and it can be shown from a theorem
+in Lee (2012) [3] (from essentially existence and uniqueness theorems for ordinary diﬀerential equations), that there exists vector
+ﬁeld u∈ X(M) such that u(λ) = ˙γ(λ).
+Schuller (2015) 3 deﬁnes the speeds(λ) to be
+s(λ) :=
+√
+g(u,u )
+Furthermore, Schuller argues, by equipping the manifold with a metric, that s(λ) carries the physical value of speed with units
+[L]
+[T], with L representing the physical dimensional unit for length, and T representing the physical dimensional unit for time.
+Consider M = R2 and the vector ﬁeld on U⊂ R2, ∂
+∂ϕ∈ X(R2). Now
+g
+( ∂
+∂ϕ, ∂
+∂ϕ
+)
+=gϕϕ =r2 =⇒s(λ) =r
+Clearly s(λ) = r carries the physical dimension of length, represented by r. However, prior, ∂
+∂ϕ makes no connection with the
+metric g of R2. So, prior, the (local) coordinate basis vectors carry no physical dimensions.
+However, consider these non-coordinate basis vectors for R2:
+er = ∂
+∂r
+eϕ = 1
+r
+∂
+∂ϕ
+Now
+g(er, er) = 1
+g(eϕ, eϕ) = 1
+2Edmund Bertschinger. MIT Physics 8.962 Spring 1999, Introduction to Tensor Calculus for General Relativity gr1.pdf
+3Frederic P. Schuller. “Lecture 10: Metric Manifolds (International Winter School on Gravity and Light 2015)”. The WE-Heraeus International Winter School on Gravity and Light . https://youtu.be/ONCZNwKswn4
+
+
+[[page 31]]
+GR 31
+and so the speed, for instance, of a curve ﬂowing along the orthonormal vector eϕ would be
+s(λ) =
+√
+g(eϕ, eϕ)
+and so er, eϕ have a norm of 1 with respect to the metric g and can be considered as “unit vectors” since the speed, while
+ﬂowing along them, s(λ) is 1.
+On the other hand, I would argue that using these non-coordinate basis vectors is complicated because we’ll have to deﬁne
+them, in general, as such:
+(20) ei := 1√
+g( ∂
+∂xi, ∂
+∂xi )
+∂
+∂xi = 1√gii
+∂
+∂xi
+The non-coordinate basis vectors are dependent upon the metric and it’s unclear if ei∈ X(M). Possibly, one could say that it
+is a valid vector ﬁeld on the valid domain if g is valid on there.
+Nevertheless, these orthonormal non-coordinate basis vectors are implemented in Rn.sage with the method
+.make_orthon_frames for each of the classes R2,R3,Rn. One runs or instantiates the method and the second output is the new
+orthonormal frame. Thus, the orthonormal frame or orthonormal non-coordinate basis vectors are calculated:
+sage: e2[1].display( R2eg.sph_ch.frame(), R2eg.sph_ch)
+e_1 = d/dr
+sage: e2[2].display( R2eg.sph_ch.frame(), R2eg.sph_ch)
+e_2 = 1/r d/dph
+sage: for i in range(1,3+1):
+....: e3sph[i].display( R3eg.sph_ch.frame(), R3eg.sph_ch )
+....:
+e_1 = d/drh
+e_2 = 1/rh d/dth
+e_3 = 1/(rh*sin(th)) d/dph
+sage: for i in range(1,3+1):
+e3cyl[i].display( R3eg.cyl_ch.frame(), R3eg.cyl_ch )
+....:
+e_1 = d/dr
+e_2 = 1/r d/dphi
+e_3 = d/dzc
+sage: for i in range(1,4+1):
+e4sph[i].display( R4.sph_ch.frame(), R4.sph_ch )
+....:
+e_1 = d/drh
+e_2 = 1/rh d/dth1
+e_3 = 1/(rh*sin(th1)) d/dth2
+e_4 = 1/(rh*sin(th1)*sin(th2)) d/dph
+sage: for i in range(1,4+1):
+e4cyl[i].display( R4.cyl_ch.frame(), R4.cyl_ch )
+....:
+e_1 = d/dr
+e_2 = 1/r d/dthe1
+e_3 = 1/(r*sin(the1)) d/dphi
+e_4 = d/dz
+
+
+[[page 32]]
+32 ERNEST YEUNG
+References
+[1] Eric Poisson, A Relativist’s T oolkit: The Mathematics of Black-Hole Mechanics , Cambridge University Press, 2004. ISBN 0 521 83091 5
+EY’s references:
+[2] Klaus J¨ anich (Author), S. Levy (Translator),T opology(Undergraduate Texts in Mathematics), Springer; 1st ed. 1984. 2nd Corr. printing 1994 edition (January 1, 1995).
+ISBN-13: 978-0387908922
+[3] John M. Lee. Introduction to Smooth Manifolds . 2012. Springer. ISBN-10: 0-387-95495-3 (hardcover), ISBN-13: 978-0387-95448-6
+[4] T. Frankel, The Geometry of Physics , Cambridge University Press, Second Edition, 2004.
+E-mail address: ernestyalumni@gmail.com
+URL: http://ernestyalumni.wordpress.com ernestyalumni.tilt.com

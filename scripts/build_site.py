@@ -128,7 +128,12 @@ def render_lectures(lectures: list[dict[str, Any]], concepts_by_id: dict[str, di
             f"<a class=\"chip\" href=\"{concept_link(concepts_by_id[cid])}\">{esc(concepts_by_id[cid]['name'])}</a>"
             for cid in lecture["concept_ids"]
         )
-        status = "backed" if lecture["transcript_status"] == "available" else "needs notes"
+        if lecture["transcript_status"] == "available":
+            status = "transcript-backed"
+        elif lecture.get("external_notes_status") == "available":
+            status = "notes-backed"
+        else:
+            status = "needs notes"
         rows.append(
             f"""
             <article class="lecture-row">
@@ -167,6 +172,11 @@ def render_lecture_pages(lectures: list[dict[str, Any]], concepts_by_id: dict[st
         objects = "".join(f"<li>{esc(item)}</li>" for item in lecture["mathematical_objects_to_track"]) or "<li>No object assigned yet.</li>"
         family = family_by_lecture.get(lecture["index"])
         family_text = f"{family['name']}: {family['plain_problem']}" if family else "No family assigned."
+        note_sources = "".join(
+            f"<li><a href=\"{esc(source['url'])}\">{esc(source['title'])}</a></li>"
+            for source in lecture.get("external_note_sources", [])
+        )
+        note_block = f"<ul>{note_sources}</ul>" if note_sources else "<p class=\"quiet\">No external notes linked for this lecture.</p>"
         body = f"""
         <p><a href="../lectures.html">Back to lectures</a></p>
         <h1>Lecture {lecture['index']:02d}: {esc(lecture['title'])}</h1>
@@ -187,6 +197,8 @@ def render_lecture_pages(lectures: list[dict[str, Any]], concepts_by_id: dict[st
           <h2>Evidence Status</h2>
           <p>{esc(lecture['reader_warning'])}</p>
           <p><a href="{esc(lecture['url'])}">Open YouTube lecture</a></p>
+          <h3>External Notes</h3>
+          {note_block}
         </section>
         <section>
           <h2>Linked Concepts</h2>
@@ -337,12 +349,16 @@ def render_evidence(evidence: list[dict[str, Any]]) -> None:
     rows = []
     for ev in evidence:
         snippet = esc(ev["snippet"]) if ev["snippet"] else "No transcript snippet available."
+        source = ev.get("source_type", ev["confidence"])
+        if ev.get("note_source_title"):
+            source = f"{source}: {ev['note_source_title']}"
         rows.append(
             f"""
             <tr>
               <td>{esc(ev['id'])}</td>
               <td>{ev['lecture_index']:02d}</td>
               <td>{esc(ev['confidence'])}</td>
+              <td>{esc(source)}</td>
               <td><a href="{esc(ev['url'])}">{esc(ev['lecture_title'])}</a></td>
               <td>{snippet}</td>
             </tr>
@@ -351,7 +367,7 @@ def render_evidence(evidence: list[dict[str, Any]]) -> None:
     table = f"""
     <h1>Evidence Ledger</h1>
     <table>
-      <thead><tr><th>ID</th><th>Lecture</th><th>Status</th><th>Source</th><th>Snippet</th></tr></thead>
+      <thead><tr><th>ID</th><th>Lecture</th><th>Status</th><th>Evidence Type</th><th>Source</th><th>Snippet</th></tr></thead>
       <tbody>{''.join(rows)}</tbody>
     </table>
     """
@@ -435,7 +451,8 @@ h3 { margin: 0 0 8px; }
   font-size: 0.88rem;
 }
 .status { font-weight: 700; margin-right: 10px; }
-.status.backed { color: var(--ok); }
+.status.transcript-backed { color: var(--ok); }
+.status.notes-backed { color: var(--accent); }
 .status.needs-notes { color: var(--warn); }
 .plain-list li { margin-bottom: 8px; }
 blockquote { margin: 10px 0; padding-left: 14px; border-left: 3px solid var(--accent); color: #353430; }

@@ -1,0 +1,255 @@
+7. Lecture 7: Connections
+∇Xf =Xf = (df)(X) but (not quite)
+X :C∞(M)→C∞(M)
+df : Γ(TM )→C∞(M)
+∇X :C∞(M)→C∞(M)
+∇X :C∞(M) C∞(M)
+∇X : TMp⊗T∗Mq i.e.
+(p
+q
+)
+tensor ﬁeld
+TMp⊗T∗Mq i.e.
+(p
+q
+)
+tensor ﬁeld
+... ...
+7.1. Directional derivatives of tensor ﬁelds. manifold with connection is quadruple (M,O,A,∇)
+topologyO
+atlasA
+Consider chart (U,x )∈A
+Deﬁnition 19. ∀ pair (X, (p,q )− tensor ﬁeld)≡ (X, (p,q )−TF ),
+connection∇ on smooth manifold (M,O,A)
+∇ : (X, (p,q )−TF )→ (p,q )−TF s.t.
+(i) ∇Xf =Xf
+(ii) ∇X(T +S) =∇XT +∇XS
+(iii)
+∇X(T (ω,Y )) = (∇XT )(ω,T ) +T (∇Xω,Y ) +T (ω,∇XY )
+“Leibnitz” rule.
+As
+T⊗S(ω(1)...ω (p+r),Y (1)...Y (q+s)) =T (ω(1)...ω (p),Y (1)...Y (q))·S(ω(p+1)...ω (p+r),Y (q+1)...Y (q+s))
+
+
+[[page 11]]
+GR 11
+so
+∇X(T⊗S) = (∇XT )⊗S +T⊗∇XS
+(iv) ∇fX +ZT =f∇XT +∇ZT C∞-linear
+7.2. New structure on (M,O,A) required to ﬁx ∇. There are (dimM)3 many Γi
+jk
+Γi
+jk :U→ R
+p↦→
+(
+dxi(∇ ∂
+∂x
+∂
+∂xj )
+)
+(p)
+Now∇ ∂
+∂xm (dxi) =?
+∇ ∂
+∂xm (dxi
+( ∂
+∂xj
+)
+  
+δi
+j
+)
+  
+= (iii)
+= ∂
+∂xm (δi
+j) = 0
+=
+(
+∇ ∂
+∂xmdxi
+)( ∂
+∂xj
+)
++dxi(∇ ∂
+∂xm
+∂
+∂xj
+  
+Γq
+jm
+∂
+∂xq
+) = 0
+=⇒
+(
+∇ ∂
+∂xmdxi
+)( ∂
+∂xj
+)
+=−Γi
+jm
+∇ ∂
+∂xmdxi =−Γi
+jmdxj
+Hence
+(∇XY )i =X(Yi) + Γi
+j m
+last entry goes in direction of X
+YjXm
+(∇Xω)i =X(ωi) +−Γj
+imωjXm
+Note that for the immediately above expression for (∇XY )i, in the second term on the right hand side, Γ i
+jm has the last entry
+at the bottom, m going in the direction of X, so that it matches up with Xm. This is a good mnemonic to memorize the index
+positions of Γ.
+summary so far:
+(∇XY )i =X(Yi) + Γi
+jmYjXm
+(∇Xω)i =X(ωi) +−Γj
+imωjXm
+similarly, by further application of Leibnitz
+T a (1, 2)-TF (tensor ﬁeld)
+(∇XT )i
+jk =X(Ti
+jk) + Γi
+smTs
+jkXm− Γs
+jmTi
+skXm− Γs
+kmTi
+jsXm
+What is a Euclidean space:
+(M = Rn,Ost,A) smooth manifold.
+Assume (Rn, idRn)∈A and
+(Γi
+(x))jk =dxi
+(
+(∇E) ∂
+∂xk
+∂
+∂xj
+)
+!
+= 0
+7.3. Change of Γ’s under change of chart. (U,x ), (V,y )∈A and U∩V ̸=∅
+Γi
+jk(y) :=dyi
+(
+∇ ∂
+∂yk
+∂
+∂yj
+)
+= ∂yi
+∂xqdxq
+(
+∇∂xp
+∂yk
+∂
+∂xp
+∂xs
+∂yj
+∂
+∂xs
+)
+Note∇fX is C∞-linear for fX
+covectordyi is C∞-linear in its argument
+=⇒ Γi
+jk(y) = ∂yi
+∂xqdxq
+(∂xp
+∂yk
+[(
+∇ ∂
+∂xp
+∂xs
+∂yj
+) ∂
+∂xs + ∂xs
+∂yj
+(
+∇ ∂
+∂xp
+∂
+∂xs
+)])
+=
+= ∂yi
+∂xq
+∂xp
+∂yk
+∂
+∂xp
+∂xs
+∂yjδq
+s + ∂yi
+∂xq
+∂xp
+∂yk
+∂xs
+∂yj Γq
+sp(x)
+(1) Γ i
+jk(y) = ∂yi
+∂xq
+∂2xq
+∂yj∂yk + ∂yi
+∂xq
+∂xs
+∂yj
+∂xp
+∂yk Γq
+sp(x)
+Eq. (1) is the change of connection coeﬃcient function under the change of chart ( U∩V,x )→ (U∩V,y )
+7.4. Normal Coordinates.
+Tutorial 7 Connections. Exercise 1. : True or false?
+(a) • ∇fXY =f∇XY by deﬁnition so∇fX =f∇X i.e.∇X is C∞(M)-linear in X
+• f∈C∞(M) is a (0, 0)-tensor ﬁeld. ∇Xf =Xf≡X(f) by deﬁnition.
+• If the manifold is ﬂat, I’m assuming that means that the manifold is globally a Euclidean space, and by deﬁnition,
+Γ = 0.
+∇XY =Xj ∂
+∂xj (Yi) ∂
+∂xi + Γi
+jkYkXk ∂
+∂xi =Xj∂Y i
+∂xj
+∂
+∂xi + 0
+and similarly for any (p,q )-tensor ﬁeld, i.e.
+∇XT =Xj∂Ti1...ip
+j1...jq
+∂xj
+•
+∇Xf =Xj ∂f
+∂xj =X· grad(f)
+• ∀(U,x )∈A , locally (after working out the ﬁrst few cases, and doing induction, one can look up the expression
+for the local form; I found it in Nakahara’s Geometry, Topology and Physics , Eq. 7.26, and it needs to be
+modiﬁed for the convention of order of bottom indices for Γ:
+∇νtλ1...λp
+µ1...µq =∂νtλ1...λp
+µ1...µq + Γλ1
+κνtκλ2...λp
+µ1...µq +··· + Γλp
+κνtλ1...λp−1κ
+µ1...µq − Γκ
+µ1νtλ1...λp
+κµ2...µq−···− Γκ
+µqνtλ1...λp
+µ1...µq−1κ
+Clearly,∇X is uniquely ﬁxed∀p∈M by choosing each of the (dimM)3 many connection coeﬃcient functions Γ.
+(b) • ∇ : X(M)→ X(M)
+∇ : (p,q )-tensor ﬁeld↦→ (p,q )-tensor ﬁeld
+• By deﬁnition,∇ satisﬁes the Leibniz rule.
+•
+•
+•
+Exercise 2. : Practical rules for how∇ acts Torsion-free covariant derivative boils down to a connection coeﬃcient function
+Γ that is symmetric in the bottom indices.
+•
+∇Xf =X(f) =Xi∂f
+∂xi
+
+
+[[page 12]]

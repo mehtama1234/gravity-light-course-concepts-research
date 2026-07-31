@@ -1,0 +1,175 @@
+9. Lecture 9: Newtonian spacetime is curved!
+Axiom 1 (Newton I:). A body on which no force acts moves uniformly along a straight line
+Axiom 2 (Newton II:). Deviation of a body’s motion from such uniform straight motion is eﬀected by a force, reduced by a
+factor of the body’s reciprocal mass.
+Remark:
+(1) 1st axiom - in order to be relevant - must be read as a measurement prescription for the geometry of space ...
+(2) Since gravity universally acts on every particle, in a universe with at least two particles, gravity must not be considered
+a force if Newton I is supposed to remain applicable.
+9.1. Laplace’s questions. Laplace ∗ 1749
+†1827
+Q: “Can gravity be encoded in a curvature of space, such that its eﬀects show if particles under the inﬂuence of (no other)
+force we postulated to more along straight lines in this curved space?”
+Answer: No!
+Proof. gravity is a force point of view
+m¨xα(t) =Fα(x(t))
+m¨xα(t) =mfα
+
+Fα
+(x(t))
+−∂αfα = 4πGρ (Poisson)
+ρ mass density of matter
+(EY : 20150330) You know this, F =Gm1m2/r2
+¨xα(t)−fα(x(t)) = 0
+Laplace asks: Is this (¨x(t)) of the form
+¨xα(t) + Γα
+βγ(x(t)) ˙xβ(t) ˙xγ(t) = 0
+Conclusion: One cannot ﬁnd Γ s such that Newton’s equation takes the form of an autoparallel.
+□
+9.2. The full wisdom of Newton I. use also the information from Newton’s ﬁrst law that particles (no force) move uniformly
+introduce the appropriate setting to talk about the diﬀerence easily
+insight: in spacetime uniform & straight motion is simply straight motion
+So let’s try in spacetime :
+let x : R→ R3
+be a particle’s trajectory in space ←→ worldline (history) of the particle
+X : R→ R4
+t↦→ (t,x 1(t),x 2(t),x 3(t)) :=
+:= (X0(t),X 1(t),X 2(t),X 3(t))
+That’s all it takes:
+Trivial rewritings:
+˙X0 = 1
+=⇒
+¨X0 = 0
+¨Xα−fα(X(t))· ˙X0· ˙X0 = 0
+(α = 1, 2, 3) =⇒
+a = 0, 1, 2, 3
+¨Xa + Γa
+bc ˙Xb ˙Xc = 0
+antoparallel eqn in spacetime
+Yes, choosing Γ0
+ab = 0
+Γα
+βγ = 0 =Gammaα
+0β = Γα
+β0
+only: Γ α
+00
+!
+=−fα
+Question: Is this a coordinate-choice artifact?
+No, since Rα
+0β0 =− ∂
+∂xβfα (only non-vanishing components) (tidal force tensor, − the Hessian of the force component)
+Ricci tensor =⇒R00 =Rm
+0m0 =−∂αfα = 4πGρ
+Poisson:−∂αfα = 4πG·ρ
+writing: T00 = 1
+2s
+=⇒ R00 = 8πGT00
+Einstein in 1912 ((((((( hhhhhhhRab = 8πGTab
+Conclusion: Laplace’s idea works in spacetime
+Remark
+Γα
+00 =−fα
+Rα
+βγδ = 0 α,β,γ,δ = 1, 2, 3
+R00 = 4πGρ
+Q: What about transformation behavior of LHS of
+¨xa + Γa
+bc ˙Xb ˙Xc
+  
+(∇vXvX)a
+  
+:=aa “acceleration vector ”
+= 0
+9.3. The foundations of the geometric formulation of Newton’s axiom. new start
+Deﬁnition 25. A Newtonian spacetime is a quintuple
+(M,O,A,∇,t )
+where (M,O,A) 4-dim. smooth manifold
+t :M→ R smooth function
+(i) “There is an absolute space”
+(dt)p̸= 0 ∀p∈M
+(ii) “absolute time ﬂows uniformly”
+∇dt =
+space of (0, 2)-tensor ﬁelds
+0 everywhere
+∇dt is a (0, 2)-tensor ﬁeld
+(iii) add to axioms of Newtonian spacetime ∇ = 0 torsion free
+Deﬁnition 26. absolute space at time τ
+Sτ :={p∈M|t(p) =τ}
+dt̸=0
+−−−→M =
+∐
+Sτ
+
+
+[[page 15]]
+GR 15
+Deﬁnition 27. A vector X∈TpM is called
+(a) future-directed if
+dt(X)> 0
+(b) spatial if
+dt(X) = 0
+(c) past-directed if
+dt(X)< 0
+picture
+Newton I: The worldline of a particle under the inﬂuence of no force (gravity isn’t one, anyway) is a
+future-directed autoparallel i.e.
+∇vXvX = 0
+dt(vX)> 0
+Newton II:
+∇vXvX = F
+m⇐⇒m·a =F
+where F is a spatial vector ﬁeld:
+dt(F ) = 0
+Convention: restrict attention to atlases Astrateﬁed whose charts (U,x ) have the property
+x0 :U→ R
+x1 :U→ R
+... ...
+x3
+x0 = t|U =⇒ 0
+“absolute time ﬂows uniformly”
+= ∇dt
+0 =∇ ∂
+∂xadx0 =−Γ0
+ba a = 0, 1, 2, 3
+Let’s evaluate in a chart (U,x ) of a stratiﬁed atlas Asheet: Newton II:
+∇vXvX = F
+m
+in a chart.
+(X0)′′ +(((((((Γ0
+cd(Xa)′(Xb)′stratiﬁed atlas = 0
+(Xα)′′ + Γα
+γδXγ′
+Xδ′
++ Γα
+00X0′
+X0′
++ 2Γα
+γ0Xγ′
+X0′
+= Fα
+m α = 1, 2, 3
+=⇒ (X0)′′(λ) = 0 =⇒X0(λ) =aλ +b constantsa,b with
+X0(λ) = (x0◦X)(λ)
+stratiﬁed
+= ( t◦X)(λ)
+convention parametrize worldline by absolute time
+d
+dλ =ad
+dt
+a2 ¨Xα +a2Γα
+γδ ˙Xγ ˙Xδ +a2Γα
+00 ˙X0 ˙X0 + 2Γα
+γ0 ˙Xγ ˙X0 = Fα
+m
+=⇒ ¨Xα + Γα
+γδ ˙Xγ ˙Xδ + Γα
+00 ˙X0 ˙X0 + 2Γα
+γ0 ˙Xγ ˙X0
+  
+aα
+= 1
+a2
+Fα
+m

@@ -1,0 +1,154 @@
+13. Lecture 13: Relativistic spacetime
+Recall, from Lecture 9, the deﬁnition of Newtonian spacetime
+(M,O,A,∇,t )
+∇ torsion free
+t∈C∞(M)
+dt̸= 0
+∇dt = 0 (uniform time)
+and the deﬁnition of relativistic spacetime (before Lecture )
+(M,O,A↑,∇,g,T )
+∇ torsion-free
+g Lorentzian metric(+−−− )
+T time-orientation
+13.1. Time orientation.
+Deﬁnition 44. (M,O,A↑,g ) a Lorentzian manifold. Then a time-orientation is given by a vector ﬁeld T that
+(i) does not vanish anywhere
+(ii) g(T,T )> 0
+Newtonian vs. relativistic
+Newtonian
+X was called future-directed if
+dt(X)> 0
+∀p∈M, take half plane, half space of TpM
+also stratiﬁed atlas so make planes of constant t straight
+relativistic
+
+
+[[page 21]]
+GR 21
+half cone∀p,q∈M, half-cone⊆TpM
+This deﬁnition of spacetime
+Question
+I see how the cone structure arises from the new metric. I don’t understand however, how the T , the time orientation, comes in
+Answer
+(M,O,A,g ) g
+(
+← −+−−− )
+requiring g(X,X )> 0, select cones
+T chooses which cone
+This deﬁnition of spacetime has been made to enable the following physical postulates:
+(P1) The worldline γ of a massive particle satisﬁes
+(i) gγ(λ)(vγ,γ(lambda),vγ,γ(λ))> 0
+(ii) gγ(λ)(T,vγ,γ(λ))> 0
+(P2) Worldlines of massless particles satisfy
+(i) gγ(λ)(vγ,γ(λ),vγ,γ(λ)) = 0
+(ii) gγ(λ)(T,vγ,γ(λ))> 0
+picture: spacetime:
+Answer (to a question) T is a smooth vector ﬁeld, T determines future vs. past, “general relativity: we have such a time
+orientation; smoothness makes it less arbitrary than it seems” -FSchuller,
+Claim: 9/10 of a metric are determined by the cone
+spacetime determined by distribution, only one-tenth error
+13.2. Observers. (M,O,A↑,∇,g,T )
+Deﬁnition 45. An observer is a worldline γ with
+g(vγ,vγ)> 0
+g(T,vγ)> 0
+together with a choice of basis
+vγ,γ(λ)≡e0(λ),e 1(λ),e 2(λ),e 3(λ)
+of each Tγ(λ)M where the observer worldline passes, if g(ea(λ),eb(λ)) =ηab =
+
+
+1
+−1
+−1
+−1
+
+
+ab
+precise: observer = smooth curve in the frame bundle LM over M
+13.2.1. Two physical postulates.
+(P3) A clock carried by a speciﬁc observer (γ,e ) will measure a time
+τ :=
+∫ λ1
+λ0
+dλ
+√
+gγ(λ)(vγ,γ(λ),vγ,γ(λ))
+between the two “events”
+γ(λ0) “start the clock”
+and
+γ(λ1) “stop the clock”
+Compare with Newtonian spacetime:
+t(p) = 7
+Thought bubble: proper time/eigentime τ
+Application/Example.
+M = R4
+O =Ost
+A∋ (R4, idR4)
+g :g(x)ij =ηij ; Ti
+(x) = (1, 0, 0, 0)i
+=⇒ Γi
+(x) jk = 0 everywhere
+=⇒ (M,O,A↑,g,T, ∇) Riemm = 0
+=⇒ spacetime is ﬂat
+This situation is called special relativity.
+Consider two observers:
+γ : (0, 1)→M
+γi
+(x) = (λ, 0, 0, 0)i
+δ : (0, 1)→M
+α∈ (0, 1) :δi
+(x) =
+{
+(λ,αλ, 0, 0)i λ≤ 1
+2
+(λ, (1−λ)α, 0, 0)i λ> 1
+2
+let’s calculate:
+τγ :=
+∫ 1
+0
+√
+g(x)ij ˙γi
+(x) ˙γj
+(x) =
+∫ 1
+0
+dλ1 = 1
+τδ :=
+∫ 1/2
+0
+dλ
+√
+1−α2 +
+∫ 1
+1/2
+√
+12− (−α)2 =
+∫ 1
+0
+√
+1−α2 =
+√
+1−α2
+Note: piecewise integration
+Taking the clock postulate (P3) seriously, one better come up with a realistic clock design that supports the postulate.
+idea.
+2 little mirrors
+(P4) Postulate
+Let (γ,e ) be an observer, and
+δ be a massive particle worldline that is parametrized s.t. g(vγ,vγ) = 1 (for parametrization/normalization convenience)
+Suppose the observer and the particle meet somewhere (in spacetime)
+δ(τ2) =p =γ(τ1)
+This observer measures the 3-velocity (spatial velocity) of this particle as
+(8) vδ :ϵα(vδ,δ(τ2))eα α = 1, 2, 3
+where ϵ0, ϵ1,ϵ 2,ϵ 3 is the unique dual basis of e0, e1,e 2,e 3
+EY:20150407
+There might be a major correction to Eq. (8) from the Tutorial 14 : Relativistic spacetime, matter, and Gravitation, see the
+second exercise, Exercise 2, third question:
+(9) v := ϵα(vδ)
+ϵ0(vδ)eα
+Consequence: An observer ( γ,e ) will extract quantities measurable in his laboratory from objective spacetime quantities
+always like that.
+Ex: F Faraday (0, 2)-tensor of electromagnetism:
+
+
+[[page 22]]

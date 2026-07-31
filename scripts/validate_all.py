@@ -62,6 +62,8 @@ def validate() -> tuple[list[str], list[str]]:
     warnings: list[str] = []
 
     transcript_index = load_json(RAW / "transcript-index.json")
+    notes_index_path = ROOT / "raw-material" / "external-notes" / "notes-index.json"
+    recovery_report = ANALYSIS / "audits" / "source-recovery-report.md"
     concepts = load_json(ANALYSIS / "concepts" / "concept-atlas.json")
     evidence = load_json(ANALYSIS / "evidence" / "evidence-ledger.json")
     lectures = load_json(ANALYSIS / "lectures" / "lecture-atlas.json")
@@ -70,6 +72,8 @@ def validate() -> tuple[list[str], list[str]]:
     primitives = load_json(ANALYSIS / "throughlines" / "primitives.json")
 
     require(len(transcript_index) == 28, "transcript index must contain 28 records", errors)
+    require(notes_index_path.exists(), "external notes index must exist", errors)
+    require(recovery_report.exists(), "source recovery report must exist", errors)
     available = [r for r in transcript_index if r["transcript_status"] == "available"]
     missing = [r for r in transcript_index if r["transcript_status"] != "available"]
     require(len(available) >= 20, "at least 20 transcripts should be available before atlas generation", errors)
@@ -133,12 +137,19 @@ def validate() -> tuple[list[str], list[str]]:
     for item in evidence:
         require(item["concept_id"] in concept_ids, f"evidence {item['id']} points to missing concept", errors)
         require(item["lecture_index"] in lecture_indexes, f"evidence {item['id']} points to missing lecture", errors)
-        require(item["confidence"] in {"strong", "moderate", "missing-transcript"}, f"evidence {item['id']} has invalid confidence", errors)
+        require(item["confidence"] in {"strong", "moderate", "notes-backed", "missing-transcript"}, f"evidence {item['id']} has invalid confidence", errors)
         if item["confidence"] in {"strong", "moderate"}:
             require(item["snippet"], f"transcript-backed evidence {item['id']} lacks snippet", errors)
             require(item["transcript_status"] == "available", f"evidence {item['id']} claims support without transcript", errors)
+            require(item.get("source_type") == "youtube-transcript", f"evidence {item['id']} lacks youtube transcript source type", errors)
+        if item["confidence"] == "notes-backed":
+            require(item["snippet"], f"notes-backed evidence {item['id']} lacks snippet", errors)
+            require(item["transcript_status"] == "missing", f"notes-backed evidence {item['id']} should not claim transcript availability", errors)
+            require(item.get("source_type") == "external-notes", f"notes-backed evidence {item['id']} lacks external note source type", errors)
+            require(item.get("note_source_id"), f"notes-backed evidence {item['id']} lacks note source id", errors)
         if item["confidence"] == "missing-transcript":
             require(not item["snippet"], f"missing-transcript evidence {item['id']} must not include snippet", errors)
+            require(item.get("source_type") == "playlist-title", f"missing evidence {item['id']} must be playlist-title only", errors)
             require("manual" in item["caveat_or_warning"].lower() or "not treat" in item["caveat_or_warning"].lower(), f"missing evidence {item['id']} lacks caveat", errors)
         for field in ("lecture_argument", "mathematical_object", "operation", "why_span_matters", "caveat_or_warning"):
             require(words(item[field]) >= 8, f"evidence {item['id']} field {field} is too thin", errors)

@@ -1,0 +1,29 @@
+15. Lecture 15: Einstein gravity
+Recall that in Newtonian spacetime, we were able to reformulate the Poisson law ∆ φ = 4πGNρ in terms of the Newtonian
+spacetime curvature as
+R00 = 4πGNρ
+R00 with respect to∇Newton
+GN = Newtonian gravitational constant
+This prompted Einstein to postulate < 1915 that the relativistic ﬁeld equations for the Lorentzian metric g of (relativistic)
+spacetime
+Rab = 8πGNTab
+However, this equation suﬀers from a problem
+LHS: (∇aR)ab̸= 0
+generically
+RHS:
+(∇aT )ab = 0
+thought bubble: = formulated from an action
+Einstein tried to argue this problem away.
+Nevertheless, the equations cannot be upheld.
+15.1. Hilbert. Hilbert was a specialist for variational principles.
+To ﬁnd the appropriate left hand side of the gravitational ﬁeld equations, Hibert suggested to start from an action
+SHilbert[g] =
+∫
+M
+√−gRabgab
+thought bubble = “simplest action”
+aim: varying this w.r.t. metric gab will result in some tensor
+Gab = 0
+
+
+[[page 24]]

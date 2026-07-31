@@ -1,0 +1,79 @@
+1. Lecture 1: Topology
+1.1. Lecture 1: Topological Spaces.
+Deﬁnition 1. LetM be a set.
+A topologyO is a subset O⊆P (M),P(M) power set of M: set of all subsets of M. satisfying
+(i) ∅∈O , M∈O
+(ii) U∈O , V ∈O =⇒U⋂V ∈O
+(iii) Uα∈O , α∈A =⇒
+(⋃
+α∈AUα
+)
+∈O
+O} utterly useless
+Deﬁnition 2. Ostandard⊆P (Rd)
+EY : 20150524
+I’ll ﬁll in the proof that Ostandard is a topology.
+Proof.∅∈O standard
+since∀p∈∅ ,∃r∈ R+:Br(p)⊆∅ (i.e. satisﬁed “vacuously”)
+Suppose U,V ∈O standard.
+Let p∈U⋂V . Then ∃r1,r 2∈ R+ s.t. Br1(p)⊆U
+Br2(p)⊆V
+Let r = min{r1,r 2}.
+ClearlyBr(p)⊆U andBr(p)⊆V . Then Br(p)⊆U⋂V . So U⋂V ∈O standard.
+Suppose, Uα∈O standard,∀α∈A .
+Let p∈⋃
+α∈AUα. Then p∈Uα for at least 1 α∈A .
+∃rα∈ R+ s.t.Brα(p)⊆Uα⊆⋃
+α∈AUα. So ⋃
+α∈AUα∈O standard □
+1.2. 2. Continuous maps.
+1.3. 3. Composition of continuous maps.
+1.4. 4. Inheriting a topology. EY : 20150524
+I’ll ﬁll in the proof that givenf continuous (cont.), then the restriction off onto a subspaceS is cont. If you want a reference,
+check out Klaus J¨ anich [2, pp. 13, Ch. 1 Fundamental Concepts, Sec. Continuous Maps]
+If cont. f :M→N, S⊆M, then f|S cont.
+Proof. Let open V ⊆N, i.e. V ∈O N i.e. V in the topologyON of N.
+f|−1
+S (V ) ={m∈M|f|S (m)∈V}
+Nowf−1(V ) ={m∈M|f(m)∈V}.
+So f−1(V )⋂S = f|−1
+S (V )
+Nowf cont. So f−1(V )∈O N.
+and recall OS| :={U⋂S|U∈O M}.
+
+
+[[page 3]]
+GR 3
+so f−1(V )⋂S = f|−1
+S (V )∈O S i.e. f|−1
+S (V ) open.
+=⇒ f|S cont. □
+Topology Tutorial Sheet
+ﬁlename : main.pdf
+The WE-Heraeus International Winter School on Gravity and Light: Topology
+EY : 20150524
+What I won’t do here is retype up the solutions presented in the Tutorial (cf. https://youtu.be/_XkhZQ-hNLs): the pre-
+senter did a very good job. If someone wants to type up the solutions and copy and paste it onto this LaTeX ﬁle, in the spirit
+of open-source collaboration, I would encourage this eﬀort.
+Instead, what I want to encourage is the use of as much CAS (Computer Algebra System) and symbolic and numerical
+computation because, ﬁrst, we’re in the 21st century, second, to set the stage for further applications in research. I use Python
+and Sage Math alot, mostly because they are open-source software (OSS) and fun to use. Also note that the structure of Sage
+Math modules matches closely to Category Theory.
+In checking whether a set is a topology, I found it strange that there wasn’t already a function in Sage Math to check each
+of the axioms. So I wrote my own; see my code snippet, which you can copy, paste, edit freely in the spirit of OSS here, titled
+topology.sage:
+gist github ernestyalumni topology.sage
+Download topology.sage
+Loading topology.sage, after changing into (with the usual Linux terminal commands, cd, ls) by
+sage: load(‘‘topology.sage’’)
+Exercise 2: Topologies on a simple set.
+Question DoesO1 :=... constitute a topology . . . ?.
+Solution: Yes, since we check by typing in the following commands in Sage Math:
+emptyset in O_1
+Axiom2check(O_1) # True
+Axiom3check(O_1) # True
+Question What about O2 . . . ?.
+Solution: No since the 3rd. axiom fails, as can be checked by typing in the following commands in Sage Math:
+emptyset in O_2
+Axiom2check(O_2) # True
+Axiom3check(O_2) # False

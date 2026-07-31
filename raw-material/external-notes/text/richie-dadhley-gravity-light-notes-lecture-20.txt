@@ -1,0 +1,12 @@
+20 Cosmology: The Early Epoch 117
+20.1 Assumption of Spatial Homogeneity & Isotropy at Large Scale . . . . . . . . . 117
+20.2 Einstein Equations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 120
+20.2.1 Ricci Tensor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 120
+20.2.2 Matter . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 121
+20.2.3 Reduction of Einstein Equations . . . . . . . . . . . . . . . . . . . . . 122
+20.3 Models of Perfect Fluid Matter . . . . . . . . . . . . . . . . . . . . . . . . . . 122
+20.4 Solutions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 123
+
+
+[[page 6]]
+CONTENTS v

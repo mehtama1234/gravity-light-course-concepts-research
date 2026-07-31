@@ -18,6 +18,7 @@ cosmology, perturbations, quantum matter, and gravitational waves.
 
 ```bash
 python3 scripts/download_youtube_course_transcripts.py
+python3 scripts/download_external_notes.py
 python3 scripts/build_first_principles_atlas.py
 python3 scripts/build_site.py
 python3 scripts/validate_all.py

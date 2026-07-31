@@ -1,0 +1,88 @@
+5. Lecture 5: Tangent Spaces
+lead question: “what is the velocity of a curve γ point p?
+5.1. Velocities.
+Deﬁnition 10. (M,O,A) smooth mfd.
+curve γ : R→M at least C1.
+Supposeγ(λ0) =p
+The velocity of γ p is the linear map
+vγ,p :C∞(M)
+∼
+− →R
+C∞(M) :={f :M→ R|f smooth function} equipped with (f⊕g)(p) :=f(p) +g(p)
+(λ⊗g)(p) :=λ·g(p)
+∼ denotes linear map on top of − →.
+f↦→vγ,p(f) := (f◦γ)′(λ0)
+intuition
+R M R
+γ
+f◦γ
+f
+Schuller says: children run around the world. Temperature function as temperature contour lines. You feel the temperature.
+You observe the rate of change of temperature as you run around. f is temperature.
+past: “ vi
+(∂if) = (vi∂i
+vector
+)f
+5.2. Tangent vector space.
+Deﬁnition 11. For each point p∈M
+def the set “tangent space̸=0 M p “
+TpM :={vγ,p|γ smooth curves}
+picture:
+rather M than (embedded) p TpM EY : 20151109 see https://youtu.be/pepU_7NJSGM?t=12m38s for the picture
+Observation: TpM can be made into a vector space.
+⊕ :TpM×TpM→
+(vγ,p⊕vδ,p)( f
+∈C∞(M)
+) :=vγ,p(f) +Rvδ,p(f)
+⊙ :R×TpM→ Hom(C∞(R), R)
+(α⊙vγ,p)(f) :=α·Rvγ,p(f)
+Remains to be shown that
+(i) ∃σ curve : vγ,p⊕vδ,p =vσ,p
+(ii) ∃τ curve : α⊙vγ,p =vτ,p
+Claim: τ : R→M
+↦→τ(λ) :=γ(αλ +λ0) = (γ◦µα)(λ)
+where µα :R→ R
+r↦→α·r +λ0
+, does the trick.
+τ(0) =γ(λ0) =p
+vτ,p := (f◦τ)′(0) = (f◦γ◦µα)′(0)
+= (f◦γ)′(λ0)·α =
+=α·vγ,p
+Now for the sum:
+vγ,p⊕vδ,p
+?
+=vσ,p
+make a choice of chart ( U
+∋p
+,x ) In cloud: ill deﬁnition alarm bells.
+and deﬁne:
+Claim:
+σ : R→M
+σ(λ) :=x−1((x◦γ)(λ0 +λ)  
+R→Rd
++(x◦δ)(λ1 +λ)− (x◦γ)(λ0))
+does the trick.
+Proof. Since:
+σx(0) =x−1((x◦γ)(λ0) + (x◦δ)(λ1)− (x◦γ)(λ0))
+=δ(λ1) =p
+Now:
+vσx,p(f) := (f◦σx)′(0) =
+= ((f◦x−1)  
+Rd→R
+◦ (x◦σx)  
+R→Rd
+)′(γ) = ( x◦σx)′(0)  
+(x◦γ)′(λ0)+(x◦δ)′(λ1)
+·
+(
+∂i(f◦x−1)
+)
+(x(σ(0)
+p
+)) =
+= (x◦γ)′(λ0)(∂i(f◦x−1))(x(p)) + (x◦δ)(λ1)(∂i(f◦x−1))(x(p))
+= (f◦γ)′(λ0) + (f◦δ)′(λ1) =
+=vγ,p(f) +vδ,p(f) ∀f∈C∞(M)
+
+
+[[page 8]]

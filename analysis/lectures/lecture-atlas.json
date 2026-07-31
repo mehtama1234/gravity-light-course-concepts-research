@@ -5,6 +5,19 @@
     "title": "Lecture 1: Topology",
     "url": "https://www.youtube.com/watch?v=7G4SqIboeig",
     "transcript_status": "available",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      },
+      {
+        "id": "ernestyalumni-gravity-notes-grande",
+        "title": "Notes on General Relativity and Gravity",
+        "url": "https://ernestyalumni.wordpress.com/wp-content/uploads/2016/01/gravity_notes_grande.pdf"
+      }
+    ],
     "word_count": 10469,
     "concept_ids": [
       "topology-continuity",
@@ -27,6 +40,19 @@
     "title": "Lecture 2: Topological Manifolds",
     "url": "https://www.youtube.com/watch?v=93f-ayezCqE",
     "transcript_status": "available",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      },
+      {
+        "id": "ernestyalumni-gravity-notes-grande",
+        "title": "Notes on General Relativity and Gravity",
+        "url": "https://ernestyalumni.wordpress.com/wp-content/uploads/2016/01/gravity_notes_grande.pdf"
+      }
+    ],
     "word_count": 11576,
     "concept_ids": [
       "manifolds-local-flatness",
@@ -47,6 +73,14 @@
     "title": "Lecture 3: Multilinear Algebra",
     "url": "https://www.youtube.com/watch?v=mbv3T15nWq0",
     "transcript_status": "available",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      }
+    ],
     "word_count": 14045,
     "concept_ids": [
       "multilinear-objects",
@@ -69,6 +103,19 @@
     "title": "Lecture 4: Differentiable Manifolds",
     "url": "https://www.youtube.com/watch?v=HSyTEwS4g80",
     "transcript_status": "available",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      },
+      {
+        "id": "ernestyalumni-gravity-notes-grande",
+        "title": "Notes on General Relativity and Gravity",
+        "url": "https://ernestyalumni.wordpress.com/wp-content/uploads/2016/01/gravity_notes_grande.pdf"
+      }
+    ],
     "word_count": 7622,
     "concept_ids": [
       "manifolds-local-flatness",
@@ -91,6 +138,19 @@
     "title": "Lecture 5: Tangent Spaces",
     "url": "https://www.youtube.com/watch?v=pepU_7NJSGM",
     "transcript_status": "available",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      },
+      {
+        "id": "ernestyalumni-gravity-notes-grande",
+        "title": "Notes on General Relativity and Gravity",
+        "url": "https://ernestyalumni.wordpress.com/wp-content/uploads/2016/01/gravity_notes_grande.pdf"
+      }
+    ],
     "word_count": 13624,
     "concept_ids": [
       "tangent-spaces-fields",
@@ -113,6 +173,19 @@
     "title": "Lecture 6: Fields",
     "url": "https://www.youtube.com/watch?v=UbQS40KHkH0",
     "transcript_status": "available",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      },
+      {
+        "id": "ernestyalumni-gravity-notes-grande",
+        "title": "Notes on General Relativity and Gravity",
+        "url": "https://ernestyalumni.wordpress.com/wp-content/uploads/2016/01/gravity_notes_grande.pdf"
+      }
+    ],
     "word_count": 10579,
     "concept_ids": [
       "tangent-spaces-fields",
@@ -133,6 +206,19 @@
     "title": "Lecture 7: Connections",
     "url": "https://www.youtube.com/watch?v=nEaiZBbCVtI",
     "transcript_status": "available",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      },
+      {
+        "id": "ernestyalumni-gravity-notes-grande",
+        "title": "Notes on General Relativity and Gravity",
+        "url": "https://ernestyalumni.wordpress.com/wp-content/uploads/2016/01/gravity_notes_grande.pdf"
+      }
+    ],
     "word_count": 13957,
     "concept_ids": [
       "connections-parallel-transport",
@@ -155,6 +241,19 @@
     "title": "Lecture 8: Parallel Transport & Curvature",
     "url": "https://www.youtube.com/watch?v=2eVWUdcI2ho",
     "transcript_status": "available",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      },
+      {
+        "id": "ernestyalumni-gravity-notes-grande",
+        "title": "Notes on General Relativity and Gravity",
+        "url": "https://ernestyalumni.wordpress.com/wp-content/uploads/2016/01/gravity_notes_grande.pdf"
+      }
+    ],
     "word_count": 5488,
     "concept_ids": [
       "connections-parallel-transport",
@@ -181,6 +280,19 @@
     "title": "Lecture 9: Newtonian spacetime is curved!",
     "url": "https://www.youtube.com/watch?v=IBlCu1zgD4Y",
     "transcript_status": "available",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      },
+      {
+        "id": "ernestyalumni-gravity-notes-grande",
+        "title": "Notes on General Relativity and Gravity",
+        "url": "https://ernestyalumni.wordpress.com/wp-content/uploads/2016/01/gravity_notes_grande.pdf"
+      }
+    ],
     "word_count": 14090,
     "concept_ids": [
       "curvature-geodesic-deviation",
@@ -203,13 +315,26 @@
     "title": "Lecture 10: Metric Manifolds",
     "url": "https://www.youtube.com/watch?v=ONCZNwKswn4",
     "transcript_status": "missing",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      },
+      {
+        "id": "ernestyalumni-gravity-notes-grande",
+        "title": "Notes on General Relativity and Gravity",
+        "url": "https://ernestyalumni.wordpress.com/wp-content/uploads/2016/01/gravity_notes_grande.pdf"
+      }
+    ],
     "word_count": 0,
     "concept_ids": [
       "metric-measurement",
       "metric-signature-light-cones",
       "proper-time-clock-reading"
     ],
-    "audit_note": "Needs manual lecture notes or another transcript source before detailed claims should be treated as supported.",
+    "audit_note": "Local transcript missing, but external notes are available from: The WE-Heraeus International Winter School on Gravity and Light notes, Notes on General Relativity and Gravity.",
     "central_question": "How does this lecture use Metric Manifolds, Metric Signature And Light Cones, Proper Time As Clock Reading to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
     "first_principles_role": "Lecture 10 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: After building nearness and smoothness, the course needs a rule that tells clocks, rulers, and light cones what they measure. The course needs a measurement rule that separates possible time-like motion, space-like separation, and light-like travel. The course needs a way to say what a clock actually records along its own path through spacetime. The mathematical work to watch is: The operation is evaluating the metric on tangent vectors to compute intervals, norms, angles, volumes, and null directions. The operation is evaluating the metric on tangent directions and sorting them into time-like, space-like, or null. The operation is evaluating the metric on the path's tangent and adding the resulting clock increments along the path. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
@@ -217,7 +342,7 @@
       "Lorentzian signature is the metric's time-space sign pattern, and light cones are the resulting boundaries of causal influence.",
       "Proper time is the time measured along a time-like path by integrating the metric interval along that path."
     ],
-    "reader_warning": "This lecture is not locally transcript-backed. Treat its page as a roadmap for future notes, not as a finished explanation of the lecture."
+    "reader_warning": "This lecture lacks local YouTube captions, but external notes are available. Treat notes-backed claims as useful but not identical to transcript evidence."
   },
   {
     "index": 11,
@@ -225,6 +350,14 @@
     "title": "Lecture 11: Symmetry",
     "url": "https://www.youtube.com/watch?v=v4jolM-bPpA",
     "transcript_status": "available",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      }
+    ],
     "word_count": 13895,
     "concept_ids": [
       "symmetry-conservation",
@@ -245,6 +378,19 @@
     "title": "Lecture 12: Integration on manifolds",
     "url": "https://www.youtube.com/watch?v=2XpnbvPy-Zg",
     "transcript_status": "available",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      },
+      {
+        "id": "ernestyalumni-gravity-notes-grande",
+        "title": "Notes on General Relativity and Gravity",
+        "url": "https://ernestyalumni.wordpress.com/wp-content/uploads/2016/01/gravity_notes_grande.pdf"
+      }
+    ],
     "word_count": 5512,
     "concept_ids": [
       "integration-on-manifolds",
@@ -265,6 +411,19 @@
     "title": "Lecture 13: Spacetime",
     "url": "https://www.youtube.com/watch?v=iFAxSEoj6Go",
     "transcript_status": "available",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      },
+      {
+        "id": "ernestyalumni-gravity-notes-grande",
+        "title": "Notes on General Relativity and Gravity",
+        "url": "https://ernestyalumni.wordpress.com/wp-content/uploads/2016/01/gravity_notes_grande.pdf"
+      }
+    ],
     "word_count": 13703,
     "concept_ids": [
       "metric-measurement",
@@ -287,6 +446,19 @@
     "title": "Lecture 14: Matter",
     "url": "https://www.youtube.com/watch?v=65Y38aRWIXs",
     "transcript_status": "available",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      },
+      {
+        "id": "ernestyalumni-gravity-notes-grande",
+        "title": "Notes on General Relativity and Gravity",
+        "url": "https://ernestyalumni.wordpress.com/wp-content/uploads/2016/01/gravity_notes_grande.pdf"
+      }
+    ],
     "word_count": 2788,
     "concept_ids": [
       "stress-energy-matter"
@@ -305,6 +477,19 @@
     "title": "Lecture 15: Einstein Gravity",
     "url": "https://www.youtube.com/watch?v=ZfewnqcBYag",
     "transcript_status": "available",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      },
+      {
+        "id": "ernestyalumni-gravity-notes-grande",
+        "title": "Notes on General Relativity and Gravity",
+        "url": "https://ernestyalumni.wordpress.com/wp-content/uploads/2016/01/gravity_notes_grande.pdf"
+      }
+    ],
     "word_count": 7929,
     "concept_ids": [
       "stress-energy-matter",
@@ -331,6 +516,19 @@
     "title": "Lecture 16: Optical Geometry I",
     "url": "https://www.youtube.com/watch?v=wOY5K42nsFM",
     "transcript_status": "available",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      },
+      {
+        "id": "ernestyalumni-gravity-notes-grande",
+        "title": "Notes on General Relativity and Gravity",
+        "url": "https://ernestyalumni.wordpress.com/wp-content/uploads/2016/01/gravity_notes_grande.pdf"
+      }
+    ],
     "word_count": 8123,
     "concept_ids": [
       "optical-geometry",
@@ -357,6 +555,8 @@
     "title": "Lecture 17: Optical Geometry II",
     "url": "https://www.youtube.com/watch?v=2-nOtRESiUc",
     "transcript_status": "available",
+    "external_notes_status": "missing",
+    "external_note_sources": [],
     "word_count": 12915,
     "concept_ids": [
       "optical-geometry",
@@ -377,19 +577,27 @@
     "title": "Lecture 18: Canonical Formulation of GR I",
     "url": "https://www.youtube.com/watch?v=sOiifkFYck4",
     "transcript_status": "missing",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "ernestyalumni-gravity-notes-grande",
+        "title": "Notes on General Relativity and Gravity",
+        "url": "https://ernestyalumni.wordpress.com/wp-content/uploads/2016/01/gravity_notes_grande.pdf"
+      }
+    ],
     "word_count": 0,
     "concept_ids": [
       "canonical-formulation",
       "initial-data-constraints"
     ],
-    "audit_note": "Needs manual lecture notes or another transcript source before detailed claims should be treated as supported.",
+    "audit_note": "Local transcript missing, but external notes are available from: Notes on General Relativity and Gravity.",
     "central_question": "How does this lecture use Canonical Formulation and Constraints, Initial Data Must Satisfy Constraints to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
     "first_principles_role": "Lecture 18 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to describe spacetime evolution from data on a space-like slice while respecting coordinate freedom. The course needs to explain why not every imagined snapshot of space can be the start of a valid spacetime. The mathematical work to watch is: The operation is decomposing spacetime into space plus time, identifying constraints, and checking how allowed data evolves. The operation is checking the constraint equations before using the data as a lawful starting point. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
       "The canonical formulation rewrites spacetime geometry as slice geometry plus momentum-like data, constrained by the same physics in a different language.",
       "Initial data consists of spatial geometry plus momentum-like change data that obeys Hamiltonian and momentum constraints."
     ],
-    "reader_warning": "This lecture is not locally transcript-backed. Treat its page as a roadmap for future notes, not as a finished explanation of the lecture."
+    "reader_warning": "This lecture lacks local YouTube captions, but external notes are available. Treat notes-backed claims as useful but not identical to transcript evidence."
   },
   {
     "index": 19,
@@ -397,6 +605,8 @@
     "title": "Lecture 19: Canonical Formulation of GR II",
     "url": "https://www.youtube.com/watch?v=GSxuLzmHyyU",
     "transcript_status": "missing",
+    "external_notes_status": "missing",
+    "external_note_sources": [],
     "word_count": 0,
     "concept_ids": [
       "canonical-formulation",
@@ -417,19 +627,32 @@
     "title": "Lecture 20: Cosmology - The early epoch",
     "url": "https://www.youtube.com/watch?v=xzzSlx4tdOw",
     "transcript_status": "missing",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      },
+      {
+        "id": "ernestyalumni-gravity-notes-grande",
+        "title": "Notes on General Relativity and Gravity",
+        "url": "https://ernestyalumni.wordpress.com/wp-content/uploads/2016/01/gravity_notes_grande.pdf"
+      }
+    ],
     "word_count": 0,
     "concept_ids": [
       "cosmology-scale-factor",
       "scale-factor-expansion-history"
     ],
-    "audit_note": "Needs manual lecture notes or another transcript source before detailed claims should be treated as supported.",
+    "audit_note": "Local transcript missing, but external notes are available from: The WE-Heraeus International Winter School on Gravity and Light notes, Notes on General Relativity and Gravity.",
     "central_question": "How does this lecture use Cosmology and Expansion, Scale Factor As Expansion History to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
     "first_principles_role": "Lecture 20 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs to apply the field equation to a whole-universe model without pretending every detail of the universe is tracked. The course needs one changing quantity that records how large-scale distances evolve in a smoothed universe model. The mathematical work to watch is: The operation is imposing homogeneity/isotropy, deriving reduced evolution equations, and reading matter content from how the scale factor changes. The operation is solving equations for this multiplier from matter content, curvature assumptions, and possible vacuum terms. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
       "A cosmological model uses symmetry assumptions plus a scale factor to reduce Einstein's equation to equations for large-scale evolution.",
       "The scale factor is the time-dependent multiplier that converts fixed comoving separations into physical separations."
     ],
-    "reader_warning": "This lecture is not locally transcript-backed. Treat its page as a roadmap for future notes, not as a finished explanation of the lecture."
+    "reader_warning": "This lecture lacks local YouTube captions, but external notes are available. Treat notes-backed claims as useful but not identical to transcript evidence."
   },
   {
     "index": 21,
@@ -437,6 +660,14 @@
     "title": "Lecture 21: Cosmology - The late epoch",
     "url": "https://www.youtube.com/watch?v=U9fJH3XS8Vc",
     "transcript_status": "available",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      }
+    ],
     "word_count": 10354,
     "concept_ids": [
       "cosmology-scale-factor",
@@ -463,6 +694,19 @@
     "title": "Lecture 22: Black Holes",
     "url": "https://www.youtube.com/watch?v=7VJzouE9rNE",
     "transcript_status": "available",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      },
+      {
+        "id": "ernestyalumni-gravity-notes-grande",
+        "title": "Notes on General Relativity and Gravity",
+        "url": "https://ernestyalumni.wordpress.com/wp-content/uploads/2016/01/gravity_notes_grande.pdf"
+      }
+    ],
     "word_count": 12534,
     "concept_ids": [
       "black-holes-horizons",
@@ -483,13 +727,21 @@
     "title": "Lecture 23: Penrose Diagrams",
     "url": "https://www.youtube.com/watch?v=nAT1PDkufso",
     "transcript_status": "missing",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      }
+    ],
     "word_count": 0,
     "concept_ids": [
       "black-holes-horizons",
       "event-horizon-causal-boundary",
       "penrose-diagrams-compress-infinity"
     ],
-    "audit_note": "Needs manual lecture notes or another transcript source before detailed claims should be treated as supported.",
+    "audit_note": "Local transcript missing, but external notes are available from: The WE-Heraeus International Winter School on Gravity and Light notes.",
     "central_question": "How does this lecture use Black Holes and Horizons, Event Horizon As Causal Boundary, Penrose Diagrams Compress Infinity to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
     "first_principles_role": "Lecture 23 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs to understand regions where causal structure, not escape speed folklore, defines what can communicate outward. The course needs a definition of a black-hole boundary that depends on what signals can do, not on a material surface. The course needs a way to draw causal structure, including infinity, without losing which light paths are possible. The mathematical work to watch is: The operation is tracing null directions and causal relations, often after a coordinate change that removes fake singular behavior. The operation is tracing future-directed null paths and deciding which events can communicate outward. The operation is conformally rescaling the metric so causal directions remain visible while distances are compressed. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
@@ -497,7 +749,7 @@
       "An event horizon is the boundary separating events that can send light to distant outside observers from events that cannot.",
       "A Penrose diagram is a rescaled picture that preserves light-cone directions while bringing infinity to a finite edge."
     ],
-    "reader_warning": "This lecture is not locally transcript-backed. Treat its page as a roadmap for future notes, not as a finished explanation of the lecture."
+    "reader_warning": "This lecture lacks local YouTube captions, but external notes are available. Treat notes-backed claims as useful but not identical to transcript evidence."
   },
   {
     "index": 24,
@@ -505,13 +757,26 @@
     "title": "Lecture 24: Perturbation Theory I",
     "url": "https://www.youtube.com/watch?v=H_1ZBlwVsXo",
     "transcript_status": "missing",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      },
+      {
+        "id": "ernestyalumni-gravity-notes-grande",
+        "title": "Notes on General Relativity and Gravity",
+        "url": "https://ernestyalumni.wordpress.com/wp-content/uploads/2016/01/gravity_notes_grande.pdf"
+      }
+    ],
     "word_count": 0,
     "concept_ids": [
       "perturbations-waves",
       "gauge-versus-physical-change",
       "linearized-equations-small-disturbances"
     ],
-    "audit_note": "Needs manual lecture notes or another transcript source before detailed claims should be treated as supported.",
+    "audit_note": "Local transcript missing, but external notes are available from: The WE-Heraeus International Winter School on Gravity and Light notes, Notes on General Relativity and Gravity.",
     "central_question": "How does this lecture use Perturbation Theory and Gravitational Waves, Gauge Change Versus Physical Change, Linearized Equations For Small Disturbances to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
     "first_principles_role": "Lecture 24 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to study small departures from a known spacetime and connect them to measurable signals. The course needs to separate a real small disturbance from a small change in how the same spacetime is described. The course needs an approximation that keeps the first small effect while discarding higher-order complications. The mathematical work to watch is: The operation is linearizing the field equations, separating physical modes from coordinate changes, and predicting detector strain. The operation is identifying which perturbation changes can be removed by a coordinate change and which remain measurable. The operation is expanding the field equation and discarding terms quadratic or higher in the small disturbance. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
@@ -519,7 +784,7 @@
       "Gauge freedom is the freedom to change description without changing the physical situation.",
       "Linearization writes the metric as a known background plus a small change and keeps only first-order terms in that change."
     ],
-    "reader_warning": "This lecture is not locally transcript-backed. Treat its page as a roadmap for future notes, not as a finished explanation of the lecture."
+    "reader_warning": "This lecture lacks local YouTube captions, but external notes are available. Treat notes-backed claims as useful but not identical to transcript evidence."
   },
   {
     "index": 25,
@@ -527,13 +792,21 @@
     "title": "Lecture 25: Perturbation Theory II",
     "url": "https://www.youtube.com/watch?v=q9qWR9xUMts",
     "transcript_status": "missing",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      }
+    ],
     "word_count": 0,
     "concept_ids": [
       "perturbations-waves",
       "gauge-versus-physical-change",
       "linearized-equations-small-disturbances"
     ],
-    "audit_note": "Needs manual lecture notes or another transcript source before detailed claims should be treated as supported.",
+    "audit_note": "Local transcript missing, but external notes are available from: The WE-Heraeus International Winter School on Gravity and Light notes.",
     "central_question": "How does this lecture use Perturbation Theory and Gravitational Waves, Gauge Change Versus Physical Change, Linearized Equations For Small Disturbances to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
     "first_principles_role": "Lecture 25 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to study small departures from a known spacetime and connect them to measurable signals. The course needs to separate a real small disturbance from a small change in how the same spacetime is described. The course needs an approximation that keeps the first small effect while discarding higher-order complications. The mathematical work to watch is: The operation is linearizing the field equations, separating physical modes from coordinate changes, and predicting detector strain. The operation is identifying which perturbation changes can be removed by a coordinate change and which remain measurable. The operation is expanding the field equation and discarding terms quadratic or higher in the small disturbance. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
@@ -541,7 +814,7 @@
       "Gauge freedom is the freedom to change description without changing the physical situation.",
       "Linearization writes the metric as a known background plus a small change and keeps only first-order terms in that change."
     ],
-    "reader_warning": "This lecture is not locally transcript-backed. Treat its page as a roadmap for future notes, not as a finished explanation of the lecture."
+    "reader_warning": "This lecture lacks local YouTube captions, but external notes are available. Treat notes-backed claims as useful but not identical to transcript evidence."
   },
   {
     "index": 26,
@@ -549,6 +822,19 @@
     "title": "Lecture 26: How quantizable matter gravitates",
     "url": "https://www.youtube.com/watch?v=MNriGs9hL8M",
     "transcript_status": "available",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "richie-dadhley-gravity-light-notes",
+        "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+        "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true"
+      },
+      {
+        "id": "ernestyalumni-gravity-notes-grande",
+        "title": "Notes on General Relativity and Gravity",
+        "url": "https://ernestyalumni.wordpress.com/wp-content/uploads/2016/01/gravity_notes_grande.pdf"
+      }
+    ],
     "word_count": 16214,
     "concept_ids": [
       "stress-energy-matter"
@@ -567,6 +853,8 @@
     "title": "Lecture 27: Sources of gravitational waves",
     "url": "https://www.youtube.com/watch?v=MOUXdnK58z4",
     "transcript_status": "available",
+    "external_notes_status": "missing",
+    "external_note_sources": [],
     "word_count": 17546,
     "concept_ids": [
       "perturbations-waves",
@@ -591,6 +879,14 @@
     "title": "Lecture 28: How to detect gravitational waves",
     "url": "https://www.youtube.com/watch?v=GVGsh1jCBZQ",
     "transcript_status": "available",
+    "external_notes_status": "available",
+    "external_note_sources": [
+      {
+        "id": "ernestyalumni-gravity-notes-grande",
+        "title": "Notes on General Relativity and Gravity",
+        "url": "https://ernestyalumni.wordpress.com/wp-content/uploads/2016/01/gravity_notes_grande.pdf"
+      }
+    ],
     "word_count": 13530,
     "concept_ids": [
       "perturbations-waves",

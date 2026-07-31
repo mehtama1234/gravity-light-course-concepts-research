@@ -1,0 +1,5 @@
+7 Connections 47
+7.1 Directional Derivatives of Tensor Fields . . . . . . . . . . . . . . . . . . . . . 48
+7.2 New Structure on (M,O,A) Required to Fix∇ . . . . . . . . . . . . . . . . . 49
+7.3 Change of Γs Under Change of Chart . . . . . . . . . . . . . . . . . . . . . . . 52
+7.4 Normal Coordinates . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54

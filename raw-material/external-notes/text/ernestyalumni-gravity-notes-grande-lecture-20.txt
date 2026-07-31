@@ -1,0 +1,149 @@
+20 ERNEST YEUNG
+Consider the following:
+Ω(y)(Y(1)...Y (d)) = Ω(y)i1...idYi1
+(1)...Y id
+(d) =
+=
+√
+det(gij(y))ϵi1...idYi1
+(1)...Y id
+(d) =
+=
+√
+det(gmn(x))∂xm
+∂yi
+∂xn
+∂yjϵi1...id
+∂yi1
+∂xm1
+... ∂yid
+∂xmd
+Xm1...X md =
+=
+√
+det(gmn(x))∂xm
+∂yi
+∂xn
+∂yj det
+(∂y
+∂x
+)
+ϵm1...mdXm1...X md =
+=
+√
+det(gmn(x))
+⏐⏐⏐⏐det
+(∂x
+∂y
+)⏐⏐⏐⏐ det
+(∂y
+∂x
+)
+ϵm1...mdXm1...X md =
+=
+√
+det(gmn(x))ϵm1...mdsgn
+(
+det
+(∂x
+∂y
+))
+Xm1...X md = sgn(det
+(∂x
+∂y
+)
+)Ωm1...md(x)Xm1...X md
+If det
+(
+∂y
+∂x
+)
+> 0,
+Ω(y)(Y(1)...Y (d)) = Ω(x)(X(1)...X (d))
+This works also if Levi-Civita symbol ϵi1...id doesn’t change at all under a change of charts. (around 42:43 https:
+//youtu.be/2XpnbvPy-Zg)
+Alright, let’s require,
+restrict the smooth atlas A
+to a subatlas (A↑ still an atlas)
+A↑⊆A
+s.t.∀ (U,x ), (V,y ) have chart transition maps y◦x−1
+x◦y−1
+s.t. det
+(
+∂y
+∂x
+)
+> 0
+suchA↑ called an oriented atlas
+(M,O,A,g ) =⇒ (M,O,A↑,g )
+Note: associated bundles.
+Note also: det
+(
+∂yb
+∂xa
+)
+= det( ∂a(ybx−1)) ∂yb
+∂xa is an endomorphism on vector space V .
+ϕ :V →V
+detϕ independent of choice of basis
+g is a (0, 2) tensor ﬁeld, not endomorphism (not independent of choice of basis)
+√
+|det(gij(y))|
+Deﬁnition 41. Ω be a volume form on (M,O,A↑) and consider chart (U,x )
+Deﬁnition 42. ω(X) := Ωi1...idϵi1...id same way ϵ12...d = +1
+ϵ[... ]
+one can show
+ω(y) = det
+(∂x
+∂y
+)
+ω(x) scalar density
+12.4. Integration on one chart domain U.
+Deﬁnition 43.
+(7)
+∫
+U
+f :
+(U,y)
+=
+∫
+y(U)
+ddβω(y)(y−1(β))f(y)(β)
+Proof. : Check that it’s (well-deﬁned), how it changes under change of charts
+∫
+U
+f :
+(U,y)
+=
+∫
+y(U)
+ddβω(y)(y−1(β))f(y)(β) = =
+(U,y)
+∫
+x(U)
+∫
+ddα
+⏐⏐⏐⏐det
+(∂y
+∂x
+)⏐⏐⏐⏐f(x)(α)ω(x)(x−1(α)det
+(∂x
+∂y
+)
+=
+=
+∫
+x(U)
+ddαω(x)(x−1(x))f(x)(α)
+□
+On an oriented metric manifold (M,O,A↑,g )∫
+U
+f :=
+∫
+x(U)
+ddα
+√
+det(gij(x))(x−1(α))
+  √g
+f(x)(α)
+12.5. Integration on the entire manifold.

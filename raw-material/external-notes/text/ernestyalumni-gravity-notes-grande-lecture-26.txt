@@ -1,0 +1,47 @@
+26 ERNEST YEUNG
+Tµν =Tνµ =⇒Sm =c2gm
+10 independent komp. (components)
+Phys. dim. [Tµν] = J
+m3
+[Gµν] = 1
+m2
+[k] = 1
+m2/ J
+m3 ,
+k = curvature
+Energy · density
+2k Curvature
+mass density =
+( 1
+1.5 AU
+)2
+/ Density of water
+=
+( 1
+10km
+)2
+/ Nuclear density in core of neutron star ≃ 5· 1017kg/m3
+If “Ein” for Einstein Tensor, Gµν = Ein
+( ∂
+∂xµ, ∂
+∂xν
+)
+Ein(v,w ) = 1
+4[Ein(v +w,v +w)− Ein(v−w,v−w)
+Ein(w,w ) =−g(w,w )
+∑
+⊥w
+Sec
+where⊥w is take the sum over any triple of mutually perp. 2-planes in ⊥w
+Sec(Span{v,w}) = Riem(v,w,v,w)
+[g(v,w)]2−g(v,v)g(w,w)
+“sectional curvature”
+Identity:∇µGµν = 0 (follows from twice-contracted II. Bianchi Identity∑
+λµν cycl∇λRαβµν = 0 )
+∂0G0ν
+  
+contains at most 1st time der.
++ ∂kGkν + ΓG + ΓG≡ 0  
+contains at most 2nd. time derivatives
+=⇒ 4 out of 10 Einstein Eq. do not evolve the ﬁelds but rather constrain the initial data. The space-space components (6
+Eqns.) are the evolution Eqns.

@@ -1,0 +1,283 @@
+28 ERNEST YEUNG
+The single point, the origin of R2, gets mapped to many possible values! In other words,
+ϕpol(0, 0) ={(r,ϕ )|r = 0 or ϕ∈ R}
+Clearly this must be the case for any kind of coordinates involving cos’s, sin’s, etc. (i.e. transcendental functions). So the
+choice of these kinds of coordinates necessitate giving up on the possibility of a single chart covering the entire manifold of the
+Euclidean space.
+Consider
+V :={(r,ϕ )|r> 0,ϕ∈ (0, 2π)}⊂ R2
+[0,∞)× [0, 2π)−V ={(r,ϕ )|r = 0 or ϕ = 0}
+Nowϕ−1
+pol([0,∞)× [0, 2π)) = R2, i.e. ϕ−1
+pol maps [0,∞)× [0, 2π) onto R2 “once.”
+Now consider if ϕ = 0. Then x =r
+y = 0
+for r> 0. So x> 0 and y = 0. If r = 0, then (x,y ) = (0, 0). Thus
+ϕ−1
+pol([0,∞)× [0, 2π)−V ) ={(x,y )|x≥ 0 and y = 0}
+(If you have trouble seeing this, think of the union of the cases when r = 0 or when ϕ = 0). Thus
+ϕ−1
+pol(V ) ={(x,y )|x< 0 or y̸= 0}
+Thus, in summary, we can include this chart into atlas A:
+(11)
+(U,ϕ pol)∈A
+U ={(x,y )|x< 0 or y̸= 0}
+ϕpol(U) ={(r,ϕ )|r> 0,ϕ∈ (0, 2π)}
+ϕpol :U→ R2
+ϕpol(x,y ) = (
+√
+x2 +y2, arctan
+(y
+x
+)
+ϕ−1
+pol :ϕpol(U)→ R2
+ϕ−1
+pol(r,ϕ ) = (r cosϕ,r sinϕ) = (x,y )
+If someone really wanted to, one can try to cover R2 with another polar coordinate chart, but I would argue that we already
+have the cartesian coordinate chart that singlely covers R2. Also note that the transition map between polar coordinate charts
+and the cartesian coordinate chart is easy, since the cartesian chart is the identity.
+24. R3
+Consider the spherical coordinates
+(12)
+x =r sinθ cosϕ
+y =r sinθ sinϕ
+z =r cosθ
+We seek to construct a chart and open subset/domain for these spherical coordinates. So consider, in parallel, following closely
+the discussion above for R2,
+ϕ−1
+sph :V ⊂ R3→ R3
+ϕ−1
+sph : (r,θ,ϕ )↦→ (x,y,z )
+V :={(r,θ,ϕ )∈ R3|r> 0,θ∈ (0,π ),ϕ∈ (0, 2π)}
+ϕ−1
+sph([0,∞)× [0,π )× [0, 2π)) = R3( once over )
+[0,∞)× [0,π )× [0, 2π)−V ={(r,θ,ϕ )|r = 0 or θ = 0 or ϕ = 0}
+Now if ϕ = 0,
+x =r sinθ
+y = 0
+z =r cosθ
+, and if θ = 0,
+x = 0
+y = 0
+z =r
+, for r> 0 and θ∈ (0,π ).
+Thus,
+ϕ−1
+sph([0,∞)× [0,π )× [0, 2π)−V ) ={(x,y,z )|y = 0 and x≥ 0}
+ϕ−1
+sph(V ) ={(x,y,z )|y̸= 0 or x< 0}
+So, in summary,
+(13)
+(U,ϕ sph)∈A with
+U ={(x,y,z )|x< 0 or y̸= 0}
+ϕsph(U) ={(r,θ,ϕ )|r> 0,θ∈ (0,π ),ϕ∈ (0, 2π)}
+ϕsph :U→ R3
+ϕsph(x,y,z ) = (
+√
+x2 +y2 +z2, arctan
+(√
+x2 +y2
+z
+)
+, arctan
+(y
+x
+)
+)
+ϕ−1
+sph :ϕsph(U)→ R3
+ϕ−1
+sph(r,θ,ϕ ) = (r sinθ cosϕ,r sinθ sinϕ,r cosθ)
+Consider another chart for cylindrical coordinates for R3:
+(14)
+x =r cosϕ
+y =r sinϕ
+z =z
+Following a similar procedure as above, let
+ϕ−1
+cyl :V ⊆ R3→ R3
+ϕ−1
+cyl : (r,ϕ,z )↦→ (x,y,z ) = (r cosϕ,r sinϕ,z )
+ϕ−1
+cyl([0,∞)× [0, 2π)× R) = R3 (once over)
+V :={(r,ϕ,z )∈ R3|r> 0, ϕ∈ (0, 2π), z∈ R}
+and so
+[0,∞)× [0,π )× R−V ={(r,ϕ,z )|r = 0 or ϕ = 0}
+if ϕ = 0,
+x =r
+y = 0
+z =z
+, for r> 0.
+Thus
+ϕ−1
+cyl([0,∞)× [0, 2π)× R−V ) ={(x,y,z )|y = 0 and x≥ 0}
+and so
+(15)
+(U,ϕ cyl)∈A with
+U ={(x,y,z )|y̸= 0 or x< 0}
+ϕcyl(x,y,z ) = (
+√
+x2 +y2, arctan
+(y
+x
+)
+,z )
+
+
+[[page 29]]
+GR 29
+25. Rn
+For “spherical coordinates” of Rn,
+(16)
+x1 =r sin (θ1)... sin (θn−2) cos (φ)
+x2 =r sin (θ1)... sin (θn−2) sin (φ)
+x3 =r sin (θ1)... sin (θn−3) cos (θn−2)
+x4 =r sin (θ1)... sin (θn−4) cos (θn−3)
+...
+xn−1 =r sin (θ1) cos (θ2)
+xn =r cos (θ1)
+Consider V ={(r,θ 1...θ n−2,φ )|r> 0,θ 1,θ 2,...θ n−2∈ (0,π ),φ∈ (0, 2π)}.
+Now for θi = 0, i∈ 1...n − 2, x1 =x2 =··· =xn−i = 0.
+for φ = 0, x2 = 0, x1 > 0, since θi∈ (0,π ) ∀i∈ 1...n − 2.
+So let
+V ={(x1...x n)|x2 = 0 and x1≥ 0}
+and so
+(17) U ={(x1...x n)|x2̸= 0 or x1 < 0}
+and we have chart (homeomorphism)
+ϕsph :U→ Rn
+ϕsph(x1...x n) = (
+√
+x2
+1 +··· +x2n,
+arctan
+
+
+√
+x2
+1 +··· +x2
+n−1
+xn
+
+, arctan
+
+
+√
+x2
+1 +··· +x2
+n−2
+xn−1
+
+,... arctan
+(√
+x2
+1 +x2
+2
+x3
+)
+, arctan
+(x2
+x1
+)
+)
+For “cylindrical coordinates” of Rn, with coordinate xn being a parameter of each “sphere”,
+(18)
+x1 =r sin (θ1)... sin (θn−3) cos (φ)
+x2 =r sin (θ1)... sin (θn−3) sin (φ)
+x3 =r sin (θ1)... sin (θn−4) cos (θn−3)
+x4 =r sin (θ1)... sin (θn−5) cos (θn−4)
+...
+xn−2 =r sin (θ1) cos (θ2)
+xn−1 =r cos (θ1)
+xn =xn
+If θi = 0, i∈ 1...n − 3, x1 =x2 =··· =xn−1−i = 0.
+If φ = 0, x2 = 0.
+ForV ={(r,θ 1...θ n−3,φ,z )|r∈ (0,∞), θi∈ (0,π )∀i∈ 1,...n − 3, φ∈ (0, 2π), z∈ R},
+ϕ−1
+cyl([0,∞)× [0,π )···× [0,π )× [0, 2π)× R−V ) ={(x1...x n)|x2 = 0 and x1≥ 0}
+For ifφ = 0, x2 = 0, and x1(ϕ = 0) =r sin (θ1)... sin (θn−3)> 0 for θ1...θ n−3∈ (0,π ).
+Thus,
+(19) ϕ−1
+cyl(V ) ={(x1...x n)|x2̸= 0 or x1 < 0} =:Ucyl
+and the chart is
+ϕcyl :U→ Rn
+ϕcyl(x1...x n) = (
+√
+x2
+1 +··· +x2
+n−1,
+arctan
+
+
+√
+x2
+1 +··· +x2
+n−2
+xn−1
+
+, arctan
+
+
+√
+x2
+1 +··· +x2
+n−3
+xn−2
+
+,... arctan
+(√
+x2
+1 +x2
+2
+x3
+)
+, arctan
+(x2
+x1
+)
+,xn)
+25.0.1. Sage Math, sagemanifolds, implementation. As described above, with our chart constructions for spherical (or polar for
+2-dimensions) and cylindrical coordinates, the Euclidean spaces R2, R3, and Rn, in general, (for instance, say n = 4), can be
+implemented in Sage Math, using the sagemanifolds package. This implementation is given in Rn.sage of the github repository
+Gravite.
+What Rn.sage provides are Python classes so that one can create automatically orinstantiate Euclidean spaces as a manifold,
+and the “usual” atlas with charts for spherical and/or cylindrical coordinates. It was coded (you should be welcomed to take a
+look at the code directly) to follow precisely the logic of the above developments, e.g. the open subset U in Equations 11, 13,
+15, 17, 19 is written into the code for the classes that represent the Euclidean spaces as such:
+class R2(object):
+def __init__(self):
+self.M = Manifold(2,’R2’,r’\mathbb{R}^2’,start_index=1)
+self.cart_ch = self.M.chart(’x␣y’)
+self.U = self.M.open_subset(’U’,coord_def={self.cart_ch: (self.cart_ch[1]<0, self.cart_ch[2]!=0)})
+class R3(object):
+def __init__(self):
+self.M = Manifold(3,’R3’,r’\mathbb{R}^3’,start_index=1)
+self.cart_ch = self.M.chart(’x␣y␣z’)
+self.U = self.M.open_subset(’U’,coord_def={self.cart_ch: (self.cart_ch[1]<0, self.cart_ch[2]!=0)})
+class Rn(object):
+def __init__(self,n):
+assert n>0
+if n == 2:
+print ‘‘Use the class R2’’
+elif n == 3:
+print ‘‘Use the class R3’’
+else:
+self.M = Manifold(n,’R’+str(n),r’\mathbb{R}^’+str(n),start_index=1)
+self.cart_ch = self.M.chart(r’’ ‘‘.join([r’’x’’+str(i) for i in range(1,n+1)]))
+xis = [self.cart_ch[i[0]] for i in self.M.index_generator(1)]
+self.U = self.M.open_subset(’U’,coord_def={self.cart_ch:(xis[0]<0,xis[1]!=0)})
+so that the “spirit” in coding up Rn.sage is to follow the (abstract) math developed above closely and exactly, if possible.
+Now, for instance, to implement
+(R2,AR2) AR2 ={(R2,ϕ cart≡xi), (U,ϕ pol≡ϕsph)}
+(R3,AR3) AR3 ={(R3,xi), (U,ϕ sph), (U,ϕ cyl)}
+(Rn,ARn) ARn ={(Rn,xi), (U,ϕ sph), (U,ϕ cyl)}
+one does, after loading the ﬁle, which is assumed to be in the working directory for Sage (simply cd or change directory into it)
+into Sage Math
+sage: load(‘‘Rn.sage’’)
+sage: R2eg = R2()
+sage: R3eg = R3()
+sage: R4 = Rn(4)
+Indeed, the coordinate transformations in Equations 10, 12, 14, 16, 18 are implemented with this ﬁle Rn.sage as follows:
+
+
+[[page 30]]

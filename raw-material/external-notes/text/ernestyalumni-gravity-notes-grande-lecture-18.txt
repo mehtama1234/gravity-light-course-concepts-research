@@ -1,0 +1,276 @@
+18 ERNEST YEUNG
+Tutorial 11 Symmetry. Exercise 1. : True or false?
+(a) •
+• φ∗ :T∗N→T∗M i.e. φ∗ν(X) =ν(φ∗X) for smooth φ :M→N, so the pullback of a covector ν∈T∗N maps to
+a covector in T∗M.
+•
+•
+•
+•
+(b)
+(c)
+Exercise 2. : Pull-back and push-forward
+Question . Let’s check this locally
+φ∗(df)(X) = (df)(φ∗X) = (df)(Xi∂yj
+∂xi
+∂
+∂yj ) =Xi∂yj
+∂xi
+∂f
+∂yj where φ∗X =Xi∂yj
+∂xi
+∂
+∂yj
+d(φ∗f)(X) =d(f(φ))(X) = ∂f
+∂yj
+∂yj
+∂xidxi(X) =Xi∂yj
+∂xi
+∂f
+∂yj
+So
+φ∗(df) =d(φ∗f) ∀p∈M, ∀X∈ X(M)
+The big idea is that this is a showing of the naturality of the pullback φ∗ with d, i.e. that this commutes:
+Ω1(M) Ω1(N)
+C∞(M) C∞(N)
+φ∗
+d
+φ∗
+d
+Question .
+(φ∗)a
+b := (dya)(φ∗( ∂
+∂xb ))
+Let g∈C∞(N)
+φ∗
+( ∂
+∂xb
+)
+g = ∂xb
+g φ(p) = ∂
+∂xbgφx−1x(p) = ∂
+∂xb (gyy−1φx−1)(x) =
+= ∂
+∂xb (gy−1(yφx−1(x(p)))) = ∂g
+∂y
+b
+⏐⏐⏐⏐⏐
+y
+∂ya
+∂xb
+⏐⏐⏐⏐
+x
+= ∂ya
+∂xb
+∂g
+∂ya
+Then
+φ∗
+( ∂
+∂xb
+)
+= ∂ya
+∂xb
+∂
+∂ya
+and so
+(φ∗)a
+b = ∂ya
+∂xb
+Question .
+Exercise 3. :Lie derivative-the pedestrian way
+Question . While it is true that ∀p∈ S2, for x(p) = (θ,ϕ ), and ( yix−1)(θ,ϕ ) = (y1,y 2,y 3)∈ R3 and that, at this point
+p, (y1)2/a2 + (y2)2/b2 + (y3)2/c3 = 1, this doesn’t imply (EY: 20150321 I think) that, globally, it’s an ellipsoid (yet). In the
+familiar charts given,
+spherical chart (U,x )∈A and
+(R3,y = idR3)∈B
+it looks like an ellipsoid, but change to another choice of charts, and it could look something very diﬀerent.
+Question .
+Equip (R3,Ost,B) with the Euclidean metric g, and pullback g.
+Note that the pullback of the inclusion from R3 ontoS2 for the Euclidean metric is the following:
+i∗g
+( ∂
+∂θi, ∂
+∂θj
+)
+=g
+(
+i∗
+∂
+∂θi,i∗
+∂
+∂θj
+)
+=g
+(∂xa
+∂θi
+∂
+∂xa,∂xb
+∂θj
+∂
+∂xb
+)
+=gab
+∂xa
+∂θi
+∂xb
+∂θj
+With gab =δab, the usual Euclidean metric, this becomes the following:
+gellipsoid
+ij = ∂xa
+∂θi
+∂xa
+∂θj
+At this point, one should get smart (we are in the 21st century) and use some sort of CAS (Computer Algebra System). I
+like Sage Math (version 6.4 as of 20150322). I also like the Sage Manifolds package for Sage Math.
+I like Sage Math for the following reasons:
+• Open source, so it’s open and freely available to anyone, which ﬁts into my principle of making online education open
+and freely available to anyone, anytime
+• Sage Math structures everything in terms of Category Theory and Categories and Morphisms naturally correspond to
+Classes and Class methods or functions in Object-Oriented Programming in Python and they’ve written it that way
+and I like Sage Manifolds for roughly the same reasons, as manifolds are ﬁt into a category theory framework that’s written into
+the Python code. e.g.
+sage: S2 = Manifold(2, ’S^2’, r’\mathbb{S}^2’, start_index=1) ; print S2
+sage: print S2
+2-dimensional manifold ’S^2’
+sage: type(S2)
+<class ’sage.geometry.manifolds.manifold.Manifold_with_category’>
+With code (I’ve provided for convenience; you can make your own as I wrote it based upon to example of S2 on the sage-
+manifolds documentation website page), load it and do the following:
+cf. https://github.com/ernestyalumni/diffgeo-by-sagemnfd/blob/master/S2.sage
+http://sagemanifolds.obspm.fr/examples.html
+sage: load("S2.sage")
+sage: U_ep = S2.open_subset(’U_{ep}’)
+sage: eps.<the,phi> = U_ep.chart()
+sage: a = var(\a")
+sage: b = var(\b")
+sage: c = var("c")
+sage: inclus = S2.diff_mapping(R3, {(eps, cart): [ a*cos(phi)*sin(the), b*sin(phi)*sin(the),c*cos(the) ]} , name="inc",latex_name=r’\mathcal{i}’)
+sage: inclus.pullback(h).display()
+inc_*(h) = (c^2*sin(the)^2 + (a^2*cos(phi)^2 + b^2*sin(phi)^2)*cos(the)^2) dthe*dthe - (a^2 - b^2)*cos(phi)*cos(the)*sin(phi)*sin(the) dthe*dphi
+- (a^2 - b^2)*cos(phi)*cos(the)*sin(phi)*sin(the) dphi*dthe + (b^2*cos(phi)^2 + a^2*sin(phi)^2)*sin(the)^2 dphi*dphi
+sage: inclus.pullback(h)[2,2].expr()
+(b^2*cos(phi)^2 + a^2*sin(phi)^2)*sin(the)^2
+
+
+[[page 19]]
+GR 19
+A new open subset Uep was declared in S2, a new chart (Uep, (θ,φ )) was declared, the constants, a,b,c , were declared, and
+the inclusion map given in the problem
+y◦ i◦x−1 : (θ,φ )↦→ (a cosφ sinθ,b sinφ sinθ,c cosθ)
+Then the pullback of the inclusion map ⟩ was done on the Euclidean metric h, deﬁned earlier in the ﬁle
+S2.sage
+. Then one can access the components of this metric and do, for example,
+simplify_full(),full_simplify(), reduce_trig()
+on the expression.
+In Python, I could easily do this, and give an answer quick in LaTeX:
+sage: for i in range(1,3):
+....: for j in range(1,3):
+....: print inclus.pullback(h)[i,j].expr()
+....: latex(inclus.pullback(h)[i,j].expr() )
+....:
+c^2*sin(the)^2 + (a^2*cos(phi)^2 + b^2*sin(phi)^2)*cos(the)^2
+(EY: I’ll suppress the LaTeX output but this sage math function gives you LaTeX code)
+and so
+i∗g =c2 sin (the)2 +
+(
+a2 cos (φ)2 +b2 sin (φ)2
+)
+cos (the)2dθ⊗dθ+
+−2
+(
+a2−b2)
+cos (φ) cos (the) sin (φ) sin (the)dθ⊗dφ+
++
+(
+b2 cos (φ)2 +a2 sin (φ)2
+)
+sin (the)2dφ⊗dφ
+Question .
+sage: polar_vees = eps.frame()
+sage: X_1 = - sin(phi) * polar_vees[1] - cot( the ) * cos(phi) * polar_vees[2]
+sage: X_2 = cos( phi ) * polar_vees[1] - cot( the ) * sin( phi) * polar_vees[2]
+sage: X_3 = polar_vees[2]
+sage: X_2.lie_der(X_1).display()
+(cos(the)^2 - 1)/sin(the)^2 d/dphi
+sage: X_3.lie_der(X_1).display()
+cos(phi) d/dthe - cos(the)*sin(phi)/sin(the) d/dphi
+sage: X_3.lie_der(X_2).display()
+sin(phi) d/dthe + cos(phi)*cos(the)/sin(the) d/dphi
+Indeed, one can check on a scalar ﬁeld feps∈C∞(S2):
+sage: f_eps = S2.scalar_field({eps: function(’f’, the, phi ) }, name=’f’ )
+sage: (X_1( X_2(f_eps)) - X_2(X_1(f_eps) ) ).display()
+U_{ep} --> R
+(the, phi) |--> -D[1](f)(the, phi)
+sage: X_2.lie_der(X_1) == -X_3
+True
+sage: X_3.lie_der(X_1) == X_2
+True
+sage: X_3.lie_der(X_2) == -X_1
+True
+=⇒ [Xi,Xj] =−ϵijkXk
+So spanR{X1,X 2,X 3} equipped with [, ] constitute a Lie subalgebra on S2 (It’s closed under [ , ]
+12. Integration
+12.1.
+12.2.
+12.3. Volume forms.
+Deﬁnition 40. On a smooth manifold (M,O,A)
+a (0, dimM)-tensor ﬁeld Ω is called a volume form if
+(a) Ω vanishes nowhere (i.e. Ω̸= 0∀p∈M)
+(b) totally antisymmetric
+Ω(..., X
+ith
+,..., Y
+jth
+... ) =−Ω(..., Y
+ith
+,..., X
+jth
+... )
+In a chart:
+Ωi1...id = Ω[i1...id]
+Example (M,O,A,g ) metric manifold
+construct volume form Ω from g
+In any chart: (U,x )
+Ωi1...id :=
+√
+det(gij(x))ϵi1...id
+where Levi-Civita symbol ϵi1...id is deﬁned as ϵ123...d = +1
+ϵ1...d =ϵ[i1...id]
+Proof. (well-deﬁned) Check: What happens under a change of charts
+Ω(y)i1...id =
+√
+det(g(y)ij)ϵi1...id =
+=
+√
+det(gmn(x)∂xm
+∂yi
+∂xn
+∂yj )∂ym1
+∂xi1
+... ∂ymd
+∂xid
+ϵ[m1...md] =
+=
+√
+|detgij(x)|
+⏐⏐⏐⏐det
+(∂x
+∂y
+)⏐⏐⏐⏐ det
+(∂y
+∂x
+)
+ϵi1...id =
+√
+detgij(x)ϵi1...idsgn
+(
+det
+(∂x
+∂y
+))
+□
+EY : 20150323
+
+
+[[page 20]]

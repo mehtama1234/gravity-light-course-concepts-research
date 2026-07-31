@@ -1,0 +1,260 @@
+16 ERNEST YEUNG
+10.2. Signature. Linear algebra:
+Aa
+mvm =λva
+
+
+λ1 0
+...
+0 λn
+
+
+gamvm =λ·va?⇝
+
+
+1
+...
+1
+−1
+...
+−1
+0
+...
+0
+
+
+(1, 1) tensor has eigenvalues
+(0, 2) has signature (p,q ) (well-deﬁned)
+(+ + +)
+(+ +−)
+(+−− )
+(−−− )
+
+
+
+d + 1 if p +q = dimV
+Deﬁnition 30. A metric is called
+Riemannian if its signature is (+ +··· +)
+Lorentzian if (+−···− )
+10.3. Length of a curve. Let γ be a smooth curve.
+Then we know its veloctiy vγ,γ(λ) at each γ(λ)∈M.
+Deﬁnition 31. On a Riemannian metric manifold M,O,A,g ), the speed of a curve at γ(λ) is the number
+(
+√
+g(vγ,vγ))γ(λ) =s(λ)
+F. Schuller: “I feel the need for speed.” -Top Gun.
+(I feel the need for speed, then I feel the need for a metric)
+Aside: [va] = 1
+T
+[gab] =L2
+[
+√
+gabvavb] =
+√
+L2
+T 2 = L
+T
+Deﬁnition 32. Letγ : (0, 1)→M a smooth curve.
+Then the length of γ is the number
+R∋L[γ] :=
+∫ 1
+0
+dλs(λ) =
+∫ 1
+0
+dλ
+√
+(g(vγ,vγ))γ(λ)
+F. Schuller: “velocity is more fundamental than speed, speed is more fundamental than length”
+Example: reconsider the round sphere of radius R
+Consider its equator:
+θ(λ) := (x1◦γ)(λ) = π
+2
+ϕ(λ) := (x2◦γ)(λ) = 2πλ3
+θ′(λ) = 0
+ϕ′(λ) = 6πλ2
+on the same chart gij =
+[R2
+R2 sin2θ
+]
+F.Schuller: do everything in this chart
+L[γ] =
+∫ 1
+0
+dλ
+√
+gij(x−1(θ(λ),ϕ (λ)))(xi◦γ)′(λ)(xj◦γ)′(λ) =
+∫ 1
+0
+dλ
+√
+R2· 0 +R2 sin2 (θ(λ))36π2λ4 =
+= 6πR
+∫ 1
+0
+dλλ2 = 6πR[1
+3λ3]1
+0 = 2πR
+Theorem 4. γ : (0, 1)→M and
+σ : (0, 1)→ (0, 1) smooth bijective and increasing “reparametrization”
+L[γ] =L[γ◦σ]
+Proof. =⇒ Tutorials □
+10.4. Geodesics.
+Deﬁnition 33. A curve γ : (0, 1)→M is called a geodesic on a Riemannian manifold (M,O,A,g ) if its a stationary curve
+with respect to a length functional L.
+Thought bubble: in classical mechanics, deform the curve a little, ϵ times this deformation, to ﬁrst order, it agrees with L[γ]
+Theorem 5. γ geodesic iﬀ it satisﬁes the Euler-Lagrange equations for the Lagrangian
+L :TM → R
+X↦→
+√
+g(X,X )
+In a chart, the Euler Lagrange equations take the form:
+( ∂L
+∂ ˙xm
+)·
+− ∂L
+∂xm = 0
+F.Schuller: this is a chart dependent formulation
+here:
+L(γi, ˙γi) =
+√
+gij(γ(λ)) ˙γi(λ) ˙γj(λ)
+Euler-Lagrange equations:
+∂L
+∂ ˙γm = 1
+√... gmj(γ(λ)) ˙γj(λ)
+( ∂L
+∂ ˙γm
+)·
+=
+(
+1
+√...
+)·
+gmj(γ(λ))· ˙γj(λ) + 1
+√...
+(
+gmj(γ(λ))¨γj(λ) + ˙γs(∂sgmj) ˙γj(λ)
+)
+Thought bubble: reparametrize g( ˙γ, ˙γ) = 1 (it’s a condition on my reparametrization)
+By a clever choice of reparametrization ( 1√...)· = 0
+∂L
+∂γm = 1
+2√... ∂mgij(γ(λ)) ˙γi(λ) ˙γj(λ)
+putting this together as Euler-Lagrange equations:
+gmj¨γj +∂sgmj ˙γs ˙γj− 1
+2∂mgij ˙γi ˙γj = 0
+
+
+[[page 17]]
+GR 17
+Multiply on both sides (g−1)qm
+¨γq + (g−1)qm(∂igmj− 1
+2∂mgij) ˙γi ˙γj = 0
+¨γq + (g−1)qm 1
+2(∂igmj +∂jgmi−∂mgij) ˙γi ˙γj = 0
+geodesic equation for γ in a chart.
+(g−1)qm 1
+2(∂igmj +∂jgmi−∂mgij) =: Γq
+ij(γ(λ))
+Thought bubble:
+(
+∂L
+∂ξa+dimM
+x
+)·
+σ(x)
+−
+(
+∂L
+∂xiax
+)
+σ(x)
+= 0
+Deﬁnition 34. “Christoﬀel symbol” L.C.Γ are the connection coeﬃcient functions of the so-called Levi-Civita connection L.C.∇
+We usually make this choice of∇ if g is given.
+(M,O,A,g )→ (M,O,A,g, L.C.∇)
+abstract way:∇g = 0 and T = 0 (torsion)
+=⇒∇ = L.C.∇
+Deﬁnition 35. (a) The Riemann-Christoﬀel curvature is deﬁned by
+Rabcd :=gamRm
+bcd
+(b) Ricci: Rab =Rm
+amb
+Thought bubble: with a metric, L.C.∇
+(c) (Ricci) scalar curvature:
+R =gabRab
+Thought bubble: L.C.∇
+Deﬁnition 36. Einstein curvature (M,O,A,g )
+Gab :=Rab− 1
+2gabR
+Convention: gab := (g“−1′′
+)ab
+F. Schuller: these indices are not being pulled up, because what would you pull them up with
+(student) Question: Does the Einstein curvature yield new information?
+Answer:
+gabGab =Rabgab− 1
+2gabgabR =R−δa
+aR =R− 1
+2dimMR = (1− d
+2)R
+Tutorial 9: Metric manifolds. Exercise 3: Levi-Civita Connection. Suppose torsion-free T = 0 and metric-compatible
+connection∇g = 0
+Question Recall T = 0 on a chart.
+Γc
+ba = 1
+2(g−1)cm
+(∂gbm
+∂xa + ∂gma
+∂xb − ∂gab
+∂xm
+)
+or
+Γa
+bc = 1
+2(g−1)am
+(∂gbm
+∂xc + ∂gmc
+∂xb − ∂gbc
+∂xm
+)
+11. Symmetry
+EY : 20150321 This lecture tremendously and lucidly clariﬁed, for me at least, what a symmetry of the Lie algebra is, and in
+comparing structures (M,O,A) vs. (M,O,A,∇), clariﬁed diﬀerences, and asking about diﬀerences is a good way to learn, the
+diﬀerence betweenL and∇, respectively.
+Feeling that the round sphere
+(S2,O,A,g round)
+has rotational symmetry, while
+the potato
+(S2,O,A,g potato)
+does not.
+11.1.
+11.2. Important
+11.3. Flow of a complete vector ﬁeld. Let (M,O,A) smooth X vector ﬁeld on M
+Deﬁnition 37. A curve γ :I⊆ R→M is called an integral curve of X
+if
+vγ,γ(λ) =Xγ(λ)
+Deﬁnition 38. A vector ﬁled X is complete if all integral curves have I = R EY: 20150321 (i.e. domain is all of R)
+Ex. minute 48:30 EY : reall good explanation by F.P.Schuller; take a pt. out for an incomplete vector ﬁeld.
+Theorem 6. compactly supported smooth vector ﬁeld is complete.
+Deﬁnition 39. The ﬂow of a complete vector ﬁeld X is a 1-parameter family
+hX = R×M→M
+where γp : R→M
+γ(0) =p
+is the integral curve of X with
+Then for ﬁxed λ∈ R
+hX
+λ :M→M smooth
+picturehX
+λ (S)̸=S( if X̸= 0)
+11.4. Lie subalgebras of the Lie algebra (Γ(TM ), [·,·]) of vector ﬁelds.
+(a) Γ(TM ) ={ set of all vector ﬁelds } C∞(M)-module = R-vector space
+=⇒ [X,Y ]∈ Γ(TM ) [ X,Y ]f :=X(Yf )−Y (Xf )
+(i) [X,Y ] =−[Y,X ]
+(ii) [λX +Z,Y ] =λ[X,Y ] + [Z,Y ]
+(iii) [X, [Y,Z ]] + [Z, [X,Y ]] + [Y, [Z,X ]] = 0
+(Γ(TM ), [·,·]) Lie algebra
+(b) Let X1...X s for s (many) vector ﬁelds on M, such that
+
+
+[[page 18]]

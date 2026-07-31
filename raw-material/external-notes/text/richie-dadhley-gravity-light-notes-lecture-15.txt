@@ -1,0 +1,7 @@
+15 Einstein Gravity 107
+15.1 Hilbert . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 107
+15.2 Variation ofSH . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 108
+15.3 Solution Of The(∇aT )ab = 0 Issue . . . . . . . . . . . . . . . . . . . . . . . . 110
+15.4 Variations of The Field Equations . . . . . . . . . . . . . . . . . . . . . . . . . 110
+15.4.1 Ricci Scalar Expression . . . . . . . . . . . . . . . . . . . . . . . . . . 110
+15.4.2 Cosmological Constant . . . . . . . . . . . . . . . . . . . . . . . . . . . 111

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "richie-dadhley-gravity-light-notes",
+    "title": "The WE-Heraeus International Winter School on Gravity and Light notes",
+    "url": "https://docs.wixstatic.com/ugd/6b203f_dc24fe06fbe14a71ae32a1ad031e1928.pdf?index=true",
+    "format": "pdf",
+    "status": "candidate",
+    "use": "Course notes source for lecture sections when YouTube captions are missing or rate-limited."
+  },
+  {
+    "id": "ernestyalumni-gravity-notes-grande",
+    "title": "Notes on General Relativity and Gravity",
+    "url": "https://ernestyalumni.wordpress.com/wp-content/uploads/2016/01/gravity_notes_grande.pdf",
+    "format": "pdf",
+    "status": "candidate",
+    "use": "Supplemental notes source with lecture headings and condensed worked material."
+  }
+]

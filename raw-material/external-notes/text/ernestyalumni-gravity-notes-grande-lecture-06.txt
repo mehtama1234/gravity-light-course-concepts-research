@@ -1,0 +1,123 @@
+6 ERNEST YEUNG
+Rd Re
+M⊇U V ⊆N
+Rd Re
+˜y◦φ◦˜x−1
+˜x
+φ
+x
+y◦φ◦x−1
+undergraduateC∞
+C∞
+˜y
+y
+Theorem 2. # = number of C∞-manifolds one can make out of a given C0-manifolds (if any) - up to diﬀeomorphisms.
+dimM #
+1 1 Morse-Radon theorems
+2 1 Morse-Radon theorems
+3 1 Morse-Radon theorems
+4 uncountably inﬁnitely many
+5 ﬁnite surgery theory
+6 ﬁnite surgery theory
+... ﬁnite surgery theory
+EY : 20151109 cf. http://math.stackexchange.com/questions/833766/closed-4-manifolds-with-uncountably-many-differentiable-structures
+The wild world of 4-manifolds
+Tutorial 4 Differentiable Manifolds
+EY : 20151109 The gravity-and-light.org website, where you can download the tutorial sheets and the full length videos
+for the tutorials and lectures, are no longer there. = (
+Hopefully, the YouTube video will remain:https://youtu.be/FXPdKxOq1KA?list=PLFeEvEPtX_0RQ1ys-7VIsKlBWz7RX-FaL
+Exercise 1: True or false?. These basic questions are designed to spark discussion and as a self-test.
+Tick the correct statements, but not the incorrect ones!
+(a) The function f : R→ R, . . .
+•
+•
+• . . . , deﬁned byf(x) =|x3|, lies in C3(R→ R).
+EY : 20151109 Solution 1a3. Forf : R→ R, f(x) =|x3| =
+{
+x3 if x≥ 0
+−x3 if x< 0
+f′(x) =
+{
+3x2 if x≥ 0
+−3x2 if x< 0
+f′′(x) =
+{
+6x if x≥ 0
+−6x if x< 0
+Thus,
+f(x) =|x3|∈ C1(R) but f(x) /∈C2(R)⊆C3(R)
+•
+•
+(b)
+(c)
+Short Exercise 4: Undergraduate multi-dimensional analysis .
+A good notation and basic results for partial diﬀerentiation .
+For a map f : Rd→ R we denote by the map ∂if : Rd→ R the partial derivative with respect to the i-th entry.
+Question :. Given a function
+f : R3→ R; (α,β,δ )↦→f(α,β,δ ) :=α3β2 +β2δ +δ
+calculate the values of the following derivatives:
+Solution :.
+• (∂2f)(x,y,z ) =
+• (∂1f)(□,◦,∗) =
+• (∂1∂2f)(a,b,c ) =
+• (∂2
+3f)(299, 1222, 0) =
+EY: 20151110
+Forf(α,β,δ ) :=α3β2 +β2δ +δ, or f(x,y,z ) =x3y2 +y2z +z,
+(∂2f) = 2(x3y +yz)
+(∂1f) = 3x2y2
+(∂1∂2f) = 6x2y
+(∂2
+3f) = 0
+and so
+• (∂2f)(x,y,z ) = 2(x3y +yz)
+• (∂1f)(□,◦,∗) = 3□2◦2
+• (∂1∂2f)(a,b,c ) = 6a2b
+• (∂2
+3f)(299, 1222, 0) = 0
+Exercise 5: Diﬀerentiability on a manifold.
+How to deal with functions and curves in a chart
+Let (M,O,A) be a smooth d-dimensional manifold. Consider a chart ( U,x ) of the atlas A together with a smooth curve
+γ : R→U and a smooth function f :U→ R on the domain U of the chart.
+Question :. Draw a commutative diagram containing the chart domain, chart map, function, curveand the respective represen-
+tatives of the function and the curve in the chart.
+Solution :.
+R U Rd
+R
+γ
+x◦γ
+x−1
+(f◦x−1)f
+x τ∈ R p∈U x(p) = (x◦γ)(τ)∈ Rd
+f(p)∈ R
+γ
+x◦γ
+x−1
+(f◦x−1)f
+x
+
+
+[[page 7]]
+GR 7
+Question :. Consider, for d = 2,
+(x◦γ)(λ) := (cos (λ), sin (λ)) and (f◦x−1)((x,y )) :=x2 +y2
+Using the chain rule, calculate
+(f◦γ)′(λ)
+explicitly.
+Solution :.
+EY : 20151109 Indeed, the domains and codomains of this fγ mapping makes sense, from R → R for
+R U Rd
+R
+γ
+x◦γ
+f◦γ x−1
+(f◦x−1)f
+x τ∈ R p∈U x(p) = (x◦γ)(τ)∈ Rd
+f(p)∈ R
+γ
+x◦γ
+f◦γ x−1
+(f◦x−1)f
+x
+(f◦γ)′(λ) = (Df)· ˙γ(λ) = ∂f
+∂xj ˙γj(λ) = 2x(− sinλ) + 2y cosλ = 2(− cosλ sinλ + sinλ cosλ) = 0

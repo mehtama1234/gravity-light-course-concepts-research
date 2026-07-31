@@ -1,0 +1,51 @@
+12 ERNEST YEUNG
+•
+(∇XY )a =Xi∂Y a
+∂xi + Γa
+jkYjXk
+•
+(∇Xω)a =Xi∂ωa
+∂xj− Γi
+akωiXk
+•
+(∇mT )a
+bc = ∂
+∂xm (Ta
+bc) + Γa
+imTi
+bc− Γi
+bmTa
+ic− Γj
+cmTa
+bj
+•
+(∇[mA)n] = (∇mA)n− (∇nA)m = ∂An
+∂xm− Γi
+nmAi−
+(∂Am
+∂xn − Γi
+mnAi
+)
+= ∂Am
+∂xm− ∂Am
+∂xn
+•
+(∇mω)nr = ∂ωnr
+∂xm − Γi
+nmωir− Γi
+rmωni
+Exercise 3. : Connection coeﬃcients
+Question .
+The connection coeﬃcient functions Γ in chart ( U∩V,y ) is given, in terms of chart ( U∩V,x ) as follows:
+Recall Eq. (1)
+Γi
+jk(y) = ∂yi
+∂xq
+∂2xq
+∂yj∂yk + ∂yi
+∂xq
+∂xs
+∂yj
+∂xp
+∂yk Γq
+sp(x)

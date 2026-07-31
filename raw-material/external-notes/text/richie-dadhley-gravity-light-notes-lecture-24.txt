@@ -1,0 +1,5 @@
+24 Perturbation Theory I 149
+24.1 Perturbation Of Exact Solutions . . . . . . . . . . . . . . . . . . . . . . . . . 149
+24.2 The Perturbed Metric . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 150
+24.3 Helmholtz-Hodge . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 151
+24.4 The Price Paid For The Luxury Of Working In A Chart . . . . . . . . . . . . 153

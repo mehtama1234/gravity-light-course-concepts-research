@@ -1,0 +1,4 @@
+2 Topological Manifolds 9
+2.1 Topological Manifolds . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+2.2 Chart Transition Maps . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+2.3 Manifold Philosophy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12

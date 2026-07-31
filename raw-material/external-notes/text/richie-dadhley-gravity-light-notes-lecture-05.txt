@@ -1,0 +1,13 @@
+5 Tangent Spaces 29
+5.1 Velocities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+5.2 Tangent Vector Space . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+5.3 Components of a Vector w.r.t. a Chart . . . . . . . . . . . . . . . . . . . . . . 33
+5.4 Chart Induced Basis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+5.5 Change of Vector Components Under Change of Chart . . . . . . . . . . . . . 34
+5.6 Cotangent Spaces . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+ii
+
+
+[[page 4]]
+CONTENTS iii
+5.7 Change of Components of a Covector Under a Change of Chart . . . . . . . . 36

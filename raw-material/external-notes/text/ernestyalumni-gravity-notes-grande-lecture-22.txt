@@ -1,0 +1,176 @@
+22. Lecture 22: Black Holes
+Only depends on Lectures 1-15, so does lecture on “Wednesday”
+Schwarzschild solution also vacuum solution (from tutorial EY : oh no, must do tutorial)
+Study the Schwarzschild as a vacuum solution of the Einstein equation:
+m =GNM where M is the “mass”
+g =
+(
+1− 2m
+r
+)
+dt⊗dt− 1
+1− 2m
+r
+dr⊗dr−r2(dθ⊗dθ + sin2θdϕ⊗dϕ
+in the so-called Schwarzschild coordinates t r θ ϕ
+(−∞,∞) (0 ,∞) (0 ,π ) (0 , 2π)
+What staring at this metric for a while, two questions naturally pose themselves:
+(i) What exactly happens r = 2m?
+t r θ ϕ
+(−∞,∞) (0 , 2m)∪ (2m,∞) (0 ,π ) (0 , 2π)
+(ii) Is there anything (in the real world) beyond t→−∞
+t→ +∞
+?
+idea: Map of Linz, blown up
+Insight into these two issues is aﬀorded by stopping to stare.
+Look at geodesic of g, instead.
+22.1. Radial null geodesics. null - g(vγ,vγ) = 0
+Consider null geodesic in “Schd ”
+S[γ] =
+∫
+dλ
+[(
+1− 2m
+r
+)
+˙t2−
+(
+1− 2m
+r
+)−1
+˙r2−r2( ˙θ2 + sin2θ ˙ϕ2)
+]
+with [... ] = 0
+and one has, in particular, the t-eqn. of motion:
+((
+1− 2m
+r
+)
+˙t
+).
+= 0
+=⇒ (
+1− 2m
+r
+)
+˙t =k = const.
+Consider radial null geodesics
+θ
+!
+= const. ϕ = const.
+From□ and□
+=⇒ ˙r2 =k2↔ ˙r =±k
+=⇒r(λ) =±k·λ
+Hence, we may consider
+˜t(r) :=t(±kλ)
+Case A:⊕
+d˜t
+dr =
+˙˜t
+˙r = k(
+1− 2m
+r
+)
+k = r
+r− 2m
+=⇒˜t+(r) =r + 2m ln|r− 2m|
+(outgoing null geodesics)
+Case b.± (Circle around−, consider−):
+˜t−(r) =−r− 2m ln|r− 2m|
+(ingoing null geodesics)
+Picture
+
+
+[[page 27]]
+GR 27
+22.2. Eddington-Finkelstein. Brilliantly simple idea:
+change (on the domain of the Schwarzschild coordinates) to diﬀerent coordinates, s.t.
+in those new coordinates,
+ingoing null geodesics appear as straight lines, of slope −1
+This is achieved by
+¯t(t,r,θ,ϕ ) :=t + 2m ln|r− 2m|
+Recall: ingoing null geodesic has
+˜t(r) =−(r + 2m ln|r− 2m|) ( Schdcoords)
+⇐⇒¯t− 2m ln|r− 2m| =−r− 2m ln|r− 2m| + const.
+∴ ¯t =−r + const.
+(Picture)
+outgoing null geodesics
+¯t =r + 4m ln|r− 2m| + const.
+Consider the new chart (V,g ) while (U,x ) was the Schd chart.
+U
+Schd
+⋃
+{ horizon} =V
+“chart image of the horizon”
+Now calculate the Schd metric g w.r.t. Eddington-Finkelstein coords.
+¯t(t,r,θ,ϕ ) =t + 2m ln|r− 2m|
+¯r(t,r,θ,ϕ ) =r
+¯θ(t,r,θ,ϕ ) =θ
+¯ϕ(t,r,θ,ϕ ) =ϕ
+EY : 20150422 I would suggest that after seeing this, one would calculate the metric by your favorite CAS. I like the Sage
+Manifolds package for Sage Math.
+Schwarzschild BH.sage on github
+Schwarzschild BH.sage on Patreon
+Schwarzschild BH.sage on Google Drive
+sage: load(‘‘Schwarzschild_BH.sage’’)
+4-dimensional manifold ’M’
+expr = expr.simplify_radical()
+Levi-Civita connection ’nabla_g’ associated with the Lorentzian metric ’g’ on the 4-dimensional manifold ’M’
+Launched png viewer for Graphics object consisting of 4 graphics primitives
+Then calculate the Schwarzschild metric g but in Eddington-Finkelstein coordinates. Keep in mind to calculate the set of
+coordinates that uses ¯t, not˜t:
+sage: gI.display()
+gI = (2*m - r)/r dt*dt - r/(2*m - r) dr*dr + r^2 dth*dth + r^2*sin(th)^2 dph*dph
+sage: gI.display( X_EF_I_null.frame())
+gI = (2*m - r)/r dtbar*dtbar + 2*m/r dtbar*dr + 2*m/r dr*dtbar + (2*m + r)/r dr*dr + r^2 dth*dth + r^2*sin(th)^2 dph*dph
+Part 2. Special Relativity
+Physics Stackexchange question (from Wesley) and answer (from David Bar Moshe had an excellent question and explanation
+for special relativity.
+http://physics.stackexchange.com/questions/12221/what-does-a-frame-of-reference-mean-in-terms-of-manifolds
+Recall that for charts (U,x )∈A M
+(U′,x′)∈A M
+, of smooth atlasAM of smooth M. Now x :U⊂M→ Rn
+x′ :U′⊂M→ Rn
+If U∩U′̸=∅, by def. of smooth atlas AM, x′◦x : Rn→ Rn
+x◦x′ : Rn→ Rn
+are diﬀeomorphisms.
+For notation,
+A,B∈ Ω1(M)
+A∧B∈ Ω2(M)
+A∧B =Aidxi∧Bjdxj =AiBjdxi∧dxj
+A,B∈TpM or TM
+A∧B∈∧ 2(TM ), A∧B =Aiei∧Bjei =AiBjei∧ej
+(A×B)i =eijkAjBk or A×B =AjBkϵijkei
+if dimM = 3,∗(A∧B) =
+√g
+(3−2)!AiBjgilgjmϵlmndxn =√ggilAigjmBjϵlmndxn
+Part 3. Euclidean space
+23. R2
+Consider R2 as a smooth manifold.
+Clearly, R2 is covered by 1 chart, with so-called Cartesian coordinates (that also happen to be global coordinates, in this
+particular case): ( R2,Ostd,A ={={(R2,ϕ cart)}), with the chart (which is a homeomorphism, by deﬁnition)
+ϕcart : R2→ R2
+ϕcart :p≡ (x,y )↦→ (x,y )
+Clearly,ϕcart = 1R2 is a homeomorphism; in fact, it’s a smooth diﬀeomorphism.
+Ostd denotes the so-called “standard” topology, that open sets consists of Euclidean d-balls. I will assume this topology for
+this discussion of Rd’s.
+Clearly, the above discussion generalizes to Rd.
+Consider the so-called polar coordinates
+(10)
+x =r cosϕ
+y =r sinϕ
+wherer≥ 0 and ϕ∈ R. We want to construction a homeomorphism ϕ−1
+pol from an open subset V ⊆ R2 to R2 according to these
+polar coordinates:
+ϕ−1
+pol :V ⊆ R2→ R2
+ϕ−1
+pol : (r,ϕ )↦→ (x,y )
+Immediately, from this choice of polar coordinates, we see problems with deﬁning a homeomorphism, which is a bijection by
+deﬁnition. For instance, let (ϕ−1
+pol)−1≡ϕpol (deﬁning this highly suggestive notation), and so
+ϕpol : R2→ R2
+ϕpol : (x,y )↦→ (r,ϕ )
+
+
+[[page 28]]

@@ -1,0 +1,253 @@
+8. Lecture 8: Parallel Transport & Curvature (International Winter School on Gravity and Light 2015)
+8.1. Parallelity of vector ﬁelds.
+Deﬁnition 20. (1) parallely transported along smooth curve γ : R→M
+if
+(2) ∇vγX = 0
+(2) A slightly weaker condition
+is “parallel”
+(∇vγ,γ (λ)X)γ(λ) =µ(λ)Xγ(λ)
+8.2. Autoparallely transported curves.
+Deﬁnition 21. curve γ : R→M is called
+autoparallely transported if
+(3) ∇vγvγ
+!
+= 0
+8.3. Autoparallel equation.
+∇vγvγ = 0
+in summary:
+(4) ¨ γm
+(x)(λ) + (Γm
+(x))ab(γ(λ)) ˙γa
+(x)(λ) ˙γb
+(x)(λ) = 0
+8.4. Torsion.
+Deﬁnition 22. torsion of a connection∇ is the (1, 2)-tensor ﬁeld
+(5) T (ω,X,Y ) :=ω(∇XY−∇YX− [X,Y ])
+(Inside a cloud)
+[X,Y ] vector ﬁeld deﬁned by
+[X,Y ]f :=X(Yf )−Y (Xf )
+Proof. checkT is C∞-linear in each entry
+T (ω,fX,Y ) =ω(∇fXY−∇Y (fX )− [fX,Y ])
+□
+Deﬁnition 23. A (M,O,A,∇) is called torsion-free if T = 0
+In a chart
+Ti
+ab :=T
+(
+dxi, ∂
+∂xa, ∂
+∂xb
+)
+=dxi(... )
+= Γi
+ab− Γi
+ba = 2Γi
+[ab]
+From now on, in these lectures, we only use torsion-free connections.
+8.5. 4. Curvature.
+Deﬁnition 24. Riemann curvature of a connection∇ is the (1, 3)-tensor ﬁeld
+(6) Riem(ω,Z,X,Y ) :=ω(∇X∇YZ−∇Y∇XZ−∇ [X,Y ]Z)
+Proof. do it: C∞-linear in each slot. □
+Tutorials Riemi
+jab =...
+Tutorial 8 Parallel transport & Curvature
+Exercise 1.
+Exercise 2. : Where connection coeﬃcients appear
+It was suggested in the tutorial sheets and hinted in the lecture that the following should be committed to memory.
+Question : Recall the autoparallel equation for a curve γ.
+(a)
+∇vγvγ = 0
+(b)
+∇vγvγ =∇ ˙γ ∂
+∂xµvγ = ˙γν∇∂νvγ = ˙γν
+[∂vµ
+γ
+∂xν + Γρ
+µνvµ
+γ
+] ∂
+∂xρ = ˙γν
+[∂ ˙γρ
+∂xν + Γρ
+µν ˙γµ
+] ∂
+∂xρ = 0
+=⇒ ¨γρ + Γρ
+µν ˙γµ ˙γν
+as, for example, for F (x(t)),
+dF (x(t))
+dt = ˙x∂F
+∂x = d
+dtF
+so that
+˙γν∂vµ
+γ
+∂xν = d
+dλvµ
+γ = d2
+dλ2γµ
+
+
+[[page 13]]
+GR 13
+Question : Determine the coeﬃcients of the Riemann tensor with respect to a chart (U,x ).
+Recall this manifestly covariant deﬁnition
+Riem(ω,Z,X,Y ) =ω(∇X∇YZ−∇Y∇XZ−∇ [X,Y ]Z)
+We wantRi
+jab.
+now
+∇X∇YZ =∇X((Yµ ∂
+∂xµZρ + Γρ
+µνZµYν) ∂
+∂xρ ) = (Xα ∂
+∂xα (Yµ ∂
+∂xµZρ + Γρ
+µνZµYν) + Γρ
+αβ(Yµ ∂
+∂xµZα + Γα
+µνZµYν)Xβ) ∂
+∂xρ
+ForX =∂a, Y =∂b, Z =∂j, then the partial derivatives of the coeﬃcients of the input vectors become zero.
+=⇒∇ ∂a∇∂b∂j = ∂
+∂xa (Γi
+jb) + Γi
+αaΓα
+jb
+Now
+[X,Y ]i =Xj ∂
+∂xjYi−Yj∂Xi
+∂xj
+For coordinate vectors, [∂i,∂j] = 0∀i,j = 0, 1...d .
+Thus
+Ri
+jab = ∂
+∂xa Γi
+jb− ∂
+∂xb Γi
+ja + Γi
+αaΓα
+jb− Γi
+αbΓα
+ja
+Question :Ric(X,Y ) := Riemm
+ambX aY b deﬁne (0, 2)-tensor?.
+Yes, transforms as such:
+EY developments. I roughly follow the spirit in Theodore Frankel’s The Geometry of Physics: An Introduction Second
+Ed. 2003, Chapter 9 Covariant Diﬀerentiation and Curvature, Section 9.3b. The Covariant Diﬀerential of a Vector Field. P.S.
+EY : 20150320 I would like a copy of the Third Edition but I don’t have the funds right now to purchase the third edition: go
+to my tilt crowdfunding campaign, http://ernestyalumni.tilt.com, and help with your ﬁnancial support if you can or send
+me a message on my various channels and ernestyalumni gmail email address if you could help me get a hold of a digital or hard
+copy as a pro bono gift from the publisher or author.
+The spirit of the development is the following:
+“How can we express connections and curvatures in terms of forms?” -Theodore Frankel.
+From Lecture 7, connection∇ on vector ﬁeld Y , in the “direction” X,
+∇ ∂
+∂xk
+Y =
+(∂Y i
+∂xk + Γi
+jkYj
+) ∂
+∂xi
+Make the ansatz (approche, impostazione) that the connection ∇ acts on Y , the vector ﬁeld, ﬁrst:
+∇Y (X) =
+(
+Xk∂Y i
+∂xk + Γi
+jkYjXk
+) ∂
+∂xi =Xk
+(
+∇ ∂
+∂xk
+Y
+)i ∂
+∂xi = (∇XY )i ∂
+∂xi =∇XY
+Now from Lecture 7, Deﬁnition for Γ,
+dxi
+(
+∇ ∂
+∂xk
+∂
+∂xj
+)
+= Γi
+jk
+Make this ansatz (approche, impostazine)
+∇ ∂
+∂xj =
+(
+Γi
+jkdxk)
+⊗ ∂
+∂xi∈ Ω1(M,TM ) =T∗M⊗TM
+where Ω1(M,TM ) =T∗M⊗TM is the set of all TM or vector-valued 1-forms on M, with the 1-form being the following:
+Γi
+jkdxk = Γi
+j∈ Ω1(M) i = 1... dim(M)
+j = 1... dim(M)
+So Γi
+j is a dimM× dimM matrix of 1-forms (EY !!!).
+Thus
+∇Y = (d(Yi) + Γi
+jYj)⊗ ∂
+∂xi
+So the connection is a (smooth) map from TM to the set of all vector-valued 1-forms on M, Ω 1(M,TM ), and then, after
+“eating” a vector Y , yields the “covariant derivative”:
+∇ :TM → Ω1(M,TM ) =T∗M⊗TM
+∇ :Y ↦→∇Y
+∇Y :TM →TM
+∇Y (X)↦→∇Y (X) =∇X(Y )
+Now [ ∂
+∂xi, ∂
+∂xj
+]
+f = ∂
+∂xi
+( ∂
+∂xj
+)
+− ∂
+∂xj
+( ∂
+∂xi
+)
+= 0
+(this is okay as on p∈ (U,x ); x-coordinates on same chart (U,x ))
+EY : 20150320 My question is when is this nontrivial or nonvanishing (i.e. not equal to 0).
+[ea,eb] =?
+for a frame (ec) and would this be the diﬀerence between a tangent bundle TM vs. a (general) vector bundle?
+Wikipedia helps here. cf. wikipedia, “Connection (vector bundle)”
+∇ : Γ(E)→ Γ(T∗M⊗E) = Ω1(M,E )
+∇ea =ωc
+abfb⊗ec
+fb∈T∗M (this is the dual basis for TM and, note, this is for the manifold, M
+∇fbea =ωc
+abec∈E
+ωc
+a =ωc
+abfb∈ Ω1(M)
+is the connection 1-form, with a,c = 1... dimV . EY : 20150320 This V is a vector space living on each of the ﬁbers of E. I
+know that Γ(T∗M⊗E) looks like it should take values in E, but it’s meaning that it takes vector values of V . Correct me if
+I’m wrong: ernestyalumni at gmail and various social media.
+Let σ∈ Γ(E), σ =σaea
+∇σ = (dσc +ωc
+abσafb)⊗ec with
+dσc = ∂σc
+∂xbfb
+=⇒∇ Xσ =
+(
+Xb∂σc
+∂xb +ωc
+abσaXb
+)
+ec =Xb
+(∂σc
+∂xb +ωc
+abσa
+)
+ec
+
+
+[[page 14]]

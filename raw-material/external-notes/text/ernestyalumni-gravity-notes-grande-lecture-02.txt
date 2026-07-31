@@ -1,0 +1,44 @@
+Lecture 2: Manifolds. Topological spaces:∃ so man that mathematicians cannot even classify them.
+For spacetime physics, we may focus on topological spaces (M,O) that can be charted, analogously to how the surface of the
+earth is charted in an atlas .
+2.1. Topological manifolds.
+Deﬁnition 3. A topological space (M,O) is called a d-dimensional topological method if
+∀p∈M :∃U∈O, U∋p :∃x :U⊆M→x(U)⊆ Rd (M,O), (Rd,Ostd)
+(i) x invertible :
+x−1 :x(U)→U
+(ii) x continuous
+(iii) x−1 continuous
+2.2. Terminology.
+2.3. 3. Chart transition maps. Imagine 2 charts (U,x ) and (V,y ) with overlapping regions.
+2.4. 4. Manifold philosophy. Often it is desirable (or indeed the way) to deﬁne properties (“continuity”) of real-world object
+(“R
+γ
+− →M”) by judging suitable coordinates not on the “real-world” object itself, but on a chart-representation of that real
+world object.
+EY’s add-ons. This lecture gives me a good excuse to review Topology and Topological Manifolds from a mathemati-
+cian’s point of view. I ﬁnd John M. Lee’s Introduction to Topological Manifolds book good because it’s elementary
+and thorough and it’s fairly recent (2010) so it’s up to date [ ?]. See my notes and solutions for the book; it’s a ﬁle titled
+LeeJM_IntroTopManifolds_sol.pdf of which I’ll try to keep the pdf and LaTeX ﬁle available for download on my ernestyalumni
+Google Drive (so try to search for it on Google).
+Tutorial Topological manifolds
+ﬁlename: Sheet_1.2.pdf
+Exercise 4: Before the invention of the wheel.
+Another one-dimensional topological manifold. Another one?
+Consider set F 1 :={(m,n )∈ R2|m4 +n4 = 1}, equipped with subset topology Ostd|F 1
+Question x :F 1→ R is what?.
+Solution . EY : 20150525 The tutorial video https://youtu.be/ghfEQ3u_B6g is really good and this solution is how I’d write
+it, but it’s really the same (I needed the practice).
+x :F 1→ R
+(m,n )↦→m
+If m = 0, n4 = 1 so n =±1 so it’s not injective.
+Let the closed n-dim. upper half-space Hn⊆ R1. Then
+Hn ={(x1...x n)∈ Rn|xn≥ 0}
+intHn ={(x1...x n)∈ Rn|xn > 0}
+−Hn ={(x1...x n)∈ Rn|xn≤ 0}
+−intHn ={(x1...x n)∈ Rn|xn < 0}
+Question This map x may be made injective by restricting its domain to either of 2 maximal open subsets of F 1. Which
+ones?.
+Solution .
+
+
+[[page 4]]

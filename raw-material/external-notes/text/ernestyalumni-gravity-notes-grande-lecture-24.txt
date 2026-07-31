@@ -1,0 +1,196 @@
+24 ERNEST YEUNG
+15.2. Variation of SHilbert.
+0
+!
+= δ
+gi
+SHilbert[g] =
+∫
+M
+[δ√−ggabRab  
+1
++√−gδgabRab  
+2
++√−ggabδRab  
+3
+]
+and 1 : δ√−g =−(detg)gmnδgmn
+2√−g = 1
+2
+√−ggmnδgmn
+thought bubble
+δdet(g) = det(g)gmnδgmn
+e.g. from
+det(g) = exp trlng
+ad 2: gabgbc =δa
+c
+=⇒ (δgab)gbc +gab(δgbc) = 0
+=⇒δgab =−gamgbnδgmn
+ad 3:
+∆Rab =
+normal coords at point
+δ∂bΓm
+am−δ∂mΓm
+ab + ΓΓ− ΓΓ =
+=∂bδΓm
+am−∂mδΓm
+ab =
+=∇b(δΓ)m
+am−∇m(δΓ)m
+ab
+=⇒√−ggabδRab =√−g
+“if you formulate the variation properly, you’ll see the variation δ commute with ∂b” EY : 20150408 I think one uses the
+integration at the bounds, integration by parts trick
+Γi
+(x) jk−˜Γi
+(x) jk are the components of a (1, 2)-tensor.
+Notation: (∇bA)i
+g =:Ai
+j;b
+=⇒√−ggabδRab
+=
+∇g=0
+√−g(gabδΓm
+am);b−√−g(gabδΓm
+ab);m =√−gAb
+;b−√−gBm
+,m
+Question: Why is the diﬀerence of coeﬃcients a tensor?
+Answer:
+Γi
+(y) jk = ∂yi
+∂xm
+∂xm
+∂yj
+∂xq
+∂yk Γm
+(x) ,nq + ∂yi
+∂xm
+∂2xm
+∂yj∂yk
+Collecting terms, one obtains
+0
+!
+=δSHilbert =
+∫
+M
+[1
+2
+√−ggmnδgmngabRab−√−ggamgbnδgmnRab + (√−gAa),a  
+surface
+− (√−gBb),b  
+surface term
+]
+=
+∫
+M
+√−gδ g mn
+arbitrary variation
+[1
+2gmnR−Rmn] =⇒Gmn =Rmn− 1
+2gmnR
+Hence Hilbert, from this “mathematical” argument, concluded that one may take
+Rab− 1
+2gabR = 8πGNTab
+Einstein equations
+SE−H[g] =
+∫
+M
+√−gR
+15.3. 3. Solution of the ∇aTab = 0 issue. One can show (→ Tutorials) that the Einstein curvature
+Gab =Rab− 1
+2gabR
+satisfy the so-called contracted diﬀerential Bianchi identity
+(∇aG)ab = 0
+15.4. Variants of the ﬁeld equations.
+(a) a simple rewriting:
+Rab− 1
+2gabR = 8πGNTab =Tab
+GN = 1
+8π
+Contract on both sides gab
+Rab− 1
+2gabR =Tab||gab
+R− 2R =T :=Tabgab
+=⇒R =−T
+=⇒Rab + 1
+2gabT =Tab
+⇐⇒Rab = (Tab− 1
+2Tgab) =: ˆTab
+Rab = ˆTab
+(b)
+SE−H[g] :=
+∫
+M
+√−g(R + 2Λ)
+thought bubble: Λ cosmological constant
+History:
+1915: Λ < 0 (Einstein) in order to get a non-expanding universe
+>1915: Λ = 0 Hubble
+today Λ > 0 to account for an accelerated expansion
+Λ̸= 0 can be interpreted as a contribution
+− 1
+2Λg to the energy-momentum
+“dark energy”
+Question: surface terms scalar?
+Answer: for a careful treatment of the surface terms which we discarded, see, e.g. E. Poisson, “A relativist’s toolkit”
+C.U.P. “excellent book”
+Question: What is a constant on a manifold?
+Answer:
+∫√−gΛ = Λ
+∫√−g1
+[back to dark energy]
+[Weinberg, QCD, calculated]
+idea: 1 could arise as the vacuum energy of the standard model ﬁelds
+Λcalculated = 10120× Λobs
+“worst prediction of physics”
+Tutorials: check that
+• Schwarzscheld metric (1916)
+• FRW metric
+• pp-wave metric
+• Reisner-Nordstrom
+
+
+[[page 25]]
+GR 25
+=⇒ are solutions to Einstein’s equations
+in high school
+m¨x +mω2x2 = 0
+x(t) = cos (ωt)
+ET: [elementary tutorials]
+study motion of particles & observers in Schwarzscheld S.T.
+Satellite: Marcus C. Werner
+Gravitational lensing
+odd number of pictures Morse theory (EY:20150408 Morse Theory !!!)
+Domenico Giulini
+Hamiltonian form Canonical Formulations
+Key to Quantum Gravity
+Tutorial 13 Schwarzschild Spacetime
+EY : 20150408 I’m not sure which tutorial follows which lecture at this point.
+The tutorial video is excellent itself. Here, I want to encourage the use of CAS to do calculations. There are many out there.
+Again, I’m partial to the Sage Manifolds package for Sage Math which are both open-source and based on Python. I’ll use that
+here.
+Exercise 1. Geodesics in a Schwarzschild spacetime
+Question Write down the Lagrangian.
+Load “Schwarzschild.sage” in Sage Math, which will always be available freely here https://github.com/ernestyalumni/
+diffgeo-by-sagemnfd/blob/master/Schwarzschild.sage:
+sage: load("Schwarzschild.sage")
+4-dimensional manifold ’M’
+open subset ’U_sph’ of the 4-dimensional manifold ’M’
+Levi-Civita connection ’nabla_g’ associated with the Lorentzian metric ’g’ on the 4-dimensional manifold ’M’
+and so on.
+Look at the code and I had deﬁned the Lagrangian to be
+L
+. To get out the coeﬃcients of L of the components of the tangent vectors to the curve, i.e. t′,r′,θ′,φ′, denoted
+tp,rp,thp,php
+in my .sage ﬁle, do the following:
+sage: L.expr().coefficients(tp)[1][0].factor().full_simplify()
+(2*G_N*M_0 - r)/r
+sage: L.expr().coefficients(rp)[1][0].factor().full_simplify()
+-r/(2*G_N*M_0 - r)
+sage: L.expr().coefficients(php)[1][0].factor().full_simplify()
+r^2
+sage: L.expr().coefficients(thp)[1][0].factor().full_simplify()
+r^2*sin(th)^2
+Question There are 4 Euler-Lagrange equations for this Lagrangian. Derive the one with respect to the function t(λ)!.
+sage: L.expr().diff(t)

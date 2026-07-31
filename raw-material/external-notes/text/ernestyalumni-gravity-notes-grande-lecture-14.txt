@@ -1,0 +1,180 @@
+14. Lecture 14: Matter
+two types of matter
+point matter
+ﬁeld matter
+point matter
+massive point particle
+more of a phenomenological importance
+ﬁeld matter
+electromagnetic ﬁeld
+more fundamental from the GR point of view
+both classical matter types
+14.1. Point matter. Our postulates (P1) and (P2) already constrain the possible particle worldlines.
+But what is their precise law of motion, possibly in the presence of “forces”,
+(a) without external forces
+Smassive[γ] :=m
+∫
+dλ
+√
+gγ(λ)(vγ,γ(λ),vγ,γ(λ))
+with:
+gγ(λ)(Tγ(λ),vγ,γ(λ))> 0
+dynamical law Euler-Lagrange equation
+similarly
+Smassless[γ,µ ] =
+∫
+dλµg(vγ,γ(λ),vγ,γ(λ))
+δµ g(vγ,γ(λ),vγ,γ(λ)) = 0
+δγ e.o.m.
+Reason for describing equations of motion by actions is that composite systems have an action that is the sum of the
+actions of the parts of that system, possibly including “interaction terms. ”
+Example.
+S[γ] +S[δ] +Sint[γ,δ ]
+(b) presence of external forces
+or rather presence of ﬁelds to which a particle “couples ”
+Example
+S[γ;A] =
+∫
+dλm
+√
+gγ(λ)(vγ,γ(λ),vγ,γ(λ)) +qA(vγ,γ(λ))
+where A is a covector ﬁeld on M. A ﬁxed (e.g. the electromagnetic potential)
+Consider Euler-Lagrange eqns. Lint =qA(x) ˙γm
+(x)
+m(∇vγvγ)a +
+˙(
+∂Lint
+∂ ˙m
+(x)
+)
+γ− ∂Lint
+∂γm
+(x)
+  
+∗
+= 0 =⇒ m(∇vγvγ)a = −qFa
+m ˙γm
+  
+Lorentz force on a charged particle in an electromagnetic ﬁeld
+∂L
+∂ ˙γa =qA(x)a,
+˙( ∂L
+∂ ˙m
+)
+γ =q· ∂
+∂xm (A(x)m)· ˙γm
+(x)
+∂L
+∂γa =q· ∂
+∂xa (A(x)m) ˙γm
+∗ =q
+(∂Aa
+∂xm− ∂Am
+∂xa
+)
+˙γm
+(x) =q·F(x)am ˙γm
+(x)
+F← Faraday
+S[γ] =
+∫
+(m
+√
+g(vγ,vγ) +qA(vγ))dλ
+14.2. Field matter.
+Deﬁnition 46. Classical (non-quantum) ﬁeld matter is any tensor ﬁeld on spacetime where equations of motion derive from
+an action.
+Example:
+SMaxwell[A] = 1
+4
+∫
+M
+d4x√−gFabFcdgacgbd
+A (0, 1)-tensor ﬁeld
+= thought cloud: for simplicity one chart covers all of M
+− for√−g (+−−− )
+Fab := 2∂[aAb] = 2(∇[aA)b]
+Euler-Lagrange equations for ﬁelds
+0 = ∂L
+∂Am
+− ∂
+∂xs
+( ∂L
+∂∂sAm
+)
++ ∂
+∂xs
+∂
+∂xt
+∂2L
+∂∂t∂sAm
+
+
+[[page 23]]
+GR 23
+Example . . .
+(∇ ∂
+∂xmF )ma =ja
+inhomogeneous Maxwell
+thought bubble j =qvγ
+∂[aFb]− ()
+homogeneous Maxwell
+Other example well-liked by textbooks
+SKlein-Gordon[φ] :=
+∫
+M
+d4x√−g[gab(∂aφ)(∂bφ)−m2φ2]
+φ (0, 0)-tensor ﬁeld
+14.3. Energy-momentum tensor of matter ﬁelds. At some point, we want to write down an action for the metric tensor
+ﬁeld itself.
+But then, this action Sgrav[g] will be added to any Smatter[A,φ,... ] in order to describe the total system.
+Stotal[g,A ] =Sgrav[g] +SMaxwell[A,g ]
+δA :=⇒ Maxwell’s equations
+δgab : 1
+16πGGab + (−2Tab) = 0
+G Newton’s constant
+Gab = 8πGNTab
+Deﬁnition 47. Smatter[Φ,g ] is a matter action, the so-called energy-momentum tensor is
+Tab := −2√−g
+(∂Lmatter
+∂gab
+−∂s
+∂Lmatter
+∂∂sgab
++...
+)
+− of −2√g is Schr¨ odinger minus (EY : 20150408 F.Schuller’s joke? but wise)
+choose all sign conventions s.t.
+T (ϵ0,ϵ 0)> 0
+Example: For SMaxwell:
+Tab =FamFbngmn− 1
+4FmnFmngab
+Tab≡TMaxwellab
+T (e0,e 0) =E2 +B2
+T (e0,eα) = (E×B)α
+Fact: One often does not specify the fundamental action for some matter, but one is rather satisﬁed to assume certain
+properties / forms of
+Tab
+Example Cosmology: (homogeneous & isotropic)
+perfect ﬂuid
+of pressure p and density ρ modelled by
+Tab = (ρ +p)uaub−pgab
+radiative ﬂuid
+What is a ﬂuid of photons:
+observe:
+T ab
+Maxwellgab = 0
+T ab
+p.f.gab
+!
+= 0
+= (ρ +p)uaubgab−pgabgab  
+4
+↔ρp04p = 0
+ρ = 3p
+p = 1
+3ρ
+Reconvene at 3 pm? (EY : 20150409 I sent a Facebook (FB) message to the International Winter School on Gravity and
+Light: there was no missing video; it continues on Lecture 15 immediately)
+Tutorial 14: Relativistic Spacetime, Matter and Gravitation. Exercise 2: Lorentz force law.
+Question electromagnetic potential.

@@ -1,0 +1,107 @@
+4. Lecture 4: Differentiable Manifolds
+so far: top. mfd. (M,O)
+dimM =d
+we wish to deﬁne a notion of diﬀerentiable
+curves R→M
+function M→ R
+maps M→N
+
+
+[[page 5]]
+GR 5
+4.1. 1. Strategy. choose a chart (U,x )
+γ : R→M portion of curve in chart domain
+γ : R U
+x(U)⊆ Rd
+x◦γ x
+idea. try to “lift” the undergraduate notion of diﬀerentiability of a curve on Rd to a notion of
+diﬀerentiability of a curve on M
+Problem Can this be well-deﬁned under change of chart?
+y(U∩V )⊆ Rd
+γ : R U∩V ̸=∅
+x(U∩V )⊆ Rd
+x◦γ
+y◦γ
+x
+y
+y◦x−1
+x◦γ undergraduate diﬀerentiable (“as a map R→ Rd”)
+y◦γ
+maybe only continuous, but not undergraduate diﬀerentiable
+= (
+Rd→Rd
+  
+y◦x−1)  
+continuous
+◦
+R→Rd
+  
+(x◦γ)  
+undergrad diﬀerentiable
+=y◦ (x−1◦x)◦γ
+At ﬁrst sight, strategy does not work out.
+4.2. 2. Compatible charts. In section 1, we used any imaginable charts on the top. mfd. ( M,O).
+To emphasize this, we may say that we took U and V from the maximal atlas A of (M,O).
+Deﬁnition 4. Two charts (U,x ) and (V,y ) of a top. mfd. are called ;-compatible if either
+(a) U∩V =∅ or
+(b) U∩V ̸=∅
+chart transition maps have undergraduate ; property.
+EY : 20151109 e.g. since Rd→ Rd, can use undergradate ; property such as continuity or diﬀerentiability.
+y◦x−1 :x(U∩V )⊆ Rd→y(U∩V )⊆ Rd
+x◦y−1 :y(U∩V )⊆ Rd→x(U∩V )⊆ Rd
+Philosophy:
+Deﬁnition 5. An atlasA; is a ;-compatible atlas if any two charts in A; are ;-compatible.
+Deﬁnition 6. A ;-manifold is a triple ( M,O
+top. mfd.
+,A;) A;⊆A maximal
+; undergraduate ;
+C0 C0(Rd→ Rd) = continuous maps w.r.t. O
+C1 C1(Rd→ Rd) = diﬀerentiable (once) and is continuous
+Ck k-times continuously diﬀerentiable
+Dk k-times diﬀerentiable
+...
+C∞ C∞(Rd→ Rd)
+⊇
+Cω ∃ multi-dim. Taylor exp.
+C∞ satisfy Cauchy-Riemann equations, pair-wise
+EY : 20151109 Schuller says: Ck is easy to work with because you can judge k-times cont. diﬀerentiability from existence of
+all partial derivatives and their continuity. There are examples of maps that partial derivatives exist but are not Dk, k-times
+diﬀerentiable.
+Theorem 1 (Whitney). Any Ck≥1-atlas,ACk≥1 of a topological manifold contains a C∞-atlas.
+Thus we may w.l.o.g. always consider C∞-manifolds, “smooth manifolds”, unless we wish to deﬁne Taylor expandibility/-
+complex diﬀerentiability . . .
+EY : 20151109 Hassler Whitney 1
+Deﬁnition 7. A smooth manifold ( M,O
+top. mfd.
+, A
+C∞−atlas
+)
+R M
+Rd
+γ
+x◦γ x
+EY: 20151109 Schuller was explaining that the trajectory is real inM; the coordinate maps to obtain
+coordinates is x◦γ
+4.3. 4. Diﬀeomorphisms. M
+φ
+− →N
+If M,N are naked sets, the structure preserving maps are the bijections (invertible maps).
+e.g.{1, 2, 3}→{ a,b}
+Deﬁnition 8. M∼=set N (set-theoretically) isomorphic if∃ bijectionφ :M→N
+Examples. N∼=set Z
+N∼=set Q (EY: 20151109 Schuller says from diagonal counting)
+N∼=setR
+Now (M,OM)∼=top (N,ON) (topl.) isomorphic = “homeomorphic” ∃ bijection φ :M→N
+φ,φ−1 are continuous.
+(V, +,·)∼=vec (W, +w,·w) (EY: 20151109 vector space isomorphism) if
+∃ bijection φ :V →W linearly
+ﬁnally
+Deﬁnition 9. Two C∞-manifolds
+(M,OM,AM) and (N,ON,AN) are said to be diﬀeomorphic if∃ bijectionφ :M→N s.t.
+φ :M→N
+φ−1 :N→M
+are both C∞-maps
+1http://mathoverflow.net/questions/8789/can-every-manifold-be-given-an-analytic-structure
+
+
+[[page 6]]

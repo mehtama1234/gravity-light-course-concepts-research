@@ -272,7 +272,7 @@
     "why_this_is_critical": "This concept is critical for the course because Light is defined by zero interval, clocks measure proper time, and Einstein gravity tells how the metric responds to matter. If it is skipped or reduced to a slogan, this is what breaks: Without the metric, there are no light cones, no proper time, no causal order, and no precise statement of the Einstein equation. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
     "family_bridge": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
     "evidence_ids": [
-      "ev-metric-measurement-l10",
+      "ev-metric-measurement-l10-notes",
       "ev-metric-measurement-l13-1",
       "ev-metric-measurement-l13-2",
       "ev-metric-measurement-l13-3"
@@ -559,7 +559,7 @@
     "why_this_is_critical": "This concept is critical for the course because Cosmology shows how geometry, matter, light propagation, and observation combine in one testable large-scale story. If it is skipped or reduced to a slogan, this is what breaks: Without the scale-factor idea, redshift and cosmic history get misread as ordinary Doppler motion in fixed space. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
     "family_bridge": "Applies the field equation to evolution, cosmology, horizons, and global causal structure.",
     "evidence_ids": [
-      "ev-cosmology-scale-factor-l20",
+      "ev-cosmology-scale-factor-l20-notes",
       "ev-cosmology-scale-factor-l21-1",
       "ev-cosmology-scale-factor-l21-2",
       "ev-cosmology-scale-factor-l21-3"
@@ -603,7 +603,7 @@
       "ev-black-holes-horizons-l22-1",
       "ev-black-holes-horizons-l22-2",
       "ev-black-holes-horizons-l22-3",
-      "ev-black-holes-horizons-l23"
+      "ev-black-holes-horizons-l23-notes"
     ],
     "prerequisite_ids": [
       "cosmology-scale-factor",
@@ -643,8 +643,8 @@
     "why_this_is_critical": "This concept is critical for the course because This connects the abstract geometry to sources such as binaries and to interferometers that measure tiny relative length changes. If it is skipped or reduced to a slogan, this is what breaks: Without perturbation theory, realistic waves are either unsolved nonlinear problems or misleading coordinate wiggles. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
     "family_bridge": "Moves from exact structures to small measurable departures, physical source models, and detector response.",
     "evidence_ids": [
-      "ev-perturbations-waves-l24",
-      "ev-perturbations-waves-l25",
+      "ev-perturbations-waves-l24-notes",
+      "ev-perturbations-waves-l25-notes",
       "ev-perturbations-waves-l27-1",
       "ev-perturbations-waves-l27-2",
       "ev-perturbations-waves-l27-3",
@@ -1214,7 +1214,7 @@
     "why_this_is_critical": "This concept is critical for the course because This is how gravity tells observers which events can affect which other events and which paths light can follow. If it is skipped or reduced to a slogan, this is what breaks: Without signature and light cones, spacetime loses causal order and black holes lose their defining feature. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
     "family_bridge": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
     "evidence_ids": [
-      "ev-metric-signature-light-cones-l10",
+      "ev-metric-signature-light-cones-l10-notes",
       "ev-metric-signature-light-cones-l13-1",
       "ev-metric-signature-light-cones-l13-2",
       "ev-metric-signature-light-cones-l13-3",
@@ -1258,7 +1258,7 @@
     "why_this_is_critical": "This concept is critical for the course because Gravity affects clock readings because the metric that defines those increments is the gravitational field. If it is skipped or reduced to a slogan, this is what breaks: Without proper time, gravitational time dilation and observer-dependent elapsed time become vague stories. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
     "family_bridge": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
     "evidence_ids": [
-      "ev-proper-time-clock-reading-l10",
+      "ev-proper-time-clock-reading-l10-notes",
       "ev-proper-time-clock-reading-l13-1",
       "ev-proper-time-clock-reading-l13-2",
       "ev-proper-time-clock-reading-l13-3"
@@ -1584,7 +1584,7 @@
     "why_this_is_critical": "This concept is critical for the course because This matters because redshift, age, expansion rate, and late-time acceleration are all read through the scale factor. If it is skipped or reduced to a slogan, this is what breaks: Without the scale factor, cosmology becomes a story about moving galaxies instead of changing spacetime geometry. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
     "family_bridge": "Applies the field equation to evolution, cosmology, horizons, and global causal structure.",
     "evidence_ids": [
-      "ev-scale-factor-expansion-history-l20",
+      "ev-scale-factor-expansion-history-l20-notes",
       "ev-scale-factor-expansion-history-l21-1",
       "ev-scale-factor-expansion-history-l21-2",
       "ev-scale-factor-expansion-history-l21-3"
@@ -1667,7 +1667,7 @@
       "ev-event-horizon-causal-boundary-l22-1",
       "ev-event-horizon-causal-boundary-l22-2",
       "ev-event-horizon-causal-boundary-l22-3",
-      "ev-event-horizon-causal-boundary-l23"
+      "ev-event-horizon-causal-boundary-l23-notes"
     ],
     "prerequisite_ids": [
       "scale-factor-expansion-history",
@@ -1704,7 +1704,7 @@
     "why_this_is_critical": "This concept is critical for the course because This matters because horizons and singularities are easiest to understand by seeing causal reach at once. If it is skipped or reduced to a slogan, this is what breaks: Without Penrose diagrams, global causal claims about black holes remain trapped in coordinate-dependent pictures. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
     "family_bridge": "Applies the field equation to evolution, cosmology, horizons, and global causal structure.",
     "evidence_ids": [
-      "ev-penrose-diagrams-compress-infinity-l23"
+      "ev-penrose-diagrams-compress-infinity-l23-notes"
     ],
     "prerequisite_ids": [
       "hubble-rate-as-change-of-scale",
@@ -1743,8 +1743,8 @@
     "why_this_is_critical": "This concept is critical for the course because This matters for gravitational waves because detectors respond to physical strain, not to arbitrary coordinate wiggles. If it is skipped or reduced to a slogan, this is what breaks: Without this separation, wave calculations can report motion of the coordinate grid as if it were a real signal. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
     "family_bridge": "Moves from exact structures to small measurable departures, physical source models, and detector response.",
     "evidence_ids": [
-      "ev-gauge-versus-physical-change-l24",
-      "ev-gauge-versus-physical-change-l25",
+      "ev-gauge-versus-physical-change-l24-notes",
+      "ev-gauge-versus-physical-change-l25-notes",
       "ev-gauge-versus-physical-change-l27-1",
       "ev-gauge-versus-physical-change-l27-2",
       "ev-gauge-versus-physical-change-l27-3"
@@ -1786,8 +1786,8 @@
     "why_this_is_critical": "This concept is critical for the course because This matters because gravitational waves and weak fields can be calculated without solving the full nonlinear equation. If it is skipped or reduced to a slogan, this is what breaks: Without linearization, many observational predictions would be buried inside equations too hard to solve directly. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
     "family_bridge": "Moves from exact structures to small measurable departures, physical source models, and detector response.",
     "evidence_ids": [
-      "ev-linearized-equations-small-disturbances-l24",
-      "ev-linearized-equations-small-disturbances-l25",
+      "ev-linearized-equations-small-disturbances-l24-notes",
+      "ev-linearized-equations-small-disturbances-l25-notes",
       "ev-linearized-equations-small-disturbances-l27-1",
       "ev-linearized-equations-small-disturbances-l27-2",
       "ev-linearized-equations-small-disturbances-l27-3"
