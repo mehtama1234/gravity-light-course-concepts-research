@@ -1057,6 +1057,101 @@ SUBTHEME_DEPTH = {
 }
 
 
+LECTURE_TEACHING_OVERRIDES = {
+    1: {
+        "lecture_starting_problem": "Topology is the course's first act of restraint. Before a metric can say how far apart events are, the reader still needs a way to talk about a point being approached, a path not jumping, and a field varying coherently. This lecture teaches that the minimum useful structure is not a ruler but a choice of open sets. That choice says which regions count as local rooms around points. Once that is in place, continuity can be tested without borrowing distance from a geometry the course has not built yet.",
+        "lecture_mathematical_turn": "The mathematical turn is to replace distance talk with open-set tests. Instead of asking whether two points are a small number of meters apart, ask whether every output room around a value pulls back to an input room around the original point. That inverse-image test is the plain engine behind continuity. It matters because later fields, curves, charts, and light paths all need the promise that nearby inputs do not suddenly land in unrelated output regions.",
+        "lecture_worked_path": [
+            "Start with the need to describe non-jumping change before any ruler has been introduced.",
+            "Choose open sets as local room tests around points before speaking about distance.",
+            "Test continuity by pulling every output open set back to the input side.",
+            "Use that result as the permission layer for later smooth maps and fields.",
+        ],
+    },
+    2: {
+        "lecture_starting_problem": "A manifold lecture has to prevent a basic mistake: treating one coordinate map as the space itself. The course needs spaces that can be curved or globally awkward while still allowing ordinary local calculations. The everyday issue is like using neighborhood maps for one city. Each map can be useful, but none of them is the city. This lecture makes that separation precise by covering the space with charts and making the overlaps carry the burden of agreement.",
+        "lecture_mathematical_turn": "The mathematical turn is to build the space from local descriptions plus rules for changing descriptions. A chart gives numbers to a patch. An overlap map says how one chart's numbers become another chart's numbers where both describe the same point. A statement about the manifold is trustworthy only if it survives that translation. This is why later horizon and singularity discussions must first ask whether the chart failed before claiming spacetime failed.",
+        "lecture_worked_path": [
+            "Begin with a curved or globally awkward space that still looks ordinary in small patches.",
+            "Give each patch a chart, which is only a local naming system.",
+            "Use overlap maps to compare chart names for the same points.",
+            "Treat only chart-surviving statements as statements about the manifold.",
+        ],
+    },
+    3: {
+        "lecture_starting_problem": "Multilinear algebra enters because relativity cannot use loose lists of numbers as physical quantities. A vector points, a covector measures a vector, and a tensor may accept several directions or measuring rules at once. If those jobs are blurred, Einstein's equation later looks like two complicated arrays being equated. This lecture builds the habit of asking what slots an object has before asking what its components look like in a chosen basis.",
+        "lecture_mathematical_turn": "The mathematical turn is to treat tensors as rules first and components second. A basis turns a tensor into a display of numbers, but the object is the slot rule that tells what can be fed into it and how the answer changes under a basis change. Contraction, pairing, and basis transformation are not notation games. They are the checks that keep metric, curvature, and stress-energy from depending on one observer's bookkeeping.",
+        "lecture_worked_path": [
+            "Start with the need for quantities that keep meaning after coordinates or bases change.",
+            "Ask what inputs the object accepts: vectors, covectors, or several slots at once.",
+            "Choose a basis only to display the object as components.",
+            "Change basis and verify that the slot rule, not the component table, is the stable object.",
+        ],
+    },
+    4: {
+        "lecture_starting_problem": "Differentiable manifolds solve the problem that local coordinates alone are not enough for calculus. A topological manifold can have charts, but derivatives require chart changes that are smooth enough to carry rates of change honestly. The lecture is therefore about permission: when is it legal to differentiate a function, curve, or field on a space that may need many coordinate patches? The answer cannot depend on the first chart that happened to look convenient.",
+        "lecture_mathematical_turn": "The mathematical turn is to make chart transitions responsible for calculus. On an overlap, move from one chart to the other through a transition map and check smoothness there. If the transition is smooth, derivatives computed in one chart can be translated into derivatives in the other. If not, a derivative may be measuring a bad naming system. This is the bridge from bare topology to the later language of tangent spaces and fields.",
+        "lecture_worked_path": [
+            "Start with charted patches that describe the same points on their overlap.",
+            "Build the transition map from one coordinate description to the other.",
+            "Check that the transition map is smooth enough for derivatives to survive.",
+            "Allow calculus on the manifold only after that compatibility check is passed.",
+        ],
+    },
+    5: {
+        "lecture_starting_problem": "Tangent spaces are needed because a direction at a point cannot be defined by an arrow drawn in an outside room. Spacetime is not presented as a surface embedded in a larger flat container. The lecture therefore asks what a direction means from inside the manifold. The answer is operational: a direction is known by the rates of change it gives to functions at the point. That makes velocity and light direction local before any global picture is available.",
+        "lecture_mathematical_turn": "The mathematical turn is to define tangent vectors by their action on test functions. Choose a function near the point and ask how fast it changes along a possible curve through the point. Curves that give the same rate for every test function define the same tangent vector. This shifts direction from picture to operation, which is why later vector fields, observer velocities, and null directions can be defined intrinsically.",
+        "lecture_worked_path": [
+            "Begin with a point where a direction is needed but no outside arrow is allowed.",
+            "Choose local functions that can test movement through that point.",
+            "Define the direction by the rate it assigns to each test function.",
+            "Collect all such directions at the point into the tangent space.",
+        ],
+    },
+    6: {
+        "lecture_starting_problem": "Fields are easy to picture vaguely and hard to use precisely. The course needs a way to say that each point of spacetime carries one local object: a vector, tensor, matter value, observer direction, or metric value. The lecture turns field language into bookkeeping. There is a base space of points, a fiber of possible values above each point, and a section that chooses one allowed value over every point in a smooth way.",
+        "lecture_mathematical_turn": "The mathematical turn is to replace the image of a substance spread through space with a pointwise assignment rule. A bundle keeps the possible values over different base points organized without pretending they all live in one shared vector space. A section chooses one value in the right fiber above each point. This matters because later derivatives and equations act on fields only after their pointwise home has been made clear.",
+        "lecture_worked_path": [
+            "Start with the need to assign a local quantity at every point of a manifold.",
+            "Separate the base point from the possible values living over that point.",
+            "Use a section to choose one allowed value in each fiber.",
+            "Require smooth variation so the field can later be differentiated and compared.",
+        ],
+    },
+    7: {
+        "lecture_starting_problem": "Connections enter when the course asks whether a vector field changed from one point to the next. Ordinary subtraction assumes both vectors live in the same flat space. On a manifold they do not. A vector at one point and a vector at a nearby point belong to different tangent spaces, so comparison itself needs a rule. This lecture introduces that rule before any claim about acceleration, straightness, or change is allowed.",
+        "lecture_mathematical_turn": "The mathematical turn is to add a comparison law. A connection says how to transport a direction nearby and how to correct an ordinary derivative so it becomes a covariant derivative. The correction is not decorative. It removes the fake change caused by moving through a curving coordinate system. Once this is available, geodesics can mean paths whose tangent directions carry themselves along without turning according to the connection.",
+        "lecture_worked_path": [
+            "Begin with two nearby tangent spaces whose vectors cannot yet be subtracted.",
+            "Use the connection to carry one vector toward the other point.",
+            "Subtract only after the comparison rule has supplied a transported vector.",
+            "Read the remaining difference as covariant change rather than coordinate drift.",
+        ],
+    },
+    8: {
+        "lecture_starting_problem": "Parallel transport and curvature answer the question: what if local comparison rules cannot be made globally consistent? Carrying a vector along one route and another route can return different answers. That failure is not a drawing error; it is a measurement of curvature from inside the manifold. The lecture makes gravity less like a force attached to space and more like a mismatch in the rules for comparing nearby directions.",
+        "lecture_mathematical_turn": "The mathematical turn is to use a loop as a test. Transport a vector around a tiny loop, or compare the result of differentiating in two directions in opposite orders. In flat geometry the answers fit together. In curved geometry they do not, and the mismatch is encoded by curvature. This is the step that prepares geodesic deviation: nearby free paths can squeeze or spread because the comparison rule fails to close consistently.",
+        "lecture_worked_path": [
+            "Start with a vector and a rule for carrying it along a path.",
+            "Carry it around a small loop by two neighboring routes.",
+            "Compare the returned vectors only after both routes bring them back to the same point.",
+            "Read the failure to agree as curvature and later as tidal behavior.",
+        ],
+    },
+}
+
+LECTURE_ROLE_OVERRIDES = {
+    1: "This opening lecture gives the course permission to talk about continuity before measurement. Its job is to make nearness precise without distance, so later charts, fields, and light paths do not rest on an unearned ruler.",
+    2: "This lecture teaches the reader to separate a space from the local names used for it. That habit is essential later, when a coordinate failure near a horizon must not be mistaken for a physical failure of spacetime.",
+    3: "This lecture trains the reader to read mathematical quantities by their slots and actions rather than by one component table. That discipline is what later lets metric, curvature, and stress-energy remain meaningful across observers.",
+    4: "This lecture turns local charts into a setting where calculus is allowed. Its role is to make smooth chart changes the gatekeeper for derivatives, so later geometric claims do not depend on a bad coordinate transition.",
+    5: "This lecture gives direction an internal meaning. A tangent vector is understood through rates of change of functions, which lets the course talk about velocity, light direction, and local motion without an outside drawing space.",
+    6: "This lecture makes fields into disciplined pointwise assignments. It prepares the reader to treat matter, observers, vector fields, tensor fields, and eventually the metric as objects chosen over spacetime rather than vague substances.",
+    7: "This lecture supplies the missing comparison rule between nearby tangent spaces. It is the step that makes covariant change, geodesic motion, and later curvature possible without pretending the manifold has a hidden flat background.",
+    8: "This lecture shows how curvature is measured from inside the manifold. Parallel transport around loops and noncommuting corrected derivatives reveal when local comparison rules fail to fit together, which becomes the course's tidal picture of gravity.",
+}
+
+
 FAMILIES = [
     {
         "id": "build-space-before-measuring",
@@ -1668,6 +1763,9 @@ def lecture_central_question(record: dict[str, Any], concept_ids: list[str], con
 
 
 def lecture_first_principles_role(record: dict[str, Any], concept_ids: list[str], concepts: list[dict[str, Any]]) -> str:
+    override = LECTURE_ROLE_OVERRIDES.get(record["index"])
+    if override:
+        return override
     matched = [concept for concept in concepts if concept["id"] in concept_ids]
     if not matched:
         return "This lecture is present in the playlist but has no assigned concept yet. It should be audited before any polished explanation claims to cover the whole course."
@@ -1682,6 +1780,9 @@ def lecture_first_principles_role(record: dict[str, Any], concept_ids: list[str]
 
 
 def lecture_teaching_layer(record: dict[str, Any], concept_ids: list[str], concepts: list[dict[str, Any]]) -> dict[str, Any]:
+    override = LECTURE_TEACHING_OVERRIDES.get(record["index"])
+    if override:
+        return override
     matched = [concept for concept in concepts if concept["id"] in concept_ids]
     if not matched:
         return {

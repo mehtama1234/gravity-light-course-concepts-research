@@ -24,6 +24,13 @@ BANNED_PHRASES = (
     "it is important because it is important",
 )
 
+LECTURE_TEMPLATE_PHRASES = (
+    "This lecture starts from a concrete obstruction",
+    "It should not be read as a lecture about terminology",
+    "The mathematical turn is to choose the right object",
+    "By the time the lecture reaches",
+)
+
 
 class LinkParser(HTMLParser):
     def __init__(self) -> None:
@@ -70,6 +77,7 @@ def validate() -> tuple[list[str], list[str]]:
     readiness_report = ANALYSIS / "audits" / "goal-readiness-audit.md"
     full_archive_readiness_report = ANALYSIS / "audits" / "full-archive-readiness-audit.md"
     integrated_companion_readiness_report = ANALYSIS / "audits" / "integrated-companion-readiness-audit.md"
+    lecture_depth_quality_audit = ANALYSIS / "audits" / "lecture-depth-quality-audit.md"
     archive_evidence_page = SITE / "archive-evidence.html"
     learning_path_page = SITE / "learning-path.html"
     dependency_map_page = SITE / "what-breaks.html"
@@ -118,6 +126,7 @@ def validate() -> tuple[list[str], list[str]]:
     require(readiness_report.exists(), "goal readiness audit must exist", errors)
     require(full_archive_readiness_report.exists(), "full archive readiness audit must exist", errors)
     require(integrated_companion_readiness_report.exists(), "integrated companion readiness audit must exist", errors)
+    require(lecture_depth_quality_audit.exists(), "lecture depth quality audit must exist", errors)
     require(archive_evidence_page.exists(), "archive evidence page must exist", errors)
     require(learning_path_page.exists(), "learning path page must exist", errors)
     require(dependency_map_page.exists(), "what-breaks dependency page must exist", errors)
@@ -151,6 +160,18 @@ def validate() -> tuple[list[str], list[str]]:
         for step_index, step in enumerate(lecture.get("lecture_worked_path", []), start=1):
             require(words(step) >= 10, f"lecture {lecture['index']:02d} worked path step {step_index} is too thin", errors)
             check_banned_phrases(f"lecture {lecture['index']:02d} worked path step {step_index}", step, errors)
+        if lecture["index"] <= 8:
+            lecture_text = " ".join(
+                [
+                    lecture["first_principles_role"],
+                    lecture["lecture_starting_problem"],
+                    lecture["lecture_mathematical_turn"],
+                    " ".join(lecture.get("lecture_worked_path", [])),
+                ]
+            )
+            for phrase in LECTURE_TEMPLATE_PHRASES:
+                require(phrase not in lecture_text, f"lecture {lecture['index']:02d} still contains template phrase: {phrase}", errors)
+            require("Lecture " not in lecture["first_principles_role"], f"lecture {lecture['index']:02d} first-principles role still reads like a generated scaffold", errors)
         require("mathematical_objects_to_track" in lecture, f"lecture {lecture['index']:02d} missing objects to track", errors)
         require(
             lecture.get("external_notes_support_status") in {"not-needed-transcript-backed", "missing", "supports-assigned-concepts", "source-present-no-assigned-support"},
