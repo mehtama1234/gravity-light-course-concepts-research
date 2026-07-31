@@ -37,9 +37,24 @@ Manual templates now exist at:
 
 These templates are not evidence yet. They become evidence only after direct video viewing fills timestamp spans, observations, concept ids, object, operation, why it matters, and caveats.
 
+## Local Speech-To-Text Attempt
+
+A local transcription path was added with `scripts/transcribe_audio_clip.py`. It uses `faster-whisper` inside an ignored `.venv-transcribe/` environment and reads ignored audio files from `.cache/audio/`.
+
+What was tried:
+
+- Installed `faster-whisper` in `.venv-transcribe/`.
+- Downloaded lecture 18 low-bitrate audio format 139 to `.cache/audio/018-sOiifkFYck4.m4a`.
+- Tested full-lecture transcription with `tiny.en`; it stalled in VAD before useful output.
+- Patched the script to decode only requested time windows with PyAV.
+- Tested 90-second and 30-second clips with VAD disabled; both reached Whisper generation but were too slow for interactive completion on the current CPU.
+
+Conclusion: the transcription route is viable as tooling, but not practical on this machine/session without faster hardware, a smaller/faster runtime, or a hosted speech-to-text service. No machine transcript was promoted to evidence.
+
 ## Next Recovery Attempts
 
 1. Retry lecture 10 YouTube captions later or through a different network/IP.
 2. Check archived `gravity-and-light.org` snapshots for any lecture-specific pages not exposed by the Heroku tutorial index.
 3. Check mirrors such as Bilibili only for source availability, not as evidence unless captions or notes can be extracted and cited.
-4. Fill the manual-notes templates by direct video viewing before changing unsupported evidence to notes-backed.
+4. Run `scripts/transcribe_audio_clip.py` on a faster machine/GPU, then fill the manual-notes templates from timestamped transcript spans.
+5. Fill the manual-notes templates by direct video viewing before changing unsupported evidence to notes-backed.

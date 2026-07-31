@@ -60,3 +60,9 @@ The atlas distinguishes transcript-backed evidence, external-notes-backed
 evidence, and unresolved placeholders. Unresolved canonical-formulation records
 must be handled through `raw-material/manual-notes/` by direct lecture viewing
 before they can be promoted.
+
+An optional local speech-to-text helper exists at
+`scripts/transcribe_audio_clip.py`. It expects `faster-whisper` in a local
+`.venv-transcribe/` environment and audio files in `.cache/audio/`; both paths
+are ignored by git. Use it to create timestamped raw material, then copy only
+verified notes into `raw-material/manual-notes/`.
