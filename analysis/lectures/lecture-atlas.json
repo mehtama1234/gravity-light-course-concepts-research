@@ -6,6 +6,8 @@
     "url": "https://www.youtube.com/watch?v=7G4SqIboeig",
     "transcript_status": "available",
     "external_notes_status": "available",
+    "external_notes_support_status": "not-needed-transcript-backed",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -42,6 +44,8 @@
     "url": "https://www.youtube.com/watch?v=93f-ayezCqE",
     "transcript_status": "available",
     "external_notes_status": "available",
+    "external_notes_support_status": "not-needed-transcript-backed",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -76,6 +80,8 @@
     "url": "https://www.youtube.com/watch?v=mbv3T15nWq0",
     "transcript_status": "available",
     "external_notes_status": "available",
+    "external_notes_support_status": "not-needed-transcript-backed",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -107,6 +113,8 @@
     "url": "https://www.youtube.com/watch?v=HSyTEwS4g80",
     "transcript_status": "available",
     "external_notes_status": "available",
+    "external_notes_support_status": "not-needed-transcript-backed",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -143,6 +151,8 @@
     "url": "https://www.youtube.com/watch?v=pepU_7NJSGM",
     "transcript_status": "available",
     "external_notes_status": "available",
+    "external_notes_support_status": "not-needed-transcript-backed",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -179,6 +189,8 @@
     "url": "https://www.youtube.com/watch?v=UbQS40KHkH0",
     "transcript_status": "available",
     "external_notes_status": "available",
+    "external_notes_support_status": "not-needed-transcript-backed",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -213,6 +225,8 @@
     "url": "https://www.youtube.com/watch?v=nEaiZBbCVtI",
     "transcript_status": "available",
     "external_notes_status": "available",
+    "external_notes_support_status": "not-needed-transcript-backed",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -249,6 +263,8 @@
     "url": "https://www.youtube.com/watch?v=2eVWUdcI2ho",
     "transcript_status": "available",
     "external_notes_status": "available",
+    "external_notes_support_status": "not-needed-transcript-backed",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -289,6 +305,8 @@
     "url": "https://www.youtube.com/watch?v=IBlCu1zgD4Y",
     "transcript_status": "available",
     "external_notes_status": "available",
+    "external_notes_support_status": "not-needed-transcript-backed",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -325,6 +343,12 @@
     "url": "https://www.youtube.com/watch?v=ONCZNwKswn4",
     "transcript_status": "missing",
     "external_notes_status": "available",
+    "external_notes_support_status": "supports-assigned-concepts",
+    "notes_supported_concept_ids": [
+      "metric-measurement",
+      "metric-signature-light-cones",
+      "proper-time-clock-reading"
+    ],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -344,7 +368,7 @@
       "metric-signature-light-cones",
       "proper-time-clock-reading"
     ],
-    "audit_note": "Local transcript missing, but external notes are available from: The WE-Heraeus International Winter School on Gravity and Light notes, Notes on General Relativity and Gravity.",
+    "audit_note": "Local transcript missing, but external notes support assigned concepts (metric-measurement, metric-signature-light-cones, proper-time-clock-reading) from: The WE-Heraeus International Winter School on Gravity and Light notes, Notes on General Relativity and Gravity.",
     "central_question": "How does this lecture use Metric Manifolds, Metric Signature And Light Cones, Proper Time As Clock Reading to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
     "first_principles_role": "Lecture 10 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: After building nearness and smoothness, the course needs a rule that tells clocks, rulers, and light cones what they measure. The course needs a measurement rule that separates possible time-like motion, space-like separation, and light-like travel. The course needs a way to say what a clock actually records along its own path through spacetime. The mathematical work to watch is: The operation is evaluating the metric on tangent vectors to compute intervals, norms, angles, volumes, and null directions. The operation is evaluating the metric on tangent directions and sorting them into time-like, space-like, or null. The operation is evaluating the metric on the path's tangent and adding the resulting clock increments along the path. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
@@ -361,6 +385,8 @@
     "url": "https://www.youtube.com/watch?v=v4jolM-bPpA",
     "transcript_status": "available",
     "external_notes_status": "available",
+    "external_notes_support_status": "not-needed-transcript-backed",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -390,6 +416,8 @@
     "url": "https://www.youtube.com/watch?v=2XpnbvPy-Zg",
     "transcript_status": "available",
     "external_notes_status": "available",
+    "external_notes_support_status": "not-needed-transcript-backed",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -424,6 +452,8 @@
     "url": "https://www.youtube.com/watch?v=iFAxSEoj6Go",
     "transcript_status": "available",
     "external_notes_status": "available",
+    "external_notes_support_status": "not-needed-transcript-backed",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -460,6 +490,8 @@
     "url": "https://www.youtube.com/watch?v=65Y38aRWIXs",
     "transcript_status": "available",
     "external_notes_status": "available",
+    "external_notes_support_status": "not-needed-transcript-backed",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -492,6 +524,8 @@
     "url": "https://www.youtube.com/watch?v=ZfewnqcBYag",
     "transcript_status": "available",
     "external_notes_status": "available",
+    "external_notes_support_status": "not-needed-transcript-backed",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -532,6 +566,8 @@
     "url": "https://www.youtube.com/watch?v=wOY5K42nsFM",
     "transcript_status": "available",
     "external_notes_status": "available",
+    "external_notes_support_status": "not-needed-transcript-backed",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -572,6 +608,8 @@
     "url": "https://www.youtube.com/watch?v=2-nOtRESiUc",
     "transcript_status": "available",
     "external_notes_status": "missing",
+    "external_notes_support_status": "not-needed-transcript-backed",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [],
     "manual_note_template": null,
     "word_count": 12915,
@@ -595,6 +633,8 @@
     "url": "https://www.youtube.com/watch?v=sOiifkFYck4",
     "transcript_status": "missing",
     "external_notes_status": "available",
+    "external_notes_support_status": "source-present-no-assigned-support",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "ernestyalumni-gravity-notes-grande",
@@ -608,14 +648,14 @@
       "canonical-formulation",
       "initial-data-constraints"
     ],
-    "audit_note": "Local transcript missing, but external notes are available from: Notes on General Relativity and Gravity.",
+    "audit_note": "Local transcript missing, and external notes exist from Notes on General Relativity and Gravity, but they do not support the assigned concepts yet.",
     "central_question": "How does this lecture use Canonical Formulation and Constraints, Initial Data Must Satisfy Constraints to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
     "first_principles_role": "Lecture 18 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to describe spacetime evolution from data on a space-like slice while respecting coordinate freedom. The course needs to explain why not every imagined snapshot of space can be the start of a valid spacetime. The mathematical work to watch is: The operation is decomposing spacetime into space plus time, identifying constraints, and checking how allowed data evolves. The operation is checking the constraint equations before using the data as a lawful starting point. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
       "The canonical formulation rewrites spacetime geometry as slice geometry plus momentum-like data, constrained by the same physics in a different language.",
       "Initial data consists of spatial geometry plus momentum-like change data that obeys Hamiltonian and momentum constraints."
     ],
-    "reader_warning": "This lecture lacks local YouTube captions, but external notes are available. Treat notes-backed claims as useful but not identical to transcript evidence."
+    "reader_warning": "This lecture has external notes on file, but none currently support the assigned concepts. It still needs direct viewing notes or a better source for those claims."
   },
   {
     "index": 19,
@@ -624,6 +664,8 @@
     "url": "https://www.youtube.com/watch?v=GSxuLzmHyyU",
     "transcript_status": "missing",
     "external_notes_status": "missing",
+    "external_notes_support_status": "missing",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [],
     "manual_note_template": "raw-material/manual-notes/lecture-19-canonical-formulation-gr-ii.md",
     "word_count": 0,
@@ -647,6 +689,11 @@
     "url": "https://www.youtube.com/watch?v=xzzSlx4tdOw",
     "transcript_status": "missing",
     "external_notes_status": "available",
+    "external_notes_support_status": "supports-assigned-concepts",
+    "notes_supported_concept_ids": [
+      "cosmology-scale-factor",
+      "scale-factor-expansion-history"
+    ],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -665,7 +712,7 @@
       "cosmology-scale-factor",
       "scale-factor-expansion-history"
     ],
-    "audit_note": "Local transcript missing, but external notes are available from: The WE-Heraeus International Winter School on Gravity and Light notes, Notes on General Relativity and Gravity.",
+    "audit_note": "Local transcript missing, but external notes support assigned concepts (cosmology-scale-factor, scale-factor-expansion-history) from: The WE-Heraeus International Winter School on Gravity and Light notes, Notes on General Relativity and Gravity.",
     "central_question": "How does this lecture use Cosmology and Expansion, Scale Factor As Expansion History to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
     "first_principles_role": "Lecture 20 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs to apply the field equation to a whole-universe model without pretending every detail of the universe is tracked. The course needs one changing quantity that records how large-scale distances evolve in a smoothed universe model. The mathematical work to watch is: The operation is imposing homogeneity/isotropy, deriving reduced evolution equations, and reading matter content from how the scale factor changes. The operation is solving equations for this multiplier from matter content, curvature assumptions, and possible vacuum terms. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
@@ -681,6 +728,8 @@
     "url": "https://www.youtube.com/watch?v=U9fJH3XS8Vc",
     "transcript_status": "available",
     "external_notes_status": "available",
+    "external_notes_support_status": "not-needed-transcript-backed",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -716,6 +765,8 @@
     "url": "https://www.youtube.com/watch?v=7VJzouE9rNE",
     "transcript_status": "available",
     "external_notes_status": "available",
+    "external_notes_support_status": "not-needed-transcript-backed",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -750,6 +801,12 @@
     "url": "https://www.youtube.com/watch?v=nAT1PDkufso",
     "transcript_status": "missing",
     "external_notes_status": "available",
+    "external_notes_support_status": "supports-assigned-concepts",
+    "notes_supported_concept_ids": [
+      "black-holes-horizons",
+      "event-horizon-causal-boundary",
+      "penrose-diagrams-compress-infinity"
+    ],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -764,7 +821,7 @@
       "event-horizon-causal-boundary",
       "penrose-diagrams-compress-infinity"
     ],
-    "audit_note": "Local transcript missing, but external notes are available from: The WE-Heraeus International Winter School on Gravity and Light notes.",
+    "audit_note": "Local transcript missing, but external notes support assigned concepts (black-holes-horizons, event-horizon-causal-boundary, penrose-diagrams-compress-infinity) from: The WE-Heraeus International Winter School on Gravity and Light notes.",
     "central_question": "How does this lecture use Black Holes and Horizons, Event Horizon As Causal Boundary, Penrose Diagrams Compress Infinity to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
     "first_principles_role": "Lecture 23 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs to understand regions where causal structure, not escape speed folklore, defines what can communicate outward. The course needs a definition of a black-hole boundary that depends on what signals can do, not on a material surface. The course needs a way to draw causal structure, including infinity, without losing which light paths are possible. The mathematical work to watch is: The operation is tracing null directions and causal relations, often after a coordinate change that removes fake singular behavior. The operation is tracing future-directed null paths and deciding which events can communicate outward. The operation is conformally rescaling the metric so causal directions remain visible while distances are compressed. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
@@ -781,6 +838,12 @@
     "url": "https://www.youtube.com/watch?v=H_1ZBlwVsXo",
     "transcript_status": "missing",
     "external_notes_status": "available",
+    "external_notes_support_status": "supports-assigned-concepts",
+    "notes_supported_concept_ids": [
+      "gauge-versus-physical-change",
+      "linearized-equations-small-disturbances",
+      "perturbations-waves"
+    ],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -800,7 +863,7 @@
       "gauge-versus-physical-change",
       "linearized-equations-small-disturbances"
     ],
-    "audit_note": "Local transcript missing, but external notes are available from: The WE-Heraeus International Winter School on Gravity and Light notes, Notes on General Relativity and Gravity.",
+    "audit_note": "Local transcript missing, but external notes support assigned concepts (gauge-versus-physical-change, linearized-equations-small-disturbances, perturbations-waves) from: The WE-Heraeus International Winter School on Gravity and Light notes, Notes on General Relativity and Gravity.",
     "central_question": "How does this lecture use Perturbation Theory and Gravitational Waves, Gauge Change Versus Physical Change, Linearized Equations For Small Disturbances to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
     "first_principles_role": "Lecture 24 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to study small departures from a known spacetime and connect them to measurable signals. The course needs to separate a real small disturbance from a small change in how the same spacetime is described. The course needs an approximation that keeps the first small effect while discarding higher-order complications. The mathematical work to watch is: The operation is linearizing the field equations, separating physical modes from coordinate changes, and predicting detector strain. The operation is identifying which perturbation changes can be removed by a coordinate change and which remain measurable. The operation is expanding the field equation and discarding terms quadratic or higher in the small disturbance. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
@@ -817,6 +880,12 @@
     "url": "https://www.youtube.com/watch?v=q9qWR9xUMts",
     "transcript_status": "missing",
     "external_notes_status": "available",
+    "external_notes_support_status": "supports-assigned-concepts",
+    "notes_supported_concept_ids": [
+      "gauge-versus-physical-change",
+      "linearized-equations-small-disturbances",
+      "perturbations-waves"
+    ],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -831,7 +900,7 @@
       "gauge-versus-physical-change",
       "linearized-equations-small-disturbances"
     ],
-    "audit_note": "Local transcript missing, but external notes are available from: The WE-Heraeus International Winter School on Gravity and Light notes.",
+    "audit_note": "Local transcript missing, but external notes support assigned concepts (gauge-versus-physical-change, linearized-equations-small-disturbances, perturbations-waves) from: The WE-Heraeus International Winter School on Gravity and Light notes.",
     "central_question": "How does this lecture use Perturbation Theory and Gravitational Waves, Gauge Change Versus Physical Change, Linearized Equations For Small Disturbances to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
     "first_principles_role": "Lecture 25 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to study small departures from a known spacetime and connect them to measurable signals. The course needs to separate a real small disturbance from a small change in how the same spacetime is described. The course needs an approximation that keeps the first small effect while discarding higher-order complications. The mathematical work to watch is: The operation is linearizing the field equations, separating physical modes from coordinate changes, and predicting detector strain. The operation is identifying which perturbation changes can be removed by a coordinate change and which remain measurable. The operation is expanding the field equation and discarding terms quadratic or higher in the small disturbance. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
@@ -848,6 +917,8 @@
     "url": "https://www.youtube.com/watch?v=MNriGs9hL8M",
     "transcript_status": "available",
     "external_notes_status": "available",
+    "external_notes_support_status": "not-needed-transcript-backed",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "richie-dadhley-gravity-light-notes",
@@ -880,6 +951,8 @@
     "url": "https://www.youtube.com/watch?v=MOUXdnK58z4",
     "transcript_status": "available",
     "external_notes_status": "missing",
+    "external_notes_support_status": "not-needed-transcript-backed",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [],
     "manual_note_template": null,
     "word_count": 17546,
@@ -907,6 +980,8 @@
     "url": "https://www.youtube.com/watch?v=GVGsh1jCBZQ",
     "transcript_status": "available",
     "external_notes_status": "available",
+    "external_notes_support_status": "not-needed-transcript-backed",
+    "notes_supported_concept_ids": [],
     "external_note_sources": [
       {
         "id": "ernestyalumni-gravity-notes-grande",

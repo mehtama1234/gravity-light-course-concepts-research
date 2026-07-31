@@ -130,8 +130,10 @@ def render_lectures(lectures: list[dict[str, Any]], concepts_by_id: dict[str, di
         )
         if lecture["transcript_status"] == "available":
             status = "transcript-backed"
-        elif lecture.get("external_notes_status") == "available":
+        elif lecture.get("external_notes_support_status") == "supports-assigned-concepts":
             status = "notes-backed"
+        elif lecture.get("external_notes_support_status") == "source-present-no-assigned-support":
+            status = "source gap"
         else:
             status = "needs notes"
         rows.append(
@@ -177,6 +179,8 @@ def render_lecture_pages(lectures: list[dict[str, Any]], concepts_by_id: dict[st
             for source in lecture.get("external_note_sources", [])
         )
         note_block = f"<ul>{note_sources}</ul>" if note_sources else "<p class=\"quiet\">No external notes linked for this lecture.</p>"
+        supported = lecture.get("notes_supported_concept_ids", [])
+        support_text = ", ".join(supported) if supported else "No assigned concept is notes-backed from these sources yet."
         manual_note = lecture.get("manual_note_template")
         manual_block = (
             f"<p class=\"quiet\">Manual note template: {esc(manual_note)}</p>"
@@ -205,6 +209,7 @@ def render_lecture_pages(lectures: list[dict[str, Any]], concepts_by_id: dict[st
           <p><a href="{esc(lecture['url'])}">Open YouTube lecture</a></p>
           <h3>External Notes</h3>
           {note_block}
+          <p class="quiet">Notes support: {esc(support_text)}</p>
           <h3>Manual Notes</h3>
           {manual_block}
         </section>
@@ -461,6 +466,7 @@ h3 { margin: 0 0 8px; }
 .status { font-weight: 700; margin-right: 10px; }
 .status.transcript-backed { color: var(--ok); }
 .status.notes-backed { color: var(--accent); }
+.status.source-gap { color: var(--warn); }
 .status.needs-notes { color: var(--warn); }
 .plain-list li { margin-bottom: 8px; }
 blockquote { margin: 10px 0; padding-left: 14px; border-left: 3px solid var(--accent); color: #353430; }

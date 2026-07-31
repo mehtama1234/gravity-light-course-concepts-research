@@ -76,6 +76,7 @@ h3 { margin: 0 0 8px; }
 .status { font-weight: 700; margin-right: 10px; }
 .status.transcript-backed { color: var(--ok); }
 .status.notes-backed { color: var(--accent); }
+.status.source-gap { color: var(--warn); }
 .status.needs-notes { color: var(--warn); }
 .plain-list li { margin-bottom: 8px; }
 blockquote { margin: 10px 0; padding-left: 14px; border-left: 3px solid var(--accent); color: #353430; }

@@ -1177,9 +1177,22 @@ def build() -> None:
     for concept in concepts:
         for index in concept["lecture_indexes"]:
             concept_by_lecture.setdefault(index, []).append(concept["id"])
+    notes_supported_by_lecture: dict[int, list[str]] = {}
+    for item in evidence_records:
+        if item["confidence"] == "notes-backed":
+            notes_supported_by_lecture.setdefault(item["lecture_index"], []).append(item["concept_id"])
     for record in records:
         lecture_concept_ids = concept_by_lecture.get(record["index"], [])
         lecture_notes = notes_sections.get(record["index"], [])
+        notes_supported_concepts = sorted(set(notes_supported_by_lecture.get(record["index"], [])))
+        if record["transcript_status"] == "available":
+            external_support_status = "not-needed-transcript-backed"
+        elif not lecture_notes:
+            external_support_status = "missing"
+        elif notes_supported_concepts:
+            external_support_status = "supports-assigned-concepts"
+        else:
+            external_support_status = "source-present-no-assigned-support"
         lecture_atlas.append(
             {
                 "index": record["index"],
@@ -1188,6 +1201,8 @@ def build() -> None:
                 "url": record["url"],
                 "transcript_status": record["transcript_status"],
                 "external_notes_status": "available" if lecture_notes else "missing",
+                "external_notes_support_status": external_support_status,
+                "notes_supported_concept_ids": notes_supported_concepts,
                 "external_note_sources": [
                     {
                         "id": item["source_id"],
@@ -1199,11 +1214,11 @@ def build() -> None:
                 "manual_note_template": MANUAL_NOTES.get(record["index"]),
                 "word_count": record.get("word_count", 0),
                 "concept_ids": lecture_concept_ids,
-                "audit_note": lecture_audit_note(record, lecture_notes),
+                "audit_note": lecture_audit_note(record, lecture_notes, notes_supported_concepts),
                 "central_question": lecture_central_question(record, lecture_concept_ids, concepts),
                 "first_principles_role": lecture_first_principles_role(record, lecture_concept_ids, concepts),
                 "mathematical_objects_to_track": lecture_objects_to_track(lecture_concept_ids, concepts),
-                "reader_warning": lecture_reader_warning(record, lecture_notes),
+                "reader_warning": lecture_reader_warning(record, lecture_notes, notes_supported_concepts),
             }
         )
 
@@ -1290,12 +1305,16 @@ def sequence_role(indexes: tuple[int, ...]) -> str:
     return "Moves from exact structures to small measurable departures, physical source models, and detector response."
 
 
-def lecture_audit_note(record: dict[str, Any], lecture_notes: list[dict[str, str]]) -> str:
+def lecture_audit_note(record: dict[str, Any], lecture_notes: list[dict[str, str]], notes_supported_concepts: list[str]) -> str:
     if record["transcript_status"] == "available":
         return f"Transcript-backed with {record.get('word_count', 0)} words available for snippet-level evidence."
+    if notes_supported_concepts:
+        titles = ", ".join(item["source_title"] for item in lecture_notes)
+        concepts = ", ".join(notes_supported_concepts)
+        return f"Local transcript missing, but external notes support assigned concepts ({concepts}) from: {titles}."
     if lecture_notes:
         titles = ", ".join(item["source_title"] for item in lecture_notes)
-        return f"Local transcript missing, but external notes are available from: {titles}."
+        return f"Local transcript missing, and external notes exist from {titles}, but they do not support the assigned concepts yet."
     return "Needs manual lecture notes or another transcript source before detailed claims should be treated as supported."
 
 
@@ -1324,11 +1343,13 @@ def lecture_objects_to_track(concept_ids: list[str], concepts: list[dict[str, An
     return [concept["mathematical_object"] for concept in concepts if concept["id"] in concept_ids]
 
 
-def lecture_reader_warning(record: dict[str, Any], lecture_notes: list[dict[str, str]]) -> str:
+def lecture_reader_warning(record: dict[str, Any], lecture_notes: list[dict[str, str]], notes_supported_concepts: list[str]) -> str:
     if record["transcript_status"] == "available":
         return "This lecture has local transcript evidence. Claims should cite snippets or timestamps when they interpret the lecture's argument."
-    if lecture_notes:
+    if notes_supported_concepts:
         return "This lecture lacks local YouTube captions, but external notes are available. Treat notes-backed claims as useful but not identical to transcript evidence."
+    if lecture_notes:
+        return "This lecture has external notes on file, but none currently support the assigned concepts. It still needs direct viewing notes or a better source for those claims."
     return "This lecture is not locally transcript-backed. Treat its page as a roadmap for future notes, not as a finished explanation of the lecture."
 
 

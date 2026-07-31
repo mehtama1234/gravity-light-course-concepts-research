@@ -100,6 +100,12 @@ def validate() -> tuple[list[str], list[str]]:
         for field in ("central_question", "first_principles_role", "reader_warning"):
             require(words(lecture[field]) >= 12, f"lecture {lecture['index']:02d} field {field} is too thin", errors)
         require("mathematical_objects_to_track" in lecture, f"lecture {lecture['index']:02d} missing objects to track", errors)
+        require(
+            lecture.get("external_notes_support_status") in {"not-needed-transcript-backed", "missing", "supports-assigned-concepts", "source-present-no-assigned-support"},
+            f"lecture {lecture['index']:02d} has invalid external notes support status",
+            errors,
+        )
+        require("notes_supported_concept_ids" in lecture, f"lecture {lecture['index']:02d} missing notes-supported concept ids", errors)
 
     concept_ids = {c["id"] for c in concepts}
     evidence_ids = {e["id"] for e in evidence}

@@ -13,13 +13,13 @@
 
 ## Missing Transcript Coverage
 
-- Lecture 10: Lecture 10: Metric Manifolds - Local transcript missing, but external notes are available from: The WE-Heraeus International Winter School on Gravity and Light notes, Notes on General Relativity and Gravity.
-- Lecture 18: Lecture 18: Canonical Formulation of GR I - Local transcript missing, but external notes are available from: Notes on General Relativity and Gravity.
+- Lecture 10: Lecture 10: Metric Manifolds - Local transcript missing, but external notes support assigned concepts (metric-measurement, metric-signature-light-cones, proper-time-clock-reading) from: The WE-Heraeus International Winter School on Gravity and Light notes, Notes on General Relativity and Gravity.
+- Lecture 18: Lecture 18: Canonical Formulation of GR I - Local transcript missing, and external notes exist from Notes on General Relativity and Gravity, but they do not support the assigned concepts yet.
 - Lecture 19: Lecture 19: Canonical Formulation of GR II - Needs manual lecture notes or another transcript source before detailed claims should be treated as supported.
-- Lecture 20: Lecture 20: Cosmology - The early epoch - Local transcript missing, but external notes are available from: The WE-Heraeus International Winter School on Gravity and Light notes, Notes on General Relativity and Gravity.
-- Lecture 23: Lecture 23: Penrose Diagrams - Local transcript missing, but external notes are available from: The WE-Heraeus International Winter School on Gravity and Light notes.
-- Lecture 24: Lecture 24: Perturbation Theory I - Local transcript missing, but external notes are available from: The WE-Heraeus International Winter School on Gravity and Light notes, Notes on General Relativity and Gravity.
-- Lecture 25: Lecture 25: Perturbation Theory II - Local transcript missing, but external notes are available from: The WE-Heraeus International Winter School on Gravity and Light notes.
+- Lecture 20: Lecture 20: Cosmology - The early epoch - Local transcript missing, but external notes support assigned concepts (cosmology-scale-factor, scale-factor-expansion-history) from: The WE-Heraeus International Winter School on Gravity and Light notes, Notes on General Relativity and Gravity.
+- Lecture 23: Lecture 23: Penrose Diagrams - Local transcript missing, but external notes support assigned concepts (black-holes-horizons, event-horizon-causal-boundary, penrose-diagrams-compress-infinity) from: The WE-Heraeus International Winter School on Gravity and Light notes.
+- Lecture 24: Lecture 24: Perturbation Theory I - Local transcript missing, but external notes support assigned concepts (gauge-versus-physical-change, linearized-equations-small-disturbances, perturbations-waves) from: The WE-Heraeus International Winter School on Gravity and Light notes, Notes on General Relativity and Gravity.
+- Lecture 25: Lecture 25: Perturbation Theory II - Local transcript missing, but external notes support assigned concepts (gauge-versus-physical-change, linearized-equations-small-disturbances, perturbations-waves) from: The WE-Heraeus International Winter School on Gravity and Light notes.
 
 ## External Notes Coverage
 

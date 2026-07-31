@@ -32,7 +32,7 @@ The atlas uses these sources only as `notes-backed` evidence. It does not count 
 
 Lecture 19, "Canonical Formulation of GR II", remains unresolved. The Richie Dadhley notes contain a lecture-19 heading, but the extracted section has no substantive notes. The current atlas keeps lecture-19 canonical evidence as unsupported instead of filling it from generic canonical-GR material.
 
-Lecture 18 remains unresolved at the assigned-concept level. The supplemental notes index includes a lecture-18 section, but the extracted text does not contain enough canonical-formulation support for the assigned concepts. It is therefore not promoted to notes-backed evidence.
+Lecture 18 remains unresolved at the assigned-concept level. The supplemental notes index includes a lecture-18 section, but the extracted text is mostly symmetry/tutorial material and does not contain enough canonical-formulation support for the assigned concepts. It is therefore marked as a source gap, not promoted to notes-backed evidence.
 
 ## Archive Tutorial Check
 
