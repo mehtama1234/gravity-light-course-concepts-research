@@ -18,7 +18,15 @@
       "topology-continuity",
       "manifolds-local-flatness",
       "multilinear-objects",
-      "tangent-spaces-fields"
+      "tangent-spaces-fields",
+      "open-sets-neighborhood-tests",
+      "continuous-maps-preserve-nearness",
+      "charts-atlases-coordinate-overlap",
+      "smoothness-change-rates",
+      "dual-vectors-measure-directions",
+      "tensor-components-versus-object",
+      "tangent-vectors-as-derivatives",
+      "vector-fields-as-local-instructions"
     ],
     "subthemes": [
       "Local change",
@@ -53,10 +61,19 @@
     "concept_ids": [
       "connections-parallel-transport",
       "curvature-geodesic-deviation",
-      "metric-measurement"
+      "metric-measurement",
+      "covariant-derivative-corrects-comparison",
+      "geodesics-free-motion",
+      "parallel-transport-loop-test",
+      "riemann-curvature-commutator",
+      "ricci-curvature-volume-change",
+      "metric-signature-light-cones",
+      "proper-time-clock-reading"
     ],
     "subthemes": [
+      "Causal paths",
       "Comparing nearby directions",
+      "Geometry coupled to matter",
       "Measurement becomes a field",
       "Tidal facts"
     ],
@@ -89,11 +106,20 @@
       "symmetry-conservation",
       "integration-on-manifolds",
       "stress-energy-matter",
-      "einstein-equation"
+      "einstein-equation",
+      "ricci-curvature-volume-change",
+      "metric-signature-light-cones",
+      "proper-time-clock-reading",
+      "killing-fields-symmetry-directions",
+      "stokes-boundary-bulk-accounting",
+      "einstein-tensor-conserved-geometry",
+      "cosmological-constant-vacuum-term"
     ],
     "subthemes": [
       "Adding local facts",
+      "Causal paths",
       "Geometry coupled to matter",
+      "Large-scale geometry",
       "Measurement becomes a field",
       "Sameness as a calculation",
       "What gravitates"
@@ -120,10 +146,15 @@
     "why_it_matters": "Most astronomical evidence about gravity arrives through light. If null geometry is weakly understood, lensing, horizons, redshift, and signal travel times become disconnected facts.",
     "what_to_watch_for": "A null path is not a path with no motion. It is a path with zero spacetime interval, which is exactly what makes it a light path.",
     "concept_ids": [
-      "optical-geometry"
+      "optical-geometry",
+      "geodesics-free-motion",
+      "metric-signature-light-cones",
+      "redshift-as-stretched-light",
+      "gravitational-lensing-focusing"
     ],
     "subthemes": [
-      "Causal paths"
+      "Causal paths",
+      "Comparing nearby directions"
     ],
     "transcript_backed_lectures": [
       16,
@@ -150,11 +181,19 @@
     "concept_ids": [
       "canonical-formulation",
       "cosmology-scale-factor",
-      "black-holes-horizons"
+      "black-holes-horizons",
+      "cosmological-constant-vacuum-term",
+      "redshift-as-stretched-light",
+      "initial-data-constraints",
+      "scale-factor-expansion-history",
+      "hubble-rate-as-change-of-scale",
+      "event-horizon-causal-boundary",
+      "penrose-diagrams-compress-infinity"
     ],
     "subthemes": [
       "Allowed initial data",
       "Causal boundaries",
+      "Causal paths",
       "Large-scale geometry"
     ],
     "transcript_backed_lectures": [
@@ -185,7 +224,12 @@
     "what_to_watch_for": "Not every changing metric component is a physical wave. The course must separate real measured strain from a changed description, then explain how source dynamics, propagation, and interferometer readout refer to the same disturbance.",
     "concept_ids": [
       "stress-energy-matter",
-      "perturbations-waves"
+      "perturbations-waves",
+      "gauge-versus-physical-change",
+      "linearized-equations-small-disturbances",
+      "quadrupole-source-changing-shape",
+      "strain-relative-length-change",
+      "interferometer-light-as-ruler"
     ],
     "subthemes": [
       "Small signals",

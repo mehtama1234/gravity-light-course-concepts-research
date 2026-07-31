@@ -212,6 +212,7 @@ def render_concepts(concepts: list[dict[str, Any]]) -> None:
 
 
 def render_concept_pages(concepts: list[dict[str, Any]], evidence_by_id: dict[str, dict[str, Any]]) -> None:
+    concepts_by_id = {concept["id"]: concept for concept in concepts}
     for concept in concepts:
         ev_items = []
         for eid in concept["evidence_ids"]:
@@ -258,6 +259,14 @@ def render_concept_pages(concepts: list[dict[str, Any]], evidence_by_id: dict[st
           <h2>Where It Sits In The Course</h2>
           <p>{esc(concept['family_bridge'])}</p>
         </section>
+        <section class="deep-read">
+          <h2>Connective Thread</h2>
+          <p>{esc(concept['connective_thread'])}</p>
+          <div class="related-grid">
+            {render_related('Depends On', concept['prerequisite_ids'], concepts_by_id)}
+            {render_related('Used Later By', concept['later_use_ids'], concepts_by_id)}
+          </div>
+        </section>
         <section>
           <h2>Evidence</h2>
           {''.join(ev_items)}
@@ -268,6 +277,17 @@ def render_concept_pages(concepts: list[dict[str, Any]], evidence_by_id: dict[st
 
 def section(title: str, text: str) -> str:
     return f"<section class=\"detail\"><h2>{esc(title)}</h2><p>{esc(text)}</p></section>"
+
+
+def render_related(title: str, ids: list[str], concepts_by_id: dict[str, dict[str, Any]]) -> str:
+    if not ids:
+        return f"<article><h3>{esc(title)}</h3><p class=\"quiet\">No linked concept assigned.</p></article>"
+    links = " ".join(
+        f"<a class=\"chip\" href=\"{esc(concepts_by_id[cid]['id'])}.html\">{esc(concepts_by_id[cid]['name'])}</a>"
+        for cid in ids
+        if cid in concepts_by_id
+    )
+    return f"<article><h3>{esc(title)}</h3><p>{links}</p></article>"
 
 
 def render_themes(themes: list[dict[str, Any]], concepts_by_id: dict[str, dict[str, Any]]) -> None:
@@ -390,10 +410,11 @@ h3 { margin: 0 0 8px; }
 .metrics div { background: var(--panel); padding: 18px; }
 .metrics strong { display: block; font-size: 2rem; line-height: 1; }
 .metrics span { color: var(--muted); }
-.theme-list, .two-col, .concept-grid { display: grid; gap: 14px; }
+.theme-list, .two-col, .concept-grid, .related-grid { display: grid; gap: 14px; }
 .theme-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .two-col { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; }
 .concept-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.related-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .row-block, .detail, .evidence-item, .concept-card, .lecture-row, .family-block, .deep-read {
   background: var(--panel);
   border: 1px solid var(--line);
@@ -426,7 +447,7 @@ th { background: #ece9df; }
 @media (max-width: 820px) {
   .topbar { overflow-x: auto; padding: 0 16px; }
   main { width: min(100% - 24px, 1160px); }
-  .metrics, .theme-list, .two-col, .concept-grid { grid-template-columns: 1fr; }
+  .metrics, .theme-list, .two-col, .concept-grid, .related-grid { grid-template-columns: 1fr; }
   .lecture-row { grid-template-columns: 1fr; }
 }
 """

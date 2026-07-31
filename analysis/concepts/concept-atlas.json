@@ -22,8 +22,20 @@
     "why_this_is_critical": "This concept is critical for the course because Light paths, fields, and observers must vary continuously before the theory can ask how fast or how curved that variation is. If it is skipped or reduced to a slogan, this is what breaks: Without topology, a later derivative or field equation can hide discontinuous jumps behind smooth-looking coordinate formulas. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
     "family_bridge": "Builds the language needed before curvature, metric measurement, and field equations can be stated without hidden background assumptions.",
     "evidence_ids": [
-      "ev-topology-continuity-l01"
-    ]
+      "ev-topology-continuity-l01-1",
+      "ev-topology-continuity-l01-2",
+      "ev-topology-continuity-l01-3"
+    ],
+    "prerequisite_ids": [
+      "continuous-maps-preserve-nearness",
+      "open-sets-neighborhood-tests"
+    ],
+    "later_use_ids": [
+      "charts-atlases-coordinate-overlap",
+      "manifolds-local-flatness",
+      "dual-vectors-measure-directions"
+    ],
+    "connective_thread": "This page should be read after Continuous Maps Preserve Nearness, Open Sets As Neighborhood Tests. It prepares Charts, Atlases, and Overlap Rules, Manifolds and Local Flatness, Dual Vectors Measure Directions. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
   },
   {
     "id": "manifolds-local-flatness",
@@ -49,9 +61,24 @@
     "why_this_is_critical": "This concept is critical for the course because Observers in gravity use local clocks and rods, while global spacetime may bend, contain horizons, or fail to admit one single coordinate system. If it is skipped or reduced to a slogan, this is what breaks: Without manifolds, the theory confuses a coordinate accident with a physical effect and cannot cleanly handle horizons or global shape. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
     "family_bridge": "Builds the language needed before curvature, metric measurement, and field equations can be stated without hidden background assumptions.",
     "evidence_ids": [
-      "ev-manifolds-local-flatness-l02",
-      "ev-manifolds-local-flatness-l04"
-    ]
+      "ev-manifolds-local-flatness-l02-1",
+      "ev-manifolds-local-flatness-l02-2",
+      "ev-manifolds-local-flatness-l02-3",
+      "ev-manifolds-local-flatness-l04-1",
+      "ev-manifolds-local-flatness-l04-2",
+      "ev-manifolds-local-flatness-l04-3"
+    ],
+    "prerequisite_ids": [
+      "open-sets-neighborhood-tests",
+      "topology-continuity",
+      "charts-atlases-coordinate-overlap"
+    ],
+    "later_use_ids": [
+      "dual-vectors-measure-directions",
+      "multilinear-objects",
+      "tensor-components-versus-object"
+    ],
+    "connective_thread": "This page should be read after Open Sets As Neighborhood Tests, Topology and Continuity, Charts, Atlases, and Overlap Rules. It prepares Dual Vectors Measure Directions, Multilinear Algebra, Tensor Components Versus The Object. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
   },
   {
     "id": "multilinear-objects",
@@ -76,8 +103,21 @@
     "why_this_is_critical": "This concept is critical for the course because The metric, curvature, and stress-energy tensor all have slot structure; their physical meaning is carried by what they take in and return. If it is skipped or reduced to a slogan, this is what breaks: Without multilinear discipline, Einstein's equation becomes symbol matching rather than a statement that two geometric/physical measuring rules are equal. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
     "family_bridge": "Builds the language needed before curvature, metric measurement, and field equations can be stated without hidden background assumptions.",
     "evidence_ids": [
-      "ev-multilinear-objects-l03"
-    ]
+      "ev-multilinear-objects-l03-1",
+      "ev-multilinear-objects-l03-2",
+      "ev-multilinear-objects-l03-3"
+    ],
+    "prerequisite_ids": [
+      "charts-atlases-coordinate-overlap",
+      "manifolds-local-flatness",
+      "dual-vectors-measure-directions"
+    ],
+    "later_use_ids": [
+      "tensor-components-versus-object",
+      "smoothness-change-rates",
+      "tangent-spaces-fields"
+    ],
+    "connective_thread": "This page should be read after Charts, Atlases, and Overlap Rules, Manifolds and Local Flatness, Dual Vectors Measure Directions. It prepares Tensor Components Versus The Object, Smoothness As Allowed Change, Tangent Spaces and Fields. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
   },
   {
     "id": "tangent-spaces-fields",
@@ -103,9 +143,24 @@
     "why_this_is_critical": "This concept is critical for the course because Particles follow tangent directions, light has null tangent directions, and matter/gravity fields are pointwise assignments over spacetime. If it is skipped or reduced to a slogan, this is what breaks: Without tangent spaces and fields, there is no intrinsic way to say velocity, acceleration, local measurement, or local law. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
     "family_bridge": "Builds the language needed before curvature, metric measurement, and field equations can be stated without hidden background assumptions.",
     "evidence_ids": [
-      "ev-tangent-spaces-fields-l05",
-      "ev-tangent-spaces-fields-l06"
-    ]
+      "ev-tangent-spaces-fields-l05-1",
+      "ev-tangent-spaces-fields-l05-2",
+      "ev-tangent-spaces-fields-l05-3",
+      "ev-tangent-spaces-fields-l06-1",
+      "ev-tangent-spaces-fields-l06-2",
+      "ev-tangent-spaces-fields-l06-3"
+    ],
+    "prerequisite_ids": [
+      "multilinear-objects",
+      "tensor-components-versus-object",
+      "smoothness-change-rates"
+    ],
+    "later_use_ids": [
+      "tangent-vectors-as-derivatives",
+      "vector-fields-as-local-instructions",
+      "connections-parallel-transport"
+    ],
+    "connective_thread": "This page should be read after Multilinear Algebra, Tensor Components Versus The Object, Smoothness As Allowed Change. It prepares Tangent Vectors As Derivatives, Vector Fields As Local Instructions, Connections and Parallel Transport. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
   },
   {
     "id": "connections-parallel-transport",
@@ -131,9 +186,24 @@
     "why_this_is_critical": "This concept is critical for the course because Free fall, inertial motion, and bending light are expressed through transported directions and geodesics, not through ordinary second derivatives in a fixed grid. If it is skipped or reduced to a slogan, this is what breaks: Without a connection, acceleration and straightness are undefined on a manifold, so gravity cannot be described as geometry. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
     "family_bridge": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
     "evidence_ids": [
-      "ev-connections-parallel-transport-l07",
-      "ev-connections-parallel-transport-l08"
-    ]
+      "ev-connections-parallel-transport-l07-1",
+      "ev-connections-parallel-transport-l07-2",
+      "ev-connections-parallel-transport-l07-3",
+      "ev-connections-parallel-transport-l08-1",
+      "ev-connections-parallel-transport-l08-2",
+      "ev-connections-parallel-transport-l08-3"
+    ],
+    "prerequisite_ids": [
+      "tangent-spaces-fields",
+      "tangent-vectors-as-derivatives",
+      "vector-fields-as-local-instructions"
+    ],
+    "later_use_ids": [
+      "covariant-derivative-corrects-comparison",
+      "geodesics-free-motion",
+      "curvature-geodesic-deviation"
+    ],
+    "connective_thread": "This page should be read after Tangent Spaces and Fields, Tangent Vectors As Derivatives, Vector Fields As Local Instructions. It prepares Covariant Derivative Corrects Comparison, Geodesics As Free Motion, Curvature. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
   },
   {
     "id": "curvature-geodesic-deviation",
@@ -159,9 +229,24 @@
     "why_this_is_critical": "This concept is critical for the course because Gravity becomes tidal behavior: not merely objects falling, but neighboring free-fall paths squeezing, spreading, or shearing because spacetime itself is curved. If it is skipped or reduced to a slogan, this is what breaks: Without curvature, the course cannot distinguish a removable coordinate effect from a real gravitational field. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
     "family_bridge": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
     "evidence_ids": [
-      "ev-curvature-geodesic-deviation-l08",
-      "ev-curvature-geodesic-deviation-l09"
-    ]
+      "ev-curvature-geodesic-deviation-l08-1",
+      "ev-curvature-geodesic-deviation-l08-2",
+      "ev-curvature-geodesic-deviation-l08-3",
+      "ev-curvature-geodesic-deviation-l09-1",
+      "ev-curvature-geodesic-deviation-l09-2",
+      "ev-curvature-geodesic-deviation-l09-3"
+    ],
+    "prerequisite_ids": [
+      "connections-parallel-transport",
+      "covariant-derivative-corrects-comparison",
+      "geodesics-free-motion"
+    ],
+    "later_use_ids": [
+      "parallel-transport-loop-test",
+      "riemann-curvature-commutator",
+      "ricci-curvature-volume-change"
+    ],
+    "connective_thread": "This page should be read after Connections and Parallel Transport, Covariant Derivative Corrects Comparison, Geodesics As Free Motion. It prepares Parallel Transport Loop Test, Riemann Curvature As Noncommuting Change, Ricci Curvature As Volume Change. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
   },
   {
     "id": "metric-measurement",
@@ -188,8 +273,21 @@
     "family_bridge": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
     "evidence_ids": [
       "ev-metric-measurement-l10",
-      "ev-metric-measurement-l13"
-    ]
+      "ev-metric-measurement-l13-1",
+      "ev-metric-measurement-l13-2",
+      "ev-metric-measurement-l13-3"
+    ],
+    "prerequisite_ids": [
+      "parallel-transport-loop-test",
+      "riemann-curvature-commutator",
+      "ricci-curvature-volume-change"
+    ],
+    "later_use_ids": [
+      "metric-signature-light-cones",
+      "proper-time-clock-reading",
+      "killing-fields-symmetry-directions"
+    ],
+    "connective_thread": "This page should be read after Parallel Transport Loop Test, Riemann Curvature As Noncommuting Change, Ricci Curvature As Volume Change. It prepares Metric Signature And Light Cones, Proper Time As Clock Reading, Killing Fields As Symmetry Directions. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
   },
   {
     "id": "symmetry-conservation",
@@ -214,8 +312,21 @@
     "why_this_is_critical": "This concept is critical for the course because Symmetries make energy-like and angular-momentum-like quantities meaningful in spacetimes where such quantities may not exist globally. If it is skipped or reduced to a slogan, this is what breaks: Without symmetry analysis, the course cannot explain why special solutions such as black holes or cosmologies become tractable. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
     "family_bridge": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
     "evidence_ids": [
-      "ev-symmetry-conservation-l11"
-    ]
+      "ev-symmetry-conservation-l11-1",
+      "ev-symmetry-conservation-l11-2",
+      "ev-symmetry-conservation-l11-3"
+    ],
+    "prerequisite_ids": [
+      "metric-signature-light-cones",
+      "proper-time-clock-reading",
+      "killing-fields-symmetry-directions"
+    ],
+    "later_use_ids": [
+      "integration-on-manifolds",
+      "stokes-boundary-bulk-accounting",
+      "stress-energy-matter"
+    ],
+    "connective_thread": "This page should be read after Metric Signature And Light Cones, Proper Time As Clock Reading, Killing Fields As Symmetry Directions. It prepares Integration on Manifolds, Stokes' Theorem As Boundary-Bulk Accounting, Matter and Stress-Energy. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
   },
   {
     "id": "integration-on-manifolds",
@@ -240,8 +351,21 @@
     "why_this_is_critical": "This concept is critical for the course because Actions, matter totals, fluxes, and conservation laws need integration that respects the geometry of spacetime. If it is skipped or reduced to a slogan, this is what breaks: Without manifold integration, the theory cannot move from local equations to global quantities or variational principles. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
     "family_bridge": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
     "evidence_ids": [
-      "ev-integration-on-manifolds-l12"
-    ]
+      "ev-integration-on-manifolds-l12-1",
+      "ev-integration-on-manifolds-l12-2",
+      "ev-integration-on-manifolds-l12-3"
+    ],
+    "prerequisite_ids": [
+      "proper-time-clock-reading",
+      "killing-fields-symmetry-directions",
+      "symmetry-conservation"
+    ],
+    "later_use_ids": [
+      "stokes-boundary-bulk-accounting",
+      "stress-energy-matter",
+      "cosmological-constant-vacuum-term"
+    ],
+    "connective_thread": "This page should be read after Proper Time As Clock Reading, Killing Fields As Symmetry Directions, Symmetry and Conservation. It prepares Stokes' Theorem As Boundary-Bulk Accounting, Matter and Stress-Energy, Cosmological Constant As Vacuum Term. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
   },
   {
     "id": "stress-energy-matter",
@@ -268,10 +392,27 @@
     "why_this_is_critical": "This concept is critical for the course because Einstein gravity relates spacetime curvature to this full matter bookkeeping, which is why light, fields, and pressure affect gravity. If it is skipped or reduced to a slogan, this is what breaks: Without stress-energy, Einstein's equation has no physically meaningful right-hand side and cannot couple geometry to matter. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
     "family_bridge": "Connects geometry to matter, Einstein's equation, and light as the observational carrier.",
     "evidence_ids": [
-      "ev-stress-energy-matter-l14",
-      "ev-stress-energy-matter-l15",
-      "ev-stress-energy-matter-l26"
-    ]
+      "ev-stress-energy-matter-l14-1",
+      "ev-stress-energy-matter-l14-2",
+      "ev-stress-energy-matter-l14-3",
+      "ev-stress-energy-matter-l15-1",
+      "ev-stress-energy-matter-l15-2",
+      "ev-stress-energy-matter-l15-3",
+      "ev-stress-energy-matter-l26-1",
+      "ev-stress-energy-matter-l26-2",
+      "ev-stress-energy-matter-l26-3"
+    ],
+    "prerequisite_ids": [
+      "symmetry-conservation",
+      "integration-on-manifolds",
+      "stokes-boundary-bulk-accounting"
+    ],
+    "later_use_ids": [
+      "cosmological-constant-vacuum-term",
+      "einstein-equation",
+      "einstein-tensor-conserved-geometry"
+    ],
+    "connective_thread": "This page should be read after Symmetry and Conservation, Integration on Manifolds, Stokes' Theorem As Boundary-Bulk Accounting. It prepares Cosmological Constant As Vacuum Term, Einstein Equation, Einstein Tensor As Conserved Geometry. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
   },
   {
     "id": "einstein-equation",
@@ -296,8 +437,21 @@
     "why_this_is_critical": "This concept is critical for the course because This is the bridge from the earlier geometry lectures to cosmology, black holes, gravitational waves, and light propagation. If it is skipped or reduced to a slogan, this is what breaks: Without this equation, the course has geometry and matter as separate languages with no rule for their mutual constraint. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
     "family_bridge": "Connects geometry to matter, Einstein's equation, and light as the observational carrier.",
     "evidence_ids": [
-      "ev-einstein-equation-l15"
-    ]
+      "ev-einstein-equation-l15-1",
+      "ev-einstein-equation-l15-2",
+      "ev-einstein-equation-l15-3"
+    ],
+    "prerequisite_ids": [
+      "stokes-boundary-bulk-accounting",
+      "stress-energy-matter",
+      "cosmological-constant-vacuum-term"
+    ],
+    "later_use_ids": [
+      "einstein-tensor-conserved-geometry",
+      "gravitational-lensing-focusing",
+      "optical-geometry"
+    ],
+    "connective_thread": "This page should be read after Stokes' Theorem As Boundary-Bulk Accounting, Matter and Stress-Energy, Cosmological Constant As Vacuum Term. It prepares Einstein Tensor As Conserved Geometry, Gravitational Lensing And Focusing, Optical Geometry and Null Geodesics. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
   },
   {
     "id": "optical-geometry",
@@ -323,9 +477,24 @@
     "why_this_is_critical": "This concept is critical for the course because Light is both messenger and measuring device: horizons, lenses, time delays, and observations all depend on null geometry. If it is skipped or reduced to a slogan, this is what breaks: Without null geodesics, the theory cannot connect spacetime models to what telescopes and detectors actually see. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
     "family_bridge": "Connects geometry to matter, Einstein's equation, and light as the observational carrier.",
     "evidence_ids": [
-      "ev-optical-geometry-l16",
-      "ev-optical-geometry-l17"
-    ]
+      "ev-optical-geometry-l16-1",
+      "ev-optical-geometry-l16-2",
+      "ev-optical-geometry-l16-3",
+      "ev-optical-geometry-l17-1",
+      "ev-optical-geometry-l17-2",
+      "ev-optical-geometry-l17-3"
+    ],
+    "prerequisite_ids": [
+      "einstein-equation",
+      "einstein-tensor-conserved-geometry",
+      "gravitational-lensing-focusing"
+    ],
+    "later_use_ids": [
+      "redshift-as-stretched-light",
+      "canonical-formulation",
+      "initial-data-constraints"
+    ],
+    "connective_thread": "This page should be read after Einstein Equation, Einstein Tensor As Conserved Geometry, Gravitational Lensing And Focusing. It prepares Redshift As Stretched Light, Canonical Formulation and Constraints, Initial Data Must Satisfy Constraints. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
   },
   {
     "id": "canonical-formulation",
@@ -353,7 +522,18 @@
     "evidence_ids": [
       "ev-canonical-formulation-l18",
       "ev-canonical-formulation-l19"
-    ]
+    ],
+    "prerequisite_ids": [
+      "gravitational-lensing-focusing",
+      "optical-geometry",
+      "redshift-as-stretched-light"
+    ],
+    "later_use_ids": [
+      "initial-data-constraints",
+      "cosmology-scale-factor",
+      "scale-factor-expansion-history"
+    ],
+    "connective_thread": "This page should be read after Gravitational Lensing And Focusing, Optical Geometry and Null Geodesics, Redshift As Stretched Light. It prepares Initial Data Must Satisfy Constraints, Cosmology and Expansion, Scale Factor As Expansion History. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
   },
   {
     "id": "cosmology-scale-factor",
@@ -380,8 +560,21 @@
     "family_bridge": "Applies the field equation to evolution, cosmology, horizons, and global causal structure.",
     "evidence_ids": [
       "ev-cosmology-scale-factor-l20",
-      "ev-cosmology-scale-factor-l21"
-    ]
+      "ev-cosmology-scale-factor-l21-1",
+      "ev-cosmology-scale-factor-l21-2",
+      "ev-cosmology-scale-factor-l21-3"
+    ],
+    "prerequisite_ids": [
+      "redshift-as-stretched-light",
+      "canonical-formulation",
+      "initial-data-constraints"
+    ],
+    "later_use_ids": [
+      "scale-factor-expansion-history",
+      "hubble-rate-as-change-of-scale",
+      "black-holes-horizons"
+    ],
+    "connective_thread": "This page should be read after Redshift As Stretched Light, Canonical Formulation and Constraints, Initial Data Must Satisfy Constraints. It prepares Scale Factor As Expansion History, Hubble Rate As Change Of Scale, Black Holes and Horizons. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
   },
   {
     "id": "black-holes-horizons",
@@ -407,9 +600,22 @@
     "why_this_is_critical": "This concept is critical for the course because Black holes force the course's earlier ideas about coordinates, metrics, null paths, and global structure to work together. If it is skipped or reduced to a slogan, this is what breaks: Without causal diagrams and horizon language, coordinate artifacts near horizons are easily mistaken for physical singularities. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
     "family_bridge": "Applies the field equation to evolution, cosmology, horizons, and global causal structure.",
     "evidence_ids": [
-      "ev-black-holes-horizons-l22",
+      "ev-black-holes-horizons-l22-1",
+      "ev-black-holes-horizons-l22-2",
+      "ev-black-holes-horizons-l22-3",
       "ev-black-holes-horizons-l23"
-    ]
+    ],
+    "prerequisite_ids": [
+      "cosmology-scale-factor",
+      "scale-factor-expansion-history",
+      "hubble-rate-as-change-of-scale"
+    ],
+    "later_use_ids": [
+      "event-horizon-causal-boundary",
+      "penrose-diagrams-compress-infinity",
+      "gauge-versus-physical-change"
+    ],
+    "connective_thread": "This page should be read after Cosmology and Expansion, Scale Factor As Expansion History, Hubble Rate As Change Of Scale. It prepares Event Horizon As Causal Boundary, Penrose Diagrams Compress Infinity, Gauge Change Versus Physical Change. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
   },
   {
     "id": "perturbations-waves",
@@ -439,8 +645,1273 @@
     "evidence_ids": [
       "ev-perturbations-waves-l24",
       "ev-perturbations-waves-l25",
-      "ev-perturbations-waves-l27",
-      "ev-perturbations-waves-l28"
-    ]
+      "ev-perturbations-waves-l27-1",
+      "ev-perturbations-waves-l27-2",
+      "ev-perturbations-waves-l27-3",
+      "ev-perturbations-waves-l28-1",
+      "ev-perturbations-waves-l28-2",
+      "ev-perturbations-waves-l28-3"
+    ],
+    "prerequisite_ids": [
+      "penrose-diagrams-compress-infinity",
+      "gauge-versus-physical-change",
+      "linearized-equations-small-disturbances"
+    ],
+    "later_use_ids": [
+      "quadrupole-source-changing-shape",
+      "interferometer-light-as-ruler",
+      "strain-relative-length-change"
+    ],
+    "connective_thread": "This page should be read after Penrose Diagrams Compress Infinity, Gauge Change Versus Physical Change, Linearized Equations For Small Disturbances. It prepares Quadrupole Sources Need Changing Shape, Interferometer Light As A Ruler, Strain As Relative Length Change. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "open-sets-neighborhood-tests",
+    "name": "Open Sets As Neighborhood Tests",
+    "theme": "Foundations",
+    "subtheme": "Nearness before measurement",
+    "lecture_indexes": [
+      1
+    ],
+    "ordinary_problem": "The first lecture needs a way to test whether a small move stays inside an allowed region before it has any distance formula.",
+    "naive_picture": "A common shortcut is to think nearness always means a numerical distance has already been measured.",
+    "why_naive_fails": "That shortcut fails because the course has not yet earned a ruler. It only needs to know which regions count as roomy enough around a point.",
+    "mathematical_object": "An open set is a region that contains a little breathing room around each of its points, stated without choosing units of length.",
+    "operation": "The operation is to ask whether a point has a neighborhood contained inside the region, then use that test to define continuity.",
+    "why_for_gravity_light": "Gravity needs this because smooth fields and light paths must vary without sudden tears before any metric can say how long a direction is.",
+    "what_breaks_without_it": "Without open-set tests, later claims about smoothness can quietly depend on a hidden distance rule that the theory has not introduced.",
+    "worked_mini_example": "A train station concourse can be open around you if you can take a few steps without leaving it. That idea is about room to move, not a measured radius.",
+    "lecture_sequence_role": "Builds the language needed before curvature, metric measurement, and field equations can be stated without hidden background assumptions.",
+    "common_confusion": "Open does not mean physically uncovered or infinite. It means every point has enough local room for continuity tests.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The first lecture needs a way to test whether a small move stays inside an allowed region before it has any distance formula. The tempting shortcut is this: A common shortcut is to think nearness always means a numerical distance has already been measured. That shortcut fails because That shortcut fails because the course has not yet earned a ruler. It only needs to know which regions count as roomy enough around a point. So the course introduces a specific object instead of a vague picture: An open set is a region that contains a little breathing room around each of its points, stated without choosing units of length. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is to ask whether a point has a neighborhood contained inside the region, then use that test to define continuity. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For open sets as neighborhood tests, the held object is: An open set is a region that contains a little breathing room around each of its points, stated without choosing units of length. The permitted action is: The operation is to ask whether a point has a neighborhood contained inside the region, then use that test to define continuity. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because Gravity needs this because smooth fields and light paths must vary without sudden tears before any metric can say how long a direction is. If it is skipped or reduced to a slogan, this is what breaks: Without open-set tests, later claims about smoothness can quietly depend on a hidden distance rule that the theory has not introduced. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Builds the language needed before curvature, metric measurement, and field equations can be stated without hidden background assumptions.",
+    "evidence_ids": [
+      "ev-open-sets-neighborhood-tests-l01-1",
+      "ev-open-sets-neighborhood-tests-l01-2",
+      "ev-open-sets-neighborhood-tests-l01-3"
+    ],
+    "prerequisite_ids": [
+      "continuous-maps-preserve-nearness"
+    ],
+    "later_use_ids": [
+      "topology-continuity",
+      "charts-atlases-coordinate-overlap",
+      "manifolds-local-flatness"
+    ],
+    "connective_thread": "This page should be read after Continuous Maps Preserve Nearness. It prepares Topology and Continuity, Charts, Atlases, and Overlap Rules, Manifolds and Local Flatness. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "continuous-maps-preserve-nearness",
+    "name": "Continuous Maps Preserve Nearness",
+    "theme": "Foundations",
+    "subtheme": "Nearness before measurement",
+    "lecture_indexes": [
+      1
+    ],
+    "ordinary_problem": "The course needs a way to say one description respects nearness in another description.",
+    "naive_picture": "It is tempting to call a map continuous only when its graph can be drawn without lifting a pen.",
+    "why_naive_fails": "That picture fails for the spaces used later, because there may be no single graph paper where both spaces live.",
+    "mathematical_object": "A continuous map is a rule between spaces whose inverse image of any open region is open in the starting space.",
+    "operation": "The operation is pulling an open test region backward through the map and checking whether it remains an open test region.",
+    "why_for_gravity_light": "This matters for gravity and light because fields, coordinate maps, and observer descriptions must carry local variation without creating artificial jumps.",
+    "what_breaks_without_it": "Without this idea, a coordinate change can break the ordinary meaning of nearby events staying nearby.",
+    "worked_mini_example": "If a thermostat display changes smoothly as room temperature changes, nearby temperatures produce nearby readings. Continuity says that without needing a picture of the graph.",
+    "lecture_sequence_role": "Builds the language needed before curvature, metric measurement, and field equations can be stated without hidden background assumptions.",
+    "common_confusion": "Continuity is not sameness. It permits stretching and bending; it forbids tearing the neighborhood relation.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs a way to say one description respects nearness in another description. The tempting shortcut is this: It is tempting to call a map continuous only when its graph can be drawn without lifting a pen. That shortcut fails because That picture fails for the spaces used later, because there may be no single graph paper where both spaces live. So the course introduces a specific object instead of a vague picture: A continuous map is a rule between spaces whose inverse image of any open region is open in the starting space. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is pulling an open test region backward through the map and checking whether it remains an open test region. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For continuous maps preserve nearness, the held object is: A continuous map is a rule between spaces whose inverse image of any open region is open in the starting space. The permitted action is: The operation is pulling an open test region backward through the map and checking whether it remains an open test region. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because This matters for gravity and light because fields, coordinate maps, and observer descriptions must carry local variation without creating artificial jumps. If it is skipped or reduced to a slogan, this is what breaks: Without this idea, a coordinate change can break the ordinary meaning of nearby events staying nearby. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Builds the language needed before curvature, metric measurement, and field equations can be stated without hidden background assumptions.",
+    "evidence_ids": [
+      "ev-continuous-maps-preserve-nearness-l01-1",
+      "ev-continuous-maps-preserve-nearness-l01-2",
+      "ev-continuous-maps-preserve-nearness-l01-3"
+    ],
+    "prerequisite_ids": [],
+    "later_use_ids": [
+      "open-sets-neighborhood-tests",
+      "topology-continuity",
+      "charts-atlases-coordinate-overlap"
+    ],
+    "connective_thread": "This page should be read after the ordinary idea of local comparison. It prepares Open Sets As Neighborhood Tests, Topology and Continuity, Charts, Atlases, and Overlap Rules. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "charts-atlases-coordinate-overlap",
+    "name": "Charts, Atlases, and Overlap Rules",
+    "theme": "Foundations",
+    "subtheme": "Local descriptions",
+    "lecture_indexes": [
+      2,
+      4
+    ],
+    "ordinary_problem": "The course needs many local maps that can cover one space without pretending one map works everywhere.",
+    "naive_picture": "A first picture says coordinates are the space itself, so changing coordinates changes the thing being studied.",
+    "why_naive_fails": "That fails because curved spaces and spacetime regions may need several coordinate patches, while the physical point remains the same.",
+    "mathematical_object": "A chart assigns numbers to points in one patch, and an atlas is a compatible collection of such charts.",
+    "operation": "The operation is comparing charts on their overlaps and requiring the change from one chart to another to behave smoothly.",
+    "why_for_gravity_light": "Gravity needs this because horizons, poles, and other awkward regions can make one coordinate system fail while spacetime itself remains meaningful.",
+    "what_breaks_without_it": "Without overlap rules, a bad coordinate patch can be mistaken for a physical singularity or a real boundary.",
+    "worked_mini_example": "Two subway maps can draw the same station differently. The station is not duplicated; the overlap rule tells you how the drawings refer to the same place.",
+    "lecture_sequence_role": "Builds the language needed before curvature, metric measurement, and field equations can be stated without hidden background assumptions.",
+    "common_confusion": "A chart is a local naming scheme, not the object. The overlap map is what keeps several naming schemes honest.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs many local maps that can cover one space without pretending one map works everywhere. The tempting shortcut is this: A first picture says coordinates are the space itself, so changing coordinates changes the thing being studied. That shortcut fails because That fails because curved spaces and spacetime regions may need several coordinate patches, while the physical point remains the same. So the course introduces a specific object instead of a vague picture: A chart assigns numbers to points in one patch, and an atlas is a compatible collection of such charts. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is comparing charts on their overlaps and requiring the change from one chart to another to behave smoothly. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For charts, atlases, and overlap rules, the held object is: A chart assigns numbers to points in one patch, and an atlas is a compatible collection of such charts. The permitted action is: The operation is comparing charts on their overlaps and requiring the change from one chart to another to behave smoothly. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because Gravity needs this because horizons, poles, and other awkward regions can make one coordinate system fail while spacetime itself remains meaningful. If it is skipped or reduced to a slogan, this is what breaks: Without overlap rules, a bad coordinate patch can be mistaken for a physical singularity or a real boundary. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Builds the language needed before curvature, metric measurement, and field equations can be stated without hidden background assumptions.",
+    "evidence_ids": [
+      "ev-charts-atlases-coordinate-overlap-l02-1",
+      "ev-charts-atlases-coordinate-overlap-l02-2",
+      "ev-charts-atlases-coordinate-overlap-l02-3",
+      "ev-charts-atlases-coordinate-overlap-l04-1",
+      "ev-charts-atlases-coordinate-overlap-l04-2",
+      "ev-charts-atlases-coordinate-overlap-l04-3"
+    ],
+    "prerequisite_ids": [
+      "continuous-maps-preserve-nearness",
+      "open-sets-neighborhood-tests",
+      "topology-continuity"
+    ],
+    "later_use_ids": [
+      "manifolds-local-flatness",
+      "dual-vectors-measure-directions",
+      "multilinear-objects"
+    ],
+    "connective_thread": "This page should be read after Continuous Maps Preserve Nearness, Open Sets As Neighborhood Tests, Topology and Continuity. It prepares Manifolds and Local Flatness, Dual Vectors Measure Directions, Multilinear Algebra. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "smoothness-change-rates",
+    "name": "Smoothness As Allowed Change",
+    "theme": "Foundations",
+    "subtheme": "Local descriptions",
+    "lecture_indexes": [
+      4
+    ],
+    "ordinary_problem": "The course needs to know when change is regular enough for derivatives to make sense across chart boundaries.",
+    "naive_picture": "One may think smooth simply means visually rounded or free of sharp corners in a drawing.",
+    "why_naive_fails": "That drawing test fails because the object may not be drawn in one surrounding space, and the relevant test must survive coordinate changes.",
+    "mathematical_object": "A smooth structure is the rule that says which chart changes are differentiable enough for calculus to be done consistently.",
+    "operation": "The operation is taking derivatives in one chart and checking that another chart gives the same kind of admissible calculation.",
+    "why_for_gravity_light": "Fields, particle paths, and curvature all require repeated change-rate operations, so smoothness is the license for later differential geometry.",
+    "what_breaks_without_it": "Without smoothness, the theory can write derivatives that depend on the map used rather than on the spacetime being studied.",
+    "worked_mini_example": "A recipe translated between languages should still have steps that make sense. Smooth chart changes are the translation rules that preserve calculus steps.",
+    "lecture_sequence_role": "Builds the language needed before curvature, metric measurement, and field equations can be stated without hidden background assumptions.",
+    "common_confusion": "Smoothness is not extra decoration. It decides whether derivatives are legal operations on the space.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs to know when change is regular enough for derivatives to make sense across chart boundaries. The tempting shortcut is this: One may think smooth simply means visually rounded or free of sharp corners in a drawing. That shortcut fails because That drawing test fails because the object may not be drawn in one surrounding space, and the relevant test must survive coordinate changes. So the course introduces a specific object instead of a vague picture: A smooth structure is the rule that says which chart changes are differentiable enough for calculus to be done consistently. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is taking derivatives in one chart and checking that another chart gives the same kind of admissible calculation. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For smoothness as allowed change, the held object is: A smooth structure is the rule that says which chart changes are differentiable enough for calculus to be done consistently. The permitted action is: The operation is taking derivatives in one chart and checking that another chart gives the same kind of admissible calculation. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because Fields, particle paths, and curvature all require repeated change-rate operations, so smoothness is the license for later differential geometry. If it is skipped or reduced to a slogan, this is what breaks: Without smoothness, the theory can write derivatives that depend on the map used rather than on the spacetime being studied. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Builds the language needed before curvature, metric measurement, and field equations can be stated without hidden background assumptions.",
+    "evidence_ids": [
+      "ev-smoothness-change-rates-l04-1",
+      "ev-smoothness-change-rates-l04-2",
+      "ev-smoothness-change-rates-l04-3"
+    ],
+    "prerequisite_ids": [
+      "dual-vectors-measure-directions",
+      "multilinear-objects",
+      "tensor-components-versus-object"
+    ],
+    "later_use_ids": [
+      "tangent-spaces-fields",
+      "tangent-vectors-as-derivatives",
+      "vector-fields-as-local-instructions"
+    ],
+    "connective_thread": "This page should be read after Dual Vectors Measure Directions, Multilinear Algebra, Tensor Components Versus The Object. It prepares Tangent Spaces and Fields, Tangent Vectors As Derivatives, Vector Fields As Local Instructions. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "dual-vectors-measure-directions",
+    "name": "Dual Vectors Measure Directions",
+    "theme": "Foundations",
+    "subtheme": "Slot structure",
+    "lecture_indexes": [
+      3,
+      5
+    ],
+    "ordinary_problem": "The course needs a way to distinguish an arrow-like direction from a measuring rule applied to that direction.",
+    "naive_picture": "A common shortcut treats every linear object as a vector with components in a column.",
+    "why_naive_fails": "That fails because some objects point along possible motion while others take a direction as input and return a measured number.",
+    "mathematical_object": "A dual vector, also called a covector or one-form, is a linear measuring rule on vectors.",
+    "operation": "The operation is feeding a vector into the covector and getting a number that changes correctly when coordinates change.",
+    "why_for_gravity_light": "Gravity uses this distinction in gradients, differential forms, metric operations, and stress-energy measurements.",
+    "what_breaks_without_it": "Without dual vectors, the course loses track of what points, what measures, and why slot positions in tensors matter.",
+    "worked_mini_example": "A wind arrow points east, while a toll gate counts how much eastward traffic crosses it. The gate is not another arrow; it measures arrows.",
+    "lecture_sequence_role": "Builds the language needed before curvature, metric measurement, and field equations can be stated without hidden background assumptions.",
+    "common_confusion": "A covector is not a vector drawn backwards. Its job is measurement, and that job determines how it transforms.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs a way to distinguish an arrow-like direction from a measuring rule applied to that direction. The tempting shortcut is this: A common shortcut treats every linear object as a vector with components in a column. That shortcut fails because That fails because some objects point along possible motion while others take a direction as input and return a measured number. So the course introduces a specific object instead of a vague picture: A dual vector, also called a covector or one-form, is a linear measuring rule on vectors. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is feeding a vector into the covector and getting a number that changes correctly when coordinates change. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For dual vectors measure directions, the held object is: A dual vector, also called a covector or one-form, is a linear measuring rule on vectors. The permitted action is: The operation is feeding a vector into the covector and getting a number that changes correctly when coordinates change. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because Gravity uses this distinction in gradients, differential forms, metric operations, and stress-energy measurements. If it is skipped or reduced to a slogan, this is what breaks: Without dual vectors, the course loses track of what points, what measures, and why slot positions in tensors matter. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Builds the language needed before curvature, metric measurement, and field equations can be stated without hidden background assumptions.",
+    "evidence_ids": [
+      "ev-dual-vectors-measure-directions-l03-1",
+      "ev-dual-vectors-measure-directions-l03-2",
+      "ev-dual-vectors-measure-directions-l03-3",
+      "ev-dual-vectors-measure-directions-l05-1",
+      "ev-dual-vectors-measure-directions-l05-2",
+      "ev-dual-vectors-measure-directions-l05-3"
+    ],
+    "prerequisite_ids": [
+      "topology-continuity",
+      "charts-atlases-coordinate-overlap",
+      "manifolds-local-flatness"
+    ],
+    "later_use_ids": [
+      "multilinear-objects",
+      "tensor-components-versus-object",
+      "smoothness-change-rates"
+    ],
+    "connective_thread": "This page should be read after Topology and Continuity, Charts, Atlases, and Overlap Rules, Manifolds and Local Flatness. It prepares Multilinear Algebra, Tensor Components Versus The Object, Smoothness As Allowed Change. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "tensor-components-versus-object",
+    "name": "Tensor Components Versus The Object",
+    "theme": "Foundations",
+    "subtheme": "Slot structure",
+    "lecture_indexes": [
+      3
+    ],
+    "ordinary_problem": "The course needs students to separate a tensor itself from the list of numbers used to display it in one basis.",
+    "naive_picture": "It is easy to believe the indexed array written on the page is the tensor.",
+    "why_naive_fails": "That fails because the numbers change when the basis changes, while the physical measuring rule should remain the same.",
+    "mathematical_object": "The tensor is the coordinate-independent multilinear rule; components are the rule's numbers after choosing basis vectors and dual basis covectors.",
+    "operation": "The operation is transforming components under a basis change while preserving the tensor's action on its input slots.",
+    "why_for_gravity_light": "The metric, curvature, and matter source are tensors, so their meaning cannot be tied to one convenient coordinate display.",
+    "what_breaks_without_it": "Without this distinction, students can mistake a zero, infinity, or simple-looking component for a coordinate-independent fact.",
+    "worked_mini_example": "A song can be printed in different keys. The notes on the page change, but the musical relation being represented is the same song.",
+    "lecture_sequence_role": "Builds the language needed before curvature, metric measurement, and field equations can be stated without hidden background assumptions.",
+    "common_confusion": "Components are useful. The mistake is treating them as the whole object rather than one display of the object.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs students to separate a tensor itself from the list of numbers used to display it in one basis. The tempting shortcut is this: It is easy to believe the indexed array written on the page is the tensor. That shortcut fails because That fails because the numbers change when the basis changes, while the physical measuring rule should remain the same. So the course introduces a specific object instead of a vague picture: The tensor is the coordinate-independent multilinear rule; components are the rule's numbers after choosing basis vectors and dual basis covectors. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is transforming components under a basis change while preserving the tensor's action on its input slots. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For tensor components versus the object, the held object is: The tensor is the coordinate-independent multilinear rule; components are the rule's numbers after choosing basis vectors and dual basis covectors. The permitted action is: The operation is transforming components under a basis change while preserving the tensor's action on its input slots. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because The metric, curvature, and matter source are tensors, so their meaning cannot be tied to one convenient coordinate display. If it is skipped or reduced to a slogan, this is what breaks: Without this distinction, students can mistake a zero, infinity, or simple-looking component for a coordinate-independent fact. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Builds the language needed before curvature, metric measurement, and field equations can be stated without hidden background assumptions.",
+    "evidence_ids": [
+      "ev-tensor-components-versus-object-l03-1",
+      "ev-tensor-components-versus-object-l03-2",
+      "ev-tensor-components-versus-object-l03-3"
+    ],
+    "prerequisite_ids": [
+      "manifolds-local-flatness",
+      "dual-vectors-measure-directions",
+      "multilinear-objects"
+    ],
+    "later_use_ids": [
+      "smoothness-change-rates",
+      "tangent-spaces-fields",
+      "tangent-vectors-as-derivatives"
+    ],
+    "connective_thread": "This page should be read after Manifolds and Local Flatness, Dual Vectors Measure Directions, Multilinear Algebra. It prepares Smoothness As Allowed Change, Tangent Spaces and Fields, Tangent Vectors As Derivatives. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "tangent-vectors-as-derivatives",
+    "name": "Tangent Vectors As Derivatives",
+    "theme": "Foundations",
+    "subtheme": "Local change",
+    "lecture_indexes": [
+      5
+    ],
+    "ordinary_problem": "The course needs an internal definition of a direction at a point without drawing an arrow in a larger space.",
+    "naive_picture": "One first pictures a tangent vector as a tiny arrow touching a curve from outside.",
+    "why_naive_fails": "That picture fails for spacetime because there is no required outside room where the arrow is drawn.",
+    "mathematical_object": "A tangent vector can be understood as a rule that tells how functions change at a point along a possible direction.",
+    "operation": "The operation is applying the tangent vector to a function and reading the directional rate of change.",
+    "why_for_gravity_light": "Particle velocity, light direction, and field variation all depend on this internal notion of direction.",
+    "what_breaks_without_it": "Without this definition, tangent vectors look like imported Euclidean arrows instead of objects belonging to the manifold itself.",
+    "worked_mini_example": "Standing on a hillside, a direction tells how your height would change if you stepped that way. The direction can be recognized by what it does to height.",
+    "lecture_sequence_role": "Builds the language needed before curvature, metric measurement, and field equations can be stated without hidden background assumptions.",
+    "common_confusion": "A tangent vector is not merely a drawn arrow; it is a local change operator at one point.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs an internal definition of a direction at a point without drawing an arrow in a larger space. The tempting shortcut is this: One first pictures a tangent vector as a tiny arrow touching a curve from outside. That shortcut fails because That picture fails for spacetime because there is no required outside room where the arrow is drawn. So the course introduces a specific object instead of a vague picture: A tangent vector can be understood as a rule that tells how functions change at a point along a possible direction. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is applying the tangent vector to a function and reading the directional rate of change. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For tangent vectors as derivatives, the held object is: A tangent vector can be understood as a rule that tells how functions change at a point along a possible direction. The permitted action is: The operation is applying the tangent vector to a function and reading the directional rate of change. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because Particle velocity, light direction, and field variation all depend on this internal notion of direction. If it is skipped or reduced to a slogan, this is what breaks: Without this definition, tangent vectors look like imported Euclidean arrows instead of objects belonging to the manifold itself. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Builds the language needed before curvature, metric measurement, and field equations can be stated without hidden background assumptions.",
+    "evidence_ids": [
+      "ev-tangent-vectors-as-derivatives-l05-1",
+      "ev-tangent-vectors-as-derivatives-l05-2",
+      "ev-tangent-vectors-as-derivatives-l05-3"
+    ],
+    "prerequisite_ids": [
+      "tensor-components-versus-object",
+      "smoothness-change-rates",
+      "tangent-spaces-fields"
+    ],
+    "later_use_ids": [
+      "vector-fields-as-local-instructions",
+      "connections-parallel-transport",
+      "covariant-derivative-corrects-comparison"
+    ],
+    "connective_thread": "This page should be read after Tensor Components Versus The Object, Smoothness As Allowed Change, Tangent Spaces and Fields. It prepares Vector Fields As Local Instructions, Connections and Parallel Transport, Covariant Derivative Corrects Comparison. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "vector-fields-as-local-instructions",
+    "name": "Vector Fields As Local Instructions",
+    "theme": "Foundations",
+    "subtheme": "Local change",
+    "lecture_indexes": [
+      6
+    ],
+    "ordinary_problem": "The course needs a way to assign a possible motion or instruction at every event in a region.",
+    "naive_picture": "One may imagine a field as a substance spread through space, like a colored fog.",
+    "why_naive_fails": "That picture fails because a field is defined by what value it assigns at each point, not by being material stuff.",
+    "mathematical_object": "A vector field assigns one tangent vector to each point of the manifold in a smooth way.",
+    "operation": "The operation is following the assigned directions to form flow lines or using the field to differentiate other quantities.",
+    "why_for_gravity_light": "Observers, matter flows, and symmetry directions are all described through fields that vary across spacetime.",
+    "what_breaks_without_it": "Without vector fields, the theory cannot describe continuous families of observers or local motions over a region.",
+    "worked_mini_example": "A traffic map with an arrow at every intersection tells drivers which way to go locally. The collection of arrows is the field.",
+    "lecture_sequence_role": "Builds the language needed before curvature, metric measurement, and field equations can be stated without hidden background assumptions.",
+    "common_confusion": "A vector field is not automatically a force field. It is any smooth assignment of directions.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs a way to assign a possible motion or instruction at every event in a region. The tempting shortcut is this: One may imagine a field as a substance spread through space, like a colored fog. That shortcut fails because That picture fails because a field is defined by what value it assigns at each point, not by being material stuff. So the course introduces a specific object instead of a vague picture: A vector field assigns one tangent vector to each point of the manifold in a smooth way. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is following the assigned directions to form flow lines or using the field to differentiate other quantities. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For vector fields as local instructions, the held object is: A vector field assigns one tangent vector to each point of the manifold in a smooth way. The permitted action is: The operation is following the assigned directions to form flow lines or using the field to differentiate other quantities. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because Observers, matter flows, and symmetry directions are all described through fields that vary across spacetime. If it is skipped or reduced to a slogan, this is what breaks: Without vector fields, the theory cannot describe continuous families of observers or local motions over a region. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Builds the language needed before curvature, metric measurement, and field equations can be stated without hidden background assumptions.",
+    "evidence_ids": [
+      "ev-vector-fields-as-local-instructions-l06-1",
+      "ev-vector-fields-as-local-instructions-l06-2",
+      "ev-vector-fields-as-local-instructions-l06-3"
+    ],
+    "prerequisite_ids": [
+      "smoothness-change-rates",
+      "tangent-spaces-fields",
+      "tangent-vectors-as-derivatives"
+    ],
+    "later_use_ids": [
+      "connections-parallel-transport",
+      "covariant-derivative-corrects-comparison",
+      "geodesics-free-motion"
+    ],
+    "connective_thread": "This page should be read after Smoothness As Allowed Change, Tangent Spaces and Fields, Tangent Vectors As Derivatives. It prepares Connections and Parallel Transport, Covariant Derivative Corrects Comparison, Geodesics As Free Motion. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "covariant-derivative-corrects-comparison",
+    "name": "Covariant Derivative Corrects Comparison",
+    "theme": "Geometry of Gravity",
+    "subtheme": "Comparing nearby directions",
+    "lecture_indexes": [
+      7
+    ],
+    "ordinary_problem": "The course needs a derivative of vector fields that does not compare vectors as if all tangent spaces were the same room.",
+    "naive_picture": "The naive move is to subtract nearby vector components the same way one subtracts ordinary arrows on graph paper.",
+    "why_naive_fails": "That fails because vectors at different points live in different tangent spaces, and component changes can be caused by the coordinate grid itself.",
+    "mathematical_object": "A covariant derivative is the corrected change of a vector field along a direction, using a connection to say how nearby tangent spaces are compared.",
+    "operation": "The operation is differentiating the field and subtracting the change caused by the moving basis or comparison rule.",
+    "why_for_gravity_light": "Free fall, geodesics, curvature, and conservation laws all require this corrected notion of change.",
+    "what_breaks_without_it": "Without the correction, the theory calls coordinate artifacts physical acceleration and loses coordinate-independent equations.",
+    "worked_mini_example": "If a moving walkway carries your measuring tape, a raw change in position mixes your motion with the walkway's motion. The covariant derivative separates them.",
+    "lecture_sequence_role": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
+    "common_confusion": "Covariant does not mean complicated for its own sake. It means the derivative respects the geometric comparison rule.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs a derivative of vector fields that does not compare vectors as if all tangent spaces were the same room. The tempting shortcut is this: The naive move is to subtract nearby vector components the same way one subtracts ordinary arrows on graph paper. That shortcut fails because That fails because vectors at different points live in different tangent spaces, and component changes can be caused by the coordinate grid itself. So the course introduces a specific object instead of a vague picture: A covariant derivative is the corrected change of a vector field along a direction, using a connection to say how nearby tangent spaces are compared. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is differentiating the field and subtracting the change caused by the moving basis or comparison rule. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For covariant derivative corrects comparison, the held object is: A covariant derivative is the corrected change of a vector field along a direction, using a connection to say how nearby tangent spaces are compared. The permitted action is: The operation is differentiating the field and subtracting the change caused by the moving basis or comparison rule. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because Free fall, geodesics, curvature, and conservation laws all require this corrected notion of change. If it is skipped or reduced to a slogan, this is what breaks: Without the correction, the theory calls coordinate artifacts physical acceleration and loses coordinate-independent equations. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
+    "evidence_ids": [
+      "ev-covariant-derivative-corrects-comparison-l07-1",
+      "ev-covariant-derivative-corrects-comparison-l07-2",
+      "ev-covariant-derivative-corrects-comparison-l07-3"
+    ],
+    "prerequisite_ids": [
+      "tangent-vectors-as-derivatives",
+      "vector-fields-as-local-instructions",
+      "connections-parallel-transport"
+    ],
+    "later_use_ids": [
+      "geodesics-free-motion",
+      "curvature-geodesic-deviation",
+      "parallel-transport-loop-test"
+    ],
+    "connective_thread": "This page should be read after Tangent Vectors As Derivatives, Vector Fields As Local Instructions, Connections and Parallel Transport. It prepares Geodesics As Free Motion, Curvature, Parallel Transport Loop Test. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "geodesics-free-motion",
+    "name": "Geodesics As Free Motion",
+    "theme": "Geometry of Gravity",
+    "subtheme": "Comparing nearby directions",
+    "lecture_indexes": [
+      7,
+      8,
+      16
+    ],
+    "ordinary_problem": "The course needs a precise replacement for straight-line motion when spacetime may be curved.",
+    "naive_picture": "A first picture says a free object should move in the line that looks straight on a drawing.",
+    "why_naive_fails": "That fails because straight-looking depends on the drawing, while free motion must be stated inside spacetime.",
+    "mathematical_object": "A geodesic is a curve whose tangent direction is transported along itself according to the connection.",
+    "operation": "The operation is checking whether the curve's tangent has zero covariant change along the curve.",
+    "why_for_gravity_light": "Massive particles and light rays use geodesic ideas, with the metric deciding which kind of tangent direction is allowed.",
+    "what_breaks_without_it": "Without geodesics, the phrase unforced motion has no precise meaning in curved spacetime.",
+    "worked_mini_example": "An airplane route on Earth may look curved on a flat map but locally follows the straightest available path on the globe.",
+    "lecture_sequence_role": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
+    "common_confusion": "A geodesic is not always the shortest path globally. It is the path that is locally straight according to the connection.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs a precise replacement for straight-line motion when spacetime may be curved. The tempting shortcut is this: A first picture says a free object should move in the line that looks straight on a drawing. That shortcut fails because That fails because straight-looking depends on the drawing, while free motion must be stated inside spacetime. So the course introduces a specific object instead of a vague picture: A geodesic is a curve whose tangent direction is transported along itself according to the connection. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is checking whether the curve's tangent has zero covariant change along the curve. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For geodesics as free motion, the held object is: A geodesic is a curve whose tangent direction is transported along itself according to the connection. The permitted action is: The operation is checking whether the curve's tangent has zero covariant change along the curve. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because Massive particles and light rays use geodesic ideas, with the metric deciding which kind of tangent direction is allowed. If it is skipped or reduced to a slogan, this is what breaks: Without geodesics, the phrase unforced motion has no precise meaning in curved spacetime. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
+    "evidence_ids": [
+      "ev-geodesics-free-motion-l07-1",
+      "ev-geodesics-free-motion-l07-2",
+      "ev-geodesics-free-motion-l07-3",
+      "ev-geodesics-free-motion-l08-1",
+      "ev-geodesics-free-motion-l08-2",
+      "ev-geodesics-free-motion-l08-3",
+      "ev-geodesics-free-motion-l16-1",
+      "ev-geodesics-free-motion-l16-2",
+      "ev-geodesics-free-motion-l16-3"
+    ],
+    "prerequisite_ids": [
+      "vector-fields-as-local-instructions",
+      "connections-parallel-transport",
+      "covariant-derivative-corrects-comparison"
+    ],
+    "later_use_ids": [
+      "curvature-geodesic-deviation",
+      "parallel-transport-loop-test",
+      "riemann-curvature-commutator"
+    ],
+    "connective_thread": "This page should be read after Vector Fields As Local Instructions, Connections and Parallel Transport, Covariant Derivative Corrects Comparison. It prepares Curvature, Parallel Transport Loop Test, Riemann Curvature As Noncommuting Change. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "parallel-transport-loop-test",
+    "name": "Parallel Transport Loop Test",
+    "theme": "Geometry of Gravity",
+    "subtheme": "Tidal facts",
+    "lecture_indexes": [
+      8
+    ],
+    "ordinary_problem": "The course needs an operational test for curvature that does not rely on seeing a surface bend.",
+    "naive_picture": "The visual shortcut says curvature is present only when a shape bends in a surrounding space.",
+    "why_naive_fails": "That fails because spacetime curvature must be detectable from operations carried out inside spacetime.",
+    "mathematical_object": "The loop test carries a vector around a closed path using the connection and compares the returned vector with the starting one.",
+    "operation": "The operation is parallel transport around a small loop and reading the mismatch as evidence of curvature.",
+    "why_for_gravity_light": "This matters because gravitational tidal effects are about path-dependent comparison, not visual bending.",
+    "what_breaks_without_it": "Without the loop test, curvature remains a picture instead of a measurable failure of comparison.",
+    "worked_mini_example": "If you carry a compass-like arrow around a triangle on a globe, it may return rotated. The rotation tells you the surface has intrinsic curvature.",
+    "lecture_sequence_role": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
+    "common_confusion": "A nonzero loop mismatch is not bad bookkeeping. It is the geometric fact the bookkeeping reveals.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs an operational test for curvature that does not rely on seeing a surface bend. The tempting shortcut is this: The visual shortcut says curvature is present only when a shape bends in a surrounding space. That shortcut fails because That fails because spacetime curvature must be detectable from operations carried out inside spacetime. So the course introduces a specific object instead of a vague picture: The loop test carries a vector around a closed path using the connection and compares the returned vector with the starting one. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is parallel transport around a small loop and reading the mismatch as evidence of curvature. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For parallel transport loop test, the held object is: The loop test carries a vector around a closed path using the connection and compares the returned vector with the starting one. The permitted action is: The operation is parallel transport around a small loop and reading the mismatch as evidence of curvature. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because This matters because gravitational tidal effects are about path-dependent comparison, not visual bending. If it is skipped or reduced to a slogan, this is what breaks: Without the loop test, curvature remains a picture instead of a measurable failure of comparison. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
+    "evidence_ids": [
+      "ev-parallel-transport-loop-test-l08-1",
+      "ev-parallel-transport-loop-test-l08-2",
+      "ev-parallel-transport-loop-test-l08-3"
+    ],
+    "prerequisite_ids": [
+      "covariant-derivative-corrects-comparison",
+      "geodesics-free-motion",
+      "curvature-geodesic-deviation"
+    ],
+    "later_use_ids": [
+      "riemann-curvature-commutator",
+      "ricci-curvature-volume-change",
+      "metric-measurement"
+    ],
+    "connective_thread": "This page should be read after Covariant Derivative Corrects Comparison, Geodesics As Free Motion, Curvature. It prepares Riemann Curvature As Noncommuting Change, Ricci Curvature As Volume Change, Metric Manifolds. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "riemann-curvature-commutator",
+    "name": "Riemann Curvature As Noncommuting Change",
+    "theme": "Geometry of Gravity",
+    "subtheme": "Tidal facts",
+    "lecture_indexes": [
+      8,
+      9
+    ],
+    "ordinary_problem": "The course needs a compact way to record how two small changes in different orders fail to agree.",
+    "naive_picture": "A naive picture says small moves should commute: go north then east, or east then north, and nothing important changes.",
+    "why_naive_fails": "That fails on curved geometry because the comparison of directions can depend on the path taken.",
+    "mathematical_object": "The Riemann curvature tensor records the failure of two covariant derivatives, taken in different orders, to give the same result.",
+    "operation": "The operation is comparing the two orders of corrected differentiation and measuring the leftover mismatch.",
+    "why_for_gravity_light": "Gravity uses this because real curvature shows up as order-dependent comparison and as relative acceleration of nearby paths.",
+    "what_breaks_without_it": "Without this object, the theory cannot localize the tidal content of gravity in a coordinate-independent way.",
+    "worked_mini_example": "On a tilted parking ramp, two tiny moves may leave your cart facing differently depending on the order. Curvature is the exact version of that mismatch.",
+    "lecture_sequence_role": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
+    "common_confusion": "Riemann curvature is not merely a collection of symbols. It is the record of noncommuting local comparison.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs a compact way to record how two small changes in different orders fail to agree. The tempting shortcut is this: A naive picture says small moves should commute: go north then east, or east then north, and nothing important changes. That shortcut fails because That fails on curved geometry because the comparison of directions can depend on the path taken. So the course introduces a specific object instead of a vague picture: The Riemann curvature tensor records the failure of two covariant derivatives, taken in different orders, to give the same result. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is comparing the two orders of corrected differentiation and measuring the leftover mismatch. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For riemann curvature as noncommuting change, the held object is: The Riemann curvature tensor records the failure of two covariant derivatives, taken in different orders, to give the same result. The permitted action is: The operation is comparing the two orders of corrected differentiation and measuring the leftover mismatch. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because Gravity uses this because real curvature shows up as order-dependent comparison and as relative acceleration of nearby paths. If it is skipped or reduced to a slogan, this is what breaks: Without this object, the theory cannot localize the tidal content of gravity in a coordinate-independent way. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
+    "evidence_ids": [
+      "ev-riemann-curvature-commutator-l08-1",
+      "ev-riemann-curvature-commutator-l08-2",
+      "ev-riemann-curvature-commutator-l08-3",
+      "ev-riemann-curvature-commutator-l09-1",
+      "ev-riemann-curvature-commutator-l09-2",
+      "ev-riemann-curvature-commutator-l09-3"
+    ],
+    "prerequisite_ids": [
+      "geodesics-free-motion",
+      "curvature-geodesic-deviation",
+      "parallel-transport-loop-test"
+    ],
+    "later_use_ids": [
+      "ricci-curvature-volume-change",
+      "metric-measurement",
+      "metric-signature-light-cones"
+    ],
+    "connective_thread": "This page should be read after Geodesics As Free Motion, Curvature, Parallel Transport Loop Test. It prepares Ricci Curvature As Volume Change, Metric Manifolds, Metric Signature And Light Cones. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "ricci-curvature-volume-change",
+    "name": "Ricci Curvature As Volume Change",
+    "theme": "Dynamics and Matter",
+    "subtheme": "Geometry coupled to matter",
+    "lecture_indexes": [
+      9,
+      15
+    ],
+    "ordinary_problem": "The course needs the part of curvature that measures how a small bundle of freely moving paths changes size.",
+    "naive_picture": "It is tempting to think all curvature information must be kept in one undigested object.",
+    "why_naive_fails": "That fails for the field equation, which needs the curvature part tied to matter's local energy and momentum accounting.",
+    "mathematical_object": "Ricci curvature is a contraction of the full curvature tensor that captures focusing or spreading of nearby geodesic families.",
+    "operation": "The operation is contracting slots of the Riemann tensor to keep the part relevant for volume change.",
+    "why_for_gravity_light": "Einstein gravity uses Ricci-type curvature to connect geometry with stress-energy in the field equation.",
+    "what_breaks_without_it": "Without Ricci curvature, the bridge from tidal geometry to matter source terms becomes too blunt to state the equation cleanly.",
+    "worked_mini_example": "A crowd of runners can keep their individual directions but bunch together or spread out. Ricci curvature tracks that bunching behavior for free paths.",
+    "lecture_sequence_role": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
+    "common_confusion": "Ricci curvature is not all curvature. Some curvature can remain without Ricci curvature, which matters for gravitational waves.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs the part of curvature that measures how a small bundle of freely moving paths changes size. The tempting shortcut is this: It is tempting to think all curvature information must be kept in one undigested object. That shortcut fails because That fails for the field equation, which needs the curvature part tied to matter's local energy and momentum accounting. So the course introduces a specific object instead of a vague picture: Ricci curvature is a contraction of the full curvature tensor that captures focusing or spreading of nearby geodesic families. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is contracting slots of the Riemann tensor to keep the part relevant for volume change. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For ricci curvature as volume change, the held object is: Ricci curvature is a contraction of the full curvature tensor that captures focusing or spreading of nearby geodesic families. The permitted action is: The operation is contracting slots of the Riemann tensor to keep the part relevant for volume change. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because Einstein gravity uses Ricci-type curvature to connect geometry with stress-energy in the field equation. If it is skipped or reduced to a slogan, this is what breaks: Without Ricci curvature, the bridge from tidal geometry to matter source terms becomes too blunt to state the equation cleanly. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
+    "evidence_ids": [
+      "ev-ricci-curvature-volume-change-l09-1",
+      "ev-ricci-curvature-volume-change-l09-2",
+      "ev-ricci-curvature-volume-change-l09-3",
+      "ev-ricci-curvature-volume-change-l15-1",
+      "ev-ricci-curvature-volume-change-l15-2",
+      "ev-ricci-curvature-volume-change-l15-3"
+    ],
+    "prerequisite_ids": [
+      "curvature-geodesic-deviation",
+      "parallel-transport-loop-test",
+      "riemann-curvature-commutator"
+    ],
+    "later_use_ids": [
+      "metric-measurement",
+      "metric-signature-light-cones",
+      "proper-time-clock-reading"
+    ],
+    "connective_thread": "This page should be read after Curvature, Parallel Transport Loop Test, Riemann Curvature As Noncommuting Change. It prepares Metric Manifolds, Metric Signature And Light Cones, Proper Time As Clock Reading. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "metric-signature-light-cones",
+    "name": "Metric Signature And Light Cones",
+    "theme": "Light and Observation",
+    "subtheme": "Causal paths",
+    "lecture_indexes": [
+      10,
+      13,
+      16
+    ],
+    "ordinary_problem": "The course needs a measurement rule that separates possible time-like motion, space-like separation, and light-like travel.",
+    "naive_picture": "A first distance habit says every nonzero separation should have a positive length.",
+    "why_naive_fails": "That fails in spacetime because time and space enter the interval differently, and light sits on a zero-interval boundary.",
+    "mathematical_object": "Lorentzian signature is the metric's time-space sign pattern, and light cones are the resulting boundaries of causal influence.",
+    "operation": "The operation is evaluating the metric on tangent directions and sorting them into time-like, space-like, or null.",
+    "why_for_gravity_light": "This is how gravity tells observers which events can affect which other events and which paths light can follow.",
+    "what_breaks_without_it": "Without signature and light cones, spacetime loses causal order and black holes lose their defining feature.",
+    "worked_mini_example": "On a road map, allowed travel may be limited by one-way streets. In spacetime, light cones are the local allowed directions for signals.",
+    "lecture_sequence_role": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
+    "common_confusion": "A null direction is not a zero vector. It is a nonzero direction whose spacetime interval is zero.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs a measurement rule that separates possible time-like motion, space-like separation, and light-like travel. The tempting shortcut is this: A first distance habit says every nonzero separation should have a positive length. That shortcut fails because That fails in spacetime because time and space enter the interval differently, and light sits on a zero-interval boundary. So the course introduces a specific object instead of a vague picture: Lorentzian signature is the metric's time-space sign pattern, and light cones are the resulting boundaries of causal influence. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is evaluating the metric on tangent directions and sorting them into time-like, space-like, or null. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For metric signature and light cones, the held object is: Lorentzian signature is the metric's time-space sign pattern, and light cones are the resulting boundaries of causal influence. The permitted action is: The operation is evaluating the metric on tangent directions and sorting them into time-like, space-like, or null. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because This is how gravity tells observers which events can affect which other events and which paths light can follow. If it is skipped or reduced to a slogan, this is what breaks: Without signature and light cones, spacetime loses causal order and black holes lose their defining feature. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
+    "evidence_ids": [
+      "ev-metric-signature-light-cones-l10",
+      "ev-metric-signature-light-cones-l13-1",
+      "ev-metric-signature-light-cones-l13-2",
+      "ev-metric-signature-light-cones-l13-3",
+      "ev-metric-signature-light-cones-l16-1",
+      "ev-metric-signature-light-cones-l16-2",
+      "ev-metric-signature-light-cones-l16-3"
+    ],
+    "prerequisite_ids": [
+      "riemann-curvature-commutator",
+      "ricci-curvature-volume-change",
+      "metric-measurement"
+    ],
+    "later_use_ids": [
+      "proper-time-clock-reading",
+      "killing-fields-symmetry-directions",
+      "symmetry-conservation"
+    ],
+    "connective_thread": "This page should be read after Riemann Curvature As Noncommuting Change, Ricci Curvature As Volume Change, Metric Manifolds. It prepares Proper Time As Clock Reading, Killing Fields As Symmetry Directions, Symmetry and Conservation. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "proper-time-clock-reading",
+    "name": "Proper Time As Clock Reading",
+    "theme": "Geometry of Gravity",
+    "subtheme": "Measurement becomes a field",
+    "lecture_indexes": [
+      10,
+      13
+    ],
+    "ordinary_problem": "The course needs a way to say what a clock actually records along its own path through spacetime.",
+    "naive_picture": "A simple habit says time is one shared background number assigned to the whole universe.",
+    "why_naive_fails": "That fails in relativity because different paths through spacetime can accumulate different elapsed times.",
+    "mathematical_object": "Proper time is the time measured along a time-like path by integrating the metric interval along that path.",
+    "operation": "The operation is evaluating the metric on the path's tangent and adding the resulting clock increments along the path.",
+    "why_for_gravity_light": "Gravity affects clock readings because the metric that defines those increments is the gravitational field.",
+    "what_breaks_without_it": "Without proper time, gravitational time dilation and observer-dependent elapsed time become vague stories.",
+    "worked_mini_example": "Two travelers can leave and meet again with different wristwatch readings. Proper time is the path-based quantity their watches record.",
+    "lecture_sequence_role": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
+    "common_confusion": "Proper time is not coordinate time. It belongs to a particular path, not to a chosen chart's time label.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs a way to say what a clock actually records along its own path through spacetime. The tempting shortcut is this: A simple habit says time is one shared background number assigned to the whole universe. That shortcut fails because That fails in relativity because different paths through spacetime can accumulate different elapsed times. So the course introduces a specific object instead of a vague picture: Proper time is the time measured along a time-like path by integrating the metric interval along that path. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is evaluating the metric on the path's tangent and adding the resulting clock increments along the path. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For proper time as clock reading, the held object is: Proper time is the time measured along a time-like path by integrating the metric interval along that path. The permitted action is: The operation is evaluating the metric on the path's tangent and adding the resulting clock increments along the path. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because Gravity affects clock readings because the metric that defines those increments is the gravitational field. If it is skipped or reduced to a slogan, this is what breaks: Without proper time, gravitational time dilation and observer-dependent elapsed time become vague stories. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
+    "evidence_ids": [
+      "ev-proper-time-clock-reading-l10",
+      "ev-proper-time-clock-reading-l13-1",
+      "ev-proper-time-clock-reading-l13-2",
+      "ev-proper-time-clock-reading-l13-3"
+    ],
+    "prerequisite_ids": [
+      "ricci-curvature-volume-change",
+      "metric-measurement",
+      "metric-signature-light-cones"
+    ],
+    "later_use_ids": [
+      "killing-fields-symmetry-directions",
+      "symmetry-conservation",
+      "integration-on-manifolds"
+    ],
+    "connective_thread": "This page should be read after Ricci Curvature As Volume Change, Metric Manifolds, Metric Signature And Light Cones. It prepares Killing Fields As Symmetry Directions, Symmetry and Conservation, Integration on Manifolds. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "killing-fields-symmetry-directions",
+    "name": "Killing Fields As Symmetry Directions",
+    "theme": "Dynamics and Matter",
+    "subtheme": "Sameness as a calculation",
+    "lecture_indexes": [
+      11
+    ],
+    "ordinary_problem": "The course needs a way to express a continuous symmetry as a direction of motion through spacetime.",
+    "naive_picture": "One may treat symmetry as a static picture that either looks balanced or does not.",
+    "why_naive_fails": "That fails because physical symmetry often means sliding or rotating along a flow while preserving the metric.",
+    "mathematical_object": "A Killing field is a vector field whose flow leaves the metric unchanged.",
+    "operation": "The operation is checking that the metric's change along the field is zero.",
+    "why_for_gravity_light": "These fields give conserved quantities for particles and make special spacetimes easier to solve.",
+    "what_breaks_without_it": "Without Killing fields, time-translation or rotation symmetry cannot be used cleanly to simplify black holes and cosmologies.",
+    "worked_mini_example": "If every seat in a circular theater sees the same stage after rotating labels, the rotation direction describes a preserved structure.",
+    "lecture_sequence_role": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
+    "common_confusion": "A Killing field is not a person or observer. It is a symmetry direction in the geometry.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs a way to express a continuous symmetry as a direction of motion through spacetime. The tempting shortcut is this: One may treat symmetry as a static picture that either looks balanced or does not. That shortcut fails because That fails because physical symmetry often means sliding or rotating along a flow while preserving the metric. So the course introduces a specific object instead of a vague picture: A Killing field is a vector field whose flow leaves the metric unchanged. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is checking that the metric's change along the field is zero. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For killing fields as symmetry directions, the held object is: A Killing field is a vector field whose flow leaves the metric unchanged. The permitted action is: The operation is checking that the metric's change along the field is zero. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because These fields give conserved quantities for particles and make special spacetimes easier to solve. If it is skipped or reduced to a slogan, this is what breaks: Without Killing fields, time-translation or rotation symmetry cannot be used cleanly to simplify black holes and cosmologies. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
+    "evidence_ids": [
+      "ev-killing-fields-symmetry-directions-l11-1",
+      "ev-killing-fields-symmetry-directions-l11-2",
+      "ev-killing-fields-symmetry-directions-l11-3"
+    ],
+    "prerequisite_ids": [
+      "metric-measurement",
+      "metric-signature-light-cones",
+      "proper-time-clock-reading"
+    ],
+    "later_use_ids": [
+      "symmetry-conservation",
+      "integration-on-manifolds",
+      "stokes-boundary-bulk-accounting"
+    ],
+    "connective_thread": "This page should be read after Metric Manifolds, Metric Signature And Light Cones, Proper Time As Clock Reading. It prepares Symmetry and Conservation, Integration on Manifolds, Stokes' Theorem As Boundary-Bulk Accounting. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "stokes-boundary-bulk-accounting",
+    "name": "Stokes' Theorem As Boundary-Bulk Accounting",
+    "theme": "Dynamics and Matter",
+    "subtheme": "Adding local facts",
+    "lecture_indexes": [
+      12
+    ],
+    "ordinary_problem": "The course needs a rule connecting what is accumulated inside a region with what crosses its boundary.",
+    "naive_picture": "A first integration habit treats boundary terms as technical leftovers after calculation.",
+    "why_naive_fails": "That fails because conservation laws and variational principles depend on boundary-bulk relations having geometric meaning.",
+    "mathematical_object": "Stokes' theorem says the integral of a derivative-like form over a region equals the integral of the original form over the boundary.",
+    "operation": "The operation is replacing a bulk derivative integral by a boundary integral, or reading boundary data as a bulk statement.",
+    "why_for_gravity_light": "This matters for actions, conserved currents, fluxes, and the way local equations produce global statements.",
+    "what_breaks_without_it": "Without boundary-bulk accounting, the course cannot explain how local field laws control total quantities over regions.",
+    "worked_mini_example": "Counting people who entered a room can be done by watching the door instead of recounting the whole room. Stokes' theorem is the geometric version.",
+    "lecture_sequence_role": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
+    "common_confusion": "The boundary term is not a nuisance. It is often where the physical accounting becomes visible.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs a rule connecting what is accumulated inside a region with what crosses its boundary. The tempting shortcut is this: A first integration habit treats boundary terms as technical leftovers after calculation. That shortcut fails because That fails because conservation laws and variational principles depend on boundary-bulk relations having geometric meaning. So the course introduces a specific object instead of a vague picture: Stokes' theorem says the integral of a derivative-like form over a region equals the integral of the original form over the boundary. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is replacing a bulk derivative integral by a boundary integral, or reading boundary data as a bulk statement. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For stokes' theorem as boundary-bulk accounting, the held object is: Stokes' theorem says the integral of a derivative-like form over a region equals the integral of the original form over the boundary. The permitted action is: The operation is replacing a bulk derivative integral by a boundary integral, or reading boundary data as a bulk statement. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because This matters for actions, conserved currents, fluxes, and the way local equations produce global statements. If it is skipped or reduced to a slogan, this is what breaks: Without boundary-bulk accounting, the course cannot explain how local field laws control total quantities over regions. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Turns the early language into geometric operations: comparison, curvature, symmetry, and integration.",
+    "evidence_ids": [
+      "ev-stokes-boundary-bulk-accounting-l12-1",
+      "ev-stokes-boundary-bulk-accounting-l12-2",
+      "ev-stokes-boundary-bulk-accounting-l12-3"
+    ],
+    "prerequisite_ids": [
+      "killing-fields-symmetry-directions",
+      "symmetry-conservation",
+      "integration-on-manifolds"
+    ],
+    "later_use_ids": [
+      "stress-energy-matter",
+      "cosmological-constant-vacuum-term",
+      "einstein-equation"
+    ],
+    "connective_thread": "This page should be read after Killing Fields As Symmetry Directions, Symmetry and Conservation, Integration on Manifolds. It prepares Matter and Stress-Energy, Cosmological Constant As Vacuum Term, Einstein Equation. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "einstein-tensor-conserved-geometry",
+    "name": "Einstein Tensor As Conserved Geometry",
+    "theme": "Dynamics and Matter",
+    "subtheme": "Geometry coupled to matter",
+    "lecture_indexes": [
+      15
+    ],
+    "ordinary_problem": "The course needs the geometry side of the field equation to have the same local conservation behavior as matter.",
+    "naive_picture": "A loose picture says any curvature measure could be placed across from the matter source.",
+    "why_naive_fails": "That fails because the matter side obeys a conservation law, so the geometry side must have matching bookkeeping.",
+    "mathematical_object": "The Einstein tensor is the curvature combination whose covariant divergence vanishes automatically.",
+    "operation": "The operation is combining Ricci curvature, scalar curvature, and the metric so the result has the required conservation property.",
+    "why_for_gravity_light": "This is what makes Einstein's equation a consistent local balance between geometry and stress-energy.",
+    "what_breaks_without_it": "Without this tensor, the equation would demand matter conservation on one side while giving geometry with incompatible bookkeeping on the other.",
+    "worked_mini_example": "A ledger cannot balance if one column uses rules the other column does not obey. The Einstein tensor is the compatible geometry column.",
+    "lecture_sequence_role": "Connects geometry to matter, Einstein's equation, and light as the observational carrier.",
+    "common_confusion": "The Einstein tensor is not chosen because it looks elegant. It is chosen because its conservation behavior matches the source.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs the geometry side of the field equation to have the same local conservation behavior as matter. The tempting shortcut is this: A loose picture says any curvature measure could be placed across from the matter source. That shortcut fails because That fails because the matter side obeys a conservation law, so the geometry side must have matching bookkeeping. So the course introduces a specific object instead of a vague picture: The Einstein tensor is the curvature combination whose covariant divergence vanishes automatically. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is combining Ricci curvature, scalar curvature, and the metric so the result has the required conservation property. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For einstein tensor as conserved geometry, the held object is: The Einstein tensor is the curvature combination whose covariant divergence vanishes automatically. The permitted action is: The operation is combining Ricci curvature, scalar curvature, and the metric so the result has the required conservation property. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because This is what makes Einstein's equation a consistent local balance between geometry and stress-energy. If it is skipped or reduced to a slogan, this is what breaks: Without this tensor, the equation would demand matter conservation on one side while giving geometry with incompatible bookkeeping on the other. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Connects geometry to matter, Einstein's equation, and light as the observational carrier.",
+    "evidence_ids": [
+      "ev-einstein-tensor-conserved-geometry-l15-1",
+      "ev-einstein-tensor-conserved-geometry-l15-2",
+      "ev-einstein-tensor-conserved-geometry-l15-3"
+    ],
+    "prerequisite_ids": [
+      "stress-energy-matter",
+      "cosmological-constant-vacuum-term",
+      "einstein-equation"
+    ],
+    "later_use_ids": [
+      "gravitational-lensing-focusing",
+      "optical-geometry",
+      "redshift-as-stretched-light"
+    ],
+    "connective_thread": "This page should be read after Matter and Stress-Energy, Cosmological Constant As Vacuum Term, Einstein Equation. It prepares Gravitational Lensing And Focusing, Optical Geometry and Null Geodesics, Redshift As Stretched Light. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "cosmological-constant-vacuum-term",
+    "name": "Cosmological Constant As Vacuum Term",
+    "theme": "Applications",
+    "subtheme": "Large-scale geometry",
+    "lecture_indexes": [
+      15,
+      21
+    ],
+    "ordinary_problem": "The course needs room for a uniform term in the field equation that behaves like spacetime itself carries energy.",
+    "naive_picture": "A first source picture says only ordinary matter in a region can influence cosmic expansion.",
+    "why_naive_fails": "That fails because the equation permits a constant geometry-compatible term that affects large-scale evolution.",
+    "mathematical_object": "The cosmological constant is a constant term in Einstein's equation, often read as a vacuum energy contribution.",
+    "operation": "The operation is adding this term to the field equation and studying how it changes expansion without clumping like matter.",
+    "why_for_gravity_light": "This matters for late-time cosmology, where observed expansion cannot be explained by ordinary matter alone.",
+    "what_breaks_without_it": "Without this term or an equivalent idea, the course cannot explain why empty-looking space can affect cosmic dynamics.",
+    "worked_mini_example": "A monthly account can include a fixed charge even when no new item is bought. The cosmological constant is a fixed term in the gravitational account.",
+    "lecture_sequence_role": "Connects geometry to matter, Einstein's equation, and light as the observational carrier.",
+    "common_confusion": "The cosmological constant is not a small ordinary substance sprinkled through space. It acts uniformly through the equation.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs room for a uniform term in the field equation that behaves like spacetime itself carries energy. The tempting shortcut is this: A first source picture says only ordinary matter in a region can influence cosmic expansion. That shortcut fails because That fails because the equation permits a constant geometry-compatible term that affects large-scale evolution. So the course introduces a specific object instead of a vague picture: The cosmological constant is a constant term in Einstein's equation, often read as a vacuum energy contribution. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is adding this term to the field equation and studying how it changes expansion without clumping like matter. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For cosmological constant as vacuum term, the held object is: The cosmological constant is a constant term in Einstein's equation, often read as a vacuum energy contribution. The permitted action is: The operation is adding this term to the field equation and studying how it changes expansion without clumping like matter. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because This matters for late-time cosmology, where observed expansion cannot be explained by ordinary matter alone. If it is skipped or reduced to a slogan, this is what breaks: Without this term or an equivalent idea, the course cannot explain why empty-looking space can affect cosmic dynamics. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Connects geometry to matter, Einstein's equation, and light as the observational carrier.",
+    "evidence_ids": [
+      "ev-cosmological-constant-vacuum-term-l15-1",
+      "ev-cosmological-constant-vacuum-term-l15-2",
+      "ev-cosmological-constant-vacuum-term-l15-3",
+      "ev-cosmological-constant-vacuum-term-l21-1",
+      "ev-cosmological-constant-vacuum-term-l21-2",
+      "ev-cosmological-constant-vacuum-term-l21-3"
+    ],
+    "prerequisite_ids": [
+      "integration-on-manifolds",
+      "stokes-boundary-bulk-accounting",
+      "stress-energy-matter"
+    ],
+    "later_use_ids": [
+      "einstein-equation",
+      "einstein-tensor-conserved-geometry",
+      "gravitational-lensing-focusing"
+    ],
+    "connective_thread": "This page should be read after Integration on Manifolds, Stokes' Theorem As Boundary-Bulk Accounting, Matter and Stress-Energy. It prepares Einstein Equation, Einstein Tensor As Conserved Geometry, Gravitational Lensing And Focusing. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "redshift-as-stretched-light",
+    "name": "Redshift As Stretched Light",
+    "theme": "Light and Observation",
+    "subtheme": "Causal paths",
+    "lecture_indexes": [
+      16,
+      21
+    ],
+    "ordinary_problem": "The course needs to explain how geometry changes the light that finally reaches an observer.",
+    "naive_picture": "The simple picture says redshift is always ordinary motion through fixed space, like a siren moving away.",
+    "why_naive_fails": "That fails in cosmology and strong gravity because the spacetime metric itself affects the measured wavelength.",
+    "mathematical_object": "Redshift is the change in measured light frequency between emission and observation along a null path.",
+    "operation": "The operation is comparing the light's wave direction with the emitter's and observer's time directions.",
+    "why_for_gravity_light": "This connects spacetime geometry to telescope data, cosmological expansion, and gravitational time effects.",
+    "what_breaks_without_it": "Without redshift as a geometric measurement, observations of the universe are misread as only ordinary motion.",
+    "worked_mini_example": "A stretched tape makes marks farther apart even if the marks did not crawl along the tape. Expanding geometry stretches light in that sense.",
+    "lecture_sequence_role": "Connects geometry to matter, Einstein's equation, and light as the observational carrier.",
+    "common_confusion": "Redshift is not one single cause. Motion, gravity, and expansion can all change the measured frequency.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs to explain how geometry changes the light that finally reaches an observer. The tempting shortcut is this: The simple picture says redshift is always ordinary motion through fixed space, like a siren moving away. That shortcut fails because That fails in cosmology and strong gravity because the spacetime metric itself affects the measured wavelength. So the course introduces a specific object instead of a vague picture: Redshift is the change in measured light frequency between emission and observation along a null path. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is comparing the light's wave direction with the emitter's and observer's time directions. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For redshift as stretched light, the held object is: Redshift is the change in measured light frequency between emission and observation along a null path. The permitted action is: The operation is comparing the light's wave direction with the emitter's and observer's time directions. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because This connects spacetime geometry to telescope data, cosmological expansion, and gravitational time effects. If it is skipped or reduced to a slogan, this is what breaks: Without redshift as a geometric measurement, observations of the universe are misread as only ordinary motion. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Connects geometry to matter, Einstein's equation, and light as the observational carrier.",
+    "evidence_ids": [
+      "ev-redshift-as-stretched-light-l16-1",
+      "ev-redshift-as-stretched-light-l16-2",
+      "ev-redshift-as-stretched-light-l16-3",
+      "ev-redshift-as-stretched-light-l21-1",
+      "ev-redshift-as-stretched-light-l21-2",
+      "ev-redshift-as-stretched-light-l21-3"
+    ],
+    "prerequisite_ids": [
+      "einstein-tensor-conserved-geometry",
+      "gravitational-lensing-focusing",
+      "optical-geometry"
+    ],
+    "later_use_ids": [
+      "canonical-formulation",
+      "initial-data-constraints",
+      "cosmology-scale-factor"
+    ],
+    "connective_thread": "This page should be read after Einstein Tensor As Conserved Geometry, Gravitational Lensing And Focusing, Optical Geometry and Null Geodesics. It prepares Canonical Formulation and Constraints, Initial Data Must Satisfy Constraints, Cosmology and Expansion. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "gravitational-lensing-focusing",
+    "name": "Gravitational Lensing And Focusing",
+    "theme": "Light and Observation",
+    "subtheme": "Causal paths",
+    "lecture_indexes": [
+      16,
+      17
+    ],
+    "ordinary_problem": "The course needs to explain why masses can change apparent positions and brightness of distant sources.",
+    "naive_picture": "A common picture says light is simply pulled sideways like a thrown pebble.",
+    "why_naive_fails": "That fails because light follows null geodesics of the spacetime metric, not a Newtonian projectile path.",
+    "mathematical_object": "Lensing is the bending and focusing of families of null geodesics by spacetime curvature.",
+    "operation": "The operation is tracking neighboring light paths and measuring how the bundle changes direction, area, or shape.",
+    "why_for_gravity_light": "This matters because lensing is one of the clearest observational ways to read gravity through light.",
+    "what_breaks_without_it": "Without lensing geometry, images, arcs, time delays, and magnification become separate tricks rather than one effect.",
+    "worked_mini_example": "A glass lens changes where rays meet by changing their paths. Gravity acts through spacetime geometry instead of glass.",
+    "lecture_sequence_role": "Connects geometry to matter, Einstein's equation, and light as the observational carrier.",
+    "common_confusion": "Lensing is not proof that photons have ordinary rest mass. It is a consequence of null paths in curved spacetime.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs to explain why masses can change apparent positions and brightness of distant sources. The tempting shortcut is this: A common picture says light is simply pulled sideways like a thrown pebble. That shortcut fails because That fails because light follows null geodesics of the spacetime metric, not a Newtonian projectile path. So the course introduces a specific object instead of a vague picture: Lensing is the bending and focusing of families of null geodesics by spacetime curvature. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is tracking neighboring light paths and measuring how the bundle changes direction, area, or shape. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For gravitational lensing and focusing, the held object is: Lensing is the bending and focusing of families of null geodesics by spacetime curvature. The permitted action is: The operation is tracking neighboring light paths and measuring how the bundle changes direction, area, or shape. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because This matters because lensing is one of the clearest observational ways to read gravity through light. If it is skipped or reduced to a slogan, this is what breaks: Without lensing geometry, images, arcs, time delays, and magnification become separate tricks rather than one effect. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Connects geometry to matter, Einstein's equation, and light as the observational carrier.",
+    "evidence_ids": [
+      "ev-gravitational-lensing-focusing-l16-1",
+      "ev-gravitational-lensing-focusing-l16-2",
+      "ev-gravitational-lensing-focusing-l16-3",
+      "ev-gravitational-lensing-focusing-l17-1",
+      "ev-gravitational-lensing-focusing-l17-2",
+      "ev-gravitational-lensing-focusing-l17-3"
+    ],
+    "prerequisite_ids": [
+      "cosmological-constant-vacuum-term",
+      "einstein-equation",
+      "einstein-tensor-conserved-geometry"
+    ],
+    "later_use_ids": [
+      "optical-geometry",
+      "redshift-as-stretched-light",
+      "canonical-formulation"
+    ],
+    "connective_thread": "This page should be read after Cosmological Constant As Vacuum Term, Einstein Equation, Einstein Tensor As Conserved Geometry. It prepares Optical Geometry and Null Geodesics, Redshift As Stretched Light, Canonical Formulation and Constraints. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "initial-data-constraints",
+    "name": "Initial Data Must Satisfy Constraints",
+    "theme": "Dynamics and Matter",
+    "subtheme": "Allowed initial data",
+    "lecture_indexes": [
+      18,
+      19
+    ],
+    "ordinary_problem": "The course needs to explain why not every imagined snapshot of space can be the start of a valid spacetime.",
+    "naive_picture": "The ordinary mechanics habit says choose positions and velocities freely, then evolve them.",
+    "why_naive_fails": "That fails in general relativity because the geometry of one slice and its change must already satisfy constraint equations.",
+    "mathematical_object": "Initial data consists of spatial geometry plus momentum-like change data that obeys Hamiltonian and momentum constraints.",
+    "operation": "The operation is checking the constraint equations before using the data as a lawful starting point.",
+    "why_for_gravity_light": "This matters for numerical gravity, black-hole mergers, and wave prediction, where bad initial data creates fake physics.",
+    "what_breaks_without_it": "Without constraints, a calculation can evolve a snapshot that no solution of Einstein's equation could contain.",
+    "worked_mini_example": "A bridge blueprint cannot choose every beam angle independently; the pieces must already fit before construction starts.",
+    "lecture_sequence_role": "Applies the field equation to evolution, cosmology, horizons, and global causal structure.",
+    "common_confusion": "Constraints are not optional extra equations. They decide whether the starting slice belongs to any spacetime solution.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs to explain why not every imagined snapshot of space can be the start of a valid spacetime. The tempting shortcut is this: The ordinary mechanics habit says choose positions and velocities freely, then evolve them. That shortcut fails because That fails in general relativity because the geometry of one slice and its change must already satisfy constraint equations. So the course introduces a specific object instead of a vague picture: Initial data consists of spatial geometry plus momentum-like change data that obeys Hamiltonian and momentum constraints. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is checking the constraint equations before using the data as a lawful starting point. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For initial data must satisfy constraints, the held object is: Initial data consists of spatial geometry plus momentum-like change data that obeys Hamiltonian and momentum constraints. The permitted action is: The operation is checking the constraint equations before using the data as a lawful starting point. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because This matters for numerical gravity, black-hole mergers, and wave prediction, where bad initial data creates fake physics. If it is skipped or reduced to a slogan, this is what breaks: Without constraints, a calculation can evolve a snapshot that no solution of Einstein's equation could contain. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Applies the field equation to evolution, cosmology, horizons, and global causal structure.",
+    "evidence_ids": [
+      "ev-initial-data-constraints-l18",
+      "ev-initial-data-constraints-l19"
+    ],
+    "prerequisite_ids": [
+      "optical-geometry",
+      "redshift-as-stretched-light",
+      "canonical-formulation"
+    ],
+    "later_use_ids": [
+      "cosmology-scale-factor",
+      "scale-factor-expansion-history",
+      "hubble-rate-as-change-of-scale"
+    ],
+    "connective_thread": "This page should be read after Optical Geometry and Null Geodesics, Redshift As Stretched Light, Canonical Formulation and Constraints. It prepares Cosmology and Expansion, Scale Factor As Expansion History, Hubble Rate As Change Of Scale. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "scale-factor-expansion-history",
+    "name": "Scale Factor As Expansion History",
+    "theme": "Applications",
+    "subtheme": "Large-scale geometry",
+    "lecture_indexes": [
+      20,
+      21
+    ],
+    "ordinary_problem": "The course needs one changing quantity that records how large-scale distances evolve in a smoothed universe model.",
+    "naive_picture": "A common picture says the universe expands into empty space around it.",
+    "why_naive_fails": "That fails because the model describes changing distances within spacetime, not motion into an outside container.",
+    "mathematical_object": "The scale factor is the time-dependent multiplier that converts fixed comoving separations into physical separations.",
+    "operation": "The operation is solving equations for this multiplier from matter content, curvature assumptions, and possible vacuum terms.",
+    "why_for_gravity_light": "This matters because redshift, age, expansion rate, and late-time acceleration are all read through the scale factor.",
+    "what_breaks_without_it": "Without the scale factor, cosmology becomes a story about moving galaxies instead of changing spacetime geometry.",
+    "worked_mini_example": "Dots printed on an elastic band get farther apart as the band stretches. The scale factor records the stretch, not a central explosion.",
+    "lecture_sequence_role": "Applies the field equation to evolution, cosmology, horizons, and global causal structure.",
+    "common_confusion": "The scale factor belongs to a simplified large-scale model. It does not describe every local gravitational detail.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs one changing quantity that records how large-scale distances evolve in a smoothed universe model. The tempting shortcut is this: A common picture says the universe expands into empty space around it. That shortcut fails because That fails because the model describes changing distances within spacetime, not motion into an outside container. So the course introduces a specific object instead of a vague picture: The scale factor is the time-dependent multiplier that converts fixed comoving separations into physical separations. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is solving equations for this multiplier from matter content, curvature assumptions, and possible vacuum terms. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For scale factor as expansion history, the held object is: The scale factor is the time-dependent multiplier that converts fixed comoving separations into physical separations. The permitted action is: The operation is solving equations for this multiplier from matter content, curvature assumptions, and possible vacuum terms. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because This matters because redshift, age, expansion rate, and late-time acceleration are all read through the scale factor. If it is skipped or reduced to a slogan, this is what breaks: Without the scale factor, cosmology becomes a story about moving galaxies instead of changing spacetime geometry. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Applies the field equation to evolution, cosmology, horizons, and global causal structure.",
+    "evidence_ids": [
+      "ev-scale-factor-expansion-history-l20",
+      "ev-scale-factor-expansion-history-l21-1",
+      "ev-scale-factor-expansion-history-l21-2",
+      "ev-scale-factor-expansion-history-l21-3"
+    ],
+    "prerequisite_ids": [
+      "canonical-formulation",
+      "initial-data-constraints",
+      "cosmology-scale-factor"
+    ],
+    "later_use_ids": [
+      "hubble-rate-as-change-of-scale",
+      "black-holes-horizons",
+      "event-horizon-causal-boundary"
+    ],
+    "connective_thread": "This page should be read after Canonical Formulation and Constraints, Initial Data Must Satisfy Constraints, Cosmology and Expansion. It prepares Hubble Rate As Change Of Scale, Black Holes and Horizons, Event Horizon As Causal Boundary. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "hubble-rate-as-change-of-scale",
+    "name": "Hubble Rate As Change Of Scale",
+    "theme": "Applications",
+    "subtheme": "Large-scale geometry",
+    "lecture_indexes": [
+      21
+    ],
+    "ordinary_problem": "The course needs a way to measure how quickly cosmic scale is changing at a given time.",
+    "naive_picture": "A first picture treats the Hubble rate as a speed of galaxies through fixed empty space.",
+    "why_naive_fails": "That fails because the quantity measures fractional change of the scale factor, not one object's ordinary velocity.",
+    "mathematical_object": "The Hubble rate is the rate of change of the scale factor divided by the scale factor itself.",
+    "operation": "The operation is comparing how fast the cosmic scale changes to the current size of that scale.",
+    "why_for_gravity_light": "This matters for reading observations into an expansion history and for connecting matter content to cosmic evolution.",
+    "what_breaks_without_it": "Without this rate, late-time cosmology cannot compare models against observed redshift-distance relations.",
+    "worked_mini_example": "If a rubber band grows by one centimeter, that means different things for a short band and a long band. The Hubble rate measures fractional growth.",
+    "lecture_sequence_role": "Applies the field equation to evolution, cosmology, horizons, and global causal structure.",
+    "common_confusion": "The Hubble rate is not a universal local speed limit. It is a large-scale expansion measure.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs a way to measure how quickly cosmic scale is changing at a given time. The tempting shortcut is this: A first picture treats the Hubble rate as a speed of galaxies through fixed empty space. That shortcut fails because That fails because the quantity measures fractional change of the scale factor, not one object's ordinary velocity. So the course introduces a specific object instead of a vague picture: The Hubble rate is the rate of change of the scale factor divided by the scale factor itself. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is comparing how fast the cosmic scale changes to the current size of that scale. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For hubble rate as change of scale, the held object is: The Hubble rate is the rate of change of the scale factor divided by the scale factor itself. The permitted action is: The operation is comparing how fast the cosmic scale changes to the current size of that scale. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because This matters for reading observations into an expansion history and for connecting matter content to cosmic evolution. If it is skipped or reduced to a slogan, this is what breaks: Without this rate, late-time cosmology cannot compare models against observed redshift-distance relations. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Applies the field equation to evolution, cosmology, horizons, and global causal structure.",
+    "evidence_ids": [
+      "ev-hubble-rate-as-change-of-scale-l21-1",
+      "ev-hubble-rate-as-change-of-scale-l21-2",
+      "ev-hubble-rate-as-change-of-scale-l21-3"
+    ],
+    "prerequisite_ids": [
+      "initial-data-constraints",
+      "cosmology-scale-factor",
+      "scale-factor-expansion-history"
+    ],
+    "later_use_ids": [
+      "black-holes-horizons",
+      "event-horizon-causal-boundary",
+      "penrose-diagrams-compress-infinity"
+    ],
+    "connective_thread": "This page should be read after Initial Data Must Satisfy Constraints, Cosmology and Expansion, Scale Factor As Expansion History. It prepares Black Holes and Horizons, Event Horizon As Causal Boundary, Penrose Diagrams Compress Infinity. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "event-horizon-causal-boundary",
+    "name": "Event Horizon As Causal Boundary",
+    "theme": "Applications",
+    "subtheme": "Causal boundaries",
+    "lecture_indexes": [
+      22,
+      23
+    ],
+    "ordinary_problem": "The course needs a definition of a black-hole boundary that depends on what signals can do, not on a material surface.",
+    "naive_picture": "The common picture treats the horizon as the surface of a dark object sitting in space.",
+    "why_naive_fails": "That fails because an event horizon is defined by the future reach of light paths in the whole spacetime.",
+    "mathematical_object": "An event horizon is the boundary separating events that can send light to distant outside observers from events that cannot.",
+    "operation": "The operation is tracing future-directed null paths and deciding which events can communicate outward.",
+    "why_for_gravity_light": "This matters because black holes are defined by causal structure, not by a locally visible wall.",
+    "what_breaks_without_it": "Without the causal-boundary idea, coordinate trouble near horizons is easily confused with a physical surface.",
+    "worked_mini_example": "A point in a river beyond the waterfall line cannot send a floating message upstream, even if nothing solid marks the line.",
+    "lecture_sequence_role": "Applies the field equation to evolution, cosmology, horizons, and global causal structure.",
+    "common_confusion": "The event horizon is global. Knowing it exactly can require knowing the future structure of spacetime.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs a definition of a black-hole boundary that depends on what signals can do, not on a material surface. The tempting shortcut is this: The common picture treats the horizon as the surface of a dark object sitting in space. That shortcut fails because That fails because an event horizon is defined by the future reach of light paths in the whole spacetime. So the course introduces a specific object instead of a vague picture: An event horizon is the boundary separating events that can send light to distant outside observers from events that cannot. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is tracing future-directed null paths and deciding which events can communicate outward. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For event horizon as causal boundary, the held object is: An event horizon is the boundary separating events that can send light to distant outside observers from events that cannot. The permitted action is: The operation is tracing future-directed null paths and deciding which events can communicate outward. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because This matters because black holes are defined by causal structure, not by a locally visible wall. If it is skipped or reduced to a slogan, this is what breaks: Without the causal-boundary idea, coordinate trouble near horizons is easily confused with a physical surface. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Applies the field equation to evolution, cosmology, horizons, and global causal structure.",
+    "evidence_ids": [
+      "ev-event-horizon-causal-boundary-l22-1",
+      "ev-event-horizon-causal-boundary-l22-2",
+      "ev-event-horizon-causal-boundary-l22-3",
+      "ev-event-horizon-causal-boundary-l23"
+    ],
+    "prerequisite_ids": [
+      "scale-factor-expansion-history",
+      "hubble-rate-as-change-of-scale",
+      "black-holes-horizons"
+    ],
+    "later_use_ids": [
+      "penrose-diagrams-compress-infinity",
+      "gauge-versus-physical-change",
+      "linearized-equations-small-disturbances"
+    ],
+    "connective_thread": "This page should be read after Scale Factor As Expansion History, Hubble Rate As Change Of Scale, Black Holes and Horizons. It prepares Penrose Diagrams Compress Infinity, Gauge Change Versus Physical Change, Linearized Equations For Small Disturbances. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "penrose-diagrams-compress-infinity",
+    "name": "Penrose Diagrams Compress Infinity",
+    "theme": "Applications",
+    "subtheme": "Causal boundaries",
+    "lecture_indexes": [
+      23
+    ],
+    "ordinary_problem": "The course needs a way to draw causal structure, including infinity, without losing which light paths are possible.",
+    "naive_picture": "A normal spacetime drawing can make far-away or far-future regions impossible to see on one page.",
+    "why_naive_fails": "That fails for black holes because the important question is often whether signals reach infinity or a singular boundary.",
+    "mathematical_object": "A Penrose diagram is a rescaled picture that preserves light-cone directions while bringing infinity to a finite edge.",
+    "operation": "The operation is conformally rescaling the metric so causal directions remain visible while distances are compressed.",
+    "why_for_gravity_light": "This matters because horizons and singularities are easiest to understand by seeing causal reach at once.",
+    "what_breaks_without_it": "Without Penrose diagrams, global causal claims about black holes remain trapped in coordinate-dependent pictures.",
+    "worked_mini_example": "A subway map compresses long distances while preserving which stations connect. A Penrose diagram compresses spacetime while preserving light directions.",
+    "lecture_sequence_role": "Applies the field equation to evolution, cosmology, horizons, and global causal structure.",
+    "common_confusion": "A Penrose diagram does not preserve ordinary distances. It preserves causal order and null directions.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs a way to draw causal structure, including infinity, without losing which light paths are possible. The tempting shortcut is this: A normal spacetime drawing can make far-away or far-future regions impossible to see on one page. That shortcut fails because That fails for black holes because the important question is often whether signals reach infinity or a singular boundary. So the course introduces a specific object instead of a vague picture: A Penrose diagram is a rescaled picture that preserves light-cone directions while bringing infinity to a finite edge. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is conformally rescaling the metric so causal directions remain visible while distances are compressed. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For penrose diagrams compress infinity, the held object is: A Penrose diagram is a rescaled picture that preserves light-cone directions while bringing infinity to a finite edge. The permitted action is: The operation is conformally rescaling the metric so causal directions remain visible while distances are compressed. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because This matters because horizons and singularities are easiest to understand by seeing causal reach at once. If it is skipped or reduced to a slogan, this is what breaks: Without Penrose diagrams, global causal claims about black holes remain trapped in coordinate-dependent pictures. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Applies the field equation to evolution, cosmology, horizons, and global causal structure.",
+    "evidence_ids": [
+      "ev-penrose-diagrams-compress-infinity-l23"
+    ],
+    "prerequisite_ids": [
+      "hubble-rate-as-change-of-scale",
+      "black-holes-horizons",
+      "event-horizon-causal-boundary"
+    ],
+    "later_use_ids": [
+      "gauge-versus-physical-change",
+      "linearized-equations-small-disturbances",
+      "perturbations-waves"
+    ],
+    "connective_thread": "This page should be read after Hubble Rate As Change Of Scale, Black Holes and Horizons, Event Horizon As Causal Boundary. It prepares Gauge Change Versus Physical Change, Linearized Equations For Small Disturbances, Perturbation Theory and Gravitational Waves. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "gauge-versus-physical-change",
+    "name": "Gauge Change Versus Physical Change",
+    "theme": "Light and Observation",
+    "subtheme": "Small signals",
+    "lecture_indexes": [
+      24,
+      25,
+      27
+    ],
+    "ordinary_problem": "The course needs to separate a real small disturbance from a small change in how the same spacetime is described.",
+    "naive_picture": "A tempting shortcut says any change in metric components is a physical gravitational wave.",
+    "why_naive_fails": "That fails because changing coordinates can also change components while leaving the physical geometry unchanged.",
+    "mathematical_object": "Gauge freedom is the freedom to change description without changing the physical situation.",
+    "operation": "The operation is identifying which perturbation changes can be removed by a coordinate change and which remain measurable.",
+    "why_for_gravity_light": "This matters for gravitational waves because detectors respond to physical strain, not to arbitrary coordinate wiggles.",
+    "what_breaks_without_it": "Without this separation, wave calculations can report motion of the coordinate grid as if it were a real signal.",
+    "worked_mini_example": "Renaming streets changes the map labels but not where the buildings are. Gauge changes are the spacetime version of relabeling.",
+    "lecture_sequence_role": "Moves from exact structures to small measurable departures, physical source models, and detector response.",
+    "common_confusion": "Gauge is not a synonym for unimportant. It names description freedom that must be handled before identifying physical content.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs to separate a real small disturbance from a small change in how the same spacetime is described. The tempting shortcut is this: A tempting shortcut says any change in metric components is a physical gravitational wave. That shortcut fails because That fails because changing coordinates can also change components while leaving the physical geometry unchanged. So the course introduces a specific object instead of a vague picture: Gauge freedom is the freedom to change description without changing the physical situation. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is identifying which perturbation changes can be removed by a coordinate change and which remain measurable. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For gauge change versus physical change, the held object is: Gauge freedom is the freedom to change description without changing the physical situation. The permitted action is: The operation is identifying which perturbation changes can be removed by a coordinate change and which remain measurable. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because This matters for gravitational waves because detectors respond to physical strain, not to arbitrary coordinate wiggles. If it is skipped or reduced to a slogan, this is what breaks: Without this separation, wave calculations can report motion of the coordinate grid as if it were a real signal. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Moves from exact structures to small measurable departures, physical source models, and detector response.",
+    "evidence_ids": [
+      "ev-gauge-versus-physical-change-l24",
+      "ev-gauge-versus-physical-change-l25",
+      "ev-gauge-versus-physical-change-l27-1",
+      "ev-gauge-versus-physical-change-l27-2",
+      "ev-gauge-versus-physical-change-l27-3"
+    ],
+    "prerequisite_ids": [
+      "black-holes-horizons",
+      "event-horizon-causal-boundary",
+      "penrose-diagrams-compress-infinity"
+    ],
+    "later_use_ids": [
+      "linearized-equations-small-disturbances",
+      "perturbations-waves",
+      "quadrupole-source-changing-shape"
+    ],
+    "connective_thread": "This page should be read after Black Holes and Horizons, Event Horizon As Causal Boundary, Penrose Diagrams Compress Infinity. It prepares Linearized Equations For Small Disturbances, Perturbation Theory and Gravitational Waves, Quadrupole Sources Need Changing Shape. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "linearized-equations-small-disturbances",
+    "name": "Linearized Equations For Small Disturbances",
+    "theme": "Light and Observation",
+    "subtheme": "Small signals",
+    "lecture_indexes": [
+      24,
+      25,
+      27
+    ],
+    "ordinary_problem": "The course needs an approximation that keeps the first small effect while discarding higher-order complications.",
+    "naive_picture": "A naive split says a small problem is automatically simple without saying what has been kept or dropped.",
+    "why_naive_fails": "That fails because general relativity is nonlinear, so the metric affects the equation it appears in.",
+    "mathematical_object": "Linearization writes the metric as a known background plus a small change and keeps only first-order terms in that change.",
+    "operation": "The operation is expanding the field equation and discarding terms quadratic or higher in the small disturbance.",
+    "why_for_gravity_light": "This matters because gravitational waves and weak fields can be calculated without solving the full nonlinear equation.",
+    "what_breaks_without_it": "Without linearization, many observational predictions would be buried inside equations too hard to solve directly.",
+    "worked_mini_example": "For a small dent in a table, you can first estimate the height change without recalculating the whole table shape. Linearization is that controlled estimate.",
+    "lecture_sequence_role": "Moves from exact structures to small measurable departures, physical source models, and detector response.",
+    "common_confusion": "Linearized does not mean false. It means valid only when the small terms really remain small.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs an approximation that keeps the first small effect while discarding higher-order complications. The tempting shortcut is this: A naive split says a small problem is automatically simple without saying what has been kept or dropped. That shortcut fails because That fails because general relativity is nonlinear, so the metric affects the equation it appears in. So the course introduces a specific object instead of a vague picture: Linearization writes the metric as a known background plus a small change and keeps only first-order terms in that change. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is expanding the field equation and discarding terms quadratic or higher in the small disturbance. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For linearized equations for small disturbances, the held object is: Linearization writes the metric as a known background plus a small change and keeps only first-order terms in that change. The permitted action is: The operation is expanding the field equation and discarding terms quadratic or higher in the small disturbance. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because This matters because gravitational waves and weak fields can be calculated without solving the full nonlinear equation. If it is skipped or reduced to a slogan, this is what breaks: Without linearization, many observational predictions would be buried inside equations too hard to solve directly. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Moves from exact structures to small measurable departures, physical source models, and detector response.",
+    "evidence_ids": [
+      "ev-linearized-equations-small-disturbances-l24",
+      "ev-linearized-equations-small-disturbances-l25",
+      "ev-linearized-equations-small-disturbances-l27-1",
+      "ev-linearized-equations-small-disturbances-l27-2",
+      "ev-linearized-equations-small-disturbances-l27-3"
+    ],
+    "prerequisite_ids": [
+      "event-horizon-causal-boundary",
+      "penrose-diagrams-compress-infinity",
+      "gauge-versus-physical-change"
+    ],
+    "later_use_ids": [
+      "perturbations-waves",
+      "quadrupole-source-changing-shape",
+      "interferometer-light-as-ruler"
+    ],
+    "connective_thread": "This page should be read after Event Horizon As Causal Boundary, Penrose Diagrams Compress Infinity, Gauge Change Versus Physical Change. It prepares Perturbation Theory and Gravitational Waves, Quadrupole Sources Need Changing Shape, Interferometer Light As A Ruler. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "quadrupole-source-changing-shape",
+    "name": "Quadrupole Sources Need Changing Shape",
+    "theme": "Light and Observation",
+    "subtheme": "Small signals",
+    "lecture_indexes": [
+      27
+    ],
+    "ordinary_problem": "The course needs to explain what kind of matter motion can radiate gravitational waves.",
+    "naive_picture": "A first guess says any moving mass should radiate gravity waves the way any moving charge might radiate light.",
+    "why_naive_fails": "That fails because mass-energy conservation removes simpler radiation patterns from the gravitational case.",
+    "mathematical_object": "The quadrupole moment records the changing nonspherical distribution of mass-energy in a source.",
+    "operation": "The operation is tracking how that shape-measure changes in time to estimate emitted gravitational waves.",
+    "why_for_gravity_light": "This matters because binary systems radiate strongly when their mass distribution changes shape as they orbit.",
+    "what_breaks_without_it": "Without the quadrupole idea, source lectures cannot explain why some motions radiate and others do not.",
+    "worked_mini_example": "Two equal dancers spinning around each other change the pattern of weight in the room. The changing pattern, not just motion, is the source clue.",
+    "lecture_sequence_role": "Moves from exact structures to small measurable departures, physical source models, and detector response.",
+    "common_confusion": "A single mass moving uniformly is not enough. The relevant source is changing shape in the mass-energy distribution.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs to explain what kind of matter motion can radiate gravitational waves. The tempting shortcut is this: A first guess says any moving mass should radiate gravity waves the way any moving charge might radiate light. That shortcut fails because That fails because mass-energy conservation removes simpler radiation patterns from the gravitational case. So the course introduces a specific object instead of a vague picture: The quadrupole moment records the changing nonspherical distribution of mass-energy in a source. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is tracking how that shape-measure changes in time to estimate emitted gravitational waves. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For quadrupole sources need changing shape, the held object is: The quadrupole moment records the changing nonspherical distribution of mass-energy in a source. The permitted action is: The operation is tracking how that shape-measure changes in time to estimate emitted gravitational waves. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because This matters because binary systems radiate strongly when their mass distribution changes shape as they orbit. If it is skipped or reduced to a slogan, this is what breaks: Without the quadrupole idea, source lectures cannot explain why some motions radiate and others do not. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Moves from exact structures to small measurable departures, physical source models, and detector response.",
+    "evidence_ids": [
+      "ev-quadrupole-source-changing-shape-l27-1",
+      "ev-quadrupole-source-changing-shape-l27-2",
+      "ev-quadrupole-source-changing-shape-l27-3"
+    ],
+    "prerequisite_ids": [
+      "gauge-versus-physical-change",
+      "linearized-equations-small-disturbances",
+      "perturbations-waves"
+    ],
+    "later_use_ids": [
+      "interferometer-light-as-ruler",
+      "strain-relative-length-change"
+    ],
+    "connective_thread": "This page should be read after Gauge Change Versus Physical Change, Linearized Equations For Small Disturbances, Perturbation Theory and Gravitational Waves. It prepares Interferometer Light As A Ruler, Strain As Relative Length Change. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "strain-relative-length-change",
+    "name": "Strain As Relative Length Change",
+    "theme": "Light and Observation",
+    "subtheme": "Small signals",
+    "lecture_indexes": [
+      28
+    ],
+    "ordinary_problem": "The course needs to say what a gravitational-wave detector actually measures in ordinary terms.",
+    "naive_picture": "A loose picture says the detector hears a wave passing through it.",
+    "why_naive_fails": "That fails because the measured quantity is a tiny relative change in distances between freely suspended test masses.",
+    "mathematical_object": "Strain is fractional length change: change in separation divided by the original separation.",
+    "operation": "The operation is comparing two perpendicular arm lengths over time and reading the changing difference.",
+    "why_for_gravity_light": "This matters because interferometers turn spacetime strain into changing light interference at the detector.",
+    "what_breaks_without_it": "Without strain, gravitational-wave detection sounds mystical instead of a precise measurement of relative distance change.",
+    "worked_mini_example": "If a one-meter ruler changes by a hair-width and a two-meter ruler changes by twice that, the fractional strain is the shared measure.",
+    "lecture_sequence_role": "Moves from exact structures to small measurable departures, physical source models, and detector response.",
+    "common_confusion": "Strain is not ordinary sound pressure. It is a dimensionless measure of changing separation.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs to say what a gravitational-wave detector actually measures in ordinary terms. The tempting shortcut is this: A loose picture says the detector hears a wave passing through it. That shortcut fails because That fails because the measured quantity is a tiny relative change in distances between freely suspended test masses. So the course introduces a specific object instead of a vague picture: Strain is fractional length change: change in separation divided by the original separation. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is comparing two perpendicular arm lengths over time and reading the changing difference. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For strain as relative length change, the held object is: Strain is fractional length change: change in separation divided by the original separation. The permitted action is: The operation is comparing two perpendicular arm lengths over time and reading the changing difference. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because This matters because interferometers turn spacetime strain into changing light interference at the detector. If it is skipped or reduced to a slogan, this is what breaks: Without strain, gravitational-wave detection sounds mystical instead of a precise measurement of relative distance change. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Moves from exact structures to small measurable departures, physical source models, and detector response.",
+    "evidence_ids": [
+      "ev-strain-relative-length-change-l28-1",
+      "ev-strain-relative-length-change-l28-2",
+      "ev-strain-relative-length-change-l28-3"
+    ],
+    "prerequisite_ids": [
+      "perturbations-waves",
+      "quadrupole-source-changing-shape",
+      "interferometer-light-as-ruler"
+    ],
+    "later_use_ids": [],
+    "connective_thread": "This page should be read after Perturbation Theory and Gravitational Waves, Quadrupole Sources Need Changing Shape, Interferometer Light As A Ruler. It prepares the course's final detector story. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
+  },
+  {
+    "id": "interferometer-light-as-ruler",
+    "name": "Interferometer Light As A Ruler",
+    "theme": "Light and Observation",
+    "subtheme": "Small signals",
+    "lecture_indexes": [
+      28
+    ],
+    "ordinary_problem": "The course needs to connect gravitational-wave geometry to the instrument that reads it.",
+    "naive_picture": "A simple picture says the detector directly sees spacetime stretch with a mechanical ruler.",
+    "why_naive_fails": "That fails because the effect is far too small and is read through light phase differences.",
+    "mathematical_object": "An interferometer uses split laser light traveling along different arms as an extremely sensitive ruler.",
+    "operation": "The operation is recombining the light and measuring changes in interference caused by different travel times along the arms.",
+    "why_for_gravity_light": "This matters because gravitational waves are observed through light, even though the signal is a metric disturbance.",
+    "what_breaks_without_it": "Without the interferometer idea, the final lecture cannot explain how abstract strain becomes a recorded signal.",
+    "worked_mini_example": "Two synchronized swimmers leaving and returning can reveal if one path took slightly longer. The interferometer does this with light.",
+    "lecture_sequence_role": "Moves from exact structures to small measurable departures, physical source models, and detector response.",
+    "common_confusion": "The laser is not detecting a force on photons. It is comparing path lengths through phase.",
+    "first_principles_walkthrough": "Start with the ordinary problem: The course needs to connect gravitational-wave geometry to the instrument that reads it. The tempting shortcut is this: A simple picture says the detector directly sees spacetime stretch with a mechanical ruler. That shortcut fails because That fails because the effect is far too small and is read through light phase differences. So the course introduces a specific object instead of a vague picture: An interferometer uses split laser light traveling along different arms as an extremely sensitive ruler. The point is not to admire the object. The point is to perform a controlled operation on it: The operation is recombining the light and measuring changes in interference caused by different travel times along the arms. Once that operation is available, the later gravity-and-light argument has a stable step to stand on.",
+    "mathematical_detail_plain": "The mathematical principle is that a physical claim should name what is being held fixed, what is being changed, and what comparison is allowed. For interferometer light as a ruler, the held object is: An interferometer uses split laser light traveling along different arms as an extremely sensitive ruler. The permitted action is: The operation is recombining the light and measuring changes in interference caused by different travel times along the arms. This matters because the course repeatedly moves from local descriptions to statements that must survive a change of coordinates, observer, or path. Without that discipline, a calculation can report a feature of the chosen description while pretending it has found a feature of spacetime.",
+    "why_this_is_critical": "This concept is critical for the course because This matters because gravitational waves are observed through light, even though the signal is a metric disturbance. If it is skipped or reduced to a slogan, this is what breaks: Without the interferometer idea, the final lecture cannot explain how abstract strain becomes a recorded signal. The practical test is whether a student can explain both the object and the operation in everyday language, then say why the next lecture needs them. That is the level needed for gravity, light, curvature, matter, horizons, waves, and detectors to feel like one chain rather than separate topics.",
+    "family_bridge": "Moves from exact structures to small measurable departures, physical source models, and detector response.",
+    "evidence_ids": [
+      "ev-interferometer-light-as-ruler-l28-1",
+      "ev-interferometer-light-as-ruler-l28-2",
+      "ev-interferometer-light-as-ruler-l28-3"
+    ],
+    "prerequisite_ids": [
+      "linearized-equations-small-disturbances",
+      "perturbations-waves",
+      "quadrupole-source-changing-shape"
+    ],
+    "later_use_ids": [
+      "strain-relative-length-change"
+    ],
+    "connective_thread": "This page should be read after Linearized Equations For Small Disturbances, Perturbation Theory and Gravitational Waves, Quadrupole Sources Need Changing Shape. It prepares Strain As Relative Length Change. The connection is not a name chain: the earlier pages supply the object and operation that this page reuses, and the later pages depend on this page to avoid hiding a coordinate choice, a missing measurement rule, or an unsupported physical claim."
   }
 ]

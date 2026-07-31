@@ -12,6 +12,18 @@ RAW = ROOT / "raw-material" / "youtube"
 ANALYSIS = ROOT / "analysis"
 SITE = ROOT / "site"
 
+BANNED_PHRASES = (
+    "deep dive",
+    "math is the language",
+    "unlock",
+    "leveraging",
+    "robust framework",
+    "powerful framework",
+    "game changer",
+    "at the end of the day",
+    "it is important because it is important",
+)
+
 
 class LinkParser(HTMLParser):
     def __init__(self) -> None:
@@ -37,6 +49,12 @@ def words(value: str) -> int:
 def require(condition: bool, message: str, errors: list[str]) -> None:
     if not condition:
         errors.append(message)
+
+
+def check_banned_phrases(label: str, value: str, errors: list[str]) -> None:
+    lowered = value.lower()
+    for phrase in BANNED_PHRASES:
+        require(phrase not in lowered, f"{label} contains banned phrase: {phrase}", errors)
 
 
 def validate() -> tuple[list[str], list[str]]:
@@ -75,6 +93,8 @@ def validate() -> tuple[list[str], list[str]]:
     evidence_ids = {e["id"] for e in evidence}
     lecture_indexes = {l["index"] for l in lectures}
     require(len(concepts) >= 16, "concept atlas should contain at least 16 concepts", errors)
+    require(len(concepts) >= 40, "robotics-grade atlas should contain at least 40 concepts", errors)
+    require(len(evidence) >= 130, "robotics-grade atlas should contain at least 130 evidence records", errors)
     require(len(themes) >= 5, "theme map should contain at least 5 themes", errors)
     require(len(families) >= 6, "family map should contain at least 6 lecture families", errors)
     require(len(primitives) >= 4, "throughline primitives should contain at least 4 entries", errors)
@@ -94,13 +114,18 @@ def validate() -> tuple[list[str], list[str]]:
         "mathematical_detail_plain",
         "why_this_is_critical",
         "family_bridge",
+        "connective_thread",
     )
     for concept in concepts:
         require(concept["id"], "concept has empty id", errors)
         for field in required_concept_fields:
             require(words(concept[field]) >= 12, f"{concept['id']} field {field} is too thin", errors)
+            check_banned_phrases(f"{concept['id']} field {field}", concept[field], errors)
         for field in ("first_principles_walkthrough", "mathematical_detail_plain", "why_this_is_critical"):
             require(words(concept[field]) >= 65, f"{concept['id']} field {field} is not meaty enough", errors)
+        require("prerequisite_ids" in concept, f"{concept['id']} missing prerequisite links", errors)
+        require("later_use_ids" in concept, f"{concept['id']} missing later-use links", errors)
+        require(words(concept["connective_thread"]) >= 35, f"{concept['id']} connective thread is too thin", errors)
         require(concept["evidence_ids"], f"{concept['id']} has no evidence ids", errors)
         for eid in concept["evidence_ids"]:
             require(eid in evidence_ids, f"{concept['id']} points to missing evidence {eid}", errors)
@@ -117,15 +142,19 @@ def validate() -> tuple[list[str], list[str]]:
             require("manual" in item["caveat_or_warning"].lower() or "not treat" in item["caveat_or_warning"].lower(), f"missing evidence {item['id']} lacks caveat", errors)
         for field in ("lecture_argument", "mathematical_object", "operation", "why_span_matters", "caveat_or_warning"):
             require(words(item[field]) >= 8, f"evidence {item['id']} field {field} is too thin", errors)
+            check_banned_phrases(f"evidence {item['id']} field {field}", item[field], errors)
 
     for theme in themes:
         require(theme["concept_ids"], f"theme {theme['id']} has no concepts", errors)
         require(words(theme["why_the_math_matters"]) >= 12, f"theme {theme['id']} why_the_math_matters is too thin", errors)
+        for field in ("plain_question", "answer", "why_the_math_matters"):
+            check_banned_phrases(f"theme {theme['id']} field {field}", theme[field], errors)
 
     for family in families:
         require(family["concept_ids"], f"family {family['id']} has no concepts", errors)
         for field in ("plain_problem", "mathematical_spine", "why_it_matters", "what_to_watch_for"):
             require(words(family[field]) >= 24, f"family {family['id']} field {field} is too thin", errors)
+            check_banned_phrases(f"family {family['id']} field {field}", family[field], errors)
 
     validate_site(concepts, errors)
     return errors, warnings

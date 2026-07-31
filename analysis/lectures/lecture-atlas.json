@@ -7,13 +7,17 @@
     "transcript_status": "available",
     "word_count": 10469,
     "concept_ids": [
-      "topology-continuity"
+      "topology-continuity",
+      "open-sets-neighborhood-tests",
+      "continuous-maps-preserve-nearness"
     ],
     "audit_note": "Transcript-backed with 10469 words available for snippet-level evidence.",
-    "central_question": "How does this lecture use Topology and Continuity to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 01 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: Before measuring distance, the course needs a way to say which points are near enough for a limiting process to make sense. The mathematical work to watch is: The basic operation is checking whether inverse images of open sets are open, which is the coordinate-free test that a map preserves nearness. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Topology and Continuity, Open Sets As Neighborhood Tests, Continuous Maps Preserve Nearness to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 01 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: Before measuring distance, the course needs a way to say which points are near enough for a limiting process to make sense. The first lecture needs a way to test whether a small move stays inside an allowed region before it has any distance formula. The course needs a way to say one description respects nearness in another description. The mathematical work to watch is: The basic operation is checking whether inverse images of open sets are open, which is the coordinate-free test that a map preserves nearness. The operation is to ask whether a point has a neighborhood contained inside the region, then use that test to define continuity. The operation is pulling an open test region backward through the map and checking whether it remains an open test region. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "A topology is a chosen collection of open sets: enough information to talk about neighborhoods, limits, and continuous maps without yet talking about meters or seconds."
+      "A topology is a chosen collection of open sets: enough information to talk about neighborhoods, limits, and continuous maps without yet talking about meters or seconds.",
+      "An open set is a region that contains a little breathing room around each of its points, stated without choosing units of length.",
+      "A continuous map is a rule between spaces whose inverse image of any open region is open in the starting space."
     ],
     "reader_warning": "This lecture has local transcript evidence. Claims should cite snippets or timestamps when they interpret the lecture's argument."
   },
@@ -25,13 +29,15 @@
     "transcript_status": "available",
     "word_count": 11576,
     "concept_ids": [
-      "manifolds-local-flatness"
+      "manifolds-local-flatness",
+      "charts-atlases-coordinate-overlap"
     ],
     "audit_note": "Transcript-backed with 11576 words available for snippet-level evidence.",
-    "central_question": "How does this lecture use Manifolds and Local Flatness to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 02 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs spaces that can be curved overall while still looking ordinary to a small local observer. The mathematical work to watch is: The main operation is changing charts and checking that statements survive the change rather than depending on one chosen coordinate grid. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Manifolds and Local Flatness, Charts, Atlases, and Overlap Rules to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 02 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs spaces that can be curved overall while still looking ordinary to a small local observer. The course needs many local maps that can cover one space without pretending one map works everywhere. The mathematical work to watch is: The main operation is changing charts and checking that statements survive the change rather than depending on one chosen coordinate grid. The operation is comparing charts on their overlaps and requiring the change from one chart to another to behave smoothly. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "A manifold is a space covered by charts, each chart translating a small patch into ordinary numbers while overlap maps say when two descriptions agree."
+      "A manifold is a space covered by charts, each chart translating a small patch into ordinary numbers while overlap maps say when two descriptions agree.",
+      "A chart assigns numbers to points in one patch, and an atlas is a compatible collection of such charts."
     ],
     "reader_warning": "This lecture has local transcript evidence. Claims should cite snippets or timestamps when they interpret the lecture's argument."
   },
@@ -43,13 +49,17 @@
     "transcript_status": "available",
     "word_count": 14045,
     "concept_ids": [
-      "multilinear-objects"
+      "multilinear-objects",
+      "dual-vectors-measure-directions",
+      "tensor-components-versus-object"
     ],
     "audit_note": "Transcript-backed with 14045 words available for snippet-level evidence.",
-    "central_question": "How does this lecture use Multilinear Algebra to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 03 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: Physics needs quantities that accept directions, measurements, and flows while keeping track of how many slots they have. The mathematical work to watch is: The key operation is feeding vectors and covectors into slots, changing basis, and contracting matching slots to produce coordinate-independent quantities. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Multilinear Algebra, Dual Vectors Measure Directions, Tensor Components Versus The Object to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 03 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: Physics needs quantities that accept directions, measurements, and flows while keeping track of how many slots they have. The course needs a way to distinguish an arrow-like direction from a measuring rule applied to that direction. The course needs students to separate a tensor itself from the list of numbers used to display it in one basis. The mathematical work to watch is: The key operation is feeding vectors and covectors into slots, changing basis, and contracting matching slots to produce coordinate-independent quantities. The operation is feeding a vector into the covector and getting a number that changes correctly when coordinates change. The operation is transforming components under a basis change while preserving the tensor's action on its input slots. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "A tensor is a multilinear rule with specified input slots; it returns a number or another structured object in a way compatible with linear combinations."
+      "A tensor is a multilinear rule with specified input slots; it returns a number or another structured object in a way compatible with linear combinations.",
+      "A dual vector, also called a covector or one-form, is a linear measuring rule on vectors.",
+      "The tensor is the coordinate-independent multilinear rule; components are the rule's numbers after choosing basis vectors and dual basis covectors."
     ],
     "reader_warning": "This lecture has local transcript evidence. Claims should cite snippets or timestamps when they interpret the lecture's argument."
   },
@@ -61,13 +71,17 @@
     "transcript_status": "available",
     "word_count": 7622,
     "concept_ids": [
-      "manifolds-local-flatness"
+      "manifolds-local-flatness",
+      "charts-atlases-coordinate-overlap",
+      "smoothness-change-rates"
     ],
     "audit_note": "Transcript-backed with 7622 words available for snippet-level evidence.",
-    "central_question": "How does this lecture use Manifolds and Local Flatness to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 04 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs spaces that can be curved overall while still looking ordinary to a small local observer. The mathematical work to watch is: The main operation is changing charts and checking that statements survive the change rather than depending on one chosen coordinate grid. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Manifolds and Local Flatness, Charts, Atlases, and Overlap Rules, Smoothness As Allowed Change to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 04 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs spaces that can be curved overall while still looking ordinary to a small local observer. The course needs many local maps that can cover one space without pretending one map works everywhere. The course needs to know when change is regular enough for derivatives to make sense across chart boundaries. The mathematical work to watch is: The main operation is changing charts and checking that statements survive the change rather than depending on one chosen coordinate grid. The operation is comparing charts on their overlaps and requiring the change from one chart to another to behave smoothly. The operation is taking derivatives in one chart and checking that another chart gives the same kind of admissible calculation. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "A manifold is a space covered by charts, each chart translating a small patch into ordinary numbers while overlap maps say when two descriptions agree."
+      "A manifold is a space covered by charts, each chart translating a small patch into ordinary numbers while overlap maps say when two descriptions agree.",
+      "A chart assigns numbers to points in one patch, and an atlas is a compatible collection of such charts.",
+      "A smooth structure is the rule that says which chart changes are differentiable enough for calculus to be done consistently."
     ],
     "reader_warning": "This lecture has local transcript evidence. Claims should cite snippets or timestamps when they interpret the lecture's argument."
   },
@@ -79,13 +93,17 @@
     "transcript_status": "available",
     "word_count": 13624,
     "concept_ids": [
-      "tangent-spaces-fields"
+      "tangent-spaces-fields",
+      "dual-vectors-measure-directions",
+      "tangent-vectors-as-derivatives"
     ],
     "audit_note": "Transcript-backed with 13624 words available for snippet-level evidence.",
-    "central_question": "How does this lecture use Tangent Spaces and Fields to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 05 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to attach possible directions of motion to every event, then let physical quantities vary from event to event. The mathematical work to watch is: The basic operation is differentiating a function along a tangent direction and then doing this smoothly point by point across the manifold. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Tangent Spaces and Fields, Dual Vectors Measure Directions, Tangent Vectors As Derivatives to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 05 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to attach possible directions of motion to every event, then let physical quantities vary from event to event. The course needs a way to distinguish an arrow-like direction from a measuring rule applied to that direction. The course needs an internal definition of a direction at a point without drawing an arrow in a larger space. The mathematical work to watch is: The basic operation is differentiating a function along a tangent direction and then doing this smoothly point by point across the manifold. The operation is feeding a vector into the covector and getting a number that changes correctly when coordinates change. The operation is applying the tangent vector to a function and reading the directional rate of change. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "A tangent space is the vector space of directions available at one point; a field assigns a value, such as a vector or tensor, to each point."
+      "A tangent space is the vector space of directions available at one point; a field assigns a value, such as a vector or tensor, to each point.",
+      "A dual vector, also called a covector or one-form, is a linear measuring rule on vectors.",
+      "A tangent vector can be understood as a rule that tells how functions change at a point along a possible direction."
     ],
     "reader_warning": "This lecture has local transcript evidence. Claims should cite snippets or timestamps when they interpret the lecture's argument."
   },
@@ -97,13 +115,15 @@
     "transcript_status": "available",
     "word_count": 10579,
     "concept_ids": [
-      "tangent-spaces-fields"
+      "tangent-spaces-fields",
+      "vector-fields-as-local-instructions"
     ],
     "audit_note": "Transcript-backed with 10579 words available for snippet-level evidence.",
-    "central_question": "How does this lecture use Tangent Spaces and Fields to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 06 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to attach possible directions of motion to every event, then let physical quantities vary from event to event. The mathematical work to watch is: The basic operation is differentiating a function along a tangent direction and then doing this smoothly point by point across the manifold. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Tangent Spaces and Fields, Vector Fields As Local Instructions to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 06 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to attach possible directions of motion to every event, then let physical quantities vary from event to event. The course needs a way to assign a possible motion or instruction at every event in a region. The mathematical work to watch is: The basic operation is differentiating a function along a tangent direction and then doing this smoothly point by point across the manifold. The operation is following the assigned directions to form flow lines or using the field to differentiate other quantities. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "A tangent space is the vector space of directions available at one point; a field assigns a value, such as a vector or tensor, to each point."
+      "A tangent space is the vector space of directions available at one point; a field assigns a value, such as a vector or tensor, to each point.",
+      "A vector field assigns one tangent vector to each point of the manifold in a smooth way."
     ],
     "reader_warning": "This lecture has local transcript evidence. Claims should cite snippets or timestamps when they interpret the lecture's argument."
   },
@@ -115,13 +135,17 @@
     "transcript_status": "available",
     "word_count": 13957,
     "concept_ids": [
-      "connections-parallel-transport"
+      "connections-parallel-transport",
+      "covariant-derivative-corrects-comparison",
+      "geodesics-free-motion"
     ],
     "audit_note": "Transcript-backed with 13957 words available for snippet-level evidence.",
-    "central_question": "How does this lecture use Connections and Parallel Transport to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 07 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: To compare directions at different points, the course needs a rule for carrying a direction along a path. The mathematical work to watch is: The central operation is covariant differentiation: measuring how a field changes after subtracting the change caused merely by moving through tangent spaces. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Connections and Parallel Transport, Covariant Derivative Corrects Comparison, Geodesics As Free Motion to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 07 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: To compare directions at different points, the course needs a rule for carrying a direction along a path. The course needs a derivative of vector fields that does not compare vectors as if all tangent spaces were the same room. The course needs a precise replacement for straight-line motion when spacetime may be curved. The mathematical work to watch is: The central operation is covariant differentiation: measuring how a field changes after subtracting the change caused merely by moving through tangent spaces. The operation is differentiating the field and subtracting the change caused by the moving basis or comparison rule. The operation is checking whether the curve's tangent has zero covariant change along the curve. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "A connection is a rule for differentiating vector fields along directions and for transporting vectors from one tangent space to another."
+      "A connection is a rule for differentiating vector fields along directions and for transporting vectors from one tangent space to another.",
+      "A covariant derivative is the corrected change of a vector field along a direction, using a connection to say how nearby tangent spaces are compared.",
+      "A geodesic is a curve whose tangent direction is transported along itself according to the connection."
     ],
     "reader_warning": "This lecture has local transcript evidence. Claims should cite snippets or timestamps when they interpret the lecture's argument."
   },
@@ -134,14 +158,20 @@
     "word_count": 5488,
     "concept_ids": [
       "connections-parallel-transport",
-      "curvature-geodesic-deviation"
+      "curvature-geodesic-deviation",
+      "geodesics-free-motion",
+      "parallel-transport-loop-test",
+      "riemann-curvature-commutator"
     ],
     "audit_note": "Transcript-backed with 5488 words available for snippet-level evidence.",
-    "central_question": "How does this lecture use Connections and Parallel Transport, Curvature to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 08 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: To compare directions at different points, the course needs a rule for carrying a direction along a path. The theory needs a local test for whether transported directions come back changed after moving around a tiny loop. The mathematical work to watch is: The central operation is covariant differentiation: measuring how a field changes after subtracting the change caused merely by moving through tangent spaces. The operation is taking a commutator of covariant derivatives or comparing nearby geodesics to measure relative acceleration. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Connections and Parallel Transport, Curvature, Geodesics As Free Motion, Parallel Transport Loop Test, Riemann Curvature As Noncommuting Change to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 08 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: To compare directions at different points, the course needs a rule for carrying a direction along a path. The theory needs a local test for whether transported directions come back changed after moving around a tiny loop. The course needs a precise replacement for straight-line motion when spacetime may be curved. The course needs an operational test for curvature that does not rely on seeing a surface bend. The course needs a compact way to record how two small changes in different orders fail to agree. The mathematical work to watch is: The central operation is covariant differentiation: measuring how a field changes after subtracting the change caused merely by moving through tangent spaces. The operation is taking a commutator of covariant derivatives or comparing nearby geodesics to measure relative acceleration. The operation is checking whether the curve's tangent has zero covariant change along the curve. The operation is parallel transport around a small loop and reading the mismatch as evidence of curvature. The operation is comparing the two orders of corrected differentiation and measuring the leftover mismatch. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
       "A connection is a rule for differentiating vector fields along directions and for transporting vectors from one tangent space to another.",
-      "Curvature is the tensorial failure of covariant derivatives to commute, equivalently the failure of parallel transport around small loops to return a vector unchanged."
+      "Curvature is the tensorial failure of covariant derivatives to commute, equivalently the failure of parallel transport around small loops to return a vector unchanged.",
+      "A geodesic is a curve whose tangent direction is transported along itself according to the connection.",
+      "The loop test carries a vector around a closed path using the connection and compares the returned vector with the starting one.",
+      "The Riemann curvature tensor records the failure of two covariant derivatives, taken in different orders, to give the same result."
     ],
     "reader_warning": "This lecture has local transcript evidence. Claims should cite snippets or timestamps when they interpret the lecture's argument."
   },
@@ -153,13 +183,17 @@
     "transcript_status": "available",
     "word_count": 14090,
     "concept_ids": [
-      "curvature-geodesic-deviation"
+      "curvature-geodesic-deviation",
+      "riemann-curvature-commutator",
+      "ricci-curvature-volume-change"
     ],
     "audit_note": "Transcript-backed with 14090 words available for snippet-level evidence.",
-    "central_question": "How does this lecture use Curvature to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 09 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The theory needs a local test for whether transported directions come back changed after moving around a tiny loop. The mathematical work to watch is: The operation is taking a commutator of covariant derivatives or comparing nearby geodesics to measure relative acceleration. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Curvature, Riemann Curvature As Noncommuting Change, Ricci Curvature As Volume Change to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 09 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The theory needs a local test for whether transported directions come back changed after moving around a tiny loop. The course needs a compact way to record how two small changes in different orders fail to agree. The course needs the part of curvature that measures how a small bundle of freely moving paths changes size. The mathematical work to watch is: The operation is taking a commutator of covariant derivatives or comparing nearby geodesics to measure relative acceleration. The operation is comparing the two orders of corrected differentiation and measuring the leftover mismatch. The operation is contracting slots of the Riemann tensor to keep the part relevant for volume change. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "Curvature is the tensorial failure of covariant derivatives to commute, equivalently the failure of parallel transport around small loops to return a vector unchanged."
+      "Curvature is the tensorial failure of covariant derivatives to commute, equivalently the failure of parallel transport around small loops to return a vector unchanged.",
+      "The Riemann curvature tensor records the failure of two covariant derivatives, taken in different orders, to give the same result.",
+      "Ricci curvature is a contraction of the full curvature tensor that captures focusing or spreading of nearby geodesic families."
     ],
     "reader_warning": "This lecture has local transcript evidence. Claims should cite snippets or timestamps when they interpret the lecture's argument."
   },
@@ -171,13 +205,17 @@
     "transcript_status": "missing",
     "word_count": 0,
     "concept_ids": [
-      "metric-measurement"
+      "metric-measurement",
+      "metric-signature-light-cones",
+      "proper-time-clock-reading"
     ],
     "audit_note": "Needs manual lecture notes or another transcript source before detailed claims should be treated as supported.",
-    "central_question": "How does this lecture use Metric Manifolds to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 10 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: After building nearness and smoothness, the course needs a rule that tells clocks, rulers, and light cones what they measure. The mathematical work to watch is: The operation is evaluating the metric on tangent vectors to compute intervals, norms, angles, volumes, and null directions. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Metric Manifolds, Metric Signature And Light Cones, Proper Time As Clock Reading to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 10 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: After building nearness and smoothness, the course needs a rule that tells clocks, rulers, and light cones what they measure. The course needs a measurement rule that separates possible time-like motion, space-like separation, and light-like travel. The course needs a way to say what a clock actually records along its own path through spacetime. The mathematical work to watch is: The operation is evaluating the metric on tangent vectors to compute intervals, norms, angles, volumes, and null directions. The operation is evaluating the metric on tangent directions and sorting them into time-like, space-like, or null. The operation is evaluating the metric on the path's tangent and adding the resulting clock increments along the path. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "A metric is a smoothly varying inner product on tangent spaces, with Lorentzian signature in spacetime so that time and space enter differently."
+      "A metric is a smoothly varying inner product on tangent spaces, with Lorentzian signature in spacetime so that time and space enter differently.",
+      "Lorentzian signature is the metric's time-space sign pattern, and light cones are the resulting boundaries of causal influence.",
+      "Proper time is the time measured along a time-like path by integrating the metric interval along that path."
     ],
     "reader_warning": "This lecture is not locally transcript-backed. Treat its page as a roadmap for future notes, not as a finished explanation of the lecture."
   },
@@ -189,13 +227,15 @@
     "transcript_status": "available",
     "word_count": 13895,
     "concept_ids": [
-      "symmetry-conservation"
+      "symmetry-conservation",
+      "killing-fields-symmetry-directions"
     ],
     "audit_note": "Transcript-backed with 13895 words available for snippet-level evidence.",
-    "central_question": "How does this lecture use Symmetry and Conservation to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 11 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to recognize when a geometry has sameness that produces simpler motion or conserved quantities. The mathematical work to watch is: The operation is taking a Lie derivative or checking invariance under a flow to see whether geometric data changes. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Symmetry and Conservation, Killing Fields As Symmetry Directions to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 11 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to recognize when a geometry has sameness that produces simpler motion or conserved quantities. The course needs a way to express a continuous symmetry as a direction of motion through spacetime. The mathematical work to watch is: The operation is taking a Lie derivative or checking invariance under a flow to see whether geometric data changes. The operation is checking that the metric's change along the field is zero. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "A symmetry is a structure-preserving map or flow, often expressed by a vector field whose motion leaves the metric unchanged."
+      "A symmetry is a structure-preserving map or flow, often expressed by a vector field whose motion leaves the metric unchanged.",
+      "A Killing field is a vector field whose flow leaves the metric unchanged."
     ],
     "reader_warning": "This lecture has local transcript evidence. Claims should cite snippets or timestamps when they interpret the lecture's argument."
   },
@@ -207,13 +247,15 @@
     "transcript_status": "available",
     "word_count": 5512,
     "concept_ids": [
-      "integration-on-manifolds"
+      "integration-on-manifolds",
+      "stokes-boundary-bulk-accounting"
     ],
     "audit_note": "Transcript-backed with 5512 words available for snippet-level evidence.",
-    "central_question": "How does this lecture use Integration on Manifolds to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 12 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to add local quantities over curved spaces without depending on one coordinate chart. The mathematical work to watch is: The operation is pulling forms back to charts or submanifolds, integrating them there, and using Stokes-type relations between boundary and bulk. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Integration on Manifolds, Stokes' Theorem As Boundary-Bulk Accounting to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 12 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to add local quantities over curved spaces without depending on one coordinate chart. The course needs a rule connecting what is accumulated inside a region with what crosses its boundary. The mathematical work to watch is: The operation is pulling forms back to charts or submanifolds, integrating them there, and using Stokes-type relations between boundary and bulk. The operation is replacing a bulk derivative integral by a boundary integral, or reading boundary data as a bulk statement. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "Differential forms and volume elements package what can be integrated in a coordinate-independent way."
+      "Differential forms and volume elements package what can be integrated in a coordinate-independent way.",
+      "Stokes' theorem says the integral of a derivative-like form over a region equals the integral of the original form over the boundary."
     ],
     "reader_warning": "This lecture has local transcript evidence. Claims should cite snippets or timestamps when they interpret the lecture's argument."
   },
@@ -225,13 +267,17 @@
     "transcript_status": "available",
     "word_count": 13703,
     "concept_ids": [
-      "metric-measurement"
+      "metric-measurement",
+      "metric-signature-light-cones",
+      "proper-time-clock-reading"
     ],
     "audit_note": "Transcript-backed with 13703 words available for snippet-level evidence.",
-    "central_question": "How does this lecture use Metric Manifolds to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 13 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: After building nearness and smoothness, the course needs a rule that tells clocks, rulers, and light cones what they measure. The mathematical work to watch is: The operation is evaluating the metric on tangent vectors to compute intervals, norms, angles, volumes, and null directions. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Metric Manifolds, Metric Signature And Light Cones, Proper Time As Clock Reading to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 13 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: After building nearness and smoothness, the course needs a rule that tells clocks, rulers, and light cones what they measure. The course needs a measurement rule that separates possible time-like motion, space-like separation, and light-like travel. The course needs a way to say what a clock actually records along its own path through spacetime. The mathematical work to watch is: The operation is evaluating the metric on tangent vectors to compute intervals, norms, angles, volumes, and null directions. The operation is evaluating the metric on tangent directions and sorting them into time-like, space-like, or null. The operation is evaluating the metric on the path's tangent and adding the resulting clock increments along the path. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "A metric is a smoothly varying inner product on tangent spaces, with Lorentzian signature in spacetime so that time and space enter differently."
+      "A metric is a smoothly varying inner product on tangent spaces, with Lorentzian signature in spacetime so that time and space enter differently.",
+      "Lorentzian signature is the metric's time-space sign pattern, and light cones are the resulting boundaries of causal influence.",
+      "Proper time is the time measured along a time-like path by integrating the metric interval along that path."
     ],
     "reader_warning": "This lecture has local transcript evidence. Claims should cite snippets or timestamps when they interpret the lecture's argument."
   },
@@ -262,14 +308,20 @@
     "word_count": 7929,
     "concept_ids": [
       "stress-energy-matter",
-      "einstein-equation"
+      "einstein-equation",
+      "ricci-curvature-volume-change",
+      "einstein-tensor-conserved-geometry",
+      "cosmological-constant-vacuum-term"
     ],
     "audit_note": "Transcript-backed with 7929 words available for snippet-level evidence.",
-    "central_question": "How does this lecture use Matter and Stress-Energy, Einstein Equation to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 15 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: Gravity needs a precise account of what matter contributes: not just mass, but energy, momentum, pressure, and stresses. The course needs the law that says how spacetime geometry and matter constrain each other. The mathematical work to watch is: The operation is evaluating its slots against observer directions and surface normals, then requiring local conservation through covariant divergence. The operation is equating the geometric tensor to stress-energy, then solving the resulting coupled nonlinear field equations under boundary or symmetry assumptions. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Matter and Stress-Energy, Einstein Equation, Ricci Curvature As Volume Change, Einstein Tensor As Conserved Geometry, Cosmological Constant As Vacuum Term to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 15 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: Gravity needs a precise account of what matter contributes: not just mass, but energy, momentum, pressure, and stresses. The course needs the law that says how spacetime geometry and matter constrain each other. The course needs the part of curvature that measures how a small bundle of freely moving paths changes size. The course needs the geometry side of the field equation to have the same local conservation behavior as matter. The course needs room for a uniform term in the field equation that behaves like spacetime itself carries energy. The mathematical work to watch is: The operation is evaluating its slots against observer directions and surface normals, then requiring local conservation through covariant divergence. The operation is equating the geometric tensor to stress-energy, then solving the resulting coupled nonlinear field equations under boundary or symmetry assumptions. The operation is contracting slots of the Riemann tensor to keep the part relevant for volume change. The operation is combining Ricci curvature, scalar curvature, and the metric so the result has the required conservation property. The operation is adding this term to the field equation and studying how it changes expansion without clumping like matter. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
       "The stress-energy tensor is the object that measures energy density, momentum flow, pressure, and stress through chosen directions or surfaces.",
-      "The Einstein tensor is built from curvature and the metric so that its covariant divergence vanishes, matching local conservation of stress-energy."
+      "The Einstein tensor is built from curvature and the metric so that its covariant divergence vanishes, matching local conservation of stress-energy.",
+      "Ricci curvature is a contraction of the full curvature tensor that captures focusing or spreading of nearby geodesic families.",
+      "The Einstein tensor is the curvature combination whose covariant divergence vanishes automatically.",
+      "The cosmological constant is a constant term in Einstein's equation, often read as a vacuum energy contribution."
     ],
     "reader_warning": "This lecture has local transcript evidence. Claims should cite snippets or timestamps when they interpret the lecture's argument."
   },
@@ -281,13 +333,21 @@
     "transcript_status": "available",
     "word_count": 8123,
     "concept_ids": [
-      "optical-geometry"
+      "optical-geometry",
+      "geodesics-free-motion",
+      "metric-signature-light-cones",
+      "redshift-as-stretched-light",
+      "gravitational-lensing-focusing"
     ],
     "audit_note": "Transcript-backed with 8123 words available for snippet-level evidence.",
-    "central_question": "How does this lecture use Optical Geometry and Null Geodesics to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 16 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs to explain why light follows paths fixed by spacetime geometry rather than by an external optical medium. The mathematical work to watch is: The operation is solving the geodesic equation under the null condition and comparing neighboring light rays through focusing or lensing. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Optical Geometry and Null Geodesics, Geodesics As Free Motion, Metric Signature And Light Cones, Redshift As Stretched Light, Gravitational Lensing And Focusing to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 16 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs to explain why light follows paths fixed by spacetime geometry rather than by an external optical medium. The course needs a precise replacement for straight-line motion when spacetime may be curved. The course needs a measurement rule that separates possible time-like motion, space-like separation, and light-like travel. The course needs to explain how geometry changes the light that finally reaches an observer. The course needs to explain why masses can change apparent positions and brightness of distant sources. The mathematical work to watch is: The operation is solving the geodesic equation under the null condition and comparing neighboring light rays through focusing or lensing. The operation is checking whether the curve's tangent has zero covariant change along the curve. The operation is evaluating the metric on tangent directions and sorting them into time-like, space-like, or null. The operation is comparing the light's wave direction with the emitter's and observer's time directions. The operation is tracking neighboring light paths and measuring how the bundle changes direction, area, or shape. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "Null geodesics are curves whose tangent has zero metric length and is parallel transported along itself."
+      "Null geodesics are curves whose tangent has zero metric length and is parallel transported along itself.",
+      "A geodesic is a curve whose tangent direction is transported along itself according to the connection.",
+      "Lorentzian signature is the metric's time-space sign pattern, and light cones are the resulting boundaries of causal influence.",
+      "Redshift is the change in measured light frequency between emission and observation along a null path.",
+      "Lensing is the bending and focusing of families of null geodesics by spacetime curvature."
     ],
     "reader_warning": "This lecture has local transcript evidence. Claims should cite snippets or timestamps when they interpret the lecture's argument."
   },
@@ -299,13 +359,15 @@
     "transcript_status": "available",
     "word_count": 12915,
     "concept_ids": [
-      "optical-geometry"
+      "optical-geometry",
+      "gravitational-lensing-focusing"
     ],
     "audit_note": "Transcript-backed with 12915 words available for snippet-level evidence.",
-    "central_question": "How does this lecture use Optical Geometry and Null Geodesics to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 17 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs to explain why light follows paths fixed by spacetime geometry rather than by an external optical medium. The mathematical work to watch is: The operation is solving the geodesic equation under the null condition and comparing neighboring light rays through focusing or lensing. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Optical Geometry and Null Geodesics, Gravitational Lensing And Focusing to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 17 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs to explain why light follows paths fixed by spacetime geometry rather than by an external optical medium. The course needs to explain why masses can change apparent positions and brightness of distant sources. The mathematical work to watch is: The operation is solving the geodesic equation under the null condition and comparing neighboring light rays through focusing or lensing. The operation is tracking neighboring light paths and measuring how the bundle changes direction, area, or shape. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "Null geodesics are curves whose tangent has zero metric length and is parallel transported along itself."
+      "Null geodesics are curves whose tangent has zero metric length and is parallel transported along itself.",
+      "Lensing is the bending and focusing of families of null geodesics by spacetime curvature."
     ],
     "reader_warning": "This lecture has local transcript evidence. Claims should cite snippets or timestamps when they interpret the lecture's argument."
   },
@@ -317,13 +379,15 @@
     "transcript_status": "missing",
     "word_count": 0,
     "concept_ids": [
-      "canonical-formulation"
+      "canonical-formulation",
+      "initial-data-constraints"
     ],
     "audit_note": "Needs manual lecture notes or another transcript source before detailed claims should be treated as supported.",
-    "central_question": "How does this lecture use Canonical Formulation and Constraints to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 18 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to describe spacetime evolution from data on a space-like slice while respecting coordinate freedom. The mathematical work to watch is: The operation is decomposing spacetime into space plus time, identifying constraints, and checking how allowed data evolves. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Canonical Formulation and Constraints, Initial Data Must Satisfy Constraints to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 18 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to describe spacetime evolution from data on a space-like slice while respecting coordinate freedom. The course needs to explain why not every imagined snapshot of space can be the start of a valid spacetime. The mathematical work to watch is: The operation is decomposing spacetime into space plus time, identifying constraints, and checking how allowed data evolves. The operation is checking the constraint equations before using the data as a lawful starting point. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "The canonical formulation rewrites spacetime geometry as slice geometry plus momentum-like data, constrained by the same physics in a different language."
+      "The canonical formulation rewrites spacetime geometry as slice geometry plus momentum-like data, constrained by the same physics in a different language.",
+      "Initial data consists of spatial geometry plus momentum-like change data that obeys Hamiltonian and momentum constraints."
     ],
     "reader_warning": "This lecture is not locally transcript-backed. Treat its page as a roadmap for future notes, not as a finished explanation of the lecture."
   },
@@ -335,13 +399,15 @@
     "transcript_status": "missing",
     "word_count": 0,
     "concept_ids": [
-      "canonical-formulation"
+      "canonical-formulation",
+      "initial-data-constraints"
     ],
     "audit_note": "Needs manual lecture notes or another transcript source before detailed claims should be treated as supported.",
-    "central_question": "How does this lecture use Canonical Formulation and Constraints to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 19 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to describe spacetime evolution from data on a space-like slice while respecting coordinate freedom. The mathematical work to watch is: The operation is decomposing spacetime into space plus time, identifying constraints, and checking how allowed data evolves. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Canonical Formulation and Constraints, Initial Data Must Satisfy Constraints to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 19 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to describe spacetime evolution from data on a space-like slice while respecting coordinate freedom. The course needs to explain why not every imagined snapshot of space can be the start of a valid spacetime. The mathematical work to watch is: The operation is decomposing spacetime into space plus time, identifying constraints, and checking how allowed data evolves. The operation is checking the constraint equations before using the data as a lawful starting point. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "The canonical formulation rewrites spacetime geometry as slice geometry plus momentum-like data, constrained by the same physics in a different language."
+      "The canonical formulation rewrites spacetime geometry as slice geometry plus momentum-like data, constrained by the same physics in a different language.",
+      "Initial data consists of spatial geometry plus momentum-like change data that obeys Hamiltonian and momentum constraints."
     ],
     "reader_warning": "This lecture is not locally transcript-backed. Treat its page as a roadmap for future notes, not as a finished explanation of the lecture."
   },
@@ -353,13 +419,15 @@
     "transcript_status": "missing",
     "word_count": 0,
     "concept_ids": [
-      "cosmology-scale-factor"
+      "cosmology-scale-factor",
+      "scale-factor-expansion-history"
     ],
     "audit_note": "Needs manual lecture notes or another transcript source before detailed claims should be treated as supported.",
-    "central_question": "How does this lecture use Cosmology and Expansion to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 20 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs to apply the field equation to a whole-universe model without pretending every detail of the universe is tracked. The mathematical work to watch is: The operation is imposing homogeneity/isotropy, deriving reduced evolution equations, and reading matter content from how the scale factor changes. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Cosmology and Expansion, Scale Factor As Expansion History to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 20 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs to apply the field equation to a whole-universe model without pretending every detail of the universe is tracked. The course needs one changing quantity that records how large-scale distances evolve in a smoothed universe model. The mathematical work to watch is: The operation is imposing homogeneity/isotropy, deriving reduced evolution equations, and reading matter content from how the scale factor changes. The operation is solving equations for this multiplier from matter content, curvature assumptions, and possible vacuum terms. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "A cosmological model uses symmetry assumptions plus a scale factor to reduce Einstein's equation to equations for large-scale evolution."
+      "A cosmological model uses symmetry assumptions plus a scale factor to reduce Einstein's equation to equations for large-scale evolution.",
+      "The scale factor is the time-dependent multiplier that converts fixed comoving separations into physical separations."
     ],
     "reader_warning": "This lecture is not locally transcript-backed. Treat its page as a roadmap for future notes, not as a finished explanation of the lecture."
   },
@@ -371,13 +439,21 @@
     "transcript_status": "available",
     "word_count": 10354,
     "concept_ids": [
-      "cosmology-scale-factor"
+      "cosmology-scale-factor",
+      "cosmological-constant-vacuum-term",
+      "redshift-as-stretched-light",
+      "scale-factor-expansion-history",
+      "hubble-rate-as-change-of-scale"
     ],
     "audit_note": "Transcript-backed with 10354 words available for snippet-level evidence.",
-    "central_question": "How does this lecture use Cosmology and Expansion to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 21 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs to apply the field equation to a whole-universe model without pretending every detail of the universe is tracked. The mathematical work to watch is: The operation is imposing homogeneity/isotropy, deriving reduced evolution equations, and reading matter content from how the scale factor changes. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Cosmology and Expansion, Cosmological Constant As Vacuum Term, Redshift As Stretched Light, Scale Factor As Expansion History, Hubble Rate As Change Of Scale to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 21 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs to apply the field equation to a whole-universe model without pretending every detail of the universe is tracked. The course needs room for a uniform term in the field equation that behaves like spacetime itself carries energy. The course needs to explain how geometry changes the light that finally reaches an observer. The course needs one changing quantity that records how large-scale distances evolve in a smoothed universe model. The course needs a way to measure how quickly cosmic scale is changing at a given time. The mathematical work to watch is: The operation is imposing homogeneity/isotropy, deriving reduced evolution equations, and reading matter content from how the scale factor changes. The operation is adding this term to the field equation and studying how it changes expansion without clumping like matter. The operation is comparing the light's wave direction with the emitter's and observer's time directions. The operation is solving equations for this multiplier from matter content, curvature assumptions, and possible vacuum terms. The operation is comparing how fast the cosmic scale changes to the current size of that scale. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "A cosmological model uses symmetry assumptions plus a scale factor to reduce Einstein's equation to equations for large-scale evolution."
+      "A cosmological model uses symmetry assumptions plus a scale factor to reduce Einstein's equation to equations for large-scale evolution.",
+      "The cosmological constant is a constant term in Einstein's equation, often read as a vacuum energy contribution.",
+      "Redshift is the change in measured light frequency between emission and observation along a null path.",
+      "The scale factor is the time-dependent multiplier that converts fixed comoving separations into physical separations.",
+      "The Hubble rate is the rate of change of the scale factor divided by the scale factor itself."
     ],
     "reader_warning": "This lecture has local transcript evidence. Claims should cite snippets or timestamps when they interpret the lecture's argument."
   },
@@ -389,13 +465,15 @@
     "transcript_status": "available",
     "word_count": 12534,
     "concept_ids": [
-      "black-holes-horizons"
+      "black-holes-horizons",
+      "event-horizon-causal-boundary"
     ],
     "audit_note": "Transcript-backed with 12534 words available for snippet-level evidence.",
-    "central_question": "How does this lecture use Black Holes and Horizons to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 22 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs to understand regions where causal structure, not escape speed folklore, defines what can communicate outward. The mathematical work to watch is: The operation is tracing null directions and causal relations, often after a coordinate change that removes fake singular behavior. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Black Holes and Horizons, Event Horizon As Causal Boundary to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 22 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs to understand regions where causal structure, not escape speed folklore, defines what can communicate outward. The course needs a definition of a black-hole boundary that depends on what signals can do, not on a material surface. The mathematical work to watch is: The operation is tracing null directions and causal relations, often after a coordinate change that removes fake singular behavior. The operation is tracing future-directed null paths and deciding which events can communicate outward. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "An event horizon is a boundary in spacetime's causal structure; Penrose diagrams compress infinities to show which events can influence which others."
+      "An event horizon is a boundary in spacetime's causal structure; Penrose diagrams compress infinities to show which events can influence which others.",
+      "An event horizon is the boundary separating events that can send light to distant outside observers from events that cannot."
     ],
     "reader_warning": "This lecture has local transcript evidence. Claims should cite snippets or timestamps when they interpret the lecture's argument."
   },
@@ -407,13 +485,17 @@
     "transcript_status": "missing",
     "word_count": 0,
     "concept_ids": [
-      "black-holes-horizons"
+      "black-holes-horizons",
+      "event-horizon-causal-boundary",
+      "penrose-diagrams-compress-infinity"
     ],
     "audit_note": "Needs manual lecture notes or another transcript source before detailed claims should be treated as supported.",
-    "central_question": "How does this lecture use Black Holes and Horizons to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 23 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs to understand regions where causal structure, not escape speed folklore, defines what can communicate outward. The mathematical work to watch is: The operation is tracing null directions and causal relations, often after a coordinate change that removes fake singular behavior. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Black Holes and Horizons, Event Horizon As Causal Boundary, Penrose Diagrams Compress Infinity to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 23 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs to understand regions where causal structure, not escape speed folklore, defines what can communicate outward. The course needs a definition of a black-hole boundary that depends on what signals can do, not on a material surface. The course needs a way to draw causal structure, including infinity, without losing which light paths are possible. The mathematical work to watch is: The operation is tracing null directions and causal relations, often after a coordinate change that removes fake singular behavior. The operation is tracing future-directed null paths and deciding which events can communicate outward. The operation is conformally rescaling the metric so causal directions remain visible while distances are compressed. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "An event horizon is a boundary in spacetime's causal structure; Penrose diagrams compress infinities to show which events can influence which others."
+      "An event horizon is a boundary in spacetime's causal structure; Penrose diagrams compress infinities to show which events can influence which others.",
+      "An event horizon is the boundary separating events that can send light to distant outside observers from events that cannot.",
+      "A Penrose diagram is a rescaled picture that preserves light-cone directions while bringing infinity to a finite edge."
     ],
     "reader_warning": "This lecture is not locally transcript-backed. Treat its page as a roadmap for future notes, not as a finished explanation of the lecture."
   },
@@ -425,13 +507,17 @@
     "transcript_status": "missing",
     "word_count": 0,
     "concept_ids": [
-      "perturbations-waves"
+      "perturbations-waves",
+      "gauge-versus-physical-change",
+      "linearized-equations-small-disturbances"
     ],
     "audit_note": "Needs manual lecture notes or another transcript source before detailed claims should be treated as supported.",
-    "central_question": "How does this lecture use Perturbation Theory and Gravitational Waves to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 24 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to study small departures from a known spacetime and connect them to measurable signals. The mathematical work to watch is: The operation is linearizing the field equations, separating physical modes from coordinate changes, and predicting detector strain. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Perturbation Theory and Gravitational Waves, Gauge Change Versus Physical Change, Linearized Equations For Small Disturbances to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 24 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to study small departures from a known spacetime and connect them to measurable signals. The course needs to separate a real small disturbance from a small change in how the same spacetime is described. The course needs an approximation that keeps the first small effect while discarding higher-order complications. The mathematical work to watch is: The operation is linearizing the field equations, separating physical modes from coordinate changes, and predicting detector strain. The operation is identifying which perturbation changes can be removed by a coordinate change and which remain measurable. The operation is expanding the field equation and discarding terms quadratic or higher in the small disturbance. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "A perturbation is a controlled small change of the metric or matter fields around a background solution."
+      "A perturbation is a controlled small change of the metric or matter fields around a background solution.",
+      "Gauge freedom is the freedom to change description without changing the physical situation.",
+      "Linearization writes the metric as a known background plus a small change and keeps only first-order terms in that change."
     ],
     "reader_warning": "This lecture is not locally transcript-backed. Treat its page as a roadmap for future notes, not as a finished explanation of the lecture."
   },
@@ -443,13 +529,17 @@
     "transcript_status": "missing",
     "word_count": 0,
     "concept_ids": [
-      "perturbations-waves"
+      "perturbations-waves",
+      "gauge-versus-physical-change",
+      "linearized-equations-small-disturbances"
     ],
     "audit_note": "Needs manual lecture notes or another transcript source before detailed claims should be treated as supported.",
-    "central_question": "How does this lecture use Perturbation Theory and Gravitational Waves to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 25 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to study small departures from a known spacetime and connect them to measurable signals. The mathematical work to watch is: The operation is linearizing the field equations, separating physical modes from coordinate changes, and predicting detector strain. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Perturbation Theory and Gravitational Waves, Gauge Change Versus Physical Change, Linearized Equations For Small Disturbances to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 25 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to study small departures from a known spacetime and connect them to measurable signals. The course needs to separate a real small disturbance from a small change in how the same spacetime is described. The course needs an approximation that keeps the first small effect while discarding higher-order complications. The mathematical work to watch is: The operation is linearizing the field equations, separating physical modes from coordinate changes, and predicting detector strain. The operation is identifying which perturbation changes can be removed by a coordinate change and which remain measurable. The operation is expanding the field equation and discarding terms quadratic or higher in the small disturbance. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "A perturbation is a controlled small change of the metric or matter fields around a background solution."
+      "A perturbation is a controlled small change of the metric or matter fields around a background solution.",
+      "Gauge freedom is the freedom to change description without changing the physical situation.",
+      "Linearization writes the metric as a known background plus a small change and keeps only first-order terms in that change."
     ],
     "reader_warning": "This lecture is not locally transcript-backed. Treat its page as a roadmap for future notes, not as a finished explanation of the lecture."
   },
@@ -479,13 +569,19 @@
     "transcript_status": "available",
     "word_count": 17546,
     "concept_ids": [
-      "perturbations-waves"
+      "perturbations-waves",
+      "gauge-versus-physical-change",
+      "linearized-equations-small-disturbances",
+      "quadrupole-source-changing-shape"
     ],
     "audit_note": "Transcript-backed with 17546 words available for snippet-level evidence.",
-    "central_question": "How does this lecture use Perturbation Theory and Gravitational Waves to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 27 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to study small departures from a known spacetime and connect them to measurable signals. The mathematical work to watch is: The operation is linearizing the field equations, separating physical modes from coordinate changes, and predicting detector strain. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Perturbation Theory and Gravitational Waves, Gauge Change Versus Physical Change, Linearized Equations For Small Disturbances, Quadrupole Sources Need Changing Shape to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 27 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to study small departures from a known spacetime and connect them to measurable signals. The course needs to separate a real small disturbance from a small change in how the same spacetime is described. The course needs an approximation that keeps the first small effect while discarding higher-order complications. The course needs to explain what kind of matter motion can radiate gravitational waves. The mathematical work to watch is: The operation is linearizing the field equations, separating physical modes from coordinate changes, and predicting detector strain. The operation is identifying which perturbation changes can be removed by a coordinate change and which remain measurable. The operation is expanding the field equation and discarding terms quadratic or higher in the small disturbance. The operation is tracking how that shape-measure changes in time to estimate emitted gravitational waves. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "A perturbation is a controlled small change of the metric or matter fields around a background solution."
+      "A perturbation is a controlled small change of the metric or matter fields around a background solution.",
+      "Gauge freedom is the freedom to change description without changing the physical situation.",
+      "Linearization writes the metric as a known background plus a small change and keeps only first-order terms in that change.",
+      "The quadrupole moment records the changing nonspherical distribution of mass-energy in a source."
     ],
     "reader_warning": "This lecture has local transcript evidence. Claims should cite snippets or timestamps when they interpret the lecture's argument."
   },
@@ -497,13 +593,17 @@
     "transcript_status": "available",
     "word_count": 13530,
     "concept_ids": [
-      "perturbations-waves"
+      "perturbations-waves",
+      "strain-relative-length-change",
+      "interferometer-light-as-ruler"
     ],
     "audit_note": "Transcript-backed with 13530 words available for snippet-level evidence.",
-    "central_question": "How does this lecture use Perturbation Theory and Gravitational Waves to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
-    "first_principles_role": "Lecture 28 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to study small departures from a known spacetime and connect them to measurable signals. The mathematical work to watch is: The operation is linearizing the field equations, separating physical modes from coordinate changes, and predicting detector strain. A good writeup should make that operation visible before using later terms from relativity.",
+    "central_question": "How does this lecture use Perturbation Theory and Gravitational Waves, Strain As Relative Length Change, Interferometer Light As A Ruler to move the course from everyday geometric intuition toward a usable theory of gravity and light?",
+    "first_principles_role": "Lecture 28 should be read as a step in the course's construction, not as an isolated topic. The ordinary problem is: The course needs a way to study small departures from a known spacetime and connect them to measurable signals. The course needs to say what a gravitational-wave detector actually measures in ordinary terms. The course needs to connect gravitational-wave geometry to the instrument that reads it. The mathematical work to watch is: The operation is linearizing the field equations, separating physical modes from coordinate changes, and predicting detector strain. The operation is comparing two perpendicular arm lengths over time and reading the changing difference. The operation is recombining the light and measuring changes in interference caused by different travel times along the arms. A good writeup should make that operation visible before using later terms from relativity.",
     "mathematical_objects_to_track": [
-      "A perturbation is a controlled small change of the metric or matter fields around a background solution."
+      "A perturbation is a controlled small change of the metric or matter fields around a background solution.",
+      "Strain is fractional length change: change in separation divided by the original separation.",
+      "An interferometer uses split laser light traveling along different arms as an extremely sensitive ruler."
     ],
     "reader_warning": "This lecture has local transcript evidence. Claims should cite snippets or timestamps when they interpret the lecture's argument."
   }

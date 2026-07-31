@@ -1,13 +1,13 @@
 # Atlas Audit
 
-- Concepts: 16
+- Concepts: 47
 - Themes: 5
 - Lecture families: 6
 - Lecture pages: 28
-- Evidence records: 30
-- Strong transcript matches: 23
+- Evidence records: 204
+- Strong transcript matches: 186
 - Moderate transcript-backed records: 0
-- Missing-transcript placeholders: 7
+- Missing-transcript placeholders: 18
 - Lectures with transcripts: 21/28
 
 ## Missing Transcript Coverage

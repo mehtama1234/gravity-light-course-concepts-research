@@ -8,7 +8,15 @@
       "topology-continuity",
       "manifolds-local-flatness",
       "multilinear-objects",
-      "tangent-spaces-fields"
+      "tangent-spaces-fields",
+      "open-sets-neighborhood-tests",
+      "continuous-maps-preserve-nearness",
+      "charts-atlases-coordinate-overlap",
+      "smoothness-change-rates",
+      "dual-vectors-measure-directions",
+      "tensor-components-versus-object",
+      "tangent-vectors-as-derivatives",
+      "vector-fields-as-local-instructions"
     ],
     "subthemes": [
       "Local change",
@@ -26,7 +34,12 @@
     "concept_ids": [
       "connections-parallel-transport",
       "curvature-geodesic-deviation",
-      "metric-measurement"
+      "metric-measurement",
+      "covariant-derivative-corrects-comparison",
+      "geodesics-free-motion",
+      "parallel-transport-loop-test",
+      "riemann-curvature-commutator",
+      "proper-time-clock-reading"
     ],
     "subthemes": [
       "Comparing nearby directions",
@@ -45,7 +58,12 @@
       "integration-on-manifolds",
       "stress-energy-matter",
       "einstein-equation",
-      "canonical-formulation"
+      "canonical-formulation",
+      "ricci-curvature-volume-change",
+      "killing-fields-symmetry-directions",
+      "stokes-boundary-bulk-accounting",
+      "einstein-tensor-conserved-geometry",
+      "initial-data-constraints"
     ],
     "subthemes": [
       "Adding local facts",
@@ -63,7 +81,15 @@
     "answer": "Null geodesics, lensing, wave perturbations, and interferometer strain translate metric structure into observed light paths and measured relative lengths.",
     "concept_ids": [
       "optical-geometry",
-      "perturbations-waves"
+      "perturbations-waves",
+      "metric-signature-light-cones",
+      "redshift-as-stretched-light",
+      "gravitational-lensing-focusing",
+      "gauge-versus-physical-change",
+      "linearized-equations-small-disturbances",
+      "quadrupole-source-changing-shape",
+      "strain-relative-length-change",
+      "interferometer-light-as-ruler"
     ],
     "subthemes": [
       "Causal paths",
@@ -78,7 +104,12 @@
     "answer": "Cosmology, black holes, and wave sources force local geometry, global causal structure, matter, and measurement to operate as one system.",
     "concept_ids": [
       "cosmology-scale-factor",
-      "black-holes-horizons"
+      "black-holes-horizons",
+      "cosmological-constant-vacuum-term",
+      "scale-factor-expansion-history",
+      "hubble-rate-as-change-of-scale",
+      "event-horizon-causal-boundary",
+      "penrose-diagrams-compress-infinity"
     ],
     "subthemes": [
       "Causal boundaries",

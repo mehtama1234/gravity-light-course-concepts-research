@@ -31,13 +31,24 @@ site/index.html
 
 ## Quality Standard
 
-Every lecture and concept page must answer:
+Every lecture, concept, theme, subtheme, and family page must start from first
+principles in plain everyday language. Formal terms are allowed only after the
+page has explained the problem that forces the term to exist.
+
+Every page must answer:
 
 1. What ordinary problem is this mathematical idea solving?
 2. What object does the lecture introduce?
 3. What operation is performed on that object?
 4. Why is that operation needed for gravity or light?
 5. What breaks if the idea is missing?
-6. Which transcript span supports the explanation?
+6. What false picture does the idea replace?
+7. Where does the idea reappear later in the course?
+8. Which transcript span supports the explanation?
 
 Evidence records must capture the lecture argument, not just a keyword hit.
+
+The writing must avoid cliche, filler, and unexplained jargon. A sentence like
+"curvature is important for general relativity" is not acceptable. A useful
+sentence says what curvature measures, what operation reveals it, what physical
+distinction it protects, and what later topic becomes confused without it.
