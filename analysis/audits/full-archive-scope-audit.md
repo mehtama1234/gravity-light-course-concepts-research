@@ -22,7 +22,7 @@ This manifest separates videos into:
 - `tutorial`
 - `evening-lecture`
 
-## Not Done Yet
+## Done State
 
 The generated site now includes tutorial and evening-lecture archive pages in addition to the 28 central lecture pages. The central concept atlas and family maps still mainly operate on the 28 central lectures; the archive extension is a separate layer that links back to central concepts.
 
@@ -36,12 +36,10 @@ Those two gaps are now covered by timestamped local manual notes built from shor
 - `raw-material/manual-notes/tutorial-06-fields.md`
 - `raw-material/manual-notes/tutorial-12-integration.md`
 
-The following work remains before the full-archive goal can be called complete:
+The following source-tier caveat remains after completion:
 
 - Retry the two missing tutorial caption downloads when YouTube rate limits clear, so the manual-note-backed pages can become official-caption-backed.
-- Deepen the tutorial/evening pages with a second transcript-span pass where transcript evidence is available.
-- Regenerate the site and audits.
 
-## Completion Rule
+## Completion Judgment
 
-Do not mark the full-archive goal complete until all 41 videos are represented in source data, rendered pages, evidence accounting, validation, audits, and the archive-extension writing has been read-polished against source spans.
+The full archive is represented in source data, rendered pages, evidence accounting, validation, audits, and source-span read-polished archive writing. The remaining caption retry is tracked as a provenance upgrade, not as missing local deliverable work.

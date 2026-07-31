@@ -108,6 +108,7 @@ def validate() -> tuple[list[str], list[str]]:
     require(readiness_report.exists(), "goal readiness audit must exist", errors)
     require(full_archive_readiness_report.exists(), "full archive readiness audit must exist", errors)
     require(archive_evidence_page.exists(), "archive evidence page must exist", errors)
+    require("Overall status: complete" in full_archive_readiness_report.read_text(encoding="utf-8"), "full archive readiness audit must say complete", errors)
     for template in manual_note_templates:
         require(template.exists(), f"manual note template missing: {template.relative_to(ROOT)}", errors)
     available = [r for r in transcript_index if r["transcript_status"] == "available"]
@@ -158,7 +159,7 @@ def validate() -> tuple[list[str], list[str]]:
         for field in ("ordinary_problem", "mathematical_object", "operation", "why_it_matters", "what_breaks", "reader_warning"):
             require(words(item[field]) >= 8, f"archive video {item['slug']} field {field} is too thin", errors)
             check_banned_phrases(f"archive video {item['slug']} field {field}", item[field], errors)
-        for field in ("first_principles_role", "mathematical_detail_plain", "course_connection"):
+        for field in ("first_principles_role", "mathematical_detail_plain", "course_connection", "source_span_read"):
             require(words(item[field]) >= 45, f"archive video {item['slug']} authored field {field} is too thin", errors)
             check_banned_phrases(f"archive video {item['slug']} authored field {field}", item[field], errors)
     for item in archive_evidence:

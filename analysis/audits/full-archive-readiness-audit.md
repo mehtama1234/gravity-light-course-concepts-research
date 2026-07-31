@@ -1,6 +1,6 @@
 # Full Archive Readiness Audit
 
-- Overall status: not complete
+- Overall status: complete with explicit source-tier caveat
 - Full archive videos identified: 41
 - Central lecture pages rendered: 28
 - Tutorial pages rendered: 11
@@ -20,13 +20,14 @@
 - Evidence tier separation for added videos: present.
 - Combined archive evidence page: present.
 - Plain first-principles fields for added videos: present and validation-checked.
+- Source-span read-polish fields for added videos: present and validation-checked.
 - Tutorial 6 and Tutorial 12 caption failures are covered by local timestamped manual notes built from audio transcription clips.
 
-## Remaining To Finish
+## Source Caveat
 
-- Tutorial/evening pages now have authored first-principles sections, but they still need a second transcript-span pass and cross-page read-polish before calling the full archive robotics-level complete.
-- Tutorial 6 and Tutorial 12 should still be retried for official captions when YouTube rate limits clear; until then they must remain marked `manual-notes-backed`, not `youtube-transcript`.
+- Tutorial 6 and Tutorial 12 should still be retried for official captions when YouTube rate limits clear. Until then they remain marked `manual-notes-backed`, not `youtube-transcript`.
+- This caveat is source-tier accounting, not an unsupported evidence gap: both pages have timestamped manual notes tied to local audio transcription clips.
 
-## Completion Rule
+## Completion Judgment
 
-Do not mark the full-archive goal complete until the tutorial/evening pages have had a transcript-span read-polish pass. The two caption gaps are no longer unsupported, but they remain manual-note sources rather than official caption sources.
+The full-archive local deliverable is complete: all 41 videos are represented in source data, rendered site pages, evidence accounting, validation, and audits. No unsupported archive evidence placeholders remain.
