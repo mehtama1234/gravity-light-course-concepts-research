@@ -62,6 +62,7 @@ def validate() -> tuple[list[str], list[str]]:
     warnings: list[str] = []
 
     transcript_index = load_json(RAW / "transcript-index.json")
+    full_archive_manifest = load_json(RAW / "course-manifests" / "gravity-light-full-archive.json")
     notes_index_path = ROOT / "raw-material" / "external-notes" / "notes-index.json"
     recovery_report = ANALYSIS / "audits" / "source-recovery-report.md"
     readiness_report = ANALYSIS / "audits" / "goal-readiness-audit.md"
@@ -77,6 +78,17 @@ def validate() -> tuple[list[str], list[str]]:
     primitives = load_json(ANALYSIS / "throughlines" / "primitives.json")
 
     require(len(transcript_index) == 28, "transcript index must contain 28 records", errors)
+    full_archive_videos = full_archive_manifest.get("videos", [])
+    full_archive_ids = [item.get("id") for item in full_archive_videos]
+    full_archive_types = [item.get("type") for item in full_archive_videos]
+    require(len(full_archive_videos) == 41, "full archive manifest must contain 41 videos", errors)
+    require(len(set(full_archive_ids)) == 41, "full archive manifest must contain 41 unique video ids", errors)
+    require(full_archive_types.count("central-lecture") == 28, "full archive manifest must contain 28 central lectures", errors)
+    require(full_archive_types.count("tutorial") == 11, "full archive manifest must contain 11 tutorials", errors)
+    require(full_archive_types.count("evening-lecture") == 2, "full archive manifest must contain 2 evening lectures", errors)
+    for item in full_archive_videos:
+        for key in ("archive_index", "type", "type_index", "id", "title"):
+            require(key in item, f"full archive video missing {key}: {item}", errors)
     require(notes_index_path.exists(), "external notes index must exist", errors)
     require(recovery_report.exists(), "source recovery report must exist", errors)
     require(readiness_report.exists(), "goal readiness audit must exist", errors)

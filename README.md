@@ -1,18 +1,21 @@
 # Gravity and Light Course Concepts Research
 
 Transcript-backed first-principles workspace for the International Winter School on
-Gravity and Light 2015 central lecture course.
+Gravity and Light 2015 video archive.
 
 The goal is not a shallow playlist mirror. The generated lab should preserve the
 course's mathematical arc: topology first, then manifolds, tangent spaces, fields,
 connections, curvature, metric geometry, spacetime, Einstein gravity, black holes,
 cosmology, perturbations, quantum matter, and gravitational waves.
 
-## Source Playlist
+## Source Scope
 
 - Playlist: Central Lecture Course
 - URL: https://www.youtube.com/watch?v=7G4SqIboeig&list=PLFeEvEPtX_0S6vxxiiNPrJbLu9aK1UVC_
 - Videos: 28
+- Full channel archive inventory: `raw-material/youtube/course-manifests/gravity-light-full-archive.json`
+- Full archive videos identified: 41
+- Current expansion status: central lecture atlas complete; tutorials and evening lectures inventoried but not yet rendered as full atlas pages.
 
 ## Workflow
 
@@ -58,9 +61,9 @@ distinction it protects, and what later topic becomes confused without it.
 ## Source Recovery
 
 The atlas distinguishes transcript-backed evidence, external-notes-backed
-evidence, and unresolved placeholders. Unresolved canonical-formulation records
-must be handled through `raw-material/manual-notes/` by direct lecture viewing
-before they can be promoted.
+evidence, manual-notes-backed evidence, and unresolved placeholders. The
+canonical-formulation gaps for lectures 18 and 19 are now supported by filled
+timestamp rows in `raw-material/manual-notes/`.
 
 An optional local speech-to-text helper exists at
 `scripts/transcribe_audio_clip.py`. It expects `faster-whisper` in a local
