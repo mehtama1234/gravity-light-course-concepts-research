@@ -144,6 +144,13 @@ def validate() -> tuple[list[str], list[str]]:
     for lecture in lectures:
         for field in ("central_question", "first_principles_role", "reader_warning"):
             require(words(lecture[field]) >= 12, f"lecture {lecture['index']:02d} field {field} is too thin", errors)
+        for field in ("lecture_starting_problem", "lecture_mathematical_turn"):
+            require(words(lecture[field]) >= 65, f"lecture {lecture['index']:02d} field {field} is too thin", errors)
+            check_banned_phrases(f"lecture {lecture['index']:02d} field {field}", lecture[field], errors)
+        require(len(lecture.get("lecture_worked_path", [])) >= 4, f"lecture {lecture['index']:02d} lacks worked path", errors)
+        for step_index, step in enumerate(lecture.get("lecture_worked_path", []), start=1):
+            require(words(step) >= 10, f"lecture {lecture['index']:02d} worked path step {step_index} is too thin", errors)
+            check_banned_phrases(f"lecture {lecture['index']:02d} worked path step {step_index}", step, errors)
         require("mathematical_objects_to_track" in lecture, f"lecture {lecture['index']:02d} missing objects to track", errors)
         require(
             lecture.get("external_notes_support_status") in {"not-needed-transcript-backed", "missing", "supports-assigned-concepts", "source-present-no-assigned-support"},
@@ -391,6 +398,11 @@ def validate_site(concepts: list[dict[str, Any]], errors: list[str]) -> None:
     if math_why_page.exists():
         text = math_why_page.read_text(encoding="utf-8")
         require("The Mathematical Why" in text and "Worked example" in text and "Step-by-step calculation" in text and "The One Move" in text, "math why page lacks required companion language", errors)
+    for index in range(1, 29):
+        lecture_page = SITE / "lectures" / f"{index:02d}.html"
+        if lecture_page.exists():
+            text = lecture_page.read_text(encoding="utf-8")
+            require("Starting Problem" in text and "Mathematical Turn" in text and "Worked Path Through The Lecture" in text, f"lecture page lacks deep teaching layer: {index:02d}", errors)
 
 
 def main() -> int:

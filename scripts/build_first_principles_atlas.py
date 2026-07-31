@@ -1529,6 +1529,7 @@ def build() -> None:
                 "audit_note": lecture_audit_note(record, lecture_notes, notes_supported_concepts, manual_supported_concepts),
                 "central_question": lecture_central_question(record, lecture_concept_ids, concepts),
                 "first_principles_role": lecture_first_principles_role(record, lecture_concept_ids, concepts),
+                **lecture_teaching_layer(record, lecture_concept_ids, concepts),
                 "mathematical_objects_to_track": lecture_objects_to_track(lecture_concept_ids, concepts),
                 "reader_warning": lecture_reader_warning(record, lecture_notes, notes_supported_concepts, manual_supported_concepts),
             }
@@ -1678,6 +1679,51 @@ def lecture_first_principles_role(record: dict[str, Any], concept_ids: list[str]
         f"The mathematical work to watch is: {operations} "
         f"A good writeup should make that operation visible before using later terms from relativity."
     )
+
+
+def lecture_teaching_layer(record: dict[str, Any], concept_ids: list[str], concepts: list[dict[str, Any]]) -> dict[str, Any]:
+    matched = [concept for concept in concepts if concept["id"] in concept_ids]
+    if not matched:
+        return {
+            "lecture_starting_problem": f"Lecture {record['index']:02d} still needs supported concept assignments before a responsible teaching layer can be written.",
+            "lecture_mathematical_turn": "No mathematical turn is asserted yet because the current evidence layer has not assigned a supported concept to this lecture.",
+            "lecture_worked_path": [
+                "Recover transcript evidence or write manual notes for this lecture.",
+                "Assign concepts only where the source supports them.",
+                "State the ordinary problem before naming the mathematical object.",
+                "Keep the page marked as incomplete until that source-backed path exists.",
+            ],
+        }
+    first = matched[0]
+    second = matched[1] if len(matched) > 1 else matched[0]
+    third = matched[2] if len(matched) > 2 else matched[-1]
+    names = ", ".join(concept["name"] for concept in matched[:4])
+    lecture_starting_problem = (
+        f"This lecture starts from a concrete obstruction: {first['ordinary_problem']} "
+        f"It should not be read as a lecture about terminology. The tempting starting picture is: {first['naive_picture']} "
+        f"The lecture uses {names} to replace that picture with a more careful construction. "
+        f"The reader's job is to notice what has to be built before the later gravity statement is allowed: a kind of nearness, a local naming rule, a slot-aware object, a comparison rule, a measurement rule, or a source accounting rule. "
+        f"The point is to make the hidden assumption visible before any formal expression is trusted."
+    )
+    lecture_mathematical_turn = (
+        f"The mathematical turn is to choose the right object and then perform the operation that tests it. "
+        f"For this lecture the first object is: {first['mathematical_object']} "
+        f"The first operation is: {first['operation']} "
+        f"The next linked idea, {second['name']}, keeps the same pressure by asking whether the statement survives a change of chart, basis, observer, path, or local test. "
+        f"By the time the lecture reaches {third['name']}, the reader should be able to say what is being acted on, what operation is legal, and what would break if the operation depended on a preferred drawing."
+    )
+    lecture_worked_path = [
+        f"Begin with the everyday problem: {first['ordinary_problem']}",
+        f"Reject the naive picture: {first['why_naive_fails']}",
+        f"Name the object that carries the idea: {first['mathematical_object']}",
+        f"Perform the operation that makes the idea usable: {first['operation']}",
+        f"Connect it forward through {third['name']}: {third['why_for_gravity_light']}",
+    ]
+    return {
+        "lecture_starting_problem": lecture_starting_problem,
+        "lecture_mathematical_turn": lecture_mathematical_turn,
+        "lecture_worked_path": lecture_worked_path,
+    }
 
 
 def lecture_objects_to_track(concept_ids: list[str], concepts: list[dict[str, Any]]) -> list[str]:

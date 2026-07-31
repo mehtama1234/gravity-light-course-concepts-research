@@ -4,6 +4,7 @@
 - Central concepts: 47
 - Full archive videos represented: 41
 - Tutorial/evening archive pages: 13
+- Lecture deep teaching layers: 28
 - Concept/archive pressure-test records: 33
 - Concepts with tutorial/evening pressure tests: 28
 - Cross-video learning path stages: 7
@@ -20,6 +21,7 @@
 ## Requirements Checked
 
 - Concepts are no longer isolated from the tutorial/evening archive: `analysis/integration/concept-archive-integration.json` links archive videos to concept pages with pressure-test prose, source-span reads, evidence IDs, and source-tier status.
+- Central lecture pages now carry a deeper teaching layer: starting problem, mathematical turn, and worked path through the lecture's main move.
 - Concept pages surface tutorial pressure tests where archive support exists. Validation checks that every archive-supported concept page renders the `Tutorial Pressure Tests` section.
 - The course has a non-linear learning route: `analysis/integration/learning-path.json` and `site/learning-path.html` organize the material by what the reader must be able to do, not only by upload order.
 - The course has a failure map: `analysis/integration/dependency-map.json` and `site/what-breaks.html` state what breaks when important mathematical ideas are skipped and how to repair the gap.
@@ -36,4 +38,4 @@
 
 ## Completion Judgment
 
-The integrated companion deliverable is complete: the site now works as one connected course map rather than 28 lecture pages plus an archive add-on. Each supported concept can point to tutorial/evening pressure, the course has a cross-video route, the dependency failures are explicit, the mathematical-why page gives worked first-principles explanations with step-by-step calculations, themes, subthemes, and families now carry deeper connective teaching layers, validation covers the new artifacts, and the generated site has no missing local links.
+The integrated companion deliverable is complete: the site now works as one connected course map rather than 28 lecture pages plus an archive add-on. Each supported concept can point to tutorial/evening pressure, central lectures have deeper teaching paths, the course has a cross-video route, the dependency failures are explicit, the mathematical-why page gives worked first-principles explanations with step-by-step calculations, themes, subthemes, and families now carry deeper connective teaching layers, validation covers the new artifacts, and the generated site has no missing local links.

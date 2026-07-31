@@ -28,6 +28,16 @@ A concept page is too shallow if it only defines a term. It must include:
 - what breaks without it;
 - transcript-backed evidence.
 
+## Lecture Pages
+
+A lecture page is too shallow if it only lists assigned concepts. It must include:
+
+- the starting problem of the lecture;
+- the mathematical turn made by the lecture;
+- a worked path through the lecture's main move;
+- the objects the reader should track;
+- evidence status and source caveats.
+
 ## Theme Pages
 
 Themes must explain a throughline across lectures. For example, "curvature" must

@@ -244,6 +244,18 @@ def render_lecture_pages(lectures: list[dict[str, Any]], concepts_by_id: dict[st
           <p>{esc(lecture['first_principles_role'])}</p>
         </section>
         <section class="deep-read">
+          <h2>Starting Problem</h2>
+          <p>{esc(lecture['lecture_starting_problem'])}</p>
+        </section>
+        <section class="deep-read">
+          <h2>Mathematical Turn</h2>
+          <p>{esc(lecture['lecture_mathematical_turn'])}</p>
+        </section>
+        <section class="deep-read">
+          <h2>Worked Path Through The Lecture</h2>
+          <ol>{''.join(f"<li>{esc(step)}</li>" for step in lecture['lecture_worked_path'])}</ol>
+        </section>
+        <section class="deep-read">
           <h2>Objects To Track</h2>
           <ul>{objects}</ul>
         </section>
