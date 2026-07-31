@@ -30,6 +30,7 @@ def page(title: str, body: str, prefix: str = "") -> str:
       <a href="{prefix}families.html">Families</a>
       <a href="{prefix}themes.html">Themes</a>
       <a href="{prefix}evidence.html">Evidence</a>
+      <a href="{prefix}archive-evidence.html">Archive Evidence</a>
     </nav>
     """.format(prefix=prefix)
     return f"""<!doctype html>

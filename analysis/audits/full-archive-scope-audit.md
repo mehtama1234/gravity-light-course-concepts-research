@@ -8,6 +8,7 @@
 - Evening lectures rendered in the archive extension: 2
 - Tutorial transcripts recovered: 9/11
 - Evening lecture transcripts recovered: 2/2
+- Manual-note-backed tutorial pages: 2/11
 
 ## New Source Of Truth
 
@@ -30,14 +31,17 @@ Tutorial caption gaps after the first recovery pass:
 - Tutorial 6: Fields (`C4jJe_b0KMs`) failed subtitle download with HTTP 429.
 - Tutorial 12: Integration (`iwbJvfFNRh8`) failed subtitle download with HTTP 429.
 
+Those two gaps are now covered by timestamped local manual notes built from short audio transcription clips:
+
+- `raw-material/manual-notes/tutorial-06-fields.md`
+- `raw-material/manual-notes/tutorial-12-integration.md`
+
 The following work remains before the full-archive goal can be called complete:
 
-- Retry or manually recover the two missing tutorial transcript sources.
-- Deepen the tutorial/evening pages beyond the first archive-extension pass where transcript evidence is available.
-- Fold tutorial/evening evidence into the main evidence views or add a combined full-archive evidence page.
-- Retry or manually recover Tutorial 6 and Tutorial 12 before treating the archive extension as source-complete.
+- Retry the two missing tutorial caption downloads when YouTube rate limits clear, so the manual-note-backed pages can become official-caption-backed.
+- Deepen the tutorial/evening pages with a second transcript-span pass where transcript evidence is available.
 - Regenerate the site and audits.
 
 ## Completion Rule
 
-Do not mark the full-archive goal complete until all 41 videos are represented in source data, rendered pages, evidence accounting, validation, and audits.
+Do not mark the full-archive goal complete until all 41 videos are represented in source data, rendered pages, evidence accounting, validation, audits, and the archive-extension writing has been read-polished against source spans.

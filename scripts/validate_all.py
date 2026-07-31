@@ -69,6 +69,7 @@ def validate() -> tuple[list[str], list[str]]:
     recovery_report = ANALYSIS / "audits" / "source-recovery-report.md"
     readiness_report = ANALYSIS / "audits" / "goal-readiness-audit.md"
     full_archive_readiness_report = ANALYSIS / "audits" / "full-archive-readiness-audit.md"
+    archive_evidence_page = SITE / "archive-evidence.html"
     manual_note_templates = [
         ROOT / "raw-material" / "manual-notes" / "lecture-18-canonical-formulation-gr-i.md",
         ROOT / "raw-material" / "manual-notes" / "lecture-19-canonical-formulation-gr-ii.md",
@@ -106,6 +107,7 @@ def validate() -> tuple[list[str], list[str]]:
     require(recovery_report.exists(), "source recovery report must exist", errors)
     require(readiness_report.exists(), "goal readiness audit must exist", errors)
     require(full_archive_readiness_report.exists(), "full archive readiness audit must exist", errors)
+    require(archive_evidence_page.exists(), "archive evidence page must exist", errors)
     for template in manual_note_templates:
         require(template.exists(), f"manual note template missing: {template.relative_to(ROOT)}", errors)
     available = [r for r in transcript_index if r["transcript_status"] == "available"]
@@ -156,11 +158,18 @@ def validate() -> tuple[list[str], list[str]]:
         for field in ("ordinary_problem", "mathematical_object", "operation", "why_it_matters", "what_breaks", "reader_warning"):
             require(words(item[field]) >= 8, f"archive video {item['slug']} field {field} is too thin", errors)
             check_banned_phrases(f"archive video {item['slug']} field {field}", item[field], errors)
+        for field in ("first_principles_role", "mathematical_detail_plain", "course_connection"):
+            require(words(item[field]) >= 45, f"archive video {item['slug']} authored field {field} is too thin", errors)
+            check_banned_phrases(f"archive video {item['slug']} authored field {field}", item[field], errors)
     for item in archive_evidence:
-        require(item["confidence"] in {"strong", "missing-transcript"}, f"archive evidence {item['id']} has invalid confidence", errors)
+        require(item["confidence"] in {"strong", "manual-notes-backed", "missing-transcript"}, f"archive evidence {item['id']} has invalid confidence", errors)
         if item["confidence"] == "strong":
             require(item["snippet"], f"archive evidence {item['id']} lacks snippet", errors)
             require(item["source_type"] == "youtube-transcript", f"archive evidence {item['id']} has wrong source type", errors)
+        if item["confidence"] == "manual-notes-backed":
+            require(item["snippet"], f"archive manual evidence {item['id']} lacks snippet", errors)
+            require(item["source_type"] == "manual-notes", f"archive manual evidence {item['id']} has wrong source type", errors)
+            require(item.get("manual_note_path"), f"archive manual evidence {item['id']} lacks manual note path", errors)
         if item["confidence"] == "missing-transcript":
             require(item["source_type"] == "unsupported-placeholder", f"archive missing evidence {item['id']} has wrong source type", errors)
 

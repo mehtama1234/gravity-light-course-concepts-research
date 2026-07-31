@@ -8,7 +8,8 @@
 - Tutorial transcripts recovered: 9/11
 - Evening lecture transcripts recovered: 2/2
 - Archive-extension evidence records: 13
-- Unsupported archive-extension evidence records: 2
+- Unsupported archive-extension evidence records: 0
+- Manual-notes-backed archive evidence records: 2
 
 ## Requirements Checked
 
@@ -17,15 +18,15 @@
 - Tutorial and evening lecture index pages: present.
 - Individual archive pages for the 13 added videos: present.
 - Evidence tier separation for added videos: present.
+- Combined archive evidence page: present.
 - Plain first-principles fields for added videos: present and validation-checked.
+- Tutorial 6 and Tutorial 12 caption failures are covered by local timestamped manual notes built from audio transcription clips.
 
 ## Remaining To Finish
 
-- Tutorial 6: Fields needs a transcript retry, external source, or filled manual timestamp notes.
-- Tutorial 12: Integration needs a transcript retry, external source, or filled manual timestamp notes.
-- The archive evidence should be surfaced in a combined full-archive evidence view, not only in `analysis/archive/evidence-ledger.json`.
-- Tutorial/evening pages should be deepened against transcript spans before calling them robotics-level complete.
+- Tutorial/evening pages now have authored first-principles sections, but they still need a second transcript-span pass and cross-page read-polish before calling the full archive robotics-level complete.
+- Tutorial 6 and Tutorial 12 should still be retried for official captions when YouTube rate limits clear; until then they must remain marked `manual-notes-backed`, not `youtube-transcript`.
 
 ## Completion Rule
 
-Do not mark the full-archive goal complete until the two unsupported archive evidence records are recovered or explicitly waived with source-audit justification, and the rendered archive layer is integrated into the main evidence/navigation story.
+Do not mark the full-archive goal complete until the tutorial/evening pages have had a transcript-span read-polish pass. The two caption gaps are no longer unsupported, but they remain manual-note sources rather than official caption sources.
