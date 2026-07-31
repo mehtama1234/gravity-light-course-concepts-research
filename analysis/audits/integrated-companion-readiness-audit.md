@@ -11,8 +11,10 @@
 - Mathematical-why companion sections: 12
 - Mathematical-why calculation steps: 48
 - Theme first-principles sections: 15
+- Subtheme records: 16
+- Subtheme worked-path steps: 48
 - Family worked-chain steps: 24
-- Site HTML pages: 100
+- Site HTML pages: 101
 - Unsupported archive evidence placeholders: 0
 
 ## Requirements Checked
@@ -22,7 +24,7 @@
 - The course has a non-linear learning route: `analysis/integration/learning-path.json` and `site/learning-path.html` organize the material by what the reader must be able to do, not only by upload order.
 - The course has a failure map: `analysis/integration/dependency-map.json` and `site/what-breaks.html` state what breaks when important mathematical ideas are skipped and how to repair the gap.
 - The course has a mathematical-why companion: `analysis/integration/math-why.json` and `site/the-math-why.html` explain the main course moves with ordinary problems, mathematical operations, worked examples, step-by-step calculations, why-the-move works, and later payoff.
-- Families and themes surface tutorial pressure instead of treating tutorials as archive extras. They also include hand-authored first-principles explanations, theme mathematical principles, subtheme bridges, and family worked chains. Validation checks that `site/families.html` and `site/themes.html` render these sections.
+- Families and themes surface tutorial pressure instead of treating tutorials as archive extras. They also include hand-authored first-principles explanations, theme mathematical principles, subtheme bridges, and family worked chains. A dedicated subtheme layer now explains the middle concepts between single pages and full themes. Validation checks that `site/families.html`, `site/themes.html`, and `site/subthemes.html` render these sections.
 - Navigation links the companion pages across the generated site, including archive pages.
 - Source tiers remain explicit: tutorial/evening evidence is either `youtube-transcript` or `manual-notes`; no unsupported archive placeholders remain.
 - Writing constraints remain enforced by validation: banned phrases are checked, and pressure-test, learning-path, dependency-map, mathematical-why calculation, and source-span fields have minimum depth gates.
@@ -34,4 +36,4 @@
 
 ## Completion Judgment
 
-The integrated companion deliverable is complete: the site now works as one connected course map rather than 28 lecture pages plus an archive add-on. Each supported concept can point to tutorial/evening pressure, the course has a cross-video route, the dependency failures are explicit, the mathematical-why page gives worked first-principles explanations with step-by-step calculations, themes and families now carry deeper connective teaching layers, validation covers the new artifacts, and the generated site has no missing local links.
+The integrated companion deliverable is complete: the site now works as one connected course map rather than 28 lecture pages plus an archive add-on. Each supported concept can point to tutorial/evening pressure, the course has a cross-video route, the dependency failures are explicit, the mathematical-why page gives worked first-principles explanations with step-by-step calculations, themes, subthemes, and families now carry deeper connective teaching layers, validation covers the new artifacts, and the generated site has no missing local links.

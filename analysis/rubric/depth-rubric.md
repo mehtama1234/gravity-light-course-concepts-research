@@ -40,6 +40,17 @@ Each theme must also include:
 - the mathematical principle in plain language;
 - a bridge across its subthemes.
 
+## Subtheme Pages
+
+Subthemes are the middle layer between a single concept and a full course theme.
+Each subtheme must include:
+
+- the ordinary problem it solves;
+- the core mathematical move;
+- why that move cannot be skipped;
+- a short worked path connecting the move to later use;
+- links back to the concepts that carry the subtheme.
+
 ## Family Pages
 
 Families are too shallow if they only group lectures by topic. They must include:

@@ -74,6 +74,7 @@ def validate() -> tuple[list[str], list[str]]:
     learning_path_page = SITE / "learning-path.html"
     dependency_map_page = SITE / "what-breaks.html"
     math_why_page = SITE / "the-math-why.html"
+    subthemes_page = SITE / "subthemes.html"
     manual_note_templates = [
         ROOT / "raw-material" / "manual-notes" / "lecture-18-canonical-formulation-gr-i.md",
         ROOT / "raw-material" / "manual-notes" / "lecture-19-canonical-formulation-gr-ii.md",
@@ -82,6 +83,7 @@ def validate() -> tuple[list[str], list[str]]:
     evidence = load_json(ANALYSIS / "evidence" / "evidence-ledger.json")
     lectures = load_json(ANALYSIS / "lectures" / "lecture-atlas.json")
     themes = load_json(ANALYSIS / "themes" / "theme-map.json")
+    subthemes = load_json(ANALYSIS / "themes" / "subtheme-map.json")
     families = load_json(ANALYSIS / "families" / "family-map.json")
     primitives = load_json(ANALYSIS / "throughlines" / "primitives.json")
     archive_videos = load_json(ANALYSIS / "archive" / "video-atlas.json")
@@ -120,6 +122,7 @@ def validate() -> tuple[list[str], list[str]]:
     require(learning_path_page.exists(), "learning path page must exist", errors)
     require(dependency_map_page.exists(), "what-breaks dependency page must exist", errors)
     require(math_why_page.exists(), "mathematical why page must exist", errors)
+    require(subthemes_page.exists(), "subthemes page must exist", errors)
     require("Overall status: complete" in full_archive_readiness_report.read_text(encoding="utf-8"), "full archive readiness audit must say complete", errors)
     require("Overall status: complete" in integrated_companion_readiness_report.read_text(encoding="utf-8"), "integrated companion readiness audit must say complete", errors)
     for template in manual_note_templates:
@@ -162,6 +165,7 @@ def validate() -> tuple[list[str], list[str]]:
     require(len(concepts) >= 40, "robotics-grade atlas should contain at least 40 concepts", errors)
     require(len(evidence) >= 130, "robotics-grade atlas should contain at least 130 evidence records", errors)
     require(len(themes) >= 5, "theme map should contain at least 5 themes", errors)
+    require(len(subthemes) >= 16, "subtheme map should contain the course subthemes", errors)
     require(len(families) >= 6, "family map should contain at least 6 lecture families", errors)
     require(len(primitives) >= 4, "throughline primitives should contain at least 4 entries", errors)
     require(len(archive_videos) == 13, "archive video atlas must contain 13 tutorial/evening records", errors)
@@ -300,6 +304,18 @@ def validate() -> tuple[list[str], list[str]]:
         for field in ("first_principles_walkthrough", "mathematical_principle_plain", "subtheme_bridge"):
             require(words(theme[field]) >= 45, f"theme {theme['id']} field {field} is too thin", errors)
 
+    for subtheme in subthemes:
+        require(subtheme["concept_ids"], f"subtheme {subtheme.get('id')} has no concepts", errors)
+        require(len(subtheme.get("worked_path", [])) >= 3, f"subtheme {subtheme.get('id')} lacks worked path steps", errors)
+        for concept_id in subtheme["concept_ids"]:
+            require(concept_id in concept_ids, f"subtheme {subtheme.get('id')} points to missing concept {concept_id}", errors)
+        for field in ("ordinary_problem", "core_move", "why_critical"):
+            require(words(subtheme[field]) >= 24, f"subtheme {subtheme.get('id')} field {field} is too thin", errors)
+            check_banned_phrases(f"subtheme {subtheme.get('id')} field {field}", subtheme[field], errors)
+        for step_index, step in enumerate(subtheme.get("worked_path", []), start=1):
+            require(words(step) >= 8, f"subtheme {subtheme.get('id')} worked path step {step_index} is too thin", errors)
+            check_banned_phrases(f"subtheme {subtheme.get('id')} worked path step {step_index}", step, errors)
+
     for family in families:
         require(family["concept_ids"], f"family {family['id']} has no concepts", errors)
         require(len(family.get("worked_chain", [])) >= 4, f"family {family['id']} lacks worked chain steps", errors)
@@ -324,6 +340,7 @@ def validate_site(concepts: list[dict[str, Any]], errors: list[str]) -> None:
         SITE / "concepts.html",
         SITE / "families.html",
         SITE / "themes.html",
+        SITE / "subthemes.html",
         SITE / "learning-path.html",
         SITE / "what-breaks.html",
         SITE / "the-math-why.html",
@@ -352,6 +369,7 @@ def validate_site(concepts: list[dict[str, Any]], errors: list[str]) -> None:
             require("Tutorial Pressure Tests" in concept_page.read_text(encoding="utf-8"), f"concept page lacks tutorial pressure tests: {concept_id}", errors)
     families_page = SITE / "families.html"
     themes_page = SITE / "themes.html"
+    subthemes_page = SITE / "subthemes.html"
     learning_path_page = SITE / "learning-path.html"
     dependency_map_page = SITE / "what-breaks.html"
     math_why_page = SITE / "the-math-why.html"
@@ -361,6 +379,9 @@ def validate_site(concepts: list[dict[str, Any]], errors: list[str]) -> None:
     if themes_page.exists():
         text = themes_page.read_text(encoding="utf-8")
         require("Tutorial pressure in this theme" in text and "Mathematical Principle" in text and "Subtheme Bridge" in text, "themes page lacks required deep theme sections", errors)
+    if subthemes_page.exists():
+        text = subthemes_page.read_text(encoding="utf-8")
+        require("Subthemes" in text and "Ordinary problem" in text and "Worked Path" in text, "subthemes page lacks required subtheme language", errors)
     if learning_path_page.exists():
         text = learning_path_page.read_text(encoding="utf-8")
         require("Cross-Video Learning Path" in text and "Reader task" in text, "learning path page lacks required route language", errors)

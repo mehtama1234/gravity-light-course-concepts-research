@@ -29,6 +29,7 @@ def page(title: str, body: str, prefix: str = "") -> str:
       <a href="{prefix}concepts.html">Concepts</a>
       <a href="{prefix}families.html">Families</a>
       <a href="{prefix}themes.html">Themes</a>
+      <a href="{prefix}subthemes.html">Subthemes</a>
       <a href="{prefix}learning-path.html">Learning Path</a>
       <a href="{prefix}what-breaks.html">What Breaks</a>
       <a href="{prefix}the-math-why.html">Math Why</a>
@@ -62,7 +63,7 @@ def lecture_link(lecture: dict[str, Any]) -> str:
     return f"lectures/{lecture['index']:02d}.html"
 
 
-def render_home(concepts: list[dict[str, Any]], lectures: list[dict[str, Any]], themes: list[dict[str, Any]], evidence: list[dict[str, Any]], families: list[dict[str, Any]]) -> None:
+def render_home(concepts: list[dict[str, Any]], lectures: list[dict[str, Any]], themes: list[dict[str, Any]], evidence: list[dict[str, Any]], families: list[dict[str, Any]], subthemes: list[dict[str, Any]]) -> None:
     available = sum(1 for lecture in lectures if lecture["transcript_status"] == "available")
     missing = len(lectures) - available
     body = f"""
@@ -77,7 +78,7 @@ def render_home(concepts: list[dict[str, Any]], lectures: list[dict[str, Any]], 
       <div><strong>{available}</strong><span>transcript-backed</span></div>
       <div><strong>{len(concepts)}</strong><span>concept pages</span></div>
       <div><strong>{len(families)}</strong><span>families</span></div>
-      <div><strong>{len(evidence)}</strong><span>evidence records</span></div>
+      <div><strong>{len(subthemes)}</strong><span>subthemes</span></div>
       <div><strong>{missing}</strong><span>needs notes</span></div>
     </section>
 
@@ -93,6 +94,14 @@ def render_home(concepts: list[dict[str, Any]], lectures: list[dict[str, Any]], 
       <div class="theme-list">
         {''.join(render_theme_summary(theme) for theme in themes)}
       </div>
+    </section>
+
+    <section>
+      <h2>Subthemes</h2>
+      <div class="theme-list">
+        {''.join(render_subtheme_summary(subtheme) for subtheme in subthemes[:6])}
+      </div>
+      <p><a href="subthemes.html">Open all subthemes</a></p>
     </section>
 
     <section>
@@ -125,6 +134,17 @@ def render_theme_summary(theme: dict[str, Any]) -> str:
       <p>{esc(theme['answer'])}</p>
       <p>{esc(theme['mathematical_principle_plain'])}</p>
       <p class="quiet">{esc(theme['why_the_math_matters'])}</p>
+    </article>
+    """
+
+
+def render_subtheme_summary(subtheme: dict[str, Any]) -> str:
+    return f"""
+    <article class="row-block">
+      <h3>{esc(subtheme['name'])}</h3>
+      <p><strong>{esc(subtheme['theme'])}</strong></p>
+      <p>{esc(subtheme['core_move'])}</p>
+      <p class="quiet">{esc(subtheme['why_critical'])}</p>
     </article>
     """
 
@@ -401,6 +421,42 @@ def render_themes(themes: list[dict[str, Any]], concepts_by_id: dict[str, dict[s
     write(SITE / "themes.html", page("Themes", "<h1>Themes and Subthemes</h1>" + "\n".join(blocks)))
 
 
+def render_subthemes(subthemes: list[dict[str, Any]], concepts_by_id: dict[str, dict[str, Any]]) -> None:
+    blocks = []
+    for subtheme in subthemes:
+        links = " ".join(
+            f"<a class=\"chip\" href=\"{concept_link(concepts_by_id[cid])}\">{esc(concepts_by_id[cid]['name'])}</a>"
+            for cid in subtheme["concept_ids"]
+            if cid in concepts_by_id
+        )
+        worked_path = "".join(f"<li>{esc(step)}</li>" for step in subtheme["worked_path"])
+        blocks.append(
+            f"""
+            <article class="family-block">
+              <p class="eyebrow">{esc(subtheme['theme'])}</p>
+              <h2>{esc(subtheme['name'])}</h2>
+              <p><strong>Ordinary problem:</strong> {esc(subtheme['ordinary_problem'])}</p>
+              <p><strong>Core move:</strong> {esc(subtheme['core_move'])}</p>
+              <p><strong>Why it cannot be skipped:</strong> {esc(subtheme['why_critical'])}</p>
+              <section class="deep-read">
+                <h3>Worked Path</h3>
+                <ol>{worked_path}</ol>
+              </section>
+              <p>{links}</p>
+            </article>
+            """
+        )
+    body = f"""
+    <section class="intro">
+      <p class="eyebrow">Gravity and Light connective layer</p>
+      <h1>Subthemes</h1>
+      <p class="lede">These are the smaller bridges between individual concepts and the large course themes. Each one states the everyday problem, the mathematical move, and the short path a reader should be able to follow.</p>
+    </section>
+    {''.join(blocks)}
+    """
+    write(SITE / "subthemes.html", page("Subthemes", body))
+
+
 def render_families(families: list[dict[str, Any]], concepts_by_id: dict[str, dict[str, Any]], integration_by_concept: dict[str, list[dict[str, Any]]]) -> None:
     blocks = []
     for family in families:
@@ -639,6 +695,7 @@ def main() -> int:
     evidence = load_json(ANALYSIS / "evidence" / "evidence-ledger.json")
     lectures = load_json(ANALYSIS / "lectures" / "lecture-atlas.json")
     themes = load_json(ANALYSIS / "themes" / "theme-map.json")
+    subthemes = load_json(ANALYSIS / "themes" / "subtheme-map.json")
     families = load_json(ANALYSIS / "families" / "family-map.json")
     integration = load_json(ANALYSIS / "integration" / "concept-archive-integration.json")
     learning_path = load_json(ANALYSIS / "integration" / "learning-path.json")
@@ -650,13 +707,14 @@ def main() -> int:
     integration_by_concept: dict[str, list[dict[str, Any]]] = {}
     for item in integration:
         integration_by_concept.setdefault(item["concept_id"], []).append(item)
-    render_home(concepts, lectures, themes, evidence, families)
+    render_home(concepts, lectures, themes, evidence, families, subthemes)
     render_lectures(lectures, concepts_by_id)
     render_lecture_pages(lectures, concepts_by_id, families)
     render_concepts(concepts)
     render_concept_pages(concepts, evidence_by_id, integration_by_concept)
     render_families(families, concepts_by_id, integration_by_concept)
     render_themes(themes, concepts_by_id, integration_by_concept)
+    render_subthemes(subthemes, concepts_by_id)
     render_learning_path(learning_path, concepts_by_id, archive_by_slug)
     render_dependency_map(dependency_map, concepts_by_id)
     render_evidence(evidence)

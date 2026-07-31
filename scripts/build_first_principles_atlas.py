@@ -893,6 +893,169 @@ THEMES = [
     },
 ]
 
+SUBTHEME_DEPTH = {
+    "Nearness before measurement": {
+        "ordinary_problem": "The course needs continuity before it has a right to use distance. A curve, field, or map must be able to vary without jumping even when no meter stick has been chosen.",
+        "core_move": "Use open regions as tests of local room. A map is continuous when every allowed room on the output side pulls back to an allowed room on the input side.",
+        "why_critical": "This stops later smooth formulas from hiding jumps. If nearness is not settled first, derivatives, fields, and light cones can look legal only because a bad coordinate picture made them look legal.",
+        "worked_path": [
+            "Pick a point and an output room around where the map sends it.",
+            "Pull that room back to all input points that land there.",
+            "Accept the map only if that pulled-back set is also a local room.",
+        ],
+    },
+    "Local descriptions": {
+        "ordinary_problem": "A curved space usually cannot be named by one global coordinate system. The course still needs calculus, but it cannot let one local naming choice become the physical object.",
+        "core_move": "Cover the space with charts and use overlap maps to translate between charts. A derivative or smooth statement is trusted only when it survives those translations.",
+        "why_critical": "This is the protection against false singularities and bad coordinate panic. Horizons, poles, and chart edges must be tested as naming failures before being treated as spacetime failures.",
+        "worked_path": [
+            "Name one patch with one chart and the overlapping patch with another chart.",
+            "Convert coordinates through the overlap map where both charts describe the same point.",
+            "Check whether the calculation stays smooth and meaningful after the conversion.",
+        ],
+    },
+    "Slot structure": {
+        "ordinary_problem": "Relativity uses quantities that point, measure, pair, and combine directions. Treating every object as a list of numbers loses what the object actually does.",
+        "core_move": "Define tensors by their slots and by how they act on allowed inputs. Components appear only after a basis is chosen and the object is displayed in that basis.",
+        "why_critical": "The metric, curvature, stress-energy, and Einstein tensor only make sense as tensor objects. Without slot discipline, the field equation becomes array matching instead of a coordinate-independent law.",
+        "worked_path": [
+            "Choose the object by naming what inputs it accepts.",
+            "Feed basis vectors or covectors into its slots to get component numbers.",
+            "Change basis and track the stable rule rather than the changing display.",
+        ],
+    },
+    "Local change": {
+        "ordinary_problem": "The theory needs directions, velocities, and fields without drawing arrows in a surrounding flat space. Everything has to be defined from inside the manifold.",
+        "core_move": "Treat a tangent vector as an action on functions at a point, then treat a field as a smooth assignment of one allowed object over each point.",
+        "why_critical": "Observers, light rays, matter variables, and gravitational variables are all local assignments before they are measured by the metric. Without this layer, later dynamics borrows flat-space intuition without permission.",
+        "worked_path": [
+            "Choose a local test function that can be evaluated near the point.",
+            "Let a curve through the point define a directional rate of change of that function.",
+            "Assign such local direction rules point by point to form a field.",
+        ],
+    },
+    "Comparing nearby directions": {
+        "ordinary_problem": "A vector at one event and a vector at another event cannot be subtracted until the theory says how their tangent spaces are being compared.",
+        "core_move": "Introduce a connection, use it to transport directions between nearby tangent spaces, and define covariant change only after the comparison rule has been applied.",
+        "why_critical": "Free motion, acceleration, and geodesics are not well-defined on a curved manifold without a comparison rule. Otherwise coordinate drift can be mistaken for physical change.",
+        "worked_path": [
+            "Carry a vector from the first point toward the second point using the connection.",
+            "Compare the carried vector with the vector already at the second point.",
+            "Call the remaining difference the covariant change of the field in that direction.",
+        ],
+    },
+    "Tidal facts": {
+        "ordinary_problem": "One falling observer can remove much of the felt gravity locally, but neighboring falling observers can still move closer together or farther apart in a measurable way.",
+        "core_move": "Measure curvature by comparing transported directions around loops or by comparing neighboring geodesics. The mismatch or relative acceleration is the local gravitational content in that region.",
+        "why_critical": "This separates real gravity from coordinate acceleration. Curvature is not one body's pull; it is the failure of nearby free motions to fit one shared flat comparison rule.",
+        "worked_path": [
+            "Move a direction around a tiny loop in two different orders.",
+            "Compare the two final directions after returning to the same point.",
+            "Read the mismatch as curvature, scaled to the size of the loop.",
+        ],
+    },
+    "Measurement becomes a field": {
+        "ordinary_problem": "Clocks, rulers, volumes, and light cones cannot be fixed background tools if gravity changes what they read from event to event in curved spacetime.",
+        "core_move": "Use the metric as a point-by-point measuring rule on tangent directions. It assigns intervals and separates time-like, space-like, and null directions.",
+        "why_critical": "The metric is how geometry becomes physical measurement. Without it, the course has no proper time, no causal order, no light cones, and no field equation for spacetime geometry.",
+        "worked_path": [
+            "Pick a tangent direction at an event where a clock or light signal could pass.",
+            "Evaluate the metric on that direction with itself.",
+            "Use the result to decide whether the direction is clock-like, space-like, or light-like.",
+        ],
+    },
+    "Sameness as a calculation": {
+        "ordinary_problem": "A conserved quantity cannot be assumed just because a drawing looks symmetric. The theory needs a test for real preserved structure in the geometry.",
+        "core_move": "Move the geometric data along a flow and check whether the relevant structure, often the metric, stays unchanged under that motion through the spacetime.",
+        "why_critical": "Energy-like and angular-momentum-like quantities exist only when the spacetime has the needed sameness. Otherwise conservation language can be imported where it does not belong.",
+        "worked_path": [
+            "Choose a flow that moves points through the spacetime.",
+            "Compare the metric before and after that move.",
+            "Treat the flow as a symmetry only if the metric is preserved.",
+        ],
+    },
+    "Adding local facts": {
+        "ordinary_problem": "Actions, fluxes, source totals, and boundary terms add information over regions, but the answer must not depend on the coordinates used to do the adding.",
+        "core_move": "Use forms and volume elements that transform with the right compensating factor under chart changes. Then use boundary-bulk relations such as Stokes' theorem.",
+        "why_critical": "This is what makes global totals and variational principles geometric rather than chart recipes. If the adding rule is wrong, the law changes when the map changes.",
+        "worked_path": [
+            "Write the local quantity as something that can be integrated over the region.",
+            "Change charts and track the cell-size factor.",
+            "Use the form's transformation to keep the final total unchanged.",
+        ],
+    },
+    "What gravitates": {
+        "ordinary_problem": "Mass alone is not enough in relativity. The source of geometry must include energy, momentum flow, pressure, and stress in one local matter object.",
+        "core_move": "Use the stress-energy tensor as a measuring rule for matter content through observer directions and chosen surfaces at an event in curved spacetime.",
+        "why_critical": "Einstein's equation needs a source with the same tensor bookkeeping as the geometry side. Without stress-energy, pressure and momentum are lost even though they affect gravity.",
+        "worked_path": [
+            "Choose an observer direction and a surface direction.",
+            "Evaluate stress-energy on those directions to read the local matter bookkeeping.",
+            "Read the result as energy density, momentum flow, pressure, or stress depending on the slots chosen.",
+        ],
+    },
+    "Geometry coupled to matter": {
+        "ordinary_problem": "The course needs one law joining spacetime geometry to matter without breaking tensor meaning, coordinate independence, or local conservation in any coordinate system used.",
+        "core_move": "Build a divergence-free geometry tensor from curvature and the metric, then equate it to stress-energy with constants that set units and strength.",
+        "why_critical": "This is the course's central balance rule. It makes black holes, cosmology, light bending, and waves different uses of one coupled geometric law together.",
+        "worked_path": [
+            "Use the metric and its connection to build curvature from local comparison rules.",
+            "Compress curvature into the Einstein tensor with zero covariant divergence.",
+            "Set that tensor equal to stress-energy times the physical constants.",
+        ],
+    },
+    "Causal paths": {
+        "ordinary_problem": "Observation and signaling depend on which paths light can take through spacetime, not on how a path looks in a drawing or coordinate plot.",
+        "core_move": "Use the metric to find null directions at each event and then solve for null geodesics, the straightest possible light paths in curved spacetime.",
+        "why_critical": "This connects geometry to what can be seen by observers. Lensing, time delay, horizons, and signal reach are all questions about allowed light paths.",
+        "worked_path": [
+            "Find directions where the metric interval is zero.",
+            "Require the tangent to transport itself along the path.",
+            "Use the resulting null geodesic to decide what signal can arrive.",
+        ],
+    },
+    "Allowed initial data": {
+        "ordinary_problem": "A spacetime cannot be evolved from arbitrary-looking data on a slice. The slice data must already satisfy the geometric constraints of the theory.",
+        "core_move": "Rewrite spacetime as spatial geometry plus momentum-like data, then impose the Hamiltonian and momentum constraints before treating the data as allowed initial data.",
+        "why_critical": "Without the constraints, numerical evolution and canonical reasoning can start from impossible data. The error then looks like dynamics even though the starting point was unlawful.",
+        "worked_path": [
+            "Choose the geometry of a spatial slice as the proposed starting surface.",
+            "Choose the matching momentum-like data for how it changes.",
+            "Check the constraints before using the data as a spacetime starting point.",
+        ],
+    },
+    "Large-scale geometry": {
+        "ordinary_problem": "Cosmic expansion is often misread as galaxies moving through an outside container. The course needs the cleaner idea of a changing measuring rule over time.",
+        "core_move": "Use symmetry to reduce the metric to a scale factor and read expansion from the change of that factor over cosmic time in the model.",
+        "why_critical": "This ties redshift, Hubble rate, matter content, and expansion history to one geometric model. Without it, cosmology becomes a story about motion through fixed empty space.",
+        "worked_path": [
+            "Choose a fixed reference separation between comoving points.",
+            "Multiply it by the scale factor to get the model's measured separation.",
+            "Read redshift and Hubble rate from how that factor changes.",
+        ],
+    },
+    "Causal boundaries": {
+        "ordinary_problem": "A black hole is not best understood as a dark material surface. The important question is which future-directed signals can escape to outside observers.",
+        "core_move": "Follow future light paths and define the horizon as the boundary between events that can signal outward and events that cannot signal outward to infinity.",
+        "why_critical": "This prevents the horizon from being mistaken for a wall or a coordinate artifact. Penrose diagrams help only because they preserve causal order, not ordinary distance.",
+        "worked_path": [
+            "Draw the allowed future light directions at an event.",
+            "Ask whether any future light path reaches distant outside observers.",
+            "Mark the horizon as the boundary of the no-escape region.",
+        ],
+    },
+    "Small signals": {
+        "ordinary_problem": "Real gravitational-wave observations involve tiny departures from a background geometry, not exact dramatic spacetime solutions or visible ripples in space seen directly by observers.",
+        "core_move": "Write the metric as a background plus a small disturbance, keep controlled first-order terms, and connect the disturbance to measured strain in detector arms.",
+        "why_critical": "This is how the abstract metric becomes detector evidence. Without the small-signal discipline, a coordinate wiggle can be confused with a wave, or a wave can be left without a measured quantity.",
+        "worked_path": [
+            "Separate the background metric from the small change.",
+            "Keep the terms that are first order in the small change.",
+            "Read the physical signal as relative length change in a detector.",
+        ],
+    },
+}
+
 
 FAMILIES = [
     {
@@ -1382,6 +1545,7 @@ def build() -> None:
                 "why_the_math_matters": theme_why(theme["id"]),
             }
         )
+    subtheme_map = build_subtheme_map(concepts)
 
     primitives = [
         {
@@ -1410,10 +1574,30 @@ def build() -> None:
     write_json(ANALYSIS / "evidence" / "evidence-ledger.json", evidence_records)
     write_json(ANALYSIS / "lectures" / "lecture-atlas.json", lecture_atlas)
     write_json(ANALYSIS / "themes" / "theme-map.json", theme_map)
+    write_json(ANALYSIS / "themes" / "subtheme-map.json", subtheme_map)
     write_json(ANALYSIS / "families" / "family-map.json", build_family_map(concepts, lecture_atlas))
     write_json(ANALYSIS / "throughlines" / "primitives.json", primitives)
     write_audit(concepts, evidence_records, lecture_atlas, theme_map, FAMILIES)
-    print(f"built {len(concepts)} concepts, {len(evidence_records)} evidence records, {len(theme_map)} themes, {len(FAMILIES)} families")
+    print(f"built {len(concepts)} concepts, {len(evidence_records)} evidence records, {len(theme_map)} themes, {len(subtheme_map)} subthemes, {len(FAMILIES)} families")
+
+
+def build_subtheme_map(concepts: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    groups: dict[tuple[str, str], list[dict[str, Any]]] = {}
+    for concept in concepts:
+        groups.setdefault((concept["theme"], concept["subtheme"]), []).append(concept)
+    out = []
+    for (theme, subtheme), items in sorted(groups.items()):
+        depth = SUBTHEME_DEPTH[subtheme]
+        out.append(
+            {
+                "id": slugify(subtheme),
+                "name": subtheme,
+                "theme": theme,
+                "concept_ids": [item["id"] for item in items],
+                **depth,
+            }
+        )
+    return out
 
 
 def build_family_map(concepts: list[dict[str, Any]], lectures: list[dict[str, Any]]) -> list[dict[str, Any]]:
