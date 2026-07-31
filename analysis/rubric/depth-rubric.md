@@ -34,6 +34,22 @@ Themes must explain a throughline across lectures. For example, "curvature" must
 connect topology, tangent spaces, connections, parallel transport, metric geometry,
 Einstein gravity, black holes, and gravitational waves.
 
+Each theme must also include:
+
+- a first-principles walkthrough;
+- the mathematical principle in plain language;
+- a bridge across its subthemes.
+
+## Family Pages
+
+Families are too shallow if they only group lectures by topic. They must include:
+
+- the plain problem the family solves;
+- the mathematical spine of the family;
+- a first-principles story for the family;
+- a worked chain showing how the family moves from one idea to the next;
+- what to watch for, including common shortcuts that would break the argument.
+
 ## Integrated Companion Layer
 
 The archive is too shallow if tutorials and evening lectures are only extra pages.

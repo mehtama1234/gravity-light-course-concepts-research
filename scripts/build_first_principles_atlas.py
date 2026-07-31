@@ -851,30 +851,45 @@ THEMES = [
         "name": "Foundations",
         "plain_question": "What must be built before gravity can be described without a preferred coordinate grid?",
         "answer": "The early lectures strip geometry down to nearness, local charts, slot-aware algebra, and local directions. This prevents later equations from smuggling in a flat background.",
+        "first_principles_walkthrough": "Start with the problem of speaking about a world before a ruler has been earned. If distance is already fixed, gravity has been partly decided before the theory begins. The foundation lectures therefore move more slowly: first say what counts as nearby, then say how small patches can be named, then say what kind of object survives a change of names, then say what a direction means at one point. Each step removes a hidden crutch. Open sets remove the need for a ruler. Charts remove the need for one global map. Tensors remove the mistake of treating one table of numbers as the physical object. Tangent spaces remove the need for arrows drawn in an outside room.",
+        "mathematical_principle_plain": "The principle is invariance under a change of description. A statement is allowed to matter only when it does not depend on the chart, basis, or picture used to write it down. That is why the course cares about inverse images of open sets, smooth overlap maps, tensor transformation rules, and tangent vectors as actions on functions. These are not separate formalities. They are repeated tests for the same question: did we describe the thing itself, or only one way of naming it?",
+        "subtheme_bridge": "Nearness before measurement gives continuity, so later limits and fields do not jump. Local descriptions give manifolds and charts, so a curved space can be calculated on without pretending one map is the space. Slot structure gives tensors, so physical quantities keep their meaning when bases change. Local change gives tangent spaces and fields, so directions and assigned quantities are defined point by point. Put together, these subthemes build the minimum language needed before a metric can become the physical measuring rule.",
     },
     {
         "id": "geometry-of-gravity",
         "name": "Geometry of Gravity",
         "plain_question": "How does the course turn falling into a statement about geometry?",
         "answer": "Connections define straight motion on a manifold, curvature measures when those local straightness rules fail to fit globally, and the metric turns measurement into a field.",
+        "first_principles_walkthrough": "Begin with two nearby events and a question that sounds simple: did a direction change? On a curved manifold that question has no answer until a comparison rule is supplied, because directions at different points live in different tangent spaces. A connection supplies that rule. Once directions can be carried and compared, free motion can mean moving without self-turning according to that rule. Curvature then asks whether all those local comparisons fit together around small loops. They do not always fit, and the mismatch is gravity's local tidal content. The metric finally tells which directions are clock-like, which are light-like, and what a clock or ruler reads along a path.",
+        "mathematical_principle_plain": "The principle is comparison before change. Ordinary derivatives subtract values at different places as if those places shared one flat background. General relativity cannot do that. It must first state how nearby tangent spaces are compared, then measure change after that comparison is made. Curvature is the failure of those comparisons to agree when carried around a loop. The metric makes the comparison physically measurable by turning directions into intervals, light cones, and proper time.",
+        "subtheme_bridge": "Comparing nearby directions leads to connections, because change cannot be measured before directions at different points are made comparable. Tidal facts lead to curvature, because the real gravitational signal is the relative drift of nearby free paths, not one observer's sensation. Measurement becoming a field leads to the metric, because clocks, rulers, and light cones must be supplied by spacetime itself. These subthemes turn the everyday idea of falling into statements about straightest possible paths, relative drift, and measured intervals.",
     },
     {
         "id": "dynamics-and-matter",
         "name": "Dynamics and Matter",
         "plain_question": "What does the field equation actually join together?",
         "answer": "It joins a divergence-free curvature object to stress-energy, so local conservation of matter and local geometry obey the same accounting rule.",
+        "first_principles_walkthrough": "Once geometry can measure and compare, the course has to ask what law the geometry obeys. The answer cannot be a loose sentence about matter causing curvature. The geometry side must be the right kind of object, and the matter side must be the same kind of local bookkeeping object. Symmetry teaches what it means for structure to stay unchanged under a motion. Integration teaches how local facts add over regions without chart dependence. Stress-energy teaches what matter contributes: not only mass, but energy, momentum, pressure, and stress. Einstein's equation is where those pieces become one balance rule.",
+        "mathematical_principle_plain": "The principle is compatible accounting. If one side of a law automatically has zero covariant divergence, the other side must obey the matching local conservation rule. If one side is a tensor, the other side must be a tensor of the same type. If totals are taken over regions, the adding rule must not change when coordinates change. The field equation is difficult because it is not one formula placed on a fixed stage; the metric being solved for also appears inside the curvature built from it.",
+        "subtheme_bridge": "Sameness as a calculation explains symmetry, because conserved quantities need a structure that really stays unchanged. Adding local facts explains integration and boundary terms, because laws often compare what happens inside a region with what crosses its edge. What gravitates explains stress-energy, because matter contributes energy, momentum, pressure, and stress rather than mass alone. Geometry coupled to matter explains the Einstein equation. The subthemes together say how a local law can remain meaningful for every observer.",
     },
     {
         "id": "light-and-observation",
         "name": "Light and Observation",
         "plain_question": "How does abstract spacetime become something seen by detectors?",
         "answer": "Null geodesics, lensing, wave perturbations, and interferometer strain translate metric structure into observed light paths and measured relative lengths.",
+        "first_principles_walkthrough": "Observation enters through light because light obeys the metric's causal structure. A light ray is not a tiny object pushed sideways by gravity in the old force picture. It follows a null direction, meaning the metric assigns zero interval along its path. Once that is understood, lensing becomes the bending and focusing of families of such paths, not an extra optical trick. Small metric disturbances become observable because light can compare path lengths with extreme precision. An interferometer does not need to see spacetime directly; it compares light phases in two arms and reads relative length change.",
+        "mathematical_principle_plain": "The principle is measurement through allowed paths. The metric decides which tangent directions are null, and those directions decide which signals can travel. A detector reading is therefore not separate from geometry. It is a way of asking how the metric affected a light path or a relative length. This is why null geodesics, focusing, perturbations, and strain belong in one chain rather than four disconnected topics.",
+        "subtheme_bridge": "Causal paths explain null geodesics, because light follows directions whose interval is zero. Light as evidence explains lensing and time delay, because received images and arrival times carry the record of the geometry crossed by the light. Small signals explain gravitational waves and interferometer strain, because tiny metric changes become readable only as relative length changes. The subthemes show how mathematical geometry becomes what telescopes and detectors record.",
     },
     {
         "id": "applications",
         "name": "Applications",
         "plain_question": "Where do the foundations get stress-tested?",
         "answer": "Cosmology, black holes, and wave sources force local geometry, global causal structure, matter, and measurement to operate as one system.",
+        "first_principles_walkthrough": "Applications are not a separate final chapter where formulas are plugged in. They are pressure tests of the whole construction. Cosmology asks what happens when symmetry reduces the field equation to a changing scale factor. Black holes ask what happens when causal reach, not ordinary distance, defines the important boundary. Wave sources ask how moving matter produces a small metric disturbance that travels outward and changes measured separations. In each case the earlier ideas must work together: charts must not fool us, tensors must be real objects, the metric must carry measurement, and light must report the result.",
+        "mathematical_principle_plain": "The principle is local rules meeting global questions. A field equation is local, but cosmology asks about the history of the whole model; horizons ask about what reaches infinity; gravitational waves ask how a disturbance travels from source to detector. The mathematical machinery matters because each application can punish a different shortcut. Bad coordinates can fake singular behavior. A weak source model can fake gravity. A vague wave picture can lose the measured strain.",
+        "subtheme_bridge": "Allowed initial data leads to evolution, because a spacetime history cannot be built from arbitrary slice information. Changing measuring rules lead to cosmology, because the scale factor records how large-scale separations change in the model. Causal boundaries lead to black holes, because the defining issue is which future light signals can escape. Relative length change leads to waves, because detectors read strain rather than a visual ripple. The applications make the earlier subthemes prove they can handle real spacetime questions.",
     },
 ]
 
@@ -888,6 +903,13 @@ FAMILIES = [
         "mathematical_spine": "Topology supplies nearness. Manifolds supply local coordinate patches. Multilinear algebra supplies slot-aware quantities. Tangent spaces and fields supply local directions and point-by-point variation.",
         "why_it_matters": "If this family is shallow, the rest of the course becomes a pile of formulas. If it is understood, later objects such as the metric, curvature, and stress-energy tensor have clear jobs instead of mysterious names.",
         "what_to_watch_for": "The central discipline is not to confuse a coordinate display with the object being displayed. Numbers on a chart are allowed, but the claim must survive changing the chart.",
+        "first_principles_story": "This family begins by refusing to measure too early. A beginner wants to start with distances, axes, and arrows, because those make calculations feel familiar. General relativity cannot start there, because its central object will be the field that decides distances, times, and light cones. The first job is therefore to build a world in layers. Topology says what counts as near without saying how far. Manifolds say a curved space can be named locally without having one perfect global name. Multilinear algebra says a physical quantity is a rule with slots, not one array of numbers. Tangent spaces and fields say direction and local value can be defined from inside the space.",
+        "worked_chain": [
+            "Ask only whether small moves stay small enough: that is the open-set test for continuity.",
+            "Name a small patch with coordinates, then check the overlap map when another chart names the same patch.",
+            "Feed basis directions into a tensor rule, then change basis and watch the displayed numbers change while the rule remains.",
+            "Define a tangent direction by how it changes local test functions, then assign such objects point by point to make a field.",
+        ],
     },
     {
         "id": "turn-falling-into-geometry",
@@ -897,6 +919,13 @@ FAMILIES = [
         "mathematical_spine": "Connections define how directions are compared along paths. Parallel transport applies that comparison. Curvature measures the failure of those comparisons to fit around loops. The metric later says what clocks, rulers, and light cones measure.",
         "why_it_matters": "This is where gravity stops being a force pasted onto space and becomes a statement about what local inertial motion and neighboring paths do.",
         "what_to_watch_for": "One observer's felt acceleration is not the same thing as curvature. Curvature is detected by comparison: nearby free paths drift relative to one another in a way no coordinate trick removes.",
+        "first_principles_story": "This family starts with a question that ordinary flat-space thinking answers too quickly: what does it mean to go straight? On a manifold there is no universal background grid that tells every tangent space how to line up with every other one. A connection supplies a comparison rule. Parallel transport uses that rule along a path. A geodesic is a path whose own direction is transported along itself. Curvature appears when this comparison rule fails to give consistent answers around small loops or across nearby free-fall paths. The metric then turns this geometry into clock readings, ruler readings, and light cones.",
+        "worked_chain": [
+            "Carry a direction from one point to a nearby point before subtracting it from another direction.",
+            "Call a path unforced when its tangent direction carries itself along without turning according to the connection.",
+            "Move around a small loop in two orders and compare the final carried vector to expose curvature.",
+            "Use the metric on tangent directions to decide which paths are clock-like, space-like, or light-like.",
+        ],
     },
     {
         "id": "make-laws-coordinate-free",
@@ -906,6 +935,13 @@ FAMILIES = [
         "mathematical_spine": "Symmetry identifies transformations that preserve structure. Integration adds local geometric quantities over regions. Spacetime supplies the Lorentzian stage. Stress-energy states what matter carries. Einstein's equation couples the geometry side to the matter side.",
         "why_it_matters": "The field equation is not a slogan. It is a compatibility statement: the geometry object and the matter object have matching conservation behavior, so the left and right sides can be equated without breaking local energy-momentum accounting.",
         "what_to_watch_for": "Mass alone is not the source in relativity. Energy, momentum, pressure, and stress all enter because the source must match the spacetime geometry being solved for.",
+        "first_principles_story": "This family asks how to state physical laws once there is no preferred coordinate system. Symmetry is not visual prettiness; it is a test for whether moving the description leaves the relevant structure unchanged. Integration is not just adding numbers; it is adding local geometric facts so that the total does not depend on the chart. Stress-energy is not just mass density; it is the local rule that records energy, momentum flow, pressure, and stress. Einstein's equation works only after the geometry side and matter side are written as compatible tensor accounting objects.",
+        "worked_chain": [
+            "Move the geometry along a candidate symmetry and check whether the metric changes.",
+            "Add a local quantity over a region using a form so a chart change does not alter the total.",
+            "Read matter through stress-energy by asking what energy and momentum cross chosen directions or surfaces.",
+            "Balance the divergence-free geometry tensor with stress-energy so local conservation is not broken.",
+        ],
     },
     {
         "id": "read-spacetime-with-light",
@@ -915,6 +951,13 @@ FAMILIES = [
         "mathematical_spine": "Null directions are tangent directions whose spacetime interval is zero. Null geodesics are light paths. Families of such paths focus, shear, delay, or bend according to the geometry.",
         "why_it_matters": "Most astronomical evidence about gravity arrives through light. If null geometry is weakly understood, lensing, horizons, redshift, and signal travel times become disconnected facts.",
         "what_to_watch_for": "A null path is not a path with no motion. It is a path with zero spacetime interval, which is exactly what makes it a light path.",
+        "first_principles_story": "This family makes observation part of the geometry rather than an afterthought. The metric gives each event a light cone. A light ray follows a null direction within that cone. When many neighboring light paths travel through curved spacetime, they can bend, focus, delay, or shear. Those effects are not decorations added to the field equation; they are how the metric becomes visible. Telescopes and timing measurements mostly receive light, so the course must teach the reader to read spacetime through the paths light was allowed to take.",
+        "worked_chain": [
+            "Use the metric to find directions whose interval is zero.",
+            "Solve the straightest-path condition while keeping the interval zero to get null geodesics.",
+            "Compare neighboring null geodesics to see focusing, delay, or lensing.",
+            "Treat the received light pattern as evidence for the spacetime geometry it crossed.",
+        ],
     },
     {
         "id": "solve-evolution-and-global-shape",
@@ -924,6 +967,13 @@ FAMILIES = [
         "mathematical_spine": "Canonical GR rewrites spacetime as slice data plus constraints. Cosmology uses symmetry to reduce the field equation. Black holes and Penrose diagrams track causal reach rather than visual shape.",
         "why_it_matters": "These lectures test whether the earlier machinery can handle time evolution, large-scale structure, and regions where coordinates can mislead badly. They are where local definitions must survive contact with whole-spacetime questions.",
         "what_to_watch_for": "Several lectures in this family lack local transcripts, so the current atlas marks them as scaffolds that need manual notes before being treated as detailed evidence.",
+        "first_principles_story": "This family asks what happens when local geometry has to describe a whole spacetime. The canonical view slices spacetime into space-like data, but not every set of slice data is allowed; the constraints say the pieces must already fit the field equation. Cosmology then uses large-scale sameness to reduce many geometric details to a few changing quantities such as the scale factor. Black holes force a different question: not how far away a surface looks, but which future light signals can escape. Penrose diagrams compress infinity while preserving that signal order.",
+        "worked_chain": [
+            "Split spacetime into a slice plus evolution data, then check the constraints before evolving.",
+            "Assume large-scale sameness in cosmology and reduce distance change to the scale factor.",
+            "Use future light paths to decide whether an event can signal far-away observers.",
+            "Draw a Penrose diagram by preserving light directions while giving up ordinary distances.",
+        ],
     },
     {
         "id": "extract-small-signals",
@@ -933,6 +983,13 @@ FAMILIES = [
         "mathematical_spine": "Perturbation theory studies small metric changes around a known background. Quantizable matter raises how matter fields source gravity. Wave-source and detector lectures connect those changes to strain in interferometers.",
         "why_it_matters": "This is where the abstract course pays off experimentally: the same metric idea that defined light cones also predicts tiny changing distances measured by gravitational-wave detectors.",
         "what_to_watch_for": "Not every changing metric component is a physical wave. The course must separate real measured strain from a changed description, then explain how source dynamics, propagation, and interferometer readout refer to the same disturbance.",
+        "first_principles_story": "This family explains how the theory works when exact solutions are too hard and measurements are tiny. The first move is to separate a known background metric from a small disturbance. The second move is to keep only the terms small enough to control, while rejecting changes that are only relabeling. Matter sources then have to be described by the part of their motion that can radiate gravitational waves. The final move is observational: the wave is read as strain, a relative length change, by comparing light travel in detector arms.",
+        "worked_chain": [
+            "Write the metric as background plus a small disturbance and keep only first-order changes.",
+            "Separate coordinate relabeling from a disturbance that changes measurable distances.",
+            "Connect source motion to the kind of changing mass pattern that can radiate.",
+            "Measure the passing disturbance as strain, the change in length divided by the original length.",
+        ],
     },
 ]
 

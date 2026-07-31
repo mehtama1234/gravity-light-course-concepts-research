@@ -295,14 +295,21 @@ def validate() -> tuple[list[str], list[str]]:
     for theme in themes:
         require(theme["concept_ids"], f"theme {theme['id']} has no concepts", errors)
         require(words(theme["why_the_math_matters"]) >= 12, f"theme {theme['id']} why_the_math_matters is too thin", errors)
-        for field in ("plain_question", "answer", "why_the_math_matters"):
+        for field in ("plain_question", "answer", "why_the_math_matters", "first_principles_walkthrough", "mathematical_principle_plain", "subtheme_bridge"):
             check_banned_phrases(f"theme {theme['id']} field {field}", theme[field], errors)
+        for field in ("first_principles_walkthrough", "mathematical_principle_plain", "subtheme_bridge"):
+            require(words(theme[field]) >= 45, f"theme {theme['id']} field {field} is too thin", errors)
 
     for family in families:
         require(family["concept_ids"], f"family {family['id']} has no concepts", errors)
-        for field in ("plain_problem", "mathematical_spine", "why_it_matters", "what_to_watch_for"):
+        require(len(family.get("worked_chain", [])) >= 4, f"family {family['id']} lacks worked chain steps", errors)
+        for field in ("plain_problem", "mathematical_spine", "why_it_matters", "what_to_watch_for", "first_principles_story"):
             require(words(family[field]) >= 24, f"family {family['id']} field {field} is too thin", errors)
             check_banned_phrases(f"family {family['id']} field {field}", family[field], errors)
+        require(words(family["first_principles_story"]) >= 65, f"family {family['id']} first principles story is not meaty enough", errors)
+        for step_index, step in enumerate(family.get("worked_chain", []), start=1):
+            require(words(step) >= 10, f"family {family['id']} worked chain step {step_index} is too thin", errors)
+            check_banned_phrases(f"family {family['id']} worked chain step {step_index}", step, errors)
 
     validate_site(concepts, errors)
     return errors, warnings
@@ -349,9 +356,11 @@ def validate_site(concepts: list[dict[str, Any]], errors: list[str]) -> None:
     dependency_map_page = SITE / "what-breaks.html"
     math_why_page = SITE / "the-math-why.html"
     if families_page.exists():
-        require("Tutorial pressure carried by this family" in families_page.read_text(encoding="utf-8"), "families page lacks tutorial pressure section", errors)
+        text = families_page.read_text(encoding="utf-8")
+        require("Tutorial pressure carried by this family" in text and "From First Principles" in text and "Worked Chain" in text, "families page lacks required deep family sections", errors)
     if themes_page.exists():
-        require("Tutorial pressure in this theme" in themes_page.read_text(encoding="utf-8"), "themes page lacks tutorial pressure section", errors)
+        text = themes_page.read_text(encoding="utf-8")
+        require("Tutorial pressure in this theme" in text and "Mathematical Principle" in text and "Subtheme Bridge" in text, "themes page lacks required deep theme sections", errors)
     if learning_path_page.exists():
         text = learning_path_page.read_text(encoding="utf-8")
         require("Cross-Video Learning Path" in text and "Reader task" in text, "learning path page lacks required route language", errors)

@@ -123,6 +123,7 @@ def render_theme_summary(theme: dict[str, Any]) -> str:
       <h3>{esc(theme['name'])}</h3>
       <p><strong>Question:</strong> {esc(theme['plain_question'])}</p>
       <p>{esc(theme['answer'])}</p>
+      <p>{esc(theme['mathematical_principle_plain'])}</p>
       <p class="quiet">{esc(theme['why_the_math_matters'])}</p>
     </article>
     """
@@ -134,6 +135,7 @@ def render_family_summary(family: dict[str, Any]) -> str:
       <h3>{esc(family['name'])}</h3>
       <p><strong>Problem:</strong> {esc(family['plain_problem'])}</p>
       <p>{esc(family['mathematical_spine'])}</p>
+      <p>{esc(family['first_principles_story'])}</p>
       <p class="quiet">{esc(family['audit_note'])}</p>
     </article>
     """
@@ -378,6 +380,18 @@ def render_themes(themes: list[dict[str, Any]], concepts_by_id: dict[str, dict[s
               <p><strong>{esc(theme['plain_question'])}</strong></p>
               <p>{esc(theme['answer'])}</p>
               <p>{esc(theme['why_the_math_matters'])}</p>
+              <section class="deep-read">
+                <h3>From First Principles</h3>
+                <p>{esc(theme['first_principles_walkthrough'])}</p>
+              </section>
+              <section class="deep-read">
+                <h3>Mathematical Principle</h3>
+                <p>{esc(theme['mathematical_principle_plain'])}</p>
+              </section>
+              <section class="deep-read">
+                <h3>Subtheme Bridge</h3>
+                <p>{esc(theme['subtheme_bridge'])}</p>
+              </section>
               <h3>Tutorial pressure in this theme</h3>
               <ul>{pressure_text}</ul>
               <p>{links}</p>
@@ -400,6 +414,7 @@ def render_families(families: list[dict[str, Any]], concepts_by_id: dict[str, di
             f"<li><a href=\"archive/{esc(item['archive_slug'])}.html\">{esc(item['video_title'])}</a>: {esc(item['pressure_test'])}</li>"
             for item in pressure_items[:6]
         ) or "<li>No tutorial pressure test assigned yet.</li>"
+        worked_chain = "".join(f"<li>{esc(step)}</li>" for step in family["worked_chain"])
         blocks.append(
             f"""
             <article class="family-block">
@@ -409,6 +424,14 @@ def render_families(families: list[dict[str, Any]], concepts_by_id: dict[str, di
               <p><strong>Mathematical spine:</strong> {esc(family['mathematical_spine'])}</p>
               <p><strong>Why it matters:</strong> {esc(family['why_it_matters'])}</p>
               <p><strong>What to watch for:</strong> {esc(family['what_to_watch_for'])}</p>
+              <section class="deep-read">
+                <h3>From First Principles</h3>
+                <p>{esc(family['first_principles_story'])}</p>
+              </section>
+              <section class="deep-read">
+                <h3>Worked Chain</h3>
+                <ol>{worked_chain}</ol>
+              </section>
               <p class="quiet">Missing local transcripts: {esc(missing)}</p>
               <h3>Tutorial pressure carried by this family</h3>
               <ul>{pressure_text}</ul>
