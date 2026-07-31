@@ -177,6 +177,12 @@ def render_lecture_pages(lectures: list[dict[str, Any]], concepts_by_id: dict[st
             for source in lecture.get("external_note_sources", [])
         )
         note_block = f"<ul>{note_sources}</ul>" if note_sources else "<p class=\"quiet\">No external notes linked for this lecture.</p>"
+        manual_note = lecture.get("manual_note_template")
+        manual_block = (
+            f"<p class=\"quiet\">Manual note template: {esc(manual_note)}</p>"
+            if manual_note
+            else "<p class=\"quiet\">No manual note template required for this lecture.</p>"
+        )
         body = f"""
         <p><a href="../lectures.html">Back to lectures</a></p>
         <h1>Lecture {lecture['index']:02d}: {esc(lecture['title'])}</h1>
@@ -199,6 +205,8 @@ def render_lecture_pages(lectures: list[dict[str, Any]], concepts_by_id: dict[st
           <p><a href="{esc(lecture['url'])}">Open YouTube lecture</a></p>
           <h3>External Notes</h3>
           {note_block}
+          <h3>Manual Notes</h3>
+          {manual_block}
         </section>
         <section>
           <h2>Linked Concepts</h2>

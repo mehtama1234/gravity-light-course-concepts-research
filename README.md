@@ -53,3 +53,10 @@ The writing must avoid cliche, filler, and unexplained jargon. A sentence like
 "curvature is important for general relativity" is not acceptable. A useful
 sentence says what curvature measures, what operation reveals it, what physical
 distinction it protects, and what later topic becomes confused without it.
+
+## Source Recovery
+
+The atlas distinguishes transcript-backed evidence, external-notes-backed
+evidence, and unresolved placeholders. Unresolved canonical-formulation records
+must be handled through `raw-material/manual-notes/` by direct lecture viewing
+before they can be promoted.

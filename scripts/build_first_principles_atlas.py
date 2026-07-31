@@ -11,6 +11,10 @@ ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "raw-material" / "youtube"
 ANALYSIS = ROOT / "analysis"
 NOTES_INDEX = ROOT / "raw-material" / "external-notes" / "notes-index.json"
+MANUAL_NOTES = {
+    18: "raw-material/manual-notes/lecture-18-canonical-formulation-gr-i.md",
+    19: "raw-material/manual-notes/lecture-19-canonical-formulation-gr-ii.md",
+}
 
 
 @dataclass(frozen=True)
@@ -1192,6 +1196,7 @@ def build() -> None:
                     }
                     for item in lecture_notes
                 ],
+                "manual_note_template": MANUAL_NOTES.get(record["index"]),
                 "word_count": record.get("word_count", 0),
                 "concept_ids": lecture_concept_ids,
                 "audit_note": lecture_audit_note(record, lecture_notes),
