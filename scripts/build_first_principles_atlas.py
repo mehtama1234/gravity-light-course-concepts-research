@@ -1218,6 +1218,126 @@ LECTURE_TEACHING_OVERRIDES = {
             "Compare neighboring light paths to read bending, focusing, delay, or redshift.",
         ],
     },
+    17: {
+        "lecture_starting_problem": "The second optical-geometry lecture asks what happens when light is not treated one ray at a time. Real observation depends on families of light paths: neighboring rays can focus, spread, arrive late, or make several images of the same source. The everyday picture of gravity tugging on photons misses the important structure. The metric shapes the whole bundle of null geodesics, and the pattern seen by an observer is a record of that geometry.",
+        "lecture_mathematical_turn": "The mathematical turn is to compare neighboring null geodesics. A single light path tells where one signal can travel; a family of paths tells how images, brightness, and arrival times change. Curvature enters through focusing and deviation, while the metric keeps the paths null. This is why lensing is not an observational side story. It is a direct way spacetime geometry changes the map between a source and what a telescope receives.",
+        "lecture_worked_path": [
+            "Start with several nearby light rays leaving the same source region.",
+            "Keep each ray null and geodesic as it crosses the curved spacetime.",
+            "Compare how the rays focus, spread, delay, or cross before reaching an observer.",
+            "Read the changed image pattern as evidence for the geometry between source and observer.",
+        ],
+    },
+    18: {
+        "lecture_starting_problem": "Canonical general relativity starts from a practical question: can spacetime be treated like an evolving system from data on a slice? Ordinary mechanics suggests choosing positions and velocities, then marching forward in time. General relativity does not give one universal time in that simple way. The slice itself, its geometry, and its momentum-like data have to satisfy constraints before they can be the start of any spacetime history.",
+        "lecture_mathematical_turn": "The mathematical turn is to split spacetime into space-like slice data plus evolution bookkeeping while keeping coordinate freedom visible. The spatial metric records the geometry of the slice. The momentum-like data records how that slice is embedded in a larger spacetime. The constraints are not optional equations after evolution begins; they are the tests that decide whether the proposed starting data is lawful at all.",
+        "lecture_worked_path": [
+            "Start with a proposed space-like slice rather than a whole spacetime at once.",
+            "Record the geometry on the slice and the momentum-like data for how it changes.",
+            "Check the constraints before treating the data as physically allowed.",
+            "Use only constraint-satisfying data as a possible start of spacetime evolution.",
+        ],
+    },
+    19: {
+        "lecture_starting_problem": "The second canonical lecture deepens the same issue: evolution in general relativity is not just time marching on a fixed stage. The split into slices introduces choices about lapse, shift, and coordinates, and those choices can move the description without changing the physical spacetime. The reader has to distinguish genuine evolution of geometry from a changed slicing or labeling of the same geometry, while keeping the constraints satisfied throughout the motion.",
+        "lecture_mathematical_turn": "The mathematical turn is to treat constraints and gauge freedom as part of the dynamics. The canonical variables cannot be chosen independently, and their evolution must preserve the constraints. This is why the Hamiltonian-looking formulation of general relativity is not ordinary mechanics with more variables. Some apparent motion is the freedom to describe spacetime with different slices, and the equations must respect that freedom.",
+        "lecture_worked_path": [
+            "Begin with slice geometry and momentum-like data that already satisfy the constraints.",
+            "Choose lapse and shift as ways of describing how slices are related.",
+            "Evolve the data while checking that the constraints remain satisfied.",
+            "Separate physical change in geometry from a changed slicing of the same spacetime.",
+        ],
+    },
+    20: {
+        "lecture_starting_problem": "Early-universe cosmology asks how Einstein's equation behaves when the universe is hot, dense, and simplified by large-scale sameness. The point is not to track every galaxy or local lump. The point is to use symmetry to reduce the enormous field equation to a few quantities that describe the whole model. The scale factor becomes the main measuring rule: it says how distances between comoving points change with cosmic time.",
+        "lecture_mathematical_turn": "The mathematical turn is to impose homogeneity and isotropy, then read the field equation through the scale factor and matter content. Symmetry removes many possible details because the model declares no preferred large-scale place or direction. What remains is a time-dependent geometry whose expansion is tied to density, pressure, and curvature assumptions. The early epoch is then studied by asking how those ingredients drive the scale factor backward or forward.",
+        "lecture_worked_path": [
+            "Start by assuming the large-scale universe has no preferred place or direction.",
+            "Reduce the metric to a form controlled mainly by the scale factor.",
+            "Use the reduced field equation to connect expansion with matter content.",
+            "Read the early epoch through how the scale factor behaves at high density.",
+        ],
+    },
+    21: {
+        "lecture_starting_problem": "Late-epoch cosmology asks why the universe's large-scale expansion does not behave like a simple coasting motion through empty space. Observations arrive through redshift and distance relations, while the model speaks through the scale factor, Hubble rate, matter content, curvature, and possible vacuum energy. The lecture has to connect these without falling back to the picture of galaxies flying away from a central explosion.",
+        "lecture_mathematical_turn": "The mathematical turn is to treat redshift and Hubble rate as readings of the changing metric scale. The scale factor tells how comoving separations grow. Its fractional rate of change is the Hubble rate. Light wavelength stretches with the same large-scale geometry, so redshift becomes evidence for the expansion history. The cosmological constant then enters as a uniform term that changes the expansion without clumping like ordinary matter.",
+        "lecture_worked_path": [
+            "Start with comoving points whose reference separation stays fixed in the model.",
+            "Use the scale factor to turn that reference separation into measured separation.",
+            "Read the Hubble rate as the fractional change of that scale factor.",
+            "Use redshift and possible vacuum terms to constrain the late-time expansion history.",
+        ],
+    },
+    22: {
+        "lecture_starting_problem": "The black-hole lecture has to replace escape-speed folklore with causal structure. A black hole is not best understood as a dark surface sitting in space. The defining issue is whether future-directed light from an event can ever reach distant outside observers. That makes the horizon a boundary in spacetime signaling, not a material wall. The lecture therefore tests black-hole ideas by asking what light can do.",
+        "lecture_mathematical_turn": "The mathematical turn is to use null paths and causal reach to define the black-hole region. At each event, the metric gives the future light directions. Following those directions tells whether a signal can escape outward. The event horizon is the boundary of the no-escape set. This also explains why coordinates must be handled carefully: a bad-looking component can mark a poor chart rather than a true spacetime obstruction.",
+        "lecture_worked_path": [
+            "Start at an event and use the metric to identify future light directions.",
+            "Follow possible future-directed null paths from that event through the spacetime geometry.",
+            "Ask whether any of those paths can reach distant outside observers.",
+            "Define the horizon as the boundary between escape and no escape.",
+        ],
+    },
+    23: {
+        "lecture_starting_problem": "Penrose diagrams solve a drawing problem. Ordinary spacetime diagrams cannot show horizons and infinity clearly while preserving normal distances and times. The lecture therefore asks what a useful diagram should preserve. The answer is causal order and light directions, not visual scale. A Penrose diagram is powerful because it compresses infinity onto the page while keeping the structure needed to ask who can signal to whom.",
+        "lecture_mathematical_turn": "The mathematical turn is to rescale the metric in a way that preserves null directions. Lengths and clock durations are sacrificed, but the light-cone structure remains readable. Once that is done, infinity, horizons, trapped regions, and singular boundaries can be placed in one finite picture. The diagram is only honest when read with this rule: it preserves causal relations, not ordinary distance or the visual shape of space.",
+        "lecture_worked_path": [
+            "Start with a spacetime too large or badly shaped for an ordinary diagram.",
+            "Rescale the metric so distant regions fit on a finite page.",
+            "Preserve the null directions so light paths still show causal reach.",
+            "Use the diagram to read horizons, infinity, and possible signal paths.",
+        ],
+    },
+    24: {
+        "lecture_starting_problem": "Perturbation theory begins because exact spacetime solutions are rare, while many real questions involve small departures from a known background. The lecture has to keep two ideas separate: a physical small change in geometry and a small change in the description of the same geometry. Without that separation, a coordinate wiggle can be mistaken for a gravitational wave or a real signal can be dismissed as notation.",
+        "lecture_mathematical_turn": "The mathematical turn is to write the metric as a background plus a small disturbance and keep only controlled first-order terms. Linearization makes the equations manageable, but it also brings gauge freedom into view: not every component change is physical. The reader must ask which parts of the perturbation survive allowed relabeling and which parts can later become measured strain or wave behavior in a detector.",
+        "lecture_worked_path": [
+            "Start with a known background spacetime that is already understood.",
+            "Add a small metric disturbance and keep only first-order terms.",
+            "Separate relabeling changes from physical changes in the geometry before calling anything a wave.",
+            "Use the remaining disturbance as the candidate for waves or measured effects.",
+        ],
+    },
+    25: {
+        "lecture_starting_problem": "The second perturbation lecture pushes beyond setting up small disturbances. It asks how the controlled approximation actually carries physical information. The danger is to stare at changed metric components and forget that coordinates can move. The lecture therefore keeps returning to the question of what survives gauge freedom and what can be connected to observable behavior such as propagation, polarization, or relative motion between test bodies.",
+        "lecture_mathematical_turn": "The mathematical turn is to refine the linearized equations until the physical degrees of freedom are visible. Gauge choices can simplify the expression, but they must not define the physics by themselves. The wave content is the part of the small metric change that cannot be removed by relabeling and that affects relative separations in a lawful way. This prepares the later source and detector lectures by giving them a clean signal to talk about.",
+        "lecture_worked_path": [
+            "Start with the linearized disturbance from the first perturbation setup.",
+            "Use gauge freedom to simplify the description without declaring it physical too early.",
+            "Identify the part of the disturbance that survives relabeling by coordinates.",
+            "Carry that physical part forward as the wave information sources and detectors can use.",
+        ],
+    },
+    26: {
+        "lecture_starting_problem": "Quantizable matter raises a pressure point in the course's classical story. Einstein gravity wants a definite stress-energy source for a definite spacetime geometry. Quantum matter does not fit that picture as simply as a classical fluid or field. The lecture is not about adding fashionable quantum language. It asks what it means for matter to gravitate when the matter description no longer behaves like one ordinary local source assignment.",
+        "lecture_mathematical_turn": "The mathematical turn is to revisit stress-energy as the source object and ask what kind of value it can have when matter is treated quantum mechanically. Classically, the tensor records local energy, momentum, pressure, and stress. In a quantum setting, expectation values, fluctuations, and operator meaning complicate the source side. The issue is a bookkeeping mismatch: the geometry side remains classical while the matter side resists being one definite classical tensor.",
+        "lecture_worked_path": [
+            "Start with classical stress-energy as the source side of Einstein's equation.",
+            "Replace classical matter with quantized matter and ask what source value is available.",
+            "Notice that expectation, fluctuation, and locality questions change the source bookkeeping.",
+            "Read the tension as a reason quantum gravity is a structural problem, not a branding problem.",
+        ],
+    },
+    27: {
+        "lecture_starting_problem": "The source lecture asks what kind of moving matter can produce gravitational waves. The answer is not simply any motion and not merely a changing mass. The source must change its shape of mass-energy distribution in the right way, and the resulting disturbance must be separated from coordinate description. The lecture connects source dynamics to the perturbation machinery already built, so a wave is tied to a lawful changing pattern rather than a vague ripple.",
+        "lecture_mathematical_turn": "The mathematical turn is to connect the physical part of the metric perturbation to changing source multipoles, especially quadrupole-type change. Monopole change is blocked by conservation, and simple dipole behavior is tied to center-of-mass motion. The radiating content comes from changing shape in the source distribution. This gives the detector story something specific to measure: a small outgoing metric disturbance caused by lawful source dynamics.",
+        "lecture_worked_path": [
+            "Start with a source whose mass-energy distribution changes over time.",
+            "Rule out source changes that conservation prevents from radiating as waves.",
+            "Track changing quadrupole-type shape as the relevant radiating pattern.",
+            "Connect that source pattern to an outgoing physical metric disturbance.",
+        ],
+    },
+    28: {
+        "lecture_starting_problem": "The final detector lecture has to say what a gravitational-wave observation actually measures. It is not a photograph of spacetime rippling and not a force shoved onto detector parts. The measurable quantity is strain: a tiny relative change in length. An interferometer reads that change by comparing light travel in two arms. This closes the course loop because the same metric that defined light cones and proper time now becomes a small measured length change.",
+        "lecture_mathematical_turn": "The mathematical turn is to connect metric perturbation to relative separation and then to optical phase comparison. A passing wave changes the proper distance relation between freely suspended test masses by a tiny fraction. Light in the interferometer arms compares those changes with extreme precision. The detector does not need an outside ruler untouched by gravity; it uses light and geometry together to read differential strain.",
+        "lecture_worked_path": [
+            "Start with a small physical metric disturbance arriving at the detector.",
+            "Translate that disturbance into relative length change between test masses.",
+            "Measure the fractional change as strain, not as an absolute shove.",
+            "Use light phase differences in the interferometer arms to read the strain.",
+        ],
+    },
 }
 
 LECTURE_ROLE_OVERRIDES = {
@@ -1237,6 +1357,18 @@ LECTURE_ROLE_OVERRIDES = {
     14: "This lecture prepares the matter side of gravity. Stress-energy records energy, momentum flow, pressure, and stress in a form that can be locally conserved and later balanced with geometry.",
     15: "This lecture joins the course's two main accounts: curvature-based geometry and stress-energy matter. The Einstein equation appears as a constrained tensor balance, not a slogan.",
     16: "This lecture turns observation into geometry. Light follows null geodesics set by the metric, so lensing, redshift, and signal paths become readings of spacetime structure.",
+    17: "This lecture extends optical geometry from one light path to families of paths. It shows how focusing, lensing, and image distortion turn spacetime curvature into received astronomical evidence.",
+    18: "This lecture begins the canonical view by asking what counts as lawful initial data. It reorganizes spacetime into slice geometry, momentum-like data, and constraints.",
+    19: "This lecture deepens the canonical view by separating real evolution from choices of slicing and description. It keeps coordinate freedom visible inside the initial-value formulation.",
+    20: "This lecture applies Einstein gravity to the early universe by using large-scale symmetry. The scale factor becomes the readable measuring rule for early expansion.",
+    21: "This lecture reads late-time cosmology through scale factor, Hubble rate, redshift, and possible vacuum energy. It treats expansion as changing geometry rather than motion from a center.",
+    22: "This lecture defines black holes through causal reach. The horizon is understood by what future light signals can do, not by a material surface picture.",
+    23: "This lecture teaches Penrose diagrams as causal drawings. They compress infinity while preserving light directions, which makes horizons and signal reach readable.",
+    24: "This lecture begins perturbation theory by separating small physical metric changes from small description changes. It sets up gravitational waves as controlled geometry, not visual ripples.",
+    25: "This lecture refines the perturbation story by tracking gauge freedom and physical wave content. It prepares source and detector arguments by isolating what cannot be relabeled away.",
+    26: "This lecture exposes the source-side tension between classical geometry and quantized matter. It asks what stress-energy can mean when matter is no longer a definite classical field.",
+    27: "This lecture connects gravitational waves to source dynamics. It explains why changing quadrupole-type shape, not any motion at all, is the relevant radiating pattern.",
+    28: "This lecture closes the course by connecting metric disturbance to detector strain. The abstract measuring rule becomes a tiny relative length change read by light.",
 }
 
 

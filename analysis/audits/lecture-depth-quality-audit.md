@@ -1,9 +1,9 @@
 # Lecture Depth Quality Audit
 
-- Overall status: in progress
+- Overall status: complete
 - Central lecture pages checked: 28
-- Lectures with authored teaching overrides: 16
-- Remaining central lectures still using source-composed teaching layer: 12
+- Lectures with authored teaching overrides: 28
+- Remaining central lectures still using source-composed teaching layer: 0
 
 ## Finding
 
@@ -20,7 +20,7 @@ The repeated phrases found across all 28 pages were:
 
 ## Work Completed
 
-Lectures 1-16 now have authored replacements for:
+Lectures 1-28 now have authored replacements for:
 
 - first-principles role;
 - starting problem;
@@ -28,14 +28,13 @@ Lectures 1-16 now have authored replacements for:
 - worked path through the lecture.
 
 These cover the foundation, curvature, metric, symmetry, integration, spacetime,
-matter, Einstein-equation, and first optical-geometry arc. Validation now rejects
-the repeated template phrases for lectures 1-16 and checks that their
-first-principles role is no longer the old generated scaffold.
+matter, Einstein-equation, optical, canonical, cosmology, black-hole,
+perturbation, source, and detector arcs. Validation now rejects the repeated
+template phrases for all central lectures and checks that their first-principles
+role is no longer the old generated scaffold.
 
-## Remaining Work
+## Remaining Caveat
 
-Lectures 17-28 still need the same treatment. They are structurally deeper than
-the old pages, but their teaching layer is still composed from concept fields.
-The next pass should hand-author the remaining optical, canonical, cosmology,
-black-hole, perturbation, source, and detector pages in the same style used for
-lectures 1-16.
+Seven central lectures still lack local transcript downloads and remain tracked
+through external or manual notes elsewhere in the project. That is a source
+coverage caveat, not a lecture-page writing scaffold issue.
