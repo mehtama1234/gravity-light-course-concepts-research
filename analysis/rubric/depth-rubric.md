@@ -33,3 +33,14 @@ A concept page is too shallow if it only defines a term. It must include:
 Themes must explain a throughline across lectures. For example, "curvature" must
 connect topology, tangent spaces, connections, parallel transport, metric geometry,
 Einstein gravity, black holes, and gravitational waves.
+
+## Integrated Companion Layer
+
+The archive is too shallow if tutorials and evening lectures are only extra pages.
+The companion layer must include:
+
+- tutorial or evening pressure tests on every concept supported by archive videos;
+- a cross-video learning path based on what the reader must be able to do;
+- a dependency map that states what breaks if a mathematical idea is skipped;
+- family and theme pages that surface tutorial pressure, not just lecture groups;
+- validation that checks these artifacts render and remain linked.

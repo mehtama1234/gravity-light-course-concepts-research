@@ -69,6 +69,7 @@ def validate() -> tuple[list[str], list[str]]:
     recovery_report = ANALYSIS / "audits" / "source-recovery-report.md"
     readiness_report = ANALYSIS / "audits" / "goal-readiness-audit.md"
     full_archive_readiness_report = ANALYSIS / "audits" / "full-archive-readiness-audit.md"
+    integrated_companion_readiness_report = ANALYSIS / "audits" / "integrated-companion-readiness-audit.md"
     archive_evidence_page = SITE / "archive-evidence.html"
     learning_path_page = SITE / "learning-path.html"
     dependency_map_page = SITE / "what-breaks.html"
@@ -112,10 +113,12 @@ def validate() -> tuple[list[str], list[str]]:
     require(recovery_report.exists(), "source recovery report must exist", errors)
     require(readiness_report.exists(), "goal readiness audit must exist", errors)
     require(full_archive_readiness_report.exists(), "full archive readiness audit must exist", errors)
+    require(integrated_companion_readiness_report.exists(), "integrated companion readiness audit must exist", errors)
     require(archive_evidence_page.exists(), "archive evidence page must exist", errors)
     require(learning_path_page.exists(), "learning path page must exist", errors)
     require(dependency_map_page.exists(), "what-breaks dependency page must exist", errors)
     require("Overall status: complete" in full_archive_readiness_report.read_text(encoding="utf-8"), "full archive readiness audit must say complete", errors)
+    require("Overall status: complete" in integrated_companion_readiness_report.read_text(encoding="utf-8"), "integrated companion readiness audit must say complete", errors)
     for template in manual_note_templates:
         require(template.exists(), f"manual note template missing: {template.relative_to(ROOT)}", errors)
     available = [r for r in transcript_index if r["transcript_status"] == "available"]
