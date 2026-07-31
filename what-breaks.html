@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What Breaks</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+    <nav class="topbar">
+      <a href="index.html">Overview</a>
+      <a href="lectures.html">Lectures</a>
+      <a href="tutorials.html">Tutorials</a>
+      <a href="evening-lectures.html">Evening Lectures</a>
+      <a href="concepts.html">Concepts</a>
+      <a href="families.html">Families</a>
+      <a href="themes.html">Themes</a>
+      <a href="learning-path.html">Learning Path</a>
+      <a href="what-breaks.html">What Breaks</a>
+      <a href="evidence.html">Evidence</a>
+      <a href="archive-evidence.html">Archive Evidence</a>
+    </nav>
+    
+<main>
+
+    <h1>What Breaks If You Skip This</h1>
+    <p class="lede">A dependency map for the mathematical ideas: each row names the failure mode, then the repair.</p>
+    <div class="theme-list">
+    
+            <article class="row-block">
+              <h2><a href="concepts/topology-continuity.html">Topology and Continuity</a></h2>
+              <p><strong>If skipped:</strong> Continuity becomes a slogan. Later fields can jump, limits can be chart accidents, and smooth-looking formulas can hide discontinuities.</p>
+              <p><strong>Repair:</strong> Return to open sets and inverse-image tests before speaking about smoothness, paths, or field equations.</p>
+              <p><strong>Depends on:</strong> <span class="quiet">Starts here.</span></p>
+            </article>
+            
+
+            <article class="row-block">
+              <h2><a href="concepts/charts-atlases-coordinate-overlap.html">Charts, Atlases, and Overlap Rules</a></h2>
+              <p><strong>If skipped:</strong> Coordinates become the space. Horizons, poles, and chart edges are misread as physical edges or singularities.</p>
+              <p><strong>Repair:</strong> Check overlap maps and ask whether the geometric claim survives changing charts before treating a coordinate feature as a physical feature of spacetime.</p>
+              <p><strong>Depends on:</strong> <a class="chip" href="concepts/topology-continuity.html">Topology and Continuity</a></p>
+            </article>
+            
+
+            <article class="row-block">
+              <h2><a href="concepts/smoothness-change-rates.html">Smoothness As Allowed Change</a></h2>
+              <p><strong>If skipped:</strong> Derivatives measure the chosen map instead of the manifold. Connections, curvature, and geodesics lose their right to be geometric.</p>
+              <p><strong>Repair:</strong> Make transition maps smooth enough for calculus to pass from one chart to another, then allow derivatives only when that compatibility has been checked.</p>
+              <p><strong>Depends on:</strong> <a class="chip" href="concepts/charts-atlases-coordinate-overlap.html">Charts, Atlases, and Overlap Rules</a></p>
+            </article>
+            
+
+            <article class="row-block">
+              <h2><a href="concepts/tensor-components-versus-object.html">Tensor Components Versus The Object</a></h2>
+              <p><strong>If skipped:</strong> Einstein&#x27;s equation becomes array matching. A coordinate artifact can be mistaken for a physical tensor statement.</p>
+              <p><strong>Repair:</strong> Track the slot rule first, then treat components as one chosen display of that rule whose numbers may change when the basis changes.</p>
+              <p><strong>Depends on:</strong> <a class="chip" href="concepts/multilinear-objects.html">Multilinear Algebra</a></p>
+            </article>
+            
+
+            <article class="row-block">
+              <h2><a href="concepts/vector-fields-as-local-instructions.html">Vector Fields As Local Instructions</a></h2>
+              <p><strong>If skipped:</strong> Velocity, observer fields, and matter fields are imported from flat-space intuition instead of built on the manifold.</p>
+              <p><strong>Repair:</strong> Define tangent vectors by what they do to functions, then define fields as smooth pointwise assignments.</p>
+              <p><strong>Depends on:</strong> <a class="chip" href="concepts/tangent-vectors-as-derivatives.html">Tangent Vectors As Derivatives</a></p>
+            </article>
+            
+
+            <article class="row-block">
+              <h2><a href="concepts/covariant-derivative-corrects-comparison.html">Covariant Derivative Corrects Comparison</a></h2>
+              <p><strong>If skipped:</strong> Change from place to place is confused with coordinate drift. Curvature and free motion become ordinary derivative mistakes.</p>
+              <p><strong>Repair:</strong> Use a connection to specify how nearby directions are compared before asking what changes, so change is not confused with coordinate drift.</p>
+              <p><strong>Depends on:</strong> <a class="chip" href="concepts/vector-fields-as-local-instructions.html">Vector Fields As Local Instructions</a></p>
+            </article>
+            
+
+            <article class="row-block">
+              <h2><a href="concepts/integration-on-manifolds.html">Integration on Manifolds</a></h2>
+              <p><strong>If skipped:</strong> Actions, fluxes, and source totals depend on the chart used to add them. Boundary terms look like algebra scraps.</p>
+              <p><strong>Repair:</strong> Use forms, orientation, and chart-change cancellation so adding local facts gives one geometric answer rather than a chart-dependent total.</p>
+              <p><strong>Depends on:</strong> <a class="chip" href="concepts/smoothness-change-rates.html">Smoothness As Allowed Change</a></p>
+            </article>
+            
+
+            <article class="row-block">
+              <h2><a href="concepts/killing-fields-symmetry-directions.html">Killing Fields As Symmetry Directions</a></h2>
+              <p><strong>If skipped:</strong> Conserved quantities look arbitrary. Energy and angular momentum are assumed even when the spacetime has no structure to support them.</p>
+              <p><strong>Repair:</strong> Check what a flow preserves before claiming a conservation law, and only then attach conserved quantities to that spacetime.</p>
+              <p><strong>Depends on:</strong> <a class="chip" href="concepts/covariant-derivative-corrects-comparison.html">Covariant Derivative Corrects Comparison</a></p>
+            </article>
+            
+
+            <article class="row-block">
+              <h2><a href="concepts/stress-energy-matter.html">Matter and Stress-Energy</a></h2>
+              <p><strong>If skipped:</strong> Matter is reduced to mass alone, and Einstein&#x27;s equation loses the pressure, momentum, and stress information that actually gravitates.</p>
+              <p><strong>Repair:</strong> Treat stress-energy as the local accounting object for what matter contributes to geometry, including pressure, momentum flow, and stress.</p>
+              <p><strong>Depends on:</strong> <a class="chip" href="concepts/tensor-components-versus-object.html">Tensor Components Versus The Object</a> <a class="chip" href="concepts/integration-on-manifolds.html">Integration on Manifolds</a></p>
+            </article>
+            
+
+            <article class="row-block">
+              <h2><a href="concepts/event-horizon-causal-boundary.html">Event Horizon As Causal Boundary</a></h2>
+              <p><strong>If skipped:</strong> Black holes become pictures of dark surfaces rather than claims about what signals can reach, and horizons are mistaken for material walls.</p>
+              <p><strong>Repair:</strong> Read horizons through future-directed light paths and global causal reach, then use Penrose diagrams only for what they preserve.</p>
+              <p><strong>Depends on:</strong> <a class="chip" href="concepts/metric-signature-light-cones.html">Metric Signature And Light Cones</a> <a class="chip" href="concepts/geodesics-free-motion.html">Geodesics As Free Motion</a></p>
+            </article>
+            
+
+            <article class="row-block">
+              <h2><a href="concepts/scale-factor-expansion-history.html">Scale Factor As Expansion History</a></h2>
+              <p><strong>If skipped:</strong> Cosmic expansion is misread as motion through a fixed outside space. Redshift and Hubble rate lose their geometric meaning.</p>
+              <p><strong>Repair:</strong> Use the scale factor as the model&#x27;s changing distance relation and connect it to matter content through the reduced equations.</p>
+              <p><strong>Depends on:</strong> <a class="chip" href="concepts/metric-measurement.html">Metric Manifolds</a> <a class="chip" href="concepts/stress-energy-matter.html">Matter and Stress-Energy</a></p>
+            </article>
+            
+
+            <article class="row-block">
+              <h2><a href="concepts/strain-relative-length-change.html">Strain As Relative Length Change</a></h2>
+              <p><strong>If skipped:</strong> Gravitational waves become metaphorical ripples with no clear measured quantity, and detectors look disconnected from the earlier geometry.</p>
+              <p><strong>Repair:</strong> Connect the small metric disturbance to relative length change read by light in an interferometer, so the measured strain has a geometric meaning.</p>
+              <p><strong>Depends on:</strong> <a class="chip" href="concepts/perturbations-waves.html">Perturbation Theory and Gravitational Waves</a> <a class="chip" href="concepts/interferometer-light-as-ruler.html">Interferometer Light As A Ruler</a></p>
+            </article>
+            </div>
+</main>
+</body>
+</html>
