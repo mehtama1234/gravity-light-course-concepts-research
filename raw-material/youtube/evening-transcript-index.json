@@ -1,0 +1,49 @@
+[
+  {
+    "id": "udmiKlH7-AA",
+    "index": 40,
+    "archive_index": 40,
+    "type": "evening-lecture",
+    "type_index": 1,
+    "related_central_lectures": [
+      24,
+      25,
+      27,
+      28
+    ],
+    "expected_title": "Evening Lecture A: Gravitational Waves: Music on the Spheres",
+    "title": "Evening Lecture A: Gravitational Waves: Music on the Spheres (Winter School on Gravity and Light)",
+    "url": "https://www.youtube.com/watch?v=udmiKlH7-AA",
+    "duration": 2889,
+    "channel": "The WE-Heraeus International Winter School on Gravity and Light",
+    "clean_txt": "raw-material/youtube/transcripts/gravity-light-full-archive/clean/040-udmiKlH7-AA.txt",
+    "cue_json": "raw-material/youtube/transcripts/gravity-light-full-archive/cues/040-udmiKlH7-AA.json",
+    "raw_vtt": "raw-material/youtube/transcripts/gravity-light-full-archive/raw-vtt/040-udmiKlH7-AA-Evening Lecture A： Gravitational Waves： Music on the Spheres (Winter School on Gravity and Light).en.vtt",
+    "word_count": 6219,
+    "cue_count": 2214,
+    "transcript_status": "available"
+  },
+  {
+    "id": "bxzTD7usU1s",
+    "index": 41,
+    "archive_index": 41,
+    "type": "evening-lecture",
+    "type_index": 2,
+    "related_central_lectures": [
+      18,
+      19,
+      26
+    ],
+    "expected_title": "Evening Lecture B: Quantum versus Gravity",
+    "title": "Evening Lecture B: Quantum versus Gravity (International Winter School on Gravity and Light 2015)",
+    "url": "https://www.youtube.com/watch?v=bxzTD7usU1s",
+    "duration": 5592,
+    "channel": "The WE-Heraeus International Winter School on Gravity and Light",
+    "clean_txt": "raw-material/youtube/transcripts/gravity-light-full-archive/clean/041-bxzTD7usU1s.txt",
+    "cue_json": "raw-material/youtube/transcripts/gravity-light-full-archive/cues/041-bxzTD7usU1s.json",
+    "raw_vtt": "raw-material/youtube/transcripts/gravity-light-full-archive/raw-vtt/041-bxzTD7usU1s-Evening Lecture B： Quantum versus Gravity (International Winter School on Gravity and Light 2015).en.vtt",
+    "word_count": 13711,
+    "cue_count": 4945,
+    "transcript_status": "available"
+  }
+]

@@ -1,0 +1,5819 @@
+[
+  {
+    "start": "00:00:00.000",
+    "end": "00:00:02.659",
+    "start_seconds": 0.0,
+    "end_seconds": 2.659,
+    "text": "this program is being presented to you"
+  },
+  {
+    "start": "00:00:02.659",
+    "end": "00:00:02.669",
+    "start_seconds": 2.659,
+    "end_seconds": 2.669,
+    "text": "this program is being presented to you"
+  },
+  {
+    "start": "00:00:02.669",
+    "end": "00:00:05.269",
+    "start_seconds": 2.669,
+    "end_seconds": 5.269,
+    "text": "this program is being presented to you by the Harris international winter"
+  },
+  {
+    "start": "00:00:05.269",
+    "end": "00:00:05.279",
+    "start_seconds": 5.269,
+    "end_seconds": 5.279,
+    "text": "by the Harris international winter"
+  },
+  {
+    "start": "00:00:05.279",
+    "end": "00:00:14.240",
+    "start_seconds": 5.279,
+    "end_seconds": 14.24,
+    "text": "by the Harris international winter school on gravity and lights welcome to"
+  },
+  {
+    "start": "00:00:14.240",
+    "end": "00:00:14.250",
+    "start_seconds": 14.24,
+    "end_seconds": 14.25,
+    "text": "school on gravity and lights welcome to"
+  },
+  {
+    "start": "00:00:14.250",
+    "end": "00:00:16.700",
+    "start_seconds": 14.25,
+    "end_seconds": 16.7,
+    "text": "school on gravity and lights welcome to the W e Reyes International winter"
+  },
+  {
+    "start": "00:00:16.700",
+    "end": "00:00:16.710",
+    "start_seconds": 16.7,
+    "end_seconds": 16.71,
+    "text": "the W e Reyes International winter"
+  },
+  {
+    "start": "00:00:16.710",
+    "end": "00:00:19.580",
+    "start_seconds": 16.71,
+    "end_seconds": 19.58,
+    "text": "the W e Reyes International winter school on gravity and light the first"
+  },
+  {
+    "start": "00:00:19.580",
+    "end": "00:00:19.590",
+    "start_seconds": 19.58,
+    "end_seconds": 19.59,
+    "text": "school on gravity and light the first"
+  },
+  {
+    "start": "00:00:19.590",
+    "end": "00:00:22.519",
+    "start_seconds": 19.59,
+    "end_seconds": 22.519,
+    "text": "school on gravity and light the first lecture was about the notion of topology"
+  },
+  {
+    "start": "00:00:22.519",
+    "end": "00:00:22.529",
+    "start_seconds": 22.519,
+    "end_seconds": 22.529,
+    "text": "lecture was about the notion of topology"
+  },
+  {
+    "start": "00:00:22.529",
+    "end": "00:00:24.609",
+    "start_seconds": 22.529,
+    "end_seconds": 24.609,
+    "text": "lecture was about the notion of topology and topological spaces"
+  },
+  {
+    "start": "00:00:24.609",
+    "end": "00:00:24.619",
+    "start_seconds": 24.609,
+    "end_seconds": 24.619,
+    "text": "and topological spaces"
+  },
+  {
+    "start": "00:00:24.619",
+    "end": "00:00:28.060",
+    "start_seconds": 24.619,
+    "end_seconds": 28.06,
+    "text": "and topological spaces maddis what this tutorial will be about"
+  },
+  {
+    "start": "00:00:28.060",
+    "end": "00:00:28.070",
+    "start_seconds": 28.06,
+    "end_seconds": 28.07,
+    "text": "maddis what this tutorial will be about"
+  },
+  {
+    "start": "00:00:28.070",
+    "end": "00:00:31.070",
+    "start_seconds": 28.07,
+    "end_seconds": 31.07,
+    "text": "maddis what this tutorial will be about the first exercise are simple"
+  },
+  {
+    "start": "00:00:31.070",
+    "end": "00:00:31.080",
+    "start_seconds": 31.07,
+    "end_seconds": 31.08,
+    "text": "the first exercise are simple"
+  },
+  {
+    "start": "00:00:31.080",
+    "end": "00:00:33.069",
+    "start_seconds": 31.08,
+    "end_seconds": 33.069,
+    "text": "the first exercise are simple multiple-choice questions"
+  },
+  {
+    "start": "00:00:33.069",
+    "end": "00:00:33.079",
+    "start_seconds": 33.069,
+    "end_seconds": 33.079,
+    "text": "multiple-choice questions"
+  },
+  {
+    "start": "00:00:33.079",
+    "end": "00:00:35.600",
+    "start_seconds": 33.079,
+    "end_seconds": 35.6,
+    "text": "multiple-choice questions they are designed to spark discussion"
+  },
+  {
+    "start": "00:00:35.600",
+    "end": "00:00:35.610",
+    "start_seconds": 35.6,
+    "end_seconds": 35.61,
+    "text": "they are designed to spark discussion"
+  },
+  {
+    "start": "00:00:35.610",
+    "end": "00:00:39.549",
+    "start_seconds": 35.61,
+    "end_seconds": 39.549,
+    "text": "they are designed to spark discussion and as a self test"
+  },
+  {
+    "start": "00:00:39.559",
+    "end": "00:00:42.020",
+    "start_seconds": 39.559,
+    "end_seconds": 42.02,
+    "text": "you shall tick the rod correct"
+  },
+  {
+    "start": "00:00:42.020",
+    "end": "00:00:42.030",
+    "start_seconds": 42.02,
+    "end_seconds": 42.03,
+    "text": "you shall tick the rod correct"
+  },
+  {
+    "start": "00:00:42.030",
+    "end": "00:00:45.590",
+    "start_seconds": 42.03,
+    "end_seconds": 45.59,
+    "text": "you shall tick the rod correct statements but not the incorrect ones so"
+  },
+  {
+    "start": "00:00:45.590",
+    "end": "00:00:45.600",
+    "start_seconds": 45.59,
+    "end_seconds": 45.6,
+    "text": "statements but not the incorrect ones so"
+  },
+  {
+    "start": "00:00:45.600",
+    "end": "00:00:51.080",
+    "start_seconds": 45.6,
+    "end_seconds": 51.08,
+    "text": "statements but not the incorrect ones so let's start in Part A we look at a"
+  },
+  {
+    "start": "00:00:51.080",
+    "end": "00:00:51.090",
+    "start_seconds": 51.08,
+    "end_seconds": 51.09,
+    "text": "let's start in Part A we look at a"
+  },
+  {
+    "start": "00:00:51.090",
+    "end": "00:00:55.850",
+    "start_seconds": 51.09,
+    "end_seconds": 55.85,
+    "text": "let's start in Part A we look at a topological space the first answer says"
+  },
+  {
+    "start": "00:00:55.850",
+    "end": "00:00:55.860",
+    "start_seconds": 55.85,
+    "end_seconds": 55.86,
+    "text": "topological space the first answer says"
+  },
+  {
+    "start": "00:00:55.860",
+    "end": "00:00:58.430",
+    "start_seconds": 55.86,
+    "end_seconds": 58.43,
+    "text": "topological space the first answer says that it is defined by a set a topology"
+  },
+  {
+    "start": "00:00:58.430",
+    "end": "00:00:58.440",
+    "start_seconds": 58.43,
+    "end_seconds": 58.44,
+    "text": "that it is defined by a set a topology"
+  },
+  {
+    "start": "00:00:58.440",
+    "end": "00:01:02.840",
+    "start_seconds": 58.44,
+    "end_seconds": 62.84,
+    "text": "that it is defined by a set a topology and an atlas that is not true since the"
+  },
+  {
+    "start": "00:01:02.840",
+    "end": "00:01:02.850",
+    "start_seconds": 62.84,
+    "end_seconds": 62.85,
+    "text": "and an atlas that is not true since the"
+  },
+  {
+    "start": "00:01:02.850",
+    "end": "00:01:05.719",
+    "start_seconds": 62.85,
+    "end_seconds": 65.719,
+    "text": "and an atlas that is not true since the topological space is only a set occurred"
+  },
+  {
+    "start": "00:01:05.719",
+    "end": "00:01:05.729",
+    "start_seconds": 65.719,
+    "end_seconds": 65.729,
+    "text": "topological space is only a set occurred"
+  },
+  {
+    "start": "00:01:05.729",
+    "end": "00:01:09.950",
+    "start_seconds": 65.729,
+    "end_seconds": 69.95,
+    "text": "topological space is only a set occurred with a topology an atlas is additional"
+  },
+  {
+    "start": "00:01:09.950",
+    "end": "00:01:09.960",
+    "start_seconds": 69.95,
+    "end_seconds": 69.96000000000001,
+    "text": "with a topology an atlas is additional"
+  },
+  {
+    "start": "00:01:09.960",
+    "end": "00:01:11.750",
+    "start_seconds": 69.96000000000001,
+    "end_seconds": 71.75,
+    "text": "with a topology an atlas is additional structure required for a topological"
+  },
+  {
+    "start": "00:01:11.750",
+    "end": "00:01:11.760",
+    "start_seconds": 71.75,
+    "end_seconds": 71.76,
+    "text": "structure required for a topological"
+  },
+  {
+    "start": "00:01:11.760",
+    "end": "00:01:14.060",
+    "start_seconds": 71.76,
+    "end_seconds": 74.06,
+    "text": "structure required for a topological manifold that will be introduced later"
+  },
+  {
+    "start": "00:01:14.060",
+    "end": "00:01:14.070",
+    "start_seconds": 74.06,
+    "end_seconds": 74.07,
+    "text": "manifold that will be introduced later"
+  },
+  {
+    "start": "00:01:14.070",
+    "end": "00:01:18.770",
+    "start_seconds": 74.07,
+    "end_seconds": 78.77,
+    "text": "manifold that will be introduced later on a topological set is a set without"
+  },
+  {
+    "start": "00:01:18.770",
+    "end": "00:01:18.780",
+    "start_seconds": 78.77,
+    "end_seconds": 78.78,
+    "text": "on a topological set is a set without"
+  },
+  {
+    "start": "00:01:18.780",
+    "end": "00:01:21.859",
+    "start_seconds": 78.78,
+    "end_seconds": 81.85900000000001,
+    "text": "on a topological set is a set without any further structure that is also"
+  },
+  {
+    "start": "00:01:21.859",
+    "end": "00:01:21.869",
+    "start_seconds": 81.85900000000001,
+    "end_seconds": 81.869,
+    "text": "any further structure that is also"
+  },
+  {
+    "start": "00:01:21.869",
+    "end": "00:01:27.410",
+    "start_seconds": 81.869,
+    "end_seconds": 87.41,
+    "text": "any further structure that is also incorrect since a topological space is a"
+  },
+  {
+    "start": "00:01:27.410",
+    "end": "00:01:27.420",
+    "start_seconds": 87.41,
+    "end_seconds": 87.42,
+    "text": "incorrect since a topological space is a"
+  },
+  {
+    "start": "00:01:27.420",
+    "end": "00:01:30.740",
+    "start_seconds": 87.42,
+    "end_seconds": 90.74,
+    "text": "incorrect since a topological space is a set equipped with a topology and that"
+  },
+  {
+    "start": "00:01:30.740",
+    "end": "00:01:30.750",
+    "start_seconds": 90.74,
+    "end_seconds": 90.75,
+    "text": "set equipped with a topology and that"
+  },
+  {
+    "start": "00:01:30.750",
+    "end": "00:01:35.170",
+    "start_seconds": 90.75,
+    "end_seconds": 95.17,
+    "text": "set equipped with a topology and that the topology is further structure a"
+  },
+  {
+    "start": "00:01:35.170",
+    "end": "00:01:35.180",
+    "start_seconds": 95.17,
+    "end_seconds": 95.18,
+    "text": "the topology is further structure a"
+  },
+  {
+    "start": "00:01:35.180",
+    "end": "00:01:38.030",
+    "start_seconds": 95.18,
+    "end_seconds": 98.03,
+    "text": "the topology is further structure a topological space defines a notion of"
+  },
+  {
+    "start": "00:01:38.030",
+    "end": "00:01:38.040",
+    "start_seconds": 98.03,
+    "end_seconds": 98.03999999999999,
+    "text": "topological space defines a notion of"
+  },
+  {
+    "start": "00:01:38.040",
+    "end": "00:01:43.420",
+    "start_seconds": 98.03999999999999,
+    "end_seconds": 103.42,
+    "text": "topological space defines a notion of open sets well that is correct since a"
+  },
+  {
+    "start": "00:01:43.420",
+    "end": "00:01:43.430",
+    "start_seconds": 103.42,
+    "end_seconds": 103.43,
+    "text": "open sets well that is correct since a"
+  },
+  {
+    "start": "00:01:43.430",
+    "end": "00:01:48.490",
+    "start_seconds": 103.43,
+    "end_seconds": 108.49000000000001,
+    "text": "open sets well that is correct since a topology defines what open sets are a"
+  },
+  {
+    "start": "00:01:48.490",
+    "end": "00:01:48.500",
+    "start_seconds": 108.49000000000001,
+    "end_seconds": 108.5,
+    "text": "topology defines what open sets are a"
+  },
+  {
+    "start": "00:01:48.500",
+    "end": "00:01:51.050",
+    "start_seconds": 108.5,
+    "end_seconds": 111.05,
+    "text": "topology defines what open sets are a topological space always has integer"
+  },
+  {
+    "start": "00:01:51.050",
+    "end": "00:01:51.060",
+    "start_seconds": 111.05,
+    "end_seconds": 111.06,
+    "text": "topological space always has integer"
+  },
+  {
+    "start": "00:01:51.060",
+    "end": "00:01:54.410",
+    "start_seconds": 111.06,
+    "end_seconds": 114.41,
+    "text": "topological space always has integer dimension which is the 4th answer well"
+  },
+  {
+    "start": "00:01:54.410",
+    "end": "00:01:54.420",
+    "start_seconds": 114.41,
+    "end_seconds": 114.42,
+    "text": "dimension which is the 4th answer well"
+  },
+  {
+    "start": "00:01:54.420",
+    "end": "00:01:57.200",
+    "start_seconds": 114.42,
+    "end_seconds": 117.2,
+    "text": "dimension which is the 4th answer well that is also incorrect since we cannot"
+  },
+  {
+    "start": "00:01:57.200",
+    "end": "00:01:57.210",
+    "start_seconds": 117.2,
+    "end_seconds": 117.21000000000001,
+    "text": "that is also incorrect since we cannot"
+  },
+  {
+    "start": "00:01:57.210",
+    "end": "00:01:59.330",
+    "start_seconds": 117.21000000000001,
+    "end_seconds": 119.33,
+    "text": "that is also incorrect since we cannot speak of dimension when dealing with a"
+  },
+  {
+    "start": "00:01:59.330",
+    "end": "00:01:59.340",
+    "start_seconds": 119.33,
+    "end_seconds": 119.34,
+    "text": "speak of dimension when dealing with a"
+  },
+  {
+    "start": "00:01:59.340",
+    "end": "00:02:04.910",
+    "start_seconds": 119.34,
+    "end_seconds": 124.91,
+    "text": "speak of dimension when dealing with a topological space and last a topological"
+  },
+  {
+    "start": "00:02:04.910",
+    "end": "00:02:04.920",
+    "start_seconds": 124.91,
+    "end_seconds": 124.92,
+    "text": "topological space and last a topological"
+  },
+  {
+    "start": "00:02:04.920",
+    "end": "00:02:07.760",
+    "start_seconds": 124.92,
+    "end_seconds": 127.76,
+    "text": "topological space and last a topological space allows to check the continuity of"
+  },
+  {
+    "start": "00:02:07.760",
+    "end": "00:02:07.770",
+    "start_seconds": 127.76,
+    "end_seconds": 127.77,
+    "text": "space allows to check the continuity of"
+  },
+  {
+    "start": "00:02:07.770",
+    "end": "00:02:11.080",
+    "start_seconds": 127.77,
+    "end_seconds": 131.08,
+    "text": "space allows to check the continuity of a map from the underlying set to itself"
+  },
+  {
+    "start": "00:02:11.080",
+    "end": "00:02:11.090",
+    "start_seconds": 131.08,
+    "end_seconds": 131.09,
+    "text": "a map from the underlying set to itself"
+  },
+  {
+    "start": "00:02:11.090",
+    "end": "00:02:12.840",
+    "start_seconds": 131.09,
+    "end_seconds": 132.84,
+    "text": "a map from the underlying set to itself yes the"
+  },
+  {
+    "start": "00:02:12.840",
+    "end": "00:02:12.850",
+    "start_seconds": 132.84,
+    "end_seconds": 132.85,
+    "text": "yes the"
+  },
+  {
+    "start": "00:02:12.850",
+    "end": "00:02:15.990",
+    "start_seconds": 132.85,
+    "end_seconds": 135.99,
+    "text": "yes the is correct a topological space is the"
+  },
+  {
+    "start": "00:02:15.990",
+    "end": "00:02:16.000",
+    "start_seconds": 135.99,
+    "end_seconds": 136.0,
+    "text": "is correct a topological space is the"
+  },
+  {
+    "start": "00:02:16.000",
+    "end": "00:02:19.560",
+    "start_seconds": 136.0,
+    "end_seconds": 139.56,
+    "text": "is correct a topological space is the minimal structure required to define the"
+  },
+  {
+    "start": "00:02:19.560",
+    "end": "00:02:19.570",
+    "start_seconds": 139.56,
+    "end_seconds": 139.57,
+    "text": "minimal structure required to define the"
+  },
+  {
+    "start": "00:02:19.570",
+    "end": "00:02:24.570",
+    "start_seconds": 139.57,
+    "end_seconds": 144.57,
+    "text": "minimal structure required to define the continuity of a map so in Part A we had"
+  },
+  {
+    "start": "00:02:24.570",
+    "end": "00:02:24.580",
+    "start_seconds": 144.57,
+    "end_seconds": 144.57999999999998,
+    "text": "continuity of a map so in Part A we had"
+  },
+  {
+    "start": "00:02:24.580",
+    "end": "00:02:29.310",
+    "start_seconds": 144.57999999999998,
+    "end_seconds": 149.31,
+    "text": "continuity of a map so in Part A we had two correct answers three and five Part"
+  },
+  {
+    "start": "00:02:29.310",
+    "end": "00:02:29.320",
+    "start_seconds": 149.31,
+    "end_seconds": 149.32,
+    "text": "two correct answers three and five Part"
+  },
+  {
+    "start": "00:02:29.320",
+    "end": "00:02:31.830",
+    "start_seconds": 149.32,
+    "end_seconds": 151.82999999999998,
+    "text": "two correct answers three and five Part B deals with the chaotic topology on a"
+  },
+  {
+    "start": "00:02:31.830",
+    "end": "00:02:31.840",
+    "start_seconds": 151.82999999999998,
+    "end_seconds": 151.84,
+    "text": "B deals with the chaotic topology on a"
+  },
+  {
+    "start": "00:02:31.840",
+    "end": "00:02:36.450",
+    "start_seconds": 151.84,
+    "end_seconds": 156.45,
+    "text": "B deals with the chaotic topology on a set M it says that it cannot be defined"
+  },
+  {
+    "start": "00:02:36.450",
+    "end": "00:02:36.460",
+    "start_seconds": 156.45,
+    "end_seconds": 156.46,
+    "text": "set M it says that it cannot be defined"
+  },
+  {
+    "start": "00:02:36.460",
+    "end": "00:02:40.080",
+    "start_seconds": 156.46,
+    "end_seconds": 160.07999999999998,
+    "text": "set M it says that it cannot be defined on the natural numbers n that is not"
+  },
+  {
+    "start": "00:02:40.080",
+    "end": "00:02:40.090",
+    "start_seconds": 160.07999999999998,
+    "end_seconds": 160.09,
+    "text": "on the natural numbers n that is not"
+  },
+  {
+    "start": "00:02:40.090",
+    "end": "00:02:42.630",
+    "start_seconds": 160.09,
+    "end_seconds": 162.63,
+    "text": "on the natural numbers n that is not correct of course we can equip the"
+  },
+  {
+    "start": "00:02:42.630",
+    "end": "00:02:42.640",
+    "start_seconds": 162.63,
+    "end_seconds": 162.64,
+    "text": "correct of course we can equip the"
+  },
+  {
+    "start": "00:02:42.640",
+    "end": "00:02:44.460",
+    "start_seconds": 162.64,
+    "end_seconds": 164.46,
+    "text": "correct of course we can equip the natural numbers with the chaotic"
+  },
+  {
+    "start": "00:02:44.460",
+    "end": "00:02:44.470",
+    "start_seconds": 164.46,
+    "end_seconds": 164.47,
+    "text": "natural numbers with the chaotic"
+  },
+  {
+    "start": "00:02:44.470",
+    "end": "00:02:50.190",
+    "start_seconds": 164.47,
+    "end_seconds": 170.19,
+    "text": "natural numbers with the chaotic topology the second answer is a consists"
+  },
+  {
+    "start": "00:02:50.190",
+    "end": "00:02:50.200",
+    "start_seconds": 170.19,
+    "end_seconds": 170.2,
+    "text": "topology the second answer is a consists"
+  },
+  {
+    "start": "00:02:50.200",
+    "end": "00:02:53.070",
+    "start_seconds": 170.2,
+    "end_seconds": 173.07,
+    "text": "topology the second answer is a consists of all subsets of M which is also not"
+  },
+  {
+    "start": "00:02:53.070",
+    "end": "00:02:53.080",
+    "start_seconds": 173.07,
+    "end_seconds": 173.07999999999998,
+    "text": "of all subsets of M which is also not"
+  },
+  {
+    "start": "00:02:53.080",
+    "end": "00:02:56.520",
+    "start_seconds": 173.07999999999998,
+    "end_seconds": 176.52,
+    "text": "of all subsets of M which is also not correct since that only consists of the"
+  },
+  {
+    "start": "00:02:56.520",
+    "end": "00:02:56.530",
+    "start_seconds": 176.52,
+    "end_seconds": 176.53,
+    "text": "correct since that only consists of the"
+  },
+  {
+    "start": "00:02:56.530",
+    "end": "00:03:00.630",
+    "start_seconds": 176.53,
+    "end_seconds": 180.63,
+    "text": "correct since that only consists of the empty set and the set M itself the"
+  },
+  {
+    "start": "00:03:00.630",
+    "end": "00:03:00.640",
+    "start_seconds": 180.63,
+    "end_seconds": 180.64,
+    "text": "empty set and the set M itself the"
+  },
+  {
+    "start": "00:03:00.640",
+    "end": "00:03:03.210",
+    "start_seconds": 180.64,
+    "end_seconds": 183.21,
+    "text": "empty set and the set M itself the discrete topology would consist of all"
+  },
+  {
+    "start": "00:03:03.210",
+    "end": "00:03:03.220",
+    "start_seconds": 183.21,
+    "end_seconds": 183.22,
+    "text": "discrete topology would consist of all"
+  },
+  {
+    "start": "00:03:03.220",
+    "end": "00:03:09.270",
+    "start_seconds": 183.22,
+    "end_seconds": 189.27,
+    "text": "discrete topology would consist of all subsets of M the chaotic topology on is"
+  },
+  {
+    "start": "00:03:09.270",
+    "end": "00:03:09.280",
+    "start_seconds": 189.27,
+    "end_seconds": 189.28,
+    "text": "subsets of M the chaotic topology on is"
+  },
+  {
+    "start": "00:03:09.280",
+    "end": "00:03:11.850",
+    "start_seconds": 189.28,
+    "end_seconds": 191.85,
+    "text": "subsets of M the chaotic topology on is that contains the empty set well that is"
+  },
+  {
+    "start": "00:03:11.850",
+    "end": "00:03:11.860",
+    "start_seconds": 191.85,
+    "end_seconds": 191.86,
+    "text": "that contains the empty set well that is"
+  },
+  {
+    "start": "00:03:11.860",
+    "end": "00:03:13.920",
+    "start_seconds": 191.86,
+    "end_seconds": 193.92,
+    "text": "that contains the empty set well that is definitely correct since this is the"
+  },
+  {
+    "start": "00:03:13.920",
+    "end": "00:03:13.930",
+    "start_seconds": 193.92,
+    "end_seconds": 193.93,
+    "text": "definitely correct since this is the"
+  },
+  {
+    "start": "00:03:13.930",
+    "end": "00:03:17.640",
+    "start_seconds": 193.93,
+    "end_seconds": 197.64,
+    "text": "definitely correct since this is the first axiom of a topology it is the"
+  },
+  {
+    "start": "00:03:17.640",
+    "end": "00:03:17.650",
+    "start_seconds": 197.64,
+    "end_seconds": 197.65,
+    "text": "first axiom of a topology it is the"
+  },
+  {
+    "start": "00:03:17.650",
+    "end": "00:03:21.240",
+    "start_seconds": 197.65,
+    "end_seconds": 201.24,
+    "text": "first axiom of a topology it is the coarsest topology on M so here we have"
+  },
+  {
+    "start": "00:03:21.240",
+    "end": "00:03:21.250",
+    "start_seconds": 201.24,
+    "end_seconds": 201.25,
+    "text": "coarsest topology on M so here we have"
+  },
+  {
+    "start": "00:03:21.250",
+    "end": "00:03:25.820",
+    "start_seconds": 201.25,
+    "end_seconds": 205.82,
+    "text": "coarsest topology on M so here we have to introduce what corsa means on"
+  },
+  {
+    "start": "00:03:25.820",
+    "end": "00:03:25.830",
+    "start_seconds": 205.82,
+    "end_seconds": 205.82999999999998,
+    "text": "to introduce what corsa means on"
+  },
+  {
+    "start": "00:03:25.830",
+    "end": "00:03:33.710",
+    "start_seconds": 205.82999999999998,
+    "end_seconds": 213.71,
+    "text": "to introduce what corsa means on topologies so we can define that a"
+  },
+  {
+    "start": "00:03:33.710",
+    "end": "00:03:33.720",
+    "start_seconds": 213.71,
+    "end_seconds": 213.72,
+    "text": "topologies so we can define that a"
+  },
+  {
+    "start": "00:03:33.720",
+    "end": "00:03:35.130",
+    "start_seconds": 213.72,
+    "end_seconds": 215.13,
+    "text": "topologies so we can define that a topology"
+  },
+  {
+    "start": "00:03:35.130",
+    "end": "00:03:35.140",
+    "start_seconds": 215.13,
+    "end_seconds": 215.14,
+    "text": "topology"
+  },
+  {
+    "start": "00:03:35.140",
+    "end": "00:03:54.290",
+    "start_seconds": 215.14,
+    "end_seconds": 234.29,
+    "text": "topology o to is causa then then each apology a"
+  },
+  {
+    "start": "00:03:54.300",
+    "end": "00:03:57.280",
+    "start_seconds": 234.3,
+    "end_seconds": 237.28,
+    "text": "one"
+  },
+  {
+    "start": "00:03:57.280",
+    "end": "00:03:57.290",
+    "start_seconds": 237.28,
+    "end_seconds": 237.29,
+    "text": "one"
+  },
+  {
+    "start": "00:03:57.290",
+    "end": "00:04:08.319",
+    "start_seconds": 237.29,
+    "end_seconds": 248.319,
+    "text": "one if otwo is contained in oh one please"
+  },
+  {
+    "start": "00:04:08.319",
+    "end": "00:04:08.329",
+    "start_seconds": 248.319,
+    "end_seconds": 248.329,
+    "text": "if otwo is contained in oh one please"
+  },
+  {
+    "start": "00:04:08.329",
+    "end": "00:04:16.180",
+    "start_seconds": 248.329,
+    "end_seconds": 256.18,
+    "text": "if otwo is contained in oh one please mind that the notion of of being"
+  },
+  {
+    "start": "00:04:16.180",
+    "end": "00:04:16.190",
+    "start_seconds": 256.18,
+    "end_seconds": 256.19,
+    "text": "mind that the notion of of being"
+  },
+  {
+    "start": "00:04:16.190",
+    "end": "00:04:19.449",
+    "start_seconds": 256.19,
+    "end_seconds": 259.449,
+    "text": "mind that the notion of of being contained in another set doesn't define"
+  },
+  {
+    "start": "00:04:19.449",
+    "end": "00:04:19.459",
+    "start_seconds": 259.449,
+    "end_seconds": 259.459,
+    "text": "contained in another set doesn't define"
+  },
+  {
+    "start": "00:04:19.459",
+    "end": "00:04:22.680",
+    "start_seconds": 259.459,
+    "end_seconds": 262.68,
+    "text": "contained in another set doesn't define a total order since we cannot compare"
+  },
+  {
+    "start": "00:04:22.680",
+    "end": "00:04:22.690",
+    "start_seconds": 262.68,
+    "end_seconds": 262.69,
+    "text": "a total order since we cannot compare"
+  },
+  {
+    "start": "00:04:22.690",
+    "end": "00:04:26.800",
+    "start_seconds": 262.69,
+    "end_seconds": 266.8,
+    "text": "a total order since we cannot compare since there are there can be topologies"
+  },
+  {
+    "start": "00:04:26.800",
+    "end": "00:04:26.810",
+    "start_seconds": 266.8,
+    "end_seconds": 266.81,
+    "text": "since there are there can be topologies"
+  },
+  {
+    "start": "00:04:26.810",
+    "end": "00:04:31.719",
+    "start_seconds": 266.81,
+    "end_seconds": 271.719,
+    "text": "since there are there can be topologies that can not be said to be subsets of"
+  },
+  {
+    "start": "00:04:31.719",
+    "end": "00:04:31.729",
+    "start_seconds": 271.719,
+    "end_seconds": 271.729,
+    "text": "that can not be said to be subsets of"
+  },
+  {
+    "start": "00:04:31.729",
+    "end": "00:04:38.620",
+    "start_seconds": 271.729,
+    "end_seconds": 278.62,
+    "text": "that can not be said to be subsets of each other so we can only say for some"
+  },
+  {
+    "start": "00:04:38.620",
+    "end": "00:04:38.630",
+    "start_seconds": 278.62,
+    "end_seconds": 278.63,
+    "text": "each other so we can only say for some"
+  },
+  {
+    "start": "00:04:38.630",
+    "end": "00:04:40.839",
+    "start_seconds": 278.63,
+    "end_seconds": 280.839,
+    "text": "each other so we can only say for some topologies that they are subsets of"
+  },
+  {
+    "start": "00:04:40.839",
+    "end": "00:04:40.849",
+    "start_seconds": 280.839,
+    "end_seconds": 280.849,
+    "text": "topologies that they are subsets of"
+  },
+  {
+    "start": "00:04:40.849",
+    "end": "00:04:43.570",
+    "start_seconds": 280.849,
+    "end_seconds": 283.57,
+    "text": "topologies that they are subsets of other topologies and thus we have a"
+  },
+  {
+    "start": "00:04:43.570",
+    "end": "00:04:43.580",
+    "start_seconds": 283.57,
+    "end_seconds": 283.58,
+    "text": "other topologies and thus we have a"
+  },
+  {
+    "start": "00:04:43.580",
+    "end": "00:04:47.499",
+    "start_seconds": 283.58,
+    "end_seconds": 287.499,
+    "text": "other topologies and thus we have a partial order but if we can say that a"
+  },
+  {
+    "start": "00:04:47.499",
+    "end": "00:04:47.509",
+    "start_seconds": 287.499,
+    "end_seconds": 287.509,
+    "text": "partial order but if we can say that a"
+  },
+  {
+    "start": "00:04:47.509",
+    "end": "00:04:50.740",
+    "start_seconds": 287.509,
+    "end_seconds": 290.74,
+    "text": "partial order but if we can say that a topology is contained in another"
+  },
+  {
+    "start": "00:04:50.740",
+    "end": "00:04:50.750",
+    "start_seconds": 290.74,
+    "end_seconds": 290.75,
+    "text": "topology is contained in another"
+  },
+  {
+    "start": "00:04:50.750",
+    "end": "00:04:53.890",
+    "start_seconds": 290.75,
+    "end_seconds": 293.89,
+    "text": "topology is contained in another topology we say it is closer than the"
+  },
+  {
+    "start": "00:04:53.890",
+    "end": "00:04:53.900",
+    "start_seconds": 293.89,
+    "end_seconds": 293.9,
+    "text": "topology we say it is closer than the"
+  },
+  {
+    "start": "00:04:53.900",
+    "end": "00:04:59.110",
+    "start_seconds": 293.9,
+    "end_seconds": 299.11,
+    "text": "topology we say it is closer than the other and for the chaotic topology that"
+  },
+  {
+    "start": "00:04:59.110",
+    "end": "00:04:59.120",
+    "start_seconds": 299.11,
+    "end_seconds": 299.12,
+    "text": "other and for the chaotic topology that"
+  },
+  {
+    "start": "00:04:59.120",
+    "end": "00:05:01.450",
+    "start_seconds": 299.12,
+    "end_seconds": 301.45,
+    "text": "other and for the chaotic topology that only contains the empty set and the set"
+  },
+  {
+    "start": "00:05:01.450",
+    "end": "00:05:01.460",
+    "start_seconds": 301.45,
+    "end_seconds": 301.46,
+    "text": "only contains the empty set and the set"
+  },
+  {
+    "start": "00:05:01.460",
+    "end": "00:05:04.960",
+    "start_seconds": 301.46,
+    "end_seconds": 304.96,
+    "text": "only contains the empty set and the set M itself we clearly see that this is the"
+  },
+  {
+    "start": "00:05:04.960",
+    "end": "00:05:04.970",
+    "start_seconds": 304.96,
+    "end_seconds": 304.97,
+    "text": "M itself we clearly see that this is the"
+  },
+  {
+    "start": "00:05:04.970",
+    "end": "00:05:12.310",
+    "start_seconds": 304.97,
+    "end_seconds": 312.31,
+    "text": "M itself we clearly see that this is the causes - topology on M and the last"
+  },
+  {
+    "start": "00:05:12.310",
+    "end": "00:05:12.320",
+    "start_seconds": 312.31,
+    "end_seconds": 312.32,
+    "text": "causes - topology on M and the last"
+  },
+  {
+    "start": "00:05:12.320",
+    "end": "00:05:15.310",
+    "start_seconds": 312.32,
+    "end_seconds": 315.31,
+    "text": "causes - topology on M and the last answer for this question is that the"
+  },
+  {
+    "start": "00:05:15.310",
+    "end": "00:05:15.320",
+    "start_seconds": 315.31,
+    "end_seconds": 315.32,
+    "text": "answer for this question is that the"
+  },
+  {
+    "start": "00:05:15.320",
+    "end": "00:05:19.330",
+    "start_seconds": 315.32,
+    "end_seconds": 319.33,
+    "text": "answer for this question is that the chaotic topology makes all Maps F from n"
+  },
+  {
+    "start": "00:05:19.330",
+    "end": "00:05:19.340",
+    "start_seconds": 319.33,
+    "end_seconds": 319.34,
+    "text": "chaotic topology makes all Maps F from n"
+  },
+  {
+    "start": "00:05:19.340",
+    "end": "00:05:23.409",
+    "start_seconds": 319.34,
+    "end_seconds": 323.409,
+    "text": "chaotic topology makes all Maps F from n to our set M continuous where the domain"
+  },
+  {
+    "start": "00:05:23.409",
+    "end": "00:05:23.419",
+    "start_seconds": 323.409,
+    "end_seconds": 323.419,
+    "text": "to our set M continuous where the domain"
+  },
+  {
+    "start": "00:05:23.419",
+    "end": "00:05:28.810",
+    "start_seconds": 323.419,
+    "end_seconds": 328.81,
+    "text": "to our set M continuous where the domain n may carry an arbitrary topology so"
+  },
+  {
+    "start": "00:05:28.810",
+    "end": "00:05:28.820",
+    "start_seconds": 328.81,
+    "end_seconds": 328.82,
+    "text": "n may carry an arbitrary topology so"
+  },
+  {
+    "start": "00:05:28.820",
+    "end": "00:05:32.500",
+    "start_seconds": 328.82,
+    "end_seconds": 332.5,
+    "text": "n may carry an arbitrary topology so there we have to look at the notion of"
+  },
+  {
+    "start": "00:05:32.500",
+    "end": "00:05:32.510",
+    "start_seconds": 332.5,
+    "end_seconds": 332.51,
+    "text": "there we have to look at the notion of"
+  },
+  {
+    "start": "00:05:32.510",
+    "end": "00:05:36.310",
+    "start_seconds": 332.51,
+    "end_seconds": 336.31,
+    "text": "there we have to look at the notion of continuity and thus we have to look if"
+  },
+  {
+    "start": "00:05:36.310",
+    "end": "00:05:36.320",
+    "start_seconds": 336.31,
+    "end_seconds": 336.32,
+    "text": "continuity and thus we have to look if"
+  },
+  {
+    "start": "00:05:36.320",
+    "end": "00:05:42.189",
+    "start_seconds": 336.32,
+    "end_seconds": 342.189,
+    "text": "continuity and thus we have to look if the preimages of open sets are open in"
+  },
+  {
+    "start": "00:05:42.189",
+    "end": "00:05:42.199",
+    "start_seconds": 342.189,
+    "end_seconds": 342.199,
+    "text": "the preimages of open sets are open in"
+  },
+  {
+    "start": "00:05:42.199",
+    "end": "00:05:47.620",
+    "start_seconds": 342.199,
+    "end_seconds": 347.62,
+    "text": "the preimages of open sets are open in the domain so open sets on the target M"
+  },
+  {
+    "start": "00:05:47.620",
+    "end": "00:05:47.630",
+    "start_seconds": 347.62,
+    "end_seconds": 347.63,
+    "text": "the domain so open sets on the target M"
+  },
+  {
+    "start": "00:05:47.630",
+    "end": "00:05:53.409",
+    "start_seconds": 347.63,
+    "end_seconds": 353.409,
+    "text": "the domain so open sets on the target M are just the empty set and the set M"
+  },
+  {
+    "start": "00:05:53.409",
+    "end": "00:05:53.419",
+    "start_seconds": 353.409,
+    "end_seconds": 353.419,
+    "text": "are just the empty set and the set M"
+  },
+  {
+    "start": "00:05:53.419",
+    "end": "00:05:56.649",
+    "start_seconds": 353.419,
+    "end_seconds": 356.649,
+    "text": "are just the empty set and the set M itself the preimage of the empty set is"
+  },
+  {
+    "start": "00:05:56.649",
+    "end": "00:05:56.659",
+    "start_seconds": 356.649,
+    "end_seconds": 356.659,
+    "text": "itself the preimage of the empty set is"
+  },
+  {
+    "start": "00:05:56.659",
+    "end": "00:06:00.100",
+    "start_seconds": 356.659,
+    "end_seconds": 360.1,
+    "text": "itself the preimage of the empty set is clearly the empty set and the preimage"
+  },
+  {
+    "start": "00:06:00.100",
+    "end": "00:06:00.110",
+    "start_seconds": 360.1,
+    "end_seconds": 360.11,
+    "text": "clearly the empty set and the preimage"
+  },
+  {
+    "start": "00:06:00.110",
+    "end": "00:06:04.089",
+    "start_seconds": 360.11,
+    "end_seconds": 364.089,
+    "text": "clearly the empty set and the preimage of the set M is the set N which both are"
+  },
+  {
+    "start": "00:06:04.089",
+    "end": "00:06:04.099",
+    "start_seconds": 364.089,
+    "end_seconds": 364.099,
+    "text": "of the set M is the set N which both are"
+  },
+  {
+    "start": "00:06:04.099",
+    "end": "00:06:07.089",
+    "start_seconds": 364.099,
+    "end_seconds": 367.089,
+    "text": "of the set M is the set N which both are definitely open in a topological space n"
+  },
+  {
+    "start": "00:06:07.089",
+    "end": "00:06:07.099",
+    "start_seconds": 367.089,
+    "end_seconds": 367.099,
+    "text": "definitely open in a topological space n"
+  },
+  {
+    "start": "00:06:07.099",
+    "end": "00:06:12.670",
+    "start_seconds": 367.099,
+    "end_seconds": 372.67,
+    "text": "definitely open in a topological space n so this answer is correct"
+  },
+  {
+    "start": "00:06:12.680",
+    "end": "00:06:17.059",
+    "start_seconds": 372.68,
+    "end_seconds": 377.059,
+    "text": "in Part C we consider a map F from M to"
+  },
+  {
+    "start": "00:06:17.059",
+    "end": "00:06:17.069",
+    "start_seconds": 377.059,
+    "end_seconds": 377.069,
+    "text": "in Part C we consider a map F from M to"
+  },
+  {
+    "start": "00:06:17.069",
+    "end": "00:06:20.420",
+    "start_seconds": 377.069,
+    "end_seconds": 380.42,
+    "text": "in Part C we consider a map F from M to n between topological spaces M equipped"
+  },
+  {
+    "start": "00:06:20.420",
+    "end": "00:06:20.430",
+    "start_seconds": 380.42,
+    "end_seconds": 380.43,
+    "text": "n between topological spaces M equipped"
+  },
+  {
+    "start": "00:06:20.430",
+    "end": "00:06:23.540",
+    "start_seconds": 380.43,
+    "end_seconds": 383.54,
+    "text": "n between topological spaces M equipped with the topology om and n a cook with a"
+  },
+  {
+    "start": "00:06:23.540",
+    "end": "00:06:23.550",
+    "start_seconds": 383.54,
+    "end_seconds": 383.55,
+    "text": "with the topology om and n a cook with a"
+  },
+  {
+    "start": "00:06:23.550",
+    "end": "00:06:25.839",
+    "start_seconds": 383.55,
+    "end_seconds": 385.839,
+    "text": "with the topology om and n a cook with a topology Oh N"
+  },
+  {
+    "start": "00:06:25.839",
+    "end": "00:06:25.849",
+    "start_seconds": 385.839,
+    "end_seconds": 385.849,
+    "text": "topology Oh N"
+  },
+  {
+    "start": "00:06:25.849",
+    "end": "00:06:28.189",
+    "start_seconds": 385.849,
+    "end_seconds": 388.189,
+    "text": "topology Oh N in the first answer it says that"
+  },
+  {
+    "start": "00:06:28.189",
+    "end": "00:06:28.199",
+    "start_seconds": 388.189,
+    "end_seconds": 388.199,
+    "text": "in the first answer it says that"
+  },
+  {
+    "start": "00:06:28.199",
+    "end": "00:06:30.739",
+    "start_seconds": 388.199,
+    "end_seconds": 390.739,
+    "text": "in the first answer it says that continuity can only be defined if M is"
+  },
+  {
+    "start": "00:06:30.739",
+    "end": "00:06:30.749",
+    "start_seconds": 390.739,
+    "end_seconds": 390.749,
+    "text": "continuity can only be defined if M is"
+  },
+  {
+    "start": "00:06:30.749",
+    "end": "00:06:34.580",
+    "start_seconds": 390.749,
+    "end_seconds": 394.58,
+    "text": "continuity can only be defined if M is our m and n as our n for some positive"
+  },
+  {
+    "start": "00:06:34.580",
+    "end": "00:06:34.590",
+    "start_seconds": 394.58,
+    "end_seconds": 394.59000000000003,
+    "text": "our m and n as our n for some positive"
+  },
+  {
+    "start": "00:06:34.590",
+    "end": "00:06:37.249",
+    "start_seconds": 394.59000000000003,
+    "end_seconds": 397.249,
+    "text": "our m and n as our n for some positive integers m and n well that is wrong"
+  },
+  {
+    "start": "00:06:37.249",
+    "end": "00:06:37.259",
+    "start_seconds": 397.249,
+    "end_seconds": 397.259,
+    "text": "integers m and n well that is wrong"
+  },
+  {
+    "start": "00:06:37.259",
+    "end": "00:06:39.830",
+    "start_seconds": 397.259,
+    "end_seconds": 399.83,
+    "text": "integers m and n well that is wrong since we don't need to restrict"
+  },
+  {
+    "start": "00:06:39.830",
+    "end": "00:06:39.840",
+    "start_seconds": 399.83,
+    "end_seconds": 399.84000000000003,
+    "text": "since we don't need to restrict"
+  },
+  {
+    "start": "00:06:39.840",
+    "end": "00:06:41.540",
+    "start_seconds": 399.84000000000003,
+    "end_seconds": 401.54,
+    "text": "since we don't need to restrict ourselves through the real numbers as"
+  },
+  {
+    "start": "00:06:41.540",
+    "end": "00:06:41.550",
+    "start_seconds": 401.54,
+    "end_seconds": 401.55,
+    "text": "ourselves through the real numbers as"
+  },
+  {
+    "start": "00:06:41.550",
+    "end": "00:06:44.749",
+    "start_seconds": 401.55,
+    "end_seconds": 404.749,
+    "text": "ourselves through the real numbers as sets but we can choose an arbitrary set"
+  },
+  {
+    "start": "00:06:44.749",
+    "end": "00:06:44.759",
+    "start_seconds": 404.749,
+    "end_seconds": 404.759,
+    "text": "sets but we can choose an arbitrary set"
+  },
+  {
+    "start": "00:06:44.759",
+    "end": "00:06:47.480",
+    "start_seconds": 404.759,
+    "end_seconds": 407.48,
+    "text": "sets but we can choose an arbitrary set and equip it with a topology and then"
+  },
+  {
+    "start": "00:06:47.480",
+    "end": "00:06:47.490",
+    "start_seconds": 407.48,
+    "end_seconds": 407.49,
+    "text": "and equip it with a topology and then"
+  },
+  {
+    "start": "00:06:47.490",
+    "end": "00:06:51.290",
+    "start_seconds": 407.49,
+    "end_seconds": 411.29,
+    "text": "and equip it with a topology and then check for continuity of the map so that"
+  },
+  {
+    "start": "00:06:51.290",
+    "end": "00:06:51.300",
+    "start_seconds": 411.29,
+    "end_seconds": 411.3,
+    "text": "check for continuity of the map so that"
+  },
+  {
+    "start": "00:06:51.300",
+    "end": "00:06:55.010",
+    "start_seconds": 411.3,
+    "end_seconds": 415.01,
+    "text": "check for continuity of the map so that is wrong for some maps one can arrange"
+  },
+  {
+    "start": "00:06:55.010",
+    "end": "00:06:55.020",
+    "start_seconds": 415.01,
+    "end_seconds": 415.02,
+    "text": "is wrong for some maps one can arrange"
+  },
+  {
+    "start": "00:06:55.020",
+    "end": "00:06:57.830",
+    "start_seconds": 415.02,
+    "end_seconds": 417.83,
+    "text": "is wrong for some maps one can arrange for the topological notion of continuity"
+  },
+  {
+    "start": "00:06:57.830",
+    "end": "00:06:57.840",
+    "start_seconds": 417.83,
+    "end_seconds": 417.84000000000003,
+    "text": "for the topological notion of continuity"
+  },
+  {
+    "start": "00:06:57.840",
+    "end": "00:07:00.050",
+    "start_seconds": 417.84000000000003,
+    "end_seconds": 420.05,
+    "text": "for the topological notion of continuity to coincide with the undergraduate"
+  },
+  {
+    "start": "00:07:00.050",
+    "end": "00:07:00.060",
+    "start_seconds": 420.05,
+    "end_seconds": 420.06,
+    "text": "to coincide with the undergraduate"
+  },
+  {
+    "start": "00:07:00.060",
+    "end": "00:07:04.429",
+    "start_seconds": 420.06,
+    "end_seconds": 424.429,
+    "text": "to coincide with the undergraduate analysis notion of continuity if we"
+  },
+  {
+    "start": "00:07:04.429",
+    "end": "00:07:04.439",
+    "start_seconds": 424.429,
+    "end_seconds": 424.439,
+    "text": "analysis notion of continuity if we"
+  },
+  {
+    "start": "00:07:04.439",
+    "end": "00:07:08.510",
+    "start_seconds": 424.439,
+    "end_seconds": 428.51,
+    "text": "analysis notion of continuity if we equip so if we choose if we now choose M"
+  },
+  {
+    "start": "00:07:08.510",
+    "end": "00:07:08.520",
+    "start_seconds": 428.51,
+    "end_seconds": 428.52,
+    "text": "equip so if we choose if we now choose M"
+  },
+  {
+    "start": "00:07:08.520",
+    "end": "00:07:13.999",
+    "start_seconds": 428.52,
+    "end_seconds": 433.999,
+    "text": "equip so if we choose if we now choose M is our M and n is some our n like in the"
+  },
+  {
+    "start": "00:07:13.999",
+    "end": "00:07:14.009",
+    "start_seconds": 433.999,
+    "end_seconds": 434.009,
+    "text": "is our M and n is some our n like in the"
+  },
+  {
+    "start": "00:07:14.009",
+    "end": "00:07:17.119",
+    "start_seconds": 434.009,
+    "end_seconds": 437.119,
+    "text": "is our M and n is some our n like in the first answer and but when we equip both"
+  },
+  {
+    "start": "00:07:17.119",
+    "end": "00:07:17.129",
+    "start_seconds": 437.119,
+    "end_seconds": 437.129,
+    "text": "first answer and but when we equip both"
+  },
+  {
+    "start": "00:07:17.129",
+    "end": "00:07:22.490",
+    "start_seconds": 437.129,
+    "end_seconds": 442.49,
+    "text": "first answer and but when we equip both with the standard topology then we can"
+  },
+  {
+    "start": "00:07:22.490",
+    "end": "00:07:22.500",
+    "start_seconds": 442.49,
+    "end_seconds": 442.5,
+    "text": "with the standard topology then we can"
+  },
+  {
+    "start": "00:07:22.500",
+    "end": "00:07:25.249",
+    "start_seconds": 442.5,
+    "end_seconds": 445.249,
+    "text": "with the standard topology then we can then we find that the topological notion"
+  },
+  {
+    "start": "00:07:25.249",
+    "end": "00:07:25.259",
+    "start_seconds": 445.249,
+    "end_seconds": 445.259,
+    "text": "then we find that the topological notion"
+  },
+  {
+    "start": "00:07:25.259",
+    "end": "00:07:29.119",
+    "start_seconds": 445.259,
+    "end_seconds": 449.119,
+    "text": "then we find that the topological notion of continuity is equal to the under"
+  },
+  {
+    "start": "00:07:29.119",
+    "end": "00:07:29.129",
+    "start_seconds": 449.119,
+    "end_seconds": 449.129,
+    "text": "of continuity is equal to the under"
+  },
+  {
+    "start": "00:07:29.129",
+    "end": "00:07:31.939",
+    "start_seconds": 449.129,
+    "end_seconds": 451.939,
+    "text": "of continuity is equal to the under Gretchen air and a graduate notion of"
+  },
+  {
+    "start": "00:07:31.939",
+    "end": "00:07:31.949",
+    "start_seconds": 451.939,
+    "end_seconds": 451.949,
+    "text": "Gretchen air and a graduate notion of"
+  },
+  {
+    "start": "00:07:31.949",
+    "end": "00:07:33.879",
+    "start_seconds": 451.949,
+    "end_seconds": 453.879,
+    "text": "Gretchen air and a graduate notion of continuity with the epsilon-delta"
+  },
+  {
+    "start": "00:07:33.879",
+    "end": "00:07:33.889",
+    "start_seconds": 453.879,
+    "end_seconds": 453.889,
+    "text": "continuity with the epsilon-delta"
+  },
+  {
+    "start": "00:07:33.889",
+    "end": "00:07:38.920",
+    "start_seconds": 453.889,
+    "end_seconds": 458.92,
+    "text": "continuity with the epsilon-delta criterion so that is correct"
+  },
+  {
+    "start": "00:07:38.930",
+    "end": "00:07:42.019",
+    "start_seconds": 458.93,
+    "end_seconds": 462.019,
+    "text": "continuity of a map can only be defined"
+  },
+  {
+    "start": "00:07:42.019",
+    "end": "00:07:42.029",
+    "start_seconds": 462.019,
+    "end_seconds": 462.029,
+    "text": "continuity of a map can only be defined"
+  },
+  {
+    "start": "00:07:42.029",
+    "end": "00:07:46.459",
+    "start_seconds": 462.029,
+    "end_seconds": 466.459,
+    "text": "continuity of a map can only be defined for some topologies no that is wrong we"
+  },
+  {
+    "start": "00:07:46.459",
+    "end": "00:07:46.469",
+    "start_seconds": 466.459,
+    "end_seconds": 466.469,
+    "text": "for some topologies no that is wrong we"
+  },
+  {
+    "start": "00:07:46.469",
+    "end": "00:07:49.879",
+    "start_seconds": 466.469,
+    "end_seconds": 469.879,
+    "text": "for some topologies no that is wrong we continuity of a map is defined for any"
+  },
+  {
+    "start": "00:07:49.879",
+    "end": "00:07:49.889",
+    "start_seconds": 469.879,
+    "end_seconds": 469.889,
+    "text": "continuity of a map is defined for any"
+  },
+  {
+    "start": "00:07:49.889",
+    "end": "00:07:54.379",
+    "start_seconds": 469.889,
+    "end_seconds": 474.379,
+    "text": "continuity of a map is defined for any topology continuity is a property of a"
+  },
+  {
+    "start": "00:07:54.379",
+    "end": "00:07:54.389",
+    "start_seconds": 474.379,
+    "end_seconds": 474.389,
+    "text": "topology continuity is a property of a"
+  },
+  {
+    "start": "00:07:54.389",
+    "end": "00:07:57.439",
+    "start_seconds": 474.389,
+    "end_seconds": 477.439,
+    "text": "topology continuity is a property of a map that only depends on the topology om"
+  },
+  {
+    "start": "00:07:57.439",
+    "end": "00:07:57.449",
+    "start_seconds": 477.439,
+    "end_seconds": 477.449,
+    "text": "map that only depends on the topology om"
+  },
+  {
+    "start": "00:07:57.449",
+    "end": "00:07:59.619",
+    "start_seconds": 477.449,
+    "end_seconds": 479.619,
+    "text": "map that only depends on the topology om that is also not correct"
+  },
+  {
+    "start": "00:07:59.619",
+    "end": "00:07:59.629",
+    "start_seconds": 479.619,
+    "end_seconds": 479.629,
+    "text": "that is also not correct"
+  },
+  {
+    "start": "00:07:59.629",
+    "end": "00:08:04.760",
+    "start_seconds": 479.629,
+    "end_seconds": 484.76,
+    "text": "that is also not correct since continuity says that pre images of"
+  },
+  {
+    "start": "00:08:04.760",
+    "end": "00:08:04.770",
+    "start_seconds": 484.76,
+    "end_seconds": 484.77,
+    "text": "since continuity says that pre images of"
+  },
+  {
+    "start": "00:08:04.770",
+    "end": "00:08:09.139",
+    "start_seconds": 484.77,
+    "end_seconds": 489.139,
+    "text": "since continuity says that pre images of open sets are open in the domain so we"
+  },
+  {
+    "start": "00:08:09.139",
+    "end": "00:08:09.149",
+    "start_seconds": 489.139,
+    "end_seconds": 489.149,
+    "text": "open sets are open in the domain so we"
+  },
+  {
+    "start": "00:08:09.149",
+    "end": "00:08:11.659",
+    "start_seconds": 489.149,
+    "end_seconds": 491.659,
+    "text": "open sets are open in the domain so we need to know what open sets in the"
+  },
+  {
+    "start": "00:08:11.659",
+    "end": "00:08:11.669",
+    "start_seconds": 491.659,
+    "end_seconds": 491.669,
+    "text": "need to know what open sets in the"
+  },
+  {
+    "start": "00:08:11.669",
+    "end": "00:08:14.779",
+    "start_seconds": 491.669,
+    "end_seconds": 494.779,
+    "text": "need to know what open sets in the target are as well as on the domain and"
+  },
+  {
+    "start": "00:08:14.779",
+    "end": "00:08:14.789",
+    "start_seconds": 494.779,
+    "end_seconds": 494.789,
+    "text": "target are as well as on the domain and"
+  },
+  {
+    "start": "00:08:14.789",
+    "end": "00:08:18.800",
+    "start_seconds": 494.789,
+    "end_seconds": 498.8,
+    "text": "target are as well as on the domain and thus we need the topology on the target"
+  },
+  {
+    "start": "00:08:18.800",
+    "end": "00:08:18.810",
+    "start_seconds": 498.8,
+    "end_seconds": 498.81,
+    "text": "thus we need the topology on the target"
+  },
+  {
+    "start": "00:08:18.810",
+    "end": "00:08:22.309",
+    "start_seconds": 498.81,
+    "end_seconds": 502.309,
+    "text": "thus we need the topology on the target o n as well as the topology on the"
+  },
+  {
+    "start": "00:08:22.309",
+    "end": "00:08:22.319",
+    "start_seconds": 502.309,
+    "end_seconds": 502.319,
+    "text": "o n as well as the topology on the"
+  },
+  {
+    "start": "00:08:22.319",
+    "end": "00:08:24.200",
+    "start_seconds": 502.319,
+    "end_seconds": 504.2,
+    "text": "o n as well as the topology on the domain om"
+  },
+  {
+    "start": "00:08:24.200",
+    "end": "00:08:24.210",
+    "start_seconds": 504.2,
+    "end_seconds": 504.21,
+    "text": "domain om"
+  },
+  {
+    "start": "00:08:24.210",
+    "end": "00:08:27.590",
+    "start_seconds": 504.21,
+    "end_seconds": 507.59,
+    "text": "domain om we need both so that is wrong and the"
+  },
+  {
+    "start": "00:08:27.590",
+    "end": "00:08:27.600",
+    "start_seconds": 507.59,
+    "end_seconds": 507.6,
+    "text": "we need both so that is wrong and the"
+  },
+  {
+    "start": "00:08:27.600",
+    "end": "00:08:29.689",
+    "start_seconds": 507.6,
+    "end_seconds": 509.689,
+    "text": "we need both so that is wrong and the last answer is choosing the discrete"
+  },
+  {
+    "start": "00:08:29.689",
+    "end": "00:08:29.699",
+    "start_seconds": 509.689,
+    "end_seconds": 509.699,
+    "text": "last answer is choosing the discrete"
+  },
+  {
+    "start": "00:08:29.699",
+    "end": "00:08:33.909",
+    "start_seconds": 509.699,
+    "end_seconds": 513.909,
+    "text": "last answer is choosing the discrete topology on M makes all maps from M to n"
+  },
+  {
+    "start": "00:08:33.909",
+    "end": "00:08:33.919",
+    "start_seconds": 513.909,
+    "end_seconds": 513.919,
+    "text": "topology on M makes all maps from M to n"
+  },
+  {
+    "start": "00:08:33.919",
+    "end": "00:08:38.290",
+    "start_seconds": 513.919,
+    "end_seconds": 518.29,
+    "text": "topology on M makes all maps from M to n continuous"
+  },
+  {
+    "start": "00:08:38.300",
+    "end": "00:08:45.680",
+    "start_seconds": 518.3,
+    "end_seconds": 525.68,
+    "text": "again this is correct now since the"
+  },
+  {
+    "start": "00:08:45.680",
+    "end": "00:08:45.690",
+    "start_seconds": 525.68,
+    "end_seconds": 525.69,
+    "text": "again this is correct now since the"
+  },
+  {
+    "start": "00:08:45.690",
+    "end": "00:08:49.579",
+    "start_seconds": 525.69,
+    "end_seconds": 529.579,
+    "text": "again this is correct now since the discrete apology and M are all the"
+  },
+  {
+    "start": "00:08:49.579",
+    "end": "00:08:49.589",
+    "start_seconds": 529.579,
+    "end_seconds": 529.5889999999999,
+    "text": "discrete apology and M are all the"
+  },
+  {
+    "start": "00:08:49.589",
+    "end": "00:08:56.000",
+    "start_seconds": 529.5889999999999,
+    "end_seconds": 536.0,
+    "text": "discrete apology and M are all the subsets of M and now we can equip the"
+  },
+  {
+    "start": "00:08:56.000",
+    "end": "00:08:56.010",
+    "start_seconds": 536.0,
+    "end_seconds": 536.01,
+    "text": "subsets of M and now we can equip the"
+  },
+  {
+    "start": "00:08:56.010",
+    "end": "00:08:59.090",
+    "start_seconds": 536.01,
+    "end_seconds": 539.09,
+    "text": "subsets of M and now we can equip the target end with an arbitrary topology"
+  },
+  {
+    "start": "00:08:59.090",
+    "end": "00:08:59.100",
+    "start_seconds": 539.09,
+    "end_seconds": 539.1,
+    "text": "target end with an arbitrary topology"
+  },
+  {
+    "start": "00:08:59.100",
+    "end": "00:09:03.050",
+    "start_seconds": 539.1,
+    "end_seconds": 543.05,
+    "text": "target end with an arbitrary topology and we find that the pre images of open"
+  },
+  {
+    "start": "00:09:03.050",
+    "end": "00:09:03.060",
+    "start_seconds": 543.05,
+    "end_seconds": 543.06,
+    "text": "and we find that the pre images of open"
+  },
+  {
+    "start": "00:09:03.060",
+    "end": "00:09:06.260",
+    "start_seconds": 543.06,
+    "end_seconds": 546.26,
+    "text": "and we find that the pre images of open sets on the target are always open on"
+  },
+  {
+    "start": "00:09:06.260",
+    "end": "00:09:06.270",
+    "start_seconds": 546.26,
+    "end_seconds": 546.27,
+    "text": "sets on the target are always open on"
+  },
+  {
+    "start": "00:09:06.270",
+    "end": "00:09:09.769",
+    "start_seconds": 546.27,
+    "end_seconds": 549.769,
+    "text": "sets on the target are always open on the domain since we choose the discrete"
+  },
+  {
+    "start": "00:09:09.769",
+    "end": "00:09:09.779",
+    "start_seconds": 549.769,
+    "end_seconds": 549.779,
+    "text": "the domain since we choose the discrete"
+  },
+  {
+    "start": "00:09:09.779",
+    "end": "00:09:13.040",
+    "start_seconds": 549.779,
+    "end_seconds": 553.04,
+    "text": "the domain since we choose the discrete topology namely the power set on M as"
+  },
+  {
+    "start": "00:09:13.040",
+    "end": "00:09:13.050",
+    "start_seconds": 553.04,
+    "end_seconds": 553.05,
+    "text": "topology namely the power set on M as"
+  },
+  {
+    "start": "00:09:13.050",
+    "end": "00:09:19.220",
+    "start_seconds": 553.05,
+    "end_seconds": 559.22,
+    "text": "topology namely the power set on M as our open sets so it is correct and the"
+  },
+  {
+    "start": "00:09:19.220",
+    "end": "00:09:19.230",
+    "start_seconds": 559.22,
+    "end_seconds": 559.23,
+    "text": "our open sets so it is correct and the"
+  },
+  {
+    "start": "00:09:19.230",
+    "end": "00:09:25.820",
+    "start_seconds": 559.23,
+    "end_seconds": 565.82,
+    "text": "our open sets so it is correct and the last part of this exercise is about the"
+  },
+  {
+    "start": "00:09:25.820",
+    "end": "00:09:25.830",
+    "start_seconds": 565.82,
+    "end_seconds": 565.83,
+    "text": "last part of this exercise is about the"
+  },
+  {
+    "start": "00:09:25.830",
+    "end": "00:09:28.420",
+    "start_seconds": 565.83,
+    "end_seconds": 568.42,
+    "text": "last part of this exercise is about the notion of open and closed sets on"
+  },
+  {
+    "start": "00:09:28.420",
+    "end": "00:09:28.430",
+    "start_seconds": 568.42,
+    "end_seconds": 568.43,
+    "text": "notion of open and closed sets on"
+  },
+  {
+    "start": "00:09:28.430",
+    "end": "00:09:32.570",
+    "start_seconds": 568.43,
+    "end_seconds": 572.57,
+    "text": "notion of open and closed sets on topological spaces so a subset you that"
+  },
+  {
+    "start": "00:09:32.570",
+    "end": "00:09:32.580",
+    "start_seconds": 572.57,
+    "end_seconds": 572.58,
+    "text": "topological spaces so a subset you that"
+  },
+  {
+    "start": "00:09:32.580",
+    "end": "00:09:36.070",
+    "start_seconds": 572.58,
+    "end_seconds": 576.07,
+    "text": "topological spaces so a subset you that is a subset of M for topological space"
+  },
+  {
+    "start": "00:09:36.070",
+    "end": "00:09:36.080",
+    "start_seconds": 576.07,
+    "end_seconds": 576.08,
+    "text": "is a subset of M for topological space"
+  },
+  {
+    "start": "00:09:36.080",
+    "end": "00:09:39.199",
+    "start_seconds": 576.08,
+    "end_seconds": 579.199,
+    "text": "is a subset of M for topological space may be open and not open at the same"
+  },
+  {
+    "start": "00:09:39.199",
+    "end": "00:09:39.209",
+    "start_seconds": 579.199,
+    "end_seconds": 579.2090000000001,
+    "text": "may be open and not open at the same"
+  },
+  {
+    "start": "00:09:39.209",
+    "end": "00:09:41.240",
+    "start_seconds": 579.2090000000001,
+    "end_seconds": 581.24,
+    "text": "may be open and not open at the same time whether there's nonsense"
+  },
+  {
+    "start": "00:09:41.240",
+    "end": "00:09:41.250",
+    "start_seconds": 581.24,
+    "end_seconds": 581.25,
+    "text": "time whether there's nonsense"
+  },
+  {
+    "start": "00:09:41.250",
+    "end": "00:09:45.079",
+    "start_seconds": 581.25,
+    "end_seconds": 585.079,
+    "text": "time whether there's nonsense either it is open or is not open but not"
+  },
+  {
+    "start": "00:09:45.079",
+    "end": "00:09:45.089",
+    "start_seconds": 585.079,
+    "end_seconds": 585.0889999999999,
+    "text": "either it is open or is not open but not"
+  },
+  {
+    "start": "00:09:45.089",
+    "end": "00:09:50.810",
+    "start_seconds": 585.0889999999999,
+    "end_seconds": 590.81,
+    "text": "either it is open or is not open but not both at the same time it may be open but"
+  },
+  {
+    "start": "00:09:50.810",
+    "end": "00:09:50.820",
+    "start_seconds": 590.81,
+    "end_seconds": 590.82,
+    "text": "both at the same time it may be open but"
+  },
+  {
+    "start": "00:09:50.820",
+    "end": "00:09:55.370",
+    "start_seconds": 590.82,
+    "end_seconds": 595.37,
+    "text": "both at the same time it may be open but not closed well that is correct as an"
+  },
+  {
+    "start": "00:09:55.370",
+    "end": "00:09:55.380",
+    "start_seconds": 595.37,
+    "end_seconds": 595.38,
+    "text": "not closed well that is correct as an"
+  },
+  {
+    "start": "00:09:55.380",
+    "end": "00:10:00.800",
+    "start_seconds": 595.38,
+    "end_seconds": 600.8,
+    "text": "not closed well that is correct as an example look at M is equal to the real"
+  },
+  {
+    "start": "00:10:00.800",
+    "end": "00:10:00.810",
+    "start_seconds": 600.8,
+    "end_seconds": 600.81,
+    "text": "example look at M is equal to the real"
+  },
+  {
+    "start": "00:10:00.810",
+    "end": "00:10:04.640",
+    "start_seconds": 600.81,
+    "end_seconds": 604.64,
+    "text": "example look at M is equal to the real numbers we equip it with the standard"
+  },
+  {
+    "start": "00:10:04.640",
+    "end": "00:10:04.650",
+    "start_seconds": 604.64,
+    "end_seconds": 604.65,
+    "text": "numbers we equip it with the standard"
+  },
+  {
+    "start": "00:10:04.650",
+    "end": "00:10:08.780",
+    "start_seconds": 604.65,
+    "end_seconds": 608.78,
+    "text": "numbers we equip it with the standard topology and then we look at the"
+  },
+  {
+    "start": "00:10:08.780",
+    "end": "00:10:08.790",
+    "start_seconds": 608.78,
+    "end_seconds": 608.79,
+    "text": "topology and then we look at the"
+  },
+  {
+    "start": "00:10:08.790",
+    "end": "00:10:13.250",
+    "start_seconds": 608.79,
+    "end_seconds": 613.25,
+    "text": "topology and then we look at the interval U is the open interval from 0"
+  },
+  {
+    "start": "00:10:13.250",
+    "end": "00:10:13.260",
+    "start_seconds": 613.25,
+    "end_seconds": 613.26,
+    "text": "interval U is the open interval from 0"
+  },
+  {
+    "start": "00:10:13.260",
+    "end": "00:10:18.470",
+    "start_seconds": 613.26,
+    "end_seconds": 618.47,
+    "text": "interval U is the open interval from 0 to 1 where 0 and 1 are not included this"
+  },
+  {
+    "start": "00:10:18.470",
+    "end": "00:10:18.480",
+    "start_seconds": 618.47,
+    "end_seconds": 618.48,
+    "text": "to 1 where 0 and 1 are not included this"
+  },
+  {
+    "start": "00:10:18.480",
+    "end": "00:10:23.329",
+    "start_seconds": 618.48,
+    "end_seconds": 623.329,
+    "text": "to 1 where 0 and 1 are not included this subset is clearly open and it is not"
+  },
+  {
+    "start": "00:10:23.329",
+    "end": "00:10:23.339",
+    "start_seconds": 623.329,
+    "end_seconds": 623.3389999999999,
+    "text": "subset is clearly open and it is not"
+  },
+  {
+    "start": "00:10:23.339",
+    "end": "00:10:27.650",
+    "start_seconds": 623.3389999999999,
+    "end_seconds": 627.65,
+    "text": "subset is clearly open and it is not closed since the complement which is"
+  },
+  {
+    "start": "00:10:27.650",
+    "end": "00:10:27.660",
+    "start_seconds": 627.65,
+    "end_seconds": 627.66,
+    "text": "closed since the complement which is"
+  },
+  {
+    "start": "00:10:27.660",
+    "end": "00:10:33.190",
+    "start_seconds": 627.66,
+    "end_seconds": 633.19,
+    "text": "closed since the complement which is minus infinity to 0 included and UNIF"
+  },
+  {
+    "start": "00:10:33.190",
+    "end": "00:10:33.200",
+    "start_seconds": 633.19,
+    "end_seconds": 633.2,
+    "text": "minus infinity to 0 included and UNIF"
+  },
+  {
+    "start": "00:10:33.200",
+    "end": "00:10:36.030",
+    "start_seconds": 633.2,
+    "end_seconds": 636.03,
+    "text": "minus infinity to 0 included and UNIF unified with the"
+  },
+  {
+    "start": "00:10:36.030",
+    "end": "00:10:36.040",
+    "start_seconds": 636.03,
+    "end_seconds": 636.04,
+    "text": "unified with the"
+  },
+  {
+    "start": "00:10:36.040",
+    "end": "00:10:39.700",
+    "start_seconds": 636.04,
+    "end_seconds": 639.7,
+    "text": "unified with the interval from one included to infinity"
+  },
+  {
+    "start": "00:10:39.700",
+    "end": "00:10:39.710",
+    "start_seconds": 639.7,
+    "end_seconds": 639.71,
+    "text": "interval from one included to infinity"
+  },
+  {
+    "start": "00:10:39.710",
+    "end": "00:10:45.850",
+    "start_seconds": 639.71,
+    "end_seconds": 645.85,
+    "text": "interval from one included to infinity is not open so this is wrong it is right"
+  },
+  {
+    "start": "00:10:45.850",
+    "end": "00:10:45.860",
+    "start_seconds": 645.85,
+    "end_seconds": 645.86,
+    "text": "is not open so this is wrong it is right"
+  },
+  {
+    "start": "00:10:45.860",
+    "end": "00:10:52.390",
+    "start_seconds": 645.86,
+    "end_seconds": 652.39,
+    "text": "is not open so this is wrong it is right a subset may be closed but not open this"
+  },
+  {
+    "start": "00:10:52.390",
+    "end": "00:10:52.400",
+    "start_seconds": 652.39,
+    "end_seconds": 652.4,
+    "text": "a subset may be closed but not open this"
+  },
+  {
+    "start": "00:10:52.400",
+    "end": "00:10:53.970",
+    "start_seconds": 652.4,
+    "end_seconds": 653.97,
+    "text": "a subset may be closed but not open this is also correct"
+  },
+  {
+    "start": "00:10:53.970",
+    "end": "00:10:53.980",
+    "start_seconds": 653.97,
+    "end_seconds": 653.98,
+    "text": "is also correct"
+  },
+  {
+    "start": "00:10:53.980",
+    "end": "00:10:58.870",
+    "start_seconds": 653.98,
+    "end_seconds": 658.87,
+    "text": "is also correct we again give an example with the real"
+  },
+  {
+    "start": "00:10:58.870",
+    "end": "00:10:58.880",
+    "start_seconds": 658.87,
+    "end_seconds": 658.88,
+    "text": "we again give an example with the real"
+  },
+  {
+    "start": "00:10:58.880",
+    "end": "00:11:01.000",
+    "start_seconds": 658.88,
+    "end_seconds": 661.0,
+    "text": "we again give an example with the real numbers equipped with standard topology"
+  },
+  {
+    "start": "00:11:01.000",
+    "end": "00:11:01.010",
+    "start_seconds": 661.0,
+    "end_seconds": 661.01,
+    "text": "numbers equipped with standard topology"
+  },
+  {
+    "start": "00:11:01.010",
+    "end": "00:11:05.830",
+    "start_seconds": 661.01,
+    "end_seconds": 665.83,
+    "text": "numbers equipped with standard topology and now we look at the interval 0 1 with"
+  },
+  {
+    "start": "00:11:05.830",
+    "end": "00:11:05.840",
+    "start_seconds": 665.83,
+    "end_seconds": 665.84,
+    "text": "and now we look at the interval 0 1 with"
+  },
+  {
+    "start": "00:11:05.840",
+    "end": "00:11:09.790",
+    "start_seconds": 665.84,
+    "end_seconds": 669.79,
+    "text": "and now we look at the interval 0 1 with 0 & 1 included this interval is closed"
+  },
+  {
+    "start": "00:11:09.790",
+    "end": "00:11:09.800",
+    "start_seconds": 669.79,
+    "end_seconds": 669.8,
+    "text": "0 & 1 included this interval is closed"
+  },
+  {
+    "start": "00:11:09.800",
+    "end": "00:11:19.710",
+    "start_seconds": 669.8,
+    "end_seconds": 679.71,
+    "text": "0 & 1 included this interval is closed but not open it may be open and closed"
+  },
+  {
+    "start": "00:11:19.710",
+    "end": "00:11:19.720",
+    "start_seconds": 679.71,
+    "end_seconds": 679.72,
+    "text": "but not open it may be open and closed"
+  },
+  {
+    "start": "00:11:19.720",
+    "end": "00:11:24.910",
+    "start_seconds": 679.72,
+    "end_seconds": 684.91,
+    "text": "but not open it may be open and closed this is also correct so we show this in"
+  },
+  {
+    "start": "00:11:24.910",
+    "end": "00:11:24.920",
+    "start_seconds": 684.91,
+    "end_seconds": 684.92,
+    "text": "this is also correct so we show this in"
+  },
+  {
+    "start": "00:11:24.920",
+    "end": "00:11:29.250",
+    "start_seconds": 684.92,
+    "end_seconds": 689.25,
+    "text": "this is also correct so we show this in the lecture that for a for an arbitrary"
+  },
+  {
+    "start": "00:11:29.250",
+    "end": "00:11:29.260",
+    "start_seconds": 689.25,
+    "end_seconds": 689.26,
+    "text": "the lecture that for a for an arbitrary"
+  },
+  {
+    "start": "00:11:29.260",
+    "end": "00:11:34.780",
+    "start_seconds": 689.26,
+    "end_seconds": 694.78,
+    "text": "the lecture that for a for an arbitrary topological space M the set M itself is"
+  },
+  {
+    "start": "00:11:34.780",
+    "end": "00:11:34.790",
+    "start_seconds": 694.78,
+    "end_seconds": 694.79,
+    "text": "topological space M the set M itself is"
+  },
+  {
+    "start": "00:11:34.790",
+    "end": "00:11:38.200",
+    "start_seconds": 694.79,
+    "end_seconds": 698.2,
+    "text": "topological space M the set M itself is open and closed in the topology at the"
+  },
+  {
+    "start": "00:11:38.200",
+    "end": "00:11:38.210",
+    "start_seconds": 698.2,
+    "end_seconds": 698.21,
+    "text": "open and closed in the topology at the"
+  },
+  {
+    "start": "00:11:38.210",
+    "end": "00:11:41.200",
+    "start_seconds": 698.21,
+    "end_seconds": 701.2,
+    "text": "open and closed in the topology at the same time so this is correct and the"
+  },
+  {
+    "start": "00:11:41.200",
+    "end": "00:11:41.210",
+    "start_seconds": 701.2,
+    "end_seconds": 701.21,
+    "text": "same time so this is correct and the"
+  },
+  {
+    "start": "00:11:41.210",
+    "end": "00:11:44.200",
+    "start_seconds": 701.21,
+    "end_seconds": 704.2,
+    "text": "same time so this is correct and the last answer that it may be not open and"
+  },
+  {
+    "start": "00:11:44.200",
+    "end": "00:11:44.210",
+    "start_seconds": 704.2,
+    "end_seconds": 704.21,
+    "text": "last answer that it may be not open and"
+  },
+  {
+    "start": "00:11:44.210",
+    "end": "00:11:48.340",
+    "start_seconds": 704.21,
+    "end_seconds": 708.34,
+    "text": "last answer that it may be not open and not closed is also correct again an"
+  },
+  {
+    "start": "00:11:48.340",
+    "end": "00:11:48.350",
+    "start_seconds": 708.34,
+    "end_seconds": 708.35,
+    "text": "not closed is also correct again an"
+  },
+  {
+    "start": "00:11:48.350",
+    "end": "00:11:50.470",
+    "start_seconds": 708.35,
+    "end_seconds": 710.47,
+    "text": "not closed is also correct again an example for that we take the real"
+  },
+  {
+    "start": "00:11:50.470",
+    "end": "00:11:50.480",
+    "start_seconds": 710.47,
+    "end_seconds": 710.48,
+    "text": "example for that we take the real"
+  },
+  {
+    "start": "00:11:50.480",
+    "end": "00:11:54.280",
+    "start_seconds": 710.48,
+    "end_seconds": 714.28,
+    "text": "example for that we take the real numbers and look at the interval 0 1"
+  },
+  {
+    "start": "00:11:54.280",
+    "end": "00:11:54.290",
+    "start_seconds": 714.28,
+    "end_seconds": 714.29,
+    "text": "numbers and look at the interval 0 1"
+  },
+  {
+    "start": "00:11:54.290",
+    "end": "00:12:00.190",
+    "start_seconds": 714.29,
+    "end_seconds": 720.19,
+    "text": "numbers and look at the interval 0 1 with 0 included and 1 excluded so this"
+  },
+  {
+    "start": "00:12:00.190",
+    "end": "00:12:00.200",
+    "start_seconds": 720.19,
+    "end_seconds": 720.2,
+    "text": "with 0 included and 1 excluded so this"
+  },
+  {
+    "start": "00:12:00.200",
+    "end": "00:12:03.510",
+    "start_seconds": 720.2,
+    "end_seconds": 723.51,
+    "text": "with 0 included and 1 excluded so this interval is neither open nor closed and"
+  },
+  {
+    "start": "00:12:03.510",
+    "end": "00:12:03.520",
+    "start_seconds": 723.51,
+    "end_seconds": 723.52,
+    "text": "interval is neither open nor closed and"
+  },
+  {
+    "start": "00:12:03.520",
+    "end": "00:12:10.870",
+    "start_seconds": 723.52,
+    "end_seconds": 730.87,
+    "text": "interval is neither open nor closed and thus this answer is correct this was the"
+  },
+  {
+    "start": "00:12:10.870",
+    "end": "00:12:10.880",
+    "start_seconds": 730.87,
+    "end_seconds": 730.88,
+    "text": "thus this answer is correct this was the"
+  },
+  {
+    "start": "00:12:10.880",
+    "end": "00:12:14.320",
+    "start_seconds": 730.88,
+    "end_seconds": 734.32,
+    "text": "thus this answer is correct this was the first exercise now we move on to the"
+  },
+  {
+    "start": "00:12:14.320",
+    "end": "00:12:14.330",
+    "start_seconds": 734.32,
+    "end_seconds": 734.33,
+    "text": "first exercise now we move on to the"
+  },
+  {
+    "start": "00:12:14.330",
+    "end": "00:12:21.240",
+    "start_seconds": 734.33,
+    "end_seconds": 741.24,
+    "text": "first exercise now we move on to the second exercise which is about"
+  },
+  {
+    "start": "00:12:21.240",
+    "end": "00:12:21.250",
+    "start_seconds": 741.24,
+    "end_seconds": 741.25,
+    "text": "second exercise which is about"
+  },
+  {
+    "start": "00:12:21.250",
+    "end": "00:12:28.180",
+    "start_seconds": 741.25,
+    "end_seconds": 748.18,
+    "text": "second exercise which is about topologies on a simple set the first"
+  },
+  {
+    "start": "00:12:28.180",
+    "end": "00:12:28.190",
+    "start_seconds": 748.18,
+    "end_seconds": 748.19,
+    "text": "topologies on a simple set the first"
+  },
+  {
+    "start": "00:12:28.190",
+    "end": "00:12:30.100",
+    "start_seconds": 748.19,
+    "end_seconds": 750.1,
+    "text": "topologies on a simple set the first question is to write down the definition"
+  },
+  {
+    "start": "00:12:30.100",
+    "end": "00:12:30.110",
+    "start_seconds": 750.1,
+    "end_seconds": 750.11,
+    "text": "question is to write down the definition"
+  },
+  {
+    "start": "00:12:30.110",
+    "end": "00:12:40.530",
+    "start_seconds": 750.11,
+    "end_seconds": 760.53,
+    "text": "question is to write down the definition of a topology Oh on a set M so"
+  },
+  {
+    "start": "00:12:40.540",
+    "end": "00:12:45.480",
+    "start_seconds": 760.54,
+    "end_seconds": 765.48,
+    "text": "Oh which is a subset of the power set of"
+  },
+  {
+    "start": "00:12:45.480",
+    "end": "00:12:45.490",
+    "start_seconds": 765.48,
+    "end_seconds": 765.49,
+    "text": "Oh which is a subset of the power set of"
+  },
+  {
+    "start": "00:12:45.490",
+    "end": "00:13:03.500",
+    "start_seconds": 765.49,
+    "end_seconds": 783.5,
+    "text": "Oh which is a subset of the power set of em on a set M is called a topology on M"
+  },
+  {
+    "start": "00:13:03.500",
+    "end": "00:13:03.510",
+    "start_seconds": 783.5,
+    "end_seconds": 783.51,
+    "text": "em on a set M is called a topology on M"
+  },
+  {
+    "start": "00:13:03.510",
+    "end": "00:13:08.040",
+    "start_seconds": 783.51,
+    "end_seconds": 788.04,
+    "text": "em on a set M is called a topology on M if three criteria are fulfilled the"
+  },
+  {
+    "start": "00:13:08.040",
+    "end": "00:13:08.050",
+    "start_seconds": 788.04,
+    "end_seconds": 788.05,
+    "text": "if three criteria are fulfilled the"
+  },
+  {
+    "start": "00:13:08.050",
+    "end": "00:13:13.620",
+    "start_seconds": 788.05,
+    "end_seconds": 793.62,
+    "text": "if three criteria are fulfilled the first one is that the empty set is an"
+  },
+  {
+    "start": "00:13:13.620",
+    "end": "00:13:13.630",
+    "start_seconds": 793.62,
+    "end_seconds": 793.63,
+    "text": "first one is that the empty set is an"
+  },
+  {
+    "start": "00:13:13.630",
+    "end": "00:13:16.860",
+    "start_seconds": 793.63,
+    "end_seconds": 796.86,
+    "text": "first one is that the empty set is an element of O as well as the set M is an"
+  },
+  {
+    "start": "00:13:16.860",
+    "end": "00:13:16.870",
+    "start_seconds": 796.86,
+    "end_seconds": 796.87,
+    "text": "element of O as well as the set M is an"
+  },
+  {
+    "start": "00:13:16.870",
+    "end": "00:13:22.519",
+    "start_seconds": 796.87,
+    "end_seconds": 802.519,
+    "text": "element of O as well as the set M is an element of o the second one is that for"
+  },
+  {
+    "start": "00:13:22.519",
+    "end": "00:13:22.529",
+    "start_seconds": 802.519,
+    "end_seconds": 802.529,
+    "text": "element of o the second one is that for"
+  },
+  {
+    "start": "00:13:22.529",
+    "end": "00:13:28.350",
+    "start_seconds": 802.529,
+    "end_seconds": 808.35,
+    "text": "element of o the second one is that for two sets U and V that are both elements"
+  },
+  {
+    "start": "00:13:28.350",
+    "end": "00:13:28.360",
+    "start_seconds": 808.35,
+    "end_seconds": 808.36,
+    "text": "two sets U and V that are both elements"
+  },
+  {
+    "start": "00:13:28.360",
+    "end": "00:13:31.920",
+    "start_seconds": 808.36,
+    "end_seconds": 811.92,
+    "text": "two sets U and V that are both elements of the Chapel of O also their"
+  },
+  {
+    "start": "00:13:31.920",
+    "end": "00:13:31.930",
+    "start_seconds": 811.92,
+    "end_seconds": 811.93,
+    "text": "of the Chapel of O also their"
+  },
+  {
+    "start": "00:13:31.930",
+    "end": "00:13:39.060",
+    "start_seconds": 811.93,
+    "end_seconds": 819.06,
+    "text": "of the Chapel of O also their intersection is part of the of O and the"
+  },
+  {
+    "start": "00:13:39.060",
+    "end": "00:13:39.070",
+    "start_seconds": 819.06,
+    "end_seconds": 819.07,
+    "text": "intersection is part of the of O and the"
+  },
+  {
+    "start": "00:13:39.070",
+    "end": "00:13:43.400",
+    "start_seconds": 819.07,
+    "end_seconds": 823.4,
+    "text": "intersection is part of the of O and the third one third and last one is that for"
+  },
+  {
+    "start": "00:13:43.400",
+    "end": "00:13:43.410",
+    "start_seconds": 823.4,
+    "end_seconds": 823.41,
+    "text": "third one third and last one is that for"
+  },
+  {
+    "start": "00:13:43.410",
+    "end": "00:13:54.860",
+    "start_seconds": 823.41,
+    "end_seconds": 834.86,
+    "text": "third one third and last one is that for a family CA where C alpha where alpha is"
+  },
+  {
+    "start": "00:13:54.870",
+    "end": "00:14:00.000",
+    "start_seconds": 834.87,
+    "end_seconds": 840.0,
+    "text": "the element of some index set a if we"
+  },
+  {
+    "start": "00:14:00.000",
+    "end": "00:14:00.010",
+    "start_seconds": 840.0,
+    "end_seconds": 840.01,
+    "text": "the element of some index set a if we"
+  },
+  {
+    "start": "00:14:00.010",
+    "end": "00:14:04.079",
+    "start_seconds": 840.01,
+    "end_seconds": 844.079,
+    "text": "the element of some index set a if we have this family C alpha as an element"
+  },
+  {
+    "start": "00:14:04.079",
+    "end": "00:14:04.089",
+    "start_seconds": 844.079,
+    "end_seconds": 844.089,
+    "text": "have this family C alpha as an element"
+  },
+  {
+    "start": "00:14:04.089",
+    "end": "00:14:09.210",
+    "start_seconds": 844.089,
+    "end_seconds": 849.21,
+    "text": "have this family C alpha as an element of O then also the Union with respect to"
+  },
+  {
+    "start": "00:14:09.210",
+    "end": "00:14:09.220",
+    "start_seconds": 849.21,
+    "end_seconds": 849.22,
+    "text": "of O then also the Union with respect to"
+  },
+  {
+    "start": "00:14:09.220",
+    "end": "00:14:12.329",
+    "start_seconds": 849.22,
+    "end_seconds": 852.329,
+    "text": "of O then also the Union with respect to all these alpha in the index set of the"
+  },
+  {
+    "start": "00:14:12.329",
+    "end": "00:14:12.339",
+    "start_seconds": 852.329,
+    "end_seconds": 852.339,
+    "text": "all these alpha in the index set of the"
+  },
+  {
+    "start": "00:14:12.339",
+    "end": "00:14:16.560",
+    "start_seconds": 852.339,
+    "end_seconds": 856.56,
+    "text": "all these alpha in the index set of the C alpha is also an element of the"
+  },
+  {
+    "start": "00:14:16.560",
+    "end": "00:14:16.570",
+    "start_seconds": 856.56,
+    "end_seconds": 856.57,
+    "text": "C alpha is also an element of the"
+  },
+  {
+    "start": "00:14:16.570",
+    "end": "00:14:21.150",
+    "start_seconds": 856.57,
+    "end_seconds": 861.15,
+    "text": "C alpha is also an element of the topology this is the definition of a"
+  },
+  {
+    "start": "00:14:21.150",
+    "end": "00:14:21.160",
+    "start_seconds": 861.15,
+    "end_seconds": 861.16,
+    "text": "topology this is the definition of a"
+  },
+  {
+    "start": "00:14:21.160",
+    "end": "00:14:27.030",
+    "start_seconds": 861.16,
+    "end_seconds": 867.03,
+    "text": "topology this is the definition of a topology on a set M now we have an"
+  },
+  {
+    "start": "00:14:27.030",
+    "end": "00:14:27.040",
+    "start_seconds": 867.03,
+    "end_seconds": 867.04,
+    "text": "topology on a set M now we have an"
+  },
+  {
+    "start": "00:14:27.040",
+    "end": "00:14:32.430",
+    "start_seconds": 867.04,
+    "end_seconds": 872.43,
+    "text": "topology on a set M now we have an example we have the set M that contains"
+  },
+  {
+    "start": "00:14:32.430",
+    "end": "00:14:32.440",
+    "start_seconds": 872.43,
+    "end_seconds": 872.44,
+    "text": "example we have the set M that contains"
+  },
+  {
+    "start": "00:14:32.440",
+    "end": "00:14:37.040",
+    "start_seconds": 872.44,
+    "end_seconds": 877.04,
+    "text": "example we have the set M that contains the elements 1 2 3 & 4 is clearly a set"
+  },
+  {
+    "start": "00:14:37.040",
+    "end": "00:14:37.050",
+    "start_seconds": 877.04,
+    "end_seconds": 877.05,
+    "text": "the elements 1 2 3 & 4 is clearly a set"
+  },
+  {
+    "start": "00:14:37.050",
+    "end": "00:14:42.060",
+    "start_seconds": 877.05,
+    "end_seconds": 882.06,
+    "text": "the elements 1 2 3 & 4 is clearly a set and the question is plus a 1 as the set"
+  },
+  {
+    "start": "00:14:42.060",
+    "end": "00:14:42.070",
+    "start_seconds": 882.06,
+    "end_seconds": 882.07,
+    "text": "and the question is plus a 1 as the set"
+  },
+  {
+    "start": "00:14:42.070",
+    "end": "00:14:44.730",
+    "start_seconds": 882.07,
+    "end_seconds": 884.73,
+    "text": "and the question is plus a 1 as the set of the empty set aside with the element"
+  },
+  {
+    "start": "00:14:44.730",
+    "end": "00:14:44.740",
+    "start_seconds": 884.73,
+    "end_seconds": 884.74,
+    "text": "of the empty set aside with the element"
+  },
+  {
+    "start": "00:14:44.740",
+    "end": "00:14:47.610",
+    "start_seconds": 884.74,
+    "end_seconds": 887.61,
+    "text": "of the empty set aside with the element 1 and the set M itself constitute a"
+  },
+  {
+    "start": "00:14:47.610",
+    "end": "00:14:47.620",
+    "start_seconds": 887.61,
+    "end_seconds": 887.62,
+    "text": "1 and the set M itself constitute a"
+  },
+  {
+    "start": "00:14:47.620",
+    "end": "00:14:51.960",
+    "start_seconds": 887.62,
+    "end_seconds": 891.96,
+    "text": "1 and the set M itself constitute a topology on M we see that"
+  },
+  {
+    "start": "00:14:51.960",
+    "end": "00:14:51.970",
+    "start_seconds": 891.96,
+    "end_seconds": 891.97,
+    "text": "topology on M we see that"
+  },
+  {
+    "start": "00:14:51.970",
+    "end": "00:14:56.220",
+    "start_seconds": 891.97,
+    "end_seconds": 896.22,
+    "text": "topology on M we see that first criteria is fulfilled the empty"
+  },
+  {
+    "start": "00:14:56.220",
+    "end": "00:14:56.230",
+    "start_seconds": 896.22,
+    "end_seconds": 896.23,
+    "text": "first criteria is fulfilled the empty"
+  },
+  {
+    "start": "00:14:56.230",
+    "end": "00:15:00.780",
+    "start_seconds": 896.23,
+    "end_seconds": 900.78,
+    "text": "first criteria is fulfilled the empty set is an element of oh one as well as M"
+  },
+  {
+    "start": "00:15:00.780",
+    "end": "00:15:00.790",
+    "start_seconds": 900.78,
+    "end_seconds": 900.79,
+    "text": "set is an element of oh one as well as M"
+  },
+  {
+    "start": "00:15:00.790",
+    "end": "00:15:05.910",
+    "start_seconds": 900.79,
+    "end_seconds": 905.91,
+    "text": "set is an element of oh one as well as M is an element of oh one the second"
+  },
+  {
+    "start": "00:15:05.910",
+    "end": "00:15:05.920",
+    "start_seconds": 905.91,
+    "end_seconds": 905.92,
+    "text": "is an element of oh one the second"
+  },
+  {
+    "start": "00:15:05.920",
+    "end": "00:15:10.619",
+    "start_seconds": 905.92,
+    "end_seconds": 910.619,
+    "text": "is an element of oh one the second criterion is also fulfilled for example"
+  },
+  {
+    "start": "00:15:10.619",
+    "end": "00:15:10.629",
+    "start_seconds": 910.619,
+    "end_seconds": 910.629,
+    "text": "criterion is also fulfilled for example"
+  },
+  {
+    "start": "00:15:10.629",
+    "end": "00:15:14.249",
+    "start_seconds": 910.629,
+    "end_seconds": 914.249,
+    "text": "criterion is also fulfilled for example the intersection of the empty set with"
+  },
+  {
+    "start": "00:15:14.249",
+    "end": "00:15:14.259",
+    "start_seconds": 914.249,
+    "end_seconds": 914.259,
+    "text": "the intersection of the empty set with"
+  },
+  {
+    "start": "00:15:14.259",
+    "end": "00:15:17.490",
+    "start_seconds": 914.259,
+    "end_seconds": 917.49,
+    "text": "the intersection of the empty set with set the element one gives again the"
+  },
+  {
+    "start": "00:15:17.490",
+    "end": "00:15:17.500",
+    "start_seconds": 917.49,
+    "end_seconds": 917.5,
+    "text": "set the element one gives again the"
+  },
+  {
+    "start": "00:15:17.500",
+    "end": "00:15:20.990",
+    "start_seconds": 917.5,
+    "end_seconds": 920.99,
+    "text": "set the element one gives again the empty set which is an element of oh one"
+  },
+  {
+    "start": "00:15:20.990",
+    "end": "00:15:21.000",
+    "start_seconds": 920.99,
+    "end_seconds": 921.0,
+    "text": "empty set which is an element of oh one"
+  },
+  {
+    "start": "00:15:21.000",
+    "end": "00:15:27.660",
+    "start_seconds": 921.0,
+    "end_seconds": 927.66,
+    "text": "empty set which is an element of oh one or intersection of the set with M and"
+  },
+  {
+    "start": "00:15:27.660",
+    "end": "00:15:27.670",
+    "start_seconds": 927.66,
+    "end_seconds": 927.67,
+    "text": "or intersection of the set with M and"
+  },
+  {
+    "start": "00:15:27.670",
+    "end": "00:15:32.850",
+    "start_seconds": 927.67,
+    "end_seconds": 932.85,
+    "text": "or intersection of the set with M and one with M it's just the center with the"
+  },
+  {
+    "start": "00:15:32.850",
+    "end": "00:15:32.860",
+    "start_seconds": 932.85,
+    "end_seconds": 932.86,
+    "text": "one with M it's just the center with the"
+  },
+  {
+    "start": "00:15:32.860",
+    "end": "00:15:38.009",
+    "start_seconds": 932.86,
+    "end_seconds": 938.009,
+    "text": "one with M it's just the center with the one we can look at all these"
+  },
+  {
+    "start": "00:15:38.009",
+    "end": "00:15:38.019",
+    "start_seconds": 938.009,
+    "end_seconds": 938.019,
+    "text": "one we can look at all these"
+  },
+  {
+    "start": "00:15:38.019",
+    "end": "00:15:40.139",
+    "start_seconds": 938.019,
+    "end_seconds": 940.139,
+    "text": "one we can look at all these possibilities and see that all"
+  },
+  {
+    "start": "00:15:40.139",
+    "end": "00:15:40.149",
+    "start_seconds": 940.139,
+    "end_seconds": 940.149,
+    "text": "possibilities and see that all"
+  },
+  {
+    "start": "00:15:40.149",
+    "end": "00:15:45.540",
+    "start_seconds": 940.149,
+    "end_seconds": 945.54,
+    "text": "possibilities and see that all intersections are again in oh one and"
+  },
+  {
+    "start": "00:15:45.540",
+    "end": "00:15:45.550",
+    "start_seconds": 945.54,
+    "end_seconds": 945.55,
+    "text": "intersections are again in oh one and"
+  },
+  {
+    "start": "00:15:45.550",
+    "end": "00:15:48.449",
+    "start_seconds": 945.55,
+    "end_seconds": 948.449,
+    "text": "intersections are again in oh one and thus the second criterion is fulfilled"
+  },
+  {
+    "start": "00:15:48.449",
+    "end": "00:15:48.459",
+    "start_seconds": 948.449,
+    "end_seconds": 948.4590000000001,
+    "text": "thus the second criterion is fulfilled"
+  },
+  {
+    "start": "00:15:48.459",
+    "end": "00:15:51.420",
+    "start_seconds": 948.4590000000001,
+    "end_seconds": 951.42,
+    "text": "thus the second criterion is fulfilled and also the third criterion is"
+  },
+  {
+    "start": "00:15:51.420",
+    "end": "00:15:51.430",
+    "start_seconds": 951.42,
+    "end_seconds": 951.43,
+    "text": "and also the third criterion is"
+  },
+  {
+    "start": "00:15:51.430",
+    "end": "00:16:07.690",
+    "start_seconds": 951.43,
+    "end_seconds": 967.69,
+    "text": "and also the third criterion is fulfilled as each unification as each"
+  },
+  {
+    "start": "00:16:07.700",
+    "end": "00:16:13.870",
+    "start_seconds": 967.7,
+    "end_seconds": 973.87,
+    "text": "as we can look at as the union of all"
+  },
+  {
+    "start": "00:16:13.870",
+    "end": "00:16:13.880",
+    "start_seconds": 973.87,
+    "end_seconds": 973.88,
+    "text": "as we can look at as the union of all"
+  },
+  {
+    "start": "00:16:13.880",
+    "end": "00:16:17.730",
+    "start_seconds": 973.88,
+    "end_seconds": 977.73,
+    "text": "as we can look at as the union of all sets for example set with the M + 1 + M"
+  },
+  {
+    "start": "00:16:17.730",
+    "end": "00:16:17.740",
+    "start_seconds": 977.73,
+    "end_seconds": 977.74,
+    "text": "sets for example set with the M + 1 + M"
+  },
+  {
+    "start": "00:16:17.740",
+    "end": "00:16:23.280",
+    "start_seconds": 977.74,
+    "end_seconds": 983.28,
+    "text": "sets for example set with the M + 1 + M which is again M o the empty set the"
+  },
+  {
+    "start": "00:16:23.280",
+    "end": "00:16:23.290",
+    "start_seconds": 983.28,
+    "end_seconds": 983.29,
+    "text": "which is again M o the empty set the"
+  },
+  {
+    "start": "00:16:23.290",
+    "end": "00:16:29.230",
+    "start_seconds": 983.29,
+    "end_seconds": 989.23,
+    "text": "which is again M o the empty set the 70mm 1 the element 1 they are all again"
+  },
+  {
+    "start": "00:16:29.230",
+    "end": "00:16:29.240",
+    "start_seconds": 989.23,
+    "end_seconds": 989.24,
+    "text": "70mm 1 the element 1 they are all again"
+  },
+  {
+    "start": "00:16:29.240",
+    "end": "00:16:33.910",
+    "start_seconds": 989.24,
+    "end_seconds": 993.91,
+    "text": "70mm 1 the element 1 they are all again part of a 1 and we see that of all"
+  },
+  {
+    "start": "00:16:33.910",
+    "end": "00:16:33.920",
+    "start_seconds": 993.91,
+    "end_seconds": 993.92,
+    "text": "part of a 1 and we see that of all"
+  },
+  {
+    "start": "00:16:33.920",
+    "end": "00:16:37.780",
+    "start_seconds": 993.92,
+    "end_seconds": 997.78,
+    "text": "part of a 1 and we see that of all unions we can imagine with these sets in"
+  },
+  {
+    "start": "00:16:37.780",
+    "end": "00:16:37.790",
+    "start_seconds": 997.78,
+    "end_seconds": 997.79,
+    "text": "unions we can imagine with these sets in"
+  },
+  {
+    "start": "00:16:37.790",
+    "end": "00:16:42.970",
+    "start_seconds": 997.79,
+    "end_seconds": 1002.97,
+    "text": "unions we can imagine with these sets in a one we always land again in a one thus"
+  },
+  {
+    "start": "00:16:42.970",
+    "end": "00:16:42.980",
+    "start_seconds": 1002.97,
+    "end_seconds": 1002.98,
+    "text": "a one we always land again in a one thus"
+  },
+  {
+    "start": "00:16:42.980",
+    "end": "00:16:46.390",
+    "start_seconds": 1002.98,
+    "end_seconds": 1006.39,
+    "text": "a one we always land again in a one thus all Criterion's are fulfilled and a one"
+  },
+  {
+    "start": "00:16:46.390",
+    "end": "00:16:46.400",
+    "start_seconds": 1006.39,
+    "end_seconds": 1006.4,
+    "text": "all Criterion's are fulfilled and a one"
+  },
+  {
+    "start": "00:16:46.400",
+    "end": "00:16:57.139",
+    "start_seconds": 1006.4,
+    "end_seconds": 1017.139,
+    "text": "all Criterion's are fulfilled and a one is a Tripoli G on M"
+  },
+  {
+    "start": "00:16:57.149",
+    "end": "00:17:01.889",
+    "start_seconds": 1017.149,
+    "end_seconds": 1021.889,
+    "text": "now the question is is the topology Oh -"
+  },
+  {
+    "start": "00:17:01.889",
+    "end": "00:17:01.899",
+    "start_seconds": 1021.889,
+    "end_seconds": 1021.899,
+    "text": "now the question is is the topology Oh -"
+  },
+  {
+    "start": "00:17:01.899",
+    "end": "00:17:07.590",
+    "start_seconds": 1021.899,
+    "end_seconds": 1027.59,
+    "text": "now the question is is the topology Oh - that is defined here also in topology so"
+  },
+  {
+    "start": "00:17:07.590",
+    "end": "00:17:07.600",
+    "start_seconds": 1027.59,
+    "end_seconds": 1027.6,
+    "text": "that is defined here also in topology so"
+  },
+  {
+    "start": "00:17:07.600",
+    "end": "00:17:11.340",
+    "start_seconds": 1027.6,
+    "end_seconds": 1031.34,
+    "text": "that is defined here also in topology so we can again check the empty set as well"
+  },
+  {
+    "start": "00:17:11.340",
+    "end": "00:17:11.350",
+    "start_seconds": 1031.34,
+    "end_seconds": 1031.35,
+    "text": "we can again check the empty set as well"
+  },
+  {
+    "start": "00:17:11.350",
+    "end": "00:17:16.289",
+    "start_seconds": 1031.35,
+    "end_seconds": 1036.289,
+    "text": "we can again check the empty set as well as the set M are both in Oh - all the"
+  },
+  {
+    "start": "00:17:16.289",
+    "end": "00:17:16.299",
+    "start_seconds": 1036.289,
+    "end_seconds": 1036.299,
+    "text": "as the set M are both in Oh - all the"
+  },
+  {
+    "start": "00:17:16.299",
+    "end": "00:17:19.679",
+    "start_seconds": 1036.299,
+    "end_seconds": 1039.679,
+    "text": "as the set M are both in Oh - all the intersections of elements in otwo are"
+  },
+  {
+    "start": "00:17:19.679",
+    "end": "00:17:19.689",
+    "start_seconds": 1039.679,
+    "end_seconds": 1039.689,
+    "text": "intersections of elements in otwo are"
+  },
+  {
+    "start": "00:17:19.689",
+    "end": "00:17:22.860",
+    "start_seconds": 1039.689,
+    "end_seconds": 1042.86,
+    "text": "intersections of elements in otwo are again elements of Oh - so second"
+  },
+  {
+    "start": "00:17:22.860",
+    "end": "00:17:22.870",
+    "start_seconds": 1042.86,
+    "end_seconds": 1042.87,
+    "text": "again elements of Oh - so second"
+  },
+  {
+    "start": "00:17:22.870",
+    "end": "00:17:26.240",
+    "start_seconds": 1042.87,
+    "end_seconds": 1046.24,
+    "text": "again elements of Oh - so second criterion is also fulfilled however if"
+  },
+  {
+    "start": "00:17:26.240",
+    "end": "00:17:26.250",
+    "start_seconds": 1046.24,
+    "end_seconds": 1046.25,
+    "text": "criterion is also fulfilled however if"
+  },
+  {
+    "start": "00:17:26.250",
+    "end": "00:17:30.960",
+    "start_seconds": 1046.25,
+    "end_seconds": 1050.96,
+    "text": "criterion is also fulfilled however if we check criterion three we see that if"
+  },
+  {
+    "start": "00:17:30.960",
+    "end": "00:17:30.970",
+    "start_seconds": 1050.96,
+    "end_seconds": 1050.97,
+    "text": "we check criterion three we see that if"
+  },
+  {
+    "start": "00:17:30.970",
+    "end": "00:17:39.480",
+    "start_seconds": 1050.97,
+    "end_seconds": 1059.48,
+    "text": "we check criterion three we see that if we consider the union of the sets one"
+  },
+  {
+    "start": "00:17:39.480",
+    "end": "00:17:39.490",
+    "start_seconds": 1059.48,
+    "end_seconds": 1059.49,
+    "text": "we consider the union of the sets one"
+  },
+  {
+    "start": "00:17:39.490",
+    "end": "00:17:43.320",
+    "start_seconds": 1059.49,
+    "end_seconds": 1063.32,
+    "text": "we consider the union of the sets one and two which is the set with the"
+  },
+  {
+    "start": "00:17:43.320",
+    "end": "00:17:43.330",
+    "start_seconds": 1063.32,
+    "end_seconds": 1063.33,
+    "text": "and two which is the set with the"
+  },
+  {
+    "start": "00:17:43.330",
+    "end": "00:17:48.030",
+    "start_seconds": 1063.33,
+    "end_seconds": 1068.03,
+    "text": "and two which is the set with the elements one two that this is not in a"
+  },
+  {
+    "start": "00:17:48.030",
+    "end": "00:17:48.040",
+    "start_seconds": 1068.03,
+    "end_seconds": 1068.04,
+    "text": "elements one two that this is not in a"
+  },
+  {
+    "start": "00:17:48.040",
+    "end": "00:17:52.830",
+    "start_seconds": 1068.04,
+    "end_seconds": 1072.83,
+    "text": "elements one two that this is not in a chew thus we have a violation of"
+  },
+  {
+    "start": "00:17:52.830",
+    "end": "00:17:52.840",
+    "start_seconds": 1072.83,
+    "end_seconds": 1072.84,
+    "text": "chew thus we have a violation of"
+  },
+  {
+    "start": "00:17:52.840",
+    "end": "00:17:59.100",
+    "start_seconds": 1072.84,
+    "end_seconds": 1079.1,
+    "text": "chew thus we have a violation of criterion 3 here and OH - is not a"
+  },
+  {
+    "start": "00:17:59.100",
+    "end": "00:17:59.110",
+    "start_seconds": 1079.1,
+    "end_seconds": 1079.11,
+    "text": "criterion 3 here and OH - is not a"
+  },
+  {
+    "start": "00:17:59.110",
+    "end": "00:18:09.090",
+    "start_seconds": 1079.11,
+    "end_seconds": 1089.09,
+    "text": "criterion 3 here and OH - is not a topology on em and the last question is"
+  },
+  {
+    "start": "00:18:09.090",
+    "end": "00:18:09.100",
+    "start_seconds": 1089.09,
+    "end_seconds": 1089.1,
+    "text": "topology on em and the last question is"
+  },
+  {
+    "start": "00:18:09.100",
+    "end": "00:18:11.940",
+    "start_seconds": 1089.1,
+    "end_seconds": 1091.94,
+    "text": "topology on em and the last question is are there other topologies than the ones"
+  },
+  {
+    "start": "00:18:11.940",
+    "end": "00:18:11.950",
+    "start_seconds": 1091.94,
+    "end_seconds": 1091.95,
+    "text": "are there other topologies than the ones"
+  },
+  {
+    "start": "00:18:11.950",
+    "end": "00:18:13.409",
+    "start_seconds": 1091.95,
+    "end_seconds": 1093.409,
+    "text": "are there other topologies than the ones recognized so far"
+  },
+  {
+    "start": "00:18:13.409",
+    "end": "00:18:13.419",
+    "start_seconds": 1093.409,
+    "end_seconds": 1093.419,
+    "text": "recognized so far"
+  },
+  {
+    "start": "00:18:13.419",
+    "end": "00:18:17.400",
+    "start_seconds": 1093.419,
+    "end_seconds": 1097.4,
+    "text": "recognized so far well definitely there are so there are"
+  },
+  {
+    "start": "00:18:17.400",
+    "end": "00:18:17.410",
+    "start_seconds": 1097.4,
+    "end_seconds": 1097.41,
+    "text": "well definitely there are so there are"
+  },
+  {
+    "start": "00:18:17.410",
+    "end": "00:18:24.570",
+    "start_seconds": 1097.41,
+    "end_seconds": 1104.57,
+    "text": "well definitely there are so there are for example the chaotic topology or the"
+  },
+  {
+    "start": "00:18:24.570",
+    "end": "00:18:24.580",
+    "start_seconds": 1104.57,
+    "end_seconds": 1104.58,
+    "text": "for example the chaotic topology or the"
+  },
+  {
+    "start": "00:18:24.580",
+    "end": "00:18:41.170",
+    "start_seconds": 1104.58,
+    "end_seconds": 1121.17,
+    "text": "for example the chaotic topology or the discrete topology and many many more"
+  },
+  {
+    "start": "00:18:41.180",
+    "end": "00:18:47.300",
+    "start_seconds": 1121.18,
+    "end_seconds": 1127.3,
+    "text": "so this was exercise two which deals"
+  },
+  {
+    "start": "00:18:47.300",
+    "end": "00:18:47.310",
+    "start_seconds": 1127.3,
+    "end_seconds": 1127.31,
+    "text": "so this was exercise two which deals"
+  },
+  {
+    "start": "00:18:47.310",
+    "end": "00:18:50.630",
+    "start_seconds": 1127.31,
+    "end_seconds": 1130.63,
+    "text": "so this was exercise two which deals with tuple with topologies on a simple"
+  },
+  {
+    "start": "00:18:50.630",
+    "end": "00:18:50.640",
+    "start_seconds": 1130.63,
+    "end_seconds": 1130.64,
+    "text": "with tuple with topologies on a simple"
+  },
+  {
+    "start": "00:18:50.640",
+    "end": "00:18:54.860",
+    "start_seconds": 1130.64,
+    "end_seconds": 1134.86,
+    "text": "with tuple with topologies on a simple set and now we move on to exercise three"
+  },
+  {
+    "start": "00:18:54.860",
+    "end": "00:18:54.870",
+    "start_seconds": 1134.86,
+    "end_seconds": 1134.87,
+    "text": "set and now we move on to exercise three"
+  },
+  {
+    "start": "00:18:54.870",
+    "end": "00:18:58.580",
+    "start_seconds": 1134.87,
+    "end_seconds": 1138.58,
+    "text": "set and now we move on to exercise three about continuous functions so what is"
+  },
+  {
+    "start": "00:18:58.580",
+    "end": "00:18:58.590",
+    "start_seconds": 1138.58,
+    "end_seconds": 1138.59,
+    "text": "about continuous functions so what is"
+  },
+  {
+    "start": "00:18:58.590",
+    "end": "00:19:02.330",
+    "start_seconds": 1138.59,
+    "end_seconds": 1142.33,
+    "text": "about continuous functions so what is the definition of a continuous map so"
+  },
+  {
+    "start": "00:19:02.330",
+    "end": "00:19:02.340",
+    "start_seconds": 1142.33,
+    "end_seconds": 1142.34,
+    "text": "the definition of a continuous map so"
+  },
+  {
+    "start": "00:19:02.340",
+    "end": "00:19:05.240",
+    "start_seconds": 1142.34,
+    "end_seconds": 1145.24,
+    "text": "the definition of a continuous map so definition of a continuous map is just"
+  },
+  {
+    "start": "00:19:05.240",
+    "end": "00:19:05.250",
+    "start_seconds": 1145.24,
+    "end_seconds": 1145.25,
+    "text": "definition of a continuous map is just"
+  },
+  {
+    "start": "00:19:05.250",
+    "end": "00:19:16.370",
+    "start_seconds": 1145.25,
+    "end_seconds": 1156.37,
+    "text": "definition of a continuous map is just that pre images of open sets in the"
+  },
+  {
+    "start": "00:19:16.370",
+    "end": "00:19:16.380",
+    "start_seconds": 1156.37,
+    "end_seconds": 1156.38,
+    "text": "that pre images of open sets in the"
+  },
+  {
+    "start": "00:19:16.380",
+    "end": "00:19:35.150",
+    "start_seconds": 1156.38,
+    "end_seconds": 1175.15,
+    "text": "that pre images of open sets in the target are open in the domain so let now"
+  },
+  {
+    "start": "00:19:35.150",
+    "end": "00:19:35.160",
+    "start_seconds": 1175.15,
+    "end_seconds": 1175.16,
+    "text": "target are open in the domain so let now"
+  },
+  {
+    "start": "00:19:35.160",
+    "end": "00:19:38.510",
+    "start_seconds": 1175.16,
+    "end_seconds": 1178.51,
+    "text": "target are open in the domain so let now MP again the set one two three four and"
+  },
+  {
+    "start": "00:19:38.510",
+    "end": "00:19:38.520",
+    "start_seconds": 1178.51,
+    "end_seconds": 1178.52,
+    "text": "MP again the set one two three four and"
+  },
+  {
+    "start": "00:19:38.520",
+    "end": "00:19:42.770",
+    "start_seconds": 1178.52,
+    "end_seconds": 1182.77,
+    "text": "MP again the set one two three four and we considered the identity map on M it"
+  },
+  {
+    "start": "00:19:42.770",
+    "end": "00:19:42.780",
+    "start_seconds": 1182.77,
+    "end_seconds": 1182.78,
+    "text": "we considered the identity map on M it"
+  },
+  {
+    "start": "00:19:42.780",
+    "end": "00:19:46.880",
+    "start_seconds": 1182.78,
+    "end_seconds": 1186.88,
+    "text": "we considered the identity map on M it is defined by taking the element one to"
+  },
+  {
+    "start": "00:19:46.880",
+    "end": "00:19:46.890",
+    "start_seconds": 1186.88,
+    "end_seconds": 1186.89,
+    "text": "is defined by taking the element one to"
+  },
+  {
+    "start": "00:19:46.890",
+    "end": "00:19:50.480",
+    "start_seconds": 1186.89,
+    "end_seconds": 1190.48,
+    "text": "is defined by taking the element one to itself and taking element 2 to itself"
+  },
+  {
+    "start": "00:19:50.480",
+    "end": "00:19:50.490",
+    "start_seconds": 1190.48,
+    "end_seconds": 1190.49,
+    "text": "itself and taking element 2 to itself"
+  },
+  {
+    "start": "00:19:50.490",
+    "end": "00:19:56.810",
+    "start_seconds": 1190.49,
+    "end_seconds": 1196.81,
+    "text": "itself and taking element 2 to itself and so on now we want to check if the"
+  },
+  {
+    "start": "00:19:56.810",
+    "end": "00:19:56.820",
+    "start_seconds": 1196.81,
+    "end_seconds": 1196.82,
+    "text": "and so on now we want to check if the"
+  },
+  {
+    "start": "00:19:56.820",
+    "end": "00:19:59.840",
+    "start_seconds": 1196.82,
+    "end_seconds": 1199.84,
+    "text": "and so on now we want to check if the identity map is continuous if we equip"
+  },
+  {
+    "start": "00:19:59.840",
+    "end": "00:19:59.850",
+    "start_seconds": 1199.84,
+    "end_seconds": 1199.85,
+    "text": "identity map is continuous if we equip"
+  },
+  {
+    "start": "00:19:59.850",
+    "end": "00:20:03.700",
+    "start_seconds": 1199.85,
+    "end_seconds": 1203.7,
+    "text": "identity map is continuous if we equip the domain with the chaotic topology and"
+  },
+  {
+    "start": "00:20:03.700",
+    "end": "00:20:03.710",
+    "start_seconds": 1203.7,
+    "end_seconds": 1203.71,
+    "text": "the domain with the chaotic topology and"
+  },
+  {
+    "start": "00:20:03.710",
+    "end": "00:20:08.830",
+    "start_seconds": 1203.71,
+    "end_seconds": 1208.83,
+    "text": "the domain with the chaotic topology and the target with the topology Oh target"
+  },
+  {
+    "start": "00:20:08.830",
+    "end": "00:20:08.840",
+    "start_seconds": 1208.83,
+    "end_seconds": 1208.84,
+    "text": "the target with the topology Oh target"
+  },
+  {
+    "start": "00:20:08.840",
+    "end": "00:20:11.810",
+    "start_seconds": 1208.84,
+    "end_seconds": 1211.81,
+    "text": "the target with the topology Oh target that contains the empty set and set one"
+  },
+  {
+    "start": "00:20:11.810",
+    "end": "00:20:11.820",
+    "start_seconds": 1211.81,
+    "end_seconds": 1211.82,
+    "text": "that contains the empty set and set one"
+  },
+  {
+    "start": "00:20:11.820",
+    "end": "00:20:15.740",
+    "start_seconds": 1211.82,
+    "end_seconds": 1215.74,
+    "text": "that contains the empty set and set one enter set M itself so clearly our target"
+  },
+  {
+    "start": "00:20:15.740",
+    "end": "00:20:15.750",
+    "start_seconds": 1215.74,
+    "end_seconds": 1215.75,
+    "text": "enter set M itself so clearly our target"
+  },
+  {
+    "start": "00:20:15.750",
+    "end": "00:20:20.420",
+    "start_seconds": 1215.75,
+    "end_seconds": 1220.42,
+    "text": "enter set M itself so clearly our target is a topology on M so we can look at the"
+  },
+  {
+    "start": "00:20:20.420",
+    "end": "00:20:20.430",
+    "start_seconds": 1220.42,
+    "end_seconds": 1220.43,
+    "text": "is a topology on M so we can look at the"
+  },
+  {
+    "start": "00:20:20.430",
+    "end": "00:20:26.150",
+    "start_seconds": 1220.43,
+    "end_seconds": 1226.15,
+    "text": "is a topology on M so we can look at the pre images of open sets we look at the"
+  },
+  {
+    "start": "00:20:26.150",
+    "end": "00:20:26.160",
+    "start_seconds": 1226.15,
+    "end_seconds": 1226.16,
+    "text": "pre images of open sets we look at the"
+  },
+  {
+    "start": "00:20:26.160",
+    "end": "00:20:32.930",
+    "start_seconds": 1226.16,
+    "end_seconds": 1232.93,
+    "text": "pre images of open sets we look at the pre image under the identity map of the"
+  },
+  {
+    "start": "00:20:32.930",
+    "end": "00:20:32.940",
+    "start_seconds": 1232.93,
+    "end_seconds": 1232.94,
+    "text": "pre image under the identity map of the"
+  },
+  {
+    "start": "00:20:32.940",
+    "end": "00:20:37.190",
+    "start_seconds": 1232.94,
+    "end_seconds": 1237.19,
+    "text": "pre image under the identity map of the set one that is an open set in the"
+  },
+  {
+    "start": "00:20:37.190",
+    "end": "00:20:37.200",
+    "start_seconds": 1237.19,
+    "end_seconds": 1237.2,
+    "text": "set one that is an open set in the"
+  },
+  {
+    "start": "00:20:37.200",
+    "end": "00:20:41.870",
+    "start_seconds": 1237.2,
+    "end_seconds": 1241.87,
+    "text": "set one that is an open set in the target and we see due to the identity"
+  },
+  {
+    "start": "00:20:41.870",
+    "end": "00:20:41.880",
+    "start_seconds": 1241.87,
+    "end_seconds": 1241.88,
+    "text": "target and we see due to the identity"
+  },
+  {
+    "start": "00:20:41.880",
+    "end": "00:20:45.050",
+    "start_seconds": 1241.88,
+    "end_seconds": 1245.05,
+    "text": "target and we see due to the identity map mapping all elements to itself that"
+  },
+  {
+    "start": "00:20:45.050",
+    "end": "00:20:45.060",
+    "start_seconds": 1245.05,
+    "end_seconds": 1245.06,
+    "text": "map mapping all elements to itself that"
+  },
+  {
+    "start": "00:20:45.060",
+    "end": "00:20:49.100",
+    "start_seconds": 1245.06,
+    "end_seconds": 1249.1,
+    "text": "map mapping all elements to itself that this is the set with the element 1 but"
+  },
+  {
+    "start": "00:20:49.100",
+    "end": "00:20:49.110",
+    "start_seconds": 1249.1,
+    "end_seconds": 1249.11,
+    "text": "this is the set with the element 1 but"
+  },
+  {
+    "start": "00:20:49.110",
+    "end": "00:20:51.860",
+    "start_seconds": 1249.11,
+    "end_seconds": 1251.86,
+    "text": "this is the set with the element 1 but the set with the element 1 clearly is"
+  },
+  {
+    "start": "00:20:51.860",
+    "end": "00:20:51.870",
+    "start_seconds": 1251.86,
+    "end_seconds": 1251.87,
+    "text": "the set with the element 1 clearly is"
+  },
+  {
+    "start": "00:20:51.870",
+    "end": "00:20:53.650",
+    "start_seconds": 1251.87,
+    "end_seconds": 1253.65,
+    "text": "the set with the element 1 clearly is not an element"
+  },
+  {
+    "start": "00:20:53.650",
+    "end": "00:20:53.660",
+    "start_seconds": 1253.65,
+    "end_seconds": 1253.66,
+    "text": "not an element"
+  },
+  {
+    "start": "00:20:53.660",
+    "end": "00:20:57.310",
+    "start_seconds": 1253.66,
+    "end_seconds": 1257.31,
+    "text": "not an element of the chaotic topology with which we"
+  },
+  {
+    "start": "00:20:57.310",
+    "end": "00:20:57.320",
+    "start_seconds": 1257.31,
+    "end_seconds": 1257.32,
+    "text": "of the chaotic topology with which we"
+  },
+  {
+    "start": "00:20:57.320",
+    "end": "00:21:01.180",
+    "start_seconds": 1257.32,
+    "end_seconds": 1261.18,
+    "text": "of the chaotic topology with which we equipped the domain so the pre images of"
+  },
+  {
+    "start": "00:21:01.180",
+    "end": "00:21:01.190",
+    "start_seconds": 1261.18,
+    "end_seconds": 1261.19,
+    "text": "equipped the domain so the pre images of"
+  },
+  {
+    "start": "00:21:01.190",
+    "end": "00:21:06.190",
+    "start_seconds": 1261.19,
+    "end_seconds": 1266.19,
+    "text": "equipped the domain so the pre images of open sets are not open thus the identity"
+  },
+  {
+    "start": "00:21:06.190",
+    "end": "00:21:06.200",
+    "start_seconds": 1266.19,
+    "end_seconds": 1266.2,
+    "text": "open sets are not open thus the identity"
+  },
+  {
+    "start": "00:21:06.200",
+    "end": "00:21:14.530",
+    "start_seconds": 1266.2,
+    "end_seconds": 1274.53,
+    "text": "open sets are not open thus the identity map is not continuous with respect to"
+  },
+  {
+    "start": "00:21:14.530",
+    "end": "00:21:14.540",
+    "start_seconds": 1274.53,
+    "end_seconds": 1274.54,
+    "text": "map is not continuous with respect to"
+  },
+  {
+    "start": "00:21:14.540",
+    "end": "00:21:23.200",
+    "start_seconds": 1274.54,
+    "end_seconds": 1283.2,
+    "text": "map is not continuous with respect to the chosen topologies but now we"
+  },
+  {
+    "start": "00:21:23.200",
+    "end": "00:21:23.210",
+    "start_seconds": 1283.2,
+    "end_seconds": 1283.21,
+    "text": "the chosen topologies but now we"
+  },
+  {
+    "start": "00:21:23.210",
+    "end": "00:21:26.410",
+    "start_seconds": 1283.21,
+    "end_seconds": 1286.41,
+    "text": "the chosen topologies but now we consider the inverse identity map it"
+  },
+  {
+    "start": "00:21:26.410",
+    "end": "00:21:26.420",
+    "start_seconds": 1286.41,
+    "end_seconds": 1286.42,
+    "text": "consider the inverse identity map it"
+  },
+  {
+    "start": "00:21:26.420",
+    "end": "00:21:31.660",
+    "start_seconds": 1286.42,
+    "end_seconds": 1291.66,
+    "text": "consider the inverse identity map it also maps from n to M but now the target"
+  },
+  {
+    "start": "00:21:31.660",
+    "end": "00:21:31.670",
+    "start_seconds": 1291.66,
+    "end_seconds": 1291.67,
+    "text": "also maps from n to M but now the target"
+  },
+  {
+    "start": "00:21:31.670",
+    "end": "00:21:33.730",
+    "start_seconds": 1291.67,
+    "end_seconds": 1293.73,
+    "text": "also maps from n to M but now the target is equipped with the take chaotic"
+  },
+  {
+    "start": "00:21:33.730",
+    "end": "00:21:33.740",
+    "start_seconds": 1293.73,
+    "end_seconds": 1293.74,
+    "text": "is equipped with the take chaotic"
+  },
+  {
+    "start": "00:21:33.740",
+    "end": "00:21:36.430",
+    "start_seconds": 1293.74,
+    "end_seconds": 1296.43,
+    "text": "is equipped with the take chaotic topology and the domain with the other"
+  },
+  {
+    "start": "00:21:36.430",
+    "end": "00:21:36.440",
+    "start_seconds": 1296.43,
+    "end_seconds": 1296.44,
+    "text": "topology and the domain with the other"
+  },
+  {
+    "start": "00:21:36.440",
+    "end": "00:21:41.890",
+    "start_seconds": 1296.44,
+    "end_seconds": 1301.89,
+    "text": "topology and the domain with the other topology first we provide the values of"
+  },
+  {
+    "start": "00:21:41.890",
+    "end": "00:21:41.900",
+    "start_seconds": 1301.89,
+    "end_seconds": 1301.9,
+    "text": "topology first we provide the values of"
+  },
+  {
+    "start": "00:21:41.900",
+    "end": "00:21:43.750",
+    "start_seconds": 1301.9,
+    "end_seconds": 1303.75,
+    "text": "topology first we provide the values of the inverse identity map"
+  },
+  {
+    "start": "00:21:43.750",
+    "end": "00:21:43.760",
+    "start_seconds": 1303.75,
+    "end_seconds": 1303.76,
+    "text": "the inverse identity map"
+  },
+  {
+    "start": "00:21:43.760",
+    "end": "00:21:47.680",
+    "start_seconds": 1303.76,
+    "end_seconds": 1307.68,
+    "text": "the inverse identity map well not as easy since also the inverse"
+  },
+  {
+    "start": "00:21:47.680",
+    "end": "00:21:47.690",
+    "start_seconds": 1307.68,
+    "end_seconds": 1307.69,
+    "text": "well not as easy since also the inverse"
+  },
+  {
+    "start": "00:21:47.690",
+    "end": "00:21:50.470",
+    "start_seconds": 1307.69,
+    "end_seconds": 1310.47,
+    "text": "well not as easy since also the inverse identity map only takes elements from"
+  },
+  {
+    "start": "00:21:50.470",
+    "end": "00:21:50.480",
+    "start_seconds": 1310.47,
+    "end_seconds": 1310.48,
+    "text": "identity map only takes elements from"
+  },
+  {
+    "start": "00:21:50.480",
+    "end": "00:21:56.220",
+    "start_seconds": 1310.48,
+    "end_seconds": 1316.22,
+    "text": "identity map only takes elements from the set to itself so we get one map 2 1"
+  },
+  {
+    "start": "00:21:56.220",
+    "end": "00:21:56.230",
+    "start_seconds": 1316.22,
+    "end_seconds": 1316.23,
+    "text": "the set to itself so we get one map 2 1"
+  },
+  {
+    "start": "00:21:56.230",
+    "end": "00:22:05.920",
+    "start_seconds": 1316.23,
+    "end_seconds": 1325.92,
+    "text": "the set to itself so we get one map 2 1 2 2 2 and so on now we want to check"
+  },
+  {
+    "start": "00:22:05.920",
+    "end": "00:22:05.930",
+    "start_seconds": 1325.92,
+    "end_seconds": 1325.93,
+    "text": "2 2 2 and so on now we want to check"
+  },
+  {
+    "start": "00:22:05.930",
+    "end": "00:22:08.140",
+    "start_seconds": 1325.93,
+    "end_seconds": 1328.14,
+    "text": "2 2 2 and so on now we want to check whether it is inverse identity map is"
+  },
+  {
+    "start": "00:22:08.140",
+    "end": "00:22:08.150",
+    "start_seconds": 1328.14,
+    "end_seconds": 1328.15,
+    "text": "whether it is inverse identity map is"
+  },
+  {
+    "start": "00:22:08.150",
+    "end": "00:22:09.660",
+    "start_seconds": 1328.15,
+    "end_seconds": 1329.66,
+    "text": "whether it is inverse identity map is continuous"
+  },
+  {
+    "start": "00:22:09.660",
+    "end": "00:22:09.670",
+    "start_seconds": 1329.66,
+    "end_seconds": 1329.67,
+    "text": "continuous"
+  },
+  {
+    "start": "00:22:09.670",
+    "end": "00:22:12.610",
+    "start_seconds": 1329.67,
+    "end_seconds": 1332.61,
+    "text": "continuous therefore we again look at pre images of"
+  },
+  {
+    "start": "00:22:12.610",
+    "end": "00:22:12.620",
+    "start_seconds": 1332.61,
+    "end_seconds": 1332.62,
+    "text": "therefore we again look at pre images of"
+  },
+  {
+    "start": "00:22:12.620",
+    "end": "00:22:17.310",
+    "start_seconds": 1332.62,
+    "end_seconds": 1337.31,
+    "text": "therefore we again look at pre images of open sets now the domain is equipped"
+  },
+  {
+    "start": "00:22:17.310",
+    "end": "00:22:17.320",
+    "start_seconds": 1337.31,
+    "end_seconds": 1337.32,
+    "text": "open sets now the domain is equipped"
+  },
+  {
+    "start": "00:22:17.320",
+    "end": "00:22:20.650",
+    "start_seconds": 1337.32,
+    "end_seconds": 1340.65,
+    "text": "open sets now the domain is equipped with the other topology and the target"
+  },
+  {
+    "start": "00:22:20.650",
+    "end": "00:22:20.660",
+    "start_seconds": 1340.65,
+    "end_seconds": 1340.66,
+    "text": "with the other topology and the target"
+  },
+  {
+    "start": "00:22:20.660",
+    "end": "00:22:24.010",
+    "start_seconds": 1340.66,
+    "end_seconds": 1344.01,
+    "text": "with the other topology and the target is equipped with a chaotic topology thus"
+  },
+  {
+    "start": "00:22:24.010",
+    "end": "00:22:24.020",
+    "start_seconds": 1344.01,
+    "end_seconds": 1344.02,
+    "text": "is equipped with a chaotic topology thus"
+  },
+  {
+    "start": "00:22:24.020",
+    "end": "00:22:30.390",
+    "start_seconds": 1344.02,
+    "end_seconds": 1350.39,
+    "text": "is equipped with a chaotic topology thus we can only look at the pre images of"
+  },
+  {
+    "start": "00:22:30.390",
+    "end": "00:22:30.400",
+    "start_seconds": 1350.39,
+    "end_seconds": 1350.4,
+    "text": "we can only look at the pre images of"
+  },
+  {
+    "start": "00:22:30.400",
+    "end": "00:22:35.770",
+    "start_seconds": 1350.4,
+    "end_seconds": 1355.77,
+    "text": "we can only look at the pre images of the open set which is the open set which"
+  },
+  {
+    "start": "00:22:35.770",
+    "end": "00:22:35.780",
+    "start_seconds": 1355.77,
+    "end_seconds": 1355.78,
+    "text": "the open set which is the open set which"
+  },
+  {
+    "start": "00:22:35.780",
+    "end": "00:22:42.430",
+    "start_seconds": 1355.78,
+    "end_seconds": 1362.43,
+    "text": "the open set which is the open set which is an element of O so we call this"
+  },
+  {
+    "start": "00:22:42.430",
+    "end": "00:22:42.440",
+    "start_seconds": 1362.43,
+    "end_seconds": 1362.44,
+    "text": "is an element of O so we call this"
+  },
+  {
+    "start": "00:22:42.440",
+    "end": "00:22:48.430",
+    "start_seconds": 1362.44,
+    "end_seconds": 1368.43,
+    "text": "is an element of O so we call this topology here o the topology of the"
+  },
+  {
+    "start": "00:22:48.430",
+    "end": "00:22:48.440",
+    "start_seconds": 1368.43,
+    "end_seconds": 1368.44,
+    "text": "topology here o the topology of the"
+  },
+  {
+    "start": "00:22:48.440",
+    "end": "00:22:53.470",
+    "start_seconds": 1368.44,
+    "end_seconds": 1373.47,
+    "text": "topology here o the topology of the domain and the other pre image under the"
+  },
+  {
+    "start": "00:22:53.470",
+    "end": "00:22:53.480",
+    "start_seconds": 1373.47,
+    "end_seconds": 1373.48,
+    "text": "domain and the other pre image under the"
+  },
+  {
+    "start": "00:22:53.480",
+    "end": "00:22:57.430",
+    "start_seconds": 1373.48,
+    "end_seconds": 1377.43,
+    "text": "domain and the other pre image under the inverse identity map is off the set M"
+  },
+  {
+    "start": "00:22:57.430",
+    "end": "00:22:57.440",
+    "start_seconds": 1377.43,
+    "end_seconds": 1377.44,
+    "text": "inverse identity map is off the set M"
+  },
+  {
+    "start": "00:22:57.440",
+    "end": "00:22:58.090",
+    "start_seconds": 1377.44,
+    "end_seconds": 1378.09,
+    "text": "inverse identity map is off the set M itself"
+  },
+  {
+    "start": "00:22:58.090",
+    "end": "00:22:58.100",
+    "start_seconds": 1378.09,
+    "end_seconds": 1378.1,
+    "text": "itself"
+  },
+  {
+    "start": "00:22:58.100",
+    "end": "00:23:02.530",
+    "start_seconds": 1378.1,
+    "end_seconds": 1382.53,
+    "text": "itself well palace M itself which is also an"
+  },
+  {
+    "start": "00:23:02.530",
+    "end": "00:23:02.540",
+    "start_seconds": 1382.53,
+    "end_seconds": 1382.54,
+    "text": "well palace M itself which is also an"
+  },
+  {
+    "start": "00:23:02.540",
+    "end": "00:23:06.300",
+    "start_seconds": 1382.54,
+    "end_seconds": 1386.3,
+    "text": "well palace M itself which is also an element of O fast"
+  },
+  {
+    "start": "00:23:06.300",
+    "end": "00:23:06.310",
+    "start_seconds": 1386.3,
+    "end_seconds": 1386.31,
+    "text": "element of O fast"
+  },
+  {
+    "start": "00:23:06.310",
+    "end": "00:23:16.890",
+    "start_seconds": 1386.31,
+    "end_seconds": 1396.89,
+    "text": "element of O fast the inverse identity map which we"
+  },
+  {
+    "start": "00:23:16.890",
+    "end": "00:23:16.900",
+    "start_seconds": 1396.89,
+    "end_seconds": 1396.9,
+    "text": "the inverse identity map which we"
+  },
+  {
+    "start": "00:23:16.900",
+    "end": "00:23:23.310",
+    "start_seconds": 1396.9,
+    "end_seconds": 1403.31,
+    "text": "the inverse identity map which we denoted IDM inverse is continuous with"
+  },
+  {
+    "start": "00:23:23.310",
+    "end": "00:23:23.320",
+    "start_seconds": 1403.31,
+    "end_seconds": 1403.32,
+    "text": "denoted IDM inverse is continuous with"
+  },
+  {
+    "start": "00:23:23.320",
+    "end": "00:23:30.240",
+    "start_seconds": 1403.32,
+    "end_seconds": 1410.24,
+    "text": "denoted IDM inverse is continuous with respect to the chosen topologies now we"
+  },
+  {
+    "start": "00:23:30.240",
+    "end": "00:23:30.250",
+    "start_seconds": 1410.24,
+    "end_seconds": 1410.25,
+    "text": "respect to the chosen topologies now we"
+  },
+  {
+    "start": "00:23:30.250",
+    "end": "00:23:34.080",
+    "start_seconds": 1410.25,
+    "end_seconds": 1414.08,
+    "text": "respect to the chosen topologies now we have seen how the notion of continuity"
+  },
+  {
+    "start": "00:23:34.080",
+    "end": "00:23:34.090",
+    "start_seconds": 1414.08,
+    "end_seconds": 1414.09,
+    "text": "have seen how the notion of continuity"
+  },
+  {
+    "start": "00:23:34.090",
+    "end": "00:23:38.790",
+    "start_seconds": 1414.09,
+    "end_seconds": 1418.79,
+    "text": "have seen how the notion of continuity is directly impacted by the chosen"
+  },
+  {
+    "start": "00:23:38.790",
+    "end": "00:23:38.800",
+    "start_seconds": 1418.79,
+    "end_seconds": 1418.8,
+    "text": "is directly impacted by the chosen"
+  },
+  {
+    "start": "00:23:38.800",
+    "end": "00:23:46.370",
+    "start_seconds": 1418.8,
+    "end_seconds": 1426.37,
+    "text": "is directly impacted by the chosen topologies on domain and target in"
+  },
+  {
+    "start": "00:23:46.370",
+    "end": "00:23:46.380",
+    "start_seconds": 1426.37,
+    "end_seconds": 1426.38,
+    "text": "topologies on domain and target in"
+  },
+  {
+    "start": "00:23:46.380",
+    "end": "00:23:50.010",
+    "start_seconds": 1426.38,
+    "end_seconds": 1430.01,
+    "text": "topologies on domain and target in exercise 4 which is already the last"
+  },
+  {
+    "start": "00:23:50.010",
+    "end": "00:23:50.020",
+    "start_seconds": 1430.01,
+    "end_seconds": 1430.02,
+    "text": "exercise 4 which is already the last"
+  },
+  {
+    "start": "00:23:50.020",
+    "end": "00:23:53.190",
+    "start_seconds": 1430.02,
+    "end_seconds": 1433.19,
+    "text": "exercise 4 which is already the last exercise of this problem sheet we deal"
+  },
+  {
+    "start": "00:23:53.190",
+    "end": "00:23:53.200",
+    "start_seconds": 1433.19,
+    "end_seconds": 1433.2,
+    "text": "exercise of this problem sheet we deal"
+  },
+  {
+    "start": "00:23:53.200",
+    "end": "00:24:00.120",
+    "start_seconds": 1433.2,
+    "end_seconds": 1440.12,
+    "text": "exercise of this problem sheet we deal with the standard topology on Rd so the"
+  },
+  {
+    "start": "00:24:00.120",
+    "end": "00:24:00.130",
+    "start_seconds": 1440.12,
+    "end_seconds": 1440.13,
+    "text": "with the standard topology on Rd so the"
+  },
+  {
+    "start": "00:24:00.130",
+    "end": "00:24:02.460",
+    "start_seconds": 1440.13,
+    "end_seconds": 1442.46,
+    "text": "with the standard topology on Rd so the first question is to sketch the real"
+  },
+  {
+    "start": "00:24:02.460",
+    "end": "00:24:02.470",
+    "start_seconds": 1442.46,
+    "end_seconds": 1442.47,
+    "text": "first question is to sketch the real"
+  },
+  {
+    "start": "00:24:02.470",
+    "end": "00:24:04.530",
+    "start_seconds": 1442.47,
+    "end_seconds": 1444.53,
+    "text": "first question is to sketch the real intervals that are given in the table"
+  },
+  {
+    "start": "00:24:04.530",
+    "end": "00:24:04.540",
+    "start_seconds": 1444.53,
+    "end_seconds": 1444.54,
+    "text": "intervals that are given in the table"
+  },
+  {
+    "start": "00:24:04.540",
+    "end": "00:24:08.340",
+    "start_seconds": 1444.54,
+    "end_seconds": 1448.34,
+    "text": "intervals that are given in the table below and decide whether they are open"
+  },
+  {
+    "start": "00:24:08.340",
+    "end": "00:24:08.350",
+    "start_seconds": 1448.34,
+    "end_seconds": 1448.35,
+    "text": "below and decide whether they are open"
+  },
+  {
+    "start": "00:24:08.350",
+    "end": "00:24:12.920",
+    "start_seconds": 1448.35,
+    "end_seconds": 1452.92,
+    "text": "below and decide whether they are open or not so the interval 0 1 with 0 & 1"
+  },
+  {
+    "start": "00:24:12.920",
+    "end": "00:24:12.930",
+    "start_seconds": 1452.92,
+    "end_seconds": 1452.93,
+    "text": "or not so the interval 0 1 with 0 & 1"
+  },
+  {
+    "start": "00:24:12.930",
+    "end": "00:24:19.440",
+    "start_seconds": 1452.93,
+    "end_seconds": 1459.44,
+    "text": "or not so the interval 0 1 with 0 & 1 excluded we can draw easily in this way"
+  },
+  {
+    "start": "00:24:19.440",
+    "end": "00:24:19.450",
+    "start_seconds": 1459.44,
+    "end_seconds": 1459.45,
+    "text": "excluded we can draw easily in this way"
+  },
+  {
+    "start": "00:24:19.450",
+    "end": "00:24:24.540",
+    "start_seconds": 1459.45,
+    "end_seconds": 1464.54,
+    "text": "excluded we can draw easily in this way and clearly does this open in the"
+  },
+  {
+    "start": "00:24:24.540",
+    "end": "00:24:24.550",
+    "start_seconds": 1464.54,
+    "end_seconds": 1464.55,
+    "text": "and clearly does this open in the"
+  },
+  {
+    "start": "00:24:24.550",
+    "end": "00:24:29.040",
+    "start_seconds": 1464.55,
+    "end_seconds": 1469.04,
+    "text": "and clearly does this open in the standard topology as we can find as we"
+  },
+  {
+    "start": "00:24:29.040",
+    "end": "00:24:29.050",
+    "start_seconds": 1469.04,
+    "end_seconds": 1469.05,
+    "text": "standard topology as we can find as we"
+  },
+  {
+    "start": "00:24:29.050",
+    "end": "00:24:32.850",
+    "start_seconds": 1469.05,
+    "end_seconds": 1472.85,
+    "text": "standard topology as we can find as we can at every point find open balls the"
+  },
+  {
+    "start": "00:24:32.850",
+    "end": "00:24:32.860",
+    "start_seconds": 1472.85,
+    "end_seconds": 1472.86,
+    "text": "can at every point find open balls the"
+  },
+  {
+    "start": "00:24:32.860",
+    "end": "00:24:38.340",
+    "start_seconds": 1472.86,
+    "end_seconds": 1478.34,
+    "text": "can at every point find open balls the completely lie in this interval for the"
+  },
+  {
+    "start": "00:24:38.340",
+    "end": "00:24:38.350",
+    "start_seconds": 1478.34,
+    "end_seconds": 1478.35,
+    "text": "completely lie in this interval for the"
+  },
+  {
+    "start": "00:24:38.350",
+    "end": "00:24:41.910",
+    "start_seconds": 1478.35,
+    "end_seconds": 1481.91,
+    "text": "completely lie in this interval for the interval 0 1 with 0 included which we"
+  },
+  {
+    "start": "00:24:41.910",
+    "end": "00:24:41.920",
+    "start_seconds": 1481.91,
+    "end_seconds": 1481.92,
+    "text": "interval 0 1 with 0 included which we"
+  },
+  {
+    "start": "00:24:41.920",
+    "end": "00:24:48.240",
+    "start_seconds": 1481.92,
+    "end_seconds": 1488.24,
+    "text": "interval 0 1 with 0 included which we could draw like this we cannot find open"
+  },
+  {
+    "start": "00:24:48.240",
+    "end": "00:24:48.250",
+    "start_seconds": 1488.24,
+    "end_seconds": 1488.25,
+    "text": "could draw like this we cannot find open"
+  },
+  {
+    "start": "00:24:48.250",
+    "end": "00:24:51.120",
+    "start_seconds": 1488.25,
+    "end_seconds": 1491.12,
+    "text": "could draw like this we cannot find open balls anymore so consider we are sitting"
+  },
+  {
+    "start": "00:24:51.120",
+    "end": "00:24:51.130",
+    "start_seconds": 1491.12,
+    "end_seconds": 1491.13,
+    "text": "balls anymore so consider we are sitting"
+  },
+  {
+    "start": "00:24:51.130",
+    "end": "00:24:55.800",
+    "start_seconds": 1491.13,
+    "end_seconds": 1495.8,
+    "text": "balls anymore so consider we are sitting here with consider the point 0 we can"
+  },
+  {
+    "start": "00:24:55.800",
+    "end": "00:24:55.810",
+    "start_seconds": 1495.8,
+    "end_seconds": 1495.81,
+    "text": "here with consider the point 0 we can"
+  },
+  {
+    "start": "00:24:55.810",
+    "end": "00:25:01.470",
+    "start_seconds": 1495.81,
+    "end_seconds": 1501.47,
+    "text": "here with consider the point 0 we can not find an open ball around the point 0"
+  },
+  {
+    "start": "00:25:01.470",
+    "end": "00:25:01.480",
+    "start_seconds": 1501.47,
+    "end_seconds": 1501.48,
+    "text": "not find an open ball around the point 0"
+  },
+  {
+    "start": "00:25:01.480",
+    "end": "00:25:04.740",
+    "start_seconds": 1501.48,
+    "end_seconds": 1504.74,
+    "text": "not find an open ball around the point 0 such that it completely lies in this"
+  },
+  {
+    "start": "00:25:04.740",
+    "end": "00:25:04.750",
+    "start_seconds": 1504.74,
+    "end_seconds": 1504.75,
+    "text": "such that it completely lies in this"
+  },
+  {
+    "start": "00:25:04.750",
+    "end": "00:25:12.230",
+    "start_seconds": 1504.75,
+    "end_seconds": 1512.23,
+    "text": "such that it completely lies in this interval plus this interval is not open"
+  },
+  {
+    "start": "00:25:12.230",
+    "end": "00:25:12.240",
+    "start_seconds": 1512.23,
+    "end_seconds": 1512.24,
+    "text": "interval plus this interval is not open"
+  },
+  {
+    "start": "00:25:12.240",
+    "end": "00:25:15.270",
+    "start_seconds": 1512.24,
+    "end_seconds": 1515.27,
+    "text": "interval plus this interval is not open the other case would be that series"
+  },
+  {
+    "start": "00:25:15.270",
+    "end": "00:25:15.280",
+    "start_seconds": 1515.27,
+    "end_seconds": 1515.28,
+    "text": "the other case would be that series"
+  },
+  {
+    "start": "00:25:15.280",
+    "end": "00:25:15.990",
+    "start_seconds": 1515.28,
+    "end_seconds": 1515.99,
+    "text": "the other case would be that series exclude"
+  },
+  {
+    "start": "00:25:15.990",
+    "end": "00:25:16.000",
+    "start_seconds": 1515.99,
+    "end_seconds": 1516.0,
+    "text": "exclude"
+  },
+  {
+    "start": "00:25:16.000",
+    "end": "00:25:18.720",
+    "start_seconds": 1516.0,
+    "end_seconds": 1518.72,
+    "text": "exclude but one is included that doesn't change"
+  },
+  {
+    "start": "00:25:18.720",
+    "end": "00:25:18.730",
+    "start_seconds": 1518.72,
+    "end_seconds": 1518.73,
+    "text": "but one is included that doesn't change"
+  },
+  {
+    "start": "00:25:18.730",
+    "end": "00:25:24.450",
+    "start_seconds": 1518.73,
+    "end_seconds": 1524.45,
+    "text": "but one is included that doesn't change anything since now we fail at the point"
+  },
+  {
+    "start": "00:25:24.450",
+    "end": "00:25:24.460",
+    "start_seconds": 1524.45,
+    "end_seconds": 1524.46,
+    "text": "anything since now we fail at the point"
+  },
+  {
+    "start": "00:25:24.460",
+    "end": "00:25:28.380",
+    "start_seconds": 1524.46,
+    "end_seconds": 1528.38,
+    "text": "anything since now we fail at the point 1 and again the set is the interval is"
+  },
+  {
+    "start": "00:25:28.380",
+    "end": "00:25:28.390",
+    "start_seconds": 1528.38,
+    "end_seconds": 1528.39,
+    "text": "1 and again the set is the interval is"
+  },
+  {
+    "start": "00:25:28.390",
+    "end": "00:25:34.430",
+    "start_seconds": 1528.39,
+    "end_seconds": 1534.43,
+    "text": "1 and again the set is the interval is not open and the interval with 0 & 1"
+  },
+  {
+    "start": "00:25:34.430",
+    "end": "00:25:34.440",
+    "start_seconds": 1534.43,
+    "end_seconds": 1534.44,
+    "text": "not open and the interval with 0 & 1"
+  },
+  {
+    "start": "00:25:34.440",
+    "end": "00:25:42.270",
+    "start_seconds": 1534.44,
+    "end_seconds": 1542.27,
+    "text": "not open and the interval with 0 & 1 included it's also not open now we look"
+  },
+  {
+    "start": "00:25:42.270",
+    "end": "00:25:42.280",
+    "start_seconds": 1542.27,
+    "end_seconds": 1542.28,
+    "text": "included it's also not open now we look"
+  },
+  {
+    "start": "00:25:42.280",
+    "end": "00:25:45.690",
+    "start_seconds": 1542.28,
+    "end_seconds": 1545.69,
+    "text": "included it's also not open now we look at the union of the open interval 0 1"
+  },
+  {
+    "start": "00:25:45.690",
+    "end": "00:25:45.700",
+    "start_seconds": 1545.69,
+    "end_seconds": 1545.7,
+    "text": "at the union of the open interval 0 1"
+  },
+  {
+    "start": "00:25:45.700",
+    "end": "00:25:53.430",
+    "start_seconds": 1545.7,
+    "end_seconds": 1553.43,
+    "text": "at the union of the open interval 0 1 and the open interval 0 to 3 which is"
+  },
+  {
+    "start": "00:25:53.430",
+    "end": "00:25:53.440",
+    "start_seconds": 1553.43,
+    "end_seconds": 1553.44,
+    "text": "and the open interval 0 to 3 which is"
+  },
+  {
+    "start": "00:25:53.440",
+    "end": "00:26:00.750",
+    "start_seconds": 1553.44,
+    "end_seconds": 1560.75,
+    "text": "and the open interval 0 to 3 which is just pictured like this so we see the"
+  },
+  {
+    "start": "00:26:00.750",
+    "end": "00:26:00.760",
+    "start_seconds": 1560.75,
+    "end_seconds": 1560.76,
+    "text": "just pictured like this so we see the"
+  },
+  {
+    "start": "00:26:00.760",
+    "end": "00:26:04.410",
+    "start_seconds": 1560.76,
+    "end_seconds": 1564.41,
+    "text": "just pictured like this so we see the union of open sets is of course again"
+  },
+  {
+    "start": "00:26:04.410",
+    "end": "00:26:04.420",
+    "start_seconds": 1564.41,
+    "end_seconds": 1564.42,
+    "text": "union of open sets is of course again"
+  },
+  {
+    "start": "00:26:04.420",
+    "end": "00:26:11.040",
+    "start_seconds": 1564.42,
+    "end_seconds": 1571.04,
+    "text": "union of open sets is of course again open that was a criterion for a topology"
+  },
+  {
+    "start": "00:26:11.040",
+    "end": "00:26:11.050",
+    "start_seconds": 1571.04,
+    "end_seconds": 1571.05,
+    "text": "open that was a criterion for a topology"
+  },
+  {
+    "start": "00:26:11.050",
+    "end": "00:26:15.300",
+    "start_seconds": 1571.05,
+    "end_seconds": 1575.3,
+    "text": "open that was a criterion for a topology and of course we can also can find open"
+  },
+  {
+    "start": "00:26:15.300",
+    "end": "00:26:15.310",
+    "start_seconds": 1575.3,
+    "end_seconds": 1575.31,
+    "text": "and of course we can also can find open"
+  },
+  {
+    "start": "00:26:15.310",
+    "end": "00:26:19.140",
+    "start_seconds": 1575.31,
+    "end_seconds": 1579.14,
+    "text": "and of course we can also can find open poles at any point in these in this"
+  },
+  {
+    "start": "00:26:19.140",
+    "end": "00:26:19.150",
+    "start_seconds": 1579.14,
+    "end_seconds": 1579.15,
+    "text": "poles at any point in these in this"
+  },
+  {
+    "start": "00:26:19.150",
+    "end": "00:26:22.260",
+    "start_seconds": 1579.15,
+    "end_seconds": 1582.26,
+    "text": "poles at any point in these in this interval so that they lie completely in"
+  },
+  {
+    "start": "00:26:22.260",
+    "end": "00:26:22.270",
+    "start_seconds": 1582.26,
+    "end_seconds": 1582.27,
+    "text": "interval so that they lie completely in"
+  },
+  {
+    "start": "00:26:22.270",
+    "end": "00:26:27.020",
+    "start_seconds": 1582.27,
+    "end_seconds": 1587.02,
+    "text": "interval so that they lie completely in this interval so now we have understood"
+  },
+  {
+    "start": "00:26:27.020",
+    "end": "00:26:27.030",
+    "start_seconds": 1587.02,
+    "end_seconds": 1587.03,
+    "text": "this interval so now we have understood"
+  },
+  {
+    "start": "00:26:27.030",
+    "end": "00:26:32.120",
+    "start_seconds": 1587.03,
+    "end_seconds": 1592.12,
+    "text": "this interval so now we have understood what open intervals on the real line R"
+  },
+  {
+    "start": "00:26:32.120",
+    "end": "00:26:32.130",
+    "start_seconds": 1592.12,
+    "end_seconds": 1592.13,
+    "text": "what open intervals on the real line R"
+  },
+  {
+    "start": "00:26:32.130",
+    "end": "00:26:39.060",
+    "start_seconds": 1592.13,
+    "end_seconds": 1599.06,
+    "text": "what open intervals on the real line R so what about subsets of R 2 we now"
+  },
+  {
+    "start": "00:26:39.060",
+    "end": "00:26:39.070",
+    "start_seconds": 1599.06,
+    "end_seconds": 1599.07,
+    "text": "so what about subsets of R 2 we now"
+  },
+  {
+    "start": "00:26:39.070",
+    "end": "00:26:43.280",
+    "start_seconds": 1599.07,
+    "end_seconds": 1603.28,
+    "text": "so what about subsets of R 2 we now consider 6 different subsets of R 2"
+  },
+  {
+    "start": "00:26:43.280",
+    "end": "00:26:43.290",
+    "start_seconds": 1603.28,
+    "end_seconds": 1603.29,
+    "text": "consider 6 different subsets of R 2"
+  },
+  {
+    "start": "00:26:43.290",
+    "end": "00:26:45.210",
+    "start_seconds": 1603.29,
+    "end_seconds": 1605.21,
+    "text": "consider 6 different subsets of R 2 which is equipped with a standard"
+  },
+  {
+    "start": "00:26:45.210",
+    "end": "00:26:45.220",
+    "start_seconds": 1605.21,
+    "end_seconds": 1605.22,
+    "text": "which is equipped with a standard"
+  },
+  {
+    "start": "00:26:45.220",
+    "end": "00:26:46.430",
+    "start_seconds": 1605.22,
+    "end_seconds": 1606.43,
+    "text": "which is equipped with a standard topology"
+  },
+  {
+    "start": "00:26:46.430",
+    "end": "00:26:46.440",
+    "start_seconds": 1606.43,
+    "end_seconds": 1606.44,
+    "text": "topology"
+  },
+  {
+    "start": "00:26:46.440",
+    "end": "00:26:51.570",
+    "start_seconds": 1606.44,
+    "end_seconds": 1611.57,
+    "text": "topology note that the this frame around the"
+  },
+  {
+    "start": "00:26:51.570",
+    "end": "00:26:51.580",
+    "start_seconds": 1611.57,
+    "end_seconds": 1611.58,
+    "text": "note that the this frame around the"
+  },
+  {
+    "start": "00:26:51.580",
+    "end": "00:26:55.410",
+    "start_seconds": 1611.58,
+    "end_seconds": 1615.41,
+    "text": "note that the this frame around the subsets has no meaning it is not a"
+  },
+  {
+    "start": "00:26:55.410",
+    "end": "00:26:55.420",
+    "start_seconds": 1615.41,
+    "end_seconds": 1615.42,
+    "text": "subsets has no meaning it is not a"
+  },
+  {
+    "start": "00:26:55.420",
+    "end": "00:26:59.910",
+    "start_seconds": 1615.42,
+    "end_seconds": 1619.91,
+    "text": "subsets has no meaning it is not a rectangular area of R 2 but rather it's"
+  },
+  {
+    "start": "00:26:59.910",
+    "end": "00:26:59.920",
+    "start_seconds": 1619.91,
+    "end_seconds": 1619.92,
+    "text": "rectangular area of R 2 but rather it's"
+  },
+  {
+    "start": "00:26:59.920",
+    "end": "00:27:07.590",
+    "start_seconds": 1619.92,
+    "end_seconds": 1627.59,
+    "text": "rectangular area of R 2 but rather it's it represents all of our two so this is"
+  },
+  {
+    "start": "00:27:07.590",
+    "end": "00:27:07.600",
+    "start_seconds": 1627.59,
+    "end_seconds": 1627.6,
+    "text": "it represents all of our two so this is"
+  },
+  {
+    "start": "00:27:07.600",
+    "end": "00:27:10.410",
+    "start_seconds": 1627.6,
+    "end_seconds": 1630.41,
+    "text": "it represents all of our two so this is all of our two here and we have this"
+  },
+  {
+    "start": "00:27:10.410",
+    "end": "00:27:10.420",
+    "start_seconds": 1630.41,
+    "end_seconds": 1630.42,
+    "text": "all of our two here and we have this"
+  },
+  {
+    "start": "00:27:10.420",
+    "end": "00:27:13.470",
+    "start_seconds": 1630.42,
+    "end_seconds": 1633.47,
+    "text": "all of our two here and we have this subset and weekends and we easily see"
+  },
+  {
+    "start": "00:27:13.470",
+    "end": "00:27:13.480",
+    "start_seconds": 1633.47,
+    "end_seconds": 1633.48,
+    "text": "subset and weekends and we easily see"
+  },
+  {
+    "start": "00:27:13.480",
+    "end": "00:27:19.500",
+    "start_seconds": 1633.48,
+    "end_seconds": 1639.5,
+    "text": "subset and weekends and we easily see that for each point we can find such"
+  },
+  {
+    "start": "00:27:19.500",
+    "end": "00:27:19.510",
+    "start_seconds": 1639.5,
+    "end_seconds": 1639.51,
+    "text": "that for each point we can find such"
+  },
+  {
+    "start": "00:27:19.510",
+    "end": "00:27:22.410",
+    "start_seconds": 1639.51,
+    "end_seconds": 1642.41,
+    "text": "that for each point we can find such open bolts such that the ball completely"
+  },
+  {
+    "start": "00:27:22.410",
+    "end": "00:27:22.420",
+    "start_seconds": 1642.41,
+    "end_seconds": 1642.42,
+    "text": "open bolts such that the ball completely"
+  },
+  {
+    "start": "00:27:22.420",
+    "end": "00:27:28.250",
+    "start_seconds": 1642.42,
+    "end_seconds": 1648.25,
+    "text": "open bolts such that the ball completely lies in the subset and thus this up"
+  },
+  {
+    "start": "00:27:28.250",
+    "end": "00:27:28.260",
+    "start_seconds": 1648.25,
+    "end_seconds": 1648.26,
+    "text": "lies in the subset and thus this up"
+  },
+  {
+    "start": "00:27:28.260",
+    "end": "00:27:32.450",
+    "start_seconds": 1648.26,
+    "end_seconds": 1652.45,
+    "text": "lies in the subset and thus this up that is open also the second example is"
+  },
+  {
+    "start": "00:27:32.450",
+    "end": "00:27:32.460",
+    "start_seconds": 1652.45,
+    "end_seconds": 1652.46,
+    "text": "that is open also the second example is"
+  },
+  {
+    "start": "00:27:32.460",
+    "end": "00:27:38.270",
+    "start_seconds": 1652.46,
+    "end_seconds": 1658.27,
+    "text": "that is open also the second example is an open subset of r2 you see and every"
+  },
+  {
+    "start": "00:27:38.270",
+    "end": "00:27:38.280",
+    "start_seconds": 1658.27,
+    "end_seconds": 1658.28,
+    "text": "an open subset of r2 you see and every"
+  },
+  {
+    "start": "00:27:38.280",
+    "end": "00:27:41.630",
+    "start_seconds": 1658.28,
+    "end_seconds": 1661.63,
+    "text": "an open subset of r2 you see and every point you can find open balls that are"
+  },
+  {
+    "start": "00:27:41.630",
+    "end": "00:27:41.640",
+    "start_seconds": 1661.63,
+    "end_seconds": 1661.64,
+    "text": "point you can find open balls that are"
+  },
+  {
+    "start": "00:27:41.640",
+    "end": "00:27:43.100",
+    "start_seconds": 1661.64,
+    "end_seconds": 1663.1,
+    "text": "point you can find open balls that are completely in the set"
+  },
+  {
+    "start": "00:27:43.100",
+    "end": "00:27:43.110",
+    "start_seconds": 1663.1,
+    "end_seconds": 1663.11,
+    "text": "completely in the set"
+  },
+  {
+    "start": "00:27:43.110",
+    "end": "00:27:50.030",
+    "start_seconds": 1663.11,
+    "end_seconds": 1670.03,
+    "text": "completely in the set thus a subset is open the third example"
+  },
+  {
+    "start": "00:27:50.030",
+    "end": "00:27:50.040",
+    "start_seconds": 1670.03,
+    "end_seconds": 1670.04,
+    "text": "thus a subset is open the third example"
+  },
+  {
+    "start": "00:27:50.040",
+    "end": "00:27:53.060",
+    "start_seconds": 1670.04,
+    "end_seconds": 1673.06,
+    "text": "thus a subset is open the third example here it's not open anymore"
+  },
+  {
+    "start": "00:27:53.060",
+    "end": "00:27:53.070",
+    "start_seconds": 1673.06,
+    "end_seconds": 1673.07,
+    "text": "here it's not open anymore"
+  },
+  {
+    "start": "00:27:53.070",
+    "end": "00:27:55.610",
+    "start_seconds": 1673.07,
+    "end_seconds": 1675.61,
+    "text": "here it's not open anymore you could you could consider this point"
+  },
+  {
+    "start": "00:27:55.610",
+    "end": "00:27:55.620",
+    "start_seconds": 1675.61,
+    "end_seconds": 1675.62,
+    "text": "you could you could consider this point"
+  },
+  {
+    "start": "00:27:55.620",
+    "end": "00:28:02.480",
+    "start_seconds": 1675.62,
+    "end_seconds": 1682.48,
+    "text": "you could you could consider this point here and then you can find no open ball"
+  },
+  {
+    "start": "00:28:02.480",
+    "end": "00:28:02.490",
+    "start_seconds": 1682.48,
+    "end_seconds": 1682.49,
+    "text": "here and then you can find no open ball"
+  },
+  {
+    "start": "00:28:02.490",
+    "end": "00:28:06.130",
+    "start_seconds": 1682.49,
+    "end_seconds": 1686.13,
+    "text": "here and then you can find no open ball that completely lies in the set itself"
+  },
+  {
+    "start": "00:28:06.130",
+    "end": "00:28:06.140",
+    "start_seconds": 1686.13,
+    "end_seconds": 1686.14,
+    "text": "that completely lies in the set itself"
+  },
+  {
+    "start": "00:28:06.140",
+    "end": "00:28:10.340",
+    "start_seconds": 1686.14,
+    "end_seconds": 1690.34,
+    "text": "that completely lies in the set itself it always said some outside territory"
+  },
+  {
+    "start": "00:28:10.340",
+    "end": "00:28:10.350",
+    "start_seconds": 1690.34,
+    "end_seconds": 1690.35,
+    "text": "it always said some outside territory"
+  },
+  {
+    "start": "00:28:10.350",
+    "end": "00:28:17.890",
+    "start_seconds": 1690.35,
+    "end_seconds": 1697.89,
+    "text": "it always said some outside territory thus this set is not open in our tube"
+  },
+  {
+    "start": "00:28:17.890",
+    "end": "00:28:17.900",
+    "start_seconds": 1697.89,
+    "end_seconds": 1697.9,
+    "text": "thus this set is not open in our tube"
+  },
+  {
+    "start": "00:28:17.900",
+    "end": "00:28:23.020",
+    "start_seconds": 1697.9,
+    "end_seconds": 1703.02,
+    "text": "thus this set is not open in our tube here this was an open interval in our"
+  },
+  {
+    "start": "00:28:23.020",
+    "end": "00:28:23.030",
+    "start_seconds": 1703.02,
+    "end_seconds": 1703.03,
+    "text": "here this was an open interval in our"
+  },
+  {
+    "start": "00:28:23.030",
+    "end": "00:28:28.400",
+    "start_seconds": 1703.03,
+    "end_seconds": 1708.4,
+    "text": "here this was an open interval in our however now this subset is not open in"
+  },
+  {
+    "start": "00:28:28.400",
+    "end": "00:28:28.410",
+    "start_seconds": 1708.4,
+    "end_seconds": 1708.41,
+    "text": "however now this subset is not open in"
+  },
+  {
+    "start": "00:28:28.410",
+    "end": "00:28:32.620",
+    "start_seconds": 1708.41,
+    "end_seconds": 1712.62,
+    "text": "however now this subset is not open in r2 as we can find no open ball in r2"
+  },
+  {
+    "start": "00:28:32.620",
+    "end": "00:28:32.630",
+    "start_seconds": 1712.62,
+    "end_seconds": 1712.63,
+    "text": "r2 as we can find no open ball in r2"
+  },
+  {
+    "start": "00:28:32.630",
+    "end": "00:28:37.340",
+    "start_seconds": 1712.63,
+    "end_seconds": 1717.34,
+    "text": "r2 as we can find no open ball in r2 that completely lies in this open"
+  },
+  {
+    "start": "00:28:37.340",
+    "end": "00:28:37.350",
+    "start_seconds": 1717.34,
+    "end_seconds": 1717.35,
+    "text": "that completely lies in this open"
+  },
+  {
+    "start": "00:28:37.350",
+    "end": "00:28:42.490",
+    "start_seconds": 1717.35,
+    "end_seconds": 1722.49,
+    "text": "that completely lies in this open interval on our so the open interval on"
+  },
+  {
+    "start": "00:28:42.490",
+    "end": "00:28:42.500",
+    "start_seconds": 1722.49,
+    "end_seconds": 1722.5,
+    "text": "interval on our so the open interval on"
+  },
+  {
+    "start": "00:28:42.500",
+    "end": "00:28:48.520",
+    "start_seconds": 1722.5,
+    "end_seconds": 1728.52,
+    "text": "interval on our so the open interval on on our is not open in r2"
+  },
+  {
+    "start": "00:28:48.530",
+    "end": "00:28:54.380",
+    "start_seconds": 1728.53,
+    "end_seconds": 1734.38,
+    "text": "now the fifth example here is directly"
+  },
+  {
+    "start": "00:28:54.380",
+    "end": "00:28:54.390",
+    "start_seconds": 1734.38,
+    "end_seconds": 1734.39,
+    "text": "now the fifth example here is directly"
+  },
+  {
+    "start": "00:28:54.390",
+    "end": "00:29:06.860",
+    "start_seconds": 1734.39,
+    "end_seconds": 1746.86,
+    "text": "now the fifth example here is directly the compliment to the second example"
+  },
+  {
+    "start": "00:29:06.870",
+    "end": "00:29:12.290",
+    "start_seconds": 1746.87,
+    "end_seconds": 1752.29,
+    "text": "so the compliment was open that means"
+  },
+  {
+    "start": "00:29:12.290",
+    "end": "00:29:12.300",
+    "start_seconds": 1752.29,
+    "end_seconds": 1752.3,
+    "text": "so the compliment was open that means"
+  },
+  {
+    "start": "00:29:12.300",
+    "end": "00:29:18.670",
+    "start_seconds": 1752.3,
+    "end_seconds": 1758.67,
+    "text": "so the compliment was open that means that this set is closed"
+  },
+  {
+    "start": "00:29:18.680",
+    "end": "00:29:22.730",
+    "start_seconds": 1758.68,
+    "end_seconds": 1762.73,
+    "text": "and now we want to check whether it is"
+  },
+  {
+    "start": "00:29:22.730",
+    "end": "00:29:22.740",
+    "start_seconds": 1762.73,
+    "end_seconds": 1762.74,
+    "text": "and now we want to check whether it is"
+  },
+  {
+    "start": "00:29:22.740",
+    "end": "00:29:27.200",
+    "start_seconds": 1762.74,
+    "end_seconds": 1767.2,
+    "text": "and now we want to check whether it is open well no it's not we can see this"
+  },
+  {
+    "start": "00:29:27.200",
+    "end": "00:29:27.210",
+    "start_seconds": 1767.2,
+    "end_seconds": 1767.21,
+    "text": "open well no it's not we can see this"
+  },
+  {
+    "start": "00:29:27.210",
+    "end": "00:29:32.090",
+    "start_seconds": 1767.21,
+    "end_seconds": 1772.09,
+    "text": "open well no it's not we can see this easily that there are no open bolts for"
+  },
+  {
+    "start": "00:29:32.090",
+    "end": "00:29:32.100",
+    "start_seconds": 1772.09,
+    "end_seconds": 1772.1,
+    "text": "easily that there are no open bolts for"
+  },
+  {
+    "start": "00:29:32.100",
+    "end": "00:29:39.910",
+    "start_seconds": 1772.1,
+    "end_seconds": 1779.91,
+    "text": "easily that there are no open bolts for example for this point and the last"
+  },
+  {
+    "start": "00:29:39.910",
+    "end": "00:29:39.920",
+    "start_seconds": 1779.91,
+    "end_seconds": 1779.92,
+    "text": "example for this point and the last"
+  },
+  {
+    "start": "00:29:39.920",
+    "end": "00:29:45.320",
+    "start_seconds": 1779.92,
+    "end_seconds": 1785.32,
+    "text": "example for this point and the last subset of r2 is again a union of open"
+  },
+  {
+    "start": "00:29:45.320",
+    "end": "00:29:45.330",
+    "start_seconds": 1785.32,
+    "end_seconds": 1785.33,
+    "text": "subset of r2 is again a union of open"
+  },
+  {
+    "start": "00:29:45.330",
+    "end": "00:29:50.090",
+    "start_seconds": 1785.33,
+    "end_seconds": 1790.09,
+    "text": "subset of r2 is again a union of open sets and such a union of open sets is of"
+  },
+  {
+    "start": "00:29:50.090",
+    "end": "00:29:50.100",
+    "start_seconds": 1790.09,
+    "end_seconds": 1790.1,
+    "text": "sets and such a union of open sets is of"
+  },
+  {
+    "start": "00:29:50.100",
+    "end": "00:29:55.490",
+    "start_seconds": 1790.1,
+    "end_seconds": 1795.49,
+    "text": "sets and such a union of open sets is of course again open so now we have seen"
+  },
+  {
+    "start": "00:29:55.490",
+    "end": "00:29:55.500",
+    "start_seconds": 1795.49,
+    "end_seconds": 1795.5,
+    "text": "course again open so now we have seen"
+  },
+  {
+    "start": "00:29:55.500",
+    "end": "00:30:00.230",
+    "start_seconds": 1795.5,
+    "end_seconds": 1800.23,
+    "text": "course again open so now we have seen examples of open intervals in our as"
+  },
+  {
+    "start": "00:30:00.230",
+    "end": "00:30:00.240",
+    "start_seconds": 1800.23,
+    "end_seconds": 1800.24,
+    "text": "examples of open intervals in our as"
+  },
+  {
+    "start": "00:30:00.240",
+    "end": "00:30:07.160",
+    "start_seconds": 1800.24,
+    "end_seconds": 1807.16,
+    "text": "examples of open intervals in our as well as in r2 and now we look at a"
+  },
+  {
+    "start": "00:30:07.160",
+    "end": "00:30:07.170",
+    "start_seconds": 1807.16,
+    "end_seconds": 1807.17,
+    "text": "well as in r2 and now we look at a"
+  },
+  {
+    "start": "00:30:07.170",
+    "end": "00:30:11.630",
+    "start_seconds": 1807.17,
+    "end_seconds": 1811.63,
+    "text": "well as in r2 and now we look at a function f that map's from the real"
+  },
+  {
+    "start": "00:30:11.630",
+    "end": "00:30:11.640",
+    "start_seconds": 1811.63,
+    "end_seconds": 1811.64,
+    "text": "function f that map's from the real"
+  },
+  {
+    "start": "00:30:11.640",
+    "end": "00:30:14.840",
+    "start_seconds": 1811.64,
+    "end_seconds": 1814.84,
+    "text": "function f that map's from the real numbers to the real numbers and is given"
+  },
+  {
+    "start": "00:30:14.840",
+    "end": "00:30:14.850",
+    "start_seconds": 1814.84,
+    "end_seconds": 1814.85,
+    "text": "numbers to the real numbers and is given"
+  },
+  {
+    "start": "00:30:14.850",
+    "end": "00:30:23.960",
+    "start_seconds": 1814.85,
+    "end_seconds": 1823.96,
+    "text": "numbers to the real numbers and is given by the following graph now top both"
+  },
+  {
+    "start": "00:30:23.960",
+    "end": "00:30:23.970",
+    "start_seconds": 1823.96,
+    "end_seconds": 1823.97,
+    "text": "by the following graph now top both"
+  },
+  {
+    "start": "00:30:23.970",
+    "end": "00:30:26.510",
+    "start_seconds": 1823.97,
+    "end_seconds": 1826.51,
+    "text": "by the following graph now top both domain and target of this map are"
+  },
+  {
+    "start": "00:30:26.510",
+    "end": "00:30:26.520",
+    "start_seconds": 1826.51,
+    "end_seconds": 1826.52,
+    "text": "domain and target of this map are"
+  },
+  {
+    "start": "00:30:26.520",
+    "end": "00:30:29.240",
+    "start_seconds": 1826.52,
+    "end_seconds": 1829.24,
+    "text": "domain and target of this map are accrued with a standard topology and we"
+  },
+  {
+    "start": "00:30:29.240",
+    "end": "00:30:29.250",
+    "start_seconds": 1829.24,
+    "end_seconds": 1829.25,
+    "text": "accrued with a standard topology and we"
+  },
+  {
+    "start": "00:30:29.250",
+    "end": "00:30:31.760",
+    "start_seconds": 1829.25,
+    "end_seconds": 1831.76,
+    "text": "accrued with a standard topology and we want to know whether this function is"
+  },
+  {
+    "start": "00:30:31.760",
+    "end": "00:30:31.770",
+    "start_seconds": 1831.76,
+    "end_seconds": 1831.77,
+    "text": "want to know whether this function is"
+  },
+  {
+    "start": "00:30:31.770",
+    "end": "00:30:37.700",
+    "start_seconds": 1831.77,
+    "end_seconds": 1837.7,
+    "text": "want to know whether this function is continuous so continuity means that"
+  },
+  {
+    "start": "00:30:37.700",
+    "end": "00:30:37.710",
+    "start_seconds": 1837.7,
+    "end_seconds": 1837.71,
+    "text": "continuous so continuity means that"
+  },
+  {
+    "start": "00:30:37.710",
+    "end": "00:30:41.930",
+    "start_seconds": 1837.71,
+    "end_seconds": 1841.93,
+    "text": "continuous so continuity means that three images of open sets are open and"
+  },
+  {
+    "start": "00:30:41.930",
+    "end": "00:30:41.940",
+    "start_seconds": 1841.93,
+    "end_seconds": 1841.94,
+    "text": "three images of open sets are open and"
+  },
+  {
+    "start": "00:30:41.940",
+    "end": "00:30:44.510",
+    "start_seconds": 1841.94,
+    "end_seconds": 1844.51,
+    "text": "three images of open sets are open and now we look at an open set here in the"
+  },
+  {
+    "start": "00:30:44.510",
+    "end": "00:30:44.520",
+    "start_seconds": 1844.51,
+    "end_seconds": 1844.52,
+    "text": "now we look at an open set here in the"
+  },
+  {
+    "start": "00:30:44.520",
+    "end": "00:30:54.010",
+    "start_seconds": 1844.52,
+    "end_seconds": 1854.01,
+    "text": "now we look at an open set here in the target which could be for example"
+  },
+  {
+    "start": "00:30:54.020",
+    "end": "00:31:07.910",
+    "start_seconds": 1854.02,
+    "end_seconds": 1867.91,
+    "text": "the set we see that it's pre-image"
+  },
+  {
+    "start": "00:31:07.920",
+    "end": "00:31:13.710",
+    "start_seconds": 1867.92,
+    "end_seconds": 1873.71,
+    "text": "goers"
+  },
+  {
+    "start": "00:31:13.720",
+    "end": "00:31:23.460",
+    "start_seconds": 1873.72,
+    "end_seconds": 1883.46,
+    "text": "to here however this point is included"
+  },
+  {
+    "start": "00:31:23.460",
+    "end": "00:31:23.470",
+    "start_seconds": 1883.46,
+    "end_seconds": 1883.47,
+    "text": "to here however this point is included"
+  },
+  {
+    "start": "00:31:23.470",
+    "end": "00:31:28.890",
+    "start_seconds": 1883.47,
+    "end_seconds": 1888.89,
+    "text": "to here however this point is included in the interval and in the last question"
+  },
+  {
+    "start": "00:31:28.890",
+    "end": "00:31:28.900",
+    "start_seconds": 1888.89,
+    "end_seconds": 1888.9,
+    "text": "in the interval and in the last question"
+  },
+  {
+    "start": "00:31:28.900",
+    "end": "00:31:33.660",
+    "start_seconds": 1888.9,
+    "end_seconds": 1893.66,
+    "text": "in the interval and in the last question we saw that such an interval where 1 4"
+  },
+  {
+    "start": "00:31:33.660",
+    "end": "00:31:33.670",
+    "start_seconds": 1893.66,
+    "end_seconds": 1893.67,
+    "text": "we saw that such an interval where 1 4"
+  },
+  {
+    "start": "00:31:33.670",
+    "end": "00:31:38.490",
+    "start_seconds": 1893.67,
+    "end_seconds": 1898.49,
+    "text": "we saw that such an interval where 1 4 is included is not open in R with"
+  },
+  {
+    "start": "00:31:38.490",
+    "end": "00:31:38.500",
+    "start_seconds": 1898.49,
+    "end_seconds": 1898.5,
+    "text": "is included is not open in R with"
+  },
+  {
+    "start": "00:31:38.500",
+    "end": "00:31:42.180",
+    "start_seconds": 1898.5,
+    "end_seconds": 1902.18,
+    "text": "is included is not open in R with respect to the standard topology thus"
+  },
+  {
+    "start": "00:31:42.180",
+    "end": "00:31:42.190",
+    "start_seconds": 1902.18,
+    "end_seconds": 1902.19,
+    "text": "respect to the standard topology thus"
+  },
+  {
+    "start": "00:31:42.190",
+    "end": "00:31:55.530",
+    "start_seconds": 1902.19,
+    "end_seconds": 1915.53,
+    "text": "respect to the standard topology thus this function is not continuous this we"
+  },
+  {
+    "start": "00:31:55.530",
+    "end": "00:31:55.540",
+    "start_seconds": 1915.53,
+    "end_seconds": 1915.54,
+    "text": "this function is not continuous this we"
+  },
+  {
+    "start": "00:31:55.540",
+    "end": "00:31:59.610",
+    "start_seconds": 1915.54,
+    "end_seconds": 1919.61,
+    "text": "this function is not continuous this we would also expect from our intuition"
+  },
+  {
+    "start": "00:31:59.610",
+    "end": "00:31:59.620",
+    "start_seconds": 1919.61,
+    "end_seconds": 1919.62,
+    "text": "would also expect from our intuition"
+  },
+  {
+    "start": "00:31:59.620",
+    "end": "00:32:04.080",
+    "start_seconds": 1919.62,
+    "end_seconds": 1924.08,
+    "text": "would also expect from our intuition gained from undergraduate analysis as we"
+  },
+  {
+    "start": "00:32:04.080",
+    "end": "00:32:04.090",
+    "start_seconds": 1924.08,
+    "end_seconds": 1924.09,
+    "text": "gained from undergraduate analysis as we"
+  },
+  {
+    "start": "00:32:04.090",
+    "end": "00:32:08.790",
+    "start_seconds": 1924.09,
+    "end_seconds": 1928.79,
+    "text": "gained from undergraduate analysis as we see that this function makes a jump"
+  },
+  {
+    "start": "00:32:08.790",
+    "end": "00:32:08.800",
+    "start_seconds": 1928.79,
+    "end_seconds": 1928.8,
+    "text": "see that this function makes a jump"
+  },
+  {
+    "start": "00:32:08.800",
+    "end": "00:32:12.660",
+    "start_seconds": 1928.8,
+    "end_seconds": 1932.66,
+    "text": "see that this function makes a jump which we say should be is not to be not"
+  },
+  {
+    "start": "00:32:12.660",
+    "end": "00:32:12.670",
+    "start_seconds": 1932.66,
+    "end_seconds": 1932.67,
+    "text": "which we say should be is not to be not"
+  },
+  {
+    "start": "00:32:12.670",
+    "end": "00:32:14.300",
+    "start_seconds": 1932.67,
+    "end_seconds": 1934.3,
+    "text": "which we say should be is not to be not continuous"
+  },
+  {
+    "start": "00:32:14.300",
+    "end": "00:32:14.310",
+    "start_seconds": 1934.3,
+    "end_seconds": 1934.31,
+    "text": "continuous"
+  },
+  {
+    "start": "00:32:14.310",
+    "end": "00:32:20.910",
+    "start_seconds": 1934.31,
+    "end_seconds": 1940.91,
+    "text": "continuous so for maps on the reals equipped with a"
+  },
+  {
+    "start": "00:32:20.910",
+    "end": "00:32:20.920",
+    "start_seconds": 1940.91,
+    "end_seconds": 1940.92,
+    "text": "so for maps on the reals equipped with a"
+  },
+  {
+    "start": "00:32:20.920",
+    "end": "00:32:24.030",
+    "start_seconds": 1940.92,
+    "end_seconds": 1944.03,
+    "text": "so for maps on the reals equipped with a standard topology our topological notion"
+  },
+  {
+    "start": "00:32:24.030",
+    "end": "00:32:24.040",
+    "start_seconds": 1944.03,
+    "end_seconds": 1944.04,
+    "text": "standard topology our topological notion"
+  },
+  {
+    "start": "00:32:24.040",
+    "end": "00:32:28.920",
+    "start_seconds": 1944.04,
+    "end_seconds": 1948.92,
+    "text": "standard topology our topological notion of continuity coincides with the notion"
+  },
+  {
+    "start": "00:32:28.920",
+    "end": "00:32:28.930",
+    "start_seconds": 1948.92,
+    "end_seconds": 1948.93,
+    "text": "of continuity coincides with the notion"
+  },
+  {
+    "start": "00:32:28.930",
+    "end": "00:32:33.060",
+    "start_seconds": 1948.93,
+    "end_seconds": 1953.06,
+    "text": "of continuity coincides with the notion from undergraduate analysis"
+  }
+]

@@ -1,0 +1,2500 @@
+this program is being presented to you
+by the hereas international winter
+school on gravity and light
+well thanks frederick and cora for
+inviting me
+so this is an even lecture on on the
+difficult relation between quantum
+theory in general and
+in gravity
+and as you might know there is no
+no consistent theory of quantum gravity
+and it's not even unanimously shared in
+opinion that there should be one
+and
+i give you some reasons along the lines
+of this talk so since this is an even
+nature i sort of
+erased
+some of the more technical parts
+and tried to convey some ideas i will be
+of course formally but
+i think the emphasis should be really on
+the ideas
+that lie between somewhere quantum
+theory and gravity
+so let me start by by a famous drawing
+it's called the bronzedine cube
+which is often given in this context
+which is a cube that has um lies in the
+corner of a three-dimensional coordinate
+system and each axis has a natural
+constant
+to it which is the the planck's constant
+newton's constant g and the inverse
+velocity of light
+and in a very very rough sense and i'm
+not saying this is this is a a very a
+very useful picture it's a in as a rough
+picture it's quite useful
+you can understand the the fundamental
+theories that we that we have
+by
+kind of um
+uh supposing that um you switch on these
+these these constants from the zero
+value on to some finite value
+so in some sense from classical
+mechanics
+um
+you get two not uniquely but you you get
+to quantum mechanics by switching on age
+there is a there's a underlying
+mathematical theory called deformation
+theory deformation quantization
+which
+kind of makes it mathematically precise
+how to go along this way
+how to deform the poisson algebra of
+observables in the classical theory to
+the
+algebra of observables in quantum theory
+likewise if you go from classical
+mechanics to special relativity this
+somehow corresponds to deforming
+galilei invariants
+so from the galileo group you can
+actually get in a systematic fashion to
+the poincare group
+by
+deforming it the converse is called
+contraction
+so there is a deformation of the
+invariance group of classical mechanics
+to the invariance group of special
+relativity
+and that has to do with switching on one
+over c
+so give c a finite value rather than an
+infinite value
+and the third axis is switching on
+gravity there is no deformation theory
+that gets you from newtonian
+gravity to general additivity except
+perhaps that in a very very
+intuitive way space-time gets deformed
+and acquires curvature
+but there's no deformation of theories
+really
+in any way so it's i think the the idea
+should be clear that somehow within this
+cube several theories can be more or
+less uniquely um
+located
+so i don't want to want to
+suggest that this way these these
+different paths are always commutative
+it's not clear that from classical
+mechanics you get a quantum mechanics by
+switching on h and then you switch on
+one over c and then you get to
+relativistic quantum field theory
+whereas would you
+i'm not saying that it's the same as
+first going to special additivity and
+then somehow applying some quantization
+rules
+right
+and so the the the last missing part is
+that is that um
+is that
+corner here and that stands for quantum
+gravity so all three things are switched
+on in a sense
+and again i want to emphasize that it is
+not obvious that you get to this
+hypothetical point in any order of
+following these edges perhaps there is
+no point at all perhaps you get into
+completely different kinds of physics by
+following these directions
+we don't know
+and for most of my talk i will be kind
+of be
+sitting
+somewhere close to quantum mechanics and
+trying to go to go up this in this
+direction so quantum mechanics plus a
+little bit of gravity whatever this
+means at the moment just uh so it could
+mean quantum mechanical systems in a
+gravitational field you just drop
+quantum mechanics system or it can mean
+quantum mechanics as the source of
+gravitational fields
+and um you will see this more concretely
+as i go along
+um
+the the numbers that that are floating
+around in the literature if people talk
+about quantum gravity are always the
+planck units so these are units of
+length time and mass that you can form
+from these three constants that i've
+just shown you h bar g and c
+and they correspond to incredibly small
+distances incredibly small times
+and
+not so small masses
+it's not so small masses
+so it's 10 to the minus 5 grams or 10 to
+the 19 atomic mass units atomic mass
+units is the weight of a proton
+and not the weight the the mass of a
+proton
+and you can motivate why these at at
+least these sort of these these in these
+at these scales quantum gravity somehow
+must become important
+for example you could envisage
+a black hole whose mass is less than the
+planck mass
+if a black hole has a mass that is less
+than the planck length
+at the planck mass
+then
+its diameter its its horizon diameter is
+less than its compton wavelength
+now a continent wavelength is the
+distance below which you can not really
+talk about classical distances the
+resolution is not there to actually
+resolve some distance smaller than this
+so if you if you say that operationally
+speaking distances smaller than the
+compton wavelength should not be used on
+a classical level then you would not say
+that a black hole exists beyond this
+mass because then you would have
+said that the horizon length is smaller
+than the compton wavelength which
+presumably is meaningless
+so if somebody told you that he has
+produced a black hole smaller than a
+mass of the plank mass you should be
+suspicious because probably it doesn't
+make any sense
+and the smallness of these two numbers
+are the sort of the are the the the the
+uh embarrass are the embarrassment
+of those people who
+search for quantum gravity because you
+you can you can quite justifiably ask
+how would you ever ever get to distances
+at this length all times at this small
+time how can you beat the blank scale
+whoever talks about quantum gravity
+should answer the question how he or she
+supposes to actually beat these
+these ludicrously small small scales
+but
+as concerns the relation between quantum
+mechanics and relativity it's not clear
+that this is the final word it's not
+clear that you have to go to these to
+these scales
+it's a kind of sufficient condition so
+if you write these clades then probably
+um some theory of quantum gravity should
+take over but um it's the the converse
+does not hold so the converse saying um
+presumably you can see
+interesting effects that have to do with
+quantum theory and gravity
+even before you reach these scales
+so what is known actually about
+the relation between gravity and quantum
+mechanics and the answer is very very
+little here's two classic
+experiments one is the famous kolila
+overhausaverna
+experiment from 1975
+in which you have two beams of neutrons
+very very cold neutrons
+and they are diffracted in a crystal and
+it's a typical
+it's a typical um
+interference experiment where a particle
+the quantum mechanics wave function of a
+particle gets coherently split and
+travel along two different paths and
+then being coherently combined
+and the the idea being that one of these
+paths
+runs in a different gravitational
+potential than the other one for example
+at a different height and then they are
+combined again
+and the phase shift that you observe at
+the end via the diffraction
+pattern
+depends on this gravitational on this
+difference of the gravitational
+potential
+and so you can see the interaction
+between the gravitation field and the
+quantum mechanical delocalized particles
+coherently split by the diffraction
+pattern
+and what has been tested by this
+experiment what has been tested is the
+most obvious thing that anybody would
+write down namely in the schrodinger
+equation an interaction term that
+consists of the gravitational potential
+the potential according to the
+gravitational interaction times the wave
+function just like any other potential
+in the schrodinger equation so what you
+see here as a diffraction pattern which
+is just a just verifies that this is the
+right coupling so this coupling has been
+verified in this experiment and it's
+quite old as you can see
+so it's 40 years old
+more recent people took very cold ultra
+cold neutrons and produced bound states
+in the gravitational field of the earth
+so consider a hard mirror
+and and um neutrons bouncing on top of
+this hard mirror
+and since um on the on the um
+in the vertical direction there's the
+gravitational pull if you make the
+nodule very very cold it stays in a in a
+bound state between a potential that has
+a hard wall and a linear and a linear
+slope on the other side
+and this is known from elementary
+quantum mechanics exercises for example
+it's the airy function that solves this
+these uh
+bound states and um these bound states
+in the gravitational field not in
+electrophilic gravitation have been seen
+and they are separated by the order of
+pico electron volts
+so it's very very small very very small
+steps they have been produced at the
+institute of
+la javer in geneva
+and
+i will come back to this experiment uh
+later on and again what you see is just
+what you get if you put the earth
+gravitational potential into the
+schrodinger equation in the obvious way
+so there seems to be no problem at this
+point it's the obvious coupling and that
+has been verified
+okay
+um as the the regarding the question
+whether quantum gravity should be um
+should be pursued i guess 90 of the
+people in the community would say strong
+yes of course you should and there are
+strong candidates
+not entirely satisfactory in all aspects
+but their strengths theory loop quantum
+gravity and other approaches but they're
+also voices of people who actually
+pursue the the game of quantum gravity
+who sometimes ask the question is
+quantum gravity really necessary
+and is there perhaps an experiment by
+which we can test that it is necessary
+or is there perhaps an experiment in
+which you can test that it is not
+necessary
+and that is what this this paper is
+about it's from 2008 and in this paper
+it is suggested that certain experiments
+in
+molecular interferometry
+might show
+that quantum and that's the quantum the
+gravitational field has to stay
+classical rather than being quantized
+and it's um it is suggested in this
+paper buying theorists that perhaps one
+should look at these interesting
+experiments and i will come back to this
+this head
+has been picked up by other people
+and i will
+tell you what the idea behind this
+proposal is
+um and the last
+sort of opinion i want to i want to
+display is a
+fairly recent paper by roger penrose
+who who always took the point of you
+said why why do we always talk about
+quantizing relativity i mean it's always
+you take a classical theory and then you
+do something with it you
+it
+undergoes a certain mathematical
+procedure and it becomes a quantum zone
+so theory so quantum mechanics quantum
+chromodynamics quantum electrodynamics
+and quantum gravity
+perhaps
+the union of the two will be such that
+the idea of quantum theory is at least
+as much changed as gravity will be
+changed
+and so he says why
+so why give quantum theory pride of
+place in this proposed union perhaps we
+should gravitase quantum theory
+whatever this means it's um kind of many
+meanings
+right so let's let's go a little bit
+into the the foundations of of our
+theory of gravity and i understand that
+you have learned all the the sort of the
+the the formal stuff and the the
+mathematics
+and um in this talk i will um focus a
+little bit on the sort of conceptual
+backgrounds
+and the conceptual background between be
+behind
+general additivity is the
+famous equivalence principle which has
+many formulations einstein himself
+changed his formulation many times
+but the the canonical way to present it
+nowadays is in a
+um is in a form in which it contains
+three
+more or less independent parts
+the the first part is is presumably that
+that you all associate with the um
+equivalence principle it's the
+universality of free fall or sometimes
+express the equality of inertial and
+gravitational mass
+and it's called off so universality of
+free fall
+and it says that test bodies and i put
+it in in
+quotation marks um for reasons that i i
+talk about later so test bodies
+determine the so-called and that's a
+mathematical expression of a path
+structure
+that means
+um
+you have all learned about space-time
+manifolds and so on so if you take a
+point and a direction
+on the space-time manifold
+then this uniquely determines a path
+and that is the path a force-free
+particle an otherwise force-free
+particle just
+interacting gravitationally will follow
+on your space-time manifold and that's
+in in gr for example it's the geodesic
+equation the geographic equation it's a
+point in the direction
+and once you have a point in direction
+there's a unique geodesic following
+this
+this direction
+um the universality of free fall
+says that there is something in the
+world called test particles which has
+virtually no interaction with the
+outside world except for gravitational
+interaction which is a problematic
+statement as such but
+take it for granted for the moment and
+it says these test bodies determine a
+path structure
+so whenever you take one of these three
+particles and you throw it in a certain
+direction then
+no matter which which of the three
+particles you took they all follow the
+same trajectory
+and
+that's the statement of of
+universality of freefall
+and the past structure then has to be in
+order to exit in exomatic way to arrive
+at general relativity you then have to
+to conclude or you have to justify that
+this past structure is actually the
+geodesic structure of a metric
+it could be something more general it
+could be geodesic of a fincelerian
+metric for example more general than
+romanian metrics or pseudo-romanian
+metrics
+and that is not so easy to argue and
+that is not contained in the
+universality of freefall universality
+free fall just says this any any power
+structure
+now violations to this principle are
+usually operationally
+um encoded in what's called the etresh
+factor after the baron adventure and
+hungarian physicists at the turn of the
+19th to 20th century who made
+experiments with torsion balances
+probing the equality of
+gravitational and inertial mass
+and one way to to measure the irritation
+factor is just to drop two things and to
+see whether they fall with the same
+acceleration
+and here's the acceleration of a body a
+and the acceleration of a body b
+and a b should be in their composition
+quite different for example the ratio of
+protons to neutrons should be different
+and then you take the difference and you
+divide by the mean
+and that's the earthwesh factor it's a
+real number it has two entries the
+substance number one and substance
+number two
+and so for certain classes of substances
+one tests whether they actually have the
+same acceleration
+and sometimes the substances are chosen
+such that they fit to certain ideas why
+they should not fall with the same
+acceleration for example if their ratio
+of protons to neutrons is quite
+different so this is
+the quantity that measures possible
+violations and what we want to get is
+lowest upper bounds for this puzzle
+violation then there is local lorenz
+invariants and that says basically local
+non-gravitational experiments exhibit no
+preferred direction in space-time
+neither time-like nor space-like
+a space-like direction would correspond
+to an isotropy of space space in this
+direction has different qualities than
+space in this direction
+time-like direction would say not all
+inertial observers are of the same
+quality some observers
+move
+such that you can actually um first you
+can you can measure an absolute rest
+frame for example it's not so
+implausible for example with respect to
+the microwave background
+we can measure our velocity with respect
+to the microwave backgrounds a few
+hundred kilometers per second we see it
+in the dipole anisotropy of the
+microwave background
+and perhaps that is really a physically
+preferred rest frame why not
+and that would correspond to preferred
+time-like direction
+there is also the possibility which i
+won't talk about that it could be a
+preferred light-like direction
+what if there existed an ether
+and the ether would blow at you at the
+velocity of light from a certain
+direction
+can you test that or not and it's more
+difficult
+but it's also in principle part of this
+local lawrence invariants and one way to
+encode possible violations would be to
+look at delta c over c where delta c is
+the variation of the fourth and back
+velocity of light in a kind of
+michaelson molly interferometer
+so you you look for the velocity of
+light in a certain direction going forth
+and back and then in another direction
+fourth and back
+and you see whether this velocity of
+light depends on the direction you
+measure it
+and that's the delta c over c
+and then there's a universality of
+gravitational redshift
+sometimes also called the universality
+of clock rates which is slightly
+different notion but okay university of
+gravitational headshift and that says
+that standard clocks which is similar to
+test bodies
+kind of elusive things but we imagine
+data exists or at least approximately
+they're universally affected by the
+gravitational field
+that means all
+stan all good clocks
+have the property that if you compare
+their rates of ticking
+then the only way by which they can
+differ depends on the gravitational
+potential and nothing else
+in fact this is um
+this is
+it is slightly more is slightly more
+refined than this but this is one way of
+putting it
+and this can be parameterized by a
+factor alpha that says this the the
+variation in frequency over the
+frequency
+varies with the potential
+in a way
+if this alpha of a0 in a way that's
+independent of the clock doesn't depend
+on the clock and it's also independent
+of where the clock is it's always given
+by this formula there's no space or time
+dependence in this vector it's just all
+residing in here
+if it were violated it could possibly
+depend on the clock and it could also
+depend on the space-time point
+and then this factor alpha would become
+important now if all these three
+principles are satisfied then
+with some sort of mathematical rigor
+it's not a theorem in a mathematical
+sense but it's very very plausible at
+least
+it follows that you can actually
+geometrized gravity
+which is a very very non-trivial aspect
+of gravity that means you can encode
+gravity
+in a geometric structure that as such is
+not so triple it is not so so
+uh
+astonishing
+what is astonishing is that all meta
+components of the world be it
+a photon a neutrino a baryon a lepton
+whatever they all see the same geometry
+there's not a neutron
+geometry and a proton geometry they all
+see the very same geometry it's
+universal
+gravity acts on all meta component by
+one and only one geometry that's the
+non-trivial statement that follows from
+the equivalence principle
+why could it be violated
+what would violate such a prince such a
+such a
+equivalence principle well suppose for
+example that next to the gravitational
+interaction
+of say the earth and the body a they
+interact gravitationally by this
+gravitational potential
+proportion to the product of the masses
+inverse proportional to the distances
+they were just another scalar force
+that has a very similar structure
+coupling constant is now called h
+which couples to some kind of charges
+these
+bodies
+carry they are called q rather than m
+but it's also inverse proportional to
+the distance which means that the
+exchange particle is a is a massless
+scalar
+um different
+from from the gravitational from the
+gravitational fields
+and suppose that these charges
+are
+not universally proportional to the mass
+for example the baryon number
+could be such a charge
+so suppose there were
+a fifth force that couples to the berry
+number or the lepton number or some
+linear combinations of these
+then you could write the combined
+interaction with this
+as
+a newtonian like gravitational
+interaction but now the coupling
+constant would slightly depend
+on the ratio the q the smaller q's on
+the ratio of the charges to the masses
+and if this ratio of the charge to the
+mass for all matter in the world is not
+universally constant it's not the same
+for all meta components in the world
+then you can actually very easily
+calculate from this that the irritage
+factor of these different bodies would
+be proportional to some constant
+um which is basically just the ratio of
+h over g
+times the difference between this
+specific charges
+so charge per mass so if charge per mess
+is not a universal constant then these
+bodies would fall um in the in the field
+of of other masses in a way that is not
+um
+in accordance with the universality of
+freefall
+and such scalar fields are predicted
+long-ranging scalar fields are predicted
+in many of the unifying theories
+cancer client theories in string
+theories and so on though the different
+models for example in string theory
+differ in this quantity in the in the
+coupling strength
+so
+there is a non-universal coupling
+of this additional scalar to matter and
+so the interaction of all meta
+components look like a modified gravity
+law in which the weak clearance
+principle is not satisfied
+and damo and polychov pointed out in
+1994 that some of these models even
+predict a violation of universality or
+free fall at a level of the earthreach
+factor of 10 to the minus 15.
+looks like a small number but it's not
+outrageously small
+so and that's that's could so that there
+are models where these violations are
+actually predicted
+now what is the level of verification of
+the equivalence principle
+so famous experiment in at washington
+university the group is called wash
+between 1994 and 2008 they took also
+torsion pendulums this purely classical
+experiment and for example they took
+aluminum and platinum and so it's 10 to
+the minus 12.
+they took beryllium titanium 10 to the
+minus 13. and for various reasons they
+took various components and and made
+these measurements and the improved the
+planned improved levels
+is the the microscope mission that's a
+satellite mission with purely classical
+test masses in the shape of concentric
+cylinders and by optical laser devices
+the relative positions of these two
+masses are monitored and if they fall
+with different accelerations or
+velocities then microscope will detect
+it up to the level of 10 to the minus
+16. yes
+depends on the range of course i could
+have taken a massive scalar and then add
+e to the minus
+mu times r
+and then of course this this
+mixing of this additional source would
+sort of be suppressed at large distances
+it would depend on the mass of that
+particle
+but sometimes it's just assumed that
+they are i mean
+you can also exclude massive ones if you
+are in the right range
+but that of course has also been
+considered and many of these these
+fields in the grand unified series have
+massive sectors but they have also have
+mass less sectors so for us it is
+important that they also predict mass
+less
+such fields
+right so tensors minus 15 16 is is
+within reach this experiment will start
+in
+next year
+and there's a long planned um
+satellite test of the equivalence
+principle which wants to put this to 10
+to the minus 18 but for funding reasons
+this experiment has been
+postponed again and again
+so 10 to the minus 12 10 to the minus 13
+is the current level of the equivalence
+principle and it's expected to be pushed
+to ten to the minus fifteen sixty
+the best michael somalia experiments
+with micro cavities is is ten to the
+minus sixteen
+but this tests
+only the preferred timeline directions
+so whether there's a preferred restrain
+preferred frame effects so prefer
+preferred frame effects are excluded up
+to this order
+and far worse than these upper bounds
+that means higher upper bounds
+are
+given by
+given for the universality of
+gravitational lead shift
+so this is an old experiment with
+sounding rockets you actually
+send a rocket up to 10 000 kilometers
+and you have an h major clock in the
+rocket and on the earth and you compare
+their their their rage uh their their
+rates
+the experiment is called um gravity
+probe a
+and that led to um redshift
+universality of gravitational shift
+upper bounds or violations to 10 to the
+minus 4 and then more recent one with
+slightly different design 10 to the
+minus
+6. and now
+comes already an interesting part in the
+discussion between relativity or gravity
+and quantum theory
+in february 2010 in nature in this
+journal nature
+some
+quantum optics people or quantum
+molecular interferometry people claimed
+that actually they can improve
+this bound by four orders of magnitude
+without doing a single experiment
+namely they say this experiment that
+shows that has actually been done 10
+years before you just need to interpret
+it properly and then you see that
+actually this bound can be pushed down
+by four orders of magnitude and the the
+physics reason why one should be able to
+do this is quantum mechanics
+and um
+i come to this
+let me just before we discuss this this
+is highly controversial but before i
+come to this let me just say what is not
+controversial not controversial is that
+the clock accuracy
+is in the meantime so good i should say
+clock stability rather is so good that
+we can measure in the laboratory the
+gravitational redshift over a distance
+of 10 of
+33 centimeters that high
+because um the clocks are based on
+the the best the
+best stability of clocks is about 10 to
+the minus 17
+and
+if you look for the formula of
+gravitational redshift have you done
+this in the in the lectures it's
+something like
+tutorials so the gravitation the
+redshift of
+if you have two clocks one on the table
+one on the floor and you synchronize
+them then you put one on the table and
+you leave the other on the floor and you
+wait a little bit and then you
+put them back together next to each
+other and you read off their
+their
+their offset their offset is something
+like 10 to the minus 16 seconds per
+meter
+so if one meter higher gives you a delay
+of 1 to the minus x 16 seconds per
+second
+right
+so and
+from that you see 10 to the minus 17
+we can do with less than a meter so that
+is uncontroversial clocks are in the
+meantime so good that you can compare
+their rates
+in the laboratory and see the
+gravitational rate shift effect in the
+laboratory
+right so let me go
+to this to this statement because that
+leads us directly into the topic
+of of this talk namely the relation
+between quantum mechanics and gravity
+so this is the experiment there is a
+cesium fountain
+like in the fountain clock cesium
+fountain clock
+and there is a beam splitter that
+coherently splits
+the beams of cesium atoms by inducing a
+transition a hyperfine transition of the
+ground stand and the hyperfine split
+neighboring energy level
+so one
+roughly roughly 50 is an absorption
+probability of 50 percent
+so with 50 probability
+the um the laser
+the photon from the laser will be
+absorbed the atom will feel a recoil and
+will go up slightly higher in the
+gravitation field than the other
+component of the wave function of cesium
+atoms that have not absorbed this
+this photon and then by another laser
+pulse you sort of reverse the thing and
+so there is one path
+of one component of the wave function of
+those cesium atoms which
+do not initially absorb the photon and
+the other ones which do
+and so there is a difference in height
+they reach and this difference is 0.12
+millimeters
+very close a tenth of a millimeter they
+are apart
+and now you can actually calculate the
+um the frequency shift oh sorry the
+phase shift of the of the
+wave function of the center of mass
+motion for the cesium atoms
+that
+occurs because this branch
+or this component goes in
+travels through a higher gravitation
+potential than this one
+and this can be calculated this has to
+do with the
+the wave number vector of the photon
+it's basically the
+delta p
+over h bar where delta p is the
+momentum transfer that is induced by
+recoil from the laser onto the cesium
+atom
+the time it takes between two laser
+pulses
+and the gravitational acceleration that
+the cesium atoms actually suffer in the
+laboratory
+right so this is a dimensionless
+dimensionless quantity
+and and that can be calculated from
+quantum mechanics an easy way to do this
+for example is by path integral this is
+nice application path integral uh
+calculations so that can can be
+calculated
+this can be measured this is known this
+can be measured but this is not known
+the actual gravitational acceleration
+with this which
+of the falling season atoms is not known
+it can be deduced if you measure that
+but um and this was the original device
+the original device on the original
+paper was called a quantum mechanical
+gravitometer a quantum quantum
+mechanical device to measure the earth's
+acceleration
+but now we want to actually
+not measure the
+gravitational acceleration we want to
+measure something else
+so we don't take this as being measured
+now the according to the newtonian
+equations of motion the gravitational
+acceleration of the cesium atom is
+proportional to the gravitational field
+strength of the earth
+times the ratio between
+gravitational mass and inertial mass of
+the cesium atoms
+right this ratio goes into this relation
+but the gravitational field of the earth
+is also not directly measurable you
+measure it again by taking a reference
+body and you look at the at the
+gravitational acceleration of a
+reference body and the reference body
+that was done in the original experiment
+of 1999 cassava chinchu was a corner
+cube light reflector made from quads and
+monitored by lasers
+so it's a it's a reflecting object
+microscopic object that you
+let fall into your laboratory and you
+monitor its motion by lasers
+and that was done so this
+relation that you just used for the
+gravitational acceleration of the cesium
+atom you just use in a reversed order
+for the gravitational acceleration of
+the reference body
+again you get this factor of the ratio
+of inertial and gravitational mass now
+of the reference body in inverse in the
+in in the inverse order
+and now this is measured the
+gravitational acceleration of the
+reference body is very accurately
+measured
+and all other quantities are measured so
+that you can actually deduce this ratio
+this is the ratio of the gravitational
+to inertial mass for the cesium atom
+divided by the same ratio for the
+reference body
+and that's just the air thresh factor
+that's the earthwish factor of cesium
+relative to the reference body
+and now we have a device that can
+measure the earthwash factor for a
+quantum mechanical system in a spatially
+entangled state to a macroscopic body
+and it would be interesting to see
+whether they are also the same
+and these people claim
+that this address factor has been
+measured by this experiment up to 10 to
+the -9
+okay
+so why is this
+sorry
+that
+th that is that is undisputed that you
+can actually measure this air twist
+factor but now these people claim you
+can actually measure more
+you cannot only measure the air thresh
+factor you can also measure the
+universality of gravitational redshift
+and now comes the argument why they
+think that
+and these are the proponents or the the
+two famous proponents and opponent in
+this discussion
+interestingly they're both nobel prize
+winners of the same year for the same
+thing
+so this is steve chu who was at the time
+secretary of energy in the obama
+administration
+and this is co-international contano g
+and in this dispute they take opposite
+sides um
+steve chu says
+he's in fact on the paper that i'm
+talking about he says you can measure
+the universality of gravitational
+redshift by this experiment and he says
+that's total nonsense
+and here's my version of their argument
+why should you be able to measure this
+they say well from the broil we learned
+every piece of matter any piece of
+energy
+has a periodic phenomenon built into it
+he talks about phenomena periodic
+any piece of matter whatever
+that shall mean
+and that goes by a certain in fact it's
+the compton frequency that he writes
+down
+and then he says therefore it's a clock
+and they call it compton clock every
+piece of matter is a clock that's
+oscillates by the quantum frequency and
+that quantum clock suffers gravitational
+redshift
+and since the quantum clock is very fast
+ticking so for the cesium atom it's
+something like 10 to the 25 hertz
+we can very very accurately
+measure the the
+in the language of gr the the path
+length in space time
+because if it if you have a tiny um if
+you have um less than a full period in
+phase shift this would mean that we have
+measured a time difference less than one
+period we just tend to the um
+minus 24 seconds and so this is the
+argument
+he says
+if there is a phase shift and if the
+phase shift is according to
+the
+uncertainty or the shift in frequency
+then the phase shift is delta omega
+times the time
+and my measurement takes to to
+the atoms are in this in these different
+states
+according to general relativity
+this phase shift is proportional to
+the difference in gravitation potential
+over c squared that's the formula right
+the formula is delta omega over omega is
+delta u over c squared
+so delta omega is omega times delta u
+over c squared delta u the difference in
+the potential just comes about because
+the atoms are different heights
+so delta u is just
+g times delta h
+but the different height comes about
+because one of the components gets
+a
+momentum transfer from the laser
+so if the laser has wave number k
+then the
+associated
+momentum transfer will be delta p equals
+h times delta times k
+so for delta eight delta h you just say
+it's delta p over m that's the velocity
+times the times the time it takes the
+experiment so delta h is equal to delta
+p over m times t times t so there's a t
+squared now
+and this can be brought now into this
+form
+this has now exactly this form
+if this pre-factor is one
+but what is that pre-factor the
+pre-factor is
+the frequency of the hypothetical clock
+that i'm just talking about is exactly
+the company frequency
+if the frequency of that clock is
+ticking
+at common frequency rate
+then the gravitational
+the redshift of my wave function is just
+the one that i deduced in the previous
+slide
+and therefore they say well it's obvious
+that this is true if you know it is a
+comp clock but the boy told us that
+and therefore they say what is actually
+been measured here bigger by this
+interpretation this is a gravitational
+redshift
+now do you believe that
+argument is that a good argument
+um one thing that is very suspicious
+about this argument i mean this argument
+is 99.9
+wrong i think but one one obvious reason
+why it must be wrong
+um leaving along all the details
+is the following
+except for the laser interaction points
+the cesium atom is in an energy
+eigenstate it's either in the ground
+state or in the hyper
+hyperfine split state
+but it's always an energy ground state
+so from here to here and from here to
+here it's in an energy eigenstate a
+clock
+can never be in an energy eigenstate
+nothing moves in an energy eigenstate
+it's the whole purpose of a clock to
+change its state with time otherwise you
+cannot read off time
+so they can't be clocks in the ordinary
+sense
+this does not say that this argument is
+entirely wrong it may be that it's just
+wrongly phrased
+right but
+there's certainly no such thing as a
+common clock
+it's not that any piece of matter can be
+used as a readable clock
+so that is certainly not true and one of
+the challenges that people are now
+actually taking up in molecular
+interferometry is to repeat this
+experiment but with proper clock states
+a clock state is a state that's a
+superposition of two energies so that
+the clock the the ray in hilbert space
+rotates in the plane
+at the um
+at the uh with the frequency this
+proportion to the difference of the
+energies
+right so it's delta e over h that's the
+frequency
+and so what you want to do is to make
+this experiment where these components
+are actually proper clock states rather
+than energy eigenstates
+um
+and so this is this is a sort of a first
+first hint that there's something
+difficult about the interpretation of um
+redshift in quantum mechanics here's
+another one that's also quite that's in
+fact last year's uh discussion in the
+literature where people pointed out
+something that's also not so obvious and
+you might think for yourself whether you
+believe this argument or not here's the
+argument
+it's the argument is
+that there's a remarkable consequence if
+you put together relativity in quantum
+mechanics and the remarkable consequence
+is any clock in the gravitation field
+has a has a principle
+as a limit of accuracy in principle
+and the the very superficial reason is
+this
+if if you want to
+suppress the uncertainty of the clock
+reading according to gravitational
+redshift you have to localize the clock
+very accurately if you don't know where
+it is in the gravitation field you don't
+know
+at what gravitational level it is at
+what gravitation potential if you don't
+know at what gravitation potential it
+sits you don't know its ticking rate
+so you better know exactly where it is
+on the other hand a special relativistic
+effect is that there's
+a
+time dilation according to velocity
+so if you want to suppress that you
+better
+make the uncertainty in the velocity
+very small
+but you cannot at the same time make the
+velocity very small and the position
+very small
+uncertainty the position if you want
+according to quantum mechanics if you
+make one very small the other gets
+bigger
+so there is a minimum
+where both the sum of both sort of
+optimally suppressed
+and how big is that
+so if you take the special relativistic
+time dilation it's delta t over t
+according to special relativity it's
+proportional to v squared over v over c
+squared
+the velocity certainly um larger than
+the uncertainty in the velocity the
+uncertainty in the velocity is delta p
+over m
+so um and this according to the
+uncertainty relation delta p squared is
+larger than one over q squared delta q
+squared
+so the uncertainty according to special
+relativity and quantum mechanics that
+goes in in here
+is one over delta q q
+delta q squared
+now the uncertainty according to general
+identity is delta u over c squared and
+delta u is proportional to delta q
+the height
+so that goes proportional to delta q
+this is inverse
+inverse quadratically proportional to
+delta q
+now if you add them up quadratically say
+and you minimize them you get a minimum
+and the minimum is this
+and the minimum is it goes like
+the the comp wavelength
+of the of the the system you're looking
+at it must have said the mass goes in
+there so it's the contour wavelengths of
+the mass divided by what's called the
+acceleration radius
+right c squared over an acceleration has
+the um the
+physical dimension of a radius it's
+called the acceleration radius
+and that is usually very small
+so it's
+10 to the minus 22
+if
+the acceleration
+the gravity if the gravitation field is
+measured in units of
+the gravitational acceleration on the
+earth
+and if the mass
+is measured in 100 atomic mass units
+then it's 10 to the minus
+but if you look at a clock say on the
+surface of a neutron star
+then it is much less small it's much
+bigger
+because the acceleration is much bigger
+not only is the neutron star heavier
+than the earth a million times heavier
+say as heavy as the sun
+but its radius is much smaller instead
+of being a few thousand kilometers it's
+something like 10 kilometers
+and so that gives you
+a factor of 10 to 9 perhaps and then
+suddenly this comes into the into the
+same or below the range of the best
+accuracy of clocks that we now have
+so there is
+they are it is thinkable that that under
+certain circumstances that we think are
+realized in nature the gravitation field
+is so high that the principal
+uncertainty
+of clocks
+is um
+is
+below the value or above the value sorry
+of the uncertainty that we have um
+from from the best clocks now
+so the current stability bound on
+optical atomic clocks is something like
+10 to the minus a t
+so in order to to get this number right
+you have to distinguish between
+stability and accuracy so that's this
+instability limit
+and again i would like to to ask you is
+do you think this this is a convincing
+argument or not
+i'm not going to tell you so this is
+um let me
+show you
+one argument more that you have seen
+many times i guess and that's from the
+discussion between born einstein a ge
+duncan experiment this has been
+criticized a lot and there are many many
+problematic points about this argument
+but it's very similar
+and what i want to stress at this point
+is
+the logic is interesting
+the argument was that einstein thought
+he could prove that you can devise in
+principle a system that violates the
+energy time uncertainty
+and he says that well
+take a box
+with a clock in it and the shutter and
+the shutter is um opened and shut again
+by this clock
+and place it in the gravitation field
+and let the clock be adjusted such that
+the shutter opens the definite time and
+then goes and shuts shuts off again and
+inside the box there's a photon and the
+photon either escapes or it doesn't
+escape in the time the shutter opens
+and whether it escapes or not i can
+weigh
+because i know energy weighs
+and so
+i can wait but i don't have to wait in
+the moment it escapes i can wait any
+time after and i have plenty of time
+doing this
+and so if i adjust the clock to shut to
+open the shutter an arbitrary short time
+i can take all the time i have later on
+to weigh the box and decide whether this
+has photon has escaped or not
+and by that he thought he could violate
+this this inequality
+and bohr refuted this argument
+um
+and i think i don't need to go through
+this that's a simple argument
+but the crucial ingredient in this
+argument is some version of the
+equivalence principle
+because
+his board uses
+that when the weighing procedure is in
+progress and the box is raised and
+lowered in the gravitational field by
+the weighing procedure that will suffer
+a time uncertainty through this weighing
+process and he needs precisely this
+weighing on this uncertainty in time
+to restore the validity of this equation
+so in a sense what boss says is to
+rescue quantum mechanics you need
+to take into account this principle
+that's behind this equation namely the
+equivalence principle so in some sense
+bohr says
+um
+quantum mechanics needs for its
+consistency some aspect of of general
+additivity and that's very interesting
+so it's just the other way around right
+and i think that's an interesting he
+also psychologically speak and it's an
+interesting aspect of this discussion
+um
+so this um this was an old issue a
+recent issue old issue and i would also
+want to tell you something about old
+hopes
+there is an old hope
+that sits behind the idea of unifying a
+relativity and gravitation
+and the old hope
+is that all these divergences
+that
+afflict quantum field theory
+were supposed to possibly go away
+naturally
+if you couple the system to gravity
+because gravity could serve as a self
+regulating mechanism to subtract all the
+infinities of energy
+and there's a very simple but very
+telling
+um
+model calculation which shows
+how this could work
+and this is the this is the model
+calculation
+as you know for example in quantum field
+theory in quantum theorem quantum field
+series the self energies for example
+particles are infinite even in quantum
+field theory the self energy of the
+electron comes out to be logarithmically
+divergent in the radius as the radius
+goes to zero
+so let's let's do this calculation by
+taking into account
+equivalence principle
+so take a mass shell so classically now
+a mass shell of radius r
+and perhaps it has an initial
+rest mass m0
+and also give it a gravitational mass
+which i don't want to specify at the
+moment it's a gravitational mass that
+may be different from its rest mass
+and also give it an electric charge
+then its total energy is the rest mass
+then the energy stored in the
+electrostatic field outside the the
+sphere which is q squared over 2r in
+proper units
+but there's also a gravitational self
+energy that resides in the gravitational
+field which is negative because the
+the charge and the the masses attract
+each other
+so if you disperse everything to
+infinity energy level is zero if you
+bring them together you gain energy
+gravitationally so this health energy
+stored in the gravitational field is
+negative and is this very same structure
+as the coulomb term here it's just
+gravitational constant times the
+gravitational
+mass
+divided by 2r the gravitational mass
+squared
+and now use two principles
+the total energy
+equals
+um the inertial mass times c squared
+that comes from special relativity
+and then add on top of this
+that the inertial mass is actually the
+gravitational mass of the full system
+so the the gravitating mass that sits
+here is actually the overall mass
+it's all the energy that gravitates not
+just the specific component of it all
+the energy gravitates and if you
+include this then we can just call all
+the different masses which i equal m
+then we get a quadratic equation for m
+here's an m and here's an m but this is
+quadratic
+and that equation for the quadratic m
+can be solved by the standard formula
+for quadratic equations and you get a
+solution
+where the mass
+as a function of the radius of the shell
+is this expression
+so this looks dangerous because there's
+air
+in the
+denominator
+however that's canceled by this r so in
+fact this has a
+has a existing limit
+as r goes to zero
+so now i can compress
+the the the um
+the sphere and result in a finite value
+for its own energy it's not infinite
+anymore and the finiteness of it is
+precisely come about because of this
+quadratic term that was added by gravity
+and the value of course is something
+strange it's um it's defined structure
+constant comes in here the absolute
+charge in values in in units of the
+elementary charge and the planck mass
+but okay so that's a finite value
+had you attempted to make this
+calculation order by order in
+perturbation theory in g
+you would have found that it diverges at
+each order
+right this is a completely divergent
+expansion in g by each order it diverges
+but the um
+and the reason being that the limit is
+not uniform in r
+so if you come if you if you interchange
+the limit r goes to zero and and and g
+goes to zero it doesn't doesn't commute
+um but as you see from the analytic full
+analytical expression nothing goes wrong
+so the the finite rest mass exists even
+though in perturbation theory you
+wouldn't have seen it
+and that the
+sort of ideas of that sort
+um
+encouraged people to say ah if we
+include gravity quantum field theory
+will be in a much better shape than it
+is now
+but then there were also voices against
+this and they said well if you include
+gravity
+all these talk about um equivalence
+principle doesn't hold anymore quantum
+theory violates the equivalence
+principle there's a famous discussion at
+the conference in
+1957 refinement in fact raised this
+point and said
+it's all nonsense we know that
+we know that
+quantum mechanics violates the
+equivalence principle and the example um
+that was discussed at this conference
+was just at a diffraction grating
+which was put sort of in a grave
+imagine a diffraction grating put
+horizontally and you sprinkle particles
+over it and underneath the different
+diffraction grating there is a there's a
+there's a
+you see the interference pattern
+on the screen
+and if you sprinkle the particle just
+over the diffraction grating
+then
+the
+the the
+distances of the of the or the pattern
+will depend on the on the inertial
+masses of the particles that you that
+you that you distribute over it because
+the debris wavelength depends on that
+the velocities that the particles
+acquire in the gravitation field will
+not depend on the mass but the momentum
+they acquire will depend on the mass and
+it's the momentum that makes the broil
+wavelengths
+so looking at the diffraction grating in
+the pattern you will actually be table
+it will actually be able to tell the
+mass of the particles that you have been
+dropping
+another example is
+think of the gravity of the
+gravitational hydrogen atom
+so the hydrogen atom here is just the
+thing of two systems that attract
+gravitationally one has um
+mass lowercase m the other has mass
+capital m
+and um
+make it very simple it's just a stress
+orbital it's just a
+circle
+as an orbit then you have centrifugal
+force equals gravitational attraction
+but then you say angular momentum must
+be quantized in
+integer units of h-bar and then
+use this to actually solve this equation
+for r and eliminate omega and then you
+get that the radius as a function of
+this n is that expression and the
+angular frequency is that expression and
+what you see is
+it's not the quotient of
+inertial mass and gravitational mess
+that enters it's um here's the product
+and here's the product of one times the
+square of the other
+and that
+has sometimes in the past and even today
+been used to say aha so
+quantum mechanics actually in quantum
+mechanics
+the motion the motion of two test bodies
+does depend after all on not just the
+quotient of inertial gravitational mass
+it depends on other aspects
+right
+other polynomial functions for example
+and here the energy you can see the
+energy also depends like the frequency
+on
+inertial mass times the gravitational
+mass and that in fact is just currently
+tested not of course with a hydrogen
+atom because that would be as large as
+the as the solar system if you took
+elementary particles but for the ultra
+cold neutrons that i've told you at the
+beginning
+so this is the same situation again it's
+the airy function that solves the linear
+potential eigenvalue problem
+so you have a heart a hard mirror on one
+side and a linear slope on the other
+side and you look for the
+energy energy eigenstates and here the
+formula for the energy eigenstates
+basically it's just this
+down here so that's the airy function
+that's the that's the penetration into
+the into the
+regime of
+where the potential energy is larger
+than the kinetic energy so it's a
+classically forbidden region but the
+wave function will penetrate into the
+classically forbidden region for some
+for some uh distance
+and so the the eigenvalues of the
+energies are this and again you see it
+depends now on the quotient between the
+gravitational mass and the inertial mass
+and so as we as we talk
+measurements are made in
+various places for example in in the
+technical university in vienna
+um to actually measure that quotient
+from that experiment
+however the
+of course the equivalence principle does
+not say that you cannot measure mg or mi
+it says that if you can measure them
+they always come out to be proportional
+so there's no
+contradiction anywhere here against the
+equivalence principle however what does
+quantum mechanics tell you is that there
+are nice methods to separate the two
+so this formula that i've shown you are
+nice formula which
+depends not just on the quotient they
+depend on other
+combinations of these two different
+masses
+and
+i know that in in in march there will be
+a conference in
+in berlin the freestyle dpk the german
+physical society and this person from
+from hartmut abele from uh technical
+university in vienna he will talk about
+measurements of
+inertial and gravitational mass of
+neutrons
+so here quantum mechanic is actually a
+new opportunity
+but now okay so this is all very
+different kinds of aspects about
+equivalence principle if somebody asks
+you you give a quantum mechanics lecture
+what do you tell the students what what
+happens about the equivalence principle
+is it or is it not true in quantum
+mechanics
+and
+i think the right answer would be to
+first say
+what is the kind of object for which the
+equivalence principle is proposed in the
+classical theory
+it's a test particle it's not any
+particle follows the same trajectory we
+know that this is not true
+um
+it's test particle and a test particle
+is a very sophisticated constructmental
+construction
+what is a test particle a test particle
+should satisfy certain
+as test particles should not disturb
+for example the geometry that you want
+to test with it that means
+it should not be too small because if it
+becomes too small
+then the gravitational field on its
+surface is as large as the gravitational
+field that you actually want to test in
+other words the curvature just outside
+the particle
+is of the same order of magnitude or
+even bigger than the curvature that you
+actually want to probe so it should not
+be too small but of course it should
+also not be too large because it becomes
+too large then the extent of the
+particle is of the same order of
+magnitude as the curvature radius of the
+background and then you wouldn't be able
+to actually probe accurately what the
+curvature of the background is
+it should not be spinning because if it
+had a spin the spin would couple to
+curvature we know this and that would
+make a deviation from the geodesic law
+it should not be electrically charged
+because a strong electric field on a
+surface makes strong stresses and energy
+densities which again curve space
+it should not have
+um multiple moments in in this mass
+distribution because if you had a
+quadrupole moment in its mass
+distribution for example again it would
+come into curvature and the geodesic law
+would not be satisfied and you can many
+you can list many things it should not
+have and at the end of the day you ask
+yourself so what's the non-trivial
+statement that's left
+because the non-trivial statement says
+something all test particles fall the
+same way
+so how many different test particles are
+there
+that actually satisfy all the criteria
+that i've just listed not many
+and certainly a wave packet in quantum
+mechanics is not a good test particle as
+an extent and the extent can be
+controlled because it flows
+flows around
+so the equivalence principle in quantum
+mechanics can on the face value of it
+first of all only be stated in terms of
+say homogeneous gravitational fields and
+then you would say something like on a
+homogeneous gravitational field or
+approximately homogeneous gravitational
+field the wave function
+falls
+like
+in an accelerating rest frame
+sorry in an accelerating frame so
+something like the original einstein
+elevator idea
+is that satisfied in quantum mechanics
+says or no the answer is yes it is and
+here's the mathematical statement
+um
+it's not entirely trivial to show this
+it's um it's not difficult and but it's
+not it's not a one line it's not a one
+calculation
+so there's the following proposition
+states in my opinion precisely the
+extent to which universality of free
+fall is related within quantum mechanics
+so you consider a particle of mass m
+in especially homogeneous force field f
+in fact
+this what i'm the theorem that i'm now
+telling you
+um holds for any uniform force field
+whatever the origin of the force is
+um
+so if it's a uniform force field it only
+depends on time but not on space
+then the classical trajectories are
+solutions to this equation this is just
+newton's equation of motion acceleration
+equals force divided by mass
+now this can be solved you can solve for
+the trajectories of the classical
+falling sort of dust if you like
+and now you can
+make the following statement
+um psi solves the schrodinger equation
+with force fields
+if and only if
+another function
+solves the schroedinger equation without
+force field
+and the other function
+is given by the original function
+um
+by
+transporting it along the flow field so
+this
+phi capital phi is the the flow that's
+generated by the solutions of this of
+this vector equation
+in other words if you um if you want to
+to know how um a wave function according
+to schrodinger falls in the
+gravitational fields
+you can say okay it falls in the same
+way as a wave function behaves if i i
+myself accelerate in an acceleration
+frame of reference and the function
+evolves in this according to the free
+shooting equation
+there is a non-trivial phase factor
+coming in which you may be used to
+perhaps if you
+for example know how the
+the schrodinger function transforms
+under galilei transformations under
+inertial
+transformations it does not transform as
+a scalar function
+the schrodinger function is not a scalar
+function on space time on x and t
+something more complicated and that is
+accounted for here by having a sort of
+complicated phase function
+but the quantum mechanical state the ray
+transform exactly
+as
+as you would expect from going from one
+reference frame to the other one that's
+just this composition with the inverse
+inverse flow transformation
+and in that sense um the weak
+equivalence principle is built into
+quantum
+mechanics no no no no
+that's also true but no more complicated
+than that
+it's i mean you might know that the
+in fact the the i had some
+transparencies on this by um there are
+many ways to look at this but one way to
+look at this is to
+to first of all look at the proper
+relativistic equation the kind gordon
+equation and to remember what has the
+schrodinger function to do with the
+klingon function
+and they differ by a phase factor
+involving the time and that makes the
+non-scalar transformation property
+what i'm actually in in other words what
+i'm referring to it's um
+the the um
+when the galileo transformations for
+example the schrodinger function
+transforms according to a non-trivial
+ray representation which is not
+equivalent to a proper representation
+it's a ray representation and under
+acceleration transformation
+it's the same
+it's array representation
+the proposal of truth was similar to
+this
+equation certainly where
+he he added a phase that's right
+exactly
+that's right can mum decide with this
+equation if he's correct
+no because it's not i don't think it's
+really a question about mathematics
+at this point it's a question of whether
+you can in that nobody disagrees on the
+equation delta phi equals that so this
+equation has been derived in many ways
+and i think everybody believes this
+equation the question is whether you
+should think of this equation of this
+delta phi as being a redshift delta phi
+or something it's it appears just as a
+phase shift but the question is what
+interpretation do we give that right
+that phase shift so i think as far as
+the derivation of this equation is
+concerned everybody agrees that it is a
+proper equation in quantum mechanics
+right so um
+so that looks good how would we go about
+and ask
+how do quantum mechanical systems
+coupled to gravity in general
+now here is here's a way to see how it
+couples in in homogeneous gravitation
+field it is just according to the
+equivalence principle as we have learned
+it sort of in in undergraduate courses
+with homogeneous gravitational fields
+and and accelerating
+elevators and so on
+but how would you go to do it in general
+and that is not an easy question that is
+in fact a very difficult question
+because
+initially i said if somebody gives a
+journaling equation you just take the
+potential and you take the gravitational
+potential in it right but we know the
+gravitational potential is not exhausted
+by its scalar component
+the gravitational potential is more than
+just the newtonian potential it's the
+metric so how does the metric enter into
+the
+into the um
+into the uh joining equation
+and then one way to do it is is to
+to use the principle that you might have
+learned in this course it's minimal
+coupling did you mention this on the
+covariance replacing partial derivative
+by covariant derivatives replacing the
+minkowski metric by the curved
+space-time metric very implicit
+okay so if you take any sort of matter
+how does electromagnetism feel gravity
+there's a prescription how you how you
+do this it's called
+minimal coupling
+and
+minimal coupling says take your favorite
+theory
+give it a special relativistic form
+replace the minkowski metric of that
+special relativistic form by the curved
+spacer metric and replaced in ordinary
+derivatives by covariance derivatives
+this is the prescription so step one
+would mean first take your favorite
+theory and put it into special
+relativistic form
+now if you have a one particle quantum
+mechanical system what is its special
+editionistic form
+quantum field theory many particle
+theory but not one particle theory so
+already that step is not easy
+and therefore for some for some
+sort of situations where people think
+okay
+actually it's that it's just the
+classical gravitation field that i want
+to couple it's not so much the
+the um the quantum field theory of the
+gravitational sector that i'm interested
+in it's the quantum field theory sector
+of my meta that i'm interested in with a
+classical gravitational field how i do
+this and then people said okay the first
+good guess would be the so-called
+semi-classic einstein equations
+so it's the einstein and tensor on the
+left-hand side and the on the right hand
+side it's the energy momentum tensor
+for the expectation value perhaps of a
+quantum field
+and that's harmless as it looks is a
+very dangerous procedure
+interpretation wise and also mathematics
+works
+if the right hand side is the
+expectation value of the quantum field
+phi in a certain quantum state
+then the energy momentum tensor that's
+on the right hand side clearly depends
+on the state because it's the
+expectation value
+if you then solve the einstein equations
+the solution to the einstein equations
+which is the metric becomes implicitly
+state-dependent because the right-hand
+side is dependent but that metric now
+goes back into the evolution equation
+for the quantum state
+now the evolution equation of the
+quantum state had formally perhaps been
+linear but now when you feed in the
+metric in which depends on the match it
+becomes non-linear
+so
+this coupling would induce a
+non-linearity in your evolution equation
+for the quantum state
+and one version of this a mickey mouse
+version if you like of this
+is
+the non-relativistic limit weak
+gravitational fields small velocities
+of that equation
+that means where gravity is just
+described by the scalar potential of the
+of the newtonian gravitational potential
+and where the right hand side becomes
+the one particle
+non-relativistic wave function to go to
+one particle sector we don't have
+transitions between different particle
+sectors and then we essentially get
+something like the client gordon
+equation for the one particle sector and
+of that we take the non-relativistic
+limit
+there are many ways to do this and we
+get to the schroedinger equation and
+that program can be run and the result
+of this is this equation
+which is the schrodinger equation which
+which has an additional potential and
+the additional potential is just what
+you thought it would be
+namely basically the potential according
+to a mass distribution
+rho which is basically just a zero zero
+component of the energy momentum tensor
+it's a zero zero component divided by c
+squared so it's just a matter density of
+the energy momentum tensor that's just
+the first factor so this is the
+newtonian equation for the newtonian
+gravitation potential for that mass
+distribution but there's another term
+and the other term is
+a term
+which distributes some meta sort of meta
+according to the probability
+distribution the probability
+amplitude squared
+of that schrodinger function
+as if the schrodinger function
+represented some meta distribution
+according to the probability density
+that's the outcome of that equation
+so if for the moment we ignore the first
+term here
+which is the obvious one that we
+expected this is just another way to
+derive from first principles we get
+another term the self-coupling of the
+gravitational field of a meta
+of a meta wave
+and
+solving this equation
+so inverting the laplacian
+by an integral
+we can actually solve for this v in
+terms of an integral over psi squared
+and plug it into this equation and then
+we get a non-linear
+non-local
+integral differential equation
+and this is this one and it's called the
+schrodinger newton equation
+so this is the schrodinger equation with
+the free part the kinetic part and this
+is a self-interaction of the psi fields
+according to some self-gravitating
+factor that spreads all over space
+and that equation is quite interesting
+its derivation is
+plausible
+in some situations it has been much much
+discussed and many people don't like it
+other people think it is interesting to
+pursue whether this equation has
+testable consequences in the laboratory
+and so it's worth pointing out that this
+is a perfectly decent equation even
+though it's non-local and non-linear
+can be derived from an action principle
+it has all the symmetries of the
+schrodinger equation it has a 10
+parameter symmetry group the
+inhomogeneous galilei group it has a
+nice scaling property
+you can derive
+new solutions from o2 by scaling
+and many mathematical results about
+these equations are known
+it's not
+it's different from other nonlinear
+screening equations that people use for
+example for both einstein condensates
+for for so-called pla and
+also for plasmas but also for um for
+condensates
+this is the this is called the gross
+piece equation which has a non-linearity
+but which is local this one is non-local
+um one way to
+let me just go back one way to to
+to see under what conditions this
+pre-factor become this factor becomes
+important when does sort of this
+perturbation of the free schooling
+equation become important
+one trick to to to to do is to put the
+schrodinger equation to a dimensionless
+form
+introduce a length scale introduce
+accordingly a time scale
+introduce a dimensionless space
+coordinate and a dimensionless time
+coordinate and rescale the
+the the schrodinger function so it's now
+square integral
+now with respect to the
+un
+rescaled
+x-coordinate
+then the newton equation takes this form
+and now you have a pre-factor k here and
+this prefecture k here is dimensionless
+and you want to ask under what condition
+is that factor
+close to one
+at least not too small
+and
+if you if you
+play around a little bit with it you see
+that it can be brought into the form
+length scale divided by planck length
+times the mass parameter that's in this
+equation divided by planck mass to the
+third power
+so if this factor is not very small then
+this term becomes effective
+and this means
+that
+if your system for example is of the
+order of a few hundreds of nanometers
+typical um
+grating distances for example in
+experiments like in vienna when people
+do diffraction uh experiments with
+molecules or
+and so on in the group of marcus and for
+example then you have a few nanometers
+so you have wave packets of the width of
+a few hundred nanometers
+and the mass you must have in order to
+see this factor must then be 10 to the
+atomic mass units u
+atomic mass units they have ten to the
+five
+ten to the five atomic mass units they
+take large molecules and make um diff um
+coherence experiments with large
+molecules for example if you take
+fluorophorene
+they have
+1632 or something atomic mass units
+so it is
+if this equation were correct
+then you would see deviations from the
+free schrodinger equation according to
+the self gravity
+for 100 nanometer wave packets
+if the mass is 10 to the 10u
+and we are five orders of magnitude away
+from this
+that's right that's right coherence time
+the coherence time you would need are
+very long here
+it depends very much on the masses but
+it would be here very long that's true
+that's right yes yes yes
+that's right i i come to this
+the upshot is on earth it's very
+unlikely to be have an experiment like
+this but in space not
+um
+so there is some some kind of
+self-gravitating effect of wave
+functions if you believe the
+semi-classical equation
+this semi-classical equation has other
+nice properties that just briefly want
+to mention just short mention of this
+for example take a free gaussian wave
+packet this is the solution to the free
+schooling equation the full glory of
+this
+solution of an initial gaussian state
+for all future times
+and now plot the radial
+the radial probability distribution
+that's psi mod squared times r squared
+so the radial probability distribution
+this is a global maximum at this value
+and you can calculate the acceleration
+of this global maximum
+and
+you can you can
+compare
+the um the acceleration according to
+quantum mechanical
+dispersion
+um and compare this to the
+self-gravitating inwards pointing
+acceleration according to its own
+mass
+and you see that
+the
+quantum mechanical dispersion goes like
+one over width to the cubed
+and the um gravitational attraction goes
+like one over the width roughly the
+width um to the to the to the to the
+second power
+which means that the gravity the wave
+packet will will recombine
+but it will never form a delta
+distribution
+eventually quantum mechanical dispersion
+is always stronger because it grows
+faster with the third power
+but then sort of the the quantum
+mechanical dispersion sets in and if if
+if it if the wave packet is sufficiently
+wide then the gravitational effect um
+comes into the play and re
+and uh refocuses
+um the the this wave packet and leads to
+apparently the coherences in the in the
+experiments
+and again you get the same relation from
+this naive um picture that the mass q to
+the width should be
+the mass cube to the length scale in
+plank units
+so if this is fulfilled if if the mass
+cubed times a is of that order then this
+effect becomes dominant
+right
+and you can ask okay so there will be a
+an oscillation
+phase there will be a refocusing and
+then it will be
+um
+does the system have actually bound
+states according to its own gravity and
+the answer is yes it does have
+bound states and in fact you can very
+naively estimate them
+and the estimate is is
+you might know these dirty tricks from
+elementary quantum mechanics courses
+where you can almost exactly judge the
+redberg energies by sort of
+semi-classical
+non-rigorous um
+back of an envelope calculations
+where you make some sort of
+uh
+energy balance with the kinetic term and
+the potential term and then you minimize
+in a
+and then you um
+so this this you get by using the by
+using the the uncertainty principle to p
+squared over m is something like one
+over m a squared according to
+the uncertainty principle and then you
+minimize an a and you can play the same
+trick here and what you get is almost
+exactly up to factor 1.6 of the
+calculated energy ground state and
+that's an energy ground state exists had
+been fully analytically proven
+so what will happen is there will be a
+soliton in the end assuring a newton
+soliton and the rest will be radiated
+away
+and at some stage penrose thought that
+this would be a nice model for the
+quantum mechanical collapse of the wave
+function according to gravity
+but this picture tells you that it
+cannot be because the the whole wave
+function would have to collapse into one
+localized state instead what happens is
+part of it will localize here and parts
+will be radiated away
+so it's it's still
+these two
+one
+part localized here and the other one
+one running away there
+so this is why why the original panos
+idea i think doesn't work
+right and and i i also was part of this
+game in the last few years and and we
+asked ourselves how would that model for
+a single self-gravitating particle
+um actually give rise to observable
+consequences in those experiments that
+people for example in vienna do
+and
+for this you have to look at a many
+particle situation and to derive an
+effective equation for the center of
+mass because this is what they observe
+the center of mass wave function it's
+not up they don't observe the center of
+each individual particle so you have to
+a many particle equation like this and
+then deduce an effective equation for
+the center of mass which is non-trivial
+because this is a non-linear equation so
+it's not obvious that the center of mass
+wave function separates from the rest
+you cannot separate in the usual way
+so the question was how you separate
+these equations and that's difficult and
+it's only approximately done
+analytically but what we could show is
+that the center of mass or base is
+showing a newton equation under certain
+circumstances that can be met
+and then you get an equation like this
+for the center of mass of spheres for
+example and now there are experiments
+involving these these these spheres
+and now i would like to see the movie
+there's a short movie just for the if
+you just click it
+you see um the evolution
+right so this is an evolution of a free
+wave packet in red and the blue wave
+packet according to schroedinger newton
+equation
+now it's prince again now comes gravity
+into play now refocuses again
+and falls back and that's the radial
+probability distribution whereas the red
+one becomes
+shallower and shallower
+the blue one always comes back
+and forth
+and they did and you see the um let's
+see first of all
+it's um it's 10 to the nine mass units
+um
+this is this is nanometers this is the
+the width nanometers and the integration
+time was almost a day
+right this is almost a day
+so you would in order to see this you
+would have had coherence times of days
+but for higher masses the coherence time
+goes down with the fifth power of the
+mass
+so it goes down very fast
+so if you take higher masses 10 to the
+13 for example then you have
+significantly less
+coherence times that you need
+okay that's almost it to talk again
+can i see the talking
+oh it's
+no
+just go back to the direction fire
+the process that you have just seen
+takes days takes a day
+so the spreading and refocusing takes a
+day
+no not the time of coming no no no no no
+okay
+so this is where we were
+and this is this is just a static
+picture of this
+this is just a static picture of this
+and you see that um you have to 40 000
+seconds here for refocusing of this of
+this wavefile this basically just did
+and this is also
+increasing this is this is the the peak
+of the wave function if you have five
+times 10 to the nine atomic mass units
+it spreads then it starts to refocus
+refocus refocus if you increase the
+masses and energy focuses it makes this
+bounces back and forth
+and that's just what you have seen in
+the movie so it's just the same and that
+brings me to the conclusion
+so what have we learned about quantum
+gravity of course
+about quantum gravity proper we have
+learned nothing so far
+what we have but
+they're much easier questions than those
+than that um for quantum gravity that
+are also not easily answerable
+and that's uh the the relation between
+ordinary quantum mechanics and and
+gravity
+so one question we could for example
+address what happens in the unlikely
+though not impossible event that gravity
+stays classical
+how then do quantum systems couple to
+gravity what for example would be the
+gravitational field that is created by a
+spatial
+space um but
+a typical quantum mechanical situ a
+double slit experiment
+if you have two
+delocalized meta components in your wave
+function how do they
+act as a source for the gravitational
+field
+one question that my colleagues in the
+in the laboratories ask is can we
+significantly improve
+improvements to lower the upper bounds
+on violations of the equivalence
+principle by using matter in
+non-classical states
+that's what they want to test so they
+want to test some sort of quantum
+equivalence principle but before you
+test that you have to formulate it
+so what is the quantum equivalence
+principle whose possible violations you
+want to test
+and one question i'm interested in is
+there's an army of arguments against
+fundamental semi-classical gravity
+but all these arguments presuppose some
+sort of validity of the standard
+mechanical formalisms including the
+collapse postulate
+which itself is sort of for some at
+least problematic
+and it's not clear to me how convincing
+these
+arguments really are
+and therefore i think it's interesting
+to look for consequences from
+semi-classical gravity
+um and to test
+um whether you can actually see
+effects that can be tested by center of
+mass motions and i talked to
+some people working in this field on the
+experimental side
+mostly those in vienna
+marcus and marcus aspelmeyer and
+hendrick ulbrist
+who also worked in vienna some time ago
+and now has his own group in southampton
+and they say to me
+at least they say it's not altogether
+ridiculous
+to propose such experiments
+and we made some back of an envelope
+calculations how likely it is to see
+something and the and if progress is as
+in the last years then yes on
+space
+platforms it could be feasible on earth
+probably not
+because there usually integration times
+are limited by the free by the time for
+the free flight of the object
+in in
+so for example in the
+place i come from in in bremen we have a
+drop tower 140 meters high in the
+dropping height is 110 meters and we
+have 4.6 seconds of weightlessness
+that's not enough we need more
+the effect goes squared in time
+so if you have significantly longer time
+we can
+actually improve closeness
+okay and that brings me at least to the
+end of of the main part of this talk
+thank you
+you

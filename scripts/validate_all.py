@@ -63,6 +63,8 @@ def validate() -> tuple[list[str], list[str]]:
 
     transcript_index = load_json(RAW / "transcript-index.json")
     full_archive_manifest = load_json(RAW / "course-manifests" / "gravity-light-full-archive.json")
+    tutorial_transcript_index = load_json(RAW / "tutorial-transcript-index.json")
+    evening_transcript_index = load_json(RAW / "evening-transcript-index.json")
     notes_index_path = ROOT / "raw-material" / "external-notes" / "notes-index.json"
     recovery_report = ANALYSIS / "audits" / "source-recovery-report.md"
     readiness_report = ANALYSIS / "audits" / "goal-readiness-audit.md"
@@ -89,6 +91,14 @@ def validate() -> tuple[list[str], list[str]]:
     for item in full_archive_videos:
         for key in ("archive_index", "type", "type_index", "id", "title"):
             require(key in item, f"full archive video missing {key}: {item}", errors)
+    require(len(tutorial_transcript_index) == 11, "tutorial transcript index must contain 11 records", errors)
+    require(len(evening_transcript_index) == 2, "evening transcript index must contain 2 records", errors)
+    require(sum(item["transcript_status"] == "available" for item in tutorial_transcript_index) >= 9, "at least 9 tutorial transcripts should be recovered", errors)
+    require(sum(item["transcript_status"] == "available" for item in evening_transcript_index) == 2, "both evening lectures should have transcripts", errors)
+    for item in tutorial_transcript_index:
+        require(item.get("type") == "tutorial", f"tutorial transcript record has wrong type: {item.get('id')}", errors)
+    for item in evening_transcript_index:
+        require(item.get("type") == "evening-lecture", f"evening transcript record has wrong type: {item.get('id')}", errors)
     require(notes_index_path.exists(), "external notes index must exist", errors)
     require(recovery_report.exists(), "source recovery report must exist", errors)
     require(readiness_report.exists(), "goal readiness audit must exist", errors)

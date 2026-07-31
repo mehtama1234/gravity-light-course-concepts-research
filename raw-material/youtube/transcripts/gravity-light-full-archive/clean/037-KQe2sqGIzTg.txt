@@ -1,0 +1,656 @@
+this program is being presented to you
+by the hereas international winter
+school on gravity
+and light
+welcome back to the double e is
+international with disco on gravity and
+light
+today's sheet is the first actual
+physics sheet of the school
+so we'll deal with the throttle
+space-time
+in exercise 1 we will look at the
+geodesics in a schwarzschild space time
+so we consider a manifold equipped with
+a so-called schwarzschild metric
+that is given here in the following
+we will use this notation the shorthand
+notation
+and the first question now is
+to write down the lagrangian
+so the gaussian in its
+abstract formulation is given by
+a a gamma dot a gamma dot b
+for the for this easy case of a
+schwarzschild metric
+this becomes the lagrangian
+l is equal to 1 minus
+2 g m divided by
+r t prime
+squared minus
+one over one minus two g m
+pi r x uh
+not x but r prime squared
+minus r squared
+theta prime squared
+minus r squared sine squared theta
+phi prime squared
+this was already the first the answer to
+the first question
+and we move on to the second question
+so there it starts with a little remark
+that this lagrangian can be parametrized
+by lambda
+which we will see is just the eigen time
+in such a way that the lagrangian is
+equal to one
+for all lumped down
+now there are four euler lagrange
+equations for this lagrangian
+we want to derive one of them namely
+this one with respect to the function t
+of lambda
+so the euler lagrange equation is zero
+is dl by
+dt prime
+this one derived again by prime so
+the prime always indicates derivatives
+with respect to this
+parameter lambda
+and the second term is a del l
+by del t
+so we see that the lagrangian which we
+just wrote down
+does not depend on t itself
+so del ll by del t is zero
+however it is dependent on t
+prime so we can derive
+del l by del t
+prime is just two times
+one minus two g m divided by r
+g prime
+and this expression again derived with
+respect
+to lambda gives just
+two times one minus two
+g m divided by r g
+double prime
+plus four g m divided by
+r squared r prime
+t prime and this is
+already equal to zero
+so we can rewrite this equation as t
+double prime
+plus 2 g
+m divided by r squared
+of n 1 minus 2 g m over
+r of r prime
+g prime is 0.
+so here we see that we could read of
+the christopher symbols for the
+schwarzschild metric
+in the case that so this is
+gamma so this is
+two times gamma of
+t r t
+and of course is equal to two times
+gamma t
+g r however we don't want to go
+further into these christopher symbols
+but we rather
+would like to show now that the lead
+derivative of g with respect to the
+vector field
+kt which is just given by del by del t
+vanishes so
+we just take the lead derivative
+g a b so
+take the lead derivative with respect to
+the vector field k t
+of g and evaluate at the
+components a and b this is
+equal to kt
+acting on g a b
+minus no actually it's a plus here
+g m b
+and the del del t acting on
+oh that is
+yeah well that is correct but not del
+del t but del
+x a acting on the
+m's component of kt
+and this goes also
+the other way around so we take del by
+del xp
+acting on the m's component of
+k
+so
+in this term we see that this is the
+derivative
+of g with respect to the function t
+however we know that our met the watches
+metric
+does not depend on our
+does not depend explicitly on time on
+the time function
+so this will give zero
+and we also know that the components
+kt 0 is 1
+while kt 1
+2 and 3 are all zero so what we do here
+we derive the constant
+well that certainly gets zero so this
+term goes out
+this term goes out this term goes out as
+well
+so all this is zero
+so we showed that the lead derivative of
+g with respect to the vector field kt
+vanishes so what does this mean well
+we have some kind of symmetry here and
+of course we will
+we see that this symmetry with respect
+to
+time translations well this gives rise
+to
+conserved energy
+and the last part of the of this
+section here is
+to find the conserved quantity so the
+explicit form is given by this
+expression here and now we want to
+derive an expression for this quantity
+t prime appearing in the lagrangian
+so we see we have k t here but with an
+index down that's not a problem
+so we see that k t index down
+x a prime of lambda
+is constant however we're only given
+the kt with components up well well
+that's not a problem
+we just take g a b
+k t b
+x a prime of lambda
+and this only gives us contributions
+since the only contribution here from
+the kt is for b
+equals zero which then also sets a to
+zero
+due to the special form of our
+schwarzschild metric
+so after this is g zero zero
+times kt zero times
+t
+this is just 1 minus 2 gm
+divided by r g prime of
+lambda and this is constant
+and now we write this constant as the
+square root of
+some e which will later turn out to be
+the energy
+so and then we find that t
+prime of lambda can be rewritten as
+the square root of e divided by
+1 minus 2 gm divided by r
+this was the first part of this exercise
+now we see that also this metric
+fulfills
+so-called spherical symmetry
+that is the lead derivative of g with
+respect to these vector fields which we
+already know from
+the tutor from the last tutorial that
+delineative vanishes
+so which physical quantity is conserved
+by this symmetry
+well that's rather easy since we know
+that this
+is just so in quantum mechanics this
+would be the
+angular so this would be the algebra for
+angular momentum and indeed
+angular mention is conserved here
+and to fix angular momentum we need
+two vector fields
+that fill that fixed direction
+and one vector field
+that fixes the absolute value
+of angular momentum
+so the first two of these vector fields
+x1 and x2
+they fix the motion to a plane of
+constant theta
+and if we have found such a plane of
+constant theta
+we can of course turn
+or turn our system of reference in such
+a way
+that we end up at theta is equal to pi
+half which makes life much easier since
+then all these sine
+squared or sine theta that appear are
+just one and we don't need
+to carry them through anymore which i
+said can set them to one
+and of course we can always turn our
+system of reference such a way
+that if we have fixed ourselves to
+a plane of constant theta so that we can
+we can turn around our system of
+reference to theta is equal to pi half
+but how can we now derive an expression
+for the remaining term
+phi prime of lambda well that's not a
+problem we already
+saw how to derive the conserved quantity
+for a symmetry
+on the last exercise or in the last
+question
+so we recall that
+we need x3 index
+down x prime
+a no x a
+prime
+of lambda is constant
+we can rewrite this to
+g a b x 3 with index b
+up now and the x a
+prime of lambda is constant
+so now we can take okay
+x3 only which was exactly
+del by del phi has only
+a non-vanishing b equal 3 component
+which then means we get that g 3 3
+x 3 b and
+phi prime of lambda is constant
+and this constant we like to call
+minus j
+so which will turn out to be the angular
+momentum
+so g3 3 was just minus
+r squared sinus squared
+theta however we know that
+theta is equal to pi half and thus the
+sine squared is just one
+and for that we find that phi prime of
+lambda is equal
+to j over r squared
+which is a nice formula in fact
+and now we are prepared to look at the
+lagrangian again
+so we now use the fact that the
+lagrangian is equal to one over the
+whole parametrization
+so the lagrangian itself is a conserved
+quantity
+now we want to insert all the previously
+obtained results and
+then we'll see what we get out
+so we have one is equal
+to the lagrangian is equal to
+1 minus 2 g m divided by
+r and now we insert
+t prime so this is just e divided by
+1 minus 2 g m over r
+squared
+we get a minus sign a one
+divided by one minus two g m over
+r r prime squared
+we can't substitute anything in here
+because we have no conserved quantity
+for
+r prime however in the case
+in the next term that which would be
+theta prime
+we know that this term vanishes since we
+say since we have
+our motion in a plane of constant theta
+and the last term contained phi prime
+well we just we just found the formula
+how to replace this phi
+prime by j squared so phi prime squared
+is just
+j squared over r to the fourth power
+and now we substitute all the terms and
+can
+and can put them all together and we
+will find that
+one is equal to e or divided by one
+minus two
+g m over r
+minus one
+over one minus two g m divided by
+r r prime squared
+minus j squared
+divided by r squared
+and now we put all terms
+that contain e which is only the first
+one here
+to one side and all the other ones to
+the other side
+so we find that this is e is e is equal
+to
+one minus two g m
+by r times 1
+plus j squared divided by r squared
+plus
+and r prime squared term
+so the result will be that e is equal to
+r
+prime squared
+plus 1 minus 2 gm
+divided by r
+plus j squared divided by r squared and
+the last term minus
+2g m j squared divided by r to the power
+of 3.
+and now the last question asks us to
+interpret the terms that appear in this
+expression
+so on the left side this is
+the total energy total energy e
+so we know that quite well r prime
+squared
+well that is just some kind of kinetic
+term
+so we have not introduced a mass here so
+we have
+unit mass m equals to one
+then this term here the one is just the
+mass term
+so the relativistic correct mass term
+which would be
+m c squared however we set both m and c
+to one so we just get the 1 here
+now we have minus 2 gm divided by r
+well you should know that this is just
+the newtonian gravitational potential
+the next term j squared divided by r
+squared well this is just a contribution
+due to the angular momentum
+that is also quite standard
+but now this last term here this is the
+interesting
+one and this one
+then indeed turns out to be the
+correction term from gr
+and you see this is divided so
+you have constants here
+in the numerator and in the denominator
+you have
+r to the power of three so
+this term will contribute
+when r is small and that indeed is
+of course the physical relevance of
+schwarzschild space time
+you don't far far away from
+the player for example black hole
+you don't see much effects that are
+different from the usual ones the usual
+classical
+picture however if you go near the black
+hole of course
+the motion of your particle on the
+curved space there is quite different
+and there this term gives us the correct
+equations so we see we can interpret all
+these terms
+all the four terms here are purely
+classical
+kinetic term a mass term the classical
+gravitational potential and contribution
+of angular momentum
+but only the last one really says okay
+this is
+the correction to the motion
+that comes from gr and corrects our
+classical motion
+so this is the first exercise of this
+sheet
+and there will be one more exercise
+which will deal with gravitational
+redshift
+also an important effect
+appearing in general relativity
+so we consider a space standards
+equipped with a schwarzschild metric
+as well as two observers one and two
+that are at rest in their respective
+system of reference that means
+their coordinates are theta and phi
+they don't change they only move in time
+the observers sit at the same theta and
+phi
+for simplicity while the
+radial coordinates are 1 and r is
+smaller than r2
+so you want to derive first an
+expression for t
+prime using the lagrangian from the
+previous exercise
+so we remember we have that the
+lagrangian is equal to
+one and the first contribution
+was one minus two g m divided by
+r t prime squared
+now there would be more terms concern
+having
+r prime theta prime and phi prime
+however we know since the observers
+don't move
+well these terms get kicked out
+so this is indeed the whole expression
+we need to look at here
+and this means that t prime is equal to
+over square root of minus of 1 minus 2
+gm
+divided by r
+now observer 1 emits photons that
+observer 2 detects
+the gap between two photon emissions is
+delta lambda one
+so what this means is in physical terms
+observer one emits photons
+and between two photo emissions
+in you have the interval delta lambda
+one in eigen time
+so so one emits
+after each period delta lambda 1 a photo
+however observer 2 maybe sees this
+these this length differently
+and we want to calculate this
+so of course there our
+formula for t prime derived in the first
+question will prove useful
+we see for fixed r
+we have a fixed r here so the whole
+right side
+does not depend on lambda
+so we can just integrate this and we
+will find that
+delta t so in the coordinate time
+that this is just so 4 1
+for observer 1 this is 1 over
+square root of 1 minus 2 gm divided by
+r1
+delta lambda 1
+and of course for observer 2 this is
+delta t2 this is just 1 over
+square root of 1 minus 2 gm
+divided by r2
+delta lambda 2.
+so now we have to consider these two
+delta t1 and delta t2 so both
+distances in coordinate type and
+therefore we
+it's the best if we draw
+a space time diagram of this whole
+situation
+so we have up here is the time
+and here we say that there goes
+the radial coordinate so we have
+observer 1 sitting at r1 observer 2
+sitting at r2
+and the world line it looks just like
+that as the coordinates
+in space so r theta and phi never
+change this is the world line
+of these two obser of both also these
+are the word lines of both observers
+now observer one emits a photon here
+and a photon here
+so this is delta t1
+so and now we see
+okay this goes some way for example
+this way all the way here
+where observer 2 m detects
+this photon and now we wonder how does
+this
+path how does the word line of the
+photon
+look like if it is emitted up here
+and now we use our knowledge from the
+first exercise
+we know that
+the schwarzschild space time has a
+symmetry with respect to time
+translations
+since the vector field k t which was
+just del by del t
+was a killing vector field
+so we know that this the situation
+from here from the first dimension to
+the second
+didn't change but for a constant offset
+delta
+t1 in coordinate time but
+on r or something else nothing has
+changed on the other coordinates
+so the situation up here is just the
+same and we get just the
+same curve parallel up here
+to this to the second detection by
+observer two
+so these two lines
+can be said to be parallel
+so their distance the distance between
+two points of equal r is always the same
+as delta t1
+but you know also that this here is
+delta t2
+well but if this holds here for that the
+distance
+in space time between every two points
+here
+that have the same r is always delta t
+one
+well then delta t one is obviously
+equal to delta t two
+oh k this is good we find that delta
+lambda2 then is just
+ah no we have to write it a little
+differently
+so we just say that this is delta lambda
+1 which will prove
+easier in the next exercise we do it
+this way
+that this is exactly a big square root
+one minus two g m
+divided by r one over
+one minus two g m divided by
+r two and this
+is times delta lambda 2.
+so you get this fact so
+the emission so the
+dm so observer one emits
+photons with a
+delay of in its eigen time of delta
+lambda one
+however observer 2 detects these
+with this factor here
+so he picks up such a factor here and
+now we look
+how does this look at the at the
+frequency level
+so consider the ratio of the frequencies
+omega 2
+divided by omega 1.
+well it's quite obvious to see that this
+just corresponds to the case that delta
+lambda 1 is divided by delta lambda 2.
+oh well that is easy this is just this
+big square root we have here
+this one minus 2 gm divided by r1
+divided by 1 minus 2gm divided by
+r2
+and indeed since we have
+r1 is smaller than r2
+we see that
+the numerator up here
+is smaller than the denominator
+so this will be smaller than one
+which corresponds to omega 2 being
+smaller than omega 1 or
+for wavelength
+we know that the observed wavelengths
+for our for observer 2
+is so
+for so i call the wavelength here not
+lambda since lambda is already
+already given but we will call it
+well i would call it just mu
+we then know that the wavelength
+observed by observer 2
+mu 2 is larger than mu 1
+well in larger wavelength we always call
+that this is more red
+so we have a red shift
+now we look at what happens if observer
+2 is being approximately at infinity
+well observer 2 being approximately
+infinity
+for a schwarzschild space time means
+that he is
+sitting in the approximately flat space
+so we can just take the limit of the
+expression for small
+r2 well then the denominator just kicks
+out here
+and we find that omega 2 divided by
+omega 1
+for r2 to infinity
+is just square root of 1 minus 2 gm
+divided by r1
+and now the second special case is what
+happens if we send
+r1 to the schwarzschild radius rs is to
+gm
+but you see that then the numerator
+becomes very very little so
+the observed frequencies
+so omega 2
+grows larger and larger
+the more r1 is near the schwarzschild
+radius
+and of course if we are exactly at
+so the redshift is even stronger and
+stronger
+so the wavelength are so you observe
+very very large wavelength
+and if you go to the schwarzschild
+radius
+so if you sit now exactly at the
+schwarzschild radius
+this whole formula then breaks down you
+can't observe a frequency then anymore
+so you can observe any wavelength and
+set and so
+you can't bring information
+from the schwarzschild radius or even
+from below the 30 radius outside this is
+not possible
+you have to sit above the schwarzschild
+radius
+and with this
+we want to close this tutorial
+and we hope to see you next time

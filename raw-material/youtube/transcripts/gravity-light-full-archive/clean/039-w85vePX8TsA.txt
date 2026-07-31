@@ -1,0 +1,533 @@
+this program is being presented to you
+by the Harris International winter
+school on gravity and lights so good
+morning and welcome back to the ve
+International winter school on gravity
+and light the topic of today's tutorial
+is diagrams and as most of the times we
+want to start with today very short
+statements but nevertheless five
+statements on the Schwarzschild black
+hole in Schwarzschild coordinates now
+geodesics starting at our larger than 2m
+never reach or smaller than to him
+that's correct because when you remember
+the space-time diagram where we draw the
+radial in the time coordinate here and
+we had the singularity at 2m and this
+point is excluded so starting out of
+here can never end somewhere here the
+exact form of the nahji desig is like
+that and like that
+these are the in going ones and here
+this is the part for the region are
+smaller than 2m so here we can't jump
+over next one a Schwarzschild black hole
+is a non rotating but charged black hole
+that's not correct since that's the
+resna nordstrom solution and if we cross
+out charged then this would be correct
+but as it is phrased here it is not in
+Eddington finkelstein coordinates radial
+nine Jude Essex fall into the black hole
+on straight lines at angle 45 degrees
+that's right if you remember the diagram
+that was constructed in the lecture so
+here we had our again at the time he was
+again two M
+then these here became dead ones so
+that's right
+Eddington Finkelstein coordinates cover
+all possible radii are in zero to
+infinity as you can see that's right as
+well
+Nigel Essex in Schwarzschild coordinates
+starting from our smaller than two M can
+never leave this region that's true
+again same argument as above the point
+to M is excluded therefore you can't
+pass this point and that's it we
+continue with exercise two now geodesics
+conformal transformations of the metric
+have no effect on the Judaic equation
+the question here is that we should show
+that a curve gamma that is a naja desig
+with respect to a metric gene even only
+if it is an eidetic with respect to
+Omega squared times G where Omega
+squared is a smooth function on M there
+is no where vanishing okay so what we
+need to check is if we for example start
+here what does that mean we have a
+connection with respect to the metric G
+and X is now the tangent vector to the
+curve gamma then gamma is a large
+geodesic
+and what we want to check here is
+whether if you use this condition this
+one Omega squared G the other connection
+X X it's again another desig that's
+what's to show here and just to comment
+on that that would be only the one
+direction but the other follows
+immediately because you just need to
+invert this factor here and then that's
+the same so we will just do the one
+direction here okay and what we want to
+look at is the eighth component of this
+thing and as you know this is X a D by
+DX a sorry this should be some B
+otherwise we get an index conflict and
+this act on X a so that's the first term
+of the covariant derivative and now we
+get the gammas but you need to be
+careful these are the gammas with
+respect to the new metric the conformal
+transformed metric as we say then the a
+goes here we derived with respect to B
+and we maybe put some n here so we have
+X B X and that should be correct okay we
+continue by just leaving this term here
+and we have to write out the gammas in
+order to see what happens here so the
+definition was one half now we get the
+inverse metric in front but in order for
+this to be the inverse we need the
+factor 1 over Omega squared then here's
+symmetric and we choose indices a D for
+example I can we leave out the minus one
+that should be here but
+you know what that means and then inside
+of here we have the metric which is
+Nablus squared G Omega squared G then we
+have the indices and D comma B plus
+Omega squared G and now we have D B
+comma n that's the next one minus Omega
+squared G and here we have and B comma
+and here it is d so we check it NB down
+here the 1 is replaced by the summation
+here and we derive with our symbol so
+this comma again means D by DX B D by DX
+and D by DX D okay that should be
+correct and now we have a close look at
+this term so here here and here we will
+get some product rule that means we have
+six terms in total three of them will
+just reproduce the old gammas because
+this Omega squared factor stays
+untouched in front of each of them and
+cancels with this one over Omega squared
+so what we can write is d by d XB x a
+plus 1/2 you know I wanted to do this
+faster so we saw that this produces the
+old cameras therefore this is G G gamma
+up we have an A and down and be on XP X
+L and I realized that here x p xn was
+missile otherwise we would have some
+index problems
+so these are the old gammas and now we
+have to carefully look at the other part
+so what do we have here we have 1/2 in
+front 1 over Omega squared then the
+inverse metric the stays untouched and
+now the bracket opens and now this
+derivative acts on the Omega that means
+the G stays untouched like that and now
+we get to omega x omega comma b and the
+same for the other terms that means g DB
+twice omega x omega comma n continue
+here - the g and b now times 2 omega x
+omega comma d and don't forget the xpx m
+so that's it up to here and now we again
+analyze what we have here this one is
+just knobloch eggs connection with
+respect to the metric g x and of that
+the 8th component but we know that this
+is zero because that was our starting
+point so this one is gone so in the
+right part we may have a closer look at
+the last term here this is basically g
+and b XP xn but g and b XP xn is just a
+length of the curve and since we started
+from knowledge of ethics this one is
+gone as well so what remains we do some
+reordering this 2 cancels this 2 here 1
+of the square the square goes
+and what remains is one over Omega G ad
+and there it is G and now we see that
+because of the sum here and the symmetry
+of the metric we can write this also as
+two times G and D Omega comma B now we
+have xB X and that should be correct
+okay so what's the next step you can
+pull the two ouch
+that means we stay with this one and now
+one where we could contract these two
+here that means we sum over the D and
+get some Kronecker Delta a n okay and
+this a n takes this one and makes this
+one into an a it means we have comma B
+that one stays untouched these produce
+to Delta and this one gets some XA okay
+that looks quite nice one further step
+may be so we can also write this as
+twice the X acting on the logarithm of
+Omega and
+this whole thing times X a because the X
+acts as a derivative that means 1 over
+Omega is here the 2 is there already and
+then we need to derive the inner part
+and this is just Omega comma B if we
+expand the X in some sum over the B's ok
+and now we carefully look at this term
+and maybe call it alpha so what's left
+is alpha times X a and if you look at
+this one that's just a function because
+that's a function a vector field acting
+on a function produces a function this
+is in total just a function on M that
+means we can think of that as some
+parameter that scales the value and if
+you remember the most general form of
+the geodesic equation that was this one
+and only if we do some affine
+parameterization this one goes but it
+has not to go in order to for X to be
+the tension to some do desig and since
+we started up here with the left part of
+the geodesic equation and arrived at the
+right part of the Judaic equation this
+is correct and we showed that if we
+start from an algae disick for this
+connection then this conformal
+transformation doesn't change that
+it changes the parameterization but that
+doesn't matter because it's nevertheless
+a geodesic and that's it
+okay so in the third exercise we want to
+carefully construct the Penrose diagram
+of a radiation field universe so we will
+guide you through all the necessary
+steps in order to produce the Penrose
+diagram for this situation and the first
+step here is that we find the exact form
+of the radial null geodesics here so
+first we read the question find a
+differential equation for radial
+knowledge of ethics so that it's
+important in a spatially flat frw
+universe filled with radiation we should
+use this charge and then write
+explicitly down the range of the chart
+variables okay so the first thing that
+we notice is we are spatially flat that
+means Kappa equals zero our universe is
+filled with radiation and if you
+remember the scale factor was
+proportional to t to the two over n for
+all values of Omega that appears here so
+this one basically comes from the
+equation of stage that is P equals Rho
+times Omega and different omegas produce
+different metro types or radiation here
+and for radiation we had Omega equals 1
+over 3 if we plug that in here that
+means 3 times 4/3 produces a 4 and that
+means in our case we have T to the
+one-half as our scale factor
+okay we only want to consider radio now
+geodesics and that implies that theta
+dot and Phi dot equals zero in our case
+and a very easy way to find the this
+differential equation for the night
+geodesics as a following so we know that
+the Lagrangian in a suitable
+parameterization is zero or it is it is
+always zero because it allows you that
+six that means the length is zero and we
+can explicitly write out the Lagrangian
+so this would be minus t dot squared
+plus t times r dot squared and that's it
+because the metric for the flat case was
+just - in the zero zero component and
+some a squared in the spatial part and a
+squared is just T so this is our
+Lagrangian and we can do some reordering
+here to start a little earlier that
+means we put this to the other side and
+divide by our dot squared that means we
+have T dot over our dot the whole thing
+squared and this is equal to T now we
+take the square root that means we have
+T dot over r dot equals plus minus
+square root of G and now we look at this
+expression that is DT over D lambda for
+example if we call the parameter so and
+now in the denominator r dot but this is
+just the lambda over D R and this after
+application of the chain rule is DT by D
+R so we have this differential part of
+this equation and and since this is
+precisely what we want because we want
+to draw a diagram
+t R so we need T in dependence on R that
+means this is the same as now I will
+write the integrals at first so this is
+1 over square root of T we divide by
+that here it is T T equals integral plus
+minus dr okay this can be solved you get
+one integration constant because we
+integrate once and on the left hand side
+we get twice square root of T and on the
+right hand side we get C plus minus R C
+is a constant now we can divide by 2 and
+square the whole expression and we get T
+of R equals 1 over 4 C plus minus R
+squared so that's oh I see that we
+already solved what should be solved in
+the next question but actually it
+doesn't matter so we maybe put that here
+so we should determine the T coordinate
+of this geodesic in terms of its R
+coordinate and that's what we did
+already but what we forget was the range
+of these two variables so the T is in
+and our vision okay T should be greater
+than 0 and R as well so this is our
+range here we will for each of the steps
+explicitly write down the ranges of the
+coordinates because that's particularly
+important for constructing these
+diagrams okay and I will put the form of
+the geodesics again here so that's this
+one and now we can draw a diagram in
+which we put some of the geodesics and
+by some women we take the plus
+take the - and we shift by the sea so
+this essentially looks like that
+so we have the are here T is normally on
+the y-axis and now we need to draw many
+parabola um so for example this one that
+one
+of course they start over here so we get
+this one as well and I get this one and
+like that it continues but one thing
+that is important since we specified
+these ranges here this one and this one
+and this one and this one they are not
+part of the diagram so T is larger than
+zero that means here these are really
+two different geodesics so this is the
+first and that's the second one in that
+chart that's how it looks
+okay now we are asked to find some
+transformation that is another charge
+and where these curves here are lines of
+constant slope plus minus 1 and that's
+always the second step so we need to
+make the null geodesics that run on
+arbitrary curves to some curves that are
+like that or like that and we will see
+how this works
+and I wanna rescale the T that means we
+have some new T that of course may
+depend on T R theta and Phi and one way
+to find this one is to first solve this
+equation for R so we do that that would
+be R equals plus minus twice the square
+root of t minus C see if this is correct
+so times three times four and then we
+take the square root and get 2 times the
+square root and then plus minus because
+of that one and minus C should be
+correct and since we want all lines to
+be straight lines of constant slope plus
+minus one then it would be good to
+define this one as a new t bar so T bar
+is now defined as twice square root of
+the old team okay you could basically
+rescale the R coordinate as well but
+that essentially doesn't matter okay
+again we draw some diagram so it's not
+asked here but it helps to understand
+what happens here so now we have the are
+here and the T bar here and now we get
+lines of constant slope plus one and
+straight lines of constant slope minus
+one and of course the C shifts them here
+and we again look at the ranges of
+course the are stayed the same and the
+TT bar also stayed the same since we
+just took the square root okay so that's
+basically it for the first three
+questions here and one remark I have to
+make is that why we exclude T equals
+zero that's important because this is
+our singularity the Big Bang so to say
+and you can see that here actually
+because we choose some particular dust
+model or some now we choose some
+radiation model this one with Omega
+equals 1 over 3 and if you look at the
+metric this produces minus 1 T and then
+it continues and the T here if this gets
+zero then the metric would be degenerate
+and this is what we usually call a
+singularity so that's not good and
+therefore we need to exclude the T
+equals 0 and that results in these
+points that are excluded yep and the
+last thing we could do is this our D and
+these are the set the ingoing ones and
+these are the outgoing ones I hope
+that's correct yes so outgoing in going
+okay so that's it and we continue with
+the next question because we're not done
+yet okay
+let's continue with the next question
+which is about the so called null
+coordinates that we normally call U and
+V and the idea here was so the result
+from the last step was R and T bar and
+we had the geodesics as curves of
+constant slope plus minus 1 the idea
+here is now to cleverly rotate the
+coordinate system such that this is the
+U axis and this is the V axis that means
+the knowledge of the six run parallel to
+the both axis and we just define you as
+T bar plus R and V as T bar minus R ok
+so if we do that we arrived precisely at
+this situation and we first look at the
+range so T plus R these are both
+positive as we checked in the exercise
+before or in the question before
+services in 0 to infinity and V is in
+minus infinity to infinity now we have
+to draw the diagram and that means I
+want you on this axis so here is U that
+is V and we can exclude this area maybe
+I have to somehow like that otherwise
+you can tell that means so V is U is
+larger than 0 and we know that geodesics
+now look like that so that's
+first direction and these are the others
+but now we can further constrain this
+thing because we can for example look at
+you plus B which is twice T bar which is
+of course greater than zero and what
+that means is that we can also exclude
+this part here because here for example
+this point we have u equals Q for
+example and V equals minus three or four
+and then this would be negative so this
+is excluded and similarly we can look at
+U minus V which is twice R which is
+again greater than zero and this
+condition will exclude that part so we
+are left with this kind of wedge here
+where you may run to infinity but now we
+have all the knowledge of ethics along
+the coordinate axis and the reason to do
+this is because now we want to
+compactify this that means we take some
+function that produces out of the
+Infinity some finite value and by doing
+that this function that produces this
+cannot be linear therefore the Cohen
+structure would not be preserved if it
+would be like that because then for
+example a cone that first looks like
+that by this transformation could after
+that maybe look like that which we don't
+want therefore we put the knowledge of
+ethics on the coordinate axis and then
+the rescaling just produces something
+like that okay so we will do that and
+one suitable function is the arc tangent
+so here we have PI half minus PI half
+like that and now this is and that's
+also important a strictly monotonous
+curve so we define you know capital EU
+that is the arc tangent of the small U
+and similarly for the V and since this
+one is strictly monotonous all the
+conditions that we had before
+now also hold for the capital u and
+small V and capital V so maybe first
+ranges so this you can check up here was
+the small u was from zero to infinity
+that means the capital u is from zero to
+pi half and for the V we had minus
+infinity that could be a possible value
+so this is the range but as I said the
+conditions that u plus V must be greater
+than zero and you - we must be greater
+than zero
+also hold so we can draw a diagram it
+looks like this we have you again here
+and B here so this would be something
+like that where here we have I have here
+we have I have here we are at minus PI
+half and all the other stuff is now not
+part of our diagram and still the
+geodesics are either that or that so we
+preserve the cone structure with which
+is this one but compactified or one
+would better say bounded our range of
+coordinates so that was the second last
+step and the file transformation that we
+have to do is
+again recover some or a notion of
+temporal and radial coordinates because
+the whole idea of this Penrose Penrose
+Carter diagram is to make some
+statements on the causal structure and
+therefore we must preserve temporal and
+radial coordinates in the way that we
+are used to them so we want to have some
+are here and some T here so that's the
+the aim and then we can talk about
+future and past okay and the final
+transformation basically undo this up
+here but of course with the bounded new
+coordinate capital u and capital V so we
+define R and T where T is now u plus me
+and this is now u minus V okay
+what we immediately see because of these
+conditions is that they both are larger
+than zero which is good because we want
+this to be some radio and some and some
+temporal coordinate so we can write T
+starts at zero and our also starts in
+zero and in principle they can go up to
+PI both of them can check the U is at
+maximum PI half the V as well so this
+one is clear and for the R coordinate
+it's the same because we subtract minus
+PI half that's adding PI half and we
+have this range here that is in
+principle possible so we draw the
+diagram that now is just this one so we
+have the are here and the T there and
+maybe put the PI so that's it
+and we basically could have
+everything that's in here but of course
+there are more conditions that is for
+example if you look at T plus R what is
+that this is twice you just using the
+definition here and we have seen that U
+is sorry wrong way around we saw that U
+is smaller than PI half therefore twice
+U is smaller than PI what that means is
+adding these both up must be smaller
+than pi
+this means we arrive here where this is
+excluded so this is out and since we
+kind of rotated back the knowledge of
+ethics again look like that or like that
+and here at T equals zero we have the
+singularity our Big Bang okay so that
+was basically constructing the Carter
+Penrose diagram for a radiation field
+frw universe that is spatially flat

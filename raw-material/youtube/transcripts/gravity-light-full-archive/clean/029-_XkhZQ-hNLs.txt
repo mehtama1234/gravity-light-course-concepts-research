@@ -1,0 +1,424 @@
+this program is being presented to you
+by the Harris international winter
+school on gravity and lights welcome to
+the W e Reyes International winter
+school on gravity and light the first
+lecture was about the notion of topology
+and topological spaces
+maddis what this tutorial will be about
+the first exercise are simple
+multiple-choice questions
+they are designed to spark discussion
+and as a self test
+you shall tick the rod correct
+statements but not the incorrect ones so
+let's start in Part A we look at a
+topological space the first answer says
+that it is defined by a set a topology
+and an atlas that is not true since the
+topological space is only a set occurred
+with a topology an atlas is additional
+structure required for a topological
+manifold that will be introduced later
+on a topological set is a set without
+any further structure that is also
+incorrect since a topological space is a
+set equipped with a topology and that
+the topology is further structure a
+topological space defines a notion of
+open sets well that is correct since a
+topology defines what open sets are a
+topological space always has integer
+dimension which is the 4th answer well
+that is also incorrect since we cannot
+speak of dimension when dealing with a
+topological space and last a topological
+space allows to check the continuity of
+a map from the underlying set to itself
+yes the
+is correct a topological space is the
+minimal structure required to define the
+continuity of a map so in Part A we had
+two correct answers three and five Part
+B deals with the chaotic topology on a
+set M it says that it cannot be defined
+on the natural numbers n that is not
+correct of course we can equip the
+natural numbers with the chaotic
+topology the second answer is a consists
+of all subsets of M which is also not
+correct since that only consists of the
+empty set and the set M itself the
+discrete topology would consist of all
+subsets of M the chaotic topology on is
+that contains the empty set well that is
+definitely correct since this is the
+first axiom of a topology it is the
+coarsest topology on M so here we have
+to introduce what corsa means on
+topologies so we can define that a
+topology
+o to is causa then then each apology a
+one
+if otwo is contained in oh one please
+mind that the notion of of being
+contained in another set doesn't define
+a total order since we cannot compare
+since there are there can be topologies
+that can not be said to be subsets of
+each other so we can only say for some
+topologies that they are subsets of
+other topologies and thus we have a
+partial order but if we can say that a
+topology is contained in another
+topology we say it is closer than the
+other and for the chaotic topology that
+only contains the empty set and the set
+M itself we clearly see that this is the
+causes - topology on M and the last
+answer for this question is that the
+chaotic topology makes all Maps F from n
+to our set M continuous where the domain
+n may carry an arbitrary topology so
+there we have to look at the notion of
+continuity and thus we have to look if
+the preimages of open sets are open in
+the domain so open sets on the target M
+are just the empty set and the set M
+itself the preimage of the empty set is
+clearly the empty set and the preimage
+of the set M is the set N which both are
+definitely open in a topological space n
+so this answer is correct
+in Part C we consider a map F from M to
+n between topological spaces M equipped
+with the topology om and n a cook with a
+topology Oh N
+in the first answer it says that
+continuity can only be defined if M is
+our m and n as our n for some positive
+integers m and n well that is wrong
+since we don't need to restrict
+ourselves through the real numbers as
+sets but we can choose an arbitrary set
+and equip it with a topology and then
+check for continuity of the map so that
+is wrong for some maps one can arrange
+for the topological notion of continuity
+to coincide with the undergraduate
+analysis notion of continuity if we
+equip so if we choose if we now choose M
+is our M and n is some our n like in the
+first answer and but when we equip both
+with the standard topology then we can
+then we find that the topological notion
+of continuity is equal to the under
+Gretchen air and a graduate notion of
+continuity with the epsilon-delta
+criterion so that is correct
+continuity of a map can only be defined
+for some topologies no that is wrong we
+continuity of a map is defined for any
+topology continuity is a property of a
+map that only depends on the topology om
+that is also not correct
+since continuity says that pre images of
+open sets are open in the domain so we
+need to know what open sets in the
+target are as well as on the domain and
+thus we need the topology on the target
+o n as well as the topology on the
+domain om
+we need both so that is wrong and the
+last answer is choosing the discrete
+topology on M makes all maps from M to n
+continuous
+again this is correct now since the
+discrete apology and M are all the
+subsets of M and now we can equip the
+target end with an arbitrary topology
+and we find that the pre images of open
+sets on the target are always open on
+the domain since we choose the discrete
+topology namely the power set on M as
+our open sets so it is correct and the
+last part of this exercise is about the
+notion of open and closed sets on
+topological spaces so a subset you that
+is a subset of M for topological space
+may be open and not open at the same
+time whether there's nonsense
+either it is open or is not open but not
+both at the same time it may be open but
+not closed well that is correct as an
+example look at M is equal to the real
+numbers we equip it with the standard
+topology and then we look at the
+interval U is the open interval from 0
+to 1 where 0 and 1 are not included this
+subset is clearly open and it is not
+closed since the complement which is
+minus infinity to 0 included and UNIF
+unified with the
+interval from one included to infinity
+is not open so this is wrong it is right
+a subset may be closed but not open this
+is also correct
+we again give an example with the real
+numbers equipped with standard topology
+and now we look at the interval 0 1 with
+0 & 1 included this interval is closed
+but not open it may be open and closed
+this is also correct so we show this in
+the lecture that for a for an arbitrary
+topological space M the set M itself is
+open and closed in the topology at the
+same time so this is correct and the
+last answer that it may be not open and
+not closed is also correct again an
+example for that we take the real
+numbers and look at the interval 0 1
+with 0 included and 1 excluded so this
+interval is neither open nor closed and
+thus this answer is correct this was the
+first exercise now we move on to the
+second exercise which is about
+topologies on a simple set the first
+question is to write down the definition
+of a topology Oh on a set M so
+Oh which is a subset of the power set of
+em on a set M is called a topology on M
+if three criteria are fulfilled the
+first one is that the empty set is an
+element of O as well as the set M is an
+element of o the second one is that for
+two sets U and V that are both elements
+of the Chapel of O also their
+intersection is part of the of O and the
+third one third and last one is that for
+a family CA where C alpha where alpha is
+the element of some index set a if we
+have this family C alpha as an element
+of O then also the Union with respect to
+all these alpha in the index set of the
+C alpha is also an element of the
+topology this is the definition of a
+topology on a set M now we have an
+example we have the set M that contains
+the elements 1 2 3 & 4 is clearly a set
+and the question is plus a 1 as the set
+of the empty set aside with the element
+1 and the set M itself constitute a
+topology on M we see that
+first criteria is fulfilled the empty
+set is an element of oh one as well as M
+is an element of oh one the second
+criterion is also fulfilled for example
+the intersection of the empty set with
+set the element one gives again the
+empty set which is an element of oh one
+or intersection of the set with M and
+one with M it's just the center with the
+one we can look at all these
+possibilities and see that all
+intersections are again in oh one and
+thus the second criterion is fulfilled
+and also the third criterion is
+fulfilled as each unification as each
+as we can look at as the union of all
+sets for example set with the M + 1 + M
+which is again M o the empty set the
+70mm 1 the element 1 they are all again
+part of a 1 and we see that of all
+unions we can imagine with these sets in
+a one we always land again in a one thus
+all Criterion's are fulfilled and a one
+is a Tripoli G on M
+now the question is is the topology Oh -
+that is defined here also in topology so
+we can again check the empty set as well
+as the set M are both in Oh - all the
+intersections of elements in otwo are
+again elements of Oh - so second
+criterion is also fulfilled however if
+we check criterion three we see that if
+we consider the union of the sets one
+and two which is the set with the
+elements one two that this is not in a
+chew thus we have a violation of
+criterion 3 here and OH - is not a
+topology on em and the last question is
+are there other topologies than the ones
+recognized so far
+well definitely there are so there are
+for example the chaotic topology or the
+discrete topology and many many more
+so this was exercise two which deals
+with tuple with topologies on a simple
+set and now we move on to exercise three
+about continuous functions so what is
+the definition of a continuous map so
+definition of a continuous map is just
+that pre images of open sets in the
+target are open in the domain so let now
+MP again the set one two three four and
+we considered the identity map on M it
+is defined by taking the element one to
+itself and taking element 2 to itself
+and so on now we want to check if the
+identity map is continuous if we equip
+the domain with the chaotic topology and
+the target with the topology Oh target
+that contains the empty set and set one
+enter set M itself so clearly our target
+is a topology on M so we can look at the
+pre images of open sets we look at the
+pre image under the identity map of the
+set one that is an open set in the
+target and we see due to the identity
+map mapping all elements to itself that
+this is the set with the element 1 but
+the set with the element 1 clearly is
+not an element
+of the chaotic topology with which we
+equipped the domain so the pre images of
+open sets are not open thus the identity
+map is not continuous with respect to
+the chosen topologies but now we
+consider the inverse identity map it
+also maps from n to M but now the target
+is equipped with the take chaotic
+topology and the domain with the other
+topology first we provide the values of
+the inverse identity map
+well not as easy since also the inverse
+identity map only takes elements from
+the set to itself so we get one map 2 1
+2 2 2 and so on now we want to check
+whether it is inverse identity map is
+continuous
+therefore we again look at pre images of
+open sets now the domain is equipped
+with the other topology and the target
+is equipped with a chaotic topology thus
+we can only look at the pre images of
+the open set which is the open set which
+is an element of O so we call this
+topology here o the topology of the
+domain and the other pre image under the
+inverse identity map is off the set M
+itself
+well palace M itself which is also an
+element of O fast
+the inverse identity map which we
+denoted IDM inverse is continuous with
+respect to the chosen topologies now we
+have seen how the notion of continuity
+is directly impacted by the chosen
+topologies on domain and target in
+exercise 4 which is already the last
+exercise of this problem sheet we deal
+with the standard topology on Rd so the
+first question is to sketch the real
+intervals that are given in the table
+below and decide whether they are open
+or not so the interval 0 1 with 0 & 1
+excluded we can draw easily in this way
+and clearly does this open in the
+standard topology as we can find as we
+can at every point find open balls the
+completely lie in this interval for the
+interval 0 1 with 0 included which we
+could draw like this we cannot find open
+balls anymore so consider we are sitting
+here with consider the point 0 we can
+not find an open ball around the point 0
+such that it completely lies in this
+interval plus this interval is not open
+the other case would be that series
+exclude
+but one is included that doesn't change
+anything since now we fail at the point
+1 and again the set is the interval is
+not open and the interval with 0 & 1
+included it's also not open now we look
+at the union of the open interval 0 1
+and the open interval 0 to 3 which is
+just pictured like this so we see the
+union of open sets is of course again
+open that was a criterion for a topology
+and of course we can also can find open
+poles at any point in these in this
+interval so that they lie completely in
+this interval so now we have understood
+what open intervals on the real line R
+so what about subsets of R 2 we now
+consider 6 different subsets of R 2
+which is equipped with a standard
+topology
+note that the this frame around the
+subsets has no meaning it is not a
+rectangular area of R 2 but rather it's
+it represents all of our two so this is
+all of our two here and we have this
+subset and weekends and we easily see
+that for each point we can find such
+open bolts such that the ball completely
+lies in the subset and thus this up
+that is open also the second example is
+an open subset of r2 you see and every
+point you can find open balls that are
+completely in the set
+thus a subset is open the third example
+here it's not open anymore
+you could you could consider this point
+here and then you can find no open ball
+that completely lies in the set itself
+it always said some outside territory
+thus this set is not open in our tube
+here this was an open interval in our
+however now this subset is not open in
+r2 as we can find no open ball in r2
+that completely lies in this open
+interval on our so the open interval on
+on our is not open in r2
+now the fifth example here is directly
+the compliment to the second example
+so the compliment was open that means
+that this set is closed
+and now we want to check whether it is
+open well no it's not we can see this
+easily that there are no open bolts for
+example for this point and the last
+subset of r2 is again a union of open
+sets and such a union of open sets is of
+course again open so now we have seen
+examples of open intervals in our as
+well as in r2 and now we look at a
+function f that map's from the real
+numbers to the real numbers and is given
+by the following graph now top both
+domain and target of this map are
+accrued with a standard topology and we
+want to know whether this function is
+continuous so continuity means that
+three images of open sets are open and
+now we look at an open set here in the
+target which could be for example
+the set we see that it's pre-image
+goers
+to here however this point is included
+in the interval and in the last question
+we saw that such an interval where 1 4
+is included is not open in R with
+respect to the standard topology thus
+this function is not continuous this we
+would also expect from our intuition
+gained from undergraduate analysis as we
+see that this function makes a jump
+which we say should be is not to be not
+continuous
+so for maps on the reals equipped with a
+standard topology our topological notion
+of continuity coincides with the notion
+from undergraduate analysis

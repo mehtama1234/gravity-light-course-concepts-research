@@ -10,12 +10,12 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "raw-material" / "youtube"
-MANIFEST = RAW / "course-manifests" / "gravity-light-central-lecture-course.json"
-SLUG = "gravity-light-central-lecture-course"
+DEFAULT_MANIFEST = RAW / "course-manifests" / "gravity-light-central-lecture-course.json"
+DEFAULT_SLUG = "gravity-light-central-lecture-course"
 
 
-def load_manifest() -> dict[str, Any]:
-    return json.loads(MANIFEST.read_text(encoding="utf-8"))
+def load_manifest(path: Path) -> dict[str, Any]:
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
 def video_url(video_id: str) -> str:
@@ -30,14 +30,14 @@ def dump_json(cmd: list[str]) -> dict[str, Any]:
     return json.loads(subprocess.check_output(cmd, cwd=ROOT, text=True))
 
 
-def paths() -> dict[str, Path]:
-    base = RAW / "transcripts" / SLUG
+def paths(slug: str) -> dict[str, Path]:
+    base = RAW / "transcripts" / slug
     out = {
         "base": base,
         "raw": base / "raw-vtt",
         "clean": base / "clean",
         "cues": base / "cues",
-        "meta": RAW / "metadata" / SLUG,
+        "meta": RAW / "metadata" / slug,
         "playlists": RAW / "playlists",
     }
     for path in out.values():
@@ -45,19 +45,26 @@ def paths() -> dict[str, Path]:
     return out
 
 
-def capture_playlist_manifest(manifest: dict[str, Any]) -> None:
+def capture_playlist_manifest(manifest: dict[str, Any], slug: str) -> None:
+    source_url = manifest.get("playlist_url") or manifest.get("channel_url")
+    if not source_url:
+        return
     data = dump_json(
-        ["yt-dlp", "--flat-playlist", "--dump-single-json", manifest["playlist_url"]]
+        ["yt-dlp", "--flat-playlist", "--dump-single-json", source_url]
     )
     data.pop("epoch", None)
-    (paths()["playlists"] / f"{SLUG}.json").write_text(
+    (paths(slug)["playlists"] / f"{slug}.json").write_text(
         json.dumps(data, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
 
 
-def download_video(index: int, video_id: str) -> None:
-    p = paths()
+def video_index(video: dict[str, Any]) -> int:
+    return int(video.get("index", video.get("archive_index")))
+
+
+def download_video(index: int, video_id: str, slug: str) -> None:
+    p = paths(slug)
     output_tpl = str(p["raw"] / f"{index:03d}-%(id)s-%(title).120B.%(ext)s")
     result = run(
         [
@@ -149,8 +156,8 @@ def parse_vtt(path: Path) -> tuple[str, list[dict[str, Any]]]:
     return "\n".join(deduped).strip() + "\n", compact_cues
 
 
-def choose_vtt(index: int, video_id: str) -> Path | None:
-    candidates = sorted(paths()["raw"].glob(f"{index:03d}-{video_id}-*.vtt"))
+def choose_vtt(index: int, video_id: str, slug: str) -> Path | None:
+    candidates = sorted(paths(slug)["raw"].glob(f"{index:03d}-{video_id}-*.vtt"))
     if not candidates:
         return None
     ranks = []
@@ -168,19 +175,27 @@ def choose_vtt(index: int, video_id: str) -> Path | None:
     return sorted(ranks, key=lambda pair: (pair[0], pair[1].name))[0][1]
 
 
-def rebuild_index() -> None:
-    manifest = load_manifest()
-    p = paths()
+def rebuild_index(manifest: dict[str, Any], slug: str, index_output: Path, summary_output: Path, video_type: str | None = None) -> None:
+    p = paths(slug)
     records = []
-    for video in manifest["videos"]:
-        index = video["index"]
+    videos = [
+        video
+        for video in manifest["videos"]
+        if video_type is None or video.get("type") == video_type
+    ]
+    for video in videos:
+        index = video_index(video)
         video_id = video["id"]
-        vtt = choose_vtt(index, video_id)
+        vtt = choose_vtt(index, video_id, slug)
         if vtt is None:
             records.append(
                 {
                     "id": video_id,
                     "index": index,
+                    "archive_index": video.get("archive_index", index),
+                    "type": video.get("type", "central-lecture"),
+                    "type_index": video.get("type_index", index),
+                    "related_central_lectures": video.get("related_central_lectures", []),
                     "expected_title": video["title"],
                     "title": video["title"],
                     "url": video_url(video_id),
@@ -201,6 +216,10 @@ def rebuild_index() -> None:
             {
                 "id": video_id,
                 "index": index,
+                "archive_index": video.get("archive_index", index),
+                "type": video.get("type", "central-lecture"),
+                "type_index": video.get("type_index", index),
+                "related_central_lectures": video.get("related_central_lectures", []),
                 "expected_title": video["title"],
                 "title": metadata.get("title", video["title"]),
                 "url": video_url(video_id),
@@ -214,19 +233,19 @@ def rebuild_index() -> None:
                 "transcript_status": "available",
             }
         )
-    (RAW / "transcript-index.json").write_text(
+    index_output.write_text(
         json.dumps(records, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
     summary = {
-        "slug": SLUG,
+        "slug": slug,
         "title": manifest["title"],
-        "videos": len(manifest["videos"]),
+        "videos": len(videos),
         "available_transcripts": sum(r["transcript_status"] == "available" for r in records),
         "total_words": sum(r.get("word_count", 0) for r in records),
         "total_cues": sum(r.get("cue_count", 0) for r in records),
     }
-    (RAW / "summary.json").write_text(
+    summary_output.write_text(
         json.dumps(summary, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
@@ -239,13 +258,24 @@ def rebuild_index() -> None:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--summary-only", action="store_true")
+    parser.add_argument("--manifest", default=str(DEFAULT_MANIFEST))
+    parser.add_argument("--slug", default=DEFAULT_SLUG)
+    parser.add_argument("--index-output", default=str(RAW / "transcript-index.json"))
+    parser.add_argument("--summary-output", default=str(RAW / "summary.json"))
+    parser.add_argument("--video-type", choices=["central-lecture", "tutorial", "evening-lecture"])
     args = parser.parse_args()
-    manifest = load_manifest()
+    manifest = load_manifest(ROOT / args.manifest if not Path(args.manifest).is_absolute() else Path(args.manifest))
+    index_output = ROOT / args.index_output if not Path(args.index_output).is_absolute() else Path(args.index_output)
+    summary_output = ROOT / args.summary_output if not Path(args.summary_output).is_absolute() else Path(args.summary_output)
+    index_output.parent.mkdir(parents=True, exist_ok=True)
+    summary_output.parent.mkdir(parents=True, exist_ok=True)
     if not args.summary_only:
-        capture_playlist_manifest(manifest)
+        capture_playlist_manifest(manifest, args.slug)
         for video in manifest["videos"]:
-            download_video(video["index"], video["id"])
-    rebuild_index()
+            if args.video_type is not None and video.get("type") != args.video_type:
+                continue
+            download_video(video_index(video), video["id"], args.slug)
+    rebuild_index(manifest, args.slug, index_output, summary_output, args.video_type)
     return 0
 
 

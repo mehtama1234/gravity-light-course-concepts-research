@@ -1,0 +1,225 @@
+[
+  {
+    "id": "_XkhZQ-hNLs",
+    "index": 29,
+    "archive_index": 29,
+    "type": "tutorial",
+    "type_index": 1,
+    "related_central_lectures": [
+      1
+    ],
+    "expected_title": "Tutorial 1: Topology",
+    "title": "Tutorial 1: Topology (International Winter School on Gravity and Light 2015)",
+    "url": "https://www.youtube.com/watch?v=_XkhZQ-hNLs",
+    "duration": 1954,
+    "channel": "The WE-Heraeus International Winter School on Gravity and Light",
+    "clean_txt": "raw-material/youtube/transcripts/gravity-light-full-archive/clean/029-_XkhZQ-hNLs.txt",
+    "cue_json": "raw-material/youtube/transcripts/gravity-light-full-archive/cues/029-_XkhZQ-hNLs.json",
+    "raw_vtt": "raw-material/youtube/transcripts/gravity-light-full-archive/raw-vtt/029-_XkhZQ-hNLs-Tutorial 1： Topology (International Winter School on Gravity and Light 2015).en.vtt",
+    "word_count": 3135,
+    "cue_count": 831,
+    "transcript_status": "available"
+  },
+  {
+    "id": "ghfEQ3u_B6g",
+    "index": 30,
+    "archive_index": 30,
+    "type": "tutorial",
+    "type_index": 2,
+    "related_central_lectures": [
+      2
+    ],
+    "expected_title": "Tutorial 2: Topological Manifolds",
+    "title": "Tutorial 2: Topological Manifolds (International Winter School on Gravity and Light 2015)",
+    "url": "https://www.youtube.com/watch?v=ghfEQ3u_B6g",
+    "duration": 1776,
+    "channel": "The WE-Heraeus International Winter School on Gravity and Light",
+    "clean_txt": "raw-material/youtube/transcripts/gravity-light-full-archive/clean/030-ghfEQ3u_B6g.txt",
+    "cue_json": "raw-material/youtube/transcripts/gravity-light-full-archive/cues/030-ghfEQ3u_B6g.json",
+    "raw_vtt": "raw-material/youtube/transcripts/gravity-light-full-archive/raw-vtt/030-ghfEQ3u_B6g-Tutorial 2： Topological Manifolds (International Winter School on Gravity and Light 2015).en.vtt",
+    "word_count": 2565,
+    "cue_count": 666,
+    "transcript_status": "available"
+  },
+  {
+    "id": "5oeWX3NUhMA",
+    "index": 31,
+    "archive_index": 31,
+    "type": "tutorial",
+    "type_index": 3,
+    "related_central_lectures": [
+      3
+    ],
+    "expected_title": "Tutorial 3: Multilinear Algebra",
+    "title": "Tutorial 3: Multilinear Algebra (International Winter School on Gravity and Light 2015)",
+    "url": "https://www.youtube.com/watch?v=5oeWX3NUhMA",
+    "duration": 3439,
+    "channel": "The WE-Heraeus International Winter School on Gravity and Light",
+    "clean_txt": "raw-material/youtube/transcripts/gravity-light-full-archive/clean/031-5oeWX3NUhMA.txt",
+    "cue_json": "raw-material/youtube/transcripts/gravity-light-full-archive/cues/031-5oeWX3NUhMA.json",
+    "raw_vtt": "raw-material/youtube/transcripts/gravity-light-full-archive/raw-vtt/031-5oeWX3NUhMA-Tutorial 3： Multilinear Algebra (International Winter School on Gravity and Light 2015).en.vtt",
+    "word_count": 6180,
+    "cue_count": 1521,
+    "transcript_status": "available"
+  },
+  {
+    "id": "FXPdKxOq1KA",
+    "index": 32,
+    "archive_index": 32,
+    "type": "tutorial",
+    "type_index": 4,
+    "related_central_lectures": [
+      4
+    ],
+    "expected_title": "Tutorial 4: Differentiable Manifolds",
+    "title": "Tutorial 4: Differentiable Manifolds (International Winter School on Gravity and Light 2015)",
+    "url": "https://www.youtube.com/watch?v=FXPdKxOq1KA",
+    "duration": 2123,
+    "channel": "The WE-Heraeus International Winter School on Gravity and Light",
+    "clean_txt": "raw-material/youtube/transcripts/gravity-light-full-archive/clean/032-FXPdKxOq1KA.txt",
+    "cue_json": "raw-material/youtube/transcripts/gravity-light-full-archive/cues/032-FXPdKxOq1KA.json",
+    "raw_vtt": "raw-material/youtube/transcripts/gravity-light-full-archive/raw-vtt/032-FXPdKxOq1KA-Tutorial 4： Differentiable Manifolds (International Winter School on Gravity and Light 2015).en.vtt",
+    "word_count": 3846,
+    "cue_count": 1222,
+    "transcript_status": "available"
+  },
+  {
+    "id": "mACNdkRdHEA",
+    "index": 33,
+    "archive_index": 33,
+    "type": "tutorial",
+    "type_index": 5,
+    "related_central_lectures": [
+      5
+    ],
+    "expected_title": "Tutorial 5: Tangent Spaces",
+    "title": "Tutorial 5: Tangent Spaces  (International Winter School on Gravity and Light 2015)",
+    "url": "https://www.youtube.com/watch?v=mACNdkRdHEA",
+    "duration": 5545,
+    "channel": "The WE-Heraeus International Winter School on Gravity and Light",
+    "clean_txt": "raw-material/youtube/transcripts/gravity-light-full-archive/clean/033-mACNdkRdHEA.txt",
+    "cue_json": "raw-material/youtube/transcripts/gravity-light-full-archive/cues/033-mACNdkRdHEA.json",
+    "raw_vtt": "raw-material/youtube/transcripts/gravity-light-full-archive/raw-vtt/033-mACNdkRdHEA-Tutorial 5： Tangent Spaces  (International Winter School on Gravity and Light 2015).en.vtt",
+    "word_count": 7985,
+    "cue_count": 3575,
+    "transcript_status": "available"
+  },
+  {
+    "id": "C4jJe_b0KMs",
+    "index": 34,
+    "archive_index": 34,
+    "type": "tutorial",
+    "type_index": 6,
+    "related_central_lectures": [
+      6
+    ],
+    "expected_title": "Tutorial 6: Fields",
+    "title": "Tutorial 6: Fields",
+    "url": "https://www.youtube.com/watch?v=C4jJe_b0KMs",
+    "transcript_status": "missing",
+    "word_count": 0,
+    "cue_count": 0
+  },
+  {
+    "id": "bYfvT-ky1lU",
+    "index": 35,
+    "archive_index": 35,
+    "type": "tutorial",
+    "type_index": 11,
+    "related_central_lectures": [
+      11
+    ],
+    "expected_title": "Tutorial 11: Symmetries",
+    "title": "Tutorial 11: Symmetries (International Winter School on Gravity and Light 2015)",
+    "url": "https://www.youtube.com/watch?v=bYfvT-ky1lU",
+    "duration": 3597,
+    "channel": "The WE-Heraeus International Winter School on Gravity and Light",
+    "clean_txt": "raw-material/youtube/transcripts/gravity-light-full-archive/clean/035-bYfvT-ky1lU.txt",
+    "cue_json": "raw-material/youtube/transcripts/gravity-light-full-archive/cues/035-bYfvT-ky1lU.json",
+    "raw_vtt": "raw-material/youtube/transcripts/gravity-light-full-archive/raw-vtt/035-bYfvT-ky1lU-Tutorial 11： Symmetries (International Winter School on Gravity and Light 2015).en.vtt",
+    "word_count": 6013,
+    "cue_count": 1543,
+    "transcript_status": "available"
+  },
+  {
+    "id": "iwbJvfFNRh8",
+    "index": 36,
+    "archive_index": 36,
+    "type": "tutorial",
+    "type_index": 12,
+    "related_central_lectures": [
+      12
+    ],
+    "expected_title": "Tutorial 12: Integration",
+    "title": "Tutorial 12: Integration",
+    "url": "https://www.youtube.com/watch?v=iwbJvfFNRh8",
+    "transcript_status": "missing",
+    "word_count": 0,
+    "cue_count": 0
+  },
+  {
+    "id": "KQe2sqGIzTg",
+    "index": 37,
+    "archive_index": 37,
+    "type": "tutorial",
+    "type_index": 13,
+    "related_central_lectures": [
+      22,
+      23
+    ],
+    "expected_title": "Tutorial 13: Schwarzschild Spacetime",
+    "title": "Tutorial 13: Schwarzschild Spacetime (International Winter School on Gravity and Light 2015)",
+    "url": "https://www.youtube.com/watch?v=KQe2sqGIzTg",
+    "duration": 2012,
+    "channel": "The WE-Heraeus International Winter School on Gravity and Light",
+    "clean_txt": "raw-material/youtube/transcripts/gravity-light-full-archive/clean/037-KQe2sqGIzTg.txt",
+    "cue_json": "raw-material/youtube/transcripts/gravity-light-full-archive/cues/037-KQe2sqGIzTg.json",
+    "raw_vtt": "raw-material/youtube/transcripts/gravity-light-full-archive/raw-vtt/037-KQe2sqGIzTg-Tutorial 13： Schwarzschild Spacetime (International Winter School on Gravity and Light 2015).en.vtt",
+    "word_count": 3492,
+    "cue_count": 1240,
+    "transcript_status": "available"
+  },
+  {
+    "id": "HuQ79CWcDac",
+    "index": 38,
+    "archive_index": 38,
+    "type": "tutorial",
+    "type_index": 15,
+    "related_central_lectures": [
+      20,
+      21
+    ],
+    "expected_title": "Tutorial 15: Cosmology",
+    "title": "Tutorial 15: Cosmology  (International Winter School on Gravity and Light 2015)",
+    "url": "https://www.youtube.com/watch?v=HuQ79CWcDac",
+    "duration": 2612,
+    "channel": "The WE-Heraeus International Winter School on Gravity and Light",
+    "clean_txt": "raw-material/youtube/transcripts/gravity-light-full-archive/clean/038-HuQ79CWcDac.txt",
+    "cue_json": "raw-material/youtube/transcripts/gravity-light-full-archive/cues/038-HuQ79CWcDac.json",
+    "raw_vtt": "raw-material/youtube/transcripts/gravity-light-full-archive/raw-vtt/038-HuQ79CWcDac-Tutorial 15： Cosmology  (International Winter School on Gravity and Light 2015).en.vtt",
+    "word_count": 5016,
+    "cue_count": 1469,
+    "transcript_status": "available"
+  },
+  {
+    "id": "w85vePX8TsA",
+    "index": 39,
+    "archive_index": 39,
+    "type": "tutorial",
+    "type_index": 16,
+    "related_central_lectures": [
+      23
+    ],
+    "expected_title": "Tutorial 16: Diagrams",
+    "title": "Tutorial 16: Diagrams (International Winter School on Gravity and Light 2015)",
+    "url": "https://www.youtube.com/watch?v=w85vePX8TsA",
+    "duration": 2184,
+    "channel": "The WE-Heraeus International Winter School on Gravity and Light",
+    "clean_txt": "raw-material/youtube/transcripts/gravity-light-full-archive/clean/039-w85vePX8TsA.txt",
+    "cue_json": "raw-material/youtube/transcripts/gravity-light-full-archive/cues/039-w85vePX8TsA.json",
+    "raw_vtt": "raw-material/youtube/transcripts/gravity-light-full-archive/raw-vtt/039-w85vePX8TsA-Tutorial 16： Diagrams (International Winter School on Gravity and Light 2015).en.vtt",
+    "word_count": 4037,
+    "cue_count": 1054,
+    "transcript_status": "available"
+  }
+]
