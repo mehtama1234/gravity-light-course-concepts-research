@@ -1886,6 +1886,16 @@ def build() -> None:
         },
     ]
 
+    # Editorial overrides: hand/AI-authored plain-language rewrites win over generated
+    # prose. Keyed by concept id; any field present replaces the generated one.
+    overrides_path = ANALYSIS / "editorial-overrides" / "concepts.json"
+    if overrides_path.exists():
+        concept_overrides = json.loads(overrides_path.read_text(encoding="utf-8"))
+        for concept in concepts:
+            override = concept_overrides.get(concept["id"])
+            if override:
+                concept.update(override)
+
     write_json(ANALYSIS / "concepts" / "concept-atlas.json", concepts)
     write_json(ANALYSIS / "evidence" / "evidence-ledger.json", evidence_records)
     write_json(ANALYSIS / "lectures" / "lecture-atlas.json", lecture_atlas)

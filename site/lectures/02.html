@@ -69,16 +69,16 @@
           
                 <article class="row-block">
                   <h2><a href="../concepts/manifolds-local-flatness.html">Manifolds and Local Flatness</a></h2>
-                  <p>The course needs spaces that can be curved overall while still looking ordinary to a small local observer.</p>
-                  <p><strong>Object:</strong> A manifold is a space covered by charts, each chart translating a small patch into ordinary numbers while overlap maps say when two descriptions agree.</p>
-                  <p><strong>Operation:</strong> The main operation is changing charts and checking that statements survive the change rather than depending on one chosen coordinate grid.</p>
+                  <p>You want to describe a curved world using local measurements. A surveyor on Earth uses a flat map of their neighborhood, not a globe. Physics works the same way: observers carry clocks and rulers and measure what&#x27;s nearby. But where do those local measurements fit into a bigger picture that might be curved or strange?</p>
+                  <p><strong>Object:</strong> A manifold is a space built from a family of flat local coordinate systems (called charts) whose neighborhoods overlap. Each chart is just a map translating a patch into numbers, like turning a city block into graph-paper coordinates. Where two charts overlap, transition rules say how to convert between them. The manifold is the abstract glued-together whole.</p>
+                  <p><strong>Operation:</strong> You take a physical claim and check whether it survives a change of charts. You write it in one coordinate system, switch to a different one using the transition rule, and verify you get the same physical answer. If the claim is truly physical—independent of your choice of local grid—it will.</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/charts-atlases-coordinate-overlap.html">Charts, Atlases, and Overlap Rules</a></h2>
-                  <p>The course needs many local maps that can cover one space without pretending one map works everywhere.</p>
-                  <p><strong>Object:</strong> A chart assigns numbers to points in one patch, and an atlas is a compatible collection of such charts.</p>
-                  <p><strong>Operation:</strong> The operation is comparing charts on their overlaps and requiring the change from one chart to another to behave smoothly.</p>
+                  <p>You&#x27;re studying a sphere or a black hole or spacetime itself. One coordinate system works fine in some regions but breaks elsewhere—either mathematically or physically. You need a way to tile the whole space with overlapping local maps and stitch them together so the physics doesn&#x27;t depend on which map you pick.</p>
+                  <p><strong>Object:</strong> A chart is a local coordinate system: a rule assigning numbers to points in one patch of space. An atlas is a collection of charts covering the whole space. The glue that holds an atlas together is the overlap rule: where two charts cover the same region, there must be a smooth, invertible map translating between their coordinate labels.</p>
+                  <p><strong>Operation:</strong> Pick two overlapping charts. In the overlap zone, write down how coordinates from one chart relate to coordinates from the other. Check that this transition map is smooth (no jumps or breaks). If it is, the two charts are compatible. Do this for every pair that overlaps.</p>
                 </article>
                 
         </section>

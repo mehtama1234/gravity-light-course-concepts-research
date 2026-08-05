@@ -69,23 +69,23 @@
           
                 <article class="row-block">
                   <h2><a href="../concepts/metric-measurement.html">Metric Manifolds</a></h2>
-                  <p>After building nearness and smoothness, the course needs a rule that tells clocks, rulers, and light cones what they measure.</p>
-                  <p><strong>Object:</strong> A metric is a smoothly varying inner product on tangent spaces, with Lorentzian signature in spacetime so that time and space enter differently.</p>
-                  <p><strong>Operation:</strong> The operation is evaluating the metric on tangent vectors to compute intervals, norms, angles, volumes, and null directions.</p>
+                  <p>Imagine laying a path on a curved hillside. You can describe which spots are near each other, but you cannot yet say how far apart they are, how fast something travels between them, or which paths a light ray can take. You need a rule that assigns a measurement—a notion of distance and time interval—to every tiny step on the surface.</p>
+                  <p><strong>Object:</strong> A metric is a machine (mathematicians call it a tensor field, a smoothly varying function) that takes any two tiny displacements at a point and returns a number—their interval, or dot product. On a sphere it is Euclidean: two orthogonal vectors of lengths 1 have interval 1. In spacetime the metric is Lorentzian: a time-like and space-like vector can have zero interval, meaning they are perpendicular in a relativistic sense.</p>
+                  <p><strong>Operation:</strong> To use a metric: choose a point and two tangent vectors (infinitesimal displacements) at that point. Feed them into the metric. Out comes a number. That number is the dot product, or equivalently, the square of the distance between those two displacements (in spacetime, it can be negative, zero, or positive, and that sign tells you whether they are time-like, light-like, or space-like).</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/metric-signature-light-cones.html">Metric Signature And Light Cones</a></h2>
-                  <p>The course needs a measurement rule that separates possible time-like motion, space-like separation, and light-like travel.</p>
-                  <p><strong>Object:</strong> Lorentzian signature is the metric&#x27;s time-space sign pattern, and light cones are the resulting boundaries of causal influence.</p>
-                  <p><strong>Operation:</strong> The operation is evaluating the metric on tangent directions and sorting them into time-like, space-like, or null.</p>
+                  <p>Imagine a road where some journeys are forbidden. A traveler can walk to a neighbor&#x27;s house, but no signal can arrive faster than light. In spacetime, we need a rule for which paths are even possible: Can you reach this event from that one? Can light connect them? The metric, a measurement device for distances, must answer these questions.</p>
+                  <p><strong>Object:</strong> A Lorentzian metric is a measurement tool that assigns a signed interval to any infinitesimal displacement. Unlike a Euclidean metric (where the square of a distance is always positive), a Lorentzian metric has one negative direction (time) and three positive directions (space). The signature—the count of signs—is what makes spacetime causal and light possible.</p>
+                  <p><strong>Operation:</strong> To use the metric: write down two nearby events&#x27; separation as a vector in spacetime. Apply the metric (a matrix of numbers) to that vector. The result—the squared interval—tells you the separation&#x27;s type. If the squared interval is negative, the separation is timelike (one event might cause the other). If positive, it&#x27;s spacelike (they&#x27;re far apart in space, causally disconnected). If zero, it&#x27;s null or lightlike (light travels this path exactly).</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/proper-time-clock-reading.html">Proper Time As Clock Reading</a></h2>
-                  <p>The course needs a way to say what a clock actually records along its own path through spacetime.</p>
-                  <p><strong>Object:</strong> Proper time is the time measured along a time-like path by integrating the metric interval along that path.</p>
-                  <p><strong>Operation:</strong> The operation is evaluating the metric on the path&#x27;s tangent and adding the resulting clock increments along the path.</p>
+                  <p>Two people set off on a journey through space and time, each wearing a wristwatch. They meet again years later. Their watches show different elapsed times. How do we describe what each clock actually counted?</p>
+                  <p><strong>Object:</strong> Proper time is a quantity attached to a path through spacetime: you sum up the infinitesimal metric intervals (the tiny spacetime distances) all along that path using a Lorentzian metric, which accounts for both space and time directions weighted by the gravitational field.</p>
+                  <p><strong>Operation:</strong> To find proper time on a path, you take the metric at each tiny step forward on that path, apply it to the path&#x27;s direction vector, collect those results, and add them up from start to finish—like counting heartbeats as you walk.</p>
                 </article>
                 
         </section>

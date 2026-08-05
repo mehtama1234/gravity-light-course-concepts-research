@@ -69,37 +69,37 @@
           
                 <article class="row-block">
                   <h2><a href="../concepts/optical-geometry.html">Optical Geometry and Null Geodesics</a></h2>
-                  <p>The course needs to explain why light follows paths fixed by spacetime geometry rather than by an external optical medium.</p>
-                  <p><strong>Object:</strong> Null geodesics are curves whose tangent has zero metric length and is parallel transported along itself.</p>
-                  <p><strong>Operation:</strong> The operation is solving the geodesic equation under the null condition and comparing neighboring light rays through focusing or lensing.</p>
+                  <p>You watch starlight bend around the Sun, or light hover at a black hole&#x27;s edge. The light isn&#x27;t being pulled by a force—it&#x27;s following a path the curved spacetime itself prescribes. We need a language for &#x27;paths light naturally takes through warped geometry.&#x27;</p>
+                  <p><strong>Object:</strong> A null geodesic is a curve in spacetime whose tangent vector (the direction you&#x27;re moving) has zero length according to the metric. The curve also satisfies the geodesic condition: as you move along it, your direction stays constant (parallel transported) with respect to the space&#x27;s bending.</p>
+                  <p><strong>Operation:</strong> To find a light ray: start with the geodesic equation (the rule for &#x27;straightest&#x27; paths in curved space), impose the null condition (metric length = 0), and solve for the curve. You can then compare two nearby light rays to see if they converge (focusing) or diverge (defocusing).</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/geodesics-free-motion.html">Geodesics As Free Motion</a></h2>
-                  <p>The course needs a precise replacement for straight-line motion when spacetime may be curved.</p>
-                  <p><strong>Object:</strong> A geodesic is a curve whose tangent direction is transported along itself according to the connection.</p>
-                  <p><strong>Operation:</strong> The operation is checking whether the curve&#x27;s tangent has zero covariant change along the curve.</p>
+                  <p>Imagine a stone floating in space, far from all gravity and obstacles. It travels in a straight line. But what does &quot;straight&quot; mean when space itself is curved? In flat space the answer is obvious, but near a black hole or inside the warped spacetime around a star, there is no global flat background to measure against. The course needs a way to say &quot;this particle is moving freely&quot; using only the shape of spacetime itself.</p>
+                  <p><strong>Object:</strong> A geodesic is a curve (a path traced out in spacetime) with a special property: at every point along the curve, the tangent vector to the curve does not change direction according to the local measuring rule called the connection. The connection is the instruction for how to compare directions at nearby points without leaving the surface. A geodesic is a curve where that comparison says &quot;the tangent stays the same.&quot;</p>
+                  <p><strong>Operation:</strong> To check whether a curve is a geodesic: take the tangent vector at each point on the curve, transport it to the next point using the connection rule, and ask if it changed. If it did not change (its covariant derivative is zero), the curve is a geodesic. This operation turns an intuitive idea—&quot;the direction doesn&#x27;t bend&quot;—into a checkable mathematical condition.</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/metric-signature-light-cones.html">Metric Signature And Light Cones</a></h2>
-                  <p>The course needs a measurement rule that separates possible time-like motion, space-like separation, and light-like travel.</p>
-                  <p><strong>Object:</strong> Lorentzian signature is the metric&#x27;s time-space sign pattern, and light cones are the resulting boundaries of causal influence.</p>
-                  <p><strong>Operation:</strong> The operation is evaluating the metric on tangent directions and sorting them into time-like, space-like, or null.</p>
+                  <p>Imagine a road where some journeys are forbidden. A traveler can walk to a neighbor&#x27;s house, but no signal can arrive faster than light. In spacetime, we need a rule for which paths are even possible: Can you reach this event from that one? Can light connect them? The metric, a measurement device for distances, must answer these questions.</p>
+                  <p><strong>Object:</strong> A Lorentzian metric is a measurement tool that assigns a signed interval to any infinitesimal displacement. Unlike a Euclidean metric (where the square of a distance is always positive), a Lorentzian metric has one negative direction (time) and three positive directions (space). The signature—the count of signs—is what makes spacetime causal and light possible.</p>
+                  <p><strong>Operation:</strong> To use the metric: write down two nearby events&#x27; separation as a vector in spacetime. Apply the metric (a matrix of numbers) to that vector. The result—the squared interval—tells you the separation&#x27;s type. If the squared interval is negative, the separation is timelike (one event might cause the other). If positive, it&#x27;s spacelike (they&#x27;re far apart in space, causally disconnected). If zero, it&#x27;s null or lightlike (light travels this path exactly).</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/redshift-as-stretched-light.html">Redshift As Stretched Light</a></h2>
-                  <p>The course needs to explain how geometry changes the light that finally reaches an observer.</p>
-                  <p><strong>Object:</strong> Redshift is the change in measured light frequency between emission and observation along a null path.</p>
-                  <p><strong>Operation:</strong> The operation is comparing the light&#x27;s wave direction with the emitter&#x27;s and observer&#x27;s time directions.</p>
+                  <p>You measure starlight in a telescope and count the wave peaks in time. When the star is far away in an expanding universe, the waves arrive stretched. The wavelength is longer, the frequency lower. The light is shifted toward the red end of the spectrum. You need to know: is this redshift because the star is moving away, or because space itself is expanding between you and the star, or because the star is in strong gravity? These look identical in the data.</p>
+                  <p><strong>Object:</strong> The redshift is a pure number you compute by comparing light at two moments: when it left the emitter and when it arrived at the observer. You take the wavelength (or frequency) at those two events, write them as components of a vector that points along the light ray in spacetime, and compute their ratio. Formally, if the light ray carries a wave vector k, redshift is 1+z = k_observer / k_emitter, where each k is measured in the local frame of time at that event. It does not live in one place; it is a relation across spacetime.</p>
+                  <p><strong>Operation:</strong> Write down the light ray as a path through spacetime from emitter to observer. At emission, write the wave vector as a quantity aligned with the emitter&#x27;s notion of time. At observation, do the same in the observer&#x27;s frame. Now compute the ratio: k_at_observer / k_at_emitter. That ratio—call it (1+z)—encodes everything the geometry did to the light between the two events. The operation is pure measurement: you do not move the light or change the spacetime. You just read off what the metric says the frequencies were.</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/gravitational-lensing-focusing.html">Gravitational Lensing And Focusing</a></h2>
-                  <p>The course needs to explain why masses can change apparent positions and brightness of distant sources.</p>
-                  <p><strong>Object:</strong> Lensing is the bending and focusing of families of null geodesics by spacetime curvature.</p>
-                  <p><strong>Operation:</strong> The operation is tracking neighboring light paths and measuring how the bundle changes direction, area, or shape.</p>
+                  <p>You see a distant galaxy, but its light has passed near a massive galaxy between you and it. The massive galaxy&#x27;s gravity warps spacetime, bending the light path. Now the distant galaxy appears in the wrong place in the sky, magnified, or even split into multiple images. We need to understand how gravity bends light rays without pretending it pulls on light like a breeze pushes dust.</p>
+                  <p><strong>Object:</strong> A bundle of light rays close together is called a congruence of null geodesics (null means the paths are light paths; congruence means a family filling a region). At each moment in spacetime, you have a small patch of rays pointing in nearly the same direction. The congruence is the rule that tells you, at every nearby point in spacetime, which direction a light ray points. Spacetime curvature acts on this whole bundle: it can squeeze it, stretch it, tilt it, or twist it.</p>
+                  <p><strong>Operation:</strong> Take a congruence of light rays and move a small distance perpendicular to them. Measure how the cross-sectional area changes, how the rays&#x27; directions shift relative to each other, and whether the rays are rotating as a group. You are not measuring single rays; you are measuring how the bundle transforms. This is called the expansion, shear, and twist of the congruence.</p>
                 </article>
                 
         </section>

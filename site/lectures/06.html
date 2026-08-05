@@ -69,16 +69,16 @@
           
                 <article class="row-block">
                   <h2><a href="../concepts/tangent-spaces-fields.html">Tangent Spaces and Fields</a></h2>
-                  <p>The course needs a way to attach possible directions of motion to every event, then let physical quantities vary from event to event.</p>
-                  <p><strong>Object:</strong> A tangent space is the vector space of directions available at one point; a field assigns a value, such as a vector or tensor, to each point.</p>
-                  <p><strong>Operation:</strong> The basic operation is differentiating a function along a tangent direction and then doing this smoothly point by point across the manifold.</p>
+                  <p>You need to describe motion at each event in spacetime—what direction a particle could move next. You also need to assign local measurements like temperature or field strength to every point. Without a language for &quot;possible next steps&quot; and &quot;point-by-point quantities,&quot; physics has no way to express local physics.</p>
+                  <p><strong>Object:</strong> A tangent space at one point is the set of all infinitesimal directions you can move, built from how functions change along possible curves. A field assigns a number, vector, or tensor to every point, smoothly so nearby values stay close to each other.</p>
+                  <p><strong>Operation:</strong> Follow a curve through spacetime. At each point, the tangent vector to that curve is its local direction. Differentiate any smooth function (temperature, height, pressure) along that tangent direction: you get the rate of change. Repeat at every point across spacetime and you have a working field operation.</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/vector-fields-as-local-instructions.html">Vector Fields As Local Instructions</a></h2>
-                  <p>The course needs a way to assign a possible motion or instruction at every event in a region.</p>
-                  <p><strong>Object:</strong> A vector field assigns one tangent vector to each point of the manifold in a smooth way.</p>
-                  <p><strong>Operation:</strong> The operation is following the assigned directions to form flow lines or using the field to differentiate other quantities.</p>
+                  <p>Imagine a landscape where at every point—a mountain summit, a valley floor, anywhere—there is a direction you can move or a velocity you inherit. You need language to assign one direction per location and track how directions change as you move. That is the problem: how do you capture motion or instruction that varies smoothly from place to place?</p>
+                  <p><strong>Object:</strong> A vector field is a smooth assignment: to each point on a manifold (a curved surface or spacetime), it assigns exactly one tangent vector (a tiny arrow indicating direction and speed at that point). Smooth means nearby points get nearby vectors, with no sudden jumps. It is a function that lives on the manifold itself, with no reference to an embedding or background space.</p>
+                  <p><strong>Operation:</strong> To use a vector field, you follow the arrows. Start at a point, step along the direction the field points, arrive at a new point, read the field&#x27;s arrow there, step again. This trace is called a flow line or integral curve. Alternatively, you can use the field as a machine: give it another quantity (like temperature), and it tells you the rate of change along the flow line.</p>
                 </article>
                 
         </section>
