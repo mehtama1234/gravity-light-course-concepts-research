@@ -69,23 +69,23 @@
           
                 <article class="row-block">
                   <h2><a href="../concepts/tangent-spaces-fields.html">Tangent Spaces and Fields</a></h2>
-                  <p>The course needs a way to attach possible directions of motion to every event, then let physical quantities vary from event to event.</p>
-                  <p><strong>Object:</strong> A tangent space is the vector space of directions available at one point; a field assigns a value, such as a vector or tensor, to each point.</p>
-                  <p><strong>Operation:</strong> The basic operation is differentiating a function along a tangent direction and then doing this smoothly point by point across the manifold.</p>
+                  <p>You need to describe motion at each event in spacetime—what direction a particle could move next. You also need to assign local measurements like temperature or field strength to every point. Without a language for &quot;possible next steps&quot; and &quot;point-by-point quantities,&quot; physics has no way to express local physics.</p>
+                  <p><strong>Object:</strong> A tangent space at one point is the set of all infinitesimal directions you can move, built from how functions change along possible curves. A field assigns a number, vector, or tensor to every point, smoothly so nearby values stay close to each other.</p>
+                  <p><strong>Operation:</strong> Follow a curve through spacetime. At each point, the tangent vector to that curve is its local direction. Differentiate any smooth function (temperature, height, pressure) along that tangent direction: you get the rate of change. Repeat at every point across spacetime and you have a working field operation.</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/dual-vectors-measure-directions.html">Dual Vectors Measure Directions</a></h2>
-                  <p>The course needs a way to distinguish an arrow-like direction from a measuring rule applied to that direction.</p>
-                  <p><strong>Object:</strong> A dual vector, also called a covector or one-form, is a linear measuring rule on vectors.</p>
-                  <p><strong>Operation:</strong> The operation is feeding a vector into the covector and getting a number that changes correctly when coordinates change.</p>
+                  <p>In physics, some quantities are arrows (velocity, force, direction of motion) and some are measuring tools (pressure, temperature gradient, intensity of light). The course needs to distinguish them—they transform differently under coordinate changes, and mixing them breaks the math.</p>
+                  <p><strong>Object:</strong> A dual vector—also called a covector or one-form—is a linear measuring device on vectors. Think of it as a machine: you feed in a vector, and out comes a single number. The machine respects linearity: if you double the vector input, the output doubles. The key is that this machine changes its internal weights when you change coordinates, in a specific conjugate way that keeps the output stable.</p>
+                  <p><strong>Operation:</strong> To use a dual vector, you feed a vector into it and perform a dot-product-like sum. If the dual vector has components (a₁, a₂, a₃) and the vector has components (v₁, v₂, v₃), you compute a₁v₁ + a₂v₂ + a₃v₃. The result is a number that does not depend on which coordinate system you chose to write down the components.</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/tangent-vectors-as-derivatives.html">Tangent Vectors As Derivatives</a></h2>
-                  <p>The course needs an internal definition of a direction at a point without drawing an arrow in a larger space.</p>
-                  <p><strong>Object:</strong> A tangent vector can be understood as a rule that tells how functions change at a point along a possible direction.</p>
-                  <p><strong>Operation:</strong> The operation is applying the tangent vector to a function and reading the directional rate of change.</p>
+                  <p>You stand on a hillside and want to measure how temperature changes as you step in one direction versus another. But what exactly is &#x27;a direction at a point&#x27;? Spacetime isn&#x27;t sitting inside a flat container where you can draw arrows from the outside. You need a way to define direction that lives *within* the space itself.</p>
+                  <p><strong>Object:</strong> A tangent vector is a rule: a machine that eats any smooth function on the manifold and spits out a number—the rate at which that function changes along a specific direction at that point. It&#x27;s intrinsic to the space, not an external arrow. The machine encodes both the point and the direction purely through how it interrogates functions.</p>
+                  <p><strong>Operation:</strong> To use a tangent vector, you hand it a smooth function (say, temperature T on the manifold). The tangent vector tells you dT along its direction. You can test the tangent vector by checking how it acts on many different functions—always at the same point, always respecting the linearity rule: if you feed it a sum, you get the sum of the answers.</p>
                 </article>
                 
         </section>

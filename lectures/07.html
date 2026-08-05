@@ -69,23 +69,23 @@
           
                 <article class="row-block">
                   <h2><a href="../concepts/connections-parallel-transport.html">Connections and Parallel Transport</a></h2>
-                  <p>To compare directions at different points, the course needs a rule for carrying a direction along a path.</p>
-                  <p><strong>Object:</strong> A connection is a rule for differentiating vector fields along directions and for transporting vectors from one tangent space to another.</p>
-                  <p><strong>Operation:</strong> The central operation is covariant differentiation: measuring how a field changes after subtracting the change caused merely by moving through tangent spaces.</p>
+                  <p>Walk north on a globe, holding a compass pointing east. At the equator, your compass still points east. At the north pole, it has rotated ninety degrees. How do you measure whether the direction actually changed, or whether the surface itself twisted it?</p>
+                  <p><strong>Object:</strong> A connection is a machine that takes a vector (a direction at one point) and a path and produces a new vector at a nearby point. It does this consistently: the result at each step depends only on the local geometry and the direction you are moving, never on arbitrary coordinates.</p>
+                  <p><strong>Operation:</strong> To transport a vector along a curve, you break the curve into tiny steps. At each step, the connection tells you how much to adjust the vector to keep it &#x27;pointing the same way&#x27; according to the local geometry. Sum up all those small adjustments and you have the transported vector.</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/covariant-derivative-corrects-comparison.html">Covariant Derivative Corrects Comparison</a></h2>
-                  <p>The course needs a derivative of vector fields that does not compare vectors as if all tangent spaces were the same room.</p>
-                  <p><strong>Object:</strong> A covariant derivative is the corrected change of a vector field along a direction, using a connection to say how nearby tangent spaces are compared.</p>
-                  <p><strong>Operation:</strong> The operation is differentiating the field and subtracting the change caused by the moving basis or comparison rule.</p>
+                  <p>Imagine measuring a vector field (like an arrow field) along a curved surface. When you compare two nearby arrows—one at your current point, one slightly ahead—how do you know if a difference comes from the field actually changing or just from the surface&#x27;s shape bending the comparison frame?</p>
+                  <p><strong>Object:</strong> A covariant derivative is a machine that takes a vector field and a direction, and outputs how the field changes while carefully translating each vector into the next point&#x27;s tangent space before comparing. It uses a connection (a rule for moving frames between nearby tangent spaces) to make the comparison fair.</p>
+                  <p><strong>Operation:</strong> Point at a direction (a tangent vector). Look at how the vector field&#x27;s components change in that direction. Subtract off the change that comes purely from the coordinate grid&#x27;s motion. What&#x27;s left is the field&#x27;s intrinsic change in that direction.</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/geodesics-free-motion.html">Geodesics As Free Motion</a></h2>
-                  <p>The course needs a precise replacement for straight-line motion when spacetime may be curved.</p>
-                  <p><strong>Object:</strong> A geodesic is a curve whose tangent direction is transported along itself according to the connection.</p>
-                  <p><strong>Operation:</strong> The operation is checking whether the curve&#x27;s tangent has zero covariant change along the curve.</p>
+                  <p>Imagine a stone floating in space, far from all gravity and obstacles. It travels in a straight line. But what does &quot;straight&quot; mean when space itself is curved? In flat space the answer is obvious, but near a black hole or inside the warped spacetime around a star, there is no global flat background to measure against. The course needs a way to say &quot;this particle is moving freely&quot; using only the shape of spacetime itself.</p>
+                  <p><strong>Object:</strong> A geodesic is a curve (a path traced out in spacetime) with a special property: at every point along the curve, the tangent vector to the curve does not change direction according to the local measuring rule called the connection. The connection is the instruction for how to compare directions at nearby points without leaving the surface. A geodesic is a curve where that comparison says &quot;the tangent stays the same.&quot;</p>
+                  <p><strong>Operation:</strong> To check whether a curve is a geodesic: take the tangent vector at each point on the curve, transport it to the next point using the connection rule, and ask if it changed. If it did not change (its covariant derivative is zero), the curve is a geodesic. This operation turns an intuitive idea—&quot;the direction doesn&#x27;t bend&quot;—into a checkable mathematical condition.</p>
                 </article>
                 
         </section>

@@ -69,23 +69,23 @@
           
                 <article class="row-block">
                   <h2><a href="../concepts/topology-continuity.html">Topology and Continuity</a></h2>
-                  <p>Before measuring distance, the course needs a way to say which points are near enough for a limiting process to make sense.</p>
-                  <p><strong>Object:</strong> A topology is a chosen collection of open sets: enough information to talk about neighborhoods, limits, and continuous maps without yet talking about meters or seconds.</p>
-                  <p><strong>Operation:</strong> The basic operation is checking whether inverse images of open sets are open, which is the coordinate-free test that a map preserves nearness.</p>
+                  <p>You want to talk about curves being smooth, functions being continuous, and nearby points staying nearby under a transformation. But before you measure *how close* points are—before rulers and meters—you need a language for *which* points are near each other at all.</p>
+                  <p><strong>Object:</strong> A topology is a specific collection of sets—the &#x27;open&#x27; sets—chosen so that you can talk about neighborhoods without numbers. A set is open if, whenever a point is in it, you can draw an open neighborhood around that point that stays inside. The collection must be closed under unions and finite intersections, plus include the whole space and the empty set. That is the exact structure needed to talk about limits and continuity.</p>
+                  <p><strong>Operation:</strong> To test if a function is continuous, you ask: for every open set in the target space, is its pre-image (the set of starting points that map into it) also open in the source space? If yes, the function is continuous. This is coordinate-free—it works no matter how you label or measure points.</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/open-sets-neighborhood-tests.html">Open Sets As Neighborhood Tests</a></h2>
-                  <p>The first lecture needs a way to test whether a small move stays inside an allowed region before it has any distance formula.</p>
-                  <p><strong>Object:</strong> An open set is a region that contains a little breathing room around each of its points, stated without choosing units of length.</p>
-                  <p><strong>Operation:</strong> The operation is to ask whether a point has a neighborhood contained inside the region, then use that test to define continuity.</p>
+                  <p>When you step into a room, you can move a few inches in any direction without walking out the door. Before you have a ruler or a distance formula, you know you have room to move. In the same way, when studying geometry and relativity, the very first thing you need is a way to say which regions give you that kind of breathing room around their points — before you&#x27;ve defined what &quot;distance&quot; even means.</p>
+                  <p><strong>Object:</strong> An open set is a subset of space with a special property: around every point inside it, there&#x27;s a small region (called a neighborhood) that stays completely inside the set. Not infinite, not uncovered — just roomy. The set is &quot;open&quot; because every point has a protected bubble of membership. It&#x27;s defined by this topological property alone, without reference to distance.</p>
+                  <p><strong>Operation:</strong> To test whether a set is open, you pick any point in it and ask: can I find a neighborhood around that point that never leaves the set? If the answer is yes for every single point, the set is open. That test becomes the tool for defining when a function is continuous — a function is continuous if pulling back open sets gives you open sets.</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/continuous-maps-preserve-nearness.html">Continuous Maps Preserve Nearness</a></h2>
-                  <p>The course needs a way to say one description respects nearness in another description.</p>
-                  <p><strong>Object:</strong> A continuous map is a rule between spaces whose inverse image of any open region is open in the starting space.</p>
-                  <p><strong>Operation:</strong> The operation is pulling an open test region backward through the map and checking whether it remains an open test region.</p>
+                  <p>Two thermometers measure the same room but use different scales. When real temperatures are close together, do the two thermometers always read nearby numbers? How do you know that switching from Celsius to Fahrenheit doesn&#x27;t secretly create jumps between nearby temperatures?</p>
+                  <p><strong>Object:</strong> A continuous map is a function between two spaces where the inverse image of any open region—any set you&#x27;d test with a neighborhood—stays open in the starting space. If A maps to B, the preimage of an open test-region in B is an open test-region in A.</p>
+                  <p><strong>Operation:</strong> To check if a map is continuous: pick any open test-region in the target space, pull it backward through the map, and ask whether what you get back is open in the starting space. If that always works, the map is continuous.</p>
                 </article>
                 
         </section>

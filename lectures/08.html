@@ -69,37 +69,37 @@
           
                 <article class="row-block">
                   <h2><a href="../concepts/connections-parallel-transport.html">Connections and Parallel Transport</a></h2>
-                  <p>To compare directions at different points, the course needs a rule for carrying a direction along a path.</p>
-                  <p><strong>Object:</strong> A connection is a rule for differentiating vector fields along directions and for transporting vectors from one tangent space to another.</p>
-                  <p><strong>Operation:</strong> The central operation is covariant differentiation: measuring how a field changes after subtracting the change caused merely by moving through tangent spaces.</p>
+                  <p>Walk north on a globe, holding a compass pointing east. At the equator, your compass still points east. At the north pole, it has rotated ninety degrees. How do you measure whether the direction actually changed, or whether the surface itself twisted it?</p>
+                  <p><strong>Object:</strong> A connection is a machine that takes a vector (a direction at one point) and a path and produces a new vector at a nearby point. It does this consistently: the result at each step depends only on the local geometry and the direction you are moving, never on arbitrary coordinates.</p>
+                  <p><strong>Operation:</strong> To transport a vector along a curve, you break the curve into tiny steps. At each step, the connection tells you how much to adjust the vector to keep it &#x27;pointing the same way&#x27; according to the local geometry. Sum up all those small adjustments and you have the transported vector.</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/curvature-geodesic-deviation.html">Curvature</a></h2>
-                  <p>The theory needs a local test for whether transported directions come back changed after moving around a tiny loop.</p>
-                  <p><strong>Object:</strong> Curvature is the tensorial failure of covariant derivatives to commute, equivalently the failure of parallel transport around small loops to return a vector unchanged.</p>
-                  <p><strong>Operation:</strong> The operation is taking a commutator of covariant derivatives or comparing nearby geodesics to measure relative acceleration.</p>
+                  <p>Two astronauts in free fall near each other will drift together or apart. Not because they push or pull, but because spacetime itself is shaped. You need a local way to measure that drifting—to say &#x27;here, nearby motion diverges from what flat space would predict.&#x27;</p>
+                  <p><strong>Object:</strong> Curvature is the mismatch that arises when you try to compare directions at different places. Specifically, when two covariant derivatives (a tool for comparing neighboring directions) are applied in different orders, they give different results. That failure-to-commute is curvature, encoded in a Riemann tensor: a quantity that takes four direction-indices and produces a number saying how much the comparison went wrong.</p>
+                  <p><strong>Operation:</strong> You perform the curvature test by taking two covariant derivatives in opposite order and subtracting them—like moving east then north, then north then east, and checking if you end up in the same place. For gravity, you alternatively watch two nearby geodesics (free-fall paths): if they accelerate relative to each other, that relative acceleration directly measures the curvature.</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/geodesics-free-motion.html">Geodesics As Free Motion</a></h2>
-                  <p>The course needs a precise replacement for straight-line motion when spacetime may be curved.</p>
-                  <p><strong>Object:</strong> A geodesic is a curve whose tangent direction is transported along itself according to the connection.</p>
-                  <p><strong>Operation:</strong> The operation is checking whether the curve&#x27;s tangent has zero covariant change along the curve.</p>
+                  <p>Imagine a stone floating in space, far from all gravity and obstacles. It travels in a straight line. But what does &quot;straight&quot; mean when space itself is curved? In flat space the answer is obvious, but near a black hole or inside the warped spacetime around a star, there is no global flat background to measure against. The course needs a way to say &quot;this particle is moving freely&quot; using only the shape of spacetime itself.</p>
+                  <p><strong>Object:</strong> A geodesic is a curve (a path traced out in spacetime) with a special property: at every point along the curve, the tangent vector to the curve does not change direction according to the local measuring rule called the connection. The connection is the instruction for how to compare directions at nearby points without leaving the surface. A geodesic is a curve where that comparison says &quot;the tangent stays the same.&quot;</p>
+                  <p><strong>Operation:</strong> To check whether a curve is a geodesic: take the tangent vector at each point on the curve, transport it to the next point using the connection rule, and ask if it changed. If it did not change (its covariant derivative is zero), the curve is a geodesic. This operation turns an intuitive idea—&quot;the direction doesn&#x27;t bend&quot;—into a checkable mathematical condition.</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/parallel-transport-loop-test.html">Parallel Transport Loop Test</a></h2>
-                  <p>The course needs an operational test for curvature that does not rely on seeing a surface bend.</p>
-                  <p><strong>Object:</strong> The loop test carries a vector around a closed path using the connection and compares the returned vector with the starting one.</p>
-                  <p><strong>Operation:</strong> The operation is parallel transport around a small loop and reading the mismatch as evidence of curvature.</p>
+                  <p>Imagine you draw an arrow on a stretched rubber sheet, then move your finger around a closed curve while keeping the arrow pointing in the same direction—at least, in the way your finger itself defines &#x27;same direction.&#x27; When your finger returns to the start, does the arrow point where it began? On a flat sheet it does. On a curved sheet like a sphere, it may not. You need a test that catches this without stepping outside the surface to peek at how it bends.</p>
+                  <p><strong>Object:</strong> The parallel transport loop test is a prescription: take a vector (a direction and magnitude), carry it around a closed path by keeping it &#x27;parallel&#x27; according to the local connection (the rule that defines parallel for that surface), and check what you get back. The mismatch between the returned vector and the original vector is a number or tensor that lives at that one point—the mathematical object that represents curvature at that location.</p>
+                  <p><strong>Operation:</strong> Mark a small closed path on your space (a triangle, a square, a circle). Pick a vector at the starting point. Parallel transport it step-by-step around the path: at each tiny step, rotate or shift it just enough to remain parallel to your current direction of motion. When you complete the loop and return to start, measure the angle or direction of the returned vector. Compare it to the original. The difference is the operation—reading off the measurement.</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/riemann-curvature-commutator.html">Riemann Curvature As Noncommuting Change</a></h2>
-                  <p>The course needs a compact way to record how two small changes in different orders fail to agree.</p>
-                  <p><strong>Object:</strong> The Riemann curvature tensor records the failure of two covariant derivatives, taken in different orders, to give the same result.</p>
-                  <p><strong>Operation:</strong> The operation is comparing the two orders of corrected differentiation and measuring the leftover mismatch.</p>
+                  <p>Picture two friends standing close together on Earth&#x27;s surface, both facing north. If they each walk 100 meters north, then 100 meters east, they end up at slightly different spots — the Earth&#x27;s curvature got in the way. A mathematician needs a precise object that says: &#x27;Taking steps in different orders leaves a mismatch.&#x27; That object is Riemann curvature.</p>
+                  <p><strong>Object:</strong> The Riemann curvature tensor is a machine built from the connection, a tool that tells you how to compare directions between nearby points. It measures: if you move a vector along a small closed loop, how much does it rotate by the time it gets back? More precisely, it captures the failure of two derivatives (covariant derivatives, a corrected way to differentiate respecting the curved geometry) taken in opposite orders to produce the same result.</p>
+                  <p><strong>Operation:</strong> You give the Riemann tensor three pieces of information: two different directions in which you want to move (call them X and Y), and a vector to carry along. The Riemann tensor then outputs: the extra twist or shift that arises from commuting those two moves. Algebraically, you compute the derivative along X of the derivative along Y, then subtract the derivative along Y of the derivative along X — the remainder is Riemann acting on your vector.</p>
                 </article>
                 
         </section>

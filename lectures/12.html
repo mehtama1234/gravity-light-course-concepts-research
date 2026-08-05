@@ -69,16 +69,16 @@
           
                 <article class="row-block">
                   <h2><a href="../concepts/integration-on-manifolds.html">Integration on Manifolds</a></h2>
-                  <p>The course needs a way to add local quantities over curved spaces without depending on one coordinate chart.</p>
-                  <p><strong>Object:</strong> Differential forms and volume elements package what can be integrated in a coordinate-independent way.</p>
-                  <p><strong>Operation:</strong> The operation is pulling forms back to charts or submanifolds, integrating them there, and using Stokes-type relations between boundary and bulk.</p>
+                  <p>You want to add up quantities spread across a curved surface—rainfall over a country, the charge in a region of space, the mass in a galaxy—without your answer depending on which coordinate system you picked. The earth is curved, but you need one reliable total.</p>
+                  <p><strong>Object:</strong> A differential form is a recipe that tells you, at every point on your manifold, how to multiply infinitesimal displacements together to get a number. A volume form is the special differential form that, when integrated, gives you the volume of any region—and it is the same for all observers.</p>
+                  <p><strong>Operation:</strong> To integrate a differential form over a curved region, you pull the form back into a coordinate chart (your local flat picture), perform an ordinary integral there, and glue the pieces together using the fact that differential forms automatically correct for chart overlaps.</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/stokes-boundary-bulk-accounting.html">Stokes&#x27; Theorem As Boundary-Bulk Accounting</a></h2>
-                  <p>The course needs a rule connecting what is accumulated inside a region with what crosses its boundary.</p>
-                  <p><strong>Object:</strong> Stokes&#x27; theorem says the integral of a derivative-like form over a region equals the integral of the original form over the boundary.</p>
-                  <p><strong>Operation:</strong> The operation is replacing a bulk derivative integral by a boundary integral, or reading boundary data as a bulk statement.</p>
+                  <p>You have a region of space—say, a ball of gas, or a patch of spacetime. Something is flowing through it: energy, particles, momentum. You want to know the total amount in the region. One way: look inside, measure everything. Another way: stand at the surface and count what crosses the boundary. These two must agree if the accounting is honest.</p>
+                  <p><strong>Object:</strong> A differential form (a machine that takes vectors at each point and produces numbers) is the object Stokes&#x27; theorem describes. When you take a derivative of such a machine (the exterior derivative, a rule for how it changes as you move), you get a new form. Stokes says: integrating that new form over a region equals integrating the original form over the region&#x27;s boundary surface.</p>
+                  <p><strong>Operation:</strong> You start with a form (like a density or a flux). You compute its exterior derivative (how it varies). Instead of integrating the derivative throughout the bulk, you integrate the original form only on the boundary. The two integrals are equal—this is the swap.</p>
                 </article>
                 
         </section>

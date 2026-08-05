@@ -69,23 +69,23 @@
           
                 <article class="row-block">
                   <h2><a href="../concepts/multilinear-objects.html">Multilinear Algebra</a></h2>
-                  <p>Physics needs quantities that accept directions, measurements, and flows while keeping track of how many slots they have.</p>
-                  <p><strong>Object:</strong> A tensor is a multilinear rule with specified input slots; it returns a number or another structured object in a way compatible with linear combinations.</p>
-                  <p><strong>Operation:</strong> The key operation is feeding vectors and covectors into slots, changing basis, and contracting matching slots to produce coordinate-independent quantities.</p>
+                  <p>Imagine measuring the force on a stretched rubber sheet when you push in two directions at once. The force depends on both your push directions together, not one at a time. Physics constantly needs to describe how something responds to multiple inputs — directions, slopes, flows — and keep track of which inputs matter and how they combine.</p>
+                  <p><strong>Object:</strong> A multilinear object is a rule that eats a specific list of vectors and covectors (covectors are measuring sticks that live in the dual space) and spits out a number or another object. The rule must be linear in each input separately: if you double one input, the output doubles; if you add two inputs, the output is the sum of two separate outputs. The shape and number of input slots are part of what defines the object.</p>
+                  <p><strong>Operation:</strong> You feed vectors and covectors into the slots in the right order, one at a time. At each slot, linearity makes the calculation predictable. You can also combine slots—when a vector slot and a covector slot both get filled, they can annihilate each other (called contraction), which reduces the number of empty slots. This turns one multilinear object into another with fewer or different slots.</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/dual-vectors-measure-directions.html">Dual Vectors Measure Directions</a></h2>
-                  <p>The course needs a way to distinguish an arrow-like direction from a measuring rule applied to that direction.</p>
-                  <p><strong>Object:</strong> A dual vector, also called a covector or one-form, is a linear measuring rule on vectors.</p>
-                  <p><strong>Operation:</strong> The operation is feeding a vector into the covector and getting a number that changes correctly when coordinates change.</p>
+                  <p>In physics, some quantities are arrows (velocity, force, direction of motion) and some are measuring tools (pressure, temperature gradient, intensity of light). The course needs to distinguish them—they transform differently under coordinate changes, and mixing them breaks the math.</p>
+                  <p><strong>Object:</strong> A dual vector—also called a covector or one-form—is a linear measuring device on vectors. Think of it as a machine: you feed in a vector, and out comes a single number. The machine respects linearity: if you double the vector input, the output doubles. The key is that this machine changes its internal weights when you change coordinates, in a specific conjugate way that keeps the output stable.</p>
+                  <p><strong>Operation:</strong> To use a dual vector, you feed a vector into it and perform a dot-product-like sum. If the dual vector has components (a₁, a₂, a₃) and the vector has components (v₁, v₂, v₃), you compute a₁v₁ + a₂v₂ + a₃v₃. The result is a number that does not depend on which coordinate system you chose to write down the components.</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/tensor-components-versus-object.html">Tensor Components Versus The Object</a></h2>
-                  <p>The course needs students to separate a tensor itself from the list of numbers used to display it in one basis.</p>
-                  <p><strong>Object:</strong> The tensor is the coordinate-independent multilinear rule; components are the rule&#x27;s numbers after choosing basis vectors and dual basis covectors.</p>
-                  <p><strong>Operation:</strong> The operation is transforming components under a basis change while preserving the tensor&#x27;s action on its input slots.</p>
+                  <p>When you measure the same physical thing in different coordinate systems (different rulers, different starting points, different rotation angles), the numbers you write down change. But the thing itself—the rule for how to measure it—must stay the same. How do you keep track of both the changeable numbers and the unchangeable rule?</p>
+                  <p><strong>Object:</strong> A tensor is a machine that eats vectors (or their duals, or both) and spits out a number, always giving the same answer no matter which basis you use to describe the input. The components are what that machine looks like when you write it down after choosing one particular basis.</p>
+                  <p><strong>Operation:</strong> To transform components under a basis change, you multiply by the change-of-basis matrix (and its inverse, as many times as the tensor has input slots). The tensor itself—the machine&#x27;s rule—stays the same; only the numbers written on the page flip.</p>
                 </article>
                 
         </section>

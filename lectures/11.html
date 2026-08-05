@@ -69,16 +69,16 @@
           
                 <article class="row-block">
                   <h2><a href="../concepts/symmetry-conservation.html">Symmetry and Conservation</a></h2>
-                  <p>The course needs a way to recognize when a geometry has sameness that produces simpler motion or conserved quantities.</p>
-                  <p><strong>Object:</strong> A symmetry is a structure-preserving map or flow, often expressed by a vector field whose motion leaves the metric unchanged.</p>
-                  <p><strong>Operation:</strong> The operation is taking a Lie derivative or checking invariance under a flow to see whether geometric data changes.</p>
+                  <p>When you observe a physical system, you need a way to pick out the quantities that don&#x27;t change—the conserved ones. In a sphere, symmetry tells you that rotation leaves the shape untouched. In spacetime, if the geometry looks the same in every direction, what remains unchanged when you act out that sameness?</p>
+                  <p><strong>Object:</strong> A symmetry is a vector field—a smooth assignment of an arrow to every point in spacetime—whose flow (the motion along those arrows) leaves the metric, the interval structure, unchanged. Think of it as a way to move smoothly through spacetime that never changes how you measure distance or time.</p>
+                  <p><strong>Operation:</strong> To check whether a vector field is a symmetry, you compute its Lie derivative acting on the metric: you track how the metric changes as you flow along the field. If that derivative is zero, the field is a symmetry; the metric stays constant.</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/killing-fields-symmetry-directions.html">Killing Fields As Symmetry Directions</a></h2>
-                  <p>The course needs a way to express a continuous symmetry as a direction of motion through spacetime.</p>
-                  <p><strong>Object:</strong> A Killing field is a vector field whose flow leaves the metric unchanged.</p>
-                  <p><strong>Operation:</strong> The operation is checking that the metric&#x27;s change along the field is zero.</p>
+                  <p>Imagine a spinning merry-go-round where every seat looks identical as you turn it. Or a straight-line train track that looks the same no matter where you walk along it. You want to say: &#x27;This geometry has a symmetry.&#x27; But how do you capture that as a direction you can point to, so the math can use it?</p>
+                  <p><strong>Object:</strong> A Killing field is a direction of flow in spacetime (a vector field) with one special property: if you move along it infinitesimally, the metric—the rule that measures distances and time intervals—stays the same. It&#x27;s a path direction that leaves geometric measurements untouched.</p>
+                  <p><strong>Operation:</strong> To check if a vector field is a Killing field, you compute how the metric changes as you step along that direction. If the change is exactly zero everywhere, you&#x27;ve found a Killing field. The recipe is: write down the metric, take its derivative along the field, and verify the result is zero.</p>
                 </article>
                 
         </section>

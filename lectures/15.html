@@ -69,37 +69,37 @@
           
                 <article class="row-block">
                   <h2><a href="../concepts/stress-energy-matter.html">Matter and Stress-Energy</a></h2>
-                  <p>Gravity needs a precise account of what matter contributes: not just mass, but energy, momentum, pressure, and stresses.</p>
-                  <p><strong>Object:</strong> The stress-energy tensor is the object that measures energy density, momentum flow, pressure, and stress through chosen directions or surfaces.</p>
-                  <p><strong>Operation:</strong> The operation is evaluating its slots against observer directions and surface normals, then requiring local conservation through covariant divergence.</p>
+                  <p>Gravity must account for what makes matter curve spacetime: not just mass, but energy, momentum, pressure, and internal stresses all push back on geometry. Newton thought mass was enough, but relativity reveals energy and momentum are faces of one unified object.</p>
+                  <p><strong>Object:</strong> The stress-energy tensor is a 4×4 table where each entry records a flow: energy flowing in time (top-left), momentum flowing through space (top-right block), pressure and stress between spatial directions (bottom-right 3×3 block). Rows ask &#x27;what kind of stuff,&#x27; columns ask &#x27;flowing which direction.&#x27;</p>
+                  <p><strong>Operation:</strong> Multiply the tensor entries by direction vectors representing an observer or surface normal. The result tells you the energy density that observer measures, the momentum flux through a surface, or the internal stress between regions.</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/einstein-equation.html">Einstein Equation</a></h2>
-                  <p>The course needs the law that says how spacetime geometry and matter constrain each other.</p>
-                  <p><strong>Object:</strong> The Einstein tensor is built from curvature and the metric so that its covariant divergence vanishes, matching local conservation of stress-energy.</p>
-                  <p><strong>Operation:</strong> The operation is equating the geometric tensor to stress-energy, then solving the resulting coupled nonlinear field equations under boundary or symmetry assumptions.</p>
+                  <p>We can see that gravity bends the paths of planets and light, and we suspect that this bending is really the shape of space and time. But seeing is not a law. We need a precise rule that says exactly how much the presence of matter and energy warps the geometry around it, and how that warping in turn steers everything moving through it.</p>
+                  <p><strong>Object:</strong> The central object is the Einstein tensor, written G. It is a specific recipe built out of the curvature of spacetime that measures, at each point, how the volume of a small cloud of free-falling particles starts to shrink. It is carefully assembled so that a particular running-total of it never changes as you move around, which is the geometric echo of a physical fact: energy and momentum are never created or destroyed, only moved.</p>
+                  <p><strong>Operation:</strong> You place the matter and energy of a region into a bookkeeping object called the stress-energy tensor, T, which lists the energy, the momentum, and the pressures present. You set the geometry side, G, equal to a fixed constant times T. Then you solve for the metric, the object that encodes all distances and times, that makes both sides agree everywhere at once.</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/ricci-curvature-volume-change.html">Ricci Curvature As Volume Change</a></h2>
-                  <p>The course needs the part of curvature that measures how a small bundle of freely moving paths changes size.</p>
-                  <p><strong>Object:</strong> Ricci curvature is a contraction of the full curvature tensor that captures focusing or spreading of nearby geodesic families.</p>
-                  <p><strong>Operation:</strong> The operation is contracting slots of the Riemann tensor to keep the part relevant for volume change.</p>
+                  <p>Imagine a sphere: if you send nearby particles all in straight paths outward from the center, do they draw together or spread apart? The same question applies to spacetime itself. You need to measure whether paths that feel straight (geodesics—roads objects naturally follow when nothing pushes them) bunch closer or fan wider. That bundling or spreading is what Ricci curvature tracks.</p>
+                  <p><strong>Object:</strong> Ricci curvature is a simplified version of the full curvature object (the Riemann tensor—a list of numbers encoding how a tiny loop of displacement produces a net twist in any direction). To build Ricci, you take that full curvature tensor and perform a contraction: a summation that pairs up components in a specific way. The result is a smaller object—a rank-2 tensor, like a matrix—that captures only the part describing volume change of geodesic families.</p>
+                  <p><strong>Operation:</strong> To compute Ricci curvature, start with the full Riemann tensor (the complete twist-record). Pick one direction in spacetime, and sum up (contract) only the component pairs that measure how that direction changes. Do this for every possible direction. The result: a single number (or tensor component) for each spot on the manifold, telling you the net focusing or spreading.</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/einstein-tensor-conserved-geometry.html">Einstein Tensor As Conserved Geometry</a></h2>
-                  <p>The course needs the geometry side of the field equation to have the same local conservation behavior as matter.</p>
-                  <p><strong>Object:</strong> The Einstein tensor is the curvature combination whose covariant divergence vanishes automatically.</p>
-                  <p><strong>Operation:</strong> The operation is combining Ricci curvature, scalar curvature, and the metric so the result has the required conservation property.</p>
+                  <p>Imagine a rubber sheet with weights on it; the weights push down and the rubber curves. If you write an equation balancing the two sides—weights on the right, curvature on the left—both must follow the same accounting rules. Matter doesn&#x27;t vanish or appear; it&#x27;s conserved locally. Geometry must obey the same bookkeeping, or the equation is nonsense.</p>
+                  <p><strong>Object:</strong> The Einstein tensor is built by taking the Ricci tensor (which measures local bending), subtracting half the scalar curvature (average bend) times the metric (a measure of distances), and combining them so their divergence vanishes identically. It&#x27;s a recipe that guarantees zero leak.</p>
+                  <p><strong>Operation:</strong> To compute it: measure the Ricci curvature at a point. Multiply the scalar curvature by the metric, then halve it. Subtract that from Ricci. The result is the Einstein tensor. Taking its divergence—summing changes in each direction—always gives zero, no matter what spacetime you&#x27;re in.</p>
                 </article>
                 
                 <article class="row-block">
                   <h2><a href="../concepts/cosmological-constant-vacuum-term.html">Cosmological Constant As Vacuum Term</a></h2>
-                  <p>The course needs room for a uniform term in the field equation that behaves like spacetime itself carries energy.</p>
-                  <p><strong>Object:</strong> The cosmological constant is a constant term in Einstein&#x27;s equation, often read as a vacuum energy contribution.</p>
-                  <p><strong>Operation:</strong> The operation is adding this term to the field equation and studying how it changes expansion without clumping like matter.</p>
+                  <p>Imagine weighing all the matter in the universe—galaxies, gas, everything we can see. When physicists do this and ask whether the universe should be expanding faster or slower, the numbers don&#x27;t match what telescopes show. Something else is pushing the expansion. That something is invisible and doesn&#x27;t clump into galaxies like ordinary matter does.</p>
+                  <p><strong>Object:</strong> The cosmological constant is a single number, often written as the Greek letter Lambda (Λ). Unlike matter, which clumps and changes from place to place, this constant is the same everywhere and at every time. In the field equation, it acts as a built-in contribution to spacetime&#x27;s curvature, as if spacetime itself carries a tiny, uniform energy.</p>
+                  <p><strong>Operation:</strong> You add the term into Einstein&#x27;s field equation: on the left side (the geometry side), you append a term proportional to Λ. Then you solve the modified equation to see how the universe expands. The constant sits there, unchanging, pulling the expansion apart uniformly in all directions.</p>
                 </article>
                 
         </section>
