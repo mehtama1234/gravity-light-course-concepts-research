@@ -69,9 +69,9 @@
           
                 <article class="row-block">
                   <h2><a href="../concepts/topology-continuity.html">Topology and Continuity</a></h2>
-                  <p>You want to talk about curves being smooth, functions being continuous, and nearby points staying nearby under a transformation. But before you measure *how close* points are—before rulers and meters—you need a language for *which* points are near each other at all.</p>
-                  <p><strong>Object:</strong> A topology is a specific collection of sets—the &#x27;open&#x27; sets—chosen so that you can talk about neighborhoods without numbers. A set is open if, whenever a point is in it, you can draw an open neighborhood around that point that stays inside. The collection must be closed under unions and finite intersections, plus include the whole space and the empty set. That is the exact structure needed to talk about limits and continuity.</p>
-                  <p><strong>Operation:</strong> To test if a function is continuous, you ask: for every open set in the target space, is its pre-image (the set of starting points that map into it) also open in the source space? If yes, the function is continuous. This is coordinate-free—it works no matter how you label or measure points.</p>
+                  <p>You need to describe curves that don&#x27;t jump, and functions that keep nearby points nearby. But before you can say what &#x27;nearby&#x27; means using measurements, you need to say which points count as neighbors to each other at all.</p>
+                  <p><strong>Object:</strong> A topology is a carefully chosen collection of sets called &#x27;open&#x27; sets. A set is open if whenever a point sits inside it, you can draw a neighborhood around that point (another open set) that stays completely inside. The collection itself must satisfy three rules: the whole space and the empty space are both in the collection; any union of open sets is also open; and the intersection of any *finite* number of open sets is also open. This structure lets you talk about which points are neighbors without any ruler or meter.</p>
+                  <p><strong>Operation:</strong> To check if a function is continuous, you ask: take any open set in where the function lands (the target space). Now look backward—which starting points map into that target set? If that backward set is also open in the starting space, then the function is continuous. Do this for *every* open set in the target. If it works for all of them, the function is continuous. This test needs no coordinates, no distances, no rulers—just the open sets.</p>
                 </article>
                 
                 <article class="row-block">
@@ -83,9 +83,9 @@
                 
                 <article class="row-block">
                   <h2><a href="../concepts/continuous-maps-preserve-nearness.html">Continuous Maps Preserve Nearness</a></h2>
-                  <p>Two thermometers measure the same room but use different scales. When real temperatures are close together, do the two thermometers always read nearby numbers? How do you know that switching from Celsius to Fahrenheit doesn&#x27;t secretly create jumps between nearby temperatures?</p>
-                  <p><strong>Object:</strong> A continuous map is a function between two spaces where the inverse image of any open region—any set you&#x27;d test with a neighborhood—stays open in the starting space. If A maps to B, the preimage of an open test-region in B is an open test-region in A.</p>
-                  <p><strong>Operation:</strong> To check if a map is continuous: pick any open test-region in the target space, pull it backward through the map, and ask whether what you get back is open in the starting space. If that always works, the map is continuous.</p>
+                  <p>You measure the temperature of a room two ways: once with a Celsius thermometer, once with a Fahrenheit one. When the real air temperature changes by a tiny bit, do both thermometers show tiny changes, or can one jump wildly while the other creeps? How do you know that converting between temperature scales doesn&#x27;t secretly hide jumps?</p>
+                  <p><strong>Object:</strong> A continuous map is a rule connecting two spaces—call them X and Y—with a special property: if you pick any open set (any &quot;test region&quot; of nearby points) in the target space Y, and trace backward through the map to find which points in X map into it, you always get an open set in X. The backward direction keeps openness intact.</p>
+                  <p><strong>Operation:</strong> To check if a map is continuous, do this: pick any open test-region in the space you are mapping to. Trace backward through the map to find all the starting points that land in that test-region. If that backward set is always open in the starting space, the map is continuous. Test with any open region; the rule must hold every time.</p>
                 </article>
                 
         </section>
