@@ -299,14 +299,27 @@ def render_concept_pages(concepts: list[dict[str, Any]], evidence_by_id: dict[st
         ev_items = []
         for eid in concept["evidence_ids"]:
             ev = evidence_by_id[eid]
-            snippet = f"<blockquote>{esc(ev['snippet'])}</blockquote>" if ev["snippet"] else "<p class=\"quiet\">No local transcript snippet available yet.</p>"
+            quality = ev.get("snippet_quality")
+            paraphrase = ev.get("evidence_paraphrase")
+            if quality in ("garbled", "toc-noise"):
+                # The local auto-transcript is unreadable here, so do not present it as a
+                # verbatim quote. Show an honest paraphrase and an honest status instead.
+                text = paraphrase or ev["lecture_argument"]
+                snippet = f'<p class="paraphrase"><em>Paraphrase (local transcript audio is unclear at this timestamp):</em> {esc(text)}</p>'
+                status = "paraphrased — transcript unclear"
+            elif ev["snippet"]:
+                snippet = f"<blockquote>{esc(ev['snippet'])}</blockquote>"
+                status = esc(ev["confidence"])
+            else:
+                snippet = '<p class="quiet">No local transcript snippet available yet.</p>'
+                status = esc(ev["confidence"])
             ev_items.append(
                 f"""
                 <article class="evidence-item">
                   <h3>Lecture {ev['lecture_index']:02d}: {esc(ev['lecture_title'])}</h3>
                   <p><a href="{esc(ev['url'])}">{esc(ev['url'])}</a></p>
                   {snippet}
-                  <p><strong>Evidence status:</strong> {esc(ev['confidence'])}</p>
+                  <p><strong>Evidence status:</strong> {status}</p>
                   <p>{esc(ev['lecture_argument'])}</p>
                 </article>
                 """
