@@ -356,6 +356,7 @@ def render_concept_pages(concepts: list[dict[str, Any]], evidence_by_id: dict[st
           <h2>Mathematical Detail In Plain Language</h2>
           <p>{esc(concept['mathematical_detail_plain'])}</p>
         </section>
+        {optional_deep_read('Where This Idea Itself Breaks Down', concept.get('failure_boundary'))}
         <section class="deep-read">
           <h2>Why This Cannot Be Skipped</h2>
           <p>{esc(concept['why_this_is_critical'])}</p>
@@ -379,6 +380,17 @@ def render_concept_pages(concepts: list[dict[str, Any]], evidence_by_id: dict[st
         </section>
         """
         write(SITE / "concepts" / f"{concept['id']}.html", page(concept["name"], body, "../"))
+
+
+def optional_deep_read(title: str, text: object) -> str:
+    """Render a deep-read section only when the concept supplies the field.
+
+    Backward-compatible: concepts without the key render nothing.
+    """
+    if not text or not str(text).strip():
+        return ""
+    paras = "".join(f"<p>{esc(p)}</p>" for p in str(text).split("\n\n") if p.strip())
+    return f'<section class="deep-read"><h2>{esc(title)}</h2>{paras}</section>'
 
 
 def section(title: str, text: str) -> str:
