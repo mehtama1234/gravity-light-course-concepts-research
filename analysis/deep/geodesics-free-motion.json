@@ -1,0 +1,40 @@
+{
+  "id": "geodesics-free-motion",
+  "name": "Geodesics as Free Motion",
+  "kick": "gravity & geometry · first principles · the straightest path through curved space",
+  "title": "Geodesics — why free fall is actually straight-line motion",
+  "lede": "An apple falls, a planet orbits, a light ray bends near the Sun. Newton saw gravity as a force pulling on every object. But Einstein said something stranger: there is no force. Instead, space and time are curved, and every free object simply follows the straightest available path through that curved geometry — a geodesic. Here is the idea, the measured route, why this reframing works, where it breaks, and why it is the core of general relativity.",
+  "arc": [["problem","The problem"],["reframe","The reframe"],["run","Seen on a real run"],["why","Why 'straight through curved space' looks like a force"],["weakness","The one real limit"],["surprise","The surprise"]],
+  "sections": [
+    {"id":"problem","h2":"1 · The problem — why do the paths curve?","blocks":[
+      {"t":"para","html":"A planet orbits the Sun instead of sailing off in a straight line. An apple falls instead of floating still. A beam of starlight warps as it passes the Sun. Newton gave the same answer to all three: gravity is a force pulling inward, bending the paths. The force is proportional to mass, and it acts on everything equally — cannonballs and feathers fall at the same rate."},
+      {"t":"para","html":"This works beautifully for prediction. But it leaves a puzzle unsolved: <strong>What exactly is this force?</strong> Newton himself didn't know — he called gravity 'action at a distance' and admitted it was mysterious. Centuries later, Einstein asked: maybe this is not a force at all. Maybe there is a simpler picture hiding underneath."}
+    ]},
+    {"id":"reframe","h2":"2 · The reframe — forget the force; follow the geometry","blocks":[
+      {"t":"para","html":"Einstein's answer flips the picture upside down. Space and time around a mass are curved — the way a heavy ball warps the surface of a trampoline. In curved geometry, there is a notion of the <em>straightest possible path</em> on the curved surface, called a geodesic. An object with no forces acting on it moves along a geodesic, always heading straight ahead. But on a curved surface, heading straight ahead traces a path that looks bent from far away."},
+      {"t":"para","html":"The twist: <em>time</em> is also curved, not just space. The 'straightest path' through curved spacetime is not the same as a straight line drawn on a flat map. When you compute the path that goes 'straight ahead at every step' through a geometry where both space and time are warped, you get the orbits of planets, the fall of apples, and the bending of light — not from a force, but from following the simplest, most direct route available."}
+    ]},
+    {"id":"run","h2":"3 · Seen on a real run — the shortest path on Earth's curved surface","blocks":[
+      {"t":"para","html":"To make the idea concrete, we work with Earth's curvature. We computed the geodesic — the shortest path that stays on Earth's surface — from New York to London. Then we compare it to the 'straight line' on a flat map."},
+      {"t":"table","headers":["route type","distance"],"rows":[["great-circle geodesic (shortest actual path)","5567 km"],["false 'straight line' on a Mercator map","looks straight and reasonable, but the map stretches the far north, so the flat-map line is not the real shortest path at all"]],"caption":"The numbers are measured via the Earth's radius (6371 km) and applying the geodesic arc-length formula on a sphere. A great circle is the biggest circle you can draw on a sphere — like the equator, or a line of longitude."},
+      {"t":"insight","html":"<strong>The discovered fact: the geodesic from New York to London is a 5567 km arc curving north over Canada. It looks curved only because we flatten the globe onto a map, which distorts the true shape.</strong> On the globe itself, you are moving straight ahead the whole way — you never turn. The path curves only because the surface beneath you curves. This is exactly what happens in spacetime: a freely falling body is moving straight ahead (no forces), but the paths converge, diverge, or spiral because the geometry of spacetime around the mass is curved."}
+    ]},
+    {"id":"why","h2":"4 · Why 'straight through curved space' feels like a force","blocks":[
+      {"t":"para","html":"Imagine you are in an elevator in free fall. You feel weightless — no force pushing on you. Yet from the perspective of someone on the ground, you are accelerating downward under gravity. Both views are true. You are simply following a geodesic through spacetime — the straightest possible path in curved geometry. Because spacetime is warped by Earth's mass, the geodesic happens to approach the Earth's surface. There is no force; you are moving straight, and the curvature brings you closer."},
+      {"t":"para","html":"This is the core flip: in Newton's view, a force bends the path. In Einstein's view, the path is already straight (in the curved geometry), and the force is an illusion born from trying to describe straight motion in curved space using flat-space intuition."}
+    ]},
+    {"id":"weakness","h2":"5 · The one real limit — defining 'straight' near extreme curvature","blocks":[
+      {"t":"para","html":"The idea of 'the straightest path' is clear on a sphere or a saddle — shapes where curvature is gentle and uniform. But near a black hole, or where spacetime is wildly warped by colliding gravitational waves, curvature becomes extreme. In these regimes, geodesics can behave counterintuitively: two initially-parallel paths might focus and collide, or they might spiral into the singularity. The notion of 'straightest' itself — which requires a rule for comparing directions at different points — becomes subtle and must be defined carefully using differential geometry. And there is no guarantee that a geodesic stays nice forever; some paths that start straight may end in a place where the geometry is singular and the description breaks."}
+    ]},
+    {"id":"surprise","h2":"6 · The surprise — geodesics are the foundation of everything","blocks":[
+      {"t":"para","html":"Geodesics are not an isolated idea; they are the bedrock of general relativity. The Einstein equations say: <em>matter and energy tell spacetime how to curve; spacetime tells matter how to move.</em> That second part is the geodesic principle — everything on a geodesic is in free motion, with no applied force. Planets, stars, light rays, falling apples, and black holes — all follow geodesics."},
+      {"t":"para","html":"From this single idea flow the orbits of Mercury (which deviate from Newton's prediction), the bending of starlight by the Sun (which Arthur Eddington measured in 1919 and made Einstein famous), the merger of neutron stars (which sends gravitational waves across the universe), and the edge of black holes (where geodesics end). The whole picture of gravity as geometry, with free motion as geodesic flow, has reshaped physics."}
+    ]}
+  ],
+  "related": [["gravitational-lensing-focusing.html","light bending"],["proper-time-clock-reading.html","time dilation"],["curvature-geodesic-deviation.html","tidal gravity"],["black-holes-horizons.html","black holes"]],
+  "recipe": {
+    "summary": "Compute the geodesic distance from New York to London on a sphere (Earth's surface). Use spherical geometry: the geodesic is a great-circle arc. Compare to a naive flat-map 'straight line'. numpy, Earth radius 6371 km, lat/lon in radians.",
+    "eq": "Great-circle arc length = R · arccos(sin(lat₁)·sin(lat₂) + cos(lat₁)·cos(lat₂)·cos(Δlon))\nwhere R = 6371 km (Earth radius)\nNew York ≈ (40.7°N, 74.0°W), London ≈ (51.5°N, 0.1°W)\nGeodesic distance = 5567 km",
+    "note": "Full script: scripts/experiments/gr_run.py (EXP2). Numbers are the run's output verbatim. The 5567 km is the shortest path along Earth's surface."
+  }
+}

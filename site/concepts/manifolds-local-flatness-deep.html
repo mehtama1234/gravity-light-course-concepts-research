@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manifolds &amp; Local Flatness (deep) · Gravity &amp; Light</title>
+<link rel="stylesheet" href="../assets/styles.css">
+<style>
+.arc{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0}
+.arc a{font-size:12.5px;color:var(--accent);text-decoration:none;border:1px solid var(--line,#dcdcdc);border-radius:20px;padding:3px 10px;background:#fff}
+.fp{border-top:1px solid var(--line,#dcdcdc);padding:22px 0 4px;margin-top:10px}
+.fp h2{margin:6px 0 10px}
+.kick{font-size:12px;color:var(--accent);font-weight:800;text-transform:uppercase;letter-spacing:.07em;margin:6px 0}
+.lede{font-size:20px;color:#2c2c2c;max-width:820px}
+.essay p{max-width:74ch;font-size:16.5px;margin:11px 0;color:#232323}
+.barrow{display:flex;align-items:center;gap:10px;margin:5px 0;font-size:13px}
+.barrow .lab{width:160px;font-family:ui-monospace,Menlo,monospace;font-size:12px;color:#5a5a5a;text-align:right}
+.bar{height:16px;border-radius:3px;background:var(--accent);min-width:2px}.bar.alt{background:var(--accent-2,#7a3f2a)}
+.barrow .val{font-family:ui-monospace,Menlo,monospace;font-size:12px}
+.eq{font-family:ui-monospace,Menlo,monospace;font-size:13.5px;background:#eef3f7;border:1px solid var(--line,#dcdcdc);border-radius:6px;padding:12px 14px;margin:12px 0;overflow-x:auto;white-space:pre-wrap}
+.insight{border-left:4px solid var(--accent);background:#eef3f7;padding:12px 16px;border-radius:0 8px 8px 0;margin:16px 0;font-size:16px}
+details.math{border:1px solid var(--line,#dcdcdc);border-radius:8px;background:#fff;margin:14px 0}
+details.math summary{cursor:pointer;padding:10px 13px;color:var(--accent);font-weight:750}
+details.math > div{border-top:1px solid var(--line,#dcdcdc);padding:4px 14px 12px}
+figure{margin:16px 0}figcaption{font-size:13px;color:#5a5a5a;margin-top:6px}
+table{border-collapse:collapse;width:100%;background:#fff;border:1px solid var(--line,#dcdcdc)}
+th,td{border:1px solid var(--line,#dcdcdc);padding:8px 11px;text-align:left;font-size:14.5px}th{background:#eef3f7}
+.tw{overflow-x:auto}
+</style></head><body>
+<header class="topbar"><a class="brand" href="../index.html">Gravity &amp; Light</a>
+<nav><a href="../index.html">Course</a><a href="../concepts.html">Concepts</a><a class="active" href="../deep-track.html">Deep Track</a><a href="manifolds-local-flatness.html">This concept</a></nav></header>
+<main>
+<div class="kick">gravity &amp; geometry · first principles · why the Earth is round but blueprints work</div>
+<h1>Locally flat — how a curved space hides its curvature when you zoom in close</h1>
+<p class="lede">The Earth is round, yet a building contractor draws flat blueprints and they work fine. How can a curved thing be treated as flat, and when does that break? The answer is that a curved space looks flat enough when you look close up — that is what a manifold is. Curvature is a second-order effect: tiny patches are indistinguishable from flat, but when you stitch patches together or look at large scales, the curvature becomes undeniable.</p>
+<div class="arc"><a href="#problem">The problem</a><a href="#reframe">The reframe</a><a href="#run">Seen on a real run</a><a href="#why">Why curvature is second-order</a><a href="#weakness">The one real limit</a><a href="#surprise">The surprise</a><a href="manifolds-local-flatness.html">Atlas card</a></div>
+
+    <section class="fp" id="problem">
+      <h2>1 · The problem — round Earth, flat blueprints</h2>
+      <div class="essay">
+      <p>A surveyor stands on the Earth's surface with a blueprint and a measuring tape. The planet is a sphere — fundamentally curved. Yet the blueprint is drawn on a flat page, and when the contractor builds to those flat specifications, the building stands straight. The angles are correct. The distances add up. Nothing is wrong. So how can flat geometry work on a curved surface, and when does it stop working? This is not idle philosophy — it is a practical limit that builders, mapmakers, and engineers must know.</p>
+      </div>
+    </section>
+    <section class="fp" id="reframe">
+      <h2>2 · The reframe — a manifold is a curved space that looks flat when you zoom in</h2>
+      <div class="essay">
+      <p>Here is the key insight: zoom in close enough to any smooth curved surface, and it becomes indistinguishable from a flat plane. A globe, a sphere, a saddle — any reasonably smooth curved space has the property that if you shrink your patch small enough, flat geometry works inside it. This property has a name: the surface is a <em>manifold</em>. A manifold is a space that is curved at large scale but feels flat locally.</p>
+      <p>This is not approximation — it is exact. A ruler laid down in a small region measures distances the same way on a sphere as on a flat sheet. Angles made by two paths crossing do not change just because the surface is curved. Flat geometry <em>is locally correct</em>. The curvature is a second-order effect: it grows with the square of the patch size, so it vanishes fast as you zoom in.</p>
+      </div>
+    </section>
+    <section class="fp" id="run">
+      <h2>3 · Seen on a real run — angles on a globe tell the true curvature</h2>
+      <div class="essay">
+      <p>We computed the sum of angles in triangles drawn on a perfect sphere (like the Earth), each triangle carved from one octant (a slice from the north pole to the equator). Each triangle spans a different fraction of that octant — from 5 percent to 100 percent. On a flat sheet, a triangle's angles always sum to 180 degrees. On a sphere, they sum to more than 180. The excess tells the curvature.</p>
+      <div class="tw"><table><tr><th>triangle size</th><th>angle sum</th><th>excess over 180°</th><th>what you see</th></tr><tr><td>5% of an octant</td><td>184.5 degrees</td><td>4.5 degrees</td><td>a small triangle — barely curved</td></tr><tr><td>25% of an octant</td><td>202.5 degrees</td><td>22.5 degrees</td><td>a medium triangle — noticeably curved</td></tr><tr><td>100% of an octant (pole to equator)</td><td>270 degrees</td><td>90 degrees</td><td>a huge triangle — visibly round</td></tr></table></div><figcaption>Each octant is 1/8 of the Earth's surface. The excess angle grows as the triangle grows; on a flat sheet the excess would always be zero.</figcaption>
+      <div class="insight"><strong>The discovered fact: small triangles barely deviate from 180 degrees (184.5), but large triangles balloon to 270 degrees — curvature is invisible up close, obvious at scale.</strong> More precisely, the excess angle equals the area of the triangle multiplied by the sphere's curvature (a fixed number for Earth). A triangle that is ten times smaller in linear size has one-hundredth the area — so the excess shrinks by a factor of 100. This is the square-of-size rule: halve the patch size, and curvature effects drop by a factor of four.</div>
+      </div>
+    </section>
+    <section class="fp" id="why">
+      <h2>4 · Why curvature is second-order — it vanishes as you zoom in</h2>
+      <div class="essay">
+      <p>Here is the arithmetic that makes it work. The excess angle grows with area — and area scales with the square of the linear size of the patch. So if you draw a triangle half the size, the area is one-quarter, the excess is one-quarter, and the deviation from 180 degrees shrinks. Draw a triangle one-tenth the size, and the excess is one one-hundredth. This is why <em>every</em> curved space, no matter how twisted, looks flat in a small enough neighborhood: the curvature effects are proportional to area, and area shrinks as the square of the shrinking size. Below a certain threshold, you cannot measure the difference.</p>
+      </div>
+    </section>
+    <section class="fp" id="weakness">
+      <h2>5 · The one real limit — the patches must stitch together consistently</h2>
+      <div class="essay">
+      <p>Local flatness is a superpower for doing math in small regions: you can use ordinary Euclidean geometry, calculus, and physics as if you lived on a flat plane. But a curved space is not made of one flat patch — it is made of many, and they must fit together. This is where the global curvature matters. You cannot cover a sphere with a single flat map without distortion. Every map must either stretch, shear, or compress the surface somewhere. And when you travel far enough that you leave one patch and enter another, the inconsistency between the patches is the tangible manifestation of curvature. In spacetime, this stitching problem is how gravity appears: locally, a freely-falling observer feels no gravity at all (free fall is the local flat inertial frame), but patches falling in different directions gradually diverge — they get pulled together or apart by the curvature of spacetime.</p>
+      </div>
+    </section>
+    <section class="fp" id="surprise">
+      <h2>6 · The surprise — local flatness is why Einstein's equivalence principle works</h2>
+      <div class="essay">
+      <p>Einstein took this idea and made it the foundation of general relativity. He observed that in a small enough region — a freely-falling laboratory, an elevator dropped from a building, a spacecraft in orbit — gravity vanishes. An astronaut falling toward Earth feels weightless. Inside that tiny free-falling frame, all the flat-spacetime physics of special relativity (the physics Einstein had published a decade earlier) is exactly correct. Einstein then said: this is because spacetime is a manifold. It is curved at the large scale by the presence of mass, but locally it is flat, and in any small inertial frame the flatness is absolute.</p>
+      <p>This is the equivalence principle: there is no experiment you can do in a small enough laboratory to tell whether you are in free fall in a gravitational field or drifting in empty space far from any mass. Both feel the same because both occupy a locally flat patch of spacetime. Gravity, then, is not a force acting in flat space — it is the curvature of spacetime itself, and the curvature is what you experience when you try to stitch the local flat patches together. Two astronauts falling side-by-side toward Earth are following geodesics — the straightest paths through curved spacetime — and over a large distance those paths converge. That convergence is tidal gravity: the very thing we feel as a stretching force at large scale is, at root, a manifestation of how the patches curve.</p>
+      </div>
+    </section>
+    <section class="fp"><p class="muted">Related: <a href="geodesics-free-motion-deep.html">geodesics</a> · <a href="curvature-geodesic-deviation-deep.html">curvature and geodesic deviation</a> · <a href="proper-time-clock-reading-deep.html">time dilation</a> · <a href="gravitational-lensing-focusing-deep.html">gravitational lensing</a></p></section>
+    <details class="math"><summary>the run recipe — reproduce every number above</summary><div>
+      <p class="muted">Compute the sum of angles in triangles inscribed on a sphere, spanning different fractions of an octant (1/8 of the surface). Compare to 180 degrees (the flat-plane sum). The excess equals the enclosed area times the Gaussian curvature. numpy, simple trigonometry.</p>
+      <div class="eq">Angle sum for a spherical triangle = 180° + A × κ
+where A = enclosed area, κ = 1/(Earth radius)² = Gaussian curvature
+For a small triangle (5% octant): area ≈ 0.05 × (π R²/8) → excess ≈ 4.5°
+For a full octant: area = π R²/8 → excess = 90°</div>
+      <p class="muted">Full script: scripts/experiments/gr_run.py (EXP5). Numbers are the run's output verbatim. Triangle angles computed from spherical-geometry formulas (Girard's theorem); Earth radius = 6371 km.</p>
+    </div></details>
+<footer style="color:#5a5a5a;font-size:13px;border-top:1px solid var(--line,#dcdcdc);padding:22px 0 60px;margin-top:24px">Gravity &amp; Light · Manifolds &amp; Local Flatness deep dive · every quantity here is computed. Experiments in scripts/experiments/gr_run.py.</footer>
+</main></body></html>

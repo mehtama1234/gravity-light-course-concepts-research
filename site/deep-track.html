@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deep Track · Gravity &amp; Light</title>
+<link rel="stylesheet" href="assets/styles.css">
+<style>
+.dt-hero{max-width:820px;margin:6px 0 26px}
+.dt-hero .kick{font-size:12px;color:var(--accent);font-weight:800;text-transform:uppercase;letter-spacing:.07em;margin:6px 0}
+.dt-hero h1{margin:6px 0 12px}
+.dt-hero p{font-size:18px;color:#2c2c2c;line-height:1.5}
+.dt-grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(340px,1fr))}
+.dt-card{border:1px solid var(--line,#dcdcdc);border-radius:10px;background:#fff;padding:16px 18px;text-decoration:none;color:inherit;display:block;transition:border-color .12s}
+.dt-card:hover{border-color:var(--accent)}
+.dt-card .n{font-size:12px;color:#7a7a7a;font-family:ui-monospace,Menlo,monospace}
+.dt-card h3{margin:5px 0 8px;font-size:17px;color:var(--accent)}
+.dt-card p{margin:0;font-size:14px;color:#3a3a3a;line-height:1.45}
+.dt-card .go{margin-top:10px;font-size:13px;font-weight:700;color:var(--accent)}
+</style></head><body>
+<header class="topbar"><a class="brand" href="index.html">Gravity &amp; Light</a>
+<nav><a href="index.html">Course</a><a href="concepts.html">Concepts</a><a class="active" href="deep-track.html">Deep Track</a></nav></header>
+<main>
+<div class="dt-hero">
+  <div class="kick">the deep track · every number computed</div>
+  <h1>Deep Track — general relativity, from the inside out</h1>
+  <p>Twelve concepts, each rebuilt as a first-principles deep dive in plain language: a real problem, the reframe that cracks it, and <strong>a result we actually computed and ran</strong> — light bending 1.75 arcseconds past the Sun, a GPS clock drifting 39 microseconds a day, an arrow returning 90 degrees rotated after a loop on the globe. Every quantity is produced by a short program (<code>scripts/experiments/gr_run.py</code>); nothing is asserted.</p>
+</div>
+<div class="dt-grid">
+  <a class="dt-card" href="concepts/manifolds-local-flatness-deep.html">
+    <div class="n">01</div>
+    <h3>Locally flat — how a curved space hides its curvature when you zoom in close</h3>
+    <p>The Earth is round, yet a building contractor draws flat blueprints and they work fine. How can a curved thing be treated as flat, and when does that break?</p>
+    <div class="go">Read the deep dive &rarr;</div>
+  </a>
+  <a class="dt-card" href="concepts/metric-measurement-deep.html">
+    <div class="n">02</div>
+    <h3>The metric — the measuring rule that makes geometry work</h3>
+    <p>A curved surface has no outside ruler laid over it. How do you measure distances between nearby points when you cannot step outside the surface itself?</p>
+    <div class="go">Read the deep dive &rarr;</div>
+  </a>
+  <a class="dt-card" href="concepts/geodesics-free-motion-deep.html">
+    <div class="n">03</div>
+    <h3>Geodesics — why free fall is actually straight-line motion</h3>
+    <p>An apple falls, a planet orbits, a light ray bends near the Sun. Newton saw gravity as a force pulling on every object.</p>
+    <div class="go">Read the deep dive &rarr;</div>
+  </a>
+  <a class="dt-card" href="concepts/parallel-transport-loop-test-deep.html">
+    <div class="n">04</div>
+    <h3>The arrow that comes home rotated — how to tell a curved space from the inside</h3>
+    <p>Imagine you are a bug living on a surface — say, a globe or a curved bowl — and you cannot step outside to look at its shape. You want to know: is this surface curved or flat?</p>
+    <div class="go">Read the deep dive &rarr;</div>
+  </a>
+  <a class="dt-card" href="concepts/riemann-curvature-commutator-deep.html">
+    <div class="n">05</div>
+    <h3>Curvature as the failure of moves to commute — why 90 degrees on a globe, 0 on a flat sheet</h3>
+    <p>On a flat piece of paper, the order of your moves does not matter: go east then north lands you in the same spot as go north then east. But on a curved surface like a globe, the order matters.</p>
+    <div class="go">Read the deep dive &rarr;</div>
+  </a>
+  <a class="dt-card" href="concepts/curvature-geodesic-deviation-deep.html">
+    <div class="n">06</div>
+    <h3>Two straight walkers colliding — how curvature reveals itself when parallel paths converge</h3>
+    <p>On flat ground, two people walking straight ahead and parallel to each other stay the same distance apart forever. But on a curved surface, two paths that begin parallel and never turn toward each other will drift together or apart on their</p>
+    <div class="go">Read the deep dive &rarr;</div>
+  </a>
+  <a class="dt-card" href="concepts/proper-time-clock-reading-deep.html">
+    <div class="n">07</div>
+    <h3>Time is not universal — a clock's rate depends on where it sits and how fast it moves</h3>
+    <p>We think of time as a single ticking beat that governs the whole universe. But Einstein showed something stranger: time is not universal.</p>
+    <div class="go">Read the deep dive &rarr;</div>
+  </a>
+  <a class="dt-card" href="concepts/gravitational-lensing-focusing-deep.html">
+    <div class="n">08</div>
+    <h3>Light bending — the 1.75-arcsecond swerve that made Einstein famous</h3>
+    <p>Gravity, Newton said, pulls on things with mass. But light has no mass — so should a star's gravity ignore a passing light ray?</p>
+    <div class="go">Read the deep dive &rarr;</div>
+  </a>
+  <a class="dt-card" href="concepts/black-holes-horizons-deep.html">
+    <div class="n">09</div>
+    <h3>The Schwarzschild radius — squeeze enough mass into a small sphere and light itself can no longer get out</h3>
+    <p>Gravity gets stronger the more compact a mass becomes. But is there a point where it becomes so strong that nothing, not even light, can escape?</p>
+    <div class="go">Read the deep dive &rarr;</div>
+  </a>
+  <a class="dt-card" href="concepts/event-horizon-causal-boundary-deep.html">
+    <div class="n">10</div>
+    <h3>The event horizon — a one-way causal boundary, not a wall</h3>
+    <p>A black hole doesn't 'suck you in' like a drain. Instead, its gravity warps space and time so severely that past a certain boundary — the event horizon — the geometry of the future leaves no path that goes outward.</p>
+    <div class="go">Read the deep dive &rarr;</div>
+  </a>
+  <a class="dt-card" href="concepts/redshift-as-stretched-light-deep.html">
+    <div class="n">11</div>
+    <h3>Light turning red — why a galaxy's recession writes itself into its color</h3>
+    <p>We cannot stretch a tape measure across the universe, so how do we know how far away a distant galaxy is, or even that the universe is expanding at all? The answer is hidden in the color of its light.</p>
+    <div class="go">Read the deep dive &rarr;</div>
+  </a>
+  <a class="dt-card" href="concepts/hubble-rate-as-change-of-scale-deep.html">
+    <div class="n">12</div>
+    <h3>Recession by the meter — why distant galaxies rush away faster, without any center</h3>
+    <p>Nearly every galaxy we see is moving away from us — and the farther it is, the faster it recedes. If every galaxy is running away, doesn't that mean we are at the center of some cosmic explosion?</p>
+    <div class="go">Read the deep dive &rarr;</div>
+  </a>
+</div>
+<footer style="color:#5a5a5a;font-size:13px;border-top:1px solid var(--line,#dcdcdc);padding:22px 0 60px;margin-top:26px">Gravity &amp; Light · deep track · 12 computed deep dives.</footer>
+</main></body></html>

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Geodesic Deviation (deep) · Gravity &amp; Light</title>
+<link rel="stylesheet" href="../assets/styles.css">
+<style>
+.arc{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0}
+.arc a{font-size:12.5px;color:var(--accent);text-decoration:none;border:1px solid var(--line,#dcdcdc);border-radius:20px;padding:3px 10px;background:#fff}
+.fp{border-top:1px solid var(--line,#dcdcdc);padding:22px 0 4px;margin-top:10px}
+.fp h2{margin:6px 0 10px}
+.kick{font-size:12px;color:var(--accent);font-weight:800;text-transform:uppercase;letter-spacing:.07em;margin:6px 0}
+.lede{font-size:20px;color:#2c2c2c;max-width:820px}
+.essay p{max-width:74ch;font-size:16.5px;margin:11px 0;color:#232323}
+.barrow{display:flex;align-items:center;gap:10px;margin:5px 0;font-size:13px}
+.barrow .lab{width:160px;font-family:ui-monospace,Menlo,monospace;font-size:12px;color:#5a5a5a;text-align:right}
+.bar{height:16px;border-radius:3px;background:var(--accent);min-width:2px}.bar.alt{background:var(--accent-2,#7a3f2a)}
+.barrow .val{font-family:ui-monospace,Menlo,monospace;font-size:12px}
+.eq{font-family:ui-monospace,Menlo,monospace;font-size:13.5px;background:#eef3f7;border:1px solid var(--line,#dcdcdc);border-radius:6px;padding:12px 14px;margin:12px 0;overflow-x:auto;white-space:pre-wrap}
+.insight{border-left:4px solid var(--accent);background:#eef3f7;padding:12px 16px;border-radius:0 8px 8px 0;margin:16px 0;font-size:16px}
+details.math{border:1px solid var(--line,#dcdcdc);border-radius:8px;background:#fff;margin:14px 0}
+details.math summary{cursor:pointer;padding:10px 13px;color:var(--accent);font-weight:750}
+details.math > div{border-top:1px solid var(--line,#dcdcdc);padding:4px 14px 12px}
+figure{margin:16px 0}figcaption{font-size:13px;color:#5a5a5a;margin-top:6px}
+table{border-collapse:collapse;width:100%;background:#fff;border:1px solid var(--line,#dcdcdc)}
+th,td{border:1px solid var(--line,#dcdcdc);padding:8px 11px;text-align:left;font-size:14.5px}th{background:#eef3f7}
+.tw{overflow-x:auto}
+</style></head><body>
+<header class="topbar"><a class="brand" href="../index.html">Gravity &amp; Light</a>
+<nav><a href="../index.html">Course</a><a href="../concepts.html">Concepts</a><a class="active" href="../deep-track.html">Deep Track</a><a href="curvature-geodesic-deviation.html">This concept</a></nav></header>
+<main>
+<div class="kick">gravity &amp; geometry · curvature · parallel paths drift together</div>
+<h1>Two straight walkers colliding — how curvature reveals itself when parallel paths converge</h1>
+<p class="lede">On flat ground, two people walking straight ahead and parallel to each other stay the same distance apart forever. But on a curved surface, two paths that begin parallel and never turn toward each other will drift together or apart on their own. That unforced drift — watched from the inside, without stepping outside the surface — IS curvature itself. In spacetime, this same drift is tidal gravity, the reason the Moon pulls two ocean bulges, and the reason an astronaut falling into a black hole is stretched like spaghetti.</p>
+<div class="arc"><a href="#problem">The problem</a><a href="#reframe">The reframe</a><a href="#run">Seen on a real run</a><a href="#why">Why this matters</a><a href="#weakness">The one real limit</a><a href="#surprise">The surprise</a><a href="curvature-geodesic-deviation.html">Atlas card</a></div>
+
+    <section class="fp" id="problem">
+      <h2>1 · The problem — parallel lines stay parallel (on a flat world)</h2>
+      <div class="essay">
+      <p>Draw two parallel lines on a sheet of paper and extend them forever. They never meet; the distance between them stays constant at every point. This is so obvious that Euclid made it an axiom: the parallel postulate. On flat ground, if two people walk straight ahead at the same speed, starting 100 meters apart and both headed north, they will still be exactly 100 meters apart after one day, one month, one year. The world being flat guarantees it.</p>
+      <p>But the world is not flat. What happens to two parallel paths on a curved surface?</p>
+      </div>
+    </section>
+    <section class="fp" id="reframe">
+      <h2>2 · The reframe — parallel paths on a curved surface drift apart or together all on their own</h2>
+      <div class="essay">
+      <p>On a curved surface, two paths that begin parallel and never veer toward each other will nevertheless shift their separation. Because the surface is curved, 'straight ahead' bends in space, so initially-parallel directions (both pointing north on a globe) are not parallel in the global sense — they converge toward the pole. No one steers the paths together; the geometry itself does. This convergence IS curvature, seen from the inside. A flatlander who cannot step off the surface can measure curvature simply by watching how the separation between two straight-walking friends changes over time. If they drift together, the surface curves one way; if they spread apart, it curves another.</p>
+      <p>This is more than philosophy. Einstein's insight was that spacetime is curved, and gravity is not a force — it is the shape of spacetime bending paths. Two objects dropped side by side both fall straight downward in spacetime (they each follow a geodesic, the straightest path), yet their falling paths converge: they drift together as they fall. We call that drift 'gravity pulling them together', but it is really curved spacetime bending their initially-parallel paths. This convergence of geodesics in curved spacetime is called <em>geodesic deviation</em>, and it is the true face of tidal gravity.</p>
+      </div>
+    </section>
+    <section class="fp" id="run">
+      <h2>3 · Seen on a real run — two due-north walkers, 100 km apart at the equator</h2>
+      <div class="essay">
+      <p>We computed the path of two travellers who start at the equator 100 kilometers apart and both walk due north at the same steady speed. They never turn toward each other; they are walking along geodesics (the straightest paths on Earth's curved surface). Every number here is the computed separation between them as they approach the pole.</p>
+      <div class="tw"><table><tr><th>latitude</th><th>separation between the walkers</th></tr><tr><td>equator (0°)</td><td>100.0 km</td></tr><tr><td>30° north</td><td>86.6 km</td></tr><tr><td>60° north</td><td>50.0 km</td></tr><tr><td>89° north (almost at the pole)</td><td>1.7 km</td></tr></table></div><figcaption>Two travellers walk due north, starting 100 km apart. Neither steers; both head straight. The separation shrinks because the meridian lines (north-south geodesics) converge as they approach the pole.</figcaption>
+      <div class="insight"><strong>The discovered fact: two straight-ahead walkers, starting parallel and never turning, close the gap from 100 km to 86.6 km, then 50 km, then barely 1.7 km — and collide at the pole.</strong> No force pulls them together. The unforced convergence is pure geometry: on a sphere, lines of longitude are geodesics (the straightest paths), and geodesics converge toward the poles. Measuring this convergence is a purely inward measurement of curvature. A flatlander inside a globe, with no outside view, would measure this compression and conclude: 'this space is curved, and in this direction it curves with a particular strength.' That measurement is geodesic deviation.</div>
+      </div>
+    </section>
+    <section class="fp" id="why">
+      <h2>4 · Why this matters — tidal gravity is curved spacetime bending free-fall paths</h2>
+      <div class="essay">
+      <p>In spacetime, gravity and free fall are not forces — they are geodesics. When you drop two balls side by side, each follows the straightest path through curved spacetime (a spacetime geodesic). But because spacetime is curved by the nearby Earth, two initially-parallel drop paths converge: the balls drift together as they fall. That drift — geodesic deviation in spacetime — is what we call tidal gravity.</p>
+      <p>This is the reason the Moon raises two ocean bulges: on one side of Earth, the Moon is closer and its gravity curves spacetime more steeply, so water parcels and rocks on the near side fall together (they are tidally compressed together). On the far side, water parcels are farther from the Moon and fall together less steeply, so they fall away from Earth (tidally separated). The same effect reaches an extreme at a black hole: an astronaut falling feet-first toward the event horizon experiences different gravitational acceleration at the feet and the head — the feet are deeper in the curved spacetime and are pulled harder, so they accelerate differently. The differential pulls the astronaut apart — spaghettification — and that is geodesic deviation at its limit.</p>
+      <p>Every gravitational wave detector (LIGO, Virgo) works by measuring geodesic deviation. A passing gravitational wave is a ripple in spacetime curvature. It stretches and squeezes the separation between two mirrors by a tiny amount. That fluctuation in the distance between mirrors is geodesic deviation — the signature of a warped spacetime passing through.</p>
+      </div>
+    </section>
+    <section class="fp" id="weakness">
+      <h2>5 · The one real limit — uniform curvature looks like no curvature at all</h2>
+      <div class="essay">
+      <p>Geodesic deviation only appears where geodesics actually diverge or converge. In a uniform gravitational field — say, inside a smoothly accelerating rocket cabin — everything falls at the same acceleration, so parallel paths remain parallel. An astronaut inside that cabin feels constant weight, but measures zero geodesic deviation. This is the essence of the equivalence principle: a uniform gravitational field is locally indistinguishable from no gravity at all, because there is no tidal effect.</p>
+      <p>To measure curvature (and hence gravity) by geodesic deviation, the paths must be far enough apart or travel long enough for the deviation to grow measurable. On Earth's scale, 100 km is enough; in a satellite orbit, the tidal forces are weaker and take longer to show. Near a black hole, deviation becomes violent almost immediately. But in a tiny, uniform region of space, geodesic deviation vanishes, and spacetime looks flat. This is why general relativity says spacetime is 'locally flat' — zoom in far enough on any point and it looks like special relativity (flat spacetime).</p>
+      </div>
+    </section>
+    <section class="fp" id="surprise">
+      <h2>6 · The surprise — this one idea anchors tides, black-hole spaghettification, and gravitational wave detection</h2>
+      <div class="essay">
+      <p>Geodesic deviation is not an exotic effect. It is the unified explanation for why the Moon raises two ocean tides (differential gravity on opposite sides of Earth), why time dilation differs from place to place (curved spacetime geometry), and why LIGO can detect the collision of two black holes a billion light-years away (a passing gravitational wave stretches and squeezes the test-mass mirrors).</p>
+      <p>At the deepest level, geodesic deviation is how spacetime speaks. The metric tensor — the mathematical object that encodes how to measure distances and angles in curved spacetime — governs how geodesics spread or converge. And the Riemann curvature tensor — the true heart of general relativity — is defined by geodesic deviation: the curvature IS the rate at which parallel geodesics diverge. Measure that drift, and you are reading the tensor. This is why curvature is not an abstract idea but a concrete, measurable effect that touches everyday life: satellites, ocean tides, and the detector that found gravitational waves.</p>
+      </div>
+    </section>
+    <section class="fp"><p class="muted">Related: <a href="geodesics-free-motion-deep.html">geodesics</a> · <a href="gravitational-lensing-focusing-deep.html">gravitational lensing</a> · <a href="proper-time-clock-reading-deep.html">time dilation</a> · <a href="black-holes-horizons-deep.html">black holes</a></p></section>
+    <details class="math"><summary>the run recipe — reproduce every number above</summary><div>
+      <p class="muted">Compute the separation between two travellers starting 100 km apart on Earth's equator and walking due north along meridian lines (geodesics). The metric on a sphere gives the true distance at each latitude. Compare separation at equator, 30°, 60°, and 89° latitude. numpy, Earth's radius 6,371 km.</p>
+      <div class="eq">On a sphere of radius R, two meridian lines (geodesics) separated by arc angle Δθ at the equator remain geodesics as you move north. At latitude φ, the geodesic separation (distance along a circle of latitude) shrinks by a factor of cos(φ). Thus two walkers starting 100 km apart at the equator (Δθ ≈ 100/6371 radians) are separated by 100·cos(φ) km at latitude φ.</div>
+      <p class="muted">Full script: scripts/experiments/gr_run.py (EXP7). Numbers are the run's output verbatim; separation computed from Earth's radius and the spherical metric.</p>
+    </div></details>
+<footer style="color:#5a5a5a;font-size:13px;border-top:1px solid var(--line,#dcdcdc);padding:22px 0 60px;margin-top:24px">Gravity &amp; Light · Geodesic Deviation deep dive · every quantity here is computed. Experiments in scripts/experiments/gr_run.py.</footer>
+</main></body></html>

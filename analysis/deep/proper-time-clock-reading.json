@@ -1,0 +1,154 @@
+{
+  "id": "proper-time-clock-reading",
+  "name": "Proper Time",
+  "kick": "gravity & motion · first principles · time ticks at different rates",
+  "title": "Time is not universal — a clock's rate depends on where it sits and how fast it moves",
+  "lede": "We think of time as a single ticking beat that governs the whole universe. But Einstein showed something stranger: time is not universal. The amount of time that actually elapses on a clock depends on where the clock sits in a gravitational field and how fast it moves. This is not an illusion or an error in the clock — it is time itself running at different rates. GPS satellites prove it every day, correcting their clocks by microseconds so your phone knows where you are. Here is what this means, how it was discovered, why every kind of clock is affected, where it breaks, and where it reappears in cosmology.",
+  "arc": [
+    ["problem", "The assumption we all live by"],
+    ["reframe", "Each clock reads its own time"],
+    ["run", "Seen on a real run"],
+    ["why", "Why every clock is affected"],
+    ["weakness", "The one real limit"],
+    ["surprise", "The surprise"]
+  ],
+  "sections": [
+    {
+      "id": "problem",
+      "h2": "1 · The assumption we all live by — one universal 'now' ticking everywhere",
+      "blocks": [
+        {
+          "t": "para",
+          "html": "Suppose you and a friend agree to meet when both your clocks read noon. You take your clock to the top of a high mountain. Your friend stays in a valley with theirs. At the meeting time, you compare: do they show the same time? Of course they do — you both set them to noon before you left. But here is the hidden question: as time passes, do they <em>tick at the same rate</em>? Do they run at the same speed?"
+        },
+        {
+          "t": "para",
+          "html": "In everyday life, the answer seems obviously yes. We assume that one second on a mountaintop is the same as one second in a valley, and one second on a fast airplane is the same as one second on the ground. Time is universal — it flows at the same pace everywhere and for everyone. This feeling is so strong that we built it into physics for centuries."
+        },
+        {
+          "t": "para",
+          "html": "But Einstein asked a sharper question: <strong>is this assumption actually true, or just a convenience that works for slow, low-altitude everyday life?</strong> And the answer — proved by experiment — is that it is not true. Time does not tick at the same rate everywhere."
+        }
+      ]
+    },
+    {
+      "id": "reframe",
+      "h2": "2 · The reframe — each clock reads its own elapsed time along its own path",
+      "blocks": [
+        {
+          "t": "para",
+          "html": "Einstein's insight is this: forget about \"universal time\" ticking everywhere the same. Instead, think of each clock as measuring its own slice of time — the time that actually elapses for that clock as it travels through space and gravity. Different clocks, different paths: different amounts of time pass."
+        },
+        {
+          "t": "para",
+          "html": "Two effects change the rate at which a clock ticks. First, gravity: a clock sitting deeper in a gravitational field (lower down, closer to a mass) ticks <em>slower</em> than a clock sitting higher up (farther from the mass). A clock on the ground ticks slower than a clock on a mountaintop. Second, motion: a clock that is moving fast ticks <em>slower</em> than a clock that is standing still. A clock on a fast airplane ticks slower than a clock on the ground."
+        },
+        {
+          "t": "para",
+          "html": "These two effects go in the same direction — both slow down the ticking rate. But you can add them up. A satellite in orbit is high up (gravity effect speeds it up) but moving very fast (motion effect slows it down). The net depends on which effect wins."
+        }
+      ]
+    },
+    {
+      "id": "run",
+      "h2": "3 · Seen on a real run — a GPS satellite clock versus ground",
+      "blocks": [
+        {
+          "t": "para",
+          "html": "A GPS satellite orbits Earth at an altitude of about 20,200 kilometers, moving at about 3.87 kilometers per second. We can compute how its clock drifts relative to a clock on the ground. Every number below comes from one small calculation using the satellite's altitude, its speed, Earth's mass, and the speed of light."
+        },
+        {
+          "t": "table",
+          "headers": ["effect", "change in clock rate per day"],
+          "rows": [
+            ["gravity (clock higher up runs faster)", "+45.7 microseconds"],
+            ["motion (clock moving fast runs slower)", "−7.2 microseconds"],
+            ["net (gravity minus motion)", "+39 microseconds"]
+          ],
+          "caption": "A microsecond is a millionth of a second. Per day, the satellite's clock gains 39 microseconds — runs 39 millionths of a second faster — relative to a ground clock."
+        },
+        {
+          "t": "insight",
+          "html": "<strong>A GPS satellite clock runs 39 microseconds per day faster than a ground clock.</strong> That is not much — less than a heartbeat every 24 hours. But GPS locates you by timing how long it takes radio signals to travel from satellites to your phone, and it measures distance as the product of signal speed and time. If the satellite clocks were off by 39 microseconds per day and we never corrected them, the position error would grow by about 12 kilometers per day. Within a couple of minutes, your phone would lose track of where you are."
+        },
+        {
+          "t": "para",
+          "html": "Your phone corrects this silently. Every GPS receiver bakes in Einstein's formulas — the 45.7 microseconds from altitude, the 7.2 microseconds from speed — and subtracts them out. Without that correction, running in the background right now, GPS would fail. That is the proof: time is not universal."
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "h2": "4 · Why every clock is affected — time itself changes rate, not the device",
+      "blocks": [
+        {
+          "t": "para",
+          "html": "You might wonder: is this really about time, or just about the satellite's atomic clock ticking differently due to some mechanical effect — expansion of metals, changes in magnetic fields, something specific to that device?"
+        },
+        {
+          "t": "para",
+          "html": "No. The effect is universal. It does not matter what kind of clock you use — an atomic clock (which counts vibrations of atoms), a quartz clock (which counts vibrations of a crystal), a mechanical clock with springs and gears, even a biological clock (your heartbeat, the growth rings in a tree, the age of organisms). Every kind of clock slows down at the same rate when it is in a strong gravity field or moving fast."
+        },
+        {
+          "t": "para",
+          "html": "Why? Because it is not the clock that is changing. It is time itself. Time is not a background stage on which physics happens; time is part of the fabric of the universe, woven together with space by mass and motion. When you are in a strong gravitational field or moving fast, you are in a region where time <em>flows at a different rate</em>. Every process — atomic vibrations, the swing of a pendulum, your own heartbeat — speeds up or slows down by the same fractional amount."
+        },
+        {
+          "t": "para",
+          "html": "This is why the effect is called <em>proper time</em> — it is the time that a clock actually measures as it travels along its own path. Each clock, in its own frame of reference, ticks at one second per second. But when two clocks meet again, they will show different elapsed times if they took different paths through space and gravity."
+        }
+      ]
+    },
+    {
+      "id": "weakness",
+      "h2": "5 · The one real limit — the effect is a whisper for everyday life",
+      "blocks": [
+        {
+          "t": "para",
+          "html": "39 microseconds per day is tiny. You will never feel it. If you were born at sea level and moved to the top of a mountain 3,000 meters high, your time would shift by less than a nanosecond per year relative to the people below you — unmeasurably small. You will not age noticeably faster or slower."
+        },
+        {
+          "t": "para",
+          "html": "The effect only matters when two conditions hold: (1) you have either very high precision timekeeping (atomic clocks, GPS) or very extreme circumstances (speeds close to the speed of light, or gravity close to a black hole), and (2) the time difference adds up — either because the clock runs for a long time or because the difference in rate is large. For everyday speeds and everyday gravity, you can ignore proper time completely, and Newtonian physics works fine."
+        },
+        {
+          "t": "para",
+          "html": "The formula also assumes spacetime is empty or nearly so. Near a black hole, or in a lumpy galaxy where the gravity is not uniform, the full general-relativity calculation must replace this simple picture. And there is no way to measure proper time directly — you always measure it indirectly, by comparing two clocks or by observing light from distant objects."
+        }
+      ]
+    },
+    {
+      "id": "surprise",
+      "h2": "6 · The surprise — time dilation reappears in cosmology, at black holes, and in space travel",
+      "blocks": [
+        {
+          "t": "para",
+          "html": "This 39-microsecond GPS effect is only the gentlest whisper of proper time. The same idea becomes dramatic at extreme scales. Near a black hole, a clock hovering close to the event horizon (the point of no return) ticks enormously <em>slowly</em> relative to a clock far away — you would see it freeze in time. An astronaut falling into a black hole would age differently than a twin watching from safe distance."
+        },
+        {
+          "t": "para",
+          "html": "In cosmology, the expansion of the universe itself is described using proper time. Galaxies recede from one another as space stretches, and light traveling through that stretching space has its wavelength lengthened — a redshift. Astronomers read proper-time effects off the light of distant galaxies to measure how fast the universe was expanding at different epochs."
+        },
+        {
+          "t": "para",
+          "html": "And in a thought experiment called the twin paradox, one twin stays on Earth while the other travels to a distant star at near-light speed and returns. Because the traveling twin moved fast, their clock ran slower, and they aged less than the twin on Earth. This is not fiction; it follows mathematically from the idea that time is not universal. For fast enough travel (unreachable with today's rockets), the effect would be measurable."
+        },
+        {
+          "t": "para",
+          "html": "Every time you use GPS to navigate, you are relying on Einstein's insight that time is not universal. And every prediction of how the universe will end, how galaxies evolve, or what happens at a black hole, depends on proper time. The 39 microseconds are the proof."
+        }
+      ]
+    }
+  ],
+  "related": [
+    ["geodesics-free-motion-deep.html", "geodesics"],
+    ["gravitational-lensing-focusing-deep.html", "light bending"],
+    ["black-holes-horizons-deep.html", "black holes"],
+    ["hubble-rate-as-change-of-scale-deep.html", "cosmic expansion"]
+  ],
+  "recipe": {
+    "summary": "Compute the rate drift of a GPS satellite clock relative to a ground clock using the satellite's altitude, speed, Earth's mass, and the speed of light. Separate the gravitational (altitude) and motion (speed) contributions and add them to get the net. numpy, SI units.",
+    "eq": "Δt_gravity = (GM/c²) / R × 2 ≈ +45.7 μs/day (higher → faster)\nΔt_motion = −(1/2)(v/c)² × c × t ≈ −7.2 μs/day (faster → slower)\nΔt_net = Δt_gravity + Δt_motion ≈ +39 μs/day",
+    "note": "Full script: scripts/experiments/gr_run.py (EXP4). Numbers are the run's output verbatim. GPS operational since 1980s with relativity corrections active; without them, position error grows ~12 km/day."
+  }
+}
