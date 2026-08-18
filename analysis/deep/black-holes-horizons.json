@@ -4,38 +4,199 @@
   "kick": "gravity & geometry · extreme spacetime · the edge where nothing escapes",
   "title": "The Schwarzschild radius — squeeze enough mass into a small sphere and light itself can no longer get out",
   "lede": "Gravity gets stronger the more compact a mass becomes. But is there a point where it becomes so strong that nothing, not even light, can escape? Yes: there is a critical size called the Schwarzschild radius. Pack any mass inside that radius and the escape speed reaches the speed of light — light itself can't climb out. Here is how the idea works, the numbers for real objects, why the explanation is not 'light gets dragged back,' where it fails, and why this invisible boundary is everywhere in the modern universe.",
-  "arc": [["problem","The problem"],["reframe","The reframe"],["run","Seen on a real run"],["inside","What 'inside' means"],["limit","The one limit"],["surprise","The surprise"]],
-  "sections": [
-    {"id":"problem","h2":"1 · The problem — gravity gets stronger as you pack mass tighter","blocks":[
-      {"t":"para","html":"The closer you stand to a massive object, the stronger it pulls on you. That is the everyday experience of gravity: the Earth pulls you down because you stand on it, and if you could drill down toward its center, gravity would grow stronger. But there is a trade-off: as you get closer, you are also inside more of the mass, so you feel the pull from less of it (the stuff above you pulls you back up). The net effect has a maximum — somewhere inside the Earth, gravity reaches a peak and then weakens as you get nearer the very center."},
-      {"t":"para","html":"But escape velocity — the speed you need to launch something so it leaves forever — depends on how compact the mass is. The more tightly you squeeze a mass, the faster the escape velocity climbs. This raises a dangerous question: <strong>what if you squeeze a mass so tightly that the escape velocity exceeds the speed of light?</strong> Nothing can go faster than light. So would something be truly trapped?"}
-    ]},
-    {"id":"reframe","h2":"2 · The reframe — there is a critical radius for every mass","blocks":[
-      {"t":"para","html":"Einstein's general relativity gives a clean answer: yes. For any mass, there is a specific radius — the <em>Schwarzschild radius</em> — such that if you compress the mass inside it, escape becomes impossible. But not because light 'gets dragged back.' Rather, the geometry of spacetime becomes so twisted that the notion of 'outward' ceases to exist. Every path through time, every possible future direction, leads further inward. The event horizon — the surface of the Schwarzschild radius — is not a wall you crash into. It is a one-way gate: you can cross it going in, but no signal, no matter, no light can ever come back out."},
-      {"t":"para","html":"The formula is simple: radius = 2 times the gravitational constant times the mass, divided by the square of the speed of light. Smaller mass means smaller radius; larger mass means a larger sphere, but one that still contains all that mass with none left over on the outside."}
-    ]},
-    {"id":"run","h2":"3 · Seen on a real run — the Schwarzschild radius for real objects","blocks":[
-      {"t":"para","html":"We computed what the Schwarzschild radius would be for objects you know, using only the object's mass, the speed of light, and the formula. Every number here is that computation."},
-      {"t":"table","headers":["object","Schwarzschild radius","what it means"],"rows":[["the Sun","2.95 km","the Sun compressed to a sphere the size of a small city"],["the Earth","about 8.9 mm","the Earth compressed to a sphere smaller than your thumb"],["a mountain (10^14 kg)","not computable here; impossibly small","light-years across the universe — but the principle is the same"]],"caption":"These radii are computed from just mass and the speed of light. None of these objects have actually collapsed; they show what size they'd need to shrink to for their gravity to trap light. The Schwarzschild radius grows with mass, but always stays vanishingly small for everyday objects."},
-      {"t":"insight","html":"<strong>The discovered fact: the Sun compressed to a sphere only 2.95 km across would become a black hole; the Earth would need to shrink to about 8.9 mm — smaller than a pea.</strong> For these objects to actually collapse that far is physically impossible now — there is no mechanism to crush the Sun that small (and it would violate energy conservation to do so without a source of external force). But the formula applies to any mass. For a star with twenty times the Sun's mass, the Schwarzschild radius is 59 km. For a supermassive black hole at the center of a galaxy, it can be millions of kilometers across. The formula does not care; it works everywhere."}
-    ]},
-    {"id":"inside","h2":"4 · What 'inside' means — spacetime is curved so steeply that 'out' is not a direction","blocks":[
-      {"t":"para","html":"The simplest wrong picture is this: 'Inside the horizon, you get dragged back by gravity, like a satellite falling down.' But that is not what happens. Gravity — in Einstein's picture — is the shape of spacetime itself. Inside the Schwarzschild radius, spacetime is warped so steeply that the distinction between space and time flips. Outside, you can move freely in space while time marches forward. Inside, every forward-in-time direction is also a direction pointing deeper into the mass. Your future — no matter what you do, how hard you push, how you aim — leads inward. The event horizon is the place where this flip happens: it is the last moment you could have chosen 'outward' and stayed outside."},
-      {"t":"para","html":"No force is needed to keep you in. You do not feel a rope pulling you. Instead, the fabric of spacetime is shaped so that 'outward' has simply stopped being an option. It is like being on a one-way street painted into the geometry of the world itself. And because light always travels the fastest path forward in time, light cannot escape either — the fastest-forward path still leads inward."}
-    ]},
-    {"id":"limit","h2":"5 · The one real limit — this is the classical limit, and quantum mechanics ruins it","blocks":[
-      {"t":"para","html":"The Schwarzschild-radius formula and the picture of 'no escape' is pure classical general relativity: curves and geometry, nothing probabilistic, no quantum fuzz. But in the 1970s, Stephen Hawking showed that near the event horizon, quantum effects matter. Pairs of virtual particles can appear just inside and outside the horizon, and the outside-facing one can escape while the inside-facing one falls in. The black hole, by losing the inward-falling particle, loses energy — and very slowly radiates away. Hawking radiation is tiny for stellar-mass black holes (a black hole the mass of the Sun would take longer than the current age of the universe to evaporate), but it is real and it means the classical picture is incomplete."},
-      {"t":"para","html":"Also, the simple Schwarzschild formula applies to a non-spinning, uncharged mass. Real black holes spin — and spinning changes the geometry. A spinning black hole has not one but two horizons, the outer (the event horizon) and the inner (the Cauchy horizon), and the geometry inside is radically different. These complications do not break the core idea; they just make the real universe more intricate than the textbook limit."}
-    ]},
-    {"id":"surprise","h2":"6 · The surprise — black holes are not speculative, they are everywhere","blocks":[
-      {"t":"para","html":"For decades after Schwarzschild discovered the formula in 1916, black holes were considered a mathematical oddity — no one imagined they were real. Stars seemed too diffuse; surely a star could never compress that far. But in the 1960s and 70s, as neutron stars were discovered and as X-ray telescopes began to see gas spiraling into invisible dark objects, the evidence mounted. A star with more than about twenty times the Sun's mass will collapse at the end of its life and form a black hole."},
-      {"t":"para","html":"Today, black holes are routine. We have imaged the shadow of a supermassive black hole at the center of the galaxy M87, watching its silhouette in 2019. We detected the gravitational waves from two black holes colliding in 2015 — the first direct confirmation of Einstein's waves. At the center of our own Milky Way sits a four-million-solar-mass black hole called Sagittarius A*. The Schwarzschild radius — a number computed from mass and light-speed alone — is the starting point of the whole cosmic story. Squeeze a mass small enough and the space around it curves so steeply that not even light escapes. That threshold is real, and it shapes the universe."}
-    ]}
+  "arc": [
+    [
+      "problem",
+      "The problem"
+    ],
+    [
+      "reframe",
+      "The reframe"
+    ],
+    [
+      "run",
+      "Seen on a real run"
+    ],
+    [
+      "inside",
+      "What 'inside' means"
+    ],
+    [
+      "limit",
+      "The one limit"
+    ],
+    [
+      "surprise",
+      "The surprise"
+    ],
+    [
+      "practice",
+      "In practice"
+    ]
   ],
-  "related": [["geodesics-free-motion-deep.html","free fall and straight lines"],["gravitational-lensing-focusing-deep.html","light bending"],["proper-time-clock-reading-deep.html","time dilation"],["curvature-geodesic-deviation-deep.html","tidal gravity"]],
+  "sections": [
+    {
+      "id": "problem",
+      "h2": "1 · The problem — gravity gets stronger as you pack mass tighter",
+      "blocks": [
+        {
+          "t": "para",
+          "html": "The closer you stand to a massive object, the stronger it pulls on you. That is the everyday experience of gravity: the Earth pulls you down because you stand on it, and if you could drill down toward its center, gravity would grow stronger. But there is a trade-off: as you get closer, you are also inside more of the mass, so you feel the pull from less of it (the stuff above you pulls you back up). The net effect has a maximum — somewhere inside the Earth, gravity reaches a peak and then weakens as you get nearer the very center."
+        },
+        {
+          "t": "para",
+          "html": "But escape velocity — the speed you need to launch something so it leaves forever — depends on how compact the mass is. The more tightly you squeeze a mass, the faster the escape velocity climbs. This raises a dangerous question: <strong>what if you squeeze a mass so tightly that the escape velocity exceeds the speed of light?</strong> Nothing can go faster than light. So would something be truly trapped?"
+        }
+      ]
+    },
+    {
+      "id": "reframe",
+      "h2": "2 · The reframe — there is a critical radius for every mass",
+      "blocks": [
+        {
+          "t": "para",
+          "html": "Einstein's general relativity gives a clean answer: yes. For any mass, there is a specific radius — the <em>Schwarzschild radius</em> — such that if you compress the mass inside it, escape becomes impossible. But not because light 'gets dragged back.' Rather, the geometry of spacetime becomes so twisted that the notion of 'outward' ceases to exist. Every path through time, every possible future direction, leads further inward. The event horizon — the surface of the Schwarzschild radius — is not a wall you crash into. It is a one-way gate: you can cross it going in, but no signal, no matter, no light can ever come back out."
+        },
+        {
+          "t": "para",
+          "html": "The formula is simple: radius = 2 times the gravitational constant times the mass, divided by the square of the speed of light. Smaller mass means smaller radius; larger mass means a larger sphere, but one that still contains all that mass with none left over on the outside."
+        },
+        {
+          "t": "para",
+          "html": "The hidden quantity is whether any future-pointing path can still reach the outside; the horizon is exactly the surface where that stops being possible."
+        }
+      ]
+    },
+    {
+      "id": "run",
+      "h2": "3 · Seen on a real run — the Schwarzschild radius for real objects",
+      "blocks": [
+        {
+          "t": "para",
+          "html": "We computed what the Schwarzschild radius would be for objects you know, using only the object's mass, the speed of light, and the formula. Every number here is that computation."
+        },
+        {
+          "t": "table",
+          "headers": [
+            "object",
+            "Schwarzschild radius",
+            "what it means"
+          ],
+          "rows": [
+            [
+              "the Sun",
+              "2.95 km",
+              "the Sun compressed to a sphere the size of a small city"
+            ],
+            [
+              "the Earth",
+              "about 8.9 mm",
+              "the Earth compressed to a sphere smaller than your thumb"
+            ],
+            [
+              "a mountain (10^14 kg)",
+              "not computable here; impossibly small",
+              "light-years across the universe — but the principle is the same"
+            ]
+          ],
+          "caption": "These radii are computed from just mass and the speed of light. None of these objects have actually collapsed; they show what size they'd need to shrink to for their gravity to trap light. The Schwarzschild radius grows with mass, but always stays vanishingly small for everyday objects."
+        },
+        {
+          "t": "insight",
+          "html": "<strong>The discovered fact: the Sun compressed to a sphere only 2.95 km across would become a black hole; the Earth would need to shrink to about 8.9 mm — smaller than a pea.</strong> For these objects to actually collapse that far is physically impossible now — there is no mechanism to crush the Sun that small (and it would violate energy conservation to do so without a source of external force). But the formula applies to any mass. For a star with twenty times the Sun's mass, the Schwarzschild radius is 59 km. For a supermassive black hole at the center of a galaxy, it can be millions of kilometers across. The formula does not care; it works everywhere."
+        }
+      ]
+    },
+    {
+      "id": "inside",
+      "h2": "4 · What 'inside' means — spacetime is curved so steeply that 'out' is not a direction",
+      "blocks": [
+        {
+          "t": "para",
+          "html": "The simplest wrong picture is this: 'Inside the horizon, you get dragged back by gravity, like a satellite falling down.' But that is not what happens. Gravity — in Einstein's picture — is the shape of spacetime itself. Inside the Schwarzschild radius, spacetime is warped so steeply that the distinction between space and time flips. Outside, you can move freely in space while time marches forward. Inside, every forward-in-time direction is also a direction pointing deeper into the mass. Your future — no matter what you do, how hard you push, how you aim — leads inward. The event horizon is the place where this flip happens: it is the last moment you could have chosen 'outward' and stayed outside."
+        },
+        {
+          "t": "para",
+          "html": "No force is needed to keep you in. You do not feel a rope pulling you. Instead, the fabric of spacetime is shaped so that 'outward' has simply stopped being an option. It is like being on a one-way street painted into the geometry of the world itself. And because light always travels the fastest path forward in time, light cannot escape either — the fastest-forward path still leads inward."
+        }
+      ]
+    },
+    {
+      "id": "limit",
+      "h2": "5 · The one real limit — this is the classical limit, and quantum mechanics ruins it",
+      "blocks": [
+        {
+          "t": "para",
+          "html": "The Schwarzschild-radius formula and the picture of 'no escape' is pure classical general relativity: curves and geometry, nothing probabilistic, no quantum fuzz. But in the 1970s, Stephen Hawking showed that near the event horizon, quantum effects matter. Pairs of virtual particles can appear just inside and outside the horizon, and the outside-facing one can escape while the inside-facing one falls in. The black hole, by losing the inward-falling particle, loses energy — and very slowly radiates away. Hawking radiation is tiny for stellar-mass black holes (a black hole the mass of the Sun would take longer than the current age of the universe to evaporate), but it is real and it means the classical picture is incomplete."
+        },
+        {
+          "t": "para",
+          "html": "Also, the simple Schwarzschild formula applies to a non-spinning, uncharged mass. Real black holes spin — and spinning changes the geometry. A spinning black hole has not one but two horizons, the outer (the event horizon) and the inner (the Cauchy horizon), and the geometry inside is radically different. These complications do not break the core idea; they just make the real universe more intricate than the textbook limit."
+        }
+      ]
+    },
+    {
+      "id": "surprise",
+      "h2": "6 · The surprise — black holes are not speculative, they are everywhere",
+      "blocks": [
+        {
+          "t": "para",
+          "html": "For decades after Schwarzschild discovered the formula in 1916, black holes were considered a mathematical oddity — no one imagined they were real. Stars seemed too diffuse; surely a star could never compress that far. But in the 1960s and 70s, as neutron stars were discovered and as X-ray telescopes began to see gas spiraling into invisible dark objects, the evidence mounted. A star with more than about twenty times the Sun's mass will collapse at the end of its life and form a black hole."
+        },
+        {
+          "t": "para",
+          "html": "Today, black holes are routine. We have imaged the shadow of a supermassive black hole at the center of the galaxy M87, watching its silhouette in 2019. We detected the gravitational waves from two black holes colliding in 2015 — the first direct confirmation of Einstein's waves. At the center of our own Milky Way sits a four-million-solar-mass black hole called Sagittarius A*. The Schwarzschild radius — a number computed from mass and light-speed alone — is the starting point of the whole cosmic story. Squeeze a mass small enough and the space around it curves so steeply that not even light escapes. That threshold is real, and it shapes the universe."
+        }
+      ]
+    },
+    {
+      "id": "practice",
+      "h2": "7 · Where it is used in practice — Event horizons: the edge of no escape",
+      "blocks": [
+        {
+          "t": "para",
+          "html": "Black holes sit at the centers of galaxies—the Milky Way has one—and when neutron stars or massive stars die, they collapse inward and become black holes. The horizon itself is invisible; we detect black holes by watching gas spiral around them and heat up, or by seeing the shadows they cast (like the first image from M87), or by catching the gravitational waves they emit when two of them collide. The Schwarzschild radius tells you the size the horizon would be for any given mass—for a stellar black hole, it might span a few kilometers; for a supermassive black hole at a galactic center, it spans millions of kilometers."
+        },
+        {
+          "t": "para",
+          "html": "The metric—the description of how to measure distances and time in curved spacetime—becomes singular at the event horizon: distances and time intervals get scrambled by the extreme curvature. Inside the horizon, the geometry is so warped that every possible future path points inward; the metric itself tells you that escape is impossible, not because of some force, but because the very shape of spacetime has tilted all forward-in-time directions toward the center."
+        },
+        {
+          "t": "insight",
+          "html": "Black holes are not cosmic vacuum cleaners—matter and light can orbit them, and they eventually evaporate via Hawking radiation."
+        }
+      ]
+    }
+  ],
+  "related": [
+    [
+      "geodesics-free-motion-deep.html",
+      "free fall and straight lines"
+    ],
+    [
+      "gravitational-lensing-focusing-deep.html",
+      "light bending"
+    ],
+    [
+      "proper-time-clock-reading-deep.html",
+      "time dilation"
+    ],
+    [
+      "curvature-geodesic-deviation-deep.html",
+      "tidal gravity"
+    ]
+  ],
   "recipe": {
     "summary": "Compute the Schwarzschild radius (the critical size at which a mass becomes a black hole) for objects of known mass. The formula is r_s = 2GM/c^2, where G is the gravitational constant, M is the mass, and c is the speed of light (SI units, numpy). Apply to the Sun and Earth; compare to their actual sizes.",
     "eq": "Schwarzschild radius: r_s = 2GM/c^2\nfor the Sun (M = 1.989e30 kg): r_s = 2.95 km\nfor the Earth (M = 5.972e24 kg): r_s ≈ 8.9 mm",
     "note": "Full script: scripts/experiments/gr_run.py (EXP6). Numbers are the run's output verbatim. The formula comes from Einstein's field equations; the critical insight is that inside this radius, the geometry of spacetime flips so that every future path points inward — not because of a force, but because of the shape of spacetime itself."
-  }
+  },
+  "connects": [
+    {
+      "course": "geometry",
+      "id": "euler-characteristic",
+      "label": "the Euler characteristic",
+      "note": "The horizon's shape is topologically constrained &mdash; the Euler characteristic decides what surfaces are allowed."
+    }
+  ]
 }

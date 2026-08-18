@@ -4,32 +4,172 @@
   "kick": "gravity & light · first principles · mass bends starlight",
   "title": "Light bending — the 1.75-arcsecond swerve that made Einstein famous",
   "lede": "Gravity, Newton said, pulls on things with mass. But light has no mass — so should a star's gravity ignore a passing light ray? Einstein said no, and gave a specific number: light grazing the Sun should bend by exactly twice what any 'gravity pulls on everything' guess predicts. Here is the idea, the computed number, why it is double, where it breaks, and how bending light became a tool for weighing the invisible universe.",
-  "arc": [["problem","The problem"],["reframe","The reframe"],["run","Seen on a real run"],["why","Why exactly double"],["weakness","The one limit"],["surprise","The surprise"]],
-  "sections": [
-    {"id":"problem","h2":"1 · The problem — does gravity touch light at all?","blocks":[
-      {"t":"para","html":"In Newton's picture, gravity is a force between masses: the Sun pulls the Earth because both have mass. But a beam of starlight has no mass. So a strict Newtonian shrugs — no mass, no pull, light sails straight past the Sun untouched. Yet if you take seriously the older idea that gravity accelerates <em>everything</em> equally (a feather and a hammer fall together), maybe a light ray, too, should get nudged as it skims a heavy star."},
-      {"t":"para","html":"The stakes are sharp because the two views give <em>different numbers</em>. So this is not philosophy — it is a measurement waiting to be made: <strong>by exactly how much does a star's gravity bend a ray of light passing close by?</strong>"}
-    ]},
-    {"id":"reframe","h2":"2 · The reframe — mass curves space and time, and light follows the curve","blocks":[
-      {"t":"para","html":"Einstein's answer throws out 'force' entirely. Mass, he said, bends the geometry of space and time around it — the way a heavy ball dents a trampoline. Light always travels the straightest available path; but when the ground it travels over is curved, the straightest path is itself bent. So light doesn't get 'pulled' — it goes perfectly straight through a space that is warped, and to us far away the ray looks deflected. The key twist: a mass warps not just space but <em>time</em> as well, and light responds to both. Getting the number right means adding up both effects."}
-    ]},
-    {"id":"run","h2":"3 · Seen on a real run — computing the bend past the Sun","blocks":[
-      {"t":"para","html":"We computed the deflection of a light ray grazing the Sun's edge, straight from three measured quantities — the Sun's mass, the speed of light, and the Sun's radius. Every number here is that computation."},
-      {"t":"table","headers":["prediction","bending angle for a ray grazing the Sun"],"rows":[["Einstein (general relativity)","1.75 arcseconds"],["Newtonian guess (light as a falling pebble)","0.88 arcseconds — exactly half"],["measured by Eddington, 1919 eclipse","about 1.75 arcseconds"]],"caption":"An arcsecond is 1/3600 of a degree — the width of a coin seen from about 4 km. Tiny, but the two theories disagree by a clean factor of two."},
-      {"t":"insight","html":"<strong>The discovered fact: general relativity predicts 1.75 arcseconds — exactly twice the Newtonian value of 0.88 — and that is what was measured.</strong> The bend is real but minuscule, so it can only be seen when the Sun's overwhelming glare is blocked. During the total eclipse of 1919, Arthur Eddington photographed stars near the darkened Sun and found them shifted by the relativistic amount. The factor of two, not the bending itself, is the fingerprint of Einstein's theory over Newton's."}
-    ]},
-    {"id":"why","h2":"4 · Why exactly double","blocks":[
-      {"t":"para","html":"The clean factor of two is the whole story in miniature. A Newtonian who imagines light as a fast little pebble falling in the Sun's gravity gets a nonzero bend — but only from space being curved. Einstein's mass curves <em>both</em> space and time, and a light ray, being the fastest thing there is, feels the warping of time just as much as the warping of space. The two contributions are equal, so the total is twice the space-only guess. Measuring exactly double is therefore a direct confirmation that gravity bends time, not just space."}
-    ]},
-    {"id":"weakness","h2":"5 · The one real limit — it's a whisper unless the mass is huge or you look far","blocks":[
-      {"t":"para","html":"1.75 arcseconds is desperately small, and it took a rare total eclipse and careful photography to see it at all. The simple formula also assumes the ray only grazes a compact mass and bends a little; close to a black hole, or through a lumpy galaxy, the bending is large and the tidy 'twice Newton' formula must be replaced by a full curved-spacetime calculation. And you can never see the bend directly — only by comparing where a star appears against where it 'should' be, which demands a clean reference and a still, unblurred sky."}
-    ]},
-    {"id":"surprise","h2":"6 · The surprise — bending light became a way to weigh the invisible","blocks":[
-      {"t":"para","html":"What began as a one-off eclipse test is now an everyday tool. A whole galaxy or cluster bends the light of things behind it into arcs, rings, and multiple images — a <em>gravitational lens</em>. Because the amount of bending depends only on the mass in the way, astronomers read the lensing to weigh galaxies and clusters, including the dark matter that emits no light at all. Lensing has mapped invisible mass across the sky, magnified galaxies from the early universe, and even revealed planets around other stars."},
-      {"t":"para","html":"The same idea sits at the heart of the subject: gravity is geometry, and light is the ruler that reveals its shape. Trace a light ray and you are reading the curvature of the universe."}
-    ]}
+  "arc": [
+    [
+      "problem",
+      "The problem"
+    ],
+    [
+      "reframe",
+      "The reframe"
+    ],
+    [
+      "run",
+      "Seen on a real run"
+    ],
+    [
+      "why",
+      "Why exactly double"
+    ],
+    [
+      "weakness",
+      "The one limit"
+    ],
+    [
+      "surprise",
+      "The surprise"
+    ],
+    [
+      "practice",
+      "In practice"
+    ]
   ],
-  "related": [["geodesics-free-motion-deep.html","geodesics"],["curvature-geodesic-deviation-deep.html","curvature"],["proper-time-clock-reading-deep.html","time dilation"],["black-holes-horizons-deep.html","black holes"]],
+  "sections": [
+    {
+      "id": "problem",
+      "h2": "1 · The problem — does gravity touch light at all?",
+      "blocks": [
+        {
+          "t": "para",
+          "html": "In Newton's picture, gravity is a force between masses: the Sun pulls the Earth because both have mass. But a beam of starlight has no mass. So a strict Newtonian shrugs — no mass, no pull, light sails straight past the Sun untouched. Yet if you take seriously the older idea that gravity accelerates <em>everything</em> equally (a feather and a hammer fall together), maybe a light ray, too, should get nudged as it skims a heavy star."
+        },
+        {
+          "t": "para",
+          "html": "The stakes are sharp because the two views give <em>different numbers</em>. So this is not philosophy — it is a measurement waiting to be made: <strong>by exactly how much does a star's gravity bend a ray of light passing close by?</strong>"
+        }
+      ]
+    },
+    {
+      "id": "reframe",
+      "h2": "2 · The reframe — mass curves space and time, and light follows the curve",
+      "blocks": [
+        {
+          "t": "para",
+          "html": "Einstein's answer throws out 'force' entirely. Mass, he said, bends the geometry of space and time around it — the way a heavy ball dents a trampoline. Light always travels the straightest available path; but when the ground it travels over is curved, the straightest path is itself bent. So light doesn't get 'pulled' — it goes perfectly straight through a space that is warped, and to us far away the ray looks deflected. The key twist: a mass warps not just space but <em>time</em> as well, and light responds to both. Getting the number right means adding up both effects."
+        },
+        {
+          "t": "para",
+          "html": "The hidden quantity is how much the mass along the line of sight bends and focuses passing light &mdash; a deflection set by the curvature that mass creates."
+        }
+      ]
+    },
+    {
+      "id": "run",
+      "h2": "3 · Seen on a real run — computing the bend past the Sun",
+      "blocks": [
+        {
+          "t": "para",
+          "html": "We computed the deflection of a light ray grazing the Sun's edge, straight from three measured quantities — the Sun's mass, the speed of light, and the Sun's radius. Every number here is that computation."
+        },
+        {
+          "t": "table",
+          "headers": [
+            "prediction",
+            "bending angle for a ray grazing the Sun"
+          ],
+          "rows": [
+            [
+              "Einstein (general relativity)",
+              "1.75 arcseconds"
+            ],
+            [
+              "Newtonian guess (light as a falling pebble)",
+              "0.88 arcseconds — exactly half"
+            ],
+            [
+              "measured by Eddington, 1919 eclipse",
+              "about 1.75 arcseconds"
+            ]
+          ],
+          "caption": "An arcsecond is 1/3600 of a degree — the width of a coin seen from about 4 km. Tiny, but the two theories disagree by a clean factor of two."
+        },
+        {
+          "t": "insight",
+          "html": "<strong>The discovered fact: general relativity predicts 1.75 arcseconds — exactly twice the Newtonian value of 0.88 — and that is what was measured.</strong> The bend is real but minuscule, so it can only be seen when the Sun's overwhelming glare is blocked. During the total eclipse of 1919, Arthur Eddington photographed stars near the darkened Sun and found them shifted by the relativistic amount. The factor of two, not the bending itself, is the fingerprint of Einstein's theory over Newton's."
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "h2": "4 · Why exactly double",
+      "blocks": [
+        {
+          "t": "para",
+          "html": "The clean factor of two is the whole story in miniature. A Newtonian who imagines light as a fast little pebble falling in the Sun's gravity gets a nonzero bend — but only from space being curved. Einstein's mass curves <em>both</em> space and time, and a light ray, being the fastest thing there is, feels the warping of time just as much as the warping of space. The two contributions are equal, so the total is twice the space-only guess. Measuring exactly double is therefore a direct confirmation that gravity bends time, not just space."
+        }
+      ]
+    },
+    {
+      "id": "weakness",
+      "h2": "5 · The one real limit — it's a whisper unless the mass is huge or you look far",
+      "blocks": [
+        {
+          "t": "para",
+          "html": "1.75 arcseconds is desperately small, and it took a rare total eclipse and careful photography to see it at all. The simple formula also assumes the ray only grazes a compact mass and bends a little; close to a black hole, or through a lumpy galaxy, the bending is large and the tidy 'twice Newton' formula must be replaced by a full curved-spacetime calculation. And you can never see the bend directly — only by comparing where a star appears against where it 'should' be, which demands a clean reference and a still, unblurred sky."
+        }
+      ]
+    },
+    {
+      "id": "surprise",
+      "h2": "6 · The surprise — bending light became a way to weigh the invisible",
+      "blocks": [
+        {
+          "t": "para",
+          "html": "What began as a one-off eclipse test is now an everyday tool. A whole galaxy or cluster bends the light of things behind it into arcs, rings, and multiple images — a <em>gravitational lens</em>. Because the amount of bending depends only on the mass in the way, astronomers read the lensing to weigh galaxies and clusters, including the dark matter that emits no light at all. Lensing has mapped invisible mass across the sky, magnified galaxies from the early universe, and even revealed planets around other stars."
+        },
+        {
+          "t": "para",
+          "html": "The same idea sits at the heart of the subject: gravity is geometry, and light is the ruler that reveals its shape. Trace a light ray and you are reading the curvature of the universe."
+        }
+      ]
+    },
+    {
+      "id": "practice",
+      "h2": "7 · Where it is used in practice — Mass as lens: reading the universe through bent light",
+      "blocks": [
+        {
+          "t": "para",
+          "html": "Massive galaxy clusters bend and magnify the light from distant galaxies behind them, creating arcs, rings, or multiple images of the same galaxy. Astronomers use this gravitational lensing to map the distribution of dark matter (which makes up most of the universe's mass but emits no light), and to magnify galaxies so distant and faint that direct observation would be impossible. Einstein's prediction of light-bending was confirmed during a historic solar eclipse—Eddington's photographs showed stars shifted by the predicted amount. Today, light-bending measurements probe the geometry of spacetime near the Sun and reveal the mass distribution in distant galaxy clusters."
+        },
+        {
+          "t": "para",
+          "html": "The metric warps both space and time around a mass. Light always travels along the path that extremizes proper time (the geodesic), and when spacetime is curved, that path appears bent. The amount of bending depends on the curvature, which encodes the mass of the lensing object, so by measuring how much light bends, you can infer the mass that caused it—even if that mass is invisible dark matter."
+        },
+        {
+          "t": "insight",
+          "html": "Light becomes a tool for measuring the invisible: gravitational lensing reveals dark matter, magnifies the early universe, and reads the metric of spacetime itself."
+        }
+      ]
+    }
+  ],
+  "related": [
+    [
+      "geodesics-free-motion-deep.html",
+      "geodesics"
+    ],
+    [
+      "curvature-geodesic-deviation-deep.html",
+      "curvature"
+    ],
+    [
+      "proper-time-clock-reading-deep.html",
+      "time dilation"
+    ],
+    [
+      "black-holes-horizons-deep.html",
+      "black holes"
+    ]
+  ],
   "recipe": {
     "summary": "Compute the deflection of a light ray grazing the Sun's edge from the Sun's mass, the speed of light, and the Sun's radius (the impact parameter). Compare general relativity's 4GM/(c^2 R) to the Newtonian 2GM/(c^2 R). numpy, SI units.",
     "eq": "Schwarzschild radius r_s = 2GM/c^2 = 2.95 km for the Sun\ndeflection (general relativity) = 4GM/(c^2 R) = 1.75 arcseconds\ndeflection (Newtonian pebble)   = 2GM/(c^2 R) = 0.88 arcseconds  (exactly half)",

@@ -5,12 +5,34 @@
   "title": "Time is not universal — a clock's rate depends on where it sits and how fast it moves",
   "lede": "We think of time as a single ticking beat that governs the whole universe. But Einstein showed something stranger: time is not universal. The amount of time that actually elapses on a clock depends on where the clock sits in a gravitational field and how fast it moves. This is not an illusion or an error in the clock — it is time itself running at different rates. GPS satellites prove it every day, correcting their clocks by microseconds so your phone knows where you are. Here is what this means, how it was discovered, why every kind of clock is affected, where it breaks, and where it reappears in cosmology.",
   "arc": [
-    ["problem", "The assumption we all live by"],
-    ["reframe", "Each clock reads its own time"],
-    ["run", "Seen on a real run"],
-    ["why", "Why every clock is affected"],
-    ["weakness", "The one real limit"],
-    ["surprise", "The surprise"]
+    [
+      "problem",
+      "The assumption we all live by"
+    ],
+    [
+      "reframe",
+      "Each clock reads its own time"
+    ],
+    [
+      "run",
+      "Seen on a real run"
+    ],
+    [
+      "why",
+      "Why every clock is affected"
+    ],
+    [
+      "weakness",
+      "The one real limit"
+    ],
+    [
+      "surprise",
+      "The surprise"
+    ],
+    [
+      "practice",
+      "In practice"
+    ]
   ],
   "sections": [
     {
@@ -19,7 +41,7 @@
       "blocks": [
         {
           "t": "para",
-          "html": "Suppose you and a friend agree to meet when both your clocks read noon. You take your clock to the top of a high mountain. Your friend stays in a valley with theirs. At the meeting time, you compare: do they show the same time? Of course they do — you both set them to noon before you left. But here is the hidden question: as time passes, do they <em>tick at the same rate</em>? Do they run at the same speed?"
+          "html": "Suppose you and a friend agree to meet when both your clocks read noon. You take your clock to the top of a high mountain. Your friend stays in a valley with theirs. At the meeting time, you compare: do they show the same time? Of course they do — you both set them to noon before you left. But The hidden question: as time passes, do they <em>tick at the same rate</em>? Do they run at the same speed?"
         },
         {
           "t": "para",
@@ -46,6 +68,10 @@
         {
           "t": "para",
           "html": "These two effects go in the same direction — both slow down the ticking rate. But you can add them up. A satellite in orbit is high up (gravity effect speeds it up) but moving very fast (motion effect slows it down). The net depends on which effect wins."
+        },
+        {
+          "t": "para",
+          "html": "The hidden quantity is the proper time &mdash; the elapsed time a clock actually reads along its own path, set by the time-part of the metric and generally different from coordinate time."
         }
       ]
     },
@@ -59,11 +85,23 @@
         },
         {
           "t": "table",
-          "headers": ["effect", "change in clock rate per day"],
+          "headers": [
+            "effect",
+            "change in clock rate per day"
+          ],
           "rows": [
-            ["gravity (clock higher up runs faster)", "+45.7 microseconds"],
-            ["motion (clock moving fast runs slower)", "−7.2 microseconds"],
-            ["net (gravity minus motion)", "+39 microseconds"]
+            [
+              "gravity (clock higher up runs faster)",
+              "+45.7 microseconds"
+            ],
+            [
+              "motion (clock moving fast runs slower)",
+              "−7.2 microseconds"
+            ],
+            [
+              "net (gravity minus motion)",
+              "+39 microseconds"
+            ]
           ],
           "caption": "A microsecond is a millionth of a second. Per day, the satellite's clock gains 39 microseconds — runs 39 millionths of a second faster — relative to a ground clock."
         },
@@ -138,13 +176,43 @@
           "html": "Every time you use GPS to navigate, you are relying on Einstein's insight that time is not universal. And every prediction of how the universe will end, how galaxies evolve, or what happens at a black hole, depends on proper time. The 39 microseconds are the proof."
         }
       ]
+    },
+    {
+      "id": "practice",
+      "h2": "7 · Where it is used in practice — Time runs faster high up, slower while moving",
+      "blocks": [
+        {
+          "t": "para",
+          "html": "GPS satellites correct their atomic clocks by microseconds per day because satellites at high altitude experience weaker gravity (time runs faster) and move at high speed (time runs slower); the net correction keeps them synchronized with ground clocks. Precision atomic clocks at different altitudes within a laboratory show measurable drift from each other when the precision reaches the nanosecond scale. Astronomical observations of binary pulsars, where two neutron stars orbit each other and pulse X-rays, reveal proper-time effects in the timing of their signals as they move through each other's gravity wells. Long-baseline atomic clock networks around the Earth measure regional variations in gravity and altitude by detecting the proper-time differences between clocks at different heights."
+        },
+        {
+          "t": "para",
+          "html": "Every GPS receiver bakes in Einstein&rsquo;s correction: a satellite&rsquo;s clock runs slightly fast because gravity is weaker up high, and slightly slow because it moves quickly, for a small net gain each day. Without this correction, position errors would grow by kilometres a day, because GPS measures distance by multiplying the speed of light by the time on the signal. Atomic-clock comparisons separate the gravitational effect (altitude) from the motion effect (speed), and can be tuned either to confirm relativity or to measure local gravity and the shape of the Earth. Pulsar timing arrays exploit proper-time drift to detect gravitational waves: a passing wave slightly distorts the metric and changes how fast different pulsars&rsquo; clocks tick relative to each other."
+        },
+        {
+          "t": "insight",
+          "html": "Time itself is not universal; it is woven into spacetime's metric, so any measurement that reaches nanosecond precision over long distances must account for proper-time dilation."
+        }
+      ]
     }
   ],
   "related": [
-    ["geodesics-free-motion-deep.html", "geodesics"],
-    ["gravitational-lensing-focusing-deep.html", "light bending"],
-    ["black-holes-horizons-deep.html", "black holes"],
-    ["hubble-rate-as-change-of-scale-deep.html", "cosmic expansion"]
+    [
+      "geodesics-free-motion-deep.html",
+      "geodesics"
+    ],
+    [
+      "gravitational-lensing-focusing-deep.html",
+      "light bending"
+    ],
+    [
+      "black-holes-horizons-deep.html",
+      "black holes"
+    ],
+    [
+      "hubble-rate-as-change-of-scale-deep.html",
+      "cosmic expansion"
+    ]
   ],
   "recipe": {
     "summary": "Compute the rate drift of a GPS satellite clock relative to a ground clock using the satellite's altitude, speed, Earth's mass, and the speed of light. Separate the gravitational (altitude) and motion (speed) contributions and add them to get the net. numpy, SI units.",
