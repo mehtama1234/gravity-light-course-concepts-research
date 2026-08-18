@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parallel Transport Around a Loop (deep) · Gravity &amp; Light</title>
+<link rel="stylesheet" href="../assets/styles.css">
+<style>
+.arc{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0}
+.arc a{font-size:12.5px;color:var(--accent);text-decoration:none;border:1px solid var(--line,#dcdcdc);border-radius:20px;padding:3px 10px;background:#fff}
+.fp{border-top:1px solid var(--line,#dcdcdc);padding:22px 0 4px;margin-top:10px}
+.fp h2{margin:6px 0 10px}
+.kick{font-size:12px;color:var(--accent);font-weight:800;text-transform:uppercase;letter-spacing:.07em;margin:6px 0}
+.lede{font-size:20px;color:#2c2c2c;max-width:820px}
+.essay p{max-width:74ch;font-size:16.5px;margin:11px 0;color:#232323}
+.barrow{display:flex;align-items:center;gap:10px;margin:5px 0;font-size:13px}
+.barrow .lab{width:160px;font-family:ui-monospace,Menlo,monospace;font-size:12px;color:#5a5a5a;text-align:right}
+.bar{height:16px;border-radius:3px;background:var(--accent);min-width:2px}.bar.alt{background:var(--accent-2,#7a3f2a)}
+.barrow .val{font-family:ui-monospace,Menlo,monospace;font-size:12px}
+.eq{font-family:ui-monospace,Menlo,monospace;font-size:13.5px;background:#eef3f7;border:1px solid var(--line,#dcdcdc);border-radius:6px;padding:12px 14px;margin:12px 0;overflow-x:auto;white-space:pre-wrap}
+.insight{border-left:4px solid var(--accent);background:#eef3f7;padding:12px 16px;border-radius:0 8px 8px 0;margin:16px 0;font-size:16px}
+details.math{border:1px solid var(--line,#dcdcdc);border-radius:8px;background:#fff;margin:14px 0}
+details.math summary{cursor:pointer;padding:10px 13px;color:var(--accent);font-weight:750}
+details.math > div{border-top:1px solid var(--line,#dcdcdc);padding:4px 14px 12px}
+figure{margin:16px 0}figcaption{font-size:13px;color:#5a5a5a;margin-top:6px}
+table{border-collapse:collapse;width:100%;background:#fff;border:1px solid var(--line,#dcdcdc)}
+th,td{border:1px solid var(--line,#dcdcdc);padding:8px 11px;text-align:left;font-size:14.5px}th{background:#eef3f7}
+.tw{overflow-x:auto}
+</style></head><body>
+<header class="topbar"><a class="brand" href="../index.html">Gravity &amp; Light</a>
+<nav><a href="../index.html">Course</a><a href="../concepts.html">Concepts</a><a class="active" href="../deep-track.html">Deep Track</a><a href="parallel-transport-loop-test.html">This concept</a></nav></header>
+<main>
+<div class="kick">gravity &amp; geometry · first principles · carry a vector around a closed path</div>
+<h1>The arrow that comes home rotated — how to tell a curved space from the inside</h1>
+<p class="lede">Imagine you are a bug living on a surface — say, a globe or a curved bowl — and you cannot step outside to look at its shape. You want to know: is this surface curved or flat? Here is an idea that works: pick a direction (an arrow), carry it around a closed loop while keeping it 'pointing the same way' at every step, and check if it comes home pointing the same direction. On a flat sheet it will. On a sphere it won't — it will have rotated, and that rotation is the signature of curvature. This test is the reason two moves in opposite order give different results on a curved space, why a gyroscope orbiting Earth slowly tips, and why a quantum particle picks up a phase going around a loop.</p>
+<div class="arc"><a href="#problem">The problem</a><a href="#reframe">The reframe</a><a href="#run">Seen on a real run</a><a href="#why">Why the loop reveals curvature</a><a href="#weakness">The one real limit</a><a href="#surprise">The surprise</a><a href="#practice">In practice</a><a href="parallel-transport-loop-test.html">Atlas card</a></div>
+
+    <section class="fp" id="problem">
+      <h2>1 · The problem — how to tell if you're on a curved surface</h2>
+      <div class="essay">
+      <p>You live on a surface. You walk around, you measure distances, you draw triangles. But you cannot step 'outside' and look down at the surface's shape — you have no external viewpoint. The question: is the ground beneath you curved or flat? A small local patch might look flat no matter what; you need a test that works from the inside, using only things you can do while standing on the surface itself.</p>
+      <p>One strategy is to sum the angles of a triangle you draw and see if they add to 180 degrees. But there is another test, more direct and more vivid: <strong>carry an arrow around a closed loop and ask if it comes home unchanged.</strong> This test reveals curvature in a way that captures something deeper than angle-sums alone.</p>
+      </div>
+    </section>
+    <section class="fp" id="reframe">
+      <h2>2 · The reframe — transport a direction around a loop and watch what comes home</h2>
+      <div class="essay">
+      <p>The method. Start at a point on your surface and mark a direction — say, an arrow pointing north. Now walk around a closed loop (a triangle, a square, any closed path), and as you walk, keep the arrow pointing 'the same way' at each step. What does 'the same way' mean? It means: if you are walking forward and the surface does not twist or turn beneath the arrow, the arrow does not twist or turn either. You are not allowed to rotate the arrow in your hand; you can only adjust it to stay 'parallel' to what it was an instant ago.</p>
+      <p>After you complete the loop and return to your starting point, look at the arrow. On a flat sheet of paper, it will point in exactly the direction it started. But on a curved surface — a sphere, a saddle, a crumpled cloth — the arrow will have rotated. It has gone around a closed loop, 'staying parallel' the whole way, and yet it comes home pointing a different direction. That rotation is a direct measurement that the surface is curved.</p>
+      <p>The hidden quantity is the rotation a vector picks up when carried around a closed loop while kept as straight as possible; a nonzero rotation is curvature, and the rule for &lsquo;straight&rsquo; is the connection.</p>
+      </div>
+    </section>
+    <section class="fp" id="run">
+      <h2>3 · Seen on a real run — carrying an arrow around a triangle on the globe</h2>
+      <div class="essay">
+      <p>We computed what happens when you carry an arrow around a closed triangle on a sphere. The triangle has vertices on the equator (two points a quarter-turn apart) and at the North Pole. The arrow starts pointing north along the equator.</p>
+      <div class="tw"><table><tr><th>path</th><th>arrow rotation when it returns</th></tr><tr><td>around the triangle on a sphere</td><td>90 degrees rotated</td></tr><tr><td>around the same triangle on a flat sheet</td><td>unchanged (0 degrees)</td></tr></table></div><figcaption>The arrow travels the same path in both cases. On the sphere it comes home rotated; on the flat sheet it is identical. The rotation is 90 degrees = one-quarter of a full turn.</figcaption>
+      <div class="insight"><strong>The discovered fact: the arrow rotates by exactly 90 degrees, and this rotation equals the area enclosed by the triangle (one-eighth of the sphere's total surface).</strong> On a flat sheet the arrow always returns unchanged no matter what loop you choose. On a sphere the rotation is always equal to the enclosed area. This is no accident — the rotation measures curvature, and the amount of rotation equals the curvature times the area the loop encloses.</div>
+      </div>
+    </section>
+    <section class="fp" id="why">
+      <h2>4 · Why the loop reveals curvature — and why two moves in opposite order give different results</h2>
+      <div class="essay">
+      <p>The rotation of the arrow is not some trick of perspective. It is a real, from-the-inside probe of how the space is warped. The key insight: if the surface is truly flat everywhere, then carrying any arrow around any loop must bring it home unchanged. A flat surface has no 'twist' — the space is the same in every direction. But a curved surface cannot be the same in every direction. Its curvature means that the rules of geometry are bent. When you carry a vector around a loop on curved ground, the space does not 'line up' the way it would on a flat sheet. The arrow comes home rotated because the surface's shape forced it to be bent.</p>
+      <p>This also explains something counterintuitive: on a curved surface, if you make two moves in opposite order, you do not get the same result. Suppose you step north, then east. Then go back to the start and step east, then north. On flat ground, both paths end at the same place. On a sphere, you end at two different points. That difference is curvature. And the amount you 'miss' is exactly related to the rotation of the transported vector. The loop test and the non-commutativity of moves are two faces of the same fact: curvature is the obstruction to swapping moves.</p>
+      </div>
+    </section>
+    <section class="fp" id="weakness">
+      <h2>5 · The one real limit — it detects curvature only where the loop encloses it</h2>
+      <div class="essay">
+      <p>The parallel transport test is powerful but has one crucial limit: it only reveals curvature in the region enclosed by the loop. Consider you are on a sphere that is nearly flat (or flat in one region, curved in another). If you carry an arrow around a tiny loop in the flat region, the arrow will come home nearly unchanged. The test needs a loop large enough that it encloses a genuinely curved patch. A very small loop on any surface — no matter how curved — will show almost no rotation, because 'locally flat' is a property of all smooth curved spaces.</p>
+      <p>In practice, you must choose your loop carefully: too small and it is drowned in noise; too large and the simple '90 degrees' formula fails (you must solve the full curved-space equations instead). And the test assumes you can actually complete the loop and measure the arrow's direction when you return — on a real planet, obstructions, landmarks, and the curvature of light itself make the measurement subtle.</p>
+      </div>
+    </section>
+    <section class="fp" id="surprise">
+      <h2>6 · The surprise — this is how curvature is DEFINED in general relativity, and it appears everywhere</h2>
+      <div class="essay">
+      <p>This idea — 'transport a vector around a loop' — is not just a cute thought experiment. It is the foundational definition of curvature in Einstein's general relativity. Curvature is not something measured from outside; it is the failure of vectors to return unchanged when transported around a loop. This is how a curved spacetime is rigorously defined: by how vectors (directions, velocities, momenta) behave when you parallel-transport them around closed curves.</p>
+      <p>The real-world echo of this is the Gravity Probe B experiment, which sent a gyroscope-equipped satellite into orbit around the Earth. A gyroscope is a spinning wheel — a vector encoded in its spin. As the satellite orbited in curved spacetime, the gyroscope slowly changed its direction, just as our arrow rotated around the triangle. The experiment measured this rotation, called the geodetic precession, and confirmed to high precision that spacetime really is curved the way Einstein predicted.</p>
+      <p>The loop also appears in quantum mechanics: a quantum particle moving around a closed loop picks up a phase factor — a rotation in its quantum state — and this phase is directly analogous to the rotation of a classical vector in curved space. Some of the most exotic phases in quantum physics (the Berry phase, topological phases in materials) are cousins of this same phenomenon. In every case, going around a loop in a curved space — whether geometric, electromagnetic, or quantum — brings home a rotation or phase that was not there before.</p>
+      </div>
+    </section>
+    <section class="fp" id="practice">
+      <h2>7 · Where it is used in practice — An arrow carried around reveals curved space</h2>
+      <div class="essay">
+      <p>Gravity Probe B, a satellite orbiting Earth, carried gyroscopes (vectors encoded as spin) whose orientation shifted over time as they orbited through curved spacetime. Atomic clocks carried around loops on Earth show phase shifts that match Einstein's theory of curvature. Quantum particles moving around magnetic field regions or other potential landscapes pick up phase rotations that physicists use to probe the geometry of the force. Ocean current studies and large-scale geodetic surveys detect regional curvature by comparing how paths taken in opposite sequences lead to different endpoints.</p>
+      <p>Gravity Probe B's gyroscopes did not rotate by any internal mechanism—spacetime's curvature forced the direction of their spin to change as they moved. The experiment carefully tracked the gyroscope's orientation relative to distant stars and found it precessed at exactly the rate predicted by general relativity. For quantum systems, the loop test is done by sending a quantum state around a circuit and measuring the phase it accumulates; interference patterns then reveal the curvature of the underlying field. In geodesy, surveyors complete loops of measurements and check whether moving north-then-east arrives at the same point as moving east-then-north; the mismatch reveals local curvature.</p>
+      <div class="insight">The failure of paths to commute and the rotation of transported arrows are two expressions of the same thing: curvature is the obstruction to perfect commutativity in a space.</div>
+      </div>
+    </section>
+    <section class="fp" id="connects"><h2>Where this connects — geometry &rarr; gravity</h2><p class="muted">This idea is one stage of a larger machine: the geometry of shapes becomes the geometry of spacetime. These links open the connected concept.</p><ul style="list-style:none;padding:14px 16px;margin:12px 0;border:1px solid var(--line,#d7ddd9);border-radius:10px;background:#fff"><li style="margin:9px 0;padding-left:14px;border-left:3px solid #8b3f18"><a href="https://mehtama1234.github.io/topology-geometry-course-concepts-research/concept-winding-linking-deep.html" style="font-weight:700">winding &amp; linking</a> <span class="muted" style="font-size:13px">· Geometry · topology</span><div style="font-size:14.5px;margin-top:3px">Rotation after a loop is the geometric parent of winding numbers &mdash; both count what a loop does.</div></li></ul></section>
+    <section class="fp"><p class="muted">Related: <a href="riemann-curvature-commutator.html">curvature as non-commutativity</a> · <a href="geodesics-free-motion-deep.html">geodesics</a> · <a href="black-holes-horizons-deep.html">black holes</a> · <a href="gravitational-lensing-focusing.html">light bending</a></p></section>
+    <details class="math"><summary>the run recipe — reproduce every number above</summary><div>
+      <p class="muted">Compute the rotation of a vector parallel-transported around a closed triangle on a sphere. The triangle has vertices at two points on the equator (separated by 90 degrees in longitude) and at the North Pole. The arrow is initially tangent to the equator (pointing north). Parallel transport means: at each step, shift the vector by the local geometry of the sphere (using the Levi-Civita connection), keeping it 'as parallel as possible' in the surface's intrinsic metric. Compare to the same transport on a flat sheet (always returns unchanged). The rotation is the angle between the transported vector and the initial direction; it equals the enclosed area times the surface's Gaussian curvature (sphere: curvature = 1/R^2). numpy, SI units.</p>
+      <div class="eq">Sphere of radius R = 6371 km (Earth)
+Triangle vertices: (0, 0), (π/2, 0), (π/2, π/2) in (latitude, longitude)
+Enclosed area: 1/8 of sphere = (4π R²) / 8 = π R² / 2
+Gaussian curvature: K = 1/R² = 2.47e-13 m^-2
+Rotation of transported vector = area × K = (π R²/2) × (1/R²) = π/2 radians = 90 degrees
+Flat sheet: rotation = 0 always</div>
+      <p class="muted">Full script: scripts/experiments/gr_run.py (EXP1). Numbers are the run's output verbatim. The 90-degree rotation and its equality to the enclosed area are the measured outputs of the numpy geodesic-transport integrator; tested against the analytic formula for a sphere.</p>
+    </div></details>
+<footer style="color:#5a5a5a;font-size:13px;border-top:1px solid var(--line,#dcdcdc);padding:22px 0 60px;margin-top:24px">Gravity &amp; Light · Parallel Transport Around a Loop deep dive · every quantity here is computed. Experiments in scripts/experiments/gr_run.py.</footer>
+</main></body></html>

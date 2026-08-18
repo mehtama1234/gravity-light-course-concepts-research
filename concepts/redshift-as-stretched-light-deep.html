@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cosmological Redshift (deep) · Gravity &amp; Light</title>
+<link rel="stylesheet" href="../assets/styles.css">
+<style>
+.arc{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0}
+.arc a{font-size:12.5px;color:var(--accent);text-decoration:none;border:1px solid var(--line,#dcdcdc);border-radius:20px;padding:3px 10px;background:#fff}
+.fp{border-top:1px solid var(--line,#dcdcdc);padding:22px 0 4px;margin-top:10px}
+.fp h2{margin:6px 0 10px}
+.kick{font-size:12px;color:var(--accent);font-weight:800;text-transform:uppercase;letter-spacing:.07em;margin:6px 0}
+.lede{font-size:20px;color:#2c2c2c;max-width:820px}
+.essay p{max-width:74ch;font-size:16.5px;margin:11px 0;color:#232323}
+.barrow{display:flex;align-items:center;gap:10px;margin:5px 0;font-size:13px}
+.barrow .lab{width:160px;font-family:ui-monospace,Menlo,monospace;font-size:12px;color:#5a5a5a;text-align:right}
+.bar{height:16px;border-radius:3px;background:var(--accent);min-width:2px}.bar.alt{background:var(--accent-2,#7a3f2a)}
+.barrow .val{font-family:ui-monospace,Menlo,monospace;font-size:12px}
+.eq{font-family:ui-monospace,Menlo,monospace;font-size:13.5px;background:#eef3f7;border:1px solid var(--line,#dcdcdc);border-radius:6px;padding:12px 14px;margin:12px 0;overflow-x:auto;white-space:pre-wrap}
+.insight{border-left:4px solid var(--accent);background:#eef3f7;padding:12px 16px;border-radius:0 8px 8px 0;margin:16px 0;font-size:16px}
+details.math{border:1px solid var(--line,#dcdcdc);border-radius:8px;background:#fff;margin:14px 0}
+details.math summary{cursor:pointer;padding:10px 13px;color:var(--accent);font-weight:750}
+details.math > div{border-top:1px solid var(--line,#dcdcdc);padding:4px 14px 12px}
+figure{margin:16px 0}figcaption{font-size:13px;color:#5a5a5a;margin-top:6px}
+table{border-collapse:collapse;width:100%;background:#fff;border:1px solid var(--line,#dcdcdc)}
+th,td{border:1px solid var(--line,#dcdcdc);padding:8px 11px;text-align:left;font-size:14.5px}th{background:#eef3f7}
+.tw{overflow-x:auto}
+</style></head><body>
+<header class="topbar"><a class="brand" href="../index.html">Gravity &amp; Light</a>
+<nav><a href="../index.html">Course</a><a href="../concepts.html">Concepts</a><a class="active" href="../deep-track.html">Deep Track</a><a href="redshift-as-stretched-light.html">This concept</a></nav></header>
+<main>
+<div class="kick">gravity &amp; light · first principles · wavelength stretches as space expands</div>
+<h1>Light turning red — why a galaxy's recession writes itself into its color</h1>
+<p class="lede">We cannot stretch a tape measure across the universe, so how do we know how far away a distant galaxy is, or even that the universe is expanding at all? The answer is hidden in the color of its light. As space itself expands, the light traveling through it gets stretched too — wavelength, period, all of it — sliding the light toward the red end of the spectrum. The more space the light crossed, the more stretched it became. Here is why that stretching happens, what it tells us about distance and time, where the idea breaks down, and how this simple shift revealed that we live in an expanding cosmos.</p>
+<div class="arc"><a href="#problem">The problem</a><a href="#reframe">The reframe</a><a href="#run">Seen on a real run</a><a href="#measure">Why stretching light measures the universe</a><a href="#weakness">The one real limit</a><a href="#surprise">The surprise</a><a href="#practice">In practice</a><a href="redshift-as-stretched-light.html">Atlas card</a></div>
+
+    <section class="fp" id="problem">
+      <h2>1 · The problem — how far away is a galaxy?</h2>
+      <div class="essay">
+      <p>A mile away from you, a car's headlights look bright. A thousand miles away, they are invisible. But a distant galaxy shines for billions of years, and light from it reaches us today. We see it, but we have no ruler to measure the distance across the dark. The stakes are high: <strong>do we have any way to measure how far away a galaxy actually is?</strong></p>
+      <p>Astronomers guessed that maybe the brightness of a galaxy could tell them its distance — a brighter-looking galaxy might be closer — but brightness depends on how bright the galaxy actually is, which we cannot know without already knowing how far away it is. A different approach is needed: something about the galaxy itself, written into the light, that does not depend on guess-work.</p>
+      </div>
+    </section>
+    <section class="fp" id="reframe">
+      <h2>2 · The reframe — space expands, and light gets stretched with it</h2>
+      <div class="essay">
+      <p>The key insight: light is a wave, and every wave has a wavelength — the distance between one peak and the next. When light travels through vacuum normally, its wavelength stays constant. But the vacuum is not static. Space itself is expanding — the way a loaf of bread rises in the oven, every point moves away from every other point, and the distances between them grow.</p>
+      <p>As light travels from a distant galaxy toward us through this expanding space, the space behind the light and ahead of it are both stretching. The light itself gets stretched along with it: the distance between the wave peaks — the wavelength — grows larger and larger. A longer wavelength means the light has shifted toward the red end of the spectrum (red light has longer waves than blue light). This is not the galaxy moving away from us in the old sense — it is space itself growing, and the light's waves growing with it.</p>
+      <p>The payoff: <strong>the more space the light crossed, the more time it spent being stretched, and the longer its final wavelength</strong>. So the stretching is a record of the journey — a measure, written in color, of how much the universe has expanded since the light left the galaxy.</p>
+      <p>The hidden quantity is the scale factor &mdash; how much space itself has stretched between when the light was emitted and now; the redshift is exactly the ratio of those two scales.</p>
+      </div>
+    </section>
+    <section class="fp" id="run">
+      <h2>3 · Seen on a real run — nearby and distant galaxies</h2>
+      <div class="essay">
+      <p>We computed the recession speed and redshift of galaxies at three distances, using a measured value called the Hubble rate: 70 kilometers per second for every megaparsec (a megaparsec is about 3.26 million light-years). Every number here is that computation.</p>
+      <div class="tw"><table><tr><th>distance</th><th>recession speed</th><th>redshift z</th></tr><tr><td>10 Mpc (nearby)</td><td>700 km/s</td><td>~0.002</td></tr><tr><td>100 Mpc (intermediate)</td><td>7000 km/s</td><td>~0.023</td></tr><tr><td>1000 Mpc (distant)</td><td>70,000 km/s</td><td>~0.233</td></tr></table></div><figcaption>Distance is measured in megaparsecs (Mpc). Recession speed is how fast the galaxy is moving away due to cosmic expansion. Redshift z is the fractional stretch of the wavelength: the change divided by the original. A redshift of 0.002 means the wavelength grew by 0.2 percent.</figcaption>
+      <div class="insight"><strong>The discovered fact: recession speed grows in proportion to distance — 70 kilometers per second for every megaparsec — and redshift grows with it. A galaxy 10 times farther away recedes 10 times faster and shows a redshift about 10 times larger.</strong> This proportional relationship, called Hubble's law, holds because space is expanding uniformly everywhere. A nearby galaxy barely redshifts (0.002); a distant one shifts noticeably (0.233 at 1000 Mpc). The color tells the story of the distance traveled through expanding space.</div>
+      </div>
+    </section>
+    <section class="fp" id="measure">
+      <h2>4 · Why stretching light measures the universe</h2>
+      <div class="essay">
+      <p>The power of redshift is this: the light arriving today left a distant galaxy billions of years ago, when the universe was younger and smaller. Since then, space has expanded — the universe has grown — and the light has been stretched the whole time.</p>
+      <p>Consider the universe at two different times. When the light was emitted, space had a certain size — call it a one unit. By now, space has expanded to, say, 1.1 times larger. Any object that traveled through that expanding space got stretched by that same factor. A wavelength of 500 nanometers — blue light — at the time of emission has been stretched to 550 nanometers by now — shifted toward green, then red.</p>
+      <p>This is not about the galaxy moving in space; it is about space itself having grown. The redshift is therefore a direct measure of <em>how much</em> the universe has expanded since the light left. By measuring the redshift of distant galaxies, astronomers are reading the history of cosmic expansion: which epochs the universe went through, how fast it expanded in each, whether the expansion is speeding up or slowing down. The light has preserved that history in its color.</p>
+      </div>
+    </section>
+    <section class="fp" id="weakness">
+      <h2>5 · The one real limit — nearby motion and high-redshift blur</h2>
+      <div class="essay">
+      <p>The simple picture — redshift tells you expansion, expansion tells you distance — faces two real complications. First, every galaxy has its own local motion through space, independent of the cosmic expansion. The Andromeda galaxy, a nearby neighbor, is actually moving <em>toward</em> us due to local gravity, not receding. Its light is therefore slightly blueshifted (wavelength shortened) rather than redshifted. Astronomers must separate this local Doppler shift from the cosmological redshift caused by expansion — a tricky dance because the signals blend together.</p>
+      <p>Second, at very high redshifts — light that has traveled billions of years through dramatic cosmic expansion — the simple 'speed of recession' picture breaks down. Space was shaped very differently in the early universe; the geometry of expansion changed over time. At extreme distances, you cannot meaningfully ask 'how fast is the galaxy moving away?' because velocity itself becomes ambiguous in warped spacetime. What remains precise is the redshift number itself and what it tells you about the scale of the universe at the time of emission — but the interpretation requires detailed models of cosmic history, not just a simple ratio.</p>
+      </div>
+    </section>
+    <section class="fp" id="surprise">
+      <h2>6 · The surprise — the yardstick and the time machine</h2>
+      <div class="essay">
+      <p>Redshift is a double tool. It is a <em>yardstick</em>: by measuring how much light from a galaxy has been redshifted, you read how much space has expanded since it was emitted, and from that you deduce distance. It is also a <em>time machine</em>: light with a high redshift left its source long ago, when the universe was much younger, so observing that light is looking back in time toward the infant universe.</p>
+      <p>The ultimate redshift story is the cosmic microwave background (CMB) — the oldest light we can see, emitted when the universe was only 380,000 years old. That light has been stretched so much that its once-hot wavelengths, originally in the visible range, have been shifted all the way into the microwave part of the spectrum. It has a redshift of about 1000. By studying the microwave light, astronomers have measured the universe's age, composition, and expansion history with extraordinary precision. A simple stretch of wavelengths, carried by photons across billions of years, turned out to be the key to understanding where we came from.</p>
+      <p>The lesson: when you cannot measure distance directly, look for what changes in a predictable way during the journey — in this case, the wavelength of light itself. And when light carries a record of the journey written in its color, you are not just measuring space; you are reading the story of cosmic time.</p>
+      </div>
+    </section>
+    <section class="fp" id="practice">
+      <h2>7 · Where it is used in practice — Light reddens as space stretches behind it</h2>
+      <div class="essay">
+      <p>Astronomers measure the redshift of distant galaxies to infer how much space has expanded since their light left; this is how the Hubble expansion rate and the universe's acceleration are measured. The cosmic microwave background has a redshift of about one thousand because its light has been stretched for billions of years as space expanded. Spectral lines from distant stars and galaxies shift toward red; the shift amount tells whether the object is receding and how fast the universe was expanding when the light left. Gravitational lensing by massive galaxies can separate the redshift signal from local motion, revealing the expansion history at different epochs.</p>
+      <p>When light travels through expanding space, every wavelength gets stretched by the same factor that space expands. A galaxy whose light left when the universe was one-tenth of its current size will have all wavelengths stretched by a factor of ten, shifting blue light into infrared. Astronomers measure the shift by comparing where a galaxy's spectral lines (emission and absorption features) appear in observed light versus where they appear in the lab; the shift ratio is the redshift parameter. This parameter directly gives the expansion factor, so a small redshift means the universe was only a little smaller when the light was emitted. Combining redshift data with other distance measures (supernova brightness, galaxy clusters) maps the expansion history back in time.</p>
+      <div class="insight">Redshift is a direct record written in light of how much space has grown, turning a property of electromagnetic waves into a cosmic ruler.</div>
+      </div>
+    </section>
+    <section class="fp"><p class="muted">Related: <a href="hubble-rate-as-change-of-scale-deep.html">cosmic expansion</a> · <a href="gravitational-lensing-focusing-deep.html">light bending</a> · <a href="curvature-geodesic-deviation-deep.html">curved spacetime</a> · <a href="black-holes-horizons-deep.html">extreme gravity</a></p></section>
+    <details class="math"><summary>the run recipe — reproduce every number above</summary><div>
+      <p class="muted">Compute recession speed and redshift at three distances using Hubble's law (v = H₀ × d, where H₀ = 70 km/s/Mpc) and the redshift-distance relation z ≈ v/c at low redshift. For each distance (10, 100, 1000 Mpc), calculate recession speed and corresponding redshift. Pure arithmetic from measured Hubble constant.</p>
+      <div class="eq">Hubble's law: v = H₀ × d, where H₀ = 70 km/s per Mpc
+Redshift (low-z approximation): z ≈ v/c
+Wavelength stretch factor: (1 + z) = λ_observed / λ_emitted</div>
+      <p class="muted">Full script: scripts/experiments/gr_run.py (EXP8). Numbers are the run's output verbatim; Hubble constant from modern cosmological surveys (70 km/s/Mpc is a consensus value as of 2020s observations).</p>
+    </div></details>
+<footer style="color:#5a5a5a;font-size:13px;border-top:1px solid var(--line,#dcdcdc);padding:22px 0 60px;margin-top:24px">Gravity &amp; Light · Cosmological Redshift deep dive · every quantity here is computed. Experiments in scripts/experiments/gr_run.py.</footer>
+</main></body></html>
